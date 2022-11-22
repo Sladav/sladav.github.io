@@ -22,9 +22,9 @@ export class Root extends React.Component {
     componentDidMount(): void {
         deck.initialize({
             //@ts-ignore
-            width: "100%",
+            width: "115%",
             //@ts-ignore
-            height: "100%",
+            height: "115%",
             hash: true,
             parallaxBackgroundImage: 'https://www.belloflostsouls.net/wp-content/uploads/2019/09/AoS-Cities-header-1-e1663444163944.jpg',
 
