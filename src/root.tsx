@@ -5,7 +5,7 @@ import * as React from 'react';
 import { ArmyStack } from './components/ArmyStack';
 import { BattleTraitStack } from './components/BattleTraitStack';
 import { WarscrollStack } from './components/WarscrollStack';
-import { warscrolls } from './_data/warscrolls';
+import warscrolls from './_data/warscrolls.json';
 
 
 let deck = new Reveal({

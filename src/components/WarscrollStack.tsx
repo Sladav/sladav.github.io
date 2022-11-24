@@ -4,7 +4,7 @@ import { WarscrollCard } from "./WarscrollCard";
 
 
 interface Props {
-    warscrolls: Warscroll[];
+    warscrolls: any[];
 }
 
 export class WarscrollStack extends React.Component<Props> {
