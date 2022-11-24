@@ -1,7 +1,4 @@
 import * as React from "react";
-import { Warscroll } from "src/models/Types";
-import images from "../_data/images.json";
-
 
 interface Props {
     warscroll: any;
@@ -10,9 +7,6 @@ interface Props {
 export class WarscrollCard extends React.Component<Props> {
     render(): React.ReactNode {
         const { warscroll } = this.props;
-
-        // @ts-ignore
-        const imgSrc = images[warscroll.name];
 
         return (
             <section>
@@ -29,7 +23,7 @@ export class WarscrollCard extends React.Component<Props> {
                     </div>
                 </div> */}
                 <div>
-                    <div className="img" style={{backgroundImage: `url(${imgSrc})`}}></div>
+                    <div className="img" style={{backgroundImage: `url("/images/models/${warscroll.name}.jpeg")`}}></div>
                     <div className="aos-profile">
                         <div style={{top: 'calc(41% - 24px)', left: '0', bottom: '0', right: '0'}}>{warscroll.move}</div>
                         <div style={{top: 'calc(41%)', left: '-52px', bottom: '0', right: '0'}}>{warscroll.wounds}</div>
