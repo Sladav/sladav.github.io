@@ -73,6 +73,23 @@
 			.aos-profile > * {
 				position: absolute;
 			}
+			.img-crop {
+				float: left;
+				margin: 0 10px 0 4px;
+				height: 200px;
+				width: 76px;
+				overflow: hidden;
+				filter: drop-shadow(2px 4px 6px grey);
+			}
+			.img-crop img {
+				margin: 0;
+				height: 100%;
+				width: 100%;
+				max-width: 100%;
+				max-height: 100%;
+				object-fit: cover;
+				transform: scale(1.1);
+			}
 			.img {
 				float: left;
 				margin: 0 10px 0 4px;
@@ -89,7 +106,7 @@
 		<script>
 			window.process = { env: {}}
 		</script>
-		<script type="module" crossorigin src="/assets/index.201b7a53.js"></script>
+		<script type="module" crossorigin src="/assets/index.4498bd09.js"></script>
 		<link rel="stylesheet" href="/assets/index.b0025cba.css">
 	</head>
 	<body>

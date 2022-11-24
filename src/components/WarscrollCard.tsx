@@ -23,7 +23,10 @@ export class WarscrollCard extends React.Component<Props> {
                     </div>
                 </div> */}
                 <div>
-                    <div className="img" style={{backgroundImage: `url("/images/models/${warscroll.name}.jpeg")`}}></div>
+                    <div className="img-crop">
+                        <img src={`/images/models/${warscroll.name}.jpeg`} alt={warscroll.name}></img>
+                    </div>
+                    {/* <div className="img" style={{backgroundImage: `url("/images/models/${warscroll.name}.jpeg")`}}></div> */}
                     <div className="aos-profile">
                         <div style={{top: 'calc(41% - 24px)', left: '0', bottom: '0', right: '0'}}>{warscroll.move}</div>
                         <div style={{top: 'calc(41%)', left: '-52px', bottom: '0', right: '0'}}>{warscroll.wounds}</div>
