@@ -21,6 +21,12 @@
 				--r-heading4-size: 1rem;
 			}
 			p { font-size: .85rem; }
+			.flavor {
+				font-style: italic;
+			}
+			table {
+				width: 390px;
+			}
 			tbody {
 				background-color: rgb(250, 235, 215, .3);
 			}
@@ -28,7 +34,7 @@
 				background-color: rgb(250, 235, 215, .5);
 			}
 			thead td { 
-				font-size: .8rem; 
+				font-size: .8rem;
 			}
 			tbody td { 
 				font-size: 1rem;
@@ -42,25 +48,41 @@
 				flex-direction: row;
 				align-items: center;
 			}
-			.heading {
+			.header {
 				text-align: left;
 			}
+			.name {
+				overflow: visible;
+				word-break: keep-all;
+				word-wrap: normal;
+			}
 			.aos-profile {
-				float: left;
+				float: right;
 				position: relative;
-				margin: 5px;
+				z-index: -1;
+				margin: -15px 2px 0px -10px;
 				font-size: .47em;
 				color: black;
-				box-sizing: border-box;
 				background-image: url("/aos_profile_small.png");
 				background-repeat: no-repeat;
 				background-size: cover;
 				flex: 0 0 auto;
-				width: 144px;
-				height: 148px;
+				width: 130px;
+				height: 130px;
 			}
 			.aos-profile > * {
 				position: absolute;
+			}
+			.img {
+				float: left;
+				margin: 0 10px 0 4px;
+				filter: drop-shadow(2px 4px 6px grey);
+				height: 200px;
+				width: 76px;
+				background-position: center center;
+				background-repeat: no-repeat;
+				color: transparent;
+				background-clip: text;
 			}
 		</style>
 		
