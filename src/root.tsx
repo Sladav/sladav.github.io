@@ -5,6 +5,12 @@ import * as React from 'react';
 import { ArmyStack } from './components/ArmyStack';
 import { BattleTraitStack } from './components/BattleTraitStack';
 import { WarscrollStack } from './components/WarscrollStack';
+import { HeroPhaseStack } from './components/HeroPhaseStack';
+import { MovementPhaseStack } from './components/MovementPhaseStack';
+import { ShootingPhaseStack } from './components/ShootingPhaseStack';
+import { ChargePhaseStack } from './components/ChargePhaseStack';
+import { CombatPhaseStack } from './components/CombatPhaseStack';
+import { BattleshockPhaseStack } from './components/BattleshockPhaseStack';
 import warscrolls from './_data/warscrolls.json';
 
 
@@ -54,6 +60,24 @@ export class Root extends React.Component {
                 />
                 <BattleTraitStack/>
                 <WarscrollStack
+                    warscrolls={warscrolls}
+                />
+                <HeroPhaseStack 
+                    warscrolls={warscrolls}
+                />
+                <MovementPhaseStack 
+                    warscrolls={warscrolls}
+                />
+                <ShootingPhaseStack 
+                    warscrolls={warscrolls}
+                />
+                <ChargePhaseStack 
+                    warscrolls={warscrolls}
+                />
+                <CombatPhaseStack 
+                    warscrolls={warscrolls}
+                />
+                <BattleshockPhaseStack 
                     warscrolls={warscrolls}
                 />
             </React.Fragment>
