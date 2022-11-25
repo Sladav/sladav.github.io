@@ -15,16 +15,27 @@
 
 		<style>
 			:root {
+				--r-block-margin: 8px;
 				--r-heading1-size: 3rem;
 				--r-heading2-size: 2rem;
 				--r-heading3-size: 1.5rem;
 				--r-heading4-size: 1rem;
+				padding: 4px;
+			}
+			h4 {
+				--r-heading-margin: 0;
+				text-align: left;
 			}
 			p { font-size: .85rem; }
 			.flavor {
 				font-style: italic;
 			}
+			.tableSection {
+				max-height: 250px;
+				overflow: auto;
+			}
 			table {
+				margin: 0 !important;
 				width: 390px;
 			}
 			tbody {
@@ -51,7 +62,9 @@
 			.header {
 				text-align: left;
 			}
-			.name {
+			h3.name {
+				margin-top: 16px;
+				margin-bottom: 4px;
 				overflow: visible;
 				word-break: keep-all;
 				word-wrap: normal;
@@ -100,6 +113,26 @@
 				background-repeat: no-repeat;
 				color: transparent;
 				background-clip: text;
+			}
+			.abilities {
+				max-height: 200px;
+				display: flex;
+				flex-direction: row;
+				overflow-x: auto;
+			}
+			.ability-card {
+				background-color: rgba(128, 118, 107, 0.8);
+				margin: 4px;
+				margin-right: 12px;
+				padding: 8px;
+				border-radius: 6px;
+				color: white;
+				flex: 0 0 35%;
+				text-align: left;
+			}
+			.ability-card p {
+				max-height: 80%;
+				overflow: auto;
 			}
 		</style>
 		

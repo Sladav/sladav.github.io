@@ -1,4 +1,6 @@
 import * as React from "react";
+import { CombatTable } from "./CombatTable";
+import { DamageTable } from "./DamageTable";
 
 interface Props {
     warscroll: any;
@@ -39,67 +41,44 @@ export class WarscrollCard extends React.Component<Props> {
                         <p className="description">{warscroll.description}</p>
                     </p>
                 </div>
-                <table>
-                    <thead>
-                        <tr>
-                            <td>Melee Weapons</td>
-                            <td>Rng</td>
-                            <td>Att</td>
-                            <td>Hit</td>
-                            <td>Wnd</td>
-                            <td>Rend</td>
-                            <td>Dmg</td>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        {
-                            warscroll.meleeWeapons.map((weapon: any) => {
-                                return (
-                                    <tr>
-                                        <td>{weapon.name}</td>
-                                        <td>{weapon.range}</td>
-                                        <td>{weapon.attacks}</td>
-                                        <td>{weapon.toHit}</td>
-                                        <td>{weapon.toWound}</td>
-                                        <td>{weapon.rend}</td>
-                                        <td>{weapon.damage}</td>
-                                    </tr>
-                                )
-                            })
-                        }
-                    </tbody>
-                </table>
+                <div style={{height: "8px"}}></div>
+                <div className="tableSection">
+                    <h4>Combat Tables</h4>
+                    { 
+                        warscroll.missleWeapons.length === 0 ? null : (
+                            <CombatTable
+                                tableName="Missle Weapons"
+                                weapons={warscroll.missleWeapons}
+                            />
+                        )
+                    }
+                    <div style={{height: "14px"}}></div>
+                    { 
+                        warscroll.meleeWeapons.length === 0 ? null : (
+                            <CombatTable
+                                tableName="Melee Weapons"
+                                weapons={warscroll.meleeWeapons}
+                            />
+                        )
+                    }
+                    <div style={{height: "14px"}}></div>
+                    {
+                        warscroll.damageTable.length === 0 ? null : (
+                            <DamageTable tableData={warscroll.damageTable} />
+                        )
+                    }
+                </div>
                 <div style={{height: "14px"}}></div>
-                <table>
-                    <thead>
-                        <tr>
-                            <td>Missle Weapons</td>
-                            <td>Rng</td>
-                            <td>Att</td>
-                            <td>Hit</td>
-                            <td>Wnd</td>
-                            <td>Rend</td>
-                            <td>Dmg</td>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        {
-                            warscroll.missleWeapons.map((weapon: any) => {
-                                return (
-                                    <tr>
-                                        <td>{weapon.name}</td>
-                                        <td>{weapon.range}</td>
-                                        <td>{weapon.attacks}</td>
-                                        <td>{weapon.toHit}</td>
-                                        <td>{weapon.toWound}</td>
-                                        <td>{weapon.rend}</td>
-                                        <td>{weapon.damage}</td>
-                                    </tr>
-                                )
-                            })
-                        }
-                    </tbody>
-                </table>
+                <div className="abilities">
+                { 
+                        warscroll.abilities.length === 0 ? null : warscroll.abilities.map((ability: any) => (
+                            <div className="ability-card">
+                                <h4>{ability.name}</h4>
+                                <p>{ability.description}</p>
+                            </div>
+                        )
+                    }
+                </div>
                 <div style={{height: '500px'}}></div>
             </section>
         )
