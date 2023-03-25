@@ -1,0 +1,1394 @@
+[
+  {
+    "name": "Abhorrant Ghoul King on Royal Terrorgheist",
+    "points": "445",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader",
+      "Behemoth"
+    ],
+    "flavorText": "A spine-chilling shadow against the sky, the Abhorrant Ghoul King and his Terrorgheist embody the eternal darkness of undeath. From the gaping maw of the massive bat-beast, a shrill scream cuts across the battlefield, turning blood to ice.",
+    "description": "An Abhorrant Ghoul King on Royal Terrorgheist is a single model armed with Gory Talons and Fangs.",
+    "wounds": "14",
+    "move": "✹",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [
+      {
+        "name": "Death Shriek",
+        "range": "10\"",
+        "attacks": "1",
+        "toHit": "See below",
+        "toWound": "",
+        "rend": "",
+        "damage": ""
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Gory Talons and Fangs",
+        "range": "1\"",
+        "attacks": "5",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Skeletal Claws",
+        "range": "2\"",
+        "attacks": "✹",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      },
+      {
+        "name": "Fanged Maw",
+        "range": "3\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "D6"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "MOUNT",
+        "description": "This model’s Royal Terrorgheist attacks with its Death Shriek, Skeletal Claws and Fanged Maw."
+      },
+      {
+        "name": "FLY",
+        "description": "This model can fly."
+      }
+    ],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-3",
+        "move": "14\"",
+        "deathShriek": "6",
+        "skeletalClaws": "4"
+      },
+      {
+        "woundsSuffered": "4-6",
+        "move": "12\"",
+        "deathShriek": "5",
+        "skeletalClaws": "4"
+      },
+      {
+        "woundsSuffered": "7-9",
+        "move": "10\"",
+        "deathShriek": "4",
+        "skeletalClaws": "3"
+      },
+      {
+        "woundsSuffered": "10-12",
+        "move": "8\"",
+        "deathShriek": "3",
+        "skeletalClaws": "3"
+      },
+      {}
+    ],
+    "abilities": [
+      {
+        "name": "Death Shriek",
+        "flavorText": "The terrifying shriek of a Terrorgheist is enough to stop a warrior’s heart.",
+        "description": "Do not use the attack sequence for an attack made with this model’s Death Shriek. Instead roll a dice and add the Death Shriek value shown on this model’s damage table. If the total is higher than the target unit’s Bravery characteristic, the target unit suffers a number of mortal wounds equal to the difference between its Bravery characteristic and the total."
+      },
+      {
+        "name": "Gaping Maw",
+        "flavorText": "This horrific creature bites a great chunk out of its prey, or even swallows it whole.",
+        "description": "If the unmodified hit roll for an attack made with this model’s Fanged Maw is 6, that attack inflicts 6 mortal wounds on the target unit and the attack sequence ends (do not make a wound or save roll)."
+      },
+      {
+        "name": "Infested",
+        "flavorText": "When a Terrorgheist is finally destroyed, it explodes into a swarm of bats that feast on those nearby.",
+        "description": "If this model is slain, before this model is removed from play each unit within 3\" of this model suffers D3 mortal wounds."
+      },
+      {
+        "name": "Royal Blood",
+        "flavorText": "The vampiric blood that courses through a Ghoul King’s veins can heal even the most terrible wounds.",
+        "description": "In your hero phase, you can heal up to D3 wounds allocated to this model."
+      },
+      {
+        "name": "Arcane BoltMystic ShieldUnholy Vitality",
+        "flavorText": "",
+        "description": "This model is a WIZARD. It can attempt to cast one spell in your hero phase, and attempt to unbind one spell in the enemy hero phase. It knows the Arcane Bolt, Mystic Shield and Unholy Vitality spells."
+      },
+      {
+        "name": "Unholy Vitality",
+        "flavorText": "The Abhorrant Ghoul King infuses the crooked bodies of his minions with dark magic, making it nigh impossible for their enemies to stop their ravenous onslaught.",
+        "description": "Unholy Vitality has a casting value of 6. If successfully cast, pick 1 friendly FLESH-EATER COURTS unit wholly within 24\" of the caster and visible to them. Until your next hero phase, roll a dice each time you allocate a wound or mortal wound to that unit. On a 5+ that wound or mortal wound is negated."
+      },
+      {
+        "name": "Summon Royal Guard",
+        "flavorText": "With a snarled command, the Ghoul King calls forth his most elite retainers.",
+        "description": "You can use this command ability at the end of your movement phase. If you do so, pick 1 friendly model that has this command ability and has not used it before in the battle. That model summons 1 unit of up to 3 KNIGHTS to the battlefield. The summoned unit is added to your army, and must be set up wholly within 6\" of the edge of the battlefield and more than 9\" from any enemy units."
+      }
+    ],
+    "keywords": [
+      "DEATH",
+      "VAMPIRE",
+      "FLESH-EATER",
+      "COURTS",
+      "ABHORRANT",
+      "MONSTER",
+      "HERO",
+      "WIZARD",
+      "ABHORRANT",
+      "GHOUL",
+      "KING"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "130mm"
+  },
+  {
+    "name": "Abhorrant Ghoul King on Royal Zombie Dragon",
+    "points": "430",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader",
+      "Behemoth"
+    ],
+    "flavorText": "Surrounded by an aura of potent dark magic, the Abhorrant Ghoul King and his Zombie Dragon are death incarnate. As the monster shreds foes with fangs the size of swords, the king pulls warriors apart with his bare hands.",
+    "description": "An Abhorrant Ghoul King on Royal Zombie Dragon is a single model armed with Gory Talons and Fangs.",
+    "wounds": "14",
+    "move": "✹",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [
+      {
+        "name": "Pestilential Breath",
+        "range": "9\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "✹",
+        "rend": "-3",
+        "damage": "D6"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Gory Talons and Fangs",
+        "range": "1\"",
+        "attacks": "5",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Snapping Maw",
+        "range": "3\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "D6"
+      },
+      {
+        "name": "Sword-like Claws",
+        "range": "2\"",
+        "attacks": "✹",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "MOUNT",
+        "description": "This model’s Royal Zombie Dragon attacks with its Pestilential Breath, a Snapping Maw and Sword-like Claws."
+      },
+      {
+        "name": "FLY",
+        "description": "This model can fly."
+      }
+    ],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-3",
+        "move": "14\"",
+        "pestilentialBreath": "2+",
+        "swordLikeClaws": "7"
+      },
+      {
+        "woundsSuffered": "4-6",
+        "move": "12\"",
+        "pestilentialBreath": "3+",
+        "swordLikeClaws": "6"
+      },
+      {
+        "woundsSuffered": "7-9",
+        "move": "10\"",
+        "pestilentialBreath": "4+",
+        "swordLikeClaws": "5"
+      },
+      {
+        "woundsSuffered": "10-12",
+        "move": "8\"",
+        "pestilentialBreath": "5+",
+        "swordLikeClaws": "4"
+      },
+      {}
+    ],
+    "abilities": [
+      {
+        "name": "Pestilential Breath",
+        "flavorText": "When a Zombie Dragon looses its breath, the killing miasma withers flesh and saps life from the living.",
+        "description": "When you attack with this model’s Pestilential Breath, roll a dice before making the hit roll for the attack. If the roll is less than or equal to the number of models in the target unit, the attack scores a hit without needing to make a hit roll."
+      },
+      {
+        "name": "Royal Blood",
+        "flavorText": "The vampiric blood that courses through a Ghoul King’s veins can heal even the most terrible wounds.",
+        "description": "In your hero phase, you can heal up to D3 wounds allocated to this model."
+      },
+      {
+        "name": "Arcane BoltMystic ShieldMalefic Hunger",
+        "flavorText": "",
+        "description": "This model is a WIZARD. It can attempt to cast one spell in your hero phase, and attempt to unbind one spell in the enemy hero phase. It knows the Arcane Bolt, Mystic Shield and Malefic Hunger spells."
+      },
+      {
+        "name": "Malefic Hunger",
+        "flavorText": "As the Abhorrant Ghoul King imposes his dark will upon his minions, they see a ripe banquet before them and descend upon it with ravening fury.",
+        "description": "Malefic Hunger has a casting value of 6. If successfully cast, until your next hero phase you can re-roll wound rolls for attacks made with melee weapons by friendly FLESH-EATER COURTS units wholly within 16\" of the caster."
+      },
+      {
+        "name": "Summon Courtier",
+        "flavorText": "With a keening cry, the Ghoul King summons one of his most loyal servants to join the fray.",
+        "description": "You can use this command ability at the end of your movement phase. If you do so, pick 1 friendly model that has this command ability and has not used it before in the battle. That model summons 1 COURTIER unit to the battlefield. The summoned unit is added to your army, and must be set up wholly within 6\" of the edge of the battlefield and more than 9\" from any enemy units."
+      }
+    ],
+    "keywords": [
+      "DEATH",
+      "VAMPIRE",
+      "FLESH-EATER",
+      "COURTS",
+      "ABHORRANT",
+      "MONSTER",
+      "HERO",
+      "WIZARD",
+      "ABHORRANT",
+      "GHOUL",
+      "KING"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "130mm"
+  },
+  {
+    "name": "Nagash Supreme Lord of the Undead",
+    "points": "955",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader",
+      "Behemoth"
+    ],
+    "flavorText": "Nagash is the Great Necromancer, Supreme Lord of the Undead and master of all that passes beyond the mortal coil. He is nothing less than an evil-hearted god, and those who earn his displeasure are soon turned to dust upon the wind.",
+    "description": "",
+    "wounds": "16",
+    "move": "9\"",
+    "save": "3+",
+    "bravery": "10",
+    "missleWeapons": [
+      {
+        "name": "Gaze of Nagash",
+        "range": "12\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "2+",
+        "rend": "-1",
+        "damage": "D6"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Alakanash",
+        "range": "3\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-3",
+        "damage": "D6"
+      },
+      {
+        "name": "Zefet-nebtar",
+        "range": "2\"",
+        "attacks": "✹",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-2",
+        "damage": "3"
+      },
+      {
+        "name": "Spectral Claws and Daggers",
+        "range": "1\"",
+        "attacks": "6",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-6",
+        "theNineBooksOfNagash": "Cast and unbind 5 extra spells",
+        "zefetNebtar": "6",
+        "staffOfPower": "+3 cast /+3 unbind or dispel"
+      },
+      {
+        "woundsSuffered": "7-9",
+        "theNineBooksOfNagash": "Cast and unbind 3 extra spells",
+        "zefetNebtar": "4",
+        "staffOfPower": "+3 cast /+2 unbind or dispel"
+      },
+      {
+        "woundsSuffered": "10-12",
+        "theNineBooksOfNagash": "Cast and unbind 2 extra spells",
+        "zefetNebtar": "3",
+        "staffOfPower": "+2 cast /+1 unbind or dispel"
+      },
+      {}
+    ],
+    "abilities": [],
+    "keywords": [
+      "DEATH",
+      "DEATHLORDS",
+      "HERO",
+      "MONSTER",
+      "WIZARD",
+      "NAGASH"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ],
+    "baseSize": "130mm"
+  },
+  {
+    "name": "Abhorrant Archregent",
+    "points": "245",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Archregents are Ghoul Kings that have ruled for hundreds upon hundreds of years and have grown terrifyingly powerful. They are supremely mighty vampiric warriorkings, and are accustomed to the instant obedience of all around them.",
+    "description": "An Abhorrant Archregent is a single model armed with Gory Talons and Fangs.",
+    "wounds": "7",
+    "move": "6\"",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Gory Talons and Fangs",
+        "range": "1\"",
+        "attacks": "7",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Imperial Blood",
+        "flavorText": "An Archregent has an unnatural vitality that heals ghastly wounds in moments.",
+        "description": "In your hero phase, you can heal up to 3 wounds allocated to this model."
+      },
+      {
+        "name": "Arcane BoltMystic ShieldFerocious Hunger",
+        "flavorText": "",
+        "description": "This model is a WIZARD. It can attempt to cast two spells in your hero phase, and attempt to unbind two spells in the enemy hero phase. It knows the Arcane Bolt, Mystic Shield and Ferocious Hunger spells."
+      },
+      {
+        "name": "Ferocious Hunger",
+        "flavorText": "The Archregent’s dark sorcery raises its minions’ cravings to still greater heights.",
+        "description": "Ferocious Hunger has a casting value of 6. If successfully cast, pick 1 friendly FLESH-EATER COURTS unit wholly within 24\" of the caster and visible to them, and roll a D3. Add the roll to the Attacks characteristic of melee weapons used by that unit until your next hero phase."
+      },
+      {
+        "name": "Summon Imperial Guard",
+        "flavorText": "With a snap of its fingers, the Archregent summons some of its most trusted warriors to the battlefield.",
+        "description": "You can use this command ability at the end of your movement phase. If you do so, pick 1 friendly model that has this command ability and has not used it before in the battle. That model summons 1 of the following units to the battlefield: 1 COURTIER; or 1 unit of up to 3 KNIGHTS; or 1 unit of up to 20 SERFS. The summoned unit is added to your army, and must be set up wholly within 6\" of the edge of the battlefield and more than 9\" from any enemy units."
+      }
+    ],
+    "keywords": [
+      "DEATH",
+      "VAMPIRE",
+      "FLESH-EATER",
+      "COURTS",
+      "ABHORRANT",
+      "HERO",
+      "WIZARD",
+      "ABHORRANT",
+      "ARCHREGENT"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "40mm"
+  },
+  {
+    "name": "Abhorrant Ghoul King",
+    "points": "165",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "On foot, the Abhorrant Ghoul King fights among his infantry. With his necromantic magic, the king imbues his followers with even greater fury, urging them into battle even as he rends apart foes with dripping claws and razor fangs.",
+    "description": "An Abhorrant Ghoul King is a single model armed with Gory Talons and Fangs.",
+    "wounds": "6",
+    "move": "6\"",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Gory Talons and Fangs",
+        "range": "1\"",
+        "attacks": "6",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Royal Blood",
+        "flavorText": "The vampiric blood that courses through a Ghoul King’s veins can heal even the most terrible wounds.",
+        "description": "In your hero phase, you can heal up to D3 wounds allocated to this model."
+      },
+      {
+        "name": "Arcane BoltMystic ShieldBlack Hunger",
+        "flavorText": "",
+        "description": "This model is a WIZARD. It can attempt to cast one spell in your hero phase, and attempt to unbind one spell in the enemy hero phase. It knows the Arcane Bolt, Mystic Shield and Black Hunger spells."
+      },
+      {
+        "name": "Black Hunger",
+        "flavorText": "The Ghoul King invokes a terrifying frenzy in his deranged minions.",
+        "description": "Black Hunger has a casting value of 5. If successfully cast, pick 1 friendly FLESH-EATER COURTS unit wholly within 24\" of the caster and visible to them. Add 1 to the Attacks characteristic of melee weapons used by that unit until your next hero phase."
+      },
+      {
+        "name": "Summon Men-at-arms",
+        "flavorText": "With a curt command, the Ghoul King calls forth his finest men-at-arms.",
+        "description": "You can use this command ability at the end of your movement phase. If you do so, pick 1 friendly model that has this command ability and has not used it before in the battle. That model summons 1 unit of up to 10 SERFS to the battlefield. The summoned unit is added to your army, and must be set up wholly within 6\" of the edge of the battlefield and more than 9\" from any enemy units."
+      }
+    ],
+    "keywords": [
+      "DEATH",
+      "VAMPIRE",
+      "FLESH-EATER",
+      "COURTS",
+      "ABHORRANT",
+      "HERO",
+      "WIZARD",
+      "ABHORRANT",
+      "GHOUL",
+      "KING"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Crypt Ghast Courtier",
+    "points": "70",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Hissing captains of the mordants, Crypt Ghast Courtiers move among the pale ranks of the king’s army to direct the cannibal formations. They drive more Ghouls into the fray, while seeking out gruesome trophies to bestow upon their ‘men’.",
+    "description": "A Crypt Ghast Courtier is a single model armed with a Bone Club and Filthy Claws.",
+    "wounds": "4",
+    "move": "6\"",
+    "save": "5+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Bone Club",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Filthy Claws",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Muster Serfs",
+        "flavorText": "With a cry, the courtier calls forth more of the Ghoul King’s lowest minions.",
+        "description": "In your hero phase, roll 6 dice for each friendly CRYPT GHAST COURTIER on the battlefield. For each 2+ you can return 1 slain model to a friendly SERFS unit that is within 10\" of that CRYPT GHAST COURTIER. Slain models can be returned to more than one unit if you wish, but each successful dice roll can only be used to return a model to a single unit."
+      },
+      {
+        "name": "Trophy Hunter",
+        "flavorText": "Crypt Ghast Courtiers inspire their followers by holding aloft trophies torn from the bodies of their slain foes.",
+        "description": "If any enemy models are slain by wounds inflicted by this model’s attacks, until the end of the phase in which the attacks were made add 1 to the Attacks characteristic of melee weapons used by friendly SERFS units while they are wholly within 16\" of this model."
+      }
+    ],
+    "keywords": [
+      "DEATH",
+      "MORDANT",
+      "FLESH-EATER",
+      "COURTS",
+      "COURTIER",
+      "HERO",
+      "CRYPT",
+      "GHAST",
+      "COURTIER"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Crypt Haunter Courtier",
+    "points": "110",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "A Crypt Haunter Courtier charges into the fray to the sound of ripping flesh and splintering bones. Broken and battered, their foes die by the dozen, even as the carrion knight’s own misshapen body knits itself back together again with terrifying speed.",
+    "description": "A Crypt Haunter Courtier is a single model armed with a Massive Bone Club and Rancid Talons.",
+    "wounds": "6",
+    "move": "7\"",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Massive Bone Club",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "3"
+      },
+      {
+        "name": "Rancid Talons",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Noble Blood",
+        "flavorText": "The blood of their liege grants Crypt Haunter Courtiers a supernatural ability to heal any damage they suffer.",
+        "description": "In your hero phase, you can heal 1 wound allocated to this model."
+      },
+      {
+        "name": "Chosen of the King",
+        "flavorText": "Crypt Haunters are amongst the most ardent of courtiers.",
+        "description": "You can re-roll hit rolls for attacks made by this model while it is within 18\" of any friendly ABHORRANTS."
+      },
+      {
+        "name": "Muster King’s Chosen",
+        "flavorText": "With a cry, the courtier calls forth more of the Ghoul King’s minions.",
+        "description": "In your hero phase, roll 6 dice for each friendly CRYPT HAUNTER COURTIER on the battlefield. For each 5+ you can return 1 slain model to a friendly CRYPT HORRORS unit that is within 10\" of that CRYPT HAUNTER COURTIER. Slain models can be returned to more than one unit if you wish, but each successful dice roll can only be used to return a model to a single unit."
+      }
+    ],
+    "keywords": [
+      "DEATH",
+      "MORDANT",
+      "FLESH-EATER",
+      "COURTS",
+      "COURTIER",
+      "HERO",
+      "CRYPT",
+      "HAUNTER",
+      "COURTIER"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "50mm"
+  },
+  {
+    "name": "Crypt Infernal Courtier",
+    "points": "130",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Leathery wings tucked against its body, the Crypt Infernal Courtier dives down from the sky, shrieking its rage. Plunging into the midst of its enemies with killing force, the vicious beast impales its prey in a shower of steaming gore.",
+    "description": "A Crypt Infernal Courtier is a single model armed with Foetid Breath and Skewering Talons.",
+    "wounds": "6",
+    "move": "12\"",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [
+      {
+        "name": "Foetid Breath",
+        "range": "9\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Skewering Talons",
+        "range": "1\"",
+        "attacks": "5",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "FLY",
+        "description": "This model can fly."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Skewering Strike",
+        "flavorText": "Sometimes a Crypt Infernal Courtier will strike with such force that the victim is skewered upon its piercing talons.",
+        "description": "If the unmodified hit roll for an attack made with Skewering Talons is 6, that attack inflicts 1 mortal wound on the target in addition to any normal damage."
+      },
+      {
+        "name": "Muster Royal Guard",
+        "flavorText": "With a cry, the courtier calls forth more of the Ghoul King’s minions.",
+        "description": "In your hero phase, roll 6 dice for each friendly CRYPT INFERNAL COURTIER on the battlefield. For each 5+ you can return 1 slain model to a friendly CRYPT FLAYERS unit that is within 10\" of that CRYPT INFERNAL COURTIER. Slain models can be returned to more than one unit if you wish, but each successful dice roll can only be used to return a model to a single unit."
+      }
+    ],
+    "keywords": [
+      "DEATH",
+      "MORDANT",
+      "FLESH-EATER",
+      "COURTS",
+      "COURTIER",
+      "HERO",
+      "CRYPT",
+      "INFERNAL",
+      "COURTIER"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "50mm"
+  },
+  {
+    "name": "Varghulf Courtier",
+    "points": "160",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Blood gushing from its fanged maw and matting its fur, the Varghulf Courtier kills without restrain or reason. Even as enemies are heaped broken at its feet, it looses a piercing howl, calling the warriors of the court to its side.",
+    "description": "A Varghulf Courtier is a single model armed with Immense Claws and Dagger-like Fangs.",
+    "wounds": "8",
+    "move": "10\"",
+    "save": "5+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Immense Claws",
+        "range": "2\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      },
+      {
+        "name": "Dagger-like Fangs",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "2+",
+        "rend": "-2",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "FLY",
+        "description": "This model can fly."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Muster Royal Household",
+        "flavorText": "With a cry, the courtier calls forth more of the king’s minions.",
+        "description": "In your hero phase, roll 6 dice for each friendly VARGHULF COURTIER on the battlefield. For each 2+ you can return 1 slain model to a friendly SERFS unit within 10\" of that VARGHULF COURTIER. For each 5+ you can return 1 slain model to a friendly KNIGHTS unit within 10\" of that VARGHULF COURTIER instead. Slain models can be returned to more than one unit if you wish, but each successful dice roll can only be used to return a model to a single unit."
+      },
+      {
+        "name": "Feed on Dark Magic",
+        "flavorText": "These strange creatures can lap up dark magic from the air.",
+        "description": "If a friendly ABHORRANT within 18\" of this model successfully casts a spell, and it is not unbound, you can re-roll hit rolls for this model until the start of your next hero phase."
+      },
+      {
+        "name": "King’s Champion",
+        "flavorText": "A Varghulf enters a terrifying frenzy when surrounded by foes.",
+        "description": "Add 2 to the Attacks characteristic of this model’s Immense Claws if it is within 3\" of 10 or more enemy models when you pick the target unit(s) for its attacks."
+      },
+      {
+        "name": "Victory Feast",
+        "flavorText": "When a Varghulf swallows chunks of flesh ripped from its foes, its own wounds disappear.",
+        "description": "At the end of the combat phase, if any enemy models were slain by wounds inflicted by this model’s attacks in that combat phase, you can heal up to D3 wounds allocated to this model."
+      }
+    ],
+    "keywords": [
+      "DEATH",
+      "MORDANT",
+      "FLESH-EATER",
+      "COURTS",
+      "COURTIER",
+      "HERO",
+      "VARGHULF",
+      "COURTIER"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "60mm"
+  },
+  {
+    "name": "Duke Crakmarrow",
+    "points": "135",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Duke Crakmarrow is the liege-lord of the Grymwatch. This cadaverous creature is seen as an exemplar of glorious gallantry by his kin, and a blood-spattered, carriondevouring monstrosity by the foes he meets in battle.",
+    "description": "Duke Crakmarrow is a named character that is a single model. He is armed with a Halberd.",
+    "wounds": "4",
+    "move": "6\"",
+    "save": "5+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Halberd",
+        "range": "2\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Muster the Grymwatch",
+        "flavorText": "At the Duke’s beckoning, the Grymwatch are summoned forth.",
+        "description": "In your hero phase, you can pick 1 friendly GRYMWATCH unit within 3\" of this model and roll 6 dice. For each 2+, you can return 1 slain model to that unit."
+      },
+      {
+        "name": "Gallant Champion",
+        "flavorText": "Duke Crakmarrow has embarked upon a noble quest to slay the great beast that threatens his kingdom.",
+        "description": "Add 1 to the damage inflicted by each successful attack made by this model that targets a MONSTER."
+      }
+    ],
+    "keywords": [
+      "DEATH",
+      "MORDANT",
+      "FLESH-EATER",
+      "COURTS",
+      "HOLLOWMOURNE",
+      "COURTIER",
+      "HERO",
+      "DUKE",
+      "CRAKMARROW"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique. Duke Crakmarrow and <a href=\"/aos3/factions/flesh-eater-courts/warscrolls.html#The-Grymwatch\">The Grymwatch</a> must be taken as a set. Although taken as a set",
+      "each is a separate unit."
+    ]
+  },
+  {
+    "name": "Crypt Ghouls",
+    "points": "85",
+    "unitSize": "10",
+    "battlefieldRoles": [
+      "Battleline"
+    ],
+    "flavorText": "Filled with a dark hunger, Crypt Ghouls pounce upon their prey. They are ferocious in great numbers, as each mordant competes with its kin for food. Should a ghoul catch a glimpse of their king, they will fight all the harder, eager to prove their worth.",
+    "description": "A unit of Crypt Ghouls has any number of models, each armed with Sharpened Teeth and Filthy Claws.",
+    "wounds": "1",
+    "move": "6\"",
+    "save": "6+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Sharpened Teeth and Filthy Claws",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "CRYPT GHAST",
+        "description": "The leader of this unit is a Crypt Ghast. Add 1 to the Attacks characteristic of a Crypt Ghast’s Sharpened Teeth and Filthy Claws."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Boundless Ferocity",
+        "flavorText": "When Crypt Ghouls gather in large numbers their ferocity knows no bounds.",
+        "description": "Add 1 to the Attacks characteristic of this unit’s Sharpened Teeth and Filthy Claws while this unit has 20 or more models."
+      },
+      {
+        "name": "Royal Approval",
+        "flavorText": "Crypt Ghouls will always do their utmost to attract the attention of their sovereign.",
+        "description": "You can re-roll hit rolls of 1 for attacks made by this unit while it is wholly within 18\" of any friendly ABHORRANTS."
+      }
+    ],
+    "keywords": [
+      "DEATH",
+      "MORDANT",
+      "FLESH-EATER",
+      "COURTS",
+      "SERFS",
+      "CRYPT",
+      "GHOULS"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "25mm"
+  },
+  {
+    "name": "Crypt Flayers",
+    "points": "180",
+    "unitSize": "3",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Monstrous predators of the sky, Crypt Flayers flock together in a beating of dark wings and hissing maws. Enemies are snatched up by their sudden strikes and torn asunder while the creatures’ keening call is enough to break a warrior’s spirit.",
+    "description": "A unit of Crypt Flayers has any number of models, each armed with a Death Scream and Piercing Talons.",
+    "wounds": "4",
+    "move": "12\"",
+    "save": "5+",
+    "bravery": "10",
+    "missleWeapons": [
+      {
+        "name": "Death Scream",
+        "range": "10\"",
+        "attacks": "1",
+        "toHit": "See below",
+        "toWound": "",
+        "rend": "",
+        "damage": ""
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Piercing Talons",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "CRYPT INFERNAL",
+        "description": "The leader of this unit is a Crypt Infernal. Add 1 to the Attacks characteristic of a Crypt Infernal’s Piercing Talons."
+      },
+      {
+        "name": "FLY",
+        "description": "This unit can fly."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Death Scream",
+        "flavorText": "Crypt Flayers can unleash an ultrasonic cry that can kill or debilitate their victims.",
+        "description": "Do not use the attack sequence for an attack made with a Death Scream. Instead roll 2D6. Subtract 2 if the target unit is more than 3\" from the attacking model. If the result is higher than the target unit’s Bravery characteristic, the target unit suffers a number of mortal wounds equal to the difference between its Bravery characteristic and the result."
+      },
+      {
+        "name": "Skewering Strike",
+        "flavorText": "Sometimes a Crypt Flayer will strike with such force that the victim is skewered upon its piercing talons.",
+        "description": "If the unmodified hit roll for an attack made with Piercing Talons is 6, that attack inflicts 1 mortal wound on the target in addition to any normal damage."
+      }
+    ],
+    "keywords": [
+      "DEATH",
+      "MORDANT",
+      "FLESH-EATER",
+      "COURTS",
+      "KNIGHTS",
+      "CRYPT",
+      "FLAYERS"
+    ],
+    "pitchedBattleNotes": [
+      "Battleline in a <a href=\"/aos3/factions/flesh-eater-courts/#Blisterskin\">Blisterskin</a> army or if general is a <a href=\"/aos3/factions/flesh-eater-courts/warscrolls.html#Crypt-Infernal-Courtier\">Crypt Infernal Courtier</a>"
+    ],
+    "baseSize": "50mm"
+  },
+  {
+    "name": "Crypt Horrors",
+    "points": "110",
+    "unitSize": "3",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Each sweep of a Crypt Horror’s claws ladles heaps of dripping meat into its gaping maw. Blessed by the abhorrant’s blood, their own flesh heals quickly, and even mortal wounds close over as if they never were.",
+    "description": "A unit of Crypt Horrors has any number of models, each armed with a Club and Septic Talons.",
+    "wounds": "4",
+    "move": "7\"",
+    "save": "5+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Club and Septic Talons",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "CRYPT HAUNTER",
+        "description": "The leader of this unit is a Crypt Haunter. Add 1 to the Attacks characteristic of a Crypt Haunter’s Club and Septic Talons."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Chosen of the King",
+        "flavorText": "Crypt Horrors are the most devoted servants in a Ghoul King’s army.",
+        "description": "You can re-roll hit rolls for attacks made by this unit while it is wholly within 18\" of any friendly ABHORRANT."
+      },
+      {
+        "name": "Noble Blood",
+        "flavorText": "The blood of their liege grants Crypt Horrors a supernatural ability to heal any damage that they suffer.",
+        "description": "In your hero phase, you can heal 1 wound allocated to this unit."
+      },
+      {
+        "name": "Warrior Elite",
+        "flavorText": "Crypt Horrors are amongst the most deadly warriors in a court.",
+        "description": "If the unmodified wound roll for an attack made with a Club and Septic Talons is 6, that attack has a Damage characteristic of 3 instead of 2."
+      }
+    ],
+    "keywords": [
+      "DEATH",
+      "MORDANT",
+      "FLESH-EATER",
+      "COURTS",
+      "KNIGHTS",
+      "CRYPT",
+      "HORRORS"
+    ],
+    "pitchedBattleNotes": [
+      "Battleline in a <a href=\"/aos3/factions/flesh-eater-courts/#Hollowmourne\">Hollowmourne</a> army or if general is a <a href=\"/aos3/factions/flesh-eater-courts/warscrolls.html#Crypt-Haunter-Courtier\">Crypt Haunter Courtier</a>"
+    ],
+    "baseSize": "50mm"
+  },
+  {
+    "name": "The Grymwatch",
+    "points": "135",
+    "unitSize": "6",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Believing themselves to be heroic paladins on a mission of the utmost import, the deluded cannibals of the Grymwatch scrabble forth to tear apart their foes in a flurry of fangs and grasping claws.",
+    "description": "The Grymwatch is a unit that has 6 models. Gristlewel, Valreek, the Night’s Herald, the Royal Butcher and Master Talon are each armed with Bone Weapons and Filthy Claws; and the Duke’s Harriers are armed with Fangs.",
+    "wounds": "1",
+    "move": "6\"",
+    "save": "6+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Bone Weapons and Filthy Claws",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Fangs",
+        "range": "1\"",
+        "attacks": "D6",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Royal Retinue",
+        "flavorText": "To the Grymwatch, the Duke is their liege, the one to whom they have pledged their undying fealty.",
+        "description": "Roll a dice before you allocate a wound or mortal wound to a friendly DUKE CRAKMARROW while he is within 3\" of this unit. On a 4+, that wound or mortal wound is allocated to this unit instead of DUKE CRAKMARROW."
+      },
+      {
+        "name": "Quest to Slay the Monster",
+        "flavorText": "Under the command Duke Crakmarrow, these ghouls believe themselves noble knights charged with slaying a great beast that threatens their kingdom.",
+        "description": "Add 1 to the damage inflicted by each successful attack made by this unit that targets a MONSTER."
+      }
+    ],
+    "keywords": [
+      "DEATH",
+      "MORDANT",
+      "FLESH-EATER",
+      "COURTS",
+      "HOLLOWMOURNE",
+      "GRYMWATCH"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique. <a href=\"/aos3/factions/flesh-eater-courts/warscrolls.html#Duke-Crakmarrow\">Duke Crakmarrow</a> and The Grymwatch must be taken as a set. Although taken as a set",
+      "each is a separate unit."
+    ]
+  },
+  {
+    "name": "Royal Terrorgheist",
+    "points": "285",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Behemoth"
+    ],
+    "flavorText": "The Terrorgheist is a bloodthirsty undead beast whose piercing cry scythes through the enemy as it plunges into the fray. Should the creature be slain, another horror awaits its foes, as hundreds of shrieking bats burst from its remains to ravage those nearby.",
+    "description": "A Royal Terrorgheist is a single model armed with a Death Shriek, Fanged Maw and Skeletal Claws.",
+    "wounds": "14",
+    "move": "✹",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [
+      {
+        "name": "Death Shriek",
+        "range": "10\"",
+        "attacks": "1",
+        "toHit": "See below",
+        "toWound": "",
+        "rend": "",
+        "damage": ""
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Skeletal Claws",
+        "range": "2\"",
+        "attacks": "✹",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      },
+      {
+        "name": "Fanged Maw",
+        "range": "3\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "D6"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "FLY",
+        "description": "This model can fly."
+      }
+    ],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-3",
+        "move": "14\"",
+        "deathShriek": "6",
+        "skeletalClaws": "4"
+      },
+      {
+        "woundsSuffered": "4-6",
+        "move": "12\"",
+        "deathShriek": "5",
+        "skeletalClaws": "4"
+      },
+      {
+        "woundsSuffered": "7-9",
+        "move": "10\"",
+        "deathShriek": "4",
+        "skeletalClaws": "3"
+      },
+      {
+        "woundsSuffered": "10-12",
+        "move": "8\"",
+        "deathShriek": "3",
+        "skeletalClaws": "3"
+      },
+      {}
+    ],
+    "abilities": [
+      {
+        "name": "Death Shriek",
+        "flavorText": "The terrifying shriek of a Terrorgheist is enough to stop a warrior’s heart.",
+        "description": "Do not use the attack sequence for an attack made with this model’s Death Shriek. Instead roll a dice and add the Death Shriek value shown on this model’s damage table. If the total is higher than the target unit’s Bravery characteristic, the target unit suffers a number of mortal wounds equal to the difference between its Bravery characteristic and the total."
+      },
+      {
+        "name": "Gaping Maw",
+        "flavorText": "This horrific creature bites a great chunk out of its prey, or even swallows it whole.",
+        "description": "If the unmodified hit roll for an attack made with this model’s Fanged Maw is 6, that attack inflicts 6 mortal wounds on the target unit and the attack sequence ends (do not make a wound or save roll)."
+      },
+      {
+        "name": "Infested",
+        "flavorText": "When a Terrorgheist is finally destroyed, it explodes into a swarm of bats that feast on those nearby.",
+        "description": "If this model is slain, before this model is removed from play each unit within 3\" of this model suffers D3 mortal wounds."
+      },
+      {
+        "name": "Royal Menagerie",
+        "flavorText": "A Royal Terrorgheist’s decrepit flesh seethes with dark magic, and reknits as the beast slaughters its way across the battlefield.",
+        "description": "In your hero phase, you can heal up to D3 wounds allocated to this model if this model is within 6\" of a friendly ABHORRANT."
+      }
+    ],
+    "keywords": [
+      "DEATH",
+      "FLESH-EATER",
+      "COURTS",
+      "MENAGERIE",
+      "MONSTER",
+      "ROYAL",
+      "TERRORGHEIST"
+    ],
+    "pitchedBattleNotes": [
+      "Single. Battleline in a <a href=\"/aos3/factions/flesh-eater-courts/#Gristlegore\">Gristlegore</a> army"
+    ],
+    "baseSize": "130mm"
+  },
+  {
+    "name": "Royal Zombie Dragon",
+    "points": "275",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Behemoth"
+    ],
+    "flavorText": "With a deafening roar, the Zombie Dragon dives into battle, eye sockets aglow with necromantic energy. The beast shreds flesh, bone and steel with equal ease, its talons and maw matched in their lethality only by its billowing pestilential breath.",
+    "description": "A Royal Zombie Dragon is a single model armed with Pestilential Breath, a Snapping Maw and Sword-like Claws.",
+    "wounds": "14",
+    "move": "✹",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [
+      {
+        "name": "Pestilential Breath",
+        "range": "9\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "✹",
+        "rend": "-3",
+        "damage": "D6"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Snapping Maw",
+        "range": "3\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "D6"
+      },
+      {
+        "name": "Sword-like Claws",
+        "range": "2\"",
+        "attacks": "✹",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "FLY",
+        "description": "This model can fly."
+      }
+    ],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-3",
+        "move": "14\"",
+        "pestilentialBreath": "2+",
+        "swordLikeClaws": "7"
+      },
+      {
+        "woundsSuffered": "4-6",
+        "move": "12\"",
+        "pestilentialBreath": "3+",
+        "swordLikeClaws": "6"
+      },
+      {
+        "woundsSuffered": "7-9",
+        "move": "10\"",
+        "pestilentialBreath": "4+",
+        "swordLikeClaws": "5"
+      },
+      {
+        "woundsSuffered": "10-12",
+        "move": "8\"",
+        "pestilentialBreath": "5+",
+        "swordLikeClaws": "4"
+      },
+      {}
+    ],
+    "abilities": [
+      {
+        "name": "Pestilential Breath",
+        "flavorText": "When a Zombie Dragon looses its breath, the killing miasma withers flesh and saps life from the living.",
+        "description": "When you attack with this model’s Pestilential Breath, roll a dice before making the hit roll for the attack. If the roll is less than or equal to the number of models in the target unit, the attack scores a hit without needing to make a hit roll."
+      }
+    ],
+    "keywords": [
+      "DEATH",
+      "FLESH-EATER",
+      "COURTS",
+      "MENAGERIE",
+      "MONSTER",
+      "ROYAL",
+      "ZOMBIE",
+      "DRAGON"
+    ],
+    "pitchedBattleNotes": [
+      "Single. Battleline in a <a href=\"/aos3/factions/flesh-eater-courts/#Gristlegore\">Gristlegore</a> army"
+    ],
+    "baseSize": "130mm"
+  },
+  {
+    "name": "Charnel Throne",
+    "points": "0",
+    "unitSize": "",
+    "battlefieldRoles": [
+      "Faction Terrain Feature"
+    ],
+    "flavorText": "Formed from the bones of those killed by an abhorrant’s insane magic, a Charnel Throne exudes madness and necrotic energies. They are the seats of power for Archregents and Ghoul Kings, blazing beacons to mordants and structures of abject horror for the enemies of the Flesheaters.",
+    "description": "",
+    "wounds": "",
+    "move": "",
+    "save": "",
+    "bravery": "",
+    "missleWeapons": [],
+    "meleeWeapons": [],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [],
+    "pitchedBattleNotes": []
+  },
+  {
+    "name": "Cadaverous Barricade",
+    "points": "40",
+    "unitSize": "",
+    "battlefieldRoles": [
+      "Endless Spell"
+    ],
+    "flavorText": "With a word of command the buried dead are brought writhing to the surface. The corpses of those who once served Ushoran rise up from the grave, dragging with them the detritus of their forgotten civilisation, and with lifeless hands they claw at the living who draw too near.",
+    "description": "",
+    "wounds": "",
+    "move": "",
+    "save": "",
+    "bravery": "",
+    "missleWeapons": [],
+    "meleeWeapons": [],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [],
+    "pitchedBattleNotes": []
+  },
+  {
+    "name": "Chalice of Ushoran",
+    "points": "50",
+    "unitSize": "",
+    "battlefieldRoles": [
+      "Endless Spell"
+    ],
+    "flavorText": "Believed to be a manifestation of the sacred cup held by Ushoran, this bone-wrought goblet is continually filled with the blood of those slain in its presence. When the gore inside overflows, the Flesh-eaters upon whom it slops are bestowed with unnatural vitality, their most grievous wounds healing and their dead rising to fight once more. ",
+    "description": "",
+    "wounds": "",
+    "move": "",
+    "save": "",
+    "bravery": "",
+    "missleWeapons": [],
+    "meleeWeapons": [],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [],
+    "pitchedBattleNotes": [],
+    "baseSize": "50mm"
+  },
+  {
+    "name": "Corpsemare Stampede",
+    "points": "80",
+    "unitSize": "",
+    "battlefieldRoles": [
+      "Endless Spell"
+    ],
+    "flavorText": "Imparted with grisly vigour by the insane magics of the abhorrants, the undead beasts of a Corpsemare Stampede burst from the blood-soaked ground. Once loosed they trample across the battlefield with reckless abandon, crushing any foolish enough to be caught in their path.",
+    "description": "",
+    "wounds": "",
+    "move": "",
+    "save": "",
+    "bravery": "",
+    "missleWeapons": [],
+    "meleeWeapons": [],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [],
+    "pitchedBattleNotes": [],
+    "baseSize": "120 x 92mm"
+  }
+]

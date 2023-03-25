@@ -1,0 +1,3448 @@
+[
+  {
+    "name": "Bloodseeker Palanquin",
+    "points": "250",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader",
+      "Behemoth"
+    ],
+    "flavorText": "From atop macabre conveyances known as Bloodseeker Palanquins, the Sanguinarchs refine the art of blood-blending. In battle, they violently exsanguinate worthy champions, using their ichor in crimson concoctions to invigorate their vampiric kin.",
+    "description": "A Bloodseeker Palanquin is a single model ridden by a Sanguinarch armed with a Bloodletting Blade.",
+    "wounds": "12",
+    "move": "✹",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Bloodletting Blade",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      },
+      {
+        "name": "Spectral Claws and Blades",
+        "range": "1\"",
+        "attacks": "✹",
+        "toHit": "5+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "MOUNT",
+        "description": "This model’s Spectral Host attacks with their Wail of the Damned and Spectral Claws and Blades."
+      },
+      {
+        "name": "FLY",
+        "description": "This model can fly."
+      }
+    ],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-2",
+        "move": "14\"",
+        "wailOfTheDamned": "12\"",
+        "spectralClawsAndBlades": "12"
+      },
+      {
+        "woundsSuffered": "3-4",
+        "move": "12\"",
+        "wailOfTheDamned": "10\"",
+        "spectralClawsAndBlades": "10"
+      },
+      {
+        "woundsSuffered": "5-7",
+        "move": "10\"",
+        "wailOfTheDamned": "8\"",
+        "spectralClawsAndBlades": "8"
+      },
+      {
+        "woundsSuffered": "8-9",
+        "move": "8\"",
+        "wailOfTheDamned": "6\"",
+        "spectralClawsAndBlades": "6"
+      },
+      {}
+    ],
+    "abilities": [
+      {
+        "name": "A Fine Vintage",
+        "flavorText": "Sanguinarchs are obsessed with sampling the finest blood vintages and can further refine and blend such rich pickings to augment their followers.",
+        "description": "If an enemy HERO is slain within 9\" of this model, add 1 to the Attacks characteristic of melee weapons used by friendly VAMPIRE units wholly within 12\" of this model until your next hero phase."
+      },
+      {
+        "name": "Frightful Touch",
+        "flavorText": "The malign spirits that surround the Bloodseeker Palanquin can freeze an opponent’s blood with a single touch.",
+        "description": "If the unmodified hit roll for an attack made with this model’s Spectral Claws and Blades is 6, that attack inflicts 1 mortal wound on the target and the attack sequence ends (do not make a wound or save roll)."
+      },
+      {
+        "name": "Wail of the Damned",
+        "flavorText": "Unnerving howls follow this carriage wherever it roams. Should an enemy get close enough, the spectral host unleashes a deafening wail that tears the soul apart.",
+        "description": "Do not use the attack sequence for an attack made with a Wail of the Damned. Instead, roll a dice for each enemy unit within range of this model’s Wail of the Damned. On a 4+, that unit suffers D3 mortal wounds."
+      },
+      {
+        "name": "Arcane BoltMystic ShieldBlood Siphon",
+        "flavorText": "",
+        "description": "This model is a WIZARD. It can attempt to cast 1 spell in your hero phase and attempt to unbind 1 spell in the enemy hero phase. It knows the Arcane Bolt, Mystic Shield and Blood Siphon spells."
+      },
+      {
+        "name": "Blood Siphon",
+        "flavorText": "With a contemptuous gesture, the Sanguinarch calls forth a torrent of blood from their victim’s eyes, nose and mouth.",
+        "description": "Blood Siphon has a casting value of 6. If successfully cast, pick 1 enemy HERO within 12\" of the caster that is visible to them and roll a dice. On a 1-2, the target suffers 1 mortal wound. On a 3-4, the target suffers D3 mortal wounds. On a 5-6, the target suffers D6 mortal wounds."
+      }
+    ],
+    "keywords": [
+      "DEATH",
+      "VAMPIRE",
+      "MALIGNANT",
+      "SOULBLIGHT",
+      "GRAVELORDS",
+      "HERO",
+      "WIZARD",
+      "BLOODSEEKER",
+      "PALANQUIN"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "120 x 92mm"
+  },
+  {
+    "name": "Coven Throne",
+    "points": "290",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader",
+      "Behemoth"
+    ],
+    "flavorText": "From atop the morbid Coven Thrones, a Vampire Lady and her acolytes mark the most intriguing foes. Those chosen are beguiled even as they are torn asunder, their blood drained into a mystical font and used to scry the tangled paths to victory.",
+    "description": "A Coven Throne is a single model ridden by a Vampire Lady armed with a Predatory Bite and Stiletto.",
+    "wounds": "12",
+    "move": "✹",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Predatory Bite",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "D3"
+      },
+      {
+        "name": "Stiletto",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Needle-sharp Poniards",
+        "range": "1\"",
+        "attacks": "✹",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Spectral Claws and Blades",
+        "range": "1\"",
+        "attacks": "✹",
+        "toHit": "5+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "MOUNT",
+        "description": "This model’s Spectral Host attacks with their Spectral Claws and Blades."
+      },
+      {
+        "name": "COMPANION",
+        "description": "This model is accompanied by Handmaidens who attack with their Needlesharp Poniards. For rules purposes, they are treated in the same manner as a mount."
+      },
+      {
+        "name": "FLY",
+        "description": "This model can fly."
+      }
+    ],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-2",
+        "move": "14\"",
+        "needleSharpPoniards": "8",
+        "spectralClawsAndBlades": "12"
+      },
+      {
+        "woundsSuffered": "3-4",
+        "move": "12\"",
+        "needleSharpPoniards": "7",
+        "spectralClawsAndBlades": "10"
+      },
+      {
+        "woundsSuffered": "5-7",
+        "move": "10\"",
+        "needleSharpPoniards": "6",
+        "spectralClawsAndBlades": "8"
+      },
+      {
+        "woundsSuffered": "8-9",
+        "move": "8\"",
+        "needleSharpPoniards": "5",
+        "spectralClawsAndBlades": "6"
+      },
+      {}
+    ],
+    "abilities": [
+      {
+        "name": "The Hunger",
+        "flavorText": "Soulblight creatures crave the taste of blood and are empowered when they drink deep from the veins of defeated foes.",
+        "description": "At the end of the combat phase, if any enemy models were slain by wounds inflicted by this model’s attacks in that phase, you can heal up to D3 wounds allocated to this model."
+      },
+      {
+        "name": "Frightful Touch",
+        "flavorText": "The malign spirits that surround the Coven Throne can freeze an opponent’s blood with a single touch.",
+        "description": "If the unmodified hit roll for an attack made with this model’s Spectral Claws and Blades is 6, that attack inflicts 1 mortal wound on the target and the attack sequence ends (do not make a wound or save roll)."
+      },
+      {
+        "name": "Scrying Pool",
+        "flavorText": "Within this pool of shimmering, enchanted gore, the Vampire Lady foresees the shape of the battle to come.",
+        "description": "Once per turn, you can re-roll 1 hit roll or 1 wound roll for an attack made by this model or 1 save roll for an attack that targets this model."
+      },
+      {
+        "name": "Arcane BoltMystic ShieldShudder",
+        "flavorText": "",
+        "description": "This model is a WIZARD. It can attempt to cast 1 spell in your hero phase and attempt to unbind 1 spell in the enemy hero phase. It knows the Arcane Bolt, Mystic Shield and Shudder spells."
+      },
+      {
+        "name": "Shudder",
+        "flavorText": "Staring into their eyes, the caster clouds her prey’s mind and instils fear into their heart.",
+        "description": "Shudder has a casting value of 6. If successfully cast, pick 1 enemy unit within 12\" of the caster that is visible to them and roll 3D6. If the roll is greater than that unit’s Bravery characteristic, this model cannot be picked to be the target of any attacks made, spells cast or abilities used by that unit until your next hero phase."
+      },
+      {
+        "name": "Tactical Insight",
+        "flavorText": "The Vampire Lady and her Handmaidens employ their divinatory abilities to manipulate and aid their undying servants.",
+        "description": "You can use this command ability at the start of your hero phase. If you do so, pick 1 friendly SOULBLIGHT GRAVELORDS unit wholly within 12\" of this model. Until your next hero phase, add 1 to hit rolls and wound rolls for attacks made by that unit and add 1 to save rolls for attacks that target that unit. The same unit cannot benefit from this command ability more than once per phase."
+      }
+    ],
+    "keywords": [
+      "DEATH",
+      "VAMPIRE",
+      "MALIGNANT",
+      "SOULBLIGHT",
+      "GRAVELORDS",
+      "HERO",
+      "WIZARD",
+      "COVEN",
+      "THRONE"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "120 x 92mm"
+  },
+  {
+    "name": "Mannfred von Carstein Mortarch of Night",
+    "points": "380",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader",
+      "Behemoth"
+    ],
+    "flavorText": "Few creatures are as embittered, or as cunning, as Mannfred von Carstein. There is no stratagem he will not employ, from unceremoniously dragging down the foe beneath hordes of zombies to using their very souls to power his fell magics.",
+    "description": "Mannfred von Carstein is a named character that is a single model. He is armed with Gheistvor and a Sickle-glaive.If this model is included in a Soulblight Gravelords army with the LEGION OF NIGHT lineage keyword, this model is treated as a general in addition to the model that is chosen to be the army general.",
+    "wounds": "12",
+    "move": "✹",
+    "save": "3+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Gheistvor",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      },
+      {
+        "name": "Sickle-glaive",
+        "range": "2\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      },
+      {
+        "name": "Ebon Claws",
+        "range": "1\"",
+        "attacks": "✹",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "2"
+      },
+      {
+        "name": "Spectral Claws and Daggers",
+        "range": "1\"",
+        "attacks": "6",
+        "toHit": "5+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "MOUNT",
+        "description": "Mannfred von Carstein’s dread abyssal, Ashigaroth, attacks with its Ebon Claws."
+      },
+      {
+        "name": "COMPANION",
+        "description": "Mannfred von Carstein is accompanied by a host of spirits that attack with their Spectral Claws and Daggers. For rules purposes, they are treated in the same manner as a mount."
+      },
+      {
+        "name": "FLY",
+        "description": "Mannfred von Carstein can fly."
+      }
+    ],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-2",
+        "move": "16\"",
+        "ebonClaws": "6"
+      },
+      {
+        "woundsSuffered": "3-4",
+        "move": "13\"",
+        "ebonClaws": "5"
+      },
+      {
+        "woundsSuffered": "5-6",
+        "move": "10\"",
+        "ebonClaws": "4"
+      },
+      {
+        "woundsSuffered": "7-8",
+        "move": "7\"",
+        "ebonClaws": "3"
+      },
+      {}
+    ],
+    "abilities": [
+      {
+        "name": "The Hunger",
+        "flavorText": "Soulblight creatures crave the taste of blood and are empowered when they drink deep from the veins of defeated foes.",
+        "description": "At the end of the combat phase, if any enemy models were slain by wounds inflicted by this model’s attacks in that phase, you can heal up to D3 wounds allocated to this model."
+      },
+      {
+        "name": "Armour of Templehof",
+        "flavorText": "This suit of gothic armour is laden with many a fell enchantment, designed to protect its paranoid bearer from harm.",
+        "description": "The first wound or mortal wound allocated to this model in each phase is negated."
+      },
+      {
+        "name": "Sword of Unholy Power",
+        "flavorText": "This unholy blade drinks deep of its victim’s souls, bolstering Mannfred’s power and that of his risen minions.",
+        "description": "If any enemy models are slain by wounds inflicted by this model’s Gheistvor, until the end of that phase, add 1 to the Attacks characteristic of melee weapons used by friendly SOULBLIGHT GRAVELORDS SUMMONABLE units while they are wholly within 12\" of this model."
+      },
+      {
+        "name": "Mortarch of Night",
+        "flavorText": "Mannfred’s cunning and tactical nous is legendary, his ability to exploit even the briefest of opportunities rightly infamous throughout the realms.",
+        "description": "At the start of the combat phase, if this model is within 3\" of any enemy units, you can remove this model from the battlefield and set it up again anywhere on the battlefield more than 9\" from all enemy units."
+      },
+      {
+        "name": "Frightful Touch",
+        "flavorText": "The malign spirits that surround Mannfred can freeze an opponent’s blood with a single touch.",
+        "description": "If the unmodified hit roll for an attack made with this model’s Spectral Claws and Daggers is 6, that attack inflicts 1 mortal wound on the target and the attack sequence ends (do not make a wound or save roll)."
+      },
+      {
+        "name": "Arcane BoltMystic ShieldWind of Death",
+        "flavorText": "",
+        "description": "Mannfred von Carstein is a WIZARD. He can attempt to cast 2 spells in your hero phase and attempt to unbind 2 spells in the enemy hero phase. He knows the Arcane Bolt, Mystic Shield and Wind of Death spells."
+      },
+      {
+        "name": "Wind of Death",
+        "flavorText": "Mannfred conjures a gust of spectral wind that tears the souls from the bodies of any who feel its chilling bite.",
+        "description": "Wind of Death has a casting value of 7. If successfully cast, pick 1 enemy unit within 18\" of the caster that is visible to them, and roll a dice for that enemy unit and each other enemy unit within 6\" of that enemy unit. On a 3+, that unit suffers D3 mortal wounds."
+      },
+      {
+        "name": "Vigour of Undeath",
+        "flavorText": "Lifting the Sword of Unholy Power high, Mannfred flexes his will and sends his servants forth with redoubled fervour.",
+        "description": "You can use this command ability once per turn in your hero phase. If you do so, add 1 to hit and wound rolls for friendly SOULBLIGHT GRAVELORDS units wholly within 12\" of this model until your next hero phase."
+      }
+    ],
+    "keywords": [
+      "DEATH",
+      "VAMPIRE",
+      "SOULBLIGHT",
+      "GRAVELORDS",
+      "DEATHLORDS",
+      "LEGION",
+      "NIGHT",
+      "MONSTER",
+      "HERO",
+      "WIZARD",
+      "MORTARCH",
+      "MANNFRED"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ],
+    "baseSize": "120 x 92mm"
+  },
+  {
+    "name": "Neferata Mortarch of Blood",
+    "points": "345",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader",
+      "Behemoth"
+    ],
+    "flavorText": "First amongst the Soulblight vampires, Neferata is a true monarch of the dead. In battle, the Nulahmian queen fights with a cruel, merciless intensity, the enemy’s greatest warriors torn apart by a blur of precise and deadly strikes.",
+    "description": "Neferata is a named character that is a single model. She is armed with Akmet-har and Aken-seth.If this model is included in a Soulblight Gravelords army with the LEGION OF BLOOD lineage keyword, this model is treated as a general in addition to the model that is chosen to be the army general.",
+    "wounds": "12",
+    "move": "✹",
+    "save": "3+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Akmet-har",
+        "range": "1\"",
+        "attacks": "5",
+        "toHit": "2+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Aken-seth",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "2+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "2"
+      },
+      {
+        "name": "Abyssal Talons",
+        "range": "1\"",
+        "attacks": "✹",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "2"
+      },
+      {
+        "name": "Spectral Claws and Daggers",
+        "range": "1\"",
+        "attacks": "6",
+        "toHit": "5+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "MOUNT",
+        "description": "Neferata’s dread abyssal, Nagadron, attacks with its Abyssal Talons."
+      },
+      {
+        "name": "COMPANION",
+        "description": "Neferata is accompanied by a host of spirits that attack with their Spectral Claws and Daggers. For rules purposes, they are treated in the same manner as a mount."
+      },
+      {
+        "name": "FLY",
+        "description": "Neferata can fly."
+      }
+    ],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-2",
+        "move": "16\"",
+        "abyssalTalons": "6"
+      },
+      {
+        "woundsSuffered": "3-4",
+        "move": "13\"",
+        "abyssalTalons": "5"
+      },
+      {
+        "woundsSuffered": "5-6",
+        "move": "10\"",
+        "abyssalTalons": "4"
+      },
+      {
+        "woundsSuffered": "7-8",
+        "move": "7\"",
+        "abyssalTalons": "3"
+      },
+      {}
+    ],
+    "abilities": [
+      {
+        "name": "Dagger of Jet",
+        "flavorText": "The dagger Akmet-har has been employed in many of Nulahmia’s most sordid blood rituals and is capable of killing with the merest scratch.",
+        "description": "At the end of any phase, if any wounds inflicted by this model’s Akmet-har in that phase were allocated to an enemy HERO and not negated, and that enemy model has not been slain, roll a dice. On a 5+, that enemy HERO is slain."
+      },
+      {
+        "name": "Mortarch of Blood",
+        "flavorText": "An ancient and powerful vampire, Neferata sustains herself with the fresh blood of choice victims.",
+        "description": "At the end of the combat phase, if any enemy models were slain by wounds inflicted by this model’s attacks in that phase, you can heal up to D6 wounds allocated to this model."
+      },
+      {
+        "name": "Frightful Touch",
+        "flavorText": "The malign spirits that surround Neferata can freeze an opponent’s blood with a single touch.",
+        "description": "If the unmodified hit roll for an attack made with this model’s Spectral Claws and Daggers is 6, that attack inflicts 1 mortal wound on the target and the attack sequence ends (do not make a wound or save roll)."
+      },
+      {
+        "name": "Arcane BoltMystic ShieldDark Mist",
+        "flavorText": "",
+        "description": "Neferata is a WIZARD. She can attempt to cast 2 spells in your hero phase and attempt to unbind 2 spells in the enemy hero phase. She knows the Arcane Bolt, Mystic Shield and Dark Mist spells."
+      },
+      {
+        "name": "Dark Mist",
+        "flavorText": "At Neferata’s arcane command, tendrils of dark mist coil around her minions, rendering their corporeal forms as insubstantial as smoke.",
+        "description": "Dark Mist has a casting value of 6. If successfully cast, pick 1 friendly SOULBLIGHT GRAVELORDS unit wholly within 12\" of the caster. Ignore negative modifiers when making save rolls for attacks that target that unit until your next hero phase."
+      },
+      {
+        "name": "Twilight’s Allure",
+        "flavorText": "Neferata cloaks her minions in a penumbral gloom, shrouding the progress of her insidious schemes until it is too late to halt them.",
+        "description": "You can use this command ability once per turn in your hero phase. If you do so, subtract 1 from hit rolls for attacks made with melee weapons that target friendly SOULBLIGHT GRAVELORDS units wholly within 12\" of this model until your next hero phase."
+      }
+    ],
+    "keywords": [
+      "DEATH",
+      "VAMPIRE",
+      "SOULBLIGHT",
+      "GRAVELORDS",
+      "DEATHLORDS",
+      "LEGION",
+      "BLOOD",
+      "MONSTER",
+      "HERO",
+      "WIZARD",
+      "MORTARCH",
+      "NEFERATA"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ],
+    "baseSize": "120 x 92mm"
+  },
+  {
+    "name": "Prince Vhordrai",
+    "points": "455",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader",
+      "Behemoth"
+    ],
+    "flavorText": "From his macabre stronghold, the Crimson Keep, Prince Vhordrai leads his vampiric knights as they ride to war. Cursed for his past disloyalty, Vhordrai now serves as the Fist of Nagash, annihilating his master’s enemies in displays of shocking violence.",
+    "description": "Prince Vhordrai is a named character that is a single model. He is armed with the Bloodlance.If this model is included in a Soulblight Gravelords army with the KASTELAI DYNASTY lineage keyword, this model is treated as a general in addition to the model that is chosen to be the army general.",
+    "wounds": "14",
+    "move": "✹",
+    "save": "3+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Bloodlance",
+        "range": "2\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "2"
+      },
+      {
+        "name": "Snapping Maw",
+        "range": "3\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "D6"
+      },
+      {
+        "name": "Sword-like Claws",
+        "range": "2\"",
+        "attacks": "✹",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "MOUNT",
+        "description": "Prince Vhordrai’s Zombie Dragon, Shordemaire, attacks with its Snapping Maw and Sword-like Claws."
+      },
+      {
+        "name": "FLY",
+        "description": "Prince Vhordrai can fly."
+      }
+    ],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-3",
+        "move": "14\"",
+        "breathOfShyish": "D6",
+        "swordLikeClaws": "7"
+      },
+      {
+        "woundsSuffered": "4-6",
+        "move": "12\"",
+        "breathOfShyish": "D6",
+        "swordLikeClaws": "6"
+      },
+      {
+        "woundsSuffered": "7-9",
+        "move": "10\"",
+        "breathOfShyish": "3",
+        "swordLikeClaws": "5"
+      },
+      {
+        "woundsSuffered": "10-12",
+        "move": "8\"",
+        "breathOfShyish": "D3",
+        "swordLikeClaws": "4"
+      },
+      {}
+    ],
+    "abilities": [
+      {
+        "name": "The Hunger",
+        "flavorText": "Soulblight creatures crave the taste of blood and are empowered when they drink deep from the veins of defeated foes.",
+        "description": "At the end of the combat phase, if any enemy models were slain by wounds inflicted by this model’s attacks in that phase, you can heal up to D3 wounds allocated to this model."
+      },
+      {
+        "name": "Chalice of Blood",
+        "flavorText": "To sup from this ancient goblet will temporarily quench the bloody thirsts of its bearer.",
+        "description": "Once per battle, in your hero phase, you can heal up to D6 wounds allocated to this model."
+      },
+      {
+        "name": "Bloodlance Charge",
+        "flavorText": "This ancient lance is even more deadly when wielded on the charge.",
+        "description": "Add 2 to the Damage characteristic of this model’s Bloodlance and improve the Rend characteristic of that weapon by 1 if this model made a charge move in the same turn."
+      },
+      {
+        "name": "Breath of Shyish",
+        "flavorText": "The undead drake Shordemaire can unleash a cloud of amethyst energies that see even the mightiest warriors drop dead in moments.",
+        "description": "In your shooting phase, you can pick 1 enemy unit within 9\" of this model that is visible to it and roll a dice. On a 3+, that unit suffers a number of mortal wounds equal to the Breath of Shyish value shown on this model’s damage table."
+      },
+      {
+        "name": "Arcane BoltMystic ShieldQuickblood",
+        "flavorText": "",
+        "description": "Prince Vhordrai is a WIZARD. He can attempt to cast 1 spell in your hero phase and attempt to unbind 1 spell in the enemy hero phase. He knows the Arcane Bolt, Mystic Shield and Quickblood spells."
+      },
+      {
+        "name": "Quickblood",
+        "flavorText": "Prince Vhordrai calls upon the power of the ancient curse running through his veins, lending strength and shocking speed to his strikes.",
+        "description": "Quickblood has a casting value of 7. If successfully cast, add 1 to hit and wound rolls for attacks made with melee weapons by the caster until your next hero phase."
+      },
+      {
+        "name": "Fist of Nagash",
+        "flavorText": "Prince Vhordrai commands his servants to attack with unwavering focus, forbidding them to rest until all of Nagash’s foes are destroyed.",
+        "description": "You can use this command ability once per turn in your hero phase. If you do so, pick 1 other friendly SOULBLIGHT GRAVELORDS HERO that is wholly within 12\" of this model and within 3\" of any enemy units. That HERO can fight."
+      }
+    ],
+    "keywords": [
+      "DEATH",
+      "VAMPIRE",
+      "SOULBLIGHT",
+      "GRAVELORDS",
+      "KASTELAI",
+      "DYNASTY",
+      "ZOMBIE",
+      "DRAGON",
+      "MONSTER",
+      "HERO",
+      "WIZARD",
+      "PRINCE",
+      "VHORDRAI"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ],
+    "baseSize": "130mm"
+  },
+  {
+    "name": "Vampire Lord on Zombie Dragon",
+    "points": "435",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader",
+      "Behemoth"
+    ],
+    "flavorText": "The proudest and most martial of vampires take to battle astride terrifying undead drakes. Armed with such a potent mount, they are capable of turning the tide of battle alone, striking down their rivals and supping their blood from enchanted goblets.",
+    "description": "A Vampire Lord on Zombie Dragon is a single model armed with 1 of the following weapon options: Deathlance; or Vampiric Sword.",
+    "wounds": "14",
+    "move": "✹",
+    "save": "3+",
+    "bravery": "10",
+    "missleWeapons": [
+      {
+        "name": "Pestilential Breath",
+        "range": "9\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "✹",
+        "rend": "-3",
+        "damage": "D6"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Deathlance",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      },
+      {
+        "name": "Vampiric Sword",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      },
+      {
+        "name": "Snapping Maw",
+        "range": "3\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "D6"
+      },
+      {
+        "name": "Sword-like Claws",
+        "range": "2\"",
+        "attacks": "✹",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "MOUNT",
+        "description": "This model’s Zombie Dragon attacks with its Pestilential Breath, Snapping Maw and Sword-like Claws."
+      },
+      {
+        "name": "FLY",
+        "description": "This model can fly."
+      }
+    ],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-3",
+        "move": "14\"",
+        "pestilentialBreath": "2+",
+        "swordLikeClaws": "7"
+      },
+      {
+        "woundsSuffered": "4-6",
+        "move": "12\"",
+        "pestilentialBreath": "3+",
+        "swordLikeClaws": "6"
+      },
+      {
+        "woundsSuffered": "7-9",
+        "move": "10\"",
+        "pestilentialBreath": "4+",
+        "swordLikeClaws": "5"
+      },
+      {
+        "woundsSuffered": "10-12",
+        "move": "8\"",
+        "pestilentialBreath": "5+",
+        "swordLikeClaws": "4"
+      },
+      {}
+    ],
+    "abilities": [
+      {
+        "name": "Pestilential Breath",
+        "flavorText": "When a Zombie Dragon looses its breath, the killing miasma withers flesh and saps life from the living.",
+        "description": "When you attack with this model’s Pestilential Breath, roll a dice before making the hit roll for the attack. If the roll is less than or equal to the number of models in the target unit, the attack scores a hit without needing to make a hit roll."
+      },
+      {
+        "name": "The Hunger",
+        "flavorText": "Soulblight creatures crave the taste of blood and are empowered when they drink deep from the veins of defeated foes.",
+        "description": "At the end of the combat phase, if any enemy models were slain by wounds inflicted by this model’s attacks in that phase, you can heal up to D3 wounds allocated to this model."
+      },
+      {
+        "name": "Deathlance Charge",
+        "flavorText": "A Deathlance can inflict hideous wounds when wielded with sufficient momentum.",
+        "description": "Add 2 to the Damage characteristic of this model’s Deathlance and improve the Rend characteristic of that weapon by 1 if this model made a charge move in the same turn."
+      },
+      {
+        "name": "Arcane BoltMystic ShieldCurse of Exsanguination",
+        "flavorText": "",
+        "description": "This model is a WIZARD. It can attempt to cast 1 spell in your hero phase and attempt to unbind 1 spell in the enemy hero phase. It knows the Arcane Bolt, Mystic Shield and Curse of Exsanguination spells."
+      }
+    ],
+    "keywords": [
+      "DEATH",
+      "VAMPIRE",
+      "SOULBLIGHT",
+      "GRAVELORDS",
+      "ZOMBIE",
+      "DRAGON",
+      "MONSTER",
+      "HERO",
+      "WIZARD",
+      "VAMPIRE",
+      "LORD"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "130mm"
+  },
+  {
+    "name": "Nagash Supreme Lord of the Undead",
+    "points": "955",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader",
+      "Behemoth"
+    ],
+    "flavorText": "Nagash is the Great Necromancer, Supreme Lord of the Undead and master of all that passes beyond the mortal coil. He is nothing less than an evil-hearted god, and those who earn his displeasure are soon turned to dust upon the wind.",
+    "description": "",
+    "wounds": "16",
+    "move": "9\"",
+    "save": "3+",
+    "bravery": "10",
+    "missleWeapons": [
+      {
+        "name": "Gaze of Nagash",
+        "range": "12\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "2+",
+        "rend": "-1",
+        "damage": "D6"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Alakanash",
+        "range": "3\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-3",
+        "damage": "D6"
+      },
+      {
+        "name": "Zefet-nebtar",
+        "range": "2\"",
+        "attacks": "✹",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-2",
+        "damage": "3"
+      },
+      {
+        "name": "Spectral Claws and Daggers",
+        "range": "1\"",
+        "attacks": "6",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-6",
+        "theNineBooksOfNagash": "Cast and unbind 5 extra spells",
+        "zefetNebtar": "6",
+        "staffOfPower": "+3 cast /+3 unbind or dispel"
+      },
+      {
+        "woundsSuffered": "7-9",
+        "theNineBooksOfNagash": "Cast and unbind 3 extra spells",
+        "zefetNebtar": "4",
+        "staffOfPower": "+3 cast /+2 unbind or dispel"
+      },
+      {
+        "woundsSuffered": "10-12",
+        "theNineBooksOfNagash": "Cast and unbind 2 extra spells",
+        "zefetNebtar": "3",
+        "staffOfPower": "+2 cast /+1 unbind or dispel"
+      },
+      {}
+    ],
+    "abilities": [],
+    "keywords": [
+      "DEATH",
+      "DEATHLORDS",
+      "HERO",
+      "MONSTER",
+      "WIZARD",
+      "NAGASH"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ],
+    "baseSize": "130mm"
+  },
+  {
+    "name": "Belladamma Volga First of the Vyrkos",
+    "points": "200",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Little is known of the mysterious First of the Vyrkos. When she and her lupine packs hunt, the enemy is overcome by a storm of savage claws and slavering fangs, their champions hideously transfigured by the cruel and ancient matriarch.",
+    "description": "Belladamma Volga is a named character that is a single model. She is armed with a Timeworn Scimitar.If this model is included in a Soulblight Gravelords army with the VYRKOS DYNASTY lineage keyword, this model is treated as a general in addition to the model that is chosen to be the army general.",
+    "wounds": "9",
+    "move": "10\"",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Timeworn Scimitar",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      },
+      {
+        "name": "Lupine Fangs and Claws",
+        "range": "1\"",
+        "attacks": "6",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "MOUNT",
+        "description": "Belladamma’s wolves attack with their Lupine Fangs and Claws."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "The Hunger",
+        "flavorText": "Soulblight creatures crave the taste of blood and are empowered when they drink deep from the veins of defeated foes.",
+        "description": "At the end of the combat phase, if any enemy models were slain by wounds inflicted by this model’s attacks in that phase, you can heal up to D3 wounds allocated to this model."
+      },
+      {
+        "name": "First of the Vyrkos",
+        "flavorText": "Belladamma wields all manner of strange and potent sorceries, many known only to the Elders of the Vyrkos. She uses these to bind packs of Dire Wolves to her service that will unthinkingly sacrifice themselves to protect their savage mistress.",
+        "description": "Add 1 to casting, dispelling and unbinding rolls for this model. In addition, roll a dice before you allocate a wound or mortal wound to this model if it is within 3\" of any friendly DIRE WOLVES units. On a 3+, that wound or mortal wound is allocated to 1 of those units instead of this model."
+      },
+      {
+        "name": "Arcane BoltMystic ShieldLycancurseUnder a Killing Moon",
+        "flavorText": "",
+        "description": "Belladamma is a WIZARD. She can attempt to cast 2 spells in your hero phase and attempt to unbind 2 spells in the enemy hero phase. She knows the Arcane Bolt, Mystic Shield, Lycancurse and Under a Killing Moon spells."
+      },
+      {
+        "name": "Lycancurse",
+        "flavorText": "Singling out a choice foe, Belladamma’s gnarled hand curls into a fist, lupine eyes watching as her victim’s bones are crushed and warped into a form more pleasing to her.",
+        "description": "Lycancurse has a casting value of 7. If successfully cast, pick 1 enemy unit within 18\" of the caster that is visible to them. That unit suffers D3 mortal wounds. If any models in that unit were slain by this spell, before removing the last slain model, you can add 1 unit of DIRE WOLVES to your army. The number of models in the new unit must be equal to the number of models in the enemy unit that were slain by this spell. Set up the new unit within 3\" of the slain model’s unit, and then remove the slain model from play."
+      },
+      {
+        "name": "Under a Killing Moon",
+        "flavorText": "The skies clear as a full and eerie moon rises to illuminate the battlefield. A synchronised howl echoes far and wide as the bestial warriors of the Vyrkos unleash their rage.",
+        "description": "Under a Killing Moon has a casting value of 6. If successfully cast, until your next hero phase, if the unmodified hit roll for an attack made with a melee weapon by a friendly SOULBLIGHT GRAVELORDS unit wholly within 12\" of the caster is 6, that attack inflicts 2 hits on the target instead of 1. Make a wound and save roll for each hit."
+      },
+      {
+        "name": "Pack Alpha",
+        "flavorText": "The Dire Wolves of Belladamma’s pack are amongst the most savage of their kind and will fall upon their foes with a slavering intensity.",
+        "description": "You can use this command ability at the start of your hero phase. If you do so, pick 1 friendly DIRE WOLVES unit wholly within 12\" of this model. Until your next hero phase, that unit is eligible to fight in the combat phase if it is within 6\" of an enemy unit instead of 3\", and it can move an extra 3\" when it piles in."
+      }
+    ],
+    "keywords": [
+      "DEATH",
+      "VAMPIRE",
+      "SOULBLIGHT",
+      "GRAVELORDS",
+      "VYRKOS",
+      "DYNASTY",
+      "HERO",
+      "WIZARD",
+      "VAMPIRE",
+      "LORD",
+      "BELLADAMMA",
+      "VOLGA"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ],
+    "baseSize": "60mm"
+  },
+  {
+    "name": "Gorslav the Gravekeeper",
+    "points": "75",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "The macabre creature known as Gorslav the Gravekeeper lords over the many cemeteries and mausoleums of Ulfenkarn. In battle, he leads hordes of shambling Deadwalkers that hurl themselves at the foe, infused with a rabid determination.",
+    "description": "Gorslav the Gravekeeper is a named character that is a single model. He is armed with a Gravekeeper’s Spade.",
+    "wounds": "7",
+    "move": "4\"",
+    "save": "6+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Gravekeeper’s Spade",
+        "range": "2\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Keeper of the Corpse-gardens",
+        "flavorText": "Those victims buried within the crypts and charnel pits of Ulfenkarn are bound to Gorslav through death magic. In battle, he can call upon his Deadwalker minions to throw themselves into enemy attacks and blunt their blades.",
+        "description": "Roll a dice before you allocate a wound or mortal wound to this model if it is within 3\" of any friendly DEADWALKERS units. On a 4+, that wound or mortal wound is allocated to 1 of those units instead of this model."
+      },
+      {
+        "name": "Arise! Arise!",
+        "flavorText": "With a rasping cry, the Gravekeeper beckons his freshly buried victims to arise once more in death and devour any living souls they find before them.",
+        "description": "You can use this command ability at the end of your movement phase. If you do so, pick 1 friendly SUMMONABLE DEADWALKERS unit that has been destroyed. A new replacement unit with half of the models from the unit that was destroyed (rounding up) is added to your army. Set up that unit wholly within 9\" of a friendly model with this command ability and more than 9\" from any enemy units. Each destroyed unit can only be replaced once – replacement units cannot themselves be replaced."
+      }
+    ],
+    "keywords": [
+      "DEATH",
+      "SOULBLIGHT",
+      "GRAVELORDS",
+      "VYRKOS",
+      "DYNASTY",
+      "DEADWALKERS",
+      "HERO",
+      "GORSLAV",
+      "GRAVEKEEPER"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ]
+  },
+  {
+    "name": "Kritza the Rat Prince",
+    "points": "95",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Though Kritza professes nobility, in reality, his soul is as odious as the Ulfenkarni sewers that are his lair. Swathed in choking perfume, the Rat Prince is nevertheless a cunning adversary, returning after each apparent defeat to exact a cruel revenge.",
+    "description": "Kritza is a named character that is a single model. He is armed with a Gnawblade.If this model is included in a Soulblight Gravelords army with the VYRKOS DYNASTY lineage keyword, this model is treated as a general in addition to the model that is chosen to be the army general.",
+    "wounds": "6",
+    "move": "6\"",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Gnawblade",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Scurrying Retreat",
+        "flavorText": "Upon his apparent demise, Kritza will transfigure into a swarm of scurrying rats, only to rematerialise elsewhere and drive his blade into an unwary foe’s back.",
+        "description": "At the end of your movement phase, if this model has been slain, roll a dice. On a 4+, you can set up this model anywhere on the battlefield more than 9\" from all enemy units, with all wounds allocated to it removed."
+      },
+      {
+        "name": "Nauseating Aroma",
+        "flavorText": "So thick are Kritza’s perfumes, and so vile are they in nature, that even daemons have been known to be temporarily overwhelmed in his presence.",
+        "description": "Subtract 1 from hit rolls for attacks made with melee weapons that target this model."
+      }
+    ],
+    "keywords": [
+      "DEATH",
+      "VAMPIRE",
+      "SOULBLIGHT",
+      "GRAVELORDS",
+      "VYRKOS",
+      "DYNASTY",
+      "HERO",
+      "VAMPIRE",
+      "LORD",
+      "KRITZA"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ],
+    "baseSize": "60 x 35mm"
+  },
+  {
+    "name": "Lady Annika the Thirsting Blade",
+    "points": "110",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Even amongst the Soulblight vampires, Lady Annika’s thirst for blood is legendary. In battle, she attacks as a sanguine blur, her enchanted rapier reaping a red harvest as her foes fatally stumble and slip in the gore that inevitably pools about her feet.",
+    "description": "Lady Annika is a named character that is a single model. She is armed with the Blade Proboscian.If this model is included in a Soulblight Gravelords army with the VYRKOS DYNASTY lineage keyword, this model is treated as a general in addition to the model that is chosen to be the army general.",
+    "wounds": "6",
+    "move": "6\"",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Blade Proboscian",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Supernatural Speed",
+        "flavorText": "Many foes have mistaken Annika’s slender form for an easy target, little appreciating the manic agility granted by her curse.",
+        "description": "Roll a dice each time you allocate a wound or mortal wound to this model. On a 4+, that wound or mortal wound is negated."
+      },
+      {
+        "name": "Kiss of the Blade Proboscian",
+        "flavorText": "This pitted and corroded blade should not endure – and yet, it does. The same cannot be said for those even scratched by its mouldering point.",
+        "description": "At the end of a phase, if any enemy models were slain by wounds inflicted by this model’s attacks in that phase, you can heal all wounds allocated to this model."
+      }
+    ],
+    "keywords": [
+      "DEATH",
+      "VAMPIRE",
+      "SOULBLIGHT",
+      "GRAVELORDS",
+      "VYRKOS",
+      "DYNASTY",
+      "HERO",
+      "VAMPIRE",
+      "LORD",
+      "LADY",
+      "ANNIKA"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ],
+    "baseSize": "60 x 35mm"
+  },
+  {
+    "name": "Lauka Vai Mother of Nightmares",
+    "points": "285",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Lauka Vai is the queen of the Avengorii Dynasty. Within this monstrous vampire, an eternal battle rages, for though she desires to lead her kin against only the worthiest foes, her thirsts sometimes drive her to the most terrible slaughter.",
+    "description": "Lauka Vai is a named character that is a single model. She is armed with an Askurga Rapier, Gore-drenched Talons and Impaling Tail.If this model is included in a Soulblight Gravelords army with the AVENGORII DYNASTY lineage keyword, this model is treated as a general in addition to the model that is chosen to be the army general.",
+    "wounds": "11",
+    "move": "12\"",
+    "save": "3+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Askurga Rapier",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      },
+      {
+        "name": "Gore-drenched Talons",
+        "range": "3\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D6"
+      },
+      {
+        "name": "Impaling Tail",
+        "range": "1\"",
+        "attacks": "D6",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "FLY",
+        "description": "Lauka Vai can fly."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Champion of the Avengorii",
+        "flavorText": "Lauka Vai’s masterful martial prowess and monstrous beast-form render her an unholy terror upon the battlefield.",
+        "description": "After this model makes a charge move, you can pick 1 enemy unit within 1\" of this model and roll a number of dice equal to the charge roll for that charge move. For each 5+, that enemy unit suffers 1 mortal wound."
+      },
+      {
+        "name": "Nightmare’s Miasma",
+        "flavorText": "The strange curse of the Vengorians sees shining blades and hallowed relics rust and soften in their presence.",
+        "description": "While an enemy unit is within 3\" of any friendly models with this ability, worsen the Rend characteristic of that unit’s melee weapons by 1 (to a minimum of ‘-’)."
+      },
+      {
+        "name": "Undeniable Impulse",
+        "flavorText": "Lauka Vai fights a constant internal battle to control her bestial nature. It is not a battle she always wins.",
+        "description": "At the start of your hero phase, roll a dice for this model. If the roll is equal to or less than the number of the current battle round, until your next hero phase, this model can run and still charge later in the same turn. However, this model cannot use command abilities until your next hero phase."
+      },
+      {
+        "name": "The Hunger",
+        "flavorText": "Soulblight creatures crave the taste of blood and are empowered when they drink deep from the veins of defeated foes.",
+        "description": "At the end of the combat phase, if any enemy models were slain by wounds inflicted by this model’s attacks in that phase, you can heal up to D3 wounds allocated to this model."
+      },
+      {
+        "name": "Arcane BoltMystic ShieldDeath’s Downpour",
+        "flavorText": "",
+        "description": "Lauka Vai is a WIZARD. She can attempt to cast 1 spell in your hero phase and attempt to unbind 1 spell in the enemy hero phase. She knows the Arcane Bolt, Mystic Shield and Death’s Downpour spells."
+      },
+      {
+        "name": "Death’s Downpour",
+        "flavorText": "Lauka draws upon the corrupt ending-magic running through her veins before lifting her blade skyward, summoning a deluge of slippery gore to wrong-foot her adversaries.",
+        "description": "Death’s Downpour has a casting value of 8. If successfully cast, charge rolls made for enemy units within 12\" of this model are halved until your next hero phase."
+      },
+      {
+        "name": "A Queen Amongst Monsters",
+        "flavorText": "The Mother of Nightmares is followed by a menagerie of twisted vampires and monstrous undead beasts, all of whom seem empowered by her very presence.",
+        "description": "This model can issue this command at the start of your hero phase. If it does so, pick 1 enemy unit that is visible to this model. Until your next hero phase, add 1 to hit rolls for attacks made with melee weapons by friendly SOULBLIGHT GRAVELORDS MONSTERS that target that enemy unit."
+      }
+    ],
+    "keywords": [
+      "DEATH",
+      "VAMPIRE",
+      "SOULBLIGHT",
+      "GRAVELORDS",
+      "AVENGORII",
+      "DYNASTY",
+      "MONSTER",
+      "HERO",
+      "WIZARD",
+      "LAUKA",
+      "VAI"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ],
+    "baseSize": "80mm"
+  },
+  {
+    "name": "Necromancer",
+    "points": "125",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Necromancers are those mortals who, in their quest to attain mastery over death, wield the foulest Shyishan magics. At their command, the undead rise from their graves, granted an unholy impetus by their masters even as they shield them from harm.",
+    "description": "A Necromancer is a single model armed with a Mortis Staff.",
+    "wounds": "5",
+    "move": "5\"",
+    "save": "6+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Mortis Staff",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Undead Minions",
+        "flavorText": "The Necromancer pulls servants of death into harm’s way to protect the flow of their reanimating magic.",
+        "description": "Roll a dice before you allocate a wound or mortal wound to this model if it is within 3\" of any friendly SOULBLIGHT GRAVELORDS SUMMONABLE units. On a 3+, that wound or mortal wound is allocated to 1 of those units instead of this model."
+      },
+      {
+        "name": "Arcane BoltMystic ShieldVanhel’s Danse Macabre",
+        "flavorText": "",
+        "description": "This model is a WIZARD. It can attempt to cast 1 spell in your hero phase and attempt to unbind 1 spell in the enemy hero phase. It knows the Arcane Bolt, Mystic Shield and Vanhel’s Danse Macabre spells."
+      },
+      {
+        "name": "Vanhel’s Danse Macabre",
+        "flavorText": "The undead are filled with magical energy that causes them to jerk forwards and attack with tireless, unnatural speed.",
+        "description": "Vanhel’s Danse Macabre has a casting value of 6. If successfully cast, pick 1 friendly SOULBLIGHT GRAVELORDS SUMMONABLE unit wholly within 18\" of the caster. Until your next hero phase, if that unit has fought only once in the combat phase, when it is your turn to pick a unit to fight, that unit can be picked to fight for a second time if it is within 3\" of any enemy units."
+      }
+    ],
+    "keywords": [
+      "DEATH",
+      "SOULBLIGHT",
+      "GRAVELORDS",
+      "DEATHMAGES",
+      "HERO",
+      "WIZARD",
+      "NECROMANCER"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Prince Duvalle",
+    "points": "200",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Prince Duvalle claims descent from the von Carstein lineage, and few are foolish enough to gainsay him to his face. He is adept at conjuring magical glamours and illusions, rendering his prey disoriented and vulnerable before striking.",
+    "description": "Prince Duvalle is a named character that is a single model. He is armed with a Possessed Blade.",
+    "wounds": "5",
+    "move": "6\"",
+    "save": "3+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Possessed Blade",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "The Hunger",
+        "flavorText": "Soulblight creatures crave the taste of blood and are empowered when they drink deep from the veins of defeated foes.",
+        "description": "At the end of the combat phase, if any enemy models were slain by wounds inflicted by this model’s attacks in that phase, you can heal up to D3 wounds allocated to this model."
+      },
+      {
+        "name": "Arcane BoltMystic ShieldFiendish Lure",
+        "flavorText": "",
+        "description": "Prince Duvalle is a WIZARD. He can attempt to cast 1 spell in your hero phase and attempt to unbind 1 spell in the enemy hero phase. He knows the Arcane Bolt, Mystic Shield and Fiendish Lure spells."
+      },
+      {
+        "name": "Fiendish Lure",
+        "flavorText": "Duvalle distorts the minds of his enemies with illusions of their fallen comrades, rendering them disoriented and vulnerable to the blades of the dead.",
+        "description": "Fiendish Lure has a casting value of 5. If successfully cast, pick 1 enemy unit within 6\" of the caster that is visible to them. Add 1 to hit rolls for attacks that target that unit until your next hero phase."
+      }
+    ],
+    "keywords": [
+      "DEATH",
+      "VAMPIRE",
+      "SOULBLIGHT",
+      "GRAVELORDS",
+      "HERO",
+      "WIZARD",
+      "PRINCE",
+      "DUVALLE"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique. Prince Duvalle and <a href=\"/aos3/factions/soulblight-gravelords/warscrolls.html#The-Crimson-Court\">The Crimson Court</a> must be taken as a set. Although taken as a set",
+      "each is a separate unit."
+    ]
+  },
+  {
+    "name": "Radukar the Beast",
+    "points": "315",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Overwhelmed by his wrath, Radukar has undergone a terrifying transformation. The bestial monster within has come to consume the vampire almost entirely, and he now fights with a raw and brutal fury, his ferocious howls ringing through the night.",
+    "description": "Radukar the Beast is a named character that is a single model. He is armed with Blood-slick Claws.If this model is included in a Soulblight Gravelords army with the VYRKOS DYNASTY lineage keyword, this model is treated as a general in addition to the model that is chosen to be the army general.",
+    "wounds": "12",
+    "move": "8\"",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Blood-slick Claws",
+        "range": "2\"",
+        "attacks": "6",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      },
+      {
+        "name": "Piercing Blade",
+        "range": "1\"",
+        "attacks": "6",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "COMPANION",
+        "description": "Radukar the Beast is accompanied by 2 Vyrkos Blood-born that attack with their Piercing Blades. For rules purposes, they are treated in the same manner as a mount."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Bounding Charge",
+        "flavorText": "Radukar’s bestial form allows him to lope at shocking speed towards the enemy.",
+        "description": "This model can run and still charge later in the same turn."
+      },
+      {
+        "name": "The Hunger",
+        "flavorText": "Soulblight creatures crave the taste of blood and are empowered when they drink deep from the veins of defeated foes.",
+        "description": "At the end of the combat phase, if any enemy models were slain by wounds inflicted by this model’s attacks in that phase, you can heal up to D3 wounds allocated to this model."
+      },
+      {
+        "name": "Supernatural Reflexes",
+        "flavorText": "In his more bestial state, Radukar’s predatory instincts are honed to a razor’s edge, rendering him almost impossible to strike.",
+        "description": "Subtract 1 from hit rolls for attacks that target this model."
+      },
+      {
+        "name": "Unleashed Ferocity",
+        "flavorText": "The Beast’s unnatural strength gives him terrifying power in melee combat.",
+        "description": "If the unmodified hit roll for an attack made with this model’s Blood-slick Claws is 6, that attack inflicts 2 mortal wounds on the target and the attack sequence ends (do not make a wound or save roll)."
+      },
+      {
+        "name": "Call to the Hunt",
+        "flavorText": "Radukar charges into the fray, calling upon all to cut down the foe before them.",
+        "description": "You can use this command ability at the start of the combat phase. If you do so, pick 1 friendly model with this command ability that made a charge move in that turn. Add 1 to the Attacks characteristic of melee weapons used by friendly SOULBLIGHT GRAVELORDS units wholly within 18\" of that model until the end of that phase. The same unit cannot benefit from this command ability more than once per phase."
+      },
+      {
+        "name": "Mustering Howl",
+        "flavorText": "Radukar’s howl is instantly recognisable. When released in the midst of battle, the resounding cry is met with an echoing chorus from his lupine kin.",
+        "description": "You can use this command ability once per battle at the end of your movement phase. If you do so, you can add 1 unit of 10 DIRE WOLVES to your army. The unit must be set up wholly within 12\" of this model and more than 9\" from all enemy units."
+      }
+    ],
+    "keywords": [
+      "DEATH",
+      "VAMPIRE",
+      "SOULBLIGHT",
+      "GRAVELORDS",
+      "VYRKOS",
+      "DYNASTY",
+      "HERO",
+      "VAMPIRE",
+      "LORD",
+      "RADUKAR",
+      "BEAST"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique. Cannot be included in the same army as <a href=\"/aos3/factions/soulblight-gravelords/warscrolls.html#Radukar-the-Wolf\">Radukar the Wolf</a>."
+    ],
+    "baseSize": "60mm"
+  },
+  {
+    "name": "Radukar the Wolf",
+    "points": "150",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Radukar is a cruel and savage vampire lord who rules over the city of Ulfenkarn. In battle, he wields the barrow-blade of a legendary vampire emperor, which, when combined with his bestial nature, makes Radukar a fearsome foe indeed.",
+    "description": "Radukar the Wolf is a named character that is a single model. He is armed with a Vyrkos Barrow-blade.",
+    "wounds": "7",
+    "move": "5\"",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Vyrkos Barrow-blade",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "The Hunger",
+        "flavorText": "Soulblight creatures crave the taste of blood and are empowered when they drink deep from the veins of defeated foes.",
+        "description": "At the end of the combat phase, if any enemy models were slain by wounds inflicted by this model’s attacks in that phase, you can heal up to D3 wounds allocated to this model."
+      },
+      {
+        "name": "Supernatural Strength",
+        "flavorText": "When his bestial nature is let loose, Radukar can cleave foes in two with a strike of his mighty sword.",
+        "description": "If the unmodified wound roll for an attack made with a melee weapon by this model is 6, that attack inflicts 1 mortal wound on the target in addition to any normal damage."
+      },
+      {
+        "name": "Loyal to the Last",
+        "flavorText": "To fight beside Radukar is an honour never taken lightly, and there are no guardians more selfless than the Kosargi Nightguard.",
+        "description": "Roll a dice before you allocate a wound or mortal wound to this model while it is within 3\" of any friendly KOSARGI NIGHTGUARD units. On a 2+, that wound or mortal wound is allocated to 1 of those units instead of this model."
+      },
+      {
+        "name": "Arcane BoltMystic Shield",
+        "flavorText": "",
+        "description": "This model is a WIZARD. It can attempt to cast 1 spell in your hero phase and attempt to unbind 1 spell in the enemy hero phase. It knows the Arcane Bolt and Mystic Shield spells."
+      },
+      {
+        "name": "Call to the Hunt",
+        "flavorText": "Radukar charges into the fray, calling upon all to cut down the foe before them.",
+        "description": "You can use this command ability at the start of the combat phase. If you do so, pick 1 friendly model with this command ability that made a charge move in that turn. Add 1 to the Attacks characteristic of melee weapons used by friendly SOULBLIGHT GRAVELORDS units wholly within 18\" of that model until the end of that phase. The same unit cannot benefit from this command ability more than once per phase."
+      }
+    ],
+    "keywords": [
+      "DEATH",
+      "VAMPIRE",
+      "SOULBLIGHT",
+      "GRAVELORDS",
+      "VYRKOS",
+      "DYNASTY",
+      "HERO",
+      "WIZARD",
+      "VAMPIRE",
+      "LORD",
+      "RADUKAR",
+      "WOLF"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique. Cannot be included in the same army as <a href=\"/aos3/factions/soulblight-gravelords/warscrolls.html#Radukar-the-Beast\">Radukar the Beast</a>."
+    ],
+    "baseSize": "40mm"
+  },
+  {
+    "name": "Torgillius the Chamberlain",
+    "points": "100",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "This dark magician has earned himself a place in Radukar’s court thanks to his mastery of grave-sand and its uses. When called into battle, Torgillius can unleash devastating sorcery that leaves any survivors drained of all strength.",
+    "description": "Torgillius the Chamberlain is a named character that is a single model.",
+    "wounds": "6",
+    "move": "5\"",
+    "save": "6+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Claws and Fangs",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "5+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "COMPANION",
+        "description": "Torgillius the Chamberlain is accompanied by his vermin who attack with their Claws and Fangs. For rules purposes, they are treated in the same manner as a mount."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Mastery of Grave-sand",
+        "flavorText": "Torgillius can manipulate the energies of grave-sand to repel attackers.",
+        "description": "Roll a dice each time you allocate a wound or mortal wound to this unit. On a 4+, that wound or mortal wound is negated."
+      },
+      {
+        "name": "Trusted Lieutenant",
+        "flavorText": "Radukar has granted Torgillius the resources with which to continue his research. In return, the Chamberlain provides his knowledge of necromancy and passes on the secrets gathered for him by his vermin spies.",
+        "description": "At the start of your hero phase, if this model is within 3\" of a friendly RADUKAR THE WOLF, roll a dice. On a 4+, you receive 1 extra command point."
+      },
+      {
+        "name": "Arcane BoltMystic ShieldNecrotising Bolt",
+        "flavorText": "",
+        "description": "This model is a WIZARD. It can attempt to cast 1 spell in your hero phase and attempt to unbind 1 spell in the enemy hero phase. It knows the Arcane Bolt, Mystic Shield and Necrotising Bolt spells."
+      },
+      {
+        "name": "Necrotising Bolt",
+        "flavorText": "Dark magic coalesces around Torgillius before being launched straight at the foe, sapping their strength and flaying soul from body.",
+        "description": "Necrotising Bolt has a casting value of 6. If successfully cast, pick 1 enemy unit within 18\" of the caster that is visible to them. Subtract 1 from hit rolls for attacks made by that unit until your next hero phase."
+      }
+    ],
+    "keywords": [
+      "DEATH",
+      "SOULBLIGHT",
+      "GRAVELORDS",
+      "VYRKOS",
+      "DYNASTY",
+      "DEATHMAGES",
+      "HERO",
+      "WIZARD",
+      "NECROMANCER",
+      "TORGILLIUS",
+      "CHAMBERLAIN"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ]
+  },
+  {
+    "name": "Vampire Lord",
+    "points": "140",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Vampire Lords are elder undead whose dark powers have only deepened over the long centuries. Each is a warrior to be feared, while their command of necromancy sees them raise up fresh reanimated warriors with but a pulse of will.",
+    "description": "A Vampire Lord is a single model armed with Soulbound Blades.",
+    "wounds": "5",
+    "move": "6\"",
+    "save": "3+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Soulbound Blades",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "FLY",
+        "description": "This model can fly."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "The Hunger",
+        "flavorText": "Soulblight creatures crave the taste of blood and are empowered when they drink deep from the veins of defeated foes.",
+        "description": "At the end of the combat phase, if any enemy models were slain by wounds inflicted by this model’s attacks in that phase, you can heal up to D3 wounds allocated to this model."
+      },
+      {
+        "name": "Arcane BoltMystic Shield",
+        "flavorText": "",
+        "description": "This model is a WIZARD. It can attempt to cast 1 spell in your hero phase and attempt to unbind 1 spell in the enemy hero phase. It knows the Arcane Bolt and Mystic Shield spells."
+      },
+      {
+        "name": "Crimson Feast",
+        "flavorText": "The Vampire Lord unshackles the monstrous bloodlust that lurks within their soul, their bestial appetites soon spreading to the undead bound to their will.",
+        "description": "You can use this command ability in the combat phase. If you do so, pick 1 friendly SOULBLIGHT GRAVELORDS SUMMONABLE unit wholly within 12\" of this model. Add 1 to the Attacks characteristic of that unit’s melee weapons until your next hero phase. The same unit cannot benefit from this command ability more than once per phase."
+      }
+    ],
+    "keywords": [
+      "DEATH",
+      "VAMPIRE",
+      "SOULBLIGHT",
+      "GRAVELORDS",
+      "HERO",
+      "WIZARD",
+      "VAMPIRE",
+      "LORD"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "40mm"
+  },
+  {
+    "name": "Vengorian Lord",
+    "points": "280",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Twisted by the power of unbound arcana, Vengorian Lords embody the nightmarish true nature of the Soulblight vampires. Unable to bear the sight of their own reflection, they wield magics of rust and clotting, revelling in their own self-loathing.",
+    "description": "A Vengorian Lord is a single model armed with a Nightmare Sabre, Gore-drenched Talons and Impaling Tail.",
+    "wounds": "10",
+    "move": "12\"",
+    "save": "3+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Nightmare Sabre",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      },
+      {
+        "name": "Gore-drenched Talons",
+        "range": "3\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D6"
+      },
+      {
+        "name": "Impaling Tail",
+        "range": "1\"",
+        "attacks": "D6",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "FLY",
+        "description": "This model can fly."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Nightmare’s Miasma",
+        "flavorText": "The strange curse of the Vengorians sees shining blades and hallowed relics rust and soften in their presence.",
+        "description": "While an enemy unit is within 3\" of any friendly models with this ability, worsen the Rend characteristic of that unit’s melee weapons by 1 (to a minimum of ‘-’)."
+      },
+      {
+        "name": "Undeniable Impulse",
+        "flavorText": "Many Vengorians struggle to hold onto their rationality, sometimes abandoning all pretence of command to indulge in wild, spiteful violence.",
+        "description": "At the start of your hero phase, roll a dice for this model. If the roll is equal to or less than the number of the current battle round, until your next hero phase, this model can run and still charge later in the same turn. However, this model cannot use command abilities until your next hero phase."
+      },
+      {
+        "name": "The Hunger",
+        "flavorText": "Soulblight creatures crave the taste of blood and are empowered when they drink deep from the veins of defeated foes.",
+        "description": "At the end of the combat phase, if any enemy models were slain by wounds inflicted by this model’s attacks in that phase, you can heal up to D3 wounds allocated to this model."
+      },
+      {
+        "name": "Arcane BoltMystic ShieldClotted Deluge",
+        "flavorText": "",
+        "description": "This model is a WIZARD. It can attempt to cast 1 spell in your hero phase and attempt to unbind 1 spell in the enemy hero phase. It knows the Arcane Bolt, Mystic Shield and Clotted Deluge spells."
+      },
+      {
+        "name": "Clotted Deluge",
+        "flavorText": "The Vengorian summons a squall of foetid, clotted blood to splatter across a foe, focusing the attentions of nearby creatures of the night.",
+        "description": "Clotted Deluge has a casting value of 6. If successfully cast, pick 1 enemy unit within 12\" of the caster that is visible to them. Add 1 to wound rolls for attacks made with melee weapons that target that unit until your next hero phase."
+      },
+      {
+        "name": "Festering Feast",
+        "flavorText": "Vengorians bid their followers indulge in gory feasts even in the midst of battle. The more vile and unlovely the sight of the foe’s blood, the more satisfying it is for these monsters.",
+        "description": "This model can issue this command at the end of the combat phase. The command can only be received by a friendly SOULBLIGHT GRAVELORDS unit that made any attacks in that phase that destroyed any enemy units. You can heal up to D6 wounds allocated to that SOULBLIGHT GRAVELORDS unit."
+      }
+    ],
+    "keywords": [
+      "DEATH",
+      "VAMPIRE",
+      "SOULBLIGHT",
+      "GRAVELORDS",
+      "MONSTER",
+      "HERO",
+      "WIZARD",
+      "VENGORIAN",
+      "LORD"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "80mm"
+  },
+  {
+    "name": "Watch Captain Halgrim",
+    "points": "80",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "During the purge of the city, the traitorous Watch Captain Oleksandr Halgrim was swift to swear himself and his warriors to the Wolf’s cause. Now in death, he commands the vast legions of skeleton warriors known as the Ulfenwatch.",
+    "description": "Watch Captain Halgrim is a named character that is a single model. He is armed with a Cursed Halberd.",
+    "wounds": "5",
+    "move": "4\"",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Cursed Halberd",
+        "range": "2\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Cursed Halberd",
+        "flavorText": "Foul necrotic sorcery clings to this ancient weapon.",
+        "description": "If the unmodified hit roll for an attack made with a Cursed Halberd is 6, that attack inflicts 1 mortal wound on the target in addition to any normal damage."
+      },
+      {
+        "name": "Disciplined Advance",
+        "flavorText": "Under Halgrim’s command, his warriors advance ceaselessly in regimented lockstep to crush the foes of Ulfenkarn.",
+        "description": "You can use this command ability at the start of your movement phase. If you do so, pick up to 3 friendly DEATHRATTLE units wholly within 18\" of this model. Until the end of that phase, if you declare that any of those units will run, do not make a run roll for them. Instead, add 4\" to the Move characteristic of those units until the end of that phase."
+      }
+    ],
+    "keywords": [
+      "DEATH",
+      "SOULBLIGHT",
+      "GRAVELORDS",
+      "VYRKOS",
+      "DYNASTY",
+      "DEATHRATTLE",
+      "HERO",
+      "WATCH",
+      "CAPTAIN",
+      "HALGRIM"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ]
+  },
+  {
+    "name": "Wight King",
+    "points": "90",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Wight Kings are the rulers of the Deathrattle nations, warrior-lords whose souls still lust for conquest. Though their flesh has rotted away, their tactical acumen endures, and at their command, regiments of skeletal soldiery attack with redoubled fervour.",
+    "description": "A Wight King is a single model armed with a Baleful Tomb Blade.",
+    "wounds": "5",
+    "move": "4\"",
+    "save": "3+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Baleful Tomb Blade",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Beheading Strike",
+        "flavorText": "The cursed blades wielded by the most lordly Wights can kill with a single cut.",
+        "description": "If the unmodified hit roll for an attack made with this model’s Baleful Tomb Blade is 6, the target suffers 1 mortal wound in addition to any normal damage."
+      },
+      {
+        "name": "Lord of Bones",
+        "flavorText": "At the rasped command of their king, the Deathrattle hordes lay about the enemy with a tireless focus.",
+        "description": "You can use this command ability at the start of the combat phase. If you do so, pick 1 friendly DEATHRATTLE unit wholly within 12\" of this model. Until the end of that phase, you can re-roll hit rolls of 1 for attacks made with melee weapons by that unit."
+      }
+    ],
+    "keywords": [
+      "DEATH",
+      "SOULBLIGHT",
+      "GRAVELORDS",
+      "DEATHRATTLE",
+      "HERO",
+      "WIGHT",
+      "KING"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Wight King on Skeletal Steed",
+    "points": "110",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Some Wight Kings take to battle atop ancient skeletal steeds clad in rusted barding. These Deathrattle monarchs typically ride at the very forefront of the undead advance, stampeding the enemy into dust and driving their lances into the hearts of the living.",
+    "description": "A Wight King on Skeletal Steed is a single model armed with a Tomb Lance.",
+    "wounds": "7",
+    "move": "12\"",
+    "save": "3+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Tomb Lance",
+        "range": "2\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      },
+      {
+        "name": "Hooves and Teeth",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "MOUNT",
+        "description": "This model’s Skeletal Steed attacks with its Hooves and Teeth."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Deathly Charge",
+        "flavorText": "Mounted upon its swift skeletal steed, the Wight King is capable of attaining a deadly momentum before its lance strikes home.",
+        "description": "After this model makes a charge move, you can pick 1 enemy unit within 1\" of this model and roll a dice. On a 2+, that enemy unit suffers D3 mortal wounds."
+      },
+      {
+        "name": "Lord of Bones",
+        "flavorText": "At the rasped command of their king, the Deathrattle hordes lay about the enemy with a tireless focus.",
+        "description": "You can use this command ability at the start of the combat phase. If you do so, pick 1 friendly DEATHRATTLE unit wholly within 12\" of this model. Until the end of that phase, you can re-roll hit rolls of 1 for attacks made with melee weapons by that unit."
+      }
+    ],
+    "keywords": [
+      "DEATH",
+      "SOULBLIGHT",
+      "GRAVELORDS",
+      "DEATHRATTLE",
+      "HERO",
+      "WIGHT",
+      "KING",
+      "WIGHT",
+      "KING",
+      "SKELETAL",
+      "STEED"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ]
+  },
+  {
+    "name": "Cado Ezechiar the Hollow King",
+    "points": "135",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Known as the Hollow King, Cado Ezechiar seeks both vengeance and redemption. Once a mortal king, his lands were ravaged by Chaos. Now he hunts the servants of ruin while seeking a way to escape the controlling will of Nagash.",
+    "description": "",
+    "wounds": "6",
+    "move": "6\"",
+    "save": "3+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Ezechiarian Greatsword",
+        "range": "2\"",
+        "attacks": "5",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "DEATH",
+      "SOULBLIGHT",
+      "GRAVELORDS",
+      "VAMPIRE",
+      "HERO",
+      "WIZARD",
+      "VAMPIRE",
+      "LORD",
+      "CADO",
+      "EZECHIAR"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ]
+  },
+  {
+    "name": "Deintalos the Exile",
+    "points": "270",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "The vampire Deintalos dwells in the darkness of Harrowdeep, snaring those who walk its labyrinthine passages. His experiments with the Force Dynamic – the arco-electric force he believes animates all things – led to his self-imposed exile from Shyish, where his brand of necromancy is taboo.",
+    "description": "",
+    "wounds": "6",
+    "move": "6\"",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [
+      {
+        "name": "Dynamic Bolts",
+        "range": "18\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "2+",
+        "rend": "-2",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Stave Dynamic",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "2+",
+        "rend": "-2",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "DEATH",
+      "SOULBLIGHT",
+      "GRAVELORDS",
+      "VAMPIRE",
+      "HERO",
+      "WIZARD",
+      "DEINTALOS",
+      "EXILE"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique. Deintalos the Exile and <a href=\"/aos3/factions/soulblight-gravelords/warscrolls.html#The-Exiled-Dead\">The Exiled Dead</a> units must be taken as a set. Although taken as a set",
+      "each is a separate unit."
+    ]
+  },
+  {
+    "name": "Deadwalker Zombies",
+    "points": "120",
+    "unitSize": "20",
+    "battlefieldRoles": [
+      "Battleline"
+    ],
+    "flavorText": "Deadwalker Zombies are the resurrected corpses of the recently slain. Though individually weak, in great numbers, they can overwhelm even the mightiest warriors – and those whom they slay are liable to rise as Deadwalkers themselves.",
+    "description": "A unit of Deadwalker Zombies has any number of models, each armed with Crude Weapons and Infectious Bites.",
+    "wounds": "1",
+    "move": "4\"",
+    "save": "-",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Crude Weapons and Infectious Bites",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "5+",
+        "toWound": "5+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Dragged Down and Torn Apart",
+        "flavorText": "Though Deadwalker Zombies are clumsy and slow, they should never be underestimated, for when the foe is near, they can move with an ungainly but disturbingly determined gait.",
+        "description": "This unit is eligible to fight in the combat phase if it is within 6\" of an enemy unit instead of 3\", and it can move an extra 3\" when it piles in."
+      }
+    ],
+    "keywords": [
+      "DEATH",
+      "SOULBLIGHT",
+      "GRAVELORDS",
+      "DEADWALKERS",
+      "SUMMONABLE",
+      "DEADWALKER",
+      "ZOMBIES"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "25mm"
+  },
+  {
+    "name": "Deathrattle Skeletons",
+    "points": "80",
+    "unitSize": "10",
+    "battlefieldRoles": [
+      "Battleline"
+    ],
+    "flavorText": "Skulls locked in an eternal grimace, Deathrattle Skeletons are the footsoldiers of the undead. To stand before these clattering companies demands courage, for they are the fate of mortals given form, and their rusted weapons have retained their killing edge.",
+    "description": "A unit of Deathrattle Skeletons has any number of models, each armed with an Ancient Blade or Spear.",
+    "wounds": "1",
+    "move": "4\"",
+    "save": "5+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Ancient Blade or Spear",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Champion’s Mace or Halberd",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "CHAMPION",
+        "description": "1 model in this unit can be a Skeleton Champion. A Skeleton Champion can replace their Ancient Blade or Spear with a Champion’s Mace or Halberd."
+      },
+      {
+        "name": "STANDARD BEARER",
+        "description": "1 in every 10 models in this unit can be a Standard Bearer. You can re-roll rolls of 1 for the Deathless Minions battle trait for this unit while it has any Standard Bearers."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Skeleton Legion",
+        "flavorText": "Though slow in their approach, these undead warriors rise to rejoin the fight time and time again in spite of their losses.",
+        "description": "When you pick this unit to fight, roll a dice for each model in this unit that was slain in that phase. On a 4+, you can return that model to this unit."
+      }
+    ],
+    "keywords": [
+      "DEATH",
+      "SOULBLIGHT",
+      "GRAVELORDS",
+      "DEATHRATTLE",
+      "SUMMONABLE",
+      "DEATHRATTLE",
+      "SKELETONS"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "25mm"
+  },
+  {
+    "name": "Dire Wolves",
+    "points": "135",
+    "unitSize": "10",
+    "battlefieldRoles": [
+      "Battleline"
+    ],
+    "flavorText": "It is said that to hear a Dire Wolf’s howl is to be damned. These lupine undead are tireless hunters, and when they finally run their prey to ground, their powerful jaws ensure that the kill comes swiftly indeed.",
+    "description": "A unit of Dire Wolves has any number of models, each armed with Rotting Fangs and Claws.",
+    "wounds": "2",
+    "move": "10\"",
+    "save": "5+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Rotting Fangs and Claws",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "CHAMPION",
+        "description": "1 in every 10 models in this unit must be a Doom Wolf. Add 1 to the Attacks characteristic of that model’s Rotting Fangs and Claws."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Slavering Charge",
+        "flavorText": "A charging Dire Wolf can swiftly overwhelm its prey in a storm of snapping jaws and raking claws.",
+        "description": "Add 1 to hit and wound rolls for attacks made with melee weapons by this unit if it made a charge move in the same turn."
+      }
+    ],
+    "keywords": [
+      "DEATH",
+      "SOULBLIGHT",
+      "GRAVELORDS",
+      "DEADWALKERS",
+      "SUMMONABLE",
+      "DIRE",
+      "WOLVES"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "60 x 35mm"
+  },
+  {
+    "name": "Black Knights",
+    "points": "100",
+    "unitSize": "5",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Black Knights are skeletal cavaliers who ride at the vanguard of the Deathrattle hosts. Clad in verdigrised armour and wielding wicked lances, they charge towards the foe, unearthly horns resounding as their lethal momentum slams home.",
+    "description": "A unit of Black Knights has any number of models, each armed with a Barrow Lance.",
+    "wounds": "2",
+    "move": "12\"",
+    "save": "5+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Barrow Lance",
+        "range": "2\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Hooves and Teeth",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "MOUNT",
+        "description": "This unit’s Skeletal Steeds attack with their Hooves and Teeth."
+      },
+      {
+        "name": "CHAMPION",
+        "description": "1 model in this unit can be a Hellknight. Add 1 to the Attacks characteristic of that model’s Barrow Lance."
+      },
+      {
+        "name": "STANDARD BEARER",
+        "description": "1 in every 5 models in this unit can be a Standard Bearer. You can re-roll rolls of 1 for the Deathless Minions battle trait for this unit while it has any Standard Bearers."
+      },
+      {
+        "name": "MUSICIAN",
+        "description": "1 in every 5 models in this unit can be a Hornblower. While this unit has any Hornblowers, charge rolls for this unit of less than 6 are treated as being 6."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Deathly Charge",
+        "flavorText": "Mounted upon swift skeletal steeds, the Black Knights are capable of attaining a deadly momentum before their lances strike home.",
+        "description": "After this unit makes a charge move, you can pick 1 enemy unit within 1\" of this unit and roll a dice. On a 2+, that enemy unit suffers D3 mortal wounds."
+      }
+    ],
+    "keywords": [
+      "DEATH",
+      "SOULBLIGHT",
+      "GRAVELORDS",
+      "DEATHRATTLE",
+      "SUMMONABLE",
+      "BLACK",
+      "KNIGHTS"
+    ],
+    "pitchedBattleNotes": [
+      "Battleline in a <a href=\"/aos3/factions/soulblight-gravelords/#Legion-of-Blood-Battle-Traits\">Legion of Blood</a> army"
+    ],
+    "baseSize": "60 x 35mm"
+  },
+  {
+    "name": "Blood Knights",
+    "points": "195",
+    "unitSize": "5",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Blood Knights are vampires obsessed with battle, and their codes of chivalric honour are warped indeed. Mounted atop hulking Nightmares, they seek out war wherever it can be found, trampling straight over lesser foes to reach the worthiest challenges.",
+    "description": "A unit of Blood Knights has any number of models, each armed with a Templar Lance or Blade.",
+    "wounds": "3",
+    "move": "10\"",
+    "save": "3+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Templar Lance or Blade",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Hooves and Teeth",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "MOUNT",
+        "description": "This unit’s Nightmares attack with their Hooves and Teeth."
+      },
+      {
+        "name": "CHAMPION",
+        "description": "1 model in this unit can be a Kastellan. Add 1 to the Attacks characteristic of a Kastellan’s Templar Lance or Blade."
+      },
+      {
+        "name": "STANDARD BEARER",
+        "description": "1 in every 5 models in this unit can be a Standard Bearer. You can re-roll rolls of 1 for the Deathless Minions battle trait for this unit while it has any Standard Bearers."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Riders of Ruin",
+        "flavorText": "Blood Knights trample clean over lesser foes to strike at more worthy challengers.",
+        "description": "In your movement phase, if this unit is within 3\" of an enemy unit, it can make a normal move. If it does so, it can pass across other models with a Wounds characteristic of 3 or less (that do not have a mount) in the same manner as a model that can fly. After this unit has made a normal move, roll a dice for each enemy unit that has any models passed across by any models in this unit. On a 2+, that enemy unit suffers D3 mortal wounds."
+      },
+      {
+        "name": "Martial Fury",
+        "flavorText": "Woe betide any who dare stand before a Blood Knight’s charge.",
+        "description": "Add 1 to the Damage characteristic of this unit’s Templar Lances or Blades if this unit made a charge move in the same turn."
+      },
+      {
+        "name": "The Hunger",
+        "flavorText": "Soulblight creatures crave the taste of blood and are empowered when they drink deep from the veins of defeated foes.",
+        "description": "At the end of the combat phase, if any enemy models were slain by wounds inflicted by this unit’s attacks in that phase, you can heal up to D3 wounds allocated to this unit."
+      }
+    ],
+    "keywords": [
+      "DEATH",
+      "VAMPIRE",
+      "SOULBLIGHT",
+      "GRAVELORDS",
+      "BLOOD",
+      "KNIGHTS"
+    ],
+    "pitchedBattleNotes": [
+      "Battleline in a <a href=\"/aos3/factions/soulblight-gravelords/#Kastelai-Dynasty-Battle-Traits\">Kastelai Dynasty</a> army"
+    ],
+    "baseSize": "75 x 42mm"
+  },
+  {
+    "name": "Corpse Cart with Balefire Brazier",
+    "points": "80",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Some Corpse Carts are crowned with rusted braziers in which realmstone is burnt upon unhallowed flames. The choking clouds that emerge from these constructs snuff out the power of the aether and can drive mages mad with but a single inhalation.",
+    "description": "A Corpse Cart with Balefire Brazier is a single model driven by a Corpsemaster armed with 1 of the following weapon options: Corpse Goad; or Corpse Lash.",
+    "wounds": "6",
+    "move": "4\"",
+    "save": "6+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Corpse Goad",
+        "range": "2\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Corpse Lash",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Rusty Blades",
+        "range": "1\"",
+        "attacks": "2D6",
+        "toHit": "5+",
+        "toWound": "5+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "MOUNT",
+        "description": "This model’s Zombies attack with their Rusty Blades."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Balefire Brazier",
+        "flavorText": "The corrupt realmstone burnt upon these rusted braziers release gouts of ominous mist that, when breathed in, can drive enemy sorcerers to madness.",
+        "description": "Subtract 1 from casting rolls for enemy WIZARDS within 18\" of any friendly models with this ability."
+      },
+      {
+        "name": "Malefic Fumes",
+        "flavorText": "An unholy stench surrounds these creaking wagons, choking and disorienting nearby foes.",
+        "description": "Subtract 1 from wound rolls for attacks made with melee weapons by enemy units while they are within 9\" of any friendly models with this ability."
+      }
+    ],
+    "keywords": [
+      "DEATH",
+      "SOULBLIGHT",
+      "GRAVELORDS",
+      "DEADWALKERS",
+      "CORPSE",
+      "CART",
+      "CORPSE",
+      "CART",
+      "BALEFIRE",
+      "BRAZIER"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "105 x 70mm"
+  },
+  {
+    "name": "Corpse Cart with Unholy Lodestone",
+    "points": "80",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Corpse Carts are rattling, mobile altars of undeath pulled by moaning Deadwalkers. The cackling of the Corpsemaster echoes over the tolling of black-iron bells, while the necrotic aura surrounding them sees the dead rise to their feet once more.",
+    "description": "A Corpse Cart with Unholy Lodestone is a single model driven by a Corpsemaster armed with 1 of the following weapon options: Corpse Goad; or Corpse Lash.",
+    "wounds": "6",
+    "move": "4\"",
+    "save": "6+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Corpse Goad",
+        "range": "2\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Corpse Lash",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Rusty Blades",
+        "range": "1\"",
+        "attacks": "2D6",
+        "toHit": "5+",
+        "toWound": "5+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "MOUNT",
+        "description": "This model’s Zombies attack with their Rusty Blades."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Unholy Lodestone",
+        "flavorText": "These sinister relics serve to attract and empower the sinister magical energies wielded by the Soulblight Gravelords.",
+        "description": "Add 1 to casting rolls for friendly SOULBLIGHT GRAVELORDS WIZARDS wholly within 12\" of any friendly models with this ability."
+      },
+      {
+        "name": "Locus of Undeath",
+        "flavorText": "Many Corpse Carts are veritable wellsprings of necromantic power that can be drawn upon to replenish the ranks of the living dead.",
+        "description": "Add 1 to save rolls for attacks that target friendly DEADWALKER ZOMBIES units wholly within 12\" of any friendly models with this ability."
+      }
+    ],
+    "keywords": [
+      "DEATH",
+      "SOULBLIGHT",
+      "GRAVELORDS",
+      "DEADWALKERS",
+      "CORPSE",
+      "CART",
+      "CORPSE",
+      "CART",
+      "UNHOLY",
+      "LODESTONE"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "105 x 70mm"
+  },
+  {
+    "name": "Fell Bats",
+    "points": "75",
+    "unitSize": "3",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Winging their way through the darkness, Fell Bats are hideous aerial predators marked by the Soulblight curse. Even the merest taste of blood sends these beasts into a frenzy; from there, only complete destruction can halt their maddened rampages.",
+    "description": "A unit of Fell Bats has any number of models, each armed with Elongated Fangs.",
+    "wounds": "3",
+    "move": "14\"",
+    "save": "6+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Elongated Fangs",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "FLY",
+        "description": "This unit can fly."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Single-minded Ferocity",
+        "flavorText": "When a colony of Fell Bats descends upon the foe, they attack in waves, crashing into their prey before retreating and falling upon them again.",
+        "description": "This unit can retreat and still charge later in the same turn."
+      }
+    ],
+    "keywords": [
+      "DEATH",
+      "SOULBLIGHT",
+      "GRAVELORDS",
+      "SUMMONABLE",
+      "FELL",
+      "BATS"
+    ],
+    "pitchedBattleNotes": []
+  },
+  {
+    "name": "Grave Guard",
+    "points": "140",
+    "unitSize": "10",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "The elite housecarls of the Deathrattle Kingdoms, Grave Guard march into battle at the side of their lords. Their cursed blades glow with an unearthly light, wreathed in powerful deathly enchantments that allow them to kill with the merest touch.",
+    "description": "A unit of Grave Guard has any number of models. The unit is armed with 1 of the following weapon options: Wight Blade and Crypt Shield; or Great Wight Blade.",
+    "wounds": "1",
+    "move": "4\"",
+    "save": "5+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Wight Blade",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Great Wight Blade",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "CHAMPION",
+        "description": "1 model in this unit can be a Seneschal. Add 1 to the Attacks characteristic of that model’s Wight Blade or Great Wight Blade."
+      },
+      {
+        "name": "STANDARD BEARER",
+        "description": "1 in every 10 models in this unit can be a Standard Bearer. You can re-roll rolls of 1 for the Deathless Minions battle trait for this unit while it has any Standard Bearers."
+      },
+      {
+        "name": "MUSICIAN",
+        "description": "1 in every 10 models in this unit can be a Hornblower. While this unit has any Hornblowers, charge rolls for this unit of less than 6 are treated as being 6."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Cursed Weapons",
+        "flavorText": "The blades wielded by the Grave Guard carry dire curses that can sever the souls from the bodies of those they touch.",
+        "description": "If the unmodified wound roll for an attack made with a melee weapon by this unit is 6, the target suffers 1 mortal wound in addition to any normal damage."
+      },
+      {
+        "name": "Crypt Shields",
+        "flavorText": "Though the shields of the Grave Guard appear worn and tattered, the ancient magics bound into them are capable of resisting the more fearsome blows.",
+        "description": "Add 1 to save rolls for attacks that target a unit armed with Wight Blades and Crypt Shields."
+      }
+    ],
+    "keywords": [
+      "DEATH",
+      "SOULBLIGHT",
+      "GRAVELORDS",
+      "DEATHRATTLE",
+      "SUMMONABLE",
+      "GRAVE",
+      "GUARD"
+    ],
+    "pitchedBattleNotes": [
+      "Battleline if general is a <a href=\"/aos3/factions/soulblight-gravelords/warscrolls.html#Wight-King\">Wight King</a>"
+    ],
+    "baseSize": "25mm"
+  },
+  {
+    "name": "Kosargi Nightguard",
+    "points": "95",
+    "unitSize": "2",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "The Kosargi ogors have served Radukar for centuries, first in life and now in death, raised from the grave with foul necrotic sorcery. In battle, they scatter all foes before them, carving great bloody swathes into the enemy with each swing of their bardiches.",
+    "description": "A unit of Kosargi Nightguard has any number of models, each armed with a Bardiche.",
+    "wounds": "4",
+    "move": "5\"",
+    "save": "5+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Bardiche",
+        "range": "2\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Deathly Vigour",
+        "flavorText": "The rotting flesh of these lumbering brutes can absorb even the most grievous of wounds dealt to them.",
+        "description": "Roll a dice each time you allocate a wound or mortal wound to this unit. On a 5+, that wound or mortal wound is negated."
+      },
+      {
+        "name": "Servants Even in Death",
+        "flavorText": "These formidable undead ogors are as utterly loyal to Radukar as they were in life.",
+        "description": "Add 1 to the Attacks characteristic of this unit’s Bardiches while it is wholly within 12\" of a friendly RADUKAR THE WOLF."
+      }
+    ],
+    "keywords": [
+      "DEATH",
+      "OGOR",
+      "SOULBLIGHT",
+      "GRAVELORDS",
+      "VYRKOS",
+      "DYNASTY",
+      "DEADWALKERS",
+      "KOSARGI",
+      "NIGHTGUARD"
+    ],
+    "pitchedBattleNotes": []
+  },
+  {
+    "name": "The Crimson Court",
+    "points": "200",
+    "unitSize": "3",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Led by the charismatic Prince Duvalle, the Crimson Court are a clique of vampires obsessed with the hunt. Having slaked their thirsts the realms over, they now set their sights on the living mountain of Beastgrave and the warriors who battle within.",
+    "description": "The Crimson Court is a named unit that has 3 models. Gorath the Enforcer is armed with a Soulbound Mace; Vellas von Faine is armed with Paired Blades; and Ennias Curse-born is armed with a Honed Bludgeon.",
+    "wounds": "1",
+    "move": "6\"",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Soulbound Mace",
+        "range": "2\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "2+",
+        "rend": "-",
+        "damage": "D3"
+      },
+      {
+        "name": "Paired Blades",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Honed Bludgeon",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "GORATH THE ENFORCER",
+        "description": "Add 2 to Gorath’s Wounds characteristic."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "The Hunger",
+        "flavorText": "Soulblight creatures crave the taste of blood and are empowered when they drink deep from the veins of defeated foes.",
+        "description": "At the end of the combat phase, if any enemy models were slain by wounds inflicted by this unit’s attacks in that phase, you can heal up to D3 wounds allocated to this unit."
+      },
+      {
+        "name": "Vampiric Agility",
+        "flavorText": "With quicksilver swiftness, these creatures can scale terrain in a matter of moments before pouncing upon their prey.",
+        "description": "When this unit makes a move, it can pass across terrain features in the same manner as a model that can fly."
+      }
+    ],
+    "keywords": [
+      "DEATH",
+      "VAMPIRE",
+      "SOULBLIGHT",
+      "GRAVELORDS",
+      "THE",
+      "CRIMSON",
+      "COURT"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique. <a href=\"/aos3/factions/soulblight-gravelords/warscrolls.html#Prince-Duvalle\">Prince Duvalle</a> and The Crimson Court must be taken as a set. Although taken as a set",
+      "each is a separate unit."
+    ]
+  },
+  {
+    "name": "The Sepulchral Guard",
+    "points": "80",
+    "unitSize": "7",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "The Sepulchral Guard haunt the Mirrored City of Shadespire, cursed by Nagash to fully appreciate their horror. Led by the Sepulchral Warden, the former Lord-Marshal of the city, they fall upon and slay interlopers with an unsettling swiftness.",
+    "description": "The Sepulchral Guard is a unit that has 7 models. The Sepulchral Warden is armed with an Ancient Spear; the Prince of Dust is armed with an Ancient Mace; the Champion is armed with an Ancient Greatblade; the Harvester is armed with an Ancient Scythe; and the 3 Petitioners are each armed with an Ancient Blade.",
+    "wounds": "1",
+    "move": "4\"",
+    "save": "6+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Ancient Spear",
+        "range": "2\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Ancient Mace",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Ancient Greatblade",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Ancient Scythe",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "2"
+      },
+      {
+        "name": "Ancient Blade",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "THE SEPULCHRAL WARDEN",
+        "description": "The Sepulchral Warden has a Wounds characteristic of 2. At the start of your hero phase, if this model is on the battlefield, you can return D3 slain models to this unit."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Frightening Speed",
+        "flavorText": "The Sepulchral Guard move with a shocking swiftness, their motion guided by fragmented memories of their mortal lives.",
+        "description": "You can re-roll charge rolls for this unit."
+      },
+      {
+        "name": "Serve in Death",
+        "flavorText": "Pitiless footsoldiers of the armies of undeath, Deathrattle Skeletons strike with unnatural zeal.",
+        "description": "If the unmodified hit roll for an attack made by this unit is 6, that attack scores 2 hits on the target instead of 1. Make a wound and save roll for each hit."
+      }
+    ],
+    "keywords": [
+      "DEATH",
+      "SOULBLIGHT",
+      "GRAVELORDS",
+      "DEATHRATTLE",
+      "DEATHRATTLE",
+      "SKELETONS",
+      "THE",
+      "SEPULCHRAL",
+      "GUARD"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ],
+    "baseSize": "25mm"
+  },
+  {
+    "name": "Vargheists",
+    "points": "155",
+    "unitSize": "3",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "The leather-winged horrors known as Vargheists are vampires who were overwhelmed by their bloody thirsts. Now reduced to savage and near-uncontrollable beasts, they viciously attack any prey in sight in a flurry of tearing claws and sharp fangs.",
+    "description": "A unit of Vargheists has any number of models, each armed with Murderous Fangs and Talons.",
+    "wounds": "4",
+    "move": "12\"",
+    "save": "5+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Murderous Fangs and Talons",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "FLY",
+        "description": "This unit can fly."
+      },
+      {
+        "name": "CHAMPION",
+        "description": "1 model in this unit can be a Vargoyle. Add 1 to the Attacks characteristic of a Vargoyle’s Murderous Fangs and Talons."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Blood-maddened Feeding Frenzy",
+        "flavorText": "The taste of blood sends these murderous horrors into a savage killing frenzy.",
+        "description": "If the unmodified hit roll for an attack made by this unit is 6, that attack scores 2 hits on the target instead of 1. Make a wound and save roll for each hit."
+      },
+      {
+        "name": "Death’s Descent",
+        "flavorText": "Vargheists favour swooping down at their victims from on high, suddenly overwhelming them in a flurry of claws and fangs.",
+        "description": "Instead of setting up this unit on the battlefield, you can place it to one side and say that it is circling high above as a reserve unit. If you do so, at the end of your movement phase, you can set up this unit on the battlefield more than 9\" from any enemy units. At the start of the fourth battle round, any models that are still in reserve are slain."
+      }
+    ],
+    "keywords": [
+      "DEATH",
+      "VAMPIRE",
+      "SOULBLIGHT",
+      "GRAVELORDS",
+      "VARGHEISTS"
+    ],
+    "pitchedBattleNotes": [
+      "Battleline in a <a href=\"/aos3/factions/soulblight-gravelords/#Legion-of-Night-Battle-Traits\">Legion of Night</a> army"
+    ],
+    "baseSize": "50mm"
+  },
+  {
+    "name": "Vargskyr",
+    "points": "115",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Unable to control the feral aspect of the curse that surges through their blood, Vargskyr are towering, distended creatures. On the hunt, they stalk their prey before descending upon them in a frenzy of slashing claws and razor-sharp fangs.",
+    "description": "A Vargskyr is a single model armed with Talons and a Gaping Maw.",
+    "wounds": "8",
+    "move": "8\"",
+    "save": "5+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Talons",
+        "range": "2\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      },
+      {
+        "name": "Gaping Maw",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "2+",
+        "rend": "-2",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Bounding Leaps",
+        "flavorText": "Three times the height of a man and with supernatural strength and reflexes, a Vargskyr covers ground with terrifying speed.",
+        "description": "You can attempt to charge with this model if it is within 18\" of the enemy instead of 12\". Roll 3D6 instead of 2D6 when making a charge roll for this model."
+      },
+      {
+        "name": "Gnarled Hide",
+        "flavorText": "These savage beasts are covered in thick wiry fur and jutting bones that act as natural armour.",
+        "description": "Roll a dice each time you allocate a wound or mortal wound to this model. On a 5+, that wound or mortal wound is negated."
+      }
+    ],
+    "keywords": [
+      "DEATH",
+      "VAMPIRE",
+      "SOULBLIGHT",
+      "GRAVELORDS",
+      "VYRKOS",
+      "DYNASTY",
+      "VARGSKYR"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ]
+  },
+  {
+    "name": "Vyrkos Blood born",
+    "points": "125",
+    "unitSize": "3",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "In the gloom-shrouded streets of Ulfenkarn, the Vyrkos Blood-born are never far away, stalking the shadows in search of prey. Once these vampiric fiends catch the scent of blood, they attack with savage ferocity and lightning speed.",
+    "description": "A unit of Vyrkos Blood-born has any number of models, each armed with a Piercing Blade.",
+    "wounds": "3",
+    "move": "10\"",
+    "save": "6+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Piercing Blade",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Shadowfast",
+        "flavorText": "Vyrkos Blood-born are able to dodge and deflect incoming blows with blurring speed.",
+        "description": "Roll a dice each time you allocate a wound or mortal wound to this unit. On a 5+, that wound or mortal wound is negated."
+      }
+    ],
+    "keywords": [
+      "DEATH",
+      "VAMPIRE",
+      "SOULBLIGHT",
+      "GRAVELORDS",
+      "VYRKOS",
+      "DYNASTY",
+      "VYRKOS",
+      "BLOOD-BORN"
+    ],
+    "pitchedBattleNotes": []
+  },
+  {
+    "name": "The Exiled Dead",
+    "points": "270",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "In Harrowdeep, Deintalos found an ideal place to hide his grisly experiments. Aided by his mortal apprentice in necromancy, Marcov, Deintalos animates cadavers with arcane machinery and using the Force Dynamic. These Arcwalkers, as Deintalos dubs them, act in eerie unison as they tear apart their foes.",
+    "description": "",
+    "wounds": "2",
+    "move": "4\"",
+    "save": "",
+    "bravery": "8",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Arco-electric Weapon",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "5+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Bonesaw",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Pitted Halberd",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "DEATH",
+      "SOULBLIGHT",
+      "GRAVELORDS",
+      "DEADWALKERS",
+      "THE",
+      "EXILED",
+      "DEAD"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique. <a href=\"/aos3/factions/soulblight-gravelords/warscrolls.html#Deintalos-the-Exile\">Deintalos the Exile</a> and The Exiled Dead units must be taken as a set. Although taken as a set",
+      "each is a separate unit."
+    ]
+  },
+  {
+    "name": "Mortis Engine",
+    "points": "180",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Behemoth"
+    ],
+    "flavorText": "Within each Mortis Engine is bound the remains of a powerful liche-lord. Death magic is drawn to these constructs, a reservoir of power that can be tapped into by fellow practitioners or else unleashed in a burst of lethal energy.",
+    "description": "A Mortis Engine is a single model driven by a Corpsemaster armed with a Mortis Staff.",
+    "wounds": "12",
+    "move": "✹",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Mortis Staff",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      },
+      {
+        "name": "Spectral Claws and Blades",
+        "range": "1\"",
+        "attacks": "✹",
+        "toHit": "5+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "MOUNT",
+        "description": "This model’s Spectral Host attacks with their Wail of the Damned and Spectral Claws and Blades."
+      },
+      {
+        "name": "FLY",
+        "description": "This model can fly."
+      }
+    ],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-2",
+        "move": "14\"",
+        "wailOfTheDamned": "12\"",
+        "spectralClawsAndBlades": "12"
+      },
+      {
+        "woundsSuffered": "3-4",
+        "move": "12\"",
+        "wailOfTheDamned": "10\"",
+        "spectralClawsAndBlades": "10"
+      },
+      {
+        "woundsSuffered": "5-7",
+        "move": "10\"",
+        "wailOfTheDamned": "8\"",
+        "spectralClawsAndBlades": "8"
+      },
+      {
+        "woundsSuffered": "8-9",
+        "move": "8\"",
+        "wailOfTheDamned": "6\"",
+        "spectralClawsAndBlades": "6"
+      },
+      {}
+    ],
+    "abilities": [
+      {
+        "name": "Frightful Touch",
+        "flavorText": "The malign spirits that surround the Mortis Engine can freeze an opponent’s blood with a single touch.",
+        "description": "If the unmodified hit roll for an attack made with this model’s Spectral Claws and Blades is 6, that attack inflicts 1 mortal wound on the target and the attack sequence ends (do not make a wound or save roll)."
+      },
+      {
+        "name": "Wail of the Damned",
+        "flavorText": "Unnerving howls follow this carriage wherever it roams. Should an enemy get close enough, the spectral host unleashes a deafening wail that tears the soul apart.",
+        "description": "Do not use the attack sequence for an attack made with a Wail of the Damned. Instead, roll a dice for each enemy unit within range of this model’s Wail of the Damned. On a 4+, that unit suffers D3 mortal wounds."
+      },
+      {
+        "name": "The Reliquary",
+        "flavorText": "The Corpsemaster custodian of a Mortis Engine can unleash the thrumming amethyst magics that surge through it in a lethal shockwave.",
+        "description": "Once per battle, in your hero phase, you can say that this model will unleash the energies of its reliquary. If you do so, roll a dice for each unit within 12\" of this model. On a 2+, that unit suffers D3 mortal wounds. DEATH units are not affected by this ability."
+      },
+      {
+        "name": "Bound Necromancer",
+        "flavorText": "Mortis Engines are constructed around the remains of a slain master Necromancer, who acts as a locus of forbidden power for other undead to draw upon.",
+        "description": "Add 1 to casting rolls for friendly SOULBLIGHT GRAVELORDS WIZARDS wholly within 12\" of any friendly models with this ability."
+      }
+    ],
+    "keywords": [
+      "DEATH",
+      "MALIGNANT",
+      "SOULBLIGHT",
+      "GRAVELORDS",
+      "DEATHMAGES",
+      "MORTIS",
+      "ENGINE"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "120 x 92mm"
+  },
+  {
+    "name": "Terrorgheist",
+    "points": "285",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Behemoth"
+    ],
+    "flavorText": "The Terrorgheist is a bloodthirsty undead beast whose piercing cry scythes through the enemy as it plunges into the fray. Should the creature be slain, another horror awaits its foes, as hundreds of shrieking bats burst from its remains to ravage those nearby.",
+    "description": "A Terrorgheist is a single model armed with a Death Shriek, Fanged Maw and Skeletal Claws.",
+    "wounds": "14",
+    "move": "✹",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [
+      {
+        "name": "Death Shriek",
+        "range": "10\"",
+        "attacks": "1",
+        "toHit": "See below",
+        "toWound": "",
+        "rend": "",
+        "damage": ""
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Fanged Maw",
+        "range": "3\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "D6"
+      },
+      {
+        "name": "Skeletal Claws",
+        "range": "2\"",
+        "attacks": "✹",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "FLY",
+        "description": "This model can fly."
+      }
+    ],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-3",
+        "move": "14\"",
+        "deathShriek": "6",
+        "skeletalClaws": "4"
+      },
+      {
+        "woundsSuffered": "4-6",
+        "move": "12\"",
+        "deathShriek": "5",
+        "skeletalClaws": "4"
+      },
+      {
+        "woundsSuffered": "7-9",
+        "move": "10\"",
+        "deathShriek": "4",
+        "skeletalClaws": "3"
+      },
+      {
+        "woundsSuffered": "10-12",
+        "move": "8\"",
+        "deathShriek": "3",
+        "skeletalClaws": "3"
+      },
+      {}
+    ],
+    "abilities": [
+      {
+        "name": "Death Shriek",
+        "flavorText": "The terrifying shriek of a Terrorgheist is enough to stop a warrior’s heart.",
+        "description": "Do not use the attack sequence for an attack made with this model’s Death Shriek. Instead, roll a dice and add the Death Shriek value shown on this model’s damage table. If the total is higher than the target unit’s Bravery characteristic, the target unit suffers a number of mortal wounds equal to the difference between its Bravery characteristic and the total."
+      },
+      {
+        "name": "Gaping Maw",
+        "flavorText": "This horrific creature bites a great chunk out of its prey – or even swallows it whole.",
+        "description": "If the unmodified hit roll for an attack made with this model’s Fanged Maw is 6, that attack inflicts 6 mortal wounds on the target and the attack sequence ends (do not make a wound or save roll)."
+      },
+      {
+        "name": "Infested",
+        "flavorText": "When a Terrorgheist is finally destroyed, it explodes into a swarm of bats that feast on those nearby.",
+        "description": "If this model is slain, before this model is removed from play, each unit within 3\" of this model suffers D3 mortal wounds."
+      }
+    ],
+    "keywords": [
+      "DEATH",
+      "SOULBLIGHT",
+      "GRAVELORDS",
+      "MONSTER",
+      "TERRORGHEIST"
+    ],
+    "pitchedBattleNotes": [
+      "Single. Battleline in an <a href=\"/aos3/factions/soulblight-gravelords/#Avengorii-Dynasty-Battle-Traits\">Avengorii Dynasty</a> army"
+    ],
+    "baseSize": "130mm"
+  },
+  {
+    "name": "Zombie Dragon",
+    "points": "275",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Behemoth"
+    ],
+    "flavorText": "With a deafening roar, the Zombie Dragon dives into battle, eye sockets aglow with necromantic energy. The beast shreds flesh, bone and steel with equal ease, its talons and maw matched in their lethality only by its billowing pestilential breath.",
+    "description": "A Zombie Dragon is a single model armed with Pestilential Breath, a Snapping Maw and Sword-like Claws.",
+    "wounds": "14",
+    "move": "✹",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [
+      {
+        "name": "Pestilential Breath",
+        "range": "9\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "✹",
+        "rend": "-3",
+        "damage": "D6"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Snapping Maw",
+        "range": "3\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "D6"
+      },
+      {
+        "name": "Sword-like Claws",
+        "range": "2\"",
+        "attacks": "✹",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "FLY",
+        "description": "This model can fly."
+      }
+    ],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-3",
+        "move": "14\"",
+        "pestilentialBreath": "2+",
+        "swordLikeClaws": "7"
+      },
+      {
+        "woundsSuffered": "4-6",
+        "move": "12\"",
+        "pestilentialBreath": "3+",
+        "swordLikeClaws": "6"
+      },
+      {
+        "woundsSuffered": "7-9",
+        "move": "10\"",
+        "pestilentialBreath": "4+",
+        "swordLikeClaws": "5"
+      },
+      {
+        "woundsSuffered": "10-12",
+        "move": "8\"",
+        "pestilentialBreath": "5+",
+        "swordLikeClaws": "4"
+      },
+      {}
+    ],
+    "abilities": [
+      {
+        "name": "Pestilential Breath",
+        "flavorText": "When a Zombie Dragon looses its breath, the killing miasma withers flesh and saps life from the living.",
+        "description": "When you attack with this model’s Pestilential Breath, roll a dice before making the hit roll for the attack. If the roll is less than or equal to the number of models in the target unit, the attack scores a hit without needing to make a hit roll."
+      }
+    ],
+    "keywords": [
+      "DEATH",
+      "SOULBLIGHT",
+      "GRAVELORDS",
+      "MONSTER",
+      "ZOMBIE",
+      "DRAGON"
+    ],
+    "pitchedBattleNotes": [
+      "Single. Battleline in an <a href=\"/aos3/factions/soulblight-gravelords/#Avengorii-Dynasty-Battle-Traits\">Avengorii Dynasty</a> army"
+    ],
+    "baseSize": "130mm"
+  }
+]

@@ -1,0 +1,2250 @@
+[
+  {
+    "name": "Frostlord on Stonehorn",
+    "points": "430",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader",
+      "Behemoth"
+    ],
+    "flavorText": "A Frostlord and their Stonehorn are an unstoppable force. The warlord’s booming voice directs the raiders while the bodies of foes are broken and ground to a bloody paste by the horns and hooves of their granite-boned steed. ",
+    "description": "A Frostlord on Stonehorn is a single model armed with a Frost Spear and Punches and Kicks.",
+    "wounds": "13",
+    "move": "✹",
+    "save": "3+",
+    "bravery": "9",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Frost Spear",
+        "range": "2\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "3"
+      },
+      {
+        "name": "Punches and Kicks",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Rock-hard Horns",
+        "range": "2\"",
+        "attacks": "✹",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "3"
+      },
+      {
+        "name": "Crushing Hooves",
+        "range": "2\"",
+        "attacks": "D6",
+        "toHit": "3+",
+        "toWound": "✹",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "MOUNT",
+        "description": "This model’s Stonehorn attacks with its Rock-hard Horns and Crushing Hooves."
+      }
+    ],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-3",
+        "move": "12\"",
+        "rockHardHorns": "6",
+        "crushingHooves": "2+"
+      },
+      {
+        "woundsSuffered": "4-5",
+        "move": "10\"",
+        "rockHardHorns": "5",
+        "crushingHooves": "3+"
+      },
+      {
+        "woundsSuffered": "6-8",
+        "move": "8\"",
+        "rockHardHorns": "4",
+        "crushingHooves": "3+"
+      },
+      {
+        "woundsSuffered": "9-10",
+        "move": "6\"",
+        "rockHardHorns": "3",
+        "crushingHooves": "4+"
+      },
+      {}
+    ],
+    "abilities": [
+      {
+        "name": "Earth-shattering Charge",
+        "flavorText": "Enemies are crushed and trampled beneath the unstoppable ferocity of a Stonehorn’s charge.",
+        "description": "Add 1 to the damage inflicted by attacks made with this model’s Rock-hard Horns and Crushing Hooves if this model made a charge move in the same turn."
+      },
+      {
+        "name": "Stone Skeleton",
+        "flavorText": "The thick, rock-like skeletons of these beasts can take substantial punishment.",
+        "description": "Roll a dice each time you allocate a wound or mortal wound to this model. On a 5+, that wound or mortal wound is negated."
+      },
+      {
+        "name": "Bellowing Voice",
+        "flavorText": "With his booming voice, the Frostlord signals the hunt.",
+        "description": "You can use this command ability at the start of your charge phase. If you do so, pick 1 friendly model with this command ability. Until the end of that phase, you can re-roll charge rolls for friendly BEASTCLAW RAIDERS units that are wholly within 12\" of that model when the charge roll is made."
+      }
+    ],
+    "keywords": [
+      "DESTRUCTION",
+      "OGOR",
+      "STONEHORN",
+      "OGOR",
+      "MAWTRIBES",
+      "BEASTCLAW",
+      "RAIDERS",
+      "MONSTER",
+      "HERO",
+      "FROSTLORD"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "120 x 92mm"
+  },
+  {
+    "name": "Frostlord on Thundertusk",
+    "points": "370",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader",
+      "Behemoth"
+    ],
+    "flavorText": "A Frostlord who rides to battle on a Thundertusk is a blizzard-cloaked warlord, a true herald of the Everwinter. The permanent aura of cold emanating from their mount has chilled the ogor’s very soul, leaving them a pitiless master of the frozen wastes.",
+    "description": "A Frostlord on Thundertusk is a single model armed with a Frost Spear and Punches and Kicks.",
+    "wounds": "13",
+    "move": "✹",
+    "save": "3+",
+    "bravery": "9",
+    "missleWeapons": [
+      {
+        "name": "Frost-wreathed Ice",
+        "range": "18\"",
+        "attacks": "See below",
+        "toHit": "",
+        "toWound": "",
+        "rend": "",
+        "damage": ""
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Frost Spear",
+        "range": "2\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "3"
+      },
+      {
+        "name": "Punches and Kicks",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Colossal Tusks",
+        "range": "2\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "✹",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "MOUNT",
+        "description": "This model’s Thundertusk attacks with its Colossal Tusks and Frost-wreathed Ice."
+      }
+    ],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-3",
+        "move": "8\"",
+        "frostWreathedIce": "12",
+        "colossalTusks": "2+"
+      },
+      {
+        "woundsSuffered": "4-5",
+        "move": "7\"",
+        "frostWreathedIce": "10",
+        "colossalTusks": "3+"
+      },
+      {
+        "woundsSuffered": "6-8",
+        "move": "6\"",
+        "frostWreathedIce": "8",
+        "colossalTusks": "3+"
+      },
+      {
+        "woundsSuffered": "9-10",
+        "move": "5\"",
+        "frostWreathedIce": "6",
+        "colossalTusks": "4+"
+      },
+      {}
+    ],
+    "abilities": [
+      {
+        "name": "Blasts of Frost-wreathed Ice",
+        "flavorText": "Thundertusks can focus the cold between their tusks into blasts of ice that hit like cannonballs.",
+        "description": "Do not use the attack sequence for an attack made with Frost-wreathed Ice. Instead, pick 1 enemy unit within 18\" of this model that is visible to it and roll the number of dice shown on the damage table above. Add 1 to each roll if the target unit has 10 or more models. Add 2 to each roll instead if the target unit has 20 or more models. For each 6+, that enemy unit suffers 1 mortal wound."
+      },
+      {
+        "name": "Numbing Chill",
+        "flavorText": "Winter storms gather about these mythical creatures, freezing and slowing any enemy foolish enough to close in.",
+        "description": "Subtract 1 from hit rolls for attacks made with melee weapons that target this model."
+      },
+      {
+        "name": "Bellowing Voice",
+        "flavorText": "With his booming voice, the Frostlord signals the hunt.",
+        "description": "You can use this command ability at the start of your charge phase. If you do so, pick 1 friendly model with this command ability. Until the end of that phase, you can re-roll charge rolls for friendly BEASTCLAW RAIDERS units that are wholly within 12\" of that model when the charge roll is made."
+      }
+    ],
+    "keywords": [
+      "DESTRUCTION",
+      "OGOR",
+      "THUNDERTUSK",
+      "OGOR",
+      "MAWTRIBES",
+      "BEASTCLAW",
+      "RAIDERS",
+      "MONSTER",
+      "HERO",
+      "FROSTLORD"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "120 x 92mm"
+  },
+  {
+    "name": "Huskard on Stonehorn",
+    "points": "340",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader",
+      "Behemoth"
+    ],
+    "flavorText": "Many Huskard Jorls and Huskard Eurls lead their warriors from atop the backs of formidable Stonehorns. Together, the beasts and their brutish riders are master linebreakers, using their impressive strength to batter their way through all obstacles.",
+    "description": "A Huskard on Stonehorn is a single model armed with Punches and Kicks and one of the following weapon options: Harpoon Launcher; Chaintrap; or Blood Vulture.",
+    "wounds": "12",
+    "move": "✹",
+    "save": "4+",
+    "bravery": "8",
+    "missleWeapons": [
+      {
+        "name": "Harpoon Launcher",
+        "range": "20\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "D3"
+      },
+      {
+        "name": "Chaintrap",
+        "range": "12\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "3"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Punches and Kicks",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Rock-hard Horns",
+        "range": "2\"",
+        "attacks": "✹",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "3"
+      },
+      {
+        "name": "Crushing Hooves",
+        "range": "1\"",
+        "attacks": "D6",
+        "toHit": "3+",
+        "toWound": "✹",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "MOUNT",
+        "description": "This model’s Stonehorn attacks with its Rock-hard Horns and Crushing Hooves."
+      }
+    ],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-2",
+        "move": "12\"",
+        "rockHardHorns": "6",
+        "crushingHooves": "2+"
+      },
+      {
+        "woundsSuffered": "3-4",
+        "move": "10\"",
+        "rockHardHorns": "5",
+        "crushingHooves": "3+"
+      },
+      {
+        "woundsSuffered": "5-7",
+        "move": "8\"",
+        "rockHardHorns": "4",
+        "crushingHooves": "3+"
+      },
+      {
+        "woundsSuffered": "8-9",
+        "move": "6\"",
+        "rockHardHorns": "3",
+        "crushingHooves": "4+"
+      },
+      {}
+    ],
+    "abilities": [
+      {
+        "name": "Earth-shattering Charge",
+        "flavorText": "Enemies are crushed and trampled beneath the unstoppable ferocity of a Stonehorn’s charge.",
+        "description": "Add 1 to the damage inflicted by attacks made with this model’s Rock-hard Horns and Crushing Hooves if this model made a charge move in the same turn."
+      },
+      {
+        "name": "Stone Skeleton",
+        "flavorText": "The thick, rock-like skeletons of these beasts can take substantial punishment.",
+        "description": "Roll a dice each time you allocate a wound or mortal wound to this model. On a 5+, that wound or mortal wound is negated."
+      },
+      {
+        "name": "Blood Vulture",
+        "flavorText": "Blood vultures are vicious predators that help lead the Alfrostuns to prey.",
+        "description": "If this model is armed with a Blood Vulture, at the start of your shooting phase, pick 1 enemy unit within 30\" of this model that is visible to it and roll a dice. On a 2+, that unit suffers 1 mortal wound."
+      },
+      {
+        "name": "Line-breakersMournfang Charge",
+        "flavorText": "In the wake of a Huskard on Stonehorn come waves of Mournfang riders who decimate enemy lines with precision charges.",
+        "description": "Line-breakers: You can use this command ability at the start of the combat phase. If you do so, pick 1 friendly MOURNFANG PACK unit that made a charge move in the same turn and is wholly within 12\" of a model with this command ability. If you use that unit’s Mournfang Charge ability in that phase, add 2 to the damage inflicted by attacks made with that unit’s Tusks instead of 1."
+      }
+    ],
+    "keywords": [
+      "DESTRUCTION",
+      "OGOR",
+      "STONEHORN",
+      "OGOR",
+      "MAWTRIBES",
+      "BEASTCLAW",
+      "RAIDERS",
+      "MONSTER",
+      "HERO",
+      "HUSKARD"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "120 x 92mm"
+  },
+  {
+    "name": "Huskard on Thundertusk",
+    "points": "335",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader",
+      "Behemoth"
+    ],
+    "flavorText": "The Huskard Torr leads the Thundertusks to war. At the ogor elder’s command, the creatures breathe out gales of frost. The ground on all sides grows thick with ice as enemies are turned into gleaming statues and the very life is leeched from their bones.",
+    "description": "A Huskard on Thundertusk is a single model armed with Punches and Kicks and one of the following weapon options: Chaintrap; Harpoon Launcher; or Blood Vulture.",
+    "wounds": "12",
+    "move": "✹",
+    "save": "4+",
+    "bravery": "8",
+    "missleWeapons": [
+      {
+        "name": "Harpoon Launcher",
+        "range": "20\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "D3"
+      },
+      {
+        "name": "Chaintrap",
+        "range": "12\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "3"
+      },
+      {
+        "name": "Frost-wreathed Ice",
+        "range": "18\"",
+        "attacks": "See below",
+        "toHit": "",
+        "toWound": "",
+        "rend": "",
+        "damage": ""
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Punches and Kicks",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Colossal Tusks",
+        "range": "2\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "✹",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "MOUNT",
+        "description": "This model’s Thundertusk attacks with its Colossal Tusks and Frost-wreathed Ice."
+      }
+    ],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-2",
+        "move": "8\"",
+        "frostWreathedIce": "12",
+        "colossalTusks": "2+"
+      },
+      {
+        "woundsSuffered": "3-4",
+        "move": "7\"",
+        "frostWreathedIce": "10",
+        "colossalTusks": "3+"
+      },
+      {
+        "woundsSuffered": "5-7",
+        "move": "6\"",
+        "frostWreathedIce": "8",
+        "colossalTusks": "3+"
+      },
+      {
+        "woundsSuffered": "8-9",
+        "move": "5\"",
+        "frostWreathedIce": "6",
+        "colossalTusks": "4+"
+      },
+      {}
+    ],
+    "abilities": [
+      {
+        "name": "Blasts of Frost-wreathed Ice",
+        "flavorText": "Thundertusks can focus the cold between their tusks into blasts of ice that hit like cannonballs.",
+        "description": "Do not use the attack sequence for an attack made with Frost-wreathed Ice. Instead, pick 1 enemy unit within 18\" of this model that is visible to it and roll the number of dice shown on the damage table above. Add 1 to each roll if the target unit has 10 or more models. Add 2 to each roll instead if the target unit has 20 or more models. For each 6+, that enemy unit suffers 1 mortal wound."
+      },
+      {
+        "name": "Numbing Chill",
+        "flavorText": "Winter storms gather above these mythical creatures, freezing and slowing any enemy foolish enough to close in.",
+        "description": "Subtract 1 from hit rolls for attacks made with melee weapons that target this model."
+      },
+      {
+        "name": "Blood Vulture",
+        "flavorText": "Blood vultures are vicious predators that help lead the Alfrostuns to prey.",
+        "description": "If this model is armed with a Blood Vulture, at the start of your shooting phase, pick 1 enemy unit within 30\" of this model that is visible to it and roll a dice. On a 2+, that unit suffers 1 mortal wound."
+      }
+    ],
+    "keywords": [
+      "DESTRUCTION",
+      "OGOR",
+      "THUNDERTUSK",
+      "OGOR",
+      "MAWTRIBES",
+      "BEASTCLAW",
+      "RAIDERS",
+      "MONSTER",
+      "HERO",
+      "PRIEST",
+      "HUSKARD"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "120 x 92mm"
+  },
+  {
+    "name": "Kragnos the End of Empires",
+    "points": "720",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader",
+      "Behemoth"
+    ],
+    "flavorText": "A roaring, trampling god of earthquakes and wanton destruction, Kragnos is known as the End of Empires. In his gnarled hands, the Dread Mace can shatter the walls of cities even as the shield Tuskbreaker keeps him all but inviolate.",
+    "description": "",
+    "wounds": "18",
+    "move": "✹",
+    "save": "2+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "The Dread Mace",
+        "range": "3\"",
+        "attacks": "6",
+        "toHit": "3+",
+        "toWound": "2+",
+        "rend": "-3",
+        "damage": "4"
+      },
+      {
+        "name": "Tuskbreaker",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "2+",
+        "rend": "-2",
+        "damage": "D3"
+      },
+      {
+        "name": "Hooves of Wrack and Ruin",
+        "range": "1\"",
+        "attacks": "✹",
+        "toHit": "3+",
+        "toWound": "2+",
+        "rend": "-1",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-9",
+        "move": "10\"",
+        "hoovesOfWrackAndRuin": "6",
+        "bellowOfRage": "5+",
+        "mightiestMakesRightiest": "30"
+      },
+      {
+        "woundsSuffered": "10-12",
+        "move": "9\"",
+        "hoovesOfWrackAndRuin": "5",
+        "bellowOfRage": "4+",
+        "mightiestMakesRightiest": "25"
+      },
+      {
+        "woundsSuffered": "13-15",
+        "move": "8\"",
+        "hoovesOfWrackAndRuin": "4",
+        "bellowOfRage": "3+",
+        "mightiestMakesRightiest": "20"
+      },
+      {}
+    ],
+    "abilities": [],
+    "keywords": [
+      "DESTRUCTION",
+      "DROGRUK",
+      "HERO",
+      "MONSTER",
+      "TOTEM",
+      "KRAGNOS"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ],
+    "baseSize": "130mm"
+  },
+  {
+    "name": "Butcher",
+    "points": "135",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "The Gulping God speaks through the blood-smeared shamans known as Butchers. Channelling the gastromantic magic of their deity, these swollen brutes can cause the very earth to come alive and munch upon their foes.",
+    "description": "A Butcher is a single model armed with a Gulping Bite and one of the following weapon options: Tenderiser; or Cleaver.",
+    "wounds": "7",
+    "move": "6\"",
+    "save": "5+",
+    "bravery": "8",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Tenderiser",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "3"
+      },
+      {
+        "name": "Cleaver",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "2"
+      },
+      {
+        "name": "Gulping Bite",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Bloodgruel",
+        "flavorText": "Bloodied chunks of meat are ritualistically devoured by the Gulping God’s shamans in order to cast their gastromantic powers. They have been known to choke on these pieces from time to time.",
+        "description": "Roll a dice each time this model successfully casts or unbinds a spell, after the effects of the spell have been resolved. On a 2+, you can heal 1 wound allocated to this model. On a 1, this model suffers 1 mortal wound."
+      },
+      {
+        "name": "Arcane BoltMystic ShieldVoracious Maw",
+        "flavorText": "",
+        "description": "This model is a WIZARD. It can attempt to cast one spell in your hero phase and attempt to unbind one spell in the enemy hero phase. It knows the Arcane Bolt, Mystic Shield and Voracious Maw spells."
+      },
+      {
+        "name": "Voracious Maw",
+        "flavorText": "The Butcher’s great hunger manifests itself, and the ground splits to reveal a tooth-lined, bottomless pit that hungrily snaps and snarls.",
+        "description": "Voracious Maw has a casting value of 7. If successfully cast, pick 1 enemy unit within 18\" of the caster that is visible to them. That unit suffers D3 mortal wounds. After resolving any damage, roll a dice. On a 1, 2 or 3, the maw is said to be satisfied and the spell ends. On a 4+, the target unit suffers D3 additional mortal wounds. Keep repeating this process until the maw is satisfied or the target unit is destroyed."
+      }
+    ],
+    "keywords": [
+      "DESTRUCTION",
+      "OGOR",
+      "OGOR",
+      "MAWTRIBES",
+      "GUTBUSTERS",
+      "HERO",
+      "WIZARD",
+      "BUTCHER"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "50mm"
+  },
+  {
+    "name": "Firebelly",
+    "points": "125",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Wandering shamans who worship Gorkamorka as the Sun-eater, Firebellies gobble up the spiciest and deadliest ingredients in order to stoke the flames within their gut. Should an enemy stray too close, they will be immolated with a gout of fiery breath.",
+    "description": "A Firebelly is a single model armed with Fire Breath and a Basalt Hammer.",
+    "wounds": "7",
+    "move": "6\"",
+    "save": "5+",
+    "bravery": "6",
+    "missleWeapons": [
+      {
+        "name": "Fire Breath",
+        "range": "6\"",
+        "attacks": "See below",
+        "toHit": "",
+        "toWound": "",
+        "rend": "",
+        "damage": ""
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Basalt Hammer",
+        "range": "2\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Fire Breath",
+        "flavorText": "Fiery morsels are consumed by this ogor moments before a torrent of flame is spat back out at the enemy.",
+        "description": "Do not use the attack sequence for an attack made with Fire Breath. Instead, pick 1 enemy unit that is within range of the attack and roll a dice. On a 4+, that enemy unit suffers D3 mortal wounds."
+      },
+      {
+        "name": "Arcane BoltMystic ShieldCascading Fire-cloak",
+        "flavorText": "",
+        "description": "This model is a WIZARD. It can attempt to cast one spell in your hero phase and attempt to unbind one spell in the enemy hero phase. It knows the Arcane Bolt, Mystic Shield and Cascading Fire-cloak spells."
+      },
+      {
+        "name": "Cascading Fire-cloak",
+        "flavorText": "The Firebelly creates a shield of fire around himself, scorching nearby foes.",
+        "description": "Cascading Fire-cloak has a casting value of 6. If successfully cast, roll 1 dice for each enemy unit within 3\" of the caster. On a 4+, that enemy unit suffers D3 mortal wounds. In addition, if this spell is successfully cast, add 1 to save rolls for attacks that target this model until the start of your next hero phase."
+      }
+    ],
+    "keywords": [
+      "DESTRUCTION",
+      "OGOR",
+      "OGOR",
+      "MAWTRIBES",
+      "HERO",
+      "WIZARD",
+      "FIREBELLY"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "50mm"
+  },
+  {
+    "name": "Icebrow Hunter",
+    "points": "125",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "An Icebrow Hunter is a cunning stalker who utilises their surroundings to launch ambushes with the aid of their Frost Sabres. Not only do they slay opponents with spear and bolt, they also have the power to breathe a killing blizzard over their foes.",
+    "description": "An Icebrow Hunter is a single model armed with a Great Throwing Spear, Hunter’s Crossbow, Gulping Bite and Hunter’s Culling Club.",
+    "wounds": "7",
+    "move": "6\"",
+    "save": "5+",
+    "bravery": "7",
+    "missleWeapons": [
+      {
+        "name": "Great Throwing Spear",
+        "range": "9\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      },
+      {
+        "name": "Hunter’s Crossbow",
+        "range": "12\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "D3"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Hunter’s Culling Club",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "2"
+      },
+      {
+        "name": "Gulping Bite",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Icy Breath",
+        "flavorText": "Flasks of distilled Frost Sabre blood allow these ogors to unleash torrents of deadly ice upon their foes.",
+        "description": "In your shooting phase, you can say that this model will attack with its Icy Breath instead of attacking with its missile weapons. If you do so, pick 1 enemy unit within 6\" of this model that is visible to it and roll a dice. On a 4+, that enemy unit suffers D3 mortal wounds."
+      },
+      {
+        "name": "Mighty Throw",
+        "flavorText": "The beginning of the hunt is signalled by a massive spear that glides through the air before punching deep into the flesh of their quarry.",
+        "description": "This model can run and still shoot with its Great Throwing Spear later in the same turn. In addition, this unit’s Great Throwing Spear has a Damage characteristic of D6 instead of D3 and a Range characteristic of 18\" instead of 9\" if it ran in the same turn."
+      },
+      {
+        "name": "Lead the Skal",
+        "flavorText": "With a roar, this hunter beckons the Frost Sabres at their side to chase down the enemy and show no mercy.",
+        "description": "You can use this command ability at the start of the combat phase. If you do so, pick 1 friendly FROST SABRES unit that is wholly within 12\" of a friendly model with this command ability. Until the end of that phase, add 1 to the Attacks characteristics of that unit’s melee weapons."
+      }
+    ],
+    "keywords": [
+      "DESTRUCTION",
+      "OGOR",
+      "OGOR",
+      "MAWTRIBES",
+      "BEASTCLAW",
+      "RAIDERS",
+      "HERO",
+      "ICEBROW",
+      "HUNTER"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "50mm"
+  },
+  {
+    "name": "Slaughtermaster",
+    "points": "140",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Slaughtermasters have entirely lost themselves to their cravings, hacking off their limbs and replacing them with rusty hooks and blades. They drag a cookpot into battle behind them so that they may boil up a tasty broth even as they slice up their prey.",
+    "description": "A Slaughtermaster is a single model armed with Stump Blades and a Gulping Bite.",
+    "wounds": "7",
+    "move": "6\"",
+    "save": "5+",
+    "bravery": "8",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Stump Blades",
+        "range": "1\"",
+        "attacks": "2D6",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Gulping Bite",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Motley Assortment of Weapons",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "5+",
+        "toWound": "5+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "CREW",
+        "description": "This model has a Gnoblar crew that attack with their Motley Assortment of Weapons. For rules purposes, the crew are treated in the same manner as a mount."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Bloodgruel",
+        "flavorText": "Bloodied chunks of meat are ritualistically devoured by the Gulping God’s shamans in order to cast their gastromantic powers. They have been known to choke on these pieces from time to time.",
+        "description": "Roll a dice each time a this model successfully casts or unbinds a spell, after the effects of the spell have been resolved. On a 2+, you can heal 1 wound allocated to this model. On a 1, this model suffers 1 mortal wound."
+      },
+      {
+        "name": "Arcane BoltMystic ShieldRockchomper",
+        "flavorText": "",
+        "description": "This model is a WIZARD. It can attempt to cast one spell in your hero phase and attempt to unbind one spell in the enemy hero phase. It knows the Arcane Bolt, Mystic Shield and Rockchomper spells."
+      },
+      {
+        "name": "Rockchomper",
+        "flavorText": "The Slaughtermaster hurls a handful of beast fangs into his cauldron. As the gastromantic magic swells, nearby ogors find their teeth elongated and their jaws swollen with animal power to the point that they can chomp straight through the toughest stone.",
+        "description": "Rockchomper has a casting value of 5. If successfully cast, pick 1 friendly unit of OGOR GLUTTONS wholly within 18\" of the caster that is visible to them. Until the start of your next hero phase, if the unmodified wound roll for an attack made with that unit’s Gulping Bite is 6, that attack inflicts 1 mortal wound on the target in addition to any normal damage and that unit can heal 1 wound allocated to it."
+      }
+    ],
+    "keywords": [
+      "DESTRUCTION",
+      "OGOR",
+      "OGOR",
+      "MAWTRIBES",
+      "GUTBUSTERS",
+      "HERO",
+      "WIZARD",
+      "BUTCHER",
+      "SLAUGHTERMASTER"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "105 x 70mm"
+  },
+  {
+    "name": "Tyrant",
+    "points": "150",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "The ferocious war-leaders of the Gutbuster warglutts, Tyrants are living mountains of iron and blubbery flesh. Despite their girth, they move with surprising speed, hacking their prey into bloody chunks for easier consumption.",
+    "description": "A Tyrant is a single model armed with a Thundermace, Beastskewer Glaive, Gulping Bite and Ogor Pistols.",
+    "wounds": "8",
+    "move": "6\"",
+    "save": "4+",
+    "bravery": "8",
+    "missleWeapons": [
+      {
+        "name": "Ogor Pistols",
+        "range": "12\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Thundermace",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "3"
+      },
+      {
+        "name": "Beastskewer Glaive",
+        "range": "3\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      },
+      {
+        "name": "Gulping Bite",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Beastskewer Glaive",
+        "flavorText": "A Tyrant uses their beastskewer glaive to disembowel their foes.",
+        "description": "If the unmodified hit roll for an attack made with a Beastskewer Glaive that targets a HERO or MONSTER is 6, the Beastskewer Glaive has a Damage characteristic of D6 instead of D3 for that attack."
+      },
+      {
+        "name": "Thundermace",
+        "flavorText": "When brought down in an overhead smash, the resulting shock wave explodes outwards from the point of impact.",
+        "description": "If the unmodified hit roll for an attack made with a Thundermace is 6, that attack inflicts 1 mortal wound in addition to any normal damage. If the target unit has more than 3 models, on an unmodified 6, that attack inflicts D3 mortal wounds instead of 1."
+      },
+      {
+        "name": "Bully of the First Degree",
+        "flavorText": "Tyrants use abrupt violence to help them maintain an iron rule over their warglutt.",
+        "description": "You can use this command ability in your hero phase. If you do so, pick 1 friendly GUTBUSTERS unit within 3\" of a friendly model with this command ability. That unit suffers D3 mortal wounds, but you do not have to take battleshock tests for that unit for the rest of the battle."
+      }
+    ],
+    "keywords": [
+      "DESTRUCTION",
+      "OGOR",
+      "OGOR",
+      "MAWTRIBES",
+      "GUTBUSTERS",
+      "HERO",
+      "TYRANT"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "50mm"
+  },
+  {
+    "name": "Blackpowder s Buccaneers",
+    "points": "105",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "The Ogor Maneater Gorlok Blackpowder made his reputation roaming the Penumbral Sea and plundering ships wherever he went, ever accompanied by a retinue of hangers-on. While the Maneater seeks out worthy adversaries to add to his boasting-tally, his crew loot everything they can get their hands, claws or beak on.",
+    "description": "",
+    "wounds": "7",
+    "move": "5\"",
+    "save": "5+",
+    "bravery": "8",
+    "missleWeapons": [
+      {
+        "name": "Grunderbuss",
+        "range": "12\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Great Cutlass",
+        "range": "2\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "2"
+      },
+      {
+        "name": "Gulping Bite",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "DESTRUCTION",
+      "OGOR",
+      "MAWTRIBES",
+      "OGOR",
+      "HERO",
+      "MANEATERS",
+      "BLACKPOWDER'S",
+      "BUCCANEERS"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ]
+  },
+  {
+    "name": "Hrothgorn",
+    "points": "170",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Hrothgorn is a particularly foul-tempered and cruel Icebrow Hunter with a keen nose for fresh meat, who favours snaring his prey with a crossbow-launched mantrap that shatters bones with its iron jaws.",
+    "description": "Hrothgorn is a named character that is a single model. He is armed with a Trap Launcher, Hunting Knife and Gulping Bite.",
+    "wounds": "7",
+    "move": "6\"",
+    "save": "5+",
+    "bravery": "7",
+    "missleWeapons": [
+      {
+        "name": "Trap Launcher",
+        "range": "12\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "D3"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Hunting Knife",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "2"
+      },
+      {
+        "name": "Gulping Bite",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "Thrafnir",
+        "description": "For years, Hrothgorn has waged war with his faithful Frost Sabre companion, Thrafnir, at his side.The first time this model is set up on the battlefield, you can set up a FROST SABRES unit consisting of a single model on the battlefield and add it to your army. Set up the Frost Sabre wholly within 3\" of this model and more than 9\" from any enemy units."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "DESTRUCTION",
+      "OGOR",
+      "OGOR",
+      "MAWTRIBES",
+      "BEASTCLAW",
+      "RAIDERS",
+      "WINTERBITE",
+      "HERO",
+      "ICEBROW",
+      "HUNTER",
+      "HROTHGORN"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique. Hrothgorn and <a href=\"/aos3/factions/ogor-mawtribes/warscrolls.html#Hrothgorn-s-Mantrappers\">Hrothgorn’s Mantrappers</a> must be taken as a set. Although taken as a set",
+      "each is a separate unit."
+    ]
+  },
+  {
+    "name": "Ogor Gluttons",
+    "points": "250",
+    "unitSize": "6",
+    "battlefieldRoles": [
+      "Battleline"
+    ],
+    "flavorText": "Ogor Gluttons are hulking, muscle-bound brutes driven entirely by an unending desire for food. They thunder into battle like an avalanche of sweaty flesh, taking great bites out of their foes even as they hack and tear with crude clubs and cleavers.",
+    "description": "A unit of Ogor Gluttons has any number of models. The unit is armed with a Gulping Bite and one of the following weapon options: Club or Blade and Ironfist; or paired Clubs or Blades.",
+    "wounds": "4",
+    "move": "6\"",
+    "save": "5+",
+    "bravery": "6",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Club(s) or Blade(s)",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "2"
+      },
+      {
+        "name": "Gulping Bite",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "CRUSHER",
+        "description": "1 model in this unit can be a Crusher. Add 1 to the Attacks characteristic of that model’s Club(s) or Blade(s)."
+      },
+      {
+        "name": "BELLOWER",
+        "description": "1 in every 6 models in this unit can be a Bellower. Subtract 1 from the Bravery characteristic of enemy units while they are within 6\" of any Bellowers."
+      },
+      {
+        "name": "STANDARD BEARERS",
+        "description": "1 in every 6 models in this unit can be a Beast Skull Bearer, and 1 in every 6 models in this unit can be a Tribal Banner Bearer.Beast Skull Bearer: You can re-roll charge rolls for this unit while it includes any Beast Skull Bearers.Tribal Banner Bearer: Add 1 to the Bravery characteristic of this unit while it includes any Tribal Banner Bearers."
+      },
+      {
+        "name": "LOOKOUT GNOBLAR",
+        "description": "Any Tribal Banner Bearers in this unit can have a Lookout Gnoblar. Roll a dice each time you allocate a wound inflicted by a missile weapon to a unit that includes any Lookout Gnoblars. On a 6, that wound is negated."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Paired Clubs or Blades",
+        "flavorText": "Most ogors agree that two weapons are better than one.",
+        "description": "If the unmodified hit roll for an attack made with paired Clubs or Blades is 6, that attack inflicts 2 hits on the target instead of 1. Make a wound and save roll for each hit."
+      },
+      {
+        "name": "Ironfist",
+        "flavorText": "An ironfist is used to bat aside an opponent’s attacks before punching them in the face.",
+        "description": "If the unmodified save roll for an attack made with a melee weapon that targets a unit armed with Ironfists is 6, the attacking unit suffers 1 mortal wound after all of its attacks have been resolved."
+      }
+    ],
+    "keywords": [
+      "DESTRUCTION",
+      "OGOR",
+      "OGOR",
+      "MAWTRIBES",
+      "GUTBUSTERS",
+      "OGOR",
+      "GLUTTONS"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "40mm"
+  },
+  {
+    "name": "Frost Sabres",
+    "points": "55",
+    "unitSize": "2",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Beasts of winter, Frost Sabres bound across the landscape like shadows ghosting over the snow. Icy blood runs in their veins, and their prey seldom sees them coming until they feel the bite of the great cats’ sword-like fangs.",
+    "description": "A unit of Frost Sabres has any number of models, each armed with Elongated Fangs.",
+    "wounds": "2",
+    "move": "9\"",
+    "save": "6+",
+    "bravery": "5",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Elongated Fangs",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Their Master’s Voice",
+        "flavorText": "Obeying without hesitation, Frost Sabres race down the enemy on the flanks of every Icebrow Hunter.",
+        "description": "Add 3 to charge rolls for this unit if it is wholly within 16\" of a friendly ICEBROW HUNTER when the charge roll is made.In addition, add 2 to the Bravery characteristic of this unit while it is wholly within 16\" of a friendly ICEBROW HUNTER."
+      }
+    ],
+    "keywords": [
+      "DESTRUCTION",
+      "OGOR",
+      "MAWTRIBES",
+      "BEASTCLAW",
+      "RAIDERS",
+      "FROST",
+      "SABRES"
+    ],
+    "pitchedBattleNotes": [
+      "Battleline if general is an <span class=\"tooltipICEBROWHUNTER\" data-tooltip-content=\"#tooltip_contentICEBROWHUNTER\" data-tooltip-anchor=\"#tooltip_contentICEBROWHUNTER\"><span class=\"kwb kwbu\">ICEBROW</span> <span class=\"kwb kwbu\">HUNTER</span></span>"
+    ],
+    "baseSize": "60 x 35mm"
+  },
+  {
+    "name": "Gnoblars",
+    "points": "100",
+    "unitSize": "20",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Devious little creatures obsessed with scooping up scrap metal and other detritus, Gnoblars perform a variety of tasks for their ogor masters, including charging into battle in a vast screeching mob.",
+    "description": "A unit of Gnoblars has any number of models, each armed with Sharp Stuff and a Motley Assortment of Weapons.",
+    "wounds": "1",
+    "move": "5\"",
+    "save": "6+",
+    "bravery": "4",
+    "missleWeapons": [
+      {
+        "name": "Sharp Stuff",
+        "range": "8\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "5+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Motley Assortment of Weapons",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "5+",
+        "toWound": "5+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "GROINBITER",
+        "description": "1 model in this unit can be a Groinbiter. Add 1 to the Attacks characteristic of that model’s Motley Assortment of Weapons."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Screeching Horde",
+        "flavorText": "Gnoblars are surprisingly dangerous in large numbers.",
+        "description": "Add 1 to the Attacks characteristic of this unit’s melee weapons while it has 10 or more models."
+      },
+      {
+        "name": "Trappers",
+        "flavorText": "These cunning creatures specialise in fighting dirty and laying nasty traps.",
+        "description": "Roll 1 dice for each enemy unit that is within 3\" of a model from this unit after that enemy unit finishes a charge move. On a 6, that enemy unit suffers D3 mortal wounds."
+      }
+    ],
+    "keywords": [
+      "DESTRUCTION",
+      "GROT",
+      "OGOR",
+      "MAWTRIBES",
+      "GUTBUSTERS",
+      "GNOBLARS"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "25mm"
+  },
+  {
+    "name": "Gorgers",
+    "points": "80",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Inflicted with a curse that ensures they can never satiate their terrible hunger, Gorgers lope into battle in a frenzied rage, tearing opponents limb from limb and stuffing the bloody remains into their oversized maws.",
+    "description": "A unit of Gorgers has any number of models, each armed with Long Claws and a Distensible Jaw.",
+    "wounds": "5",
+    "move": "6\"",
+    "save": "6+",
+    "bravery": "8",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Long Claws",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "2"
+      },
+      {
+        "name": "Distensible Jaw",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Ambushing Hunters",
+        "flavorText": "Their minds filled with eternal bloodlust, Gorgers race ahead of the main tribe looking to feast first upon the flesh of the enemy.",
+        "description": "Instead of setting up this unit on the battlefield, you can place it to one side and say that it is set up in ambush as a reserve unit. If you do so, at the end of your first movement phase, you must set up this unit on the battlefield more than 9\" from any enemy units."
+      },
+      {
+        "name": "Insatiable Hunger",
+        "flavorText": "When the scent of food catches their nostrils, nothing can get between a Gorger and their prey.",
+        "description": "You can re-roll charge rolls for this unit."
+      }
+    ],
+    "keywords": [
+      "DESTRUCTION",
+      "OGOR",
+      "OGORMAWTRIBES",
+      "GUTBUSTERS",
+      "GORGERS"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "50mm"
+  },
+  {
+    "name": "Icefall Yhetees",
+    "points": "120",
+    "unitSize": "3",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Icefall Yhetees are savage creatures of the frozen wastelands. They appear from the howling blizzard that follows in the Beastclaw Raiders’ wake to hack apart their prey with weapons touched by magical frost.",
+    "description": "A unit of Icefall Yhetees has any number of models, each armed with Claws and Ice-encrusted Clubs.",
+    "wounds": "4",
+    "move": "9\"",
+    "save": "6+",
+    "bravery": "6",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Claws and Ice-encrusted Clubs",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Aura of Frost",
+        "flavorText": "Thick plumes of ice surround these winter creatures.",
+        "description": "Subtract 1 from hit rolls for attacks made with melee weapons that target this unit."
+      },
+      {
+        "name": "Bounding Leaps",
+        "flavorText": "Many a foolish general has not anticipated the speed at which these creatures can close in over short distances.",
+        "description": "This unit is eligible to fight in the combat phase if it is within 6\" of an enemy unit instead of 3\", and it can move an extra 3\" when it piles in."
+      },
+      {
+        "name": "Invigorated by the Blizzard",
+        "flavorText": "To the primitive Yhetees, Thundertusks are walking gods of the Everwinter and to fight at their side is to be filled with the power of the supernatural storm.",
+        "description": "This unit can run and still charge later in the same turn if it is wholly within 16\" of a friendly THUNDERTUSK when the charge roll is made."
+      }
+    ],
+    "keywords": [
+      "DESTRUCTION",
+      "OGOR",
+      "MAWTRIBES",
+      "BEASTCLAW",
+      "RAIDERS",
+      "ICEFALL",
+      "YHETEES"
+    ],
+    "pitchedBattleNotes": [
+      "Battleline if general is a <span class=\"tooltipTHUNDERTUSK\" data-tooltip-content=\"#tooltip_contentTHUNDERTUSK\" data-tooltip-anchor=\"#tooltip_contentTHUNDERTUSK\"><span class=\"kwb kwbu\">THUNDERTUSK</span></span>"
+    ],
+    "baseSize": "50mm"
+  },
+  {
+    "name": "Ironguts",
+    "points": "235",
+    "unitSize": "4",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Ironguts are the meanest ogors around, the elite warriors of their warglutt. Protected by thick metal armour-plates and carrying immense two-handed weapons, they wade into the thick of the fighting, hacking and bashing their foes to bloody chunks.",
+    "description": "A unit of Ironguts has any number of models, each armed with a Mighty Bashing Weapon and Gulping Bite.",
+    "wounds": "4",
+    "move": "6\"",
+    "save": "4+",
+    "bravery": "7",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Mighty Bashing Weapon",
+        "range": "2\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "3"
+      },
+      {
+        "name": "Gulping Bite",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "GUTLORD",
+        "description": "1 model in this unit can be a Gutlord. Add 1 to the Attacks characteristic of that model’s Mighty Bashing Weapon."
+      },
+      {
+        "name": "BELLOWER",
+        "description": "1 in every 4 models in this unit can be a Bellower. Subtract 1 from the Bravery characteristic of enemy units while they are within 6\" of any Bellowers."
+      },
+      {
+        "name": "RUNE MAW BEARER",
+        "description": "1 in every 4 models in this unit can be a Rune Maw Bearer. If an enemy unit fails a battleshock test within 6\" of any Rune Maw Bearers, you can roll a dice. On a 6, add D3 to the number of models that flee.In addition, each time a unit with any Rune Maw Bearers is affected by a spell or endless spell, you can roll a dice. If you do so, on a 6, ignore the effects of that spell or endless spell on that unit."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Down to the Ironguts",
+        "flavorText": "It is not often that an Ogor Mawtribe’s battle line falters, but when it does so, the Tyrant will call upon their Ironguts to turn the battle back in their favour.",
+        "description": "Once per battle, in your hero phase, if at least 1 OGOR model from your army has fled the battle, you can use this ability. If you do so, you can re-roll hit, wound and save rolls of 1 for this unit until your next hero phase."
+      }
+    ],
+    "keywords": [
+      "DESTRUCTION",
+      "OGOR",
+      "OGOR",
+      "MAWTRIBES",
+      "GUTBUSTERS",
+      "IRONGUTS"
+    ],
+    "pitchedBattleNotes": [
+      "Battleline if general is <span class=\"tooltipGUTBUSTERS\" data-tooltip-content=\"#tooltip_contentGUTBUSTERS\" data-tooltip-anchor=\"#tooltip_contentGUTBUSTERS\"><span class=\"kwb kwbu\">GUTBUSTERS</span></span>"
+    ],
+    "baseSize": "40mm"
+  },
+  {
+    "name": "Leadbelchers",
+    "points": "180",
+    "unitSize": "4",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "The blackpowder-obsessed gunners known as Leadbelchers lumber into battle, blasting away with their massive guns and utilising them as makeshift bludgeons should the foe be foolish enough to engage them in hand-to-hand combat.",
+    "description": "A unit of Leadbelchers has any number of models, each armed with a Leadbelcher Gun, Bludgeoning Blow and Gulping Bite.",
+    "wounds": "4",
+    "move": "6\"",
+    "save": "5+",
+    "bravery": "6",
+    "missleWeapons": [
+      {
+        "name": "Leadbelcher Gun",
+        "range": "12\"",
+        "attacks": "D3",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Bludgeoning Blow",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      },
+      {
+        "name": "Gulping Bite",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "THUNDERFIST",
+        "description": "1 model in this unit can be a Thunderfist. Add 1 to the Attacks characteristic of that model’s Bludgeoning Blow."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Thunderous Blasts of Hot Metal",
+        "flavorText": "The salvoes fired by Leadbelcher guns can blast a target apart.",
+        "description": "This unit’s Leadbelcher Guns have an Attacks characteristic of D6 instead of D3 if this unit did not make a move in the same turn."
+      }
+    ],
+    "keywords": [
+      "DESTRUCTION",
+      "OGOR",
+      "OGOR",
+      "MAWTRIBES",
+      "GUTBUSTERS",
+      "LEADBELCHERS"
+    ],
+    "pitchedBattleNotes": [
+      "Battleline if general is <span class=\"tooltipGUTBUSTERS\" data-tooltip-content=\"#tooltip_contentGUTBUSTERS\" data-tooltip-anchor=\"#tooltip_contentGUTBUSTERS\"><span class=\"kwb kwbu\">GUTBUSTERS</span></span>"
+    ],
+    "baseSize": "40mm"
+  },
+  {
+    "name": "Maneaters",
+    "points": "180",
+    "unitSize": "3",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Maneaters are swaggering mercenaries who have travelled the realms and killed and eaten all manner of foes. Wielding a variety of esoteric weaponry robbed from distant lands, they cut an imposing sight as they carve their way across the battlefield.",
+    "description": "A unit of Maneaters has any number of models, each armed with Pistols and Throwing Stars, Slicers and Bashers, and a Gulping Bite.",
+    "wounds": "4",
+    "move": "6\"",
+    "save": "5+",
+    "bravery": "7",
+    "missleWeapons": [
+      {
+        "name": "Pistols and Throwing Stars",
+        "range": "12\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Slicers and Bashers",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      },
+      {
+        "name": "Gulping Bite",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "ELITE",
+        "description": "Models in this unit can issue commands to their own unit."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Been There, Done That",
+        "flavorText": "Having travelled the realms and fought against every conceivable enemy, Maneaters have developed their own unique combat styles.",
+        "description": "After armies have been set up but before the first battle round begins, pick 1 ability to apply to this unit from the following list:Brawlers: You can re-roll hit rolls of 1 for attacks made with melee weapons by this unit.Crack Shots: You can re-roll hit rolls of 1 for attacks made with missile weapons by this unit.Striders: This unit can run and still charge later in the same turn.Stubborn: Do not take battleshock tests for this unit."
+      }
+    ],
+    "keywords": [
+      "DESTRUCTION",
+      "OGOR",
+      "OGOR",
+      "MAWTRIBES",
+      "MANEATERS"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "50mm"
+  },
+  {
+    "name": "Mournfang Pack",
+    "points": "160",
+    "unitSize": "2",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Ogors mounted on Mournfangs wield clubs, blades and pistols, firing point-blank into their foes before laying about them with brutal abandon. Their foul-tempered beasts trample and gore anything unfortunate enough to get in their way",
+    "description": "A Mournfang Pack unit has any number of models. The unit is armed with one of the following weapon options: Culling Club or Prey Hacker and Ironfist; or Gargant Hackers.",
+    "wounds": "6",
+    "move": "9\"",
+    "save": "4+",
+    "bravery": "6",
+    "missleWeapons": [
+      {
+        "name": "Ironlock Pistol",
+        "range": "12\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Culling Club or Prey Hacker",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "2"
+      },
+      {
+        "name": "Gargant Hacker",
+        "range": "2\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "3"
+      },
+      {
+        "name": "Tusks",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "MOUNT",
+        "description": "This unit’s Mournfangs attack with their Tusks."
+      },
+      {
+        "name": "SKALG",
+        "description": "The leader of this unit is a Skalg. A Skalg can be armed with an Ironlock Pistol in addition to their other weapons."
+      },
+      {
+        "name": "HORN BLOWER",
+        "description": "1 in every 4 models in this unit can be a Horn Blower. Add 1 to charge rolls for this unit while it includes any Horn Blowers."
+      },
+      {
+        "name": "BANNER BEARER",
+        "description": "1 in every 4 models in this unit can be a Banner Bearer. Add 1 to the Bravery characteristic of this unit while it includes any Banner Bearers."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Ironfist",
+        "flavorText": "An ironfist is used to bat aside an opponent’s attacks before punching them in the face.",
+        "description": "If the unmodified save roll for an attack made with a melee weapon that targets a unit armed with Ironfists is 6, the attacking unit suffers 1 mortal wound after all of its attacks have been resolved."
+      },
+      {
+        "name": "Mournfang Charge",
+        "flavorText": "Heels dig deep into the flanks of the Mournfangs, spurring them forward in rage as they lower their tusks ready for impact.",
+        "description": "Add 1 to the damage inflicted by attacks made with this unit’s Tusks if this unit made a charge move in the same turn."
+      }
+    ],
+    "keywords": [
+      "DESTRUCTION",
+      "OGOR",
+      "OGOR",
+      "MAWTRIBES",
+      "BEASTCLAW",
+      "RAIDERS",
+      "MOURNFANG",
+      "PACK"
+    ],
+    "pitchedBattleNotes": [
+      "Battleline if general is <span class=\"tooltip00005\" data-tooltip-content=\"#tooltip_content00005\" data-tooltip-anchor=\"#tooltip_content00005\"><span class=\"kwb kwbu\">BEASTCLAW</span> <span class=\"kwb kwbu\">RAIDERS</span></span>"
+    ],
+    "baseSize": "90 x 52mm"
+  },
+  {
+    "name": "Hrothgorn s Mantrappers",
+    "points": "170",
+    "unitSize": "3",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Hrothgorn tolerates the constant jabbering and bickering of his Gnoblar companions only because they are useful for carrying weapons, setting trap triggers and carrying out whatever tasks the Icebrow Hunter considers beneath him. ",
+    "description": "Hrothgorn’s Mantrappers is a unit that has 3 models. Bushwakka, Quiv and Luggit & Thwak are each armed with a Motley Assortment of Weapons and Sharp Stuff.",
+    "wounds": "1",
+    "move": "5\"",
+    "save": "6+",
+    "bravery": "4",
+    "missleWeapons": [
+      {
+        "name": "Sharp Stuff",
+        "range": "8\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "5+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Motley Assortment of Weapons",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "5+",
+        "toWound": "5+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "BUSHWAKKA’S TRAP",
+        "description": "You receive 1 Bushwakka’s Trap marker if this unit in your army."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Shivering Gnoblars",
+        "flavorText": "Unlike their Beastclaw masters, Gnoblars of the Alfrostuns have never grown accustomed to extreme cold.",
+        "description": "This unit is not considered a BEASTCLAW RAIDERS unit for the purposes of the Grasp of the Everwinter battle trait."
+      },
+      {
+        "name": "Here You Go Boss!",
+        "flavorText": "Quiv cunningly avoids being devoured by diligently carrying his master’s arrows into battle.",
+        "description": "While a friendly HROTHGORN is within 3\" of this unit while it includes Quiv, add 1 to the Attacks characteristic of his Trap Launcher."
+      },
+      {
+        "name": "Hidden Trap",
+        "flavorText": "At the command of Hrothgorn, the sneaky Bushwakka has laid down a cleverly concealed mantrap.",
+        "description": "At the start of the first hero phase, if this unit is in your army, you can pick 1 terrain feature or objective that is not wholly within enemy territory and say that it is trapped. If you do so, place 1 Bushwakka’s Trap marker next to that terrain feature or objective. The first time a unit finishes a move within 1\" of the trapped terrain feature or objective, roll a dice. On a 2+, that unit suffers D6 mortal wounds and the Bushwakka’s Trap marker is removed."
+      }
+    ],
+    "keywords": [
+      "DESTRUCTION",
+      "GROT",
+      "OGOR",
+      "MAWTRIBES",
+      "BEASTCLAW",
+      "RAIDERS",
+      "WINTERBITE",
+      "GNOBLARS",
+      "HROTHGORN’S",
+      "MANTRAPPERS"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique. <a href=\"/aos3/factions/ogor-mawtribes/warscrolls.html#Hrothgorn\">Hrothgorn</a> and Hrothgorn’s Mantrappers must be taken as a set. Although taken as a set",
+      "each is a separate unit."
+    ]
+  },
+  {
+    "name": "Stonehorn Beastriders",
+    "points": "320",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Behemoth"
+    ],
+    "flavorText": "The ground shakes under a Stonehorn’s headlong charge, each footfall a bell-toll of doom. From its back, a pair of Beastriders bring down foes with snapping chaintraps and harpoons, hauling in their kills to add to the Mawtribe’s meat harvest.",
+    "description": "Stonehorn Beastriders are a single model armed with a Harpoon Launcher and Punches and Kicks. In addition, they are armed with one of the following weapon options: Chaintrap; or Blood Vulture.",
+    "wounds": "12",
+    "move": "✹",
+    "save": "4+",
+    "bravery": "7",
+    "missleWeapons": [
+      {
+        "name": "Harpoon Launcher",
+        "range": "20\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "D3"
+      },
+      {
+        "name": "Chaintrap",
+        "range": "12\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "3"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Punches and Kicks",
+        "range": "1\"",
+        "attacks": "6",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Rock-hard Horns",
+        "range": "2\"",
+        "attacks": "✹",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "3"
+      },
+      {
+        "name": "Crushing Hooves",
+        "range": "1\"",
+        "attacks": "D6",
+        "toHit": "3+",
+        "toWound": "✹",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "MOUNT",
+        "description": "This model’s Stonehorn attacks with its Rock-hard Horns and Crushing Hooves."
+      }
+    ],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-2",
+        "move": "12\"",
+        "rockHardHorns": "6",
+        "crushingHooves": "2+"
+      },
+      {
+        "woundsSuffered": "3-4",
+        "move": "10\"",
+        "rockHardHorns": "5",
+        "crushingHooves": "3+"
+      },
+      {
+        "woundsSuffered": "5-7",
+        "move": "8\"",
+        "rockHardHorns": "4",
+        "crushingHooves": "3+"
+      },
+      {
+        "woundsSuffered": "8-9",
+        "move": "6\"",
+        "rockHardHorns": "3",
+        "crushingHooves": "4+"
+      },
+      {}
+    ],
+    "abilities": [
+      {
+        "name": "Earth-shattering Charge",
+        "flavorText": "Enemies are crushed and trampled beneath the unstoppable ferocity of a Stonehorn’s charge.",
+        "description": "Add 1 to the damage inflicted by attacks made with this model’s Rock-hard Horns and Crushing Hooves if this model made a charge move in the same turn."
+      },
+      {
+        "name": "Stone Skeleton",
+        "flavorText": "The thick, rock-like skeletons of these beasts can take substantial punishment.",
+        "description": "Roll a dice each time you allocate a wound or mortal wound to this model. On a 5+, that wound or mortal wound is negated."
+      },
+      {
+        "name": "Blood Vulture",
+        "flavorText": "Blood vultures are vicious predators that help lead the Alfrostuns to prey.",
+        "description": "If this model is armed with a Blood Vulture, at the start of your shooting phase, pick 1 enemy unit within 30\" of this model that is visible to it and roll a dice. On a 2+, that unit suffers 1 mortal wound."
+      }
+    ],
+    "keywords": [
+      "DESTRUCTION",
+      "OGOR",
+      "STONEHORN",
+      "OGOR",
+      "MAWTRIBES",
+      "BEASTCLAW",
+      "RAIDERS",
+      "MONSTER",
+      "STONEHORN",
+      "BEASTRIDERS"
+    ],
+    "pitchedBattleNotes": [
+      "Single. Battleline if general is <span class=\"tooltip00005\" data-tooltip-content=\"#tooltip_content00005\" data-tooltip-anchor=\"#tooltip_content00005\"><span class=\"kwb kwbu\">BEASTCLAW</span> <span class=\"kwb kwbu\">RAIDERS</span></span>"
+    ],
+    "baseSize": "120 x 92mm"
+  },
+  {
+    "name": "Thundertusk Beastriders",
+    "points": "275",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Behemoth"
+    ],
+    "flavorText": "The Everwinter clings to the Thundertusks and follows them wherever they tread, the air around them thick with glimmering frost. Guided into battle by a pair of savage Beastriders, these mammoth beasts smash and grind their prey to bloody ruin.",
+    "description": "Thundertusk Beastriders are a single model armed with a Harpoon Launcher and Punches and Kicks. In addition, they are armed with one of the following weapon options: Chaintrap; or Blood Vulture.",
+    "wounds": "12",
+    "move": "✹",
+    "save": "4+",
+    "bravery": "7",
+    "missleWeapons": [
+      {
+        "name": "Harpoon Launcher",
+        "range": "20\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "D3"
+      },
+      {
+        "name": "Chaintrap",
+        "range": "12\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "3"
+      },
+      {
+        "name": "Frost-wreathed Ice",
+        "range": "18\"",
+        "attacks": "See below",
+        "toHit": "",
+        "toWound": "",
+        "rend": "",
+        "damage": ""
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Punches and Kicks",
+        "range": "1\"",
+        "attacks": "6",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Colossal Tusks",
+        "range": "2\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "✹",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "MOUNT",
+        "description": "This model’s Thundertusk attacks with its Colossal Tusks and Frost-wreathed Ice."
+      }
+    ],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-2",
+        "move": "8\"",
+        "frostWreathedIce": "12",
+        "colossalTusks": "2+"
+      },
+      {
+        "woundsSuffered": "3-4",
+        "move": "7\"",
+        "frostWreathedIce": "10",
+        "colossalTusks": "3+"
+      },
+      {
+        "woundsSuffered": "5-7",
+        "move": "6\"",
+        "frostWreathedIce": "8",
+        "colossalTusks": "3+"
+      },
+      {
+        "woundsSuffered": "8-9",
+        "move": "5\"",
+        "frostWreathedIce": "6",
+        "colossalTusks": "4+"
+      },
+      {}
+    ],
+    "abilities": [
+      {
+        "name": "Blasts of Frost-wreathed Ice",
+        "flavorText": "Thundertusks can focus the cold between their tusks into blasts of ice that hit like cannonballs.",
+        "description": "Do not use the attack sequence for an attack made with Frost-wreathed Ice. Instead, pick 1 enemy unit within 18\" of this model that is visible to it and roll the number of dice shown on the damage table above. Add 1 to each roll if the target unit has 10 or more models. Add 2 to each roll instead if the target unit has 20 or more models. For each 6+, that enemy unit suffers 1 mortal wound."
+      },
+      {
+        "name": "Numbing Chill",
+        "flavorText": "Winter storms gather above these mythical creatures, freezing and slowing any enemy foolish enough to close in.",
+        "description": "Subtract 1 from hit rolls for attacks made with melee weapons that target this model."
+      },
+      {
+        "name": "Blood Vulture",
+        "flavorText": "Blood vultures are vicious predators that help lead the Alfrostuns to prey.",
+        "description": "If this model is armed with a Blood Vulture, at the start of your shooting phase, pick 1 enemy unit within 30\" of this model that is visible to it and roll a dice. On a 2+, that unit suffers 1 mortal wound."
+      }
+    ],
+    "keywords": [
+      "DESTRUCTION",
+      "OGOR",
+      "THUNDERTUSK",
+      "OGOR",
+      "MAWTRIBES",
+      "BEASTCLAW",
+      "RAIDERS",
+      "MONSTER",
+      "THUNDERTUSK",
+      "BEASTRIDERS"
+    ],
+    "pitchedBattleNotes": [
+      "Single. Battleline if general is <span class=\"tooltip00005\" data-tooltip-content=\"#tooltip_content00005\" data-tooltip-anchor=\"#tooltip_content00005\"><span class=\"kwb kwbu\">BEASTCLAW</span> <span class=\"kwb kwbu\">RAIDERS</span></span>"
+    ],
+    "baseSize": "120 x 92mm"
+  },
+  {
+    "name": "Gnoblar Scraplauncher",
+    "points": "130",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Artillery"
+    ],
+    "flavorText": "The height of Gnoblar ingenuity is the Scraplauncher, a catapult that hurls bucketfuls of razor-sharp metal high into the air to rain down upon the enemy. Despite its crude construction, it is a surprisingly lethal war machine.",
+    "description": "A Gnoblar Scraplauncher is a single model armed with Piles of Old Scrap, Gnoblar Scrappers’ Weapons and Rhinox’s Sharp Horns.",
+    "wounds": "9",
+    "move": "7\"",
+    "save": "4+",
+    "bravery": "5",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Gnoblar Scrappers’ Weapons",
+        "range": "1\"",
+        "attacks": "7",
+        "toHit": "5+",
+        "toWound": "5+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Rhinox’s Sharp Horns",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Deadly Rain of Scrap",
+        "flavorText": "Salvaged enemy weapons and lethal shards of metal rain down upon the enemy’s ranks.",
+        "description": "Add 1 to hit rolls and increase the Damage characteristic to D6 for attacks made with Piles of Old Scrap if the target unit has 10 or more models."
+      },
+      {
+        "name": "Rhinox Charge",
+        "flavorText": "A Rhinox’s double-horned skull can inflict considerable damage when they charge into the foe.",
+        "description": "Add 1 to the damage inflicted by attacks made with this model’s Rhinox’s Sharp Horns if this model made a charge move in the same turn."
+      }
+    ],
+    "keywords": [
+      "DESTRUCTION",
+      "GROT",
+      "RHINOX",
+      "OGOR",
+      "MAWTRIBES",
+      "GUTBUSTERS",
+      "GNOBLAR",
+      "SCRAPLAUNCHER"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "120 x 92mm"
+  },
+  {
+    "name": "Ironblaster",
+    "points": "130",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Artillery"
+    ],
+    "flavorText": "The most destructive blackpowder weapon deployed by the Gutbuster warglutts, the Ironblaster is an immense cannon that hurls solid shot into the heart of the enemy’s ranks, blasting foes into scraps of charred meat.",
+    "description": "An Ironblaster is a single model armed with an Ironblaster Cannon, Gunner’s Clubber, Rhinox’s Sharp Horns and Scrapper’s Jagged Blade.",
+    "wounds": "9",
+    "move": "7\"",
+    "save": "4+",
+    "bravery": "6",
+    "missleWeapons": [
+      {
+        "name": "Ironblaster Cannon: Cannon Ball",
+        "range": "24\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "2+",
+        "rend": "-2",
+        "damage": "D6"
+      },
+      {
+        "name": "Ironblaster Cannon: Hail Shot",
+        "range": "12\"",
+        "attacks": "6",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Gunner’s Clubber",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "2"
+      },
+      {
+        "name": "Rhinox’s Sharp Horns",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      },
+      {
+        "name": "Scrapper’s Jagged Blade",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "5+",
+        "toWound": "5+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Lethal Payload",
+        "flavorText": "An Ironblaster’s barrel can be filled with a single, massive cannon ball or stuffed with handfuls of deadly hail shot.",
+        "description": "Before attacking with an Ironblaster Cannon, choose either the Cannon Ball or Hail Shot missile weapon characteristics for that shooting attack."
+      },
+      {
+        "name": "Rhinox Charge",
+        "flavorText": "A Rhinox’s double-horned skull can inflict considerable damage when it charges into the foe.",
+        "description": "Add 1 to the damage inflicted by attacks made with this model’s Rhinox’s Sharp Horns if this model made a charge move in the same turn."
+      }
+    ],
+    "keywords": [
+      "DESTRUCTION",
+      "OGOR",
+      "RHINOX",
+      "OGOR",
+      "MAWTRIBES",
+      "GUTBUSTERS",
+      "IRONBLASTER"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "120 x 92mm"
+  },
+  {
+    "name": "Great Mawpot",
+    "points": "0",
+    "unitSize": "",
+    "battlefieldRoles": [
+      "Faction Terrain Feature"
+    ],
+    "flavorText": "Crafted from the melteddown weapons of defeated enemies and blessed with the strange, hungry essence of the Gulping God, the Great Mawpot is a Mawtribe’s most sacred possession. All manner of gruesome ingredients are thrown into this metal cauldron and boiled up into a thick magical broth that reinvigorates any ogors who taste it.",
+    "description": "",
+    "wounds": "",
+    "move": "",
+    "save": "",
+    "bravery": "",
+    "missleWeapons": [],
+    "meleeWeapons": [],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [],
+    "pitchedBattleNotes": []
+  }
+]

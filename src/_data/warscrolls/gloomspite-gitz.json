@@ -1,0 +1,3827 @@
+[
+  {
+    "name": "Loonboss on Mangler Squigs",
+    "points": "270",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader",
+      "Behemoth"
+    ],
+    "flavorText": "It takes a particularly deranged loon to lead the charge clinging onto a pair of Mangler Squigs, but this Loonboss – along with some of his most bonkers cronies – is only too eager to go bounding into battle, crushing all in his path.",
+    "description": "A Loonboss on Mangler Squigs is a single model armed with a Moon-cutta.",
+    "wounds": "12",
+    "move": "✹",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Moon-cutta",
+        "range": "1\"",
+        "attacks": "5",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Huge Fang-filled Gobs",
+        "range": "2\"",
+        "attacks": "4",
+        "toHit": "✹",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D6"
+      },
+      {
+        "name": "Balls and Chains",
+        "range": "2\"",
+        "attacks": "✹",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "D3"
+      },
+      {
+        "name": "Grots’ Bashin’ Stikks",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "MOUNT",
+        "description": "This model’s Mangler Squigs attack with their Huge Fang-filled Gobs and Balls and Chains."
+      },
+      {
+        "name": "CREW",
+        "description": "This model’s Mangler Squigs have a grot crew that attack with their Bashin’ Stikks. For rules purposes, the crew are treated in the same manner as a mount."
+      },
+      {
+        "name": "FLY",
+        "description": "This model can fly."
+      }
+    ],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-2",
+        "move": "3D6\"",
+        "hugeFangFilledGobs": "3+",
+        "ballsAndChains": "7"
+      },
+      {
+        "woundsSuffered": "3-4",
+        "move": "2D6\"",
+        "hugeFangFilledGobs": "4+",
+        "ballsAndChains": "6"
+      },
+      {
+        "woundsSuffered": "5-7",
+        "move": "D6\"",
+        "hugeFangFilledGobs": "5+",
+        "ballsAndChains": "5"
+      },
+      {
+        "woundsSuffered": "8-9",
+        "move": "2D6\"",
+        "hugeFangFilledGobs": "4+",
+        "ballsAndChains": "6"
+      },
+      {}
+    ],
+    "abilities": [
+      {
+        "name": "Ker-splat!",
+        "flavorText": "Mangler Squigs produce an impact that is nothing short of spectacular, sending severed body parts and splashes of gore skywards.",
+        "description": "Add 1 to hit rolls for attacks made with this model’s Balls and Chains if this model made a charge move in the same turn."
+      },
+      {
+        "name": "Redcap Mushrooms",
+        "flavorText": "A grot that eats a redcap mushroom turns into a crazed killer.",
+        "description": "Once per battle, in your hero phase, you can say that this model is eating a redcap mushroom. If you do so, until your next hero phase, you can re-roll hit and wound rolls for this model (but not for the model’s mount or crew)."
+      },
+      {
+        "name": "Watch Out!",
+        "flavorText": "Mangler Squigs are capable of great destruction even in their wildly bouncing death throes.",
+        "description": "If this model is slain, before the model is removed from play roll a dice for each unit within 6\" of this model. On a 4+ that unit suffers D3 mortal wounds."
+      },
+      {
+        "name": "Bite Da Moon!",
+        "flavorText": "A Mangler Squig Loonboss can inspire other squig riders and their mounts to fight all the harder, crashing through the enemy so they can continue their pursuit of the Bad Moon.",
+        "description": "You can use this command ability at the start of a combat phase. If you do so, pick 1 friendly model with this command ability. In that combat phase you can add 1 to wound rolls for friendly SQUIG units while they are wholly within 18\" of that model."
+      }
+    ],
+    "keywords": [
+      "DESTRUCTION",
+      "SQUIG",
+      "GLOOMSPITE",
+      "GITZ",
+      "MOONCLAN",
+      "MONSTER",
+      "HERO",
+      "LOONBOSS",
+      "MANGLER",
+      "SQUIG"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "80mm"
+  },
+  {
+    "name": "Webspinner Shaman on Arachnarok Spider",
+    "points": "270",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader",
+      "Behemoth"
+    ],
+    "flavorText": "This especially old and malevolent Arachnarok Spider bears a Webspinner Shaman and his mob of hangers-on into battle. The shaman draws power from his howdah’s catchweb spidershrine to boost his own spellcraft and unmake his foes’.",
+    "description": "A Webspinner Shaman on Arachnarok Spider is a single model armed with a Spider God Staff.",
+    "wounds": "14",
+    "move": "✹",
+    "save": "4+",
+    "bravery": "6",
+    "missleWeapons": [
+      {
+        "name": "Spider-bows",
+        "range": "16\"",
+        "attacks": "8",
+        "toHit": "5+",
+        "toWound": "5+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Spider God Staff",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      },
+      {
+        "name": "Chitinous Legs",
+        "range": "3\"",
+        "attacks": "✹",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Monstrous Fangs",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "✹",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      },
+      {
+        "name": "Crooked Spears",
+        "range": "1\"",
+        "attacks": "8",
+        "toHit": "5+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "MOUNT",
+        "description": "This model’s Arachnarok Spider attacks with its Chitinous Legs and Monstrous Fangs."
+      },
+      {
+        "name": "CREW",
+        "description": "This model has a Spiderfang Grot crew that attack with their Crooked Spears and Spider-bows. For rules purposes, the crew are treated in the same manner as a mount."
+      }
+    ],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-3",
+        "move": "8\"",
+        "chitinousLegs": "8",
+        "monstrousFangs": "2+"
+      },
+      {
+        "woundsSuffered": "4-6",
+        "move": "7\"",
+        "chitinousLegs": "7",
+        "monstrousFangs": "3+"
+      },
+      {
+        "woundsSuffered": "7-9",
+        "move": "6\"",
+        "chitinousLegs": "6",
+        "monstrousFangs": "3+"
+      },
+      {
+        "woundsSuffered": "10-12",
+        "move": "5\"",
+        "chitinousLegs": "5",
+        "monstrousFangs": "4+"
+      },
+      {}
+    ],
+    "abilities": [
+      {
+        "name": "Catchweb Spidershrine",
+        "flavorText": "This ramshackle altar to the Spider God shimmers with malevolent arcane energy.",
+        "description": "Add 1 to casting and unbinding rolls for friendly SPIDERFANG WIZARDS while they are within 12\" of any friendly models with this ability."
+      },
+      {
+        "name": "Spider Venom",
+        "flavorText": "An Arachnarok Spider’s monstrous fangs glisten with deadly toxic venom.",
+        "description": "If the unmodified hit roll for an attack made with this model’s Monstrous Fangs is 6, that attack inflicts D3 mortal wounds on the target and the attack sequence ends (do not make a wound or save roll)."
+      },
+      {
+        "name": "Prophet of the Spider God",
+        "flavorText": "Spiderfang tribes are often ruled over by the shaman that attends the Spidershrine on an Arachnarok Spider.",
+        "description": "If this model is the general of your army, you can add 2 to the Bravery characteristic of friendly SPIDERFANG units wholly within 24\" of this model."
+      },
+      {
+        "name": "Wall Crawler",
+        "flavorText": "Arachnarok Spiders can skitter up and down vertical surfaces as if they were flat ground.",
+        "description": "When this model makes a move, it can pass across terrain features in the same manner as a model that can fly."
+      },
+      {
+        "name": "Arcane BoltMystic ShieldVenom of the Spider God",
+        "flavorText": "",
+        "description": "This model is a WIZARD. It can attempt to cast two spells in your hero phase, and attempt to unbind one spell in the enemy hero phase. It knows the Arcane Bolt, Mystic Shield and Venom of the Spider God spells."
+      },
+      {
+        "name": "Venom of the Spider God",
+        "flavorText": "With a hiss, the shaman calls upon the Spider God for its wicked aid.",
+        "description": "Venom of the Spider God has a casting value of 6. If successfully cast, pick 1 friendly SPIDERFANG unit wholly within 16\" of the caster and visible to them. Until your next hero phase, double the number of mortal wounds inflicted by that unit’s Spider Venom ability. If the casting roll is 10 or more, pick up to D3 different friendly SPIDERFANG units instead of 1."
+      }
+    ],
+    "keywords": [
+      "DESTRUCTION",
+      "ARACHNAROK",
+      "SPIDER",
+      "GLOOMSPITE",
+      "GITZ",
+      "SPIDERFANG",
+      "MONSTER",
+      "HERO",
+      "WIZARD",
+      "WEBSPINNER",
+      "SHAMAN"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "160mm"
+  },
+  {
+    "name": "Kragnos the End of Empires",
+    "points": "720",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader",
+      "Behemoth"
+    ],
+    "flavorText": "A roaring, trampling god of earthquakes and wanton destruction, Kragnos is known as the End of Empires. In his gnarled hands, the Dread Mace can shatter the walls of cities even as the shield Tuskbreaker keeps him all but inviolate.",
+    "description": "",
+    "wounds": "18",
+    "move": "✹",
+    "save": "2+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "The Dread Mace",
+        "range": "3\"",
+        "attacks": "6",
+        "toHit": "3+",
+        "toWound": "2+",
+        "rend": "-3",
+        "damage": "4"
+      },
+      {
+        "name": "Tuskbreaker",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "2+",
+        "rend": "-2",
+        "damage": "D3"
+      },
+      {
+        "name": "Hooves of Wrack and Ruin",
+        "range": "1\"",
+        "attacks": "✹",
+        "toHit": "3+",
+        "toWound": "2+",
+        "rend": "-1",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-9",
+        "move": "10\"",
+        "hoovesOfWrackAndRuin": "6",
+        "bellowOfRage": "5+",
+        "mightiestMakesRightiest": "30"
+      },
+      {
+        "woundsSuffered": "10-12",
+        "move": "9\"",
+        "hoovesOfWrackAndRuin": "5",
+        "bellowOfRage": "4+",
+        "mightiestMakesRightiest": "25"
+      },
+      {
+        "woundsSuffered": "13-15",
+        "move": "8\"",
+        "hoovesOfWrackAndRuin": "4",
+        "bellowOfRage": "3+",
+        "mightiestMakesRightiest": "20"
+      },
+      {}
+    ],
+    "abilities": [],
+    "keywords": [
+      "DESTRUCTION",
+      "DROGRUK",
+      "HERO",
+      "MONSTER",
+      "TOTEM",
+      "KRAGNOS"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ],
+    "baseSize": "130mm"
+  },
+  {
+    "name": "Troggoth Hag",
+    "points": "405",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader",
+      "Behemoth"
+    ],
+    "flavorText": "Unlike most of their race, Troggoth Hags are possessed of both arcane powers and a modicum of intelligence. They serve as leaders and envoys of the troggoth tribes, communicating in ways even the most dim-witted of their kin can understand.",
+    "description": "A Troggoth Hag is armed with Copious Vomit, a Deadwood Staff and Crushing Bulk.",
+    "wounds": "16",
+    "move": "✹",
+    "save": "4+",
+    "bravery": "7",
+    "missleWeapons": [
+      {
+        "name": "Copious Vomit",
+        "range": "10\"",
+        "attacks": "✹",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "D3"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Deadwood Staff",
+        "range": "2\"",
+        "attacks": "4",
+        "toHit": "4+",
+        "toWound": "✹",
+        "rend": "-1",
+        "damage": "3"
+      },
+      {
+        "name": "Crushing Bulk",
+        "range": "1\"",
+        "attacks": "D3",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "D6"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "WIZARD",
+        "description": "This model can attempt to cast 1 spell in your hero phase and attempt to unbind 1 spell in the enemy hero phase."
+      }
+    ],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-8",
+        "move": "8\"",
+        "copiousVomit": "6",
+        "deadwoodStaff": "2+"
+      },
+      {
+        "woundsSuffered": "9-11",
+        "move": "7\"",
+        "copiousVomit": "5",
+        "deadwoodStaff": "3+"
+      },
+      {
+        "woundsSuffered": "12-13",
+        "move": "6\"",
+        "copiousVomit": "4",
+        "deadwoodStaff": "3+"
+      },
+      {}
+    ],
+    "abilities": [
+      {
+        "name": "Hag Regeneration",
+        "flavorText": "All troggoths have an innate ability to regenerate even the most grievous of injuries, and in the case of the Troggoth Hag, this trait is augmented further by the arcane energies coursing through her hulking physique.",
+        "description": "In your hero phase, you can heal up to D6 wounds allocated to this model."
+      },
+      {
+        "name": "Spell-spite",
+        "flavorText": "A Troggoth Hag carries with her sackfuls of strange fetishes and weird keepsakes, the most cursed of which are used to call down malignant hexes upon those that would dare wield hostile magic against her.",
+        "description": "Each time this model successfully unbinds a spell, you can roll a dice. On a 4+, the caster of that spell suffers D3 mortal wounds."
+      },
+      {
+        "name": "Terrible Stench",
+        "flavorText": "So foul is the dank swamp stench given off by Troggoth Hags that even the hardiest of warriors will retch uncontrollably in their presence.",
+        "description": "Subtract 1 from hit rolls for attacks made with melee weapons that target this model."
+      },
+      {
+        "name": "Hag Curse",
+        "flavorText": "The cackling curses of the Troggoth Hag are insidious and vile, robbing her victims of strength and shackling them with ill fortune.",
+        "description": "Hag Curse is a spell that has a casting value of 7 and a range of 12\". If successfully cast, pick 1 enemy unit within range and visible to the caster. Until your next hero phase, subtract 1 from hit rolls for attacks made by that unit and subtract 1 from save rolls for attacks that target that unit."
+      }
+    ],
+    "keywords": [
+      "DESTRUCTION",
+      "GLOOMSPITE",
+      "GITZ",
+      "TROGGOTH",
+      "FELLWATER",
+      "MONSTER",
+      "HERO",
+      "WIZARD",
+      "TROGGOTH",
+      "HAG"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "120 x 92mm"
+  },
+  {
+    "name": "Dankhold Troggboss",
+    "points": "220",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Dankhold Troggbosses are ancient creatures that sometimes wake from their subterranean slumbers and go on the rampage. Potent forces of destruction in their own right, Troggbosses also inspire any Gloomspite Gitz fighting in their shadow.",
+    "description": "A Dankhold Troggboss is a single model armed with a Boulder Club and Crushing Grip.",
+    "wounds": "12",
+    "move": "6\"",
+    "save": "4+",
+    "bravery": "7",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Boulder Club",
+        "range": "2\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "D6"
+      },
+      {
+        "name": "Crushing Grip",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "See below",
+        "toWound": "",
+        "rend": "",
+        "damage": ""
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Crushing Grip",
+        "flavorText": "The vice-like grasp of a Dankhold Troggoth can squeeze the life out of all but the largest opponent.",
+        "description": "Do not use the attack sequence for an attack made with a Crushing Grip. Instead, pick 1 enemy model that is in range of the attack and roll a dice. If the roll is equal to or greater than the Wounds characteristic of that model, it is slain."
+      },
+      {
+        "name": "Magical Resistance",
+        "flavorText": "The mushrooms and realmstone that Dankhold Troggoths consume make them naturally resistance to the effects of magic.",
+        "description": "Each time this unit is affected by a spell or endless spell, you can roll a dice. If you do so, on a 4+, ignore the effects of that spell or endless spell on this model."
+      },
+      {
+        "name": "Reassuring Presence",
+        "flavorText": "The mushrooms that sprout from the scaly hides of Dankhold Troggoths are things of wonder and reassurance to the grots that make up the Gloomspite hordes.",
+        "description": "Add 1 to the Bravery characteristic of friendly GLOOMSPITE GITZ units that are wholly within 18\" of any friendly models with this ability."
+      },
+      {
+        "name": "Regeneration",
+        "flavorText": "Troggoths are able to regrow injured flesh almost as quickly as it is harmed.",
+        "description": "In your hero phase, you can roll a dice for this unit. If you do so, on a 4+ heal up to D3 wounds allocated to this unit."
+      },
+      {
+        "name": "Squiggly-beast Followers",
+        "flavorText": "Dankhold Troggoths are accompanied by a horde of small skittering cave-creatures that look to them for protection.",
+        "description": "At the start of the combat phase, roll 1 dice for each enemy unit within 3\" of any friendly models with this ability. If the roll is equal to or greater than the number of models in that enemy unit, that enemy unit suffers 1 mortal wound."
+      },
+      {
+        "name": "Instinctive Leader",
+        "flavorText": "A Dankhold Troggboss is one of the few creatures that can bellow loudly enough to get other troggoths to ignore any distractions and concentrate on bashing their enemies. The mindless beasts obey him instinctively, and follow his lead without question.",
+        "description": "Use this command ability at the start of the combat phase. If you do so, pick 1 friendly DANKHOLD TROGGOTH HERO with this command ability. Until the end of that phase, you can re-roll hit rolls of 1 for attacks made by friendly TROGGOTH units wholly within 18\" of that model when they attack."
+      }
+    ],
+    "keywords": [
+      "DESTRUCTION",
+      "TROGGOTH",
+      "GLOOMSPITE",
+      "GITZ",
+      "DANKHOLD",
+      "HERO",
+      "TROGGBOSS"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "60mm"
+  },
+  {
+    "name": "Fungoid Cave Shaman",
+    "points": "95",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Gibbering priests of Gorkamorka and speakers of the will of the Bad Moon, Fungoid Cave-Shamans are as much mushroom as magic-wielder. Their cunning and spellcraft are infamous, and their spore squigs wreath them in a fug of choking fungal foulness.",
+    "description": "A Fungoid Cave-Shaman is a single model armed with a Moon-sickle.",
+    "wounds": "4",
+    "move": "5\"",
+    "save": "6+",
+    "bravery": "4",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Moon-sickle",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Spore Squig’s Vicious Teeth",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "COMPANION",
+        "description": "A Fungoid Cave-Shaman is accompanied by a Spore Squig that attacks with its Vicious Teeth. For rules purposes, it is treated in the same manner as a mount."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Mouthpiece of Mork",
+        "flavorText": "The visionary Fungoid Cave-Shamans have a knack for coming up with cunnin’ plans.",
+        "description": "If this model is on the battlefield at the start of your hero phase, roll a dice. On a 4+ you receive 1 extra command point."
+      },
+      {
+        "name": "Deffcap Mushroom",
+        "flavorText": "These mushrooms enhance the eater’s magical capabilities.",
+        "description": "Once per battle, this model can attempt to cast 1 extra spell in your hero phase."
+      },
+      {
+        "name": "Spore Squig",
+        "flavorText": "Spore squigs exude thick green spores that hide their masters from sight.",
+        "description": "Roll a dice each time you allocate a wound or mortal wound to this model. On a 4+ the wound or mortal wound is negated."
+      },
+      {
+        "name": "Arcane BoltMystic ShieldSpore Maws",
+        "flavorText": "",
+        "description": "This model is a WIZARD. It can attempt to cast one spell in your hero phase, and attempt to unbind one spell in the enemy hero phase. It knows the Arcane Bolt, Mystic Shield and Spore Maws spells."
+      },
+      {
+        "name": "Spore Maws",
+        "flavorText": "The Cave-Shaman causes the thick spores around him to coalesce into gnashing green mouths.",
+        "description": "Spore Maws has a casting value of 7. If successfully cast, each enemy unit within D6\" of the caster suffers D3 mortal wounds."
+      }
+    ],
+    "keywords": [
+      "DESTRUCTION",
+      "GROT",
+      "GLOOMSPITE",
+      "GITZ",
+      "MOONCLAN",
+      "HERO",
+      "WIZARD",
+      "FUNGOID",
+      "CAVE-SHAMAN"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Loonboss",
+    "points": "75",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "A Loonboss never fights fair, ducking and weaving around his enemies and hurling mobs of cackling grots at them to wear them down, before finishing them off with a blade to the throat or between the shoulder blades.",
+    "description": "A Loonboss is a single model armed with a Moon-slicer.",
+    "wounds": "5",
+    "move": "5\"",
+    "save": "5+",
+    "bravery": "5",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Moon-slicer",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Dead Tricksy",
+        "flavorText": "Loonbosses are masters at using cunning and tricks in order to survive.",
+        "description": "Subtract 1 from hit rolls for attacks that target this model."
+      },
+      {
+        "name": "I’m Da Boss, Now Stab ’Em Good!",
+        "flavorText": "Loonbosses prefer to make their minions do all the fighting.",
+        "description": "You can use this command ability at the start of the combat phase. If you do so, pick 1 friendly MOONCLAN GROT unit wholly within 12\" of a friendly model with this command ability, or wholly within 24\" of a model with this command ability that is your general. If the unmodified wound roll for an attack made by that unit in that phase is 6, that attack inflicts 1 mortal wound on the target in addition to any normal damage. The same unit cannot be picked to be affected by this command ability more than once per phase."
+      }
+    ],
+    "keywords": [
+      "DESTRUCTION",
+      "GROT",
+      "GLOOMSPITE",
+      "GITZ",
+      "MOONCLAN",
+      "HERO",
+      "LOONBOSS"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Loonboss on Giant Cave Squig",
+    "points": "110",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Giant Cave Squigs are especially huge and ferocious beasts that make excellent steeds for the more daring grot Loonbosses. They hurtle into battle like rubbery meteors, all fangs, prodding spikes and shrieked war cries.",
+    "description": "A Loonboss on Giant Cave Squig is a single model armed with a Moon-cutta or a Moonclan Stabba.",
+    "wounds": "6",
+    "move": "2D6\"",
+    "save": "4+",
+    "bravery": "6",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Moon-cutta",
+        "range": "1\"",
+        "attacks": "5",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Moonclan Stabba",
+        "range": "2\"",
+        "attacks": "5",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Massive Fang-filled Gob",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "MOUNT",
+        "description": "This model’s Giant Cave Squig attacks with its Massive Fang-filled Gob."
+      },
+      {
+        "name": "FLY",
+        "description": "This model can fly."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Redcap Mushrooms",
+        "flavorText": "A grot that eats a redcap mushroom turns into a crazed killer.",
+        "description": "Once per battle, in your hero phase, you can say that this model is eating a redcap mushroom. If you do so, you can re-roll hit and wound rolls for this model’s Moon-cutta or Moonclan Stabba until your next hero phase."
+      },
+      {
+        "name": "Let’s Get Bouncing!",
+        "flavorText": "The Loonboss holds onto his squig as tightly as possible and prepares to leads his followers on a wild ride!",
+        "description": "You can use this command ability at the start of your movement phase. If you do so, pick 1 friendly model with this command ability. All friendly SQUIG units wholly within 12\" of that model at the start of that phase can move an extra 3\" if they make a move in that phase. A unit cannot benefit from this command ability more than once per movement phase."
+      }
+    ],
+    "keywords": [
+      "DESTRUCTION",
+      "SQUIG",
+      "GLOOMSPITE",
+      "GITZ",
+      "MOONCLAN",
+      "HERO",
+      "LOONBOSS"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "40mm"
+  },
+  {
+    "name": "Loonboss with Giant Cave Squig",
+    "points": "105",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Some particularly forceful and bullying Loonbosses are able to tame – in the loosest sense of the word – Giant Cave Squigs and bring them into battle as terrifying pets that are more than capable of biting a man in two.",
+    "description": "A Loonboss with Giant Cave Squig is a single model armed with a Moon-prodder.",
+    "wounds": "6",
+    "move": "5\"",
+    "save": "5+",
+    "bravery": "5",
+    "missleWeapons": [
+      {
+        "name": "Moon-prodder",
+        "range": "14\"",
+        "attacks": "D6",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Moon-prodder",
+        "range": "2\"",
+        "attacks": "4",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Massive Fang-filled Gob",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "COMPANION ",
+        "description": "A Loonboss with Giant Cave Squig is accompanied by a Giant Cave Squig that attacks with its Massive Fang-filled Gob. For rules purposes, it is treated in the same manner as a mount."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Dead Tricksy",
+        "flavorText": "Loonbosses are masters at using cunning and tricks in order to survive.",
+        "description": "Subtract 1 from hit rolls for attacks that target this model."
+      },
+      {
+        "name": "I’m Da Boss, Now Stab ’Em Good!",
+        "flavorText": "Loonbosses prefer to make their minions do all the fighting.",
+        "description": "You can use this command ability at the start of the combat phase. If you do so, pick 1 friendly MOONCLAN GROT unit wholly within 12\" of a friendly model with this command ability, or wholly within 24\" of a model with this command ability that is your general. If the unmodified wound roll for an attack made by that unit in that phase is 6, that attack inflicts 1 mortal wound on the target in addition to any normal damage. The same unit cannot be picked to be affected by this command ability more than once per phase."
+      }
+    ],
+    "keywords": [
+      "DESTRUCTION",
+      "GROT",
+      "GLOOMSPITE",
+      "GITZ",
+      "MOONCLAN",
+      "HERO",
+      "LOONBOSS"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "60mm"
+  },
+  {
+    "name": "Madcap Shaman",
+    "points": "80",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Black-clad Madcap Shamans caper into battle, chanting and jabbering madly. They stuff madcap mushrooms into their gobs, eyes crackling with power as they channel the Gloomspite into deadly magical attacks.",
+    "description": "A Madcap Shaman is a single model armed with a Moon Staff.",
+    "wounds": "4",
+    "move": "5\"",
+    "save": "6+",
+    "bravery": "4",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Moon Staff",
+        "range": "2\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Madcap Mushroom",
+        "flavorText": "This mushroom enhances the eater’s magical capabilities – as long as it is not a deadly poisonous madcap toadstool…",
+        "description": "Once per battle, in your hero phase, you can attempt to cast one additional spell with this model. If you do so, and the casting roll is a double, this model suffers D3 mortal wounds after the effects of the spell (if any) have been resolved."
+      },
+      {
+        "name": "Arcane BoltMystic ShieldNight Shroud",
+        "flavorText": "",
+        "description": "This model is a WIZARD. It can attempt to cast one spell in your hero phase, and attempt to unbind one spell in the enemy hero phase. It knows the Arcane Bolt, Mystic Shield and Night Shroud spells."
+      },
+      {
+        "name": "Night Shroud",
+        "flavorText": "The shaman throws a blackcapped nightshade mushroom into the air, which bursts to form a cloud of pitch blackness.",
+        "description": "Night Shroud has a casting value of 5. If successfully cast, pick 1 friendly unit wholly within 12\" of the caster that is visible to them. Until your next hero phase, subtract 1 from hit rolls for attacks made with missile weapons that target that unit."
+      }
+    ],
+    "keywords": [
+      "DESTRUCTION",
+      "GROT",
+      "GLOOMSPITE",
+      "GITZ",
+      "MOONCLAN",
+      "HERO",
+      "WIZARD",
+      "MADCAP",
+      "SHAMAN"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "25mm"
+  },
+  {
+    "name": "Mollog",
+    "points": "175",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Mollog the ancient Dankhold Troggoth really just wants to find somewhere dark and damp to go back to sleep, but people keep disturbing him and getting in his way. Suffice it to say, this never ends well for them…",
+    "description": "Mollog is a named character that is a single model with three minions: a Bat Squig, a Stalagsquig and a Spiteshroom. Mollog is armed with a Puff-fungus Club and Jabbertoad. Mollog and his minions are treated as a single model using the characteristics given above. The minions must remain within 1\" of Mollog’s model.",
+    "wounds": "8",
+    "move": "6\"",
+    "save": "4+",
+    "bravery": "7",
+    "missleWeapons": [
+      {
+        "name": "Jabbertoad",
+        "range": "12\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Puff-fungus Club",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "See below",
+        "toWound": "",
+        "rend": "",
+        "damage": ""
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Jabbertoad",
+        "flavorText": "Jabbertoads stick to their victim’s face, and are incredibly hard to remove.",
+        "description": "If any wounds inflicted by a Jabbertoad are allocated to an enemy model and not negated, subtract 1 from hit rolls for attacks made by that model for the rest of that battle round (even if the wounds inflicted by the Jabbertoad are subsequently healed)."
+      },
+      {
+        "name": "Puff-fungus Club",
+        "flavorText": "When a puff-fungus club hits a foe, it releases a cloud of toxic spores.",
+        "description": "Do not use the attack sequence for an attack made with a Puff-fungus Club. Instead roll a dice. On a 1, nothing happens. On a 2-3, the target unit suffers 1 mortal wound. On a 4+ the target unit suffers D3 mortal wounds."
+      },
+      {
+        "name": "Magical Resistance",
+        "flavorText": "The mushrooms and realmstone that Dankhold Troggoths consume make them naturally resistance to the effects of magic.",
+        "description": "Each time this unit is affected by a spell or endless spell, you can roll a dice. If you do so, on a 4+ ignore the effects of that spell or endless spell on this unit."
+      },
+      {
+        "name": "Reassuring Presence",
+        "flavorText": "The mushrooms that sprout from the scaly hides of Dankhold Troggoths are things of wonder and reassurance to the grots that make up the Gloomspite hordes.",
+        "description": "Add 1 to the Bravery characteristic of friendly GLOOMSPITE GITZ units that are wholly within 12\" of any friendly models with this ability."
+      },
+      {
+        "name": "Regeneration",
+        "flavorText": "Troggoths are able to regrow injured flesh almost as quickly as it is harmed.",
+        "description": "In your hero phase, you can roll a dice for this unit. If you do so, on a 4+ heal up to D3 wounds allocated to this unit."
+      }
+    ],
+    "keywords": [
+      "DESTRUCTION",
+      "TROGGOTH",
+      "GLOOMSPITE",
+      "GITZ",
+      "DANKHOLD",
+      "HERO",
+      "MOLLOG"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ]
+  },
+  {
+    "name": "Scuttleboss on Gigantic Spider",
+    "points": "105",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Swaggering bullies whose twisted anatomies are part arachnid, Scuttlebosses charge into battle upon the backs of Gigantic Spiders, exhorting nearby skittermobs to follow their violent example and ride the foe into the ground.",
+    "description": "A Scuttleboss on Gigantic Spider is a single model armed with an Envenomed Spear.",
+    "wounds": "6",
+    "move": "8\"",
+    "save": "4+",
+    "bravery": "6",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Envenomed Spear",
+        "range": "2\"",
+        "attacks": "4",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Gigantic Fangs",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "MOUNT",
+        "description": "This model’s Gigantic Spider attacks with its Gigantic Fangs."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Spider Venom",
+        "flavorText": "Both the Scuttleboss’ spear and his mount’s fangs glisten with lethal venom.",
+        "description": "If the unmodified hit roll for an attack made by this model is 6, that attack inflicts 1 mortal wound on the target and the attack sequence ends (do not make a wound or save roll)."
+      },
+      {
+        "name": "Wall Crawler",
+        "flavorText": "Gigantic Spiders can skitter up and down vertical surfaces as if they were flat ground.",
+        "description": "When this model makes a move, it can pass across terrain features in the same manner as a model that can fly."
+      },
+      {
+        "name": "Ride ’Em All Down!",
+        "flavorText": "The boss levels his spear at the enemy, and calls on his minions to attack that foe with all the fury they possess.",
+        "description": "You can use this command ability at the start of your charge phase. If you do so, pick 1 friendly SPIDERFANG GROT unit wholly within 18\" of a friendly model with this command ability. You can re-roll charge rolls for that unit in that charge phase. In addition, you can re-roll hit rolls for attacks made with that unit’s Crooked Spears in the following combat phase."
+      }
+    ],
+    "keywords": [
+      "DESTRUCTION",
+      "GROT",
+      "GLOOMSPITE",
+      "GITZ",
+      "SPIDERFANG",
+      "HERO",
+      "SCUTTLEBOSS"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "60mm"
+  },
+  {
+    "name": "Skragrott the Loonking",
+    "points": "210",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Skragrott is the self-styled Loonking, the master of all subterranean grots and herald of the Everdank. His sinister presence upon the field of battle ensures the Gloomspite Gitz fight with greater spite and cunning than ever.",
+    "description": "Skragrott, the Loonking is a named character that is a single model. He is armed with Da Moon Onna Stikk.",
+    "wounds": "6",
+    "move": "4\"",
+    "save": "5+",
+    "bravery": "6",
+    "missleWeapons": [
+      {
+        "name": "Da Moon Onna Stikk",
+        "range": "28\"",
+        "attacks": "6",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Da Moon Onna Stikk",
+        "range": "2\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Babbling Wand",
+        "flavorText": "This jabbering wand, topped with the skull of the great prophet Kaloth, channels the voices of Skragrott’s imprisoned scryers through clacking teeth.",
+        "description": "If this model is your general and is on the battlefield at the start of your hero phase, roll a dice. On a 4+ you receive D3 extra command points."
+      },
+      {
+        "name": "Da Moon Onna Stikk",
+        "flavorText": "This magical weapon inflicts a horrible curse that slowly turns the victim’s flesh into fungus.",
+        "description": "If any wounds inflicted by Da Moon Onna Stikk are allocated to an enemy model and not negated, that enemy model suffers 1 mortal wound at the end of each battle round (even if the wounds inflicted by Da Moon Onna Stikk are subsequently healed)."
+      },
+      {
+        "name": "Loonking’s Crown",
+        "flavorText": "Fungal roots burrow down from this crown into the wearer’s skull, imbuing them with heightened magical powers and unnatural resilience.",
+        "description": "Add 1 to casting and unbinding rolls for this model. In addition, roll a dice each time a wound or mortal wound is allocated to this model. On a 4+ that wound or mortal wound is negated."
+      },
+      {
+        "name": "The Loonking’s Entreaty",
+        "flavorText": "The captive seers and prophets of Skragrott’s asylum can sometimes predict when the Bad Moon will accelerate or slow in its erratic orbits of the Mortal Realms. Skragrott uses this information to convince his followers that the Bad Moon listens when he entreats it to halt or move to a specific location.",
+        "description": "Once per battle, if this unit is your general and on the battlefield, before you roll the dice that determines how far the Bad Moon moves that battle round, you can choose for the Bad Moon to either not move that battle round or to make 1 move or 2 moves that battle round (do not roll the dice to determine how far it moves)."
+      },
+      {
+        "name": "Arcane BoltMystic ShieldNikkit! Nikkit!",
+        "flavorText": "",
+        "description": "This model is a WIZARD. It can attempt to cast two spells in your hero phase, and attempt to unbind two spells in the enemy hero phase. It knows the Arcane Bolt, Mystic Shield and Nikkit! Nikkit! spells."
+      },
+      {
+        "name": "Nikkit! Nikkit!",
+        "flavorText": "The shaman conjures a pair of great green hands, one of which binds an enemy in a vice-like grip, whilst the other rifles through their possessions in search of anything worth stealing.",
+        "description": "Nikkit! Nikkit! has a casting value of 8. If successfully cast, pick 1 enemy model within 18\" of the caster that is visible to them. The unit that model belongs to suffers D3 mortal wounds. In addition, if that model has an artefact of power and the casting roll was 10+, that model’s artefact of power can no longer be used (if it was used to enhance a weapon, that weapon reverts to its normal form)."
+      }
+    ],
+    "keywords": [
+      "DESTRUCTION",
+      "GROT",
+      "GLOOMSPITE",
+      "GITZ",
+      "MOONCLAN",
+      "HERO",
+      "WIZARD",
+      "LOONBOSS",
+      "SKRAGROTT"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ],
+    "baseSize": "60 x 35mm"
+  },
+  {
+    "name": "Webspinner Shaman",
+    "points": "85",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Veins thick with venom, Webspinner Shamans live in vivid waking visions through which they interpret the Spider God’s will. They are blessed by their arachnid deity, protected by its sinister touch and sorcerously empowered by its malevolent might.",
+    "description": "A Webspinner Shaman is a single model armed with a Spider God Staff.",
+    "wounds": "4",
+    "move": "5\"",
+    "save": "6+",
+    "bravery": "5",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Spider God Staff",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Touched by the Spider God",
+        "flavorText": "The tiny skullback spiders that constantly bite the shaman fill him with the mystical protective energy of the Spider God.",
+        "description": "Roll a dice each time you allocate a wound or mortal wound to this model. On a 5+ that wound or mortal wound is negated."
+      },
+      {
+        "name": "Arcane BoltMystic ShieldSpeed of the Spider God",
+        "flavorText": "",
+        "description": "This model is a WIZARD. It can attempt to cast one spell in your hero phase, and attempt to unbind one spell in the enemy hero phase. It knows the Arcane Bolt, Mystic Shield and Speed of the Spider God spells."
+      },
+      {
+        "name": "Speed of the Spider God",
+        "flavorText": "With a shriek, the shaman calls upon the Spider God to imbue its worshippers with preternatural speed.",
+        "description": "Speed of the Spider God has a casting value of 4. If successfully cast, pick 1 friendly SPIDERFANG unit wholly within 24\" of the caster and visible to them. Until your next hero phase, that unit can run and still shoot later in the same turn. If the casting roll is 8 or more, pick up to D3 friendly SPIDERFANG units instead of 1."
+      }
+    ],
+    "keywords": [
+      "DESTRUCTION",
+      "GROT",
+      "GLOOMSPITE",
+      "GITZ",
+      "SPIDERFANG",
+      "HERO",
+      "WIZARD",
+      "WEBSPINNER",
+      "SHAMAN"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "25mm"
+  },
+  {
+    "name": "Zarbag",
+    "points": "185",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Zarbag the shaman has wandered the twisted halls of the Nightvault for as long as he can remember. His sniffer spite helps him root out the best magic fungi, and he can transform his facial features into a warped vision of horror almost at will.",
+    "description": "Zarbag is a named character that is a single model. He is armed with a Cursed Sickle.",
+    "wounds": "5",
+    "move": "5\"",
+    "save": "6+",
+    "bravery": "4",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Cursed Sickle",
+        "range": "2\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Sniffer Spite",
+        "flavorText": "Zarbag has captured and imprisoned a sniffer spite, which he has ‘persuaded’ to track down potent magic fungi.",
+        "description": "Once per battle, before you attempt to cast a spell with this model, you can roll a dice. On a 2+ add 2 to the casting roll."
+      },
+      {
+        "name": "Arcane BoltMystic ShieldFace Of Da Bad Moon",
+        "flavorText": "",
+        "description": "This model is a WIZARD. It can attempt to cast one spell in your hero phase, and attempt to unbind one spell in the enemy hero phase. It knows the Arcane Bolt, Mystic Shield and Face Of Da Bad Moon spells."
+      },
+      {
+        "name": "Face of Da Bad Moon",
+        "flavorText": "To Zarbag, ‘mooning the enemy’ has a very different – and terrifying – meaning…",
+        "description": "Face of Da Bad Moon has a casting value of 5. If successfully cast, pick 1 enemy unit within 3\" of the caster that is visible to them. That unit must retreat. If it is impossible for the unit to make the move for any reason, it suffers D6 mortal wounds instead."
+      }
+    ],
+    "keywords": [
+      "DESTRUCTION",
+      "GROT",
+      "GLOOMSPITE",
+      "GITZ",
+      "MOONCLAN",
+      "HERO",
+      "WIZARD",
+      "MADCAP",
+      "SHAMAN",
+      "ZARBAG"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique. Zarbag and <a href=\"/aos3/factions/gloomspite-gitz/warscrolls.html#Zarbag-s-Gitz\">Zarbag’s Gitz</a> must be taken as a set. Although taken as a set",
+      "each is a separate unit."
+    ],
+    "baseSize": "25mm"
+  },
+  {
+    "name": "Squig Herder with Mini Mangler",
+    "points": "240",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "The most ambitious Squig Herders will disappear into the depths of the realms to hunt down baby Mangler Squigs. Many of these herders are eaten in the process, but a brave and kunnin’ few will train their Mini-Manglers into huge and voracious warbeasts.",
+    "description": "A Squig Herder with Mini-Mangler is a single model armed with a Squig Prodder.",
+    "wounds": "6",
+    "move": "5\"",
+    "save": "5+",
+    "bravery": "4",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Squig Prodder",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Not-So-Huge Fang-filled Gobs",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      },
+      {
+        "name": "Tiny Balls and Chains",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "COMPANION",
+        "description": "A Squig Herder with Mini-Mangler is accompanied by a Mini-Mangler that attacks with its Not-So-Huge Fang-filled Gobs and Tiny Balls and Chains. For rules purposes, it is treated in the same manner as a mount."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Mini-ker-splat!",
+        "flavorText": "Mini-Manglers produce an impact that is definitely short of spectacular. At best, a foe might lose their balance and be sent tumbling to their death.",
+        "description": "Add 1 to hit rolls for attacks made with this model’s Tiny Balls and Chains if this model made a charge move in the same turn."
+      },
+      {
+        "name": "Probably Best To Watch Out!",
+        "flavorText": "Mini-Manglers are not capable of much destruction even in their wildly bouncing death throes. Still, it is probably wise to keep your distance.",
+        "description": "If this model is slain, before the model is removed from play, roll a dice for each unit within 1\" of this model. On a 4+ that unit suffers 1 mortal wound."
+      },
+      {
+        "name": "Lead Da Herd!",
+        "flavorText": "This Squig Herder keeps any nearby squigs heading in the right direction.",
+        "description": "You can use this command ability at the start of your movement phase. If you do so, pick 1 friendly model with this command ability. Until the end of your turn, you can re-roll run and charge rolls for friendly SQUIG HERD units while they are wholly within 12\" of this unit."
+      }
+    ],
+    "keywords": [
+      "DESTRUCTION",
+      "SQUIG",
+      "GLOOMSPITE",
+      "GITZ",
+      "MOONCLAN",
+      "SQUIGAPALOOZA",
+      "SQUIG",
+      "HERDER",
+      "MINI-MANGLER"
+    ],
+    "pitchedBattleNotes": [
+      "<a href=\"/aos3/factions/gloomspite-gitz/warscrolls.html#Squigmonger\">Squigmonger</a>",
+      "<a href=\"/aos3/factions/gloomspite-gitz/warscrolls.html#Squigmancer\">Squigmancer</a>",
+      "<a href=\"/aos3/factions/gloomspite-gitz/warscrolls.html#Squigcap-Shaman\">Squigcap Shaman</a> and Squig Herder with Mini-Mangler must be taken as a set for a total of 240 points. Although taken as a set",
+      "each is a separate unit."
+    ]
+  },
+  {
+    "name": "Squigcap Shaman",
+    "points": "240",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Black-clad Squigcap Shamans caper into battle, chanting and jabbering madly. They stuff madcap mushrooms into their gobs, eyes crackling with power as they channel the Gloomspite into deadly magical attacks.",
+    "description": "A Squigcap Shaman is a single model armed with a Moon Staff.",
+    "wounds": "5",
+    "move": "2D6\"",
+    "save": "6+",
+    "bravery": "4",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Moon Staff",
+        "range": "2\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "FLY",
+        "description": "This unit can fly."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Squig-cap Mushroom",
+        "flavorText": "This mushroom enhances the eater’s magical capabilities – as long as it is not a deadly poisonous madcap toadstool…",
+        "description": "Once per battle, in your hero phase, you can attempt to cast one additional spell with this model. If you do so, and the casting roll is a double, this model suffers D3 mortal wounds after the effects of the spell (if any) have been resolved."
+      },
+      {
+        "name": "Arcane BoltMystic ShieldNight Shroud",
+        "flavorText": "",
+        "description": "This model is a WIZARD. It can attempt to cast one spell in your hero phase, and attempt to unbind one spell in the enemy hero phase. It knows the Arcane Bolt, Mystic Shield and Night Shroud spells."
+      },
+      {
+        "name": "Night Shroud",
+        "flavorText": "The shaman throws a blackcapped nightshade mushroom into the air, which bursts to form a cloud of pitch blackness.",
+        "description": "Night Shroud has a casting value of 5. If successfully cast, pick 1 friendly unit wholly within 12\" of the caster that is visible to them. Until your next hero phase, subtract 1 from hit rolls for attacks made with missile weapons that target that unit."
+      }
+    ],
+    "keywords": [
+      "DESTRUCTION",
+      "SQUIG",
+      "GLOOMSPITE",
+      "GITZ",
+      "MOONCLAN",
+      "SQUIGAPALOOZA",
+      "WIZARD",
+      "SQUIGCAP",
+      "SHAMAN"
+    ],
+    "pitchedBattleNotes": [
+      "<a href=\"/aos3/factions/gloomspite-gitz/warscrolls.html#Squigmonger\">Squigmonger</a>",
+      "<a href=\"/aos3/factions/gloomspite-gitz/warscrolls.html#Squigmancer\">Squigmancer</a>",
+      "Squigcap Shaman and <a href=\"/aos3/factions/gloomspite-gitz/warscrolls.html#Squig-Herder-with-Mini-Mangler\">Squig Herder with Mini-Mangler</a> must be taken as a set for a total of 240 points. Although taken as a set",
+      "each is a separate unit."
+    ]
+  },
+  {
+    "name": "Squigmancer",
+    "points": "240",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Squigmancers experience such vivid fungus-brew hallucinations that their magics spill out to animate the fungi around them and bring their visions to life. This can have deeply unpleasant effects for anyone stood too close!",
+    "description": "A Squigmancer is a single model armed with a Moon Staff and Jaggedy Knife.",
+    "wounds": "5",
+    "move": "2D6\"",
+    "save": "6+",
+    "bravery": "5",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Moon Staff and Jaggedy Knife",
+        "range": "2\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "FLY",
+        "description": "This unit can fly."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Hallucinogenic Fungus Brews",
+        "flavorText": "Squigapalooza shamans drink long draughts of hallucinogenic fungus brew before the battle begins, making them almost impervious to pain. However, as the battle progresses the effects start to wear off.",
+        "description": "In the first battle round, this unit has a ward of 5+. In the second battle round, this unit has a ward of 6+."
+      },
+      {
+        "name": "Slippery Git",
+        "flavorText": "Squigapalooza shamans seek to put as many of their fellow squigs between themselves and incoming enemy fire as possible.",
+        "description": "Subtract 1 from hit rolls for attacks made with missile weapons that target this model while it is within 3\" of a friendly MOONCLAN unit with 3 or more models."
+      },
+      {
+        "name": "Fungoid Cloud",
+        "flavorText": "",
+        "description": "This model is a WIZARD. It can attempt to cast one spell in your hero phase and attempt to unbind one spell in the enemy hero phase. It knows the Fungoid Cloud spell."
+      },
+      {
+        "name": "Fungoid Cloud",
+        "flavorText": "The Squigmancer stamps upon the squig he rides, releasing a cloud of magical spores that engulfs the enemy.",
+        "description": "Fungoid Cloud has a casting value of 6. If successfully cast, pick 1 enemy unit within 8\" of the caster that is visible to them. Until your next hero phase, subtract 1 from hit rolls for attacks made by that unit, and subtract 1 from save rolls for attacks that target that unit."
+      }
+    ],
+    "keywords": [
+      "DESTRUCTION",
+      "SQUIG",
+      "GLOOMSPITE",
+      "GITZ",
+      "MOONCLAN",
+      "SQUIGAPALOOZA",
+      "WIZARD",
+      "SQUIGMANCER"
+    ],
+    "pitchedBattleNotes": [
+      "<a href=\"/aos3/factions/gloomspite-gitz/warscrolls.html#Squigmonger\">Squigmonger</a>",
+      "Squigmancer",
+      "<a href=\"/aos3/factions/gloomspite-gitz/warscrolls.html#Squigcap-Shaman\">Squigcap Shaman</a> and <a href=\"/aos3/factions/gloomspite-gitz/warscrolls.html#Squig-Herder-with-Mini-Mangler\">Squig Herder with Mini-Mangler</a> must be taken as a set for a total of 240 points. Although taken as a set",
+      "each is a separate unit."
+    ]
+  },
+  {
+    "name": "Squigmonger",
+    "points": "240",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "The Squigmonger capers and hoots from behind his terrifying Glareface mask. Riding upon the grot-borne skull of a Cave Squig representing the immolated godbeast Boingob, he puts the fear of the Moonclan bogeyman into the Gloomspite hordes.",
+    "description": "A Squigmonger is a single model armed with Boingob’s Tusks and Fangs.",
+    "wounds": "5",
+    "move": "2D6\"",
+    "save": "5+",
+    "bravery": "5",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Boingob’s Tusks and Fangs",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "FLY",
+        "description": "This unit can fly."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Hallucinogenic Fungus Brews",
+        "flavorText": "Squigapalooza shamans drink long draughts of hallucinogenic fungus brew before the battle begins, making them almost impervious to pain. However, as the battle progresses the effects start to wear off.",
+        "description": "In the first battle round, this unit has a ward of 5+. In the second battle round, this unit has a ward of 6+."
+      },
+      {
+        "name": "Bogeysquig",
+        "flavorText": "The Squigmonger generates palpable waves of fear that scare nearby squigs into fighting with renewed vigour.",
+        "description": "In your hero phase, you can make a Squigapalooza Know-wotz roll for this model. If you do so, roll a dice. On a 3+ pick 1 friendly MOONCLAN SQUIG unit wholly within 18\" of this model that is visible to them. You can re-roll charge rolls and run rolls for that unit until your next hero phase."
+      },
+      {
+        "name": "Slippery Git",
+        "flavorText": "Squigapalooza shamans seek to put as many of their fellow squigs between themselves and incoming enemy fire as possible.",
+        "description": "Subtract 1 from hit rolls for attacks made with missile weapons that target this model while it is within 3\" of a friendly MOONCLAN unit with 3 or more models."
+      }
+    ],
+    "keywords": [
+      "DESTRUCTION",
+      "SQUIG",
+      "GLOOMSPITE",
+      "GITZ",
+      "MOONCLAN",
+      "SQUIGAPALOOZA",
+      "SQUIGMONGER"
+    ],
+    "pitchedBattleNotes": [
+      "Squigmonger",
+      "<a href=\"/aos3/factions/gloomspite-gitz/warscrolls.html#Squigmancer\">Squigmancer</a>",
+      "<a href=\"/aos3/factions/gloomspite-gitz/warscrolls.html#Squigcap-Shaman\">Squigcap Shaman</a> and <a href=\"/aos3/factions/gloomspite-gitz/warscrolls.html#Squig-Herder-with-Mini-Mangler\">Squig Herder with Mini-Mangler</a> must be taken as a set for a total of 240 points. Although taken as a set",
+      "each is a separate unit."
+    ]
+  },
+  {
+    "name": "Shootas",
+    "points": "120",
+    "unitSize": "20",
+    "battlefieldRoles": [
+      "Battleline"
+    ],
+    "flavorText": "Moonclan Shootas gather in sizeable skulkmobs that rain black-fletched arrows upon the enemy. They pincushion their victims with sheer weight of fire, before surrounding any survivors and stabbing them viciously to death.",
+    "description": "A unit of Shootas has any number of models, each armed with a Moonclan Bow and Slitta. Up to 3 in every 20 models can replace their Moonclan Bow and Slitta with a Barbed Net.",
+    "wounds": "1",
+    "move": "5\"",
+    "save": "6+",
+    "bravery": "4",
+    "missleWeapons": [
+      {
+        "name": "Moonclan Bow",
+        "range": "16\"",
+        "attacks": "1",
+        "toHit": "5+",
+        "toWound": "5+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Slitta",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "5+",
+        "toWound": "5+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Barbed Net",
+        "range": "2\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "5+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "MOONCLAN BOSS",
+        "description": "The leader of this unit is a Moonclan Boss. You can add 1 to hit rolls for attacks made with melee weapons by a Moonclan Boss."
+      },
+      {
+        "name": "GONG BASHER",
+        "description": "1 in every 20 models in this unit can be a Gong Basher. Add 2 to run rolls for a unit that includes any Gong Bashers."
+      },
+      {
+        "name": "STANDARD BEARERS",
+        "description": "1 in every 20 models in this unit can either be a Moonclan Flag Bearer or a Bad Moon Icon Bearer. Add 1 to the Bravery characteristic of a unit that includes any Moonclan Flag Bearers. Add 1 to save rolls for attacks made with missile weapons that target a unit that includes any Bad Moon Icon Bearers."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Backstabbing Mob",
+        "flavorText": "It’s loads easier to stab your enemy in the back when they are surrounded by all yer mates.",
+        "description": "Add 1 to wound rolls for attacks made with melee weapons by this unit while it has at least 10 models."
+      },
+      {
+        "name": "Moonclan Bows",
+        "flavorText": "Large mobs of Shootas can unleash dark clouds of arrows at the foe.",
+        "description": "Add 1 to hit rolls for attacks made with missile weapons by this unit while it has at least 15 models."
+      },
+      {
+        "name": "Netters",
+        "flavorText": "Moonclan Grots use throwing nets to capture Cave Squigs and entangle their foes.",
+        "description": "Subtract 1 from hit rolls for attacks made by enemy models while they are within 2\" of any friendly models with a Barbed Net."
+      }
+    ],
+    "keywords": [
+      "DESTRUCTION",
+      "GROT",
+      "GLOOMSPITE",
+      "GITZ",
+      "MOONCLAN",
+      "SHOOTAS"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "25mm"
+  },
+  {
+    "name": "Stabbas",
+    "points": "140",
+    "unitSize": "20",
+    "battlefieldRoles": [
+      "Battleline"
+    ],
+    "flavorText": "Moonclan Stabbas form ragged ranks that advance upon the foe with gongs clanging and banners waving. Eyes bulging with the madness of the Gloomspite, they pour over the enemy lines and stab wildly at everything in their path.",
+    "description": "A unit of Stabbas has any number of models. The unit is armed with one of the following weapon options: Pokin’ Spear and Moon Shield; or Stabba and Moon Shield. Up to 3 in every 20 models can replace the unit’s weapon option with a Barbed Net.",
+    "wounds": "1",
+    "move": "5\"",
+    "save": "6+",
+    "bravery": "4",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Stabba",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Pokin’ Spear",
+        "range": "2\"",
+        "attacks": "1",
+        "toHit": "5+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Barbed Net",
+        "range": "2\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "5+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "MOONCLAN BOSS",
+        "description": "The leader of this unit is a Moonclan Boss. You can add 1 to hit rolls for attacks made with melee weapons by a Moonclan Boss."
+      },
+      {
+        "name": "GONG BASHER",
+        "description": "1 in every 20 models in this unit can be a Gong Basher. Add 2 to run rolls for a unit that includes any Gong Bashers."
+      },
+      {
+        "name": "STANDARD BEARERS",
+        "description": "1 in every 20 models in this unit can either be a Moonclan Flag Bearer or a Bad Moon Icon Bearer. Add 1 to the Bravery characteristic of a unit that includes any Moonclan Flag Bearers. Add 1 to save rolls for attacks made with missile weapons that target a unit that includes any Bad Moon Icon Bearers."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Backstabbing Mob",
+        "flavorText": "It’s loads easier to stab your enemy in the back when they are surrounded by all yer mates.",
+        "description": "Add 1 to wound rolls for attacks made with melee weapons by this unit while it has at least 10 models."
+      },
+      {
+        "name": "Moon Shields",
+        "flavorText": "Large units of grots can use their shields to create a defensive wall to hide behind.",
+        "description": "Add 1 to save rolls for attacks that target this unit while it has at least 10 models with Moon Shields."
+      },
+      {
+        "name": "Netters",
+        "flavorText": "Moonclan Grots use throwing nets to capture Cave Squigs and entangle their foes.",
+        "description": "Subtract 1 from hit rolls for attacks made by enemy models while they are within 2\" of any friendly models with a Barbed Net."
+      }
+    ],
+    "keywords": [
+      "DESTRUCTION",
+      "GROT",
+      "GLOOMSPITE",
+      "GITZ",
+      "MOONCLAN",
+      "STABBAS"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "25mm"
+  },
+  {
+    "name": "Boggleye",
+    "points": "190",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Boggleyes stare deep into the souls of all those around them, chanting hypnotic mantras and revolving their pupils in an unlikely and hypnotic fashion. Their victims are swiftly reduced to slack-jawed puppets who obey the Boggleye’s every command.",
+    "description": "A Boggleye is a single model armed with a Mesmerising Staff.",
+    "wounds": "3",
+    "move": "5\"",
+    "save": "6+",
+    "bravery": "5",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Mesmerising Staff",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Hallucinogenic Fungus Brews",
+        "flavorText": "Gobbapalooza shamans drink long draughts of hallucinogenic fungus brew before the battle begins, making them almost impervious to pain. However, as the battle progresses the effects start to wear off.",
+        "description": "In the first battle round, this unit has a ward of 5+. In the second battle round, this unit has a ward of 6+."
+      },
+      {
+        "name": "Slippery Git",
+        "flavorText": "Gobbapalooza shamans seek to put as many of their fellow grots between themselves and incoming enemy fire as possible.",
+        "description": "Subtract 1 from hit rolls for attacks made with missile weapons that target this model while it is within 3\" of a friendly MOONCLAN unit with 3 or more models."
+      },
+      {
+        "name": "Mesmerise",
+        "flavorText": "",
+        "description": "This model is a WIZARD. It can attempt to cast one spell in your hero phase and attempt to unbind one spell in the enemy hero phase. It knows the Mesmerise spell."
+      },
+      {
+        "name": "Mesmerise",
+        "flavorText": "The Boggleye looks deep into the eyes of his victims. Friendly warriors are convinced to stand firm against whatever foe they face, while enemies are turned into slow-witted imbeciles.",
+        "description": "Mesmerise has a casting value of 6. If successfully cast, pick 1 unit wholly within 12\" of the caster that is visible to them. If that unit is a friendly unit, it does not take battleshock tests until your next hero phase. If that unit is an enemy unit, until your next hero phase that unit fights at the end of each combat phase, after the players have picked any other units to fight."
+      }
+    ],
+    "keywords": [
+      "DESTRUCTION",
+      "GROT",
+      "GLOOMSPITE",
+      "GITZ",
+      "MOONCLAN",
+      "GOBBAPALOOZA",
+      "WIZARD",
+      "BOGGLEYE"
+    ],
+    "pitchedBattleNotes": [
+      "Single. Boggleye",
+      "<a href=\"/aos3/factions/gloomspite-gitz/warscrolls.html#Brewgit\">Brewgit</a>",
+      "<a href=\"/aos3/factions/gloomspite-gitz/warscrolls.html#Scaremonger\">Scaremonger</a>",
+      "<a href=\"/aos3/factions/gloomspite-gitz/warscrolls.html#Shroomancer\">Shroomancer</a> and <a href=\"/aos3/factions/gloomspite-gitz/warscrolls.html#Spiker\">Spiker</a> must be taken as a set. Although taken as a set",
+      "each is a separate unit."
+    ],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Boingrot Bounderz",
+    "points": "105",
+    "unitSize": "5",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Squig riders who have managed to survive more than a single, violently short-lived battle, Boingrot Bounderz wear loon helms and skewer their enemies with wickedly pointed pokin’ lances.",
+    "description": "A unit of Boingrot Bounderz has any number of models, each armed with a Pokin’ Lance.",
+    "wounds": "2",
+    "move": "2D6\"",
+    "save": "4+",
+    "bravery": "5",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Pokin’ Lance",
+        "range": "2\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Fang-filled Gob",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "MOUNT",
+        "description": "This unit’s Cave Squigs attack with their Fang-filled Gobs."
+      },
+      {
+        "name": "FLY",
+        "description": "This unit can fly."
+      },
+      {
+        "name": "BOUNDER BOSS",
+        "description": "The leader of this unit is a Bounder Boss. You can add 1 to hit rolls for attacks made with a Bounder Boss’ Pokin’ Lance."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Boing! Smash!",
+        "flavorText": "Mobs of Boingrot Bounderz smash into their enemies like toothy meteors.",
+        "description": "After this unit has made a charge move, pick 1 enemy unit within 1\" of this unit and roll a dice for each model in this unit. For each 4+ that enemy unit suffers 1 mortal wound."
+      },
+      {
+        "name": "Lances of the Bounderz",
+        "flavorText": "The pokin’ lances carried by Boingrot Bounderz are especially dangerous on the charge.",
+        "description": "Add 1 to wound rolls for attacks made with this unit’s Pokin’ Lances if this unit made a charge move in the same turn."
+      }
+    ],
+    "keywords": [
+      "DESTRUCTION",
+      "SQUIG",
+      "GLOOMSPITE",
+      "GITZ",
+      "MOONCLAN",
+      "BOINGROT",
+      "BOUNDERZ"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Brewgit",
+    "points": "190",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Spigots dripping, the Brewgit capers into battle with weird fungus potions bubbling in his loonshine still. He drives quick and bonkers bargains mid-battle, peddling his most potent might-enhancing brews to those grot heroes that can afford them.",
+    "description": "A Brewgit is a single model armed with a concealed stikka.",
+    "wounds": "3",
+    "move": "5\"",
+    "save": "6+",
+    "bravery": "5",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Concealed Stikka",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Hallucinogenic Fungus Brews",
+        "flavorText": "Gobbapalooza shamans drink long draughts of hallucinogenic fungus brew before the battle begins, making them almost impervious to pain. However, as the battle progresses the effects start to wear off.",
+        "description": "In the first battle round, this unit has a ward of 5+. In the second battle round, this unit has a ward of 6+."
+      },
+      {
+        "name": "Loonshine Potion",
+        "flavorText": "The Brewgit cranks one of the spigots on his loonshine still and siphons off a bottle full of magical potion to sell to the highest bidder.",
+        "description": "In your hero phase, you can make a Gobbapalooza Know-wotz roll for this model. If you do so, roll a dice. On a 3+ pick 1 friendly MOONCLAN GROT HERO within 18\" of this model that is visible to them. You can re-roll hit rolls for that HERO until your next hero phase."
+      },
+      {
+        "name": "Slippery Git",
+        "flavorText": "Gobbapalooza shamans seek to put as many of their fellow grots between themselves and incoming enemy fire as possible.",
+        "description": "Subtract 1 from hit rolls for attacks made with missile weapons that target this model while it is within 3\" of a friendly MOONCLAN unit with 3 or more models."
+      }
+    ],
+    "keywords": [
+      "DESTRUCTION",
+      "GROT",
+      "GLOOMSPITE",
+      "GITZ",
+      "MOONCLAN",
+      "GOBBAPALOOZA",
+      "BREWGIT"
+    ],
+    "pitchedBattleNotes": [
+      "Single. <a href=\"/aos3/factions/gloomspite-gitz/warscrolls.html#Boggleye\">Boggleye</a>",
+      "Brewgit",
+      "<a href=\"/aos3/factions/gloomspite-gitz/warscrolls.html#Scaremonger\">Scaremonger</a>",
+      "<a href=\"/aos3/factions/gloomspite-gitz/warscrolls.html#Shroomancer\">Shroomancer</a> and <a href=\"/aos3/factions/gloomspite-gitz/warscrolls.html#Spiker\">Spiker</a> must be taken as a set. Although taken as a set",
+      "each is a separate unit."
+    ],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Dankhold Troggoths",
+    "points": "170",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Dankhold Troggoths sleep deep underground until the Gloomspite moves them to lumber up to the surface and wreak havoc. They swat and crush everything within reach, soak up spellcraft like sponges, and are nigh unkillable in battle.",
+    "description": "A unit of Dankhold Troggoths can have any number of models, each armed with a Boulder Club and Crushing Grip.",
+    "wounds": "10",
+    "move": "6\"",
+    "save": "4+",
+    "bravery": "6",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Boulder Club",
+        "range": "2\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "D6"
+      },
+      {
+        "name": "Crushing Grip",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "See below",
+        "toWound": "",
+        "rend": "",
+        "damage": ""
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Crushing Grip",
+        "flavorText": "The vice-like grasp of a Dankhold Troggoth can squeeze the life out of all but the largest opponent.",
+        "description": "Do not use the attack sequence for an attack made with a Crushing Grip. Instead, pick 1 enemy model that is in range of the attack and roll a dice. If the roll is equal to or greater than the Wounds characteristic of that model, it is slain."
+      },
+      {
+        "name": "Magical Resistance",
+        "flavorText": "The mushrooms and realmstone that Dankhold Troggoths consume make them naturally resistance to the effects of magic.",
+        "description": "Each time this unit is affected by a spell or endless spell, you can roll a dice. If you do so, on a 4+, ignore the effects of that spell or endless spell on this unit."
+      },
+      {
+        "name": "Reassuring Presence",
+        "flavorText": "The mushrooms that sprout from the scaly hides of Dankhold Troggoths are a things of wonder and reassurance to the grots that make up the Gloomspite hordes.",
+        "description": "Add 1 to the Bravery characteristic of friendly GLOOMSPITE GITZ units that are wholly within 12\" of any friendly models with this ability."
+      },
+      {
+        "name": "Regeneration",
+        "flavorText": "Troggoths are able to regrow injured flesh almost as quickly as it is harmed.",
+        "description": "In your hero phase, you can roll a dice for this unit. If you do so, on a 4+ heal up to D3 wounds allocated to this unit."
+      },
+      {
+        "name": "Squiggly-beast Followers",
+        "flavorText": "Dankhold Troggoths are accompanied by a horde of small skittering cave-creatures that look to them for protection.",
+        "description": "At the start of the combat phase, roll 1 dice for each enemy unit within 3\" of any friendly models with this ability. If the roll is equal to or greater than the number of models in that enemy unit, that enemy unit suffers 1 mortal wound."
+      }
+    ],
+    "keywords": [
+      "DESTRUCTION",
+      "TROGGOTH",
+      "GLOOMSPITE",
+      "GITZ",
+      "DANKHOLD"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "60mm"
+  },
+  {
+    "name": "Fellwater Troggoths",
+    "points": "155",
+    "unitSize": "3",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "These slime-slick beasties stink worse than a plague pit full of incontinent Nurglings. They throw up jetting streams of viciously corrosive vomit, softening their prey up – quite literally – before tearing into them with wicked talons and tusks.",
+    "description": "A unit of Fellwater Troggoths has any number of models, each armed with a Spiked Club and Noxious Vomit.",
+    "wounds": "4",
+    "move": "6\"",
+    "save": "5+",
+    "bravery": "5",
+    "missleWeapons": [
+      {
+        "name": "Noxious Vomit",
+        "range": "6\"",
+        "attacks": "1",
+        "toHit": "2+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "D3"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Spiked Club",
+        "range": "2\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Regeneration",
+        "flavorText": "Troggoths are able to regrow injured flesh almost as quickly as it is harmed.",
+        "description": "In your hero phase, you can roll a dice for this unit. If you do so, on a 4+ heal up to D3 wounds allocated to this unit."
+      },
+      {
+        "name": "Terrible Stench",
+        "flavorText": "Fellwater Troggoths are slimy creatures that reek so foully of rotten fish that it makes their enemies gag.",
+        "description": "Subtract 1 from hit rolls for attacks made with melee weapons that target this unit."
+      }
+    ],
+    "keywords": [
+      "DESTRUCTION",
+      "TROGGOTH",
+      "GLOOMSPITE",
+      "GITZ",
+      "FELLWATER"
+    ],
+    "pitchedBattleNotes": [
+      "Battleline if general is a <a href=\"/aos3/factions/gloomspite-gitz/warscrolls.html#Dankhold-Troggboss\">Dankhold Troggboss</a>"
+    ],
+    "baseSize": "50mm"
+  },
+  {
+    "name": "Loonsmasha Fanatics",
+    "points": "130",
+    "unitSize": "5",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Armed with a massive ball and chain, Loonsmasha Fanatics are driven loopy with potent fungus brews then unleashed upon the enemy in a whirling storm. Though they inevitably come to grief in the end, Loonsmasha Fanatics cause bloody carnage first.",
+    "description": "A unit of Loonsmasha Fanatics can have any number of models, each armed with a Ball and Chain.",
+    "wounds": "1",
+    "move": "2D6\"",
+    "save": "6+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Ball and Chain",
+        "range": "1\"",
+        "attacks": "D6",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "Splat!",
+        "description": "The life of a Fanatic is fraught with mishap, as the loonies are as apt to kill themselves as the enemy.If the charge roll for this unit is a double, after the charge move (or after the charge fails), this unit suffers 1 mortal wound and each other unit within 1\" of this unit suffers D3 mortal wounds."
+      },
+      {
+        "name": "Whirling Death",
+        "description": "To attack a grot Fanatic you must first dodge past their ball and chain.This unit fights at the start of the combat phase, before the players pick any other units to fight in that combat phase. This unit cannot fight again in the combat phase unless an ability or spell allows it to fight more than once."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "DESTRUCTION",
+      "GLOOMSPITE",
+      "GITZ",
+      "MOONCLAN",
+      "FANATIC",
+      "LOONSMASHA"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Rockgut Troggoths",
+    "points": "145",
+    "unitSize": "3",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Rockgut Troggoths have stony hides that are proof against blade, bolt and magical blast alike. Their lumpen claws pass through stone as though it were water, allowing them to scoop up huge clubs and throwing boulders at will. Subtle they are not.",
+    "description": "A unit of Rockgut Troggoths has any number of models, each armed with a Massive Stone Maul.",
+    "wounds": "4",
+    "move": "6\"",
+    "save": "5+",
+    "bravery": "5",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Massive Stone Maul",
+        "range": "2\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "3"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Regeneration",
+        "flavorText": "Troggoths are able to regrow injured flesh almost as quickly as it is harmed.",
+        "description": "In your hero phase, you can roll a dice for this unit. If you do so, on a 4+ heal up to D3 wounds allocated to this unit."
+      },
+      {
+        "name": "Stony Skin",
+        "flavorText": "Rockgut Troggoths have iron-hard skin and are naturally resistant to magic.",
+        "description": "Roll a dice each time you allocate a wound or mortal wound to this unit. On a 5+ that wound or mortal wound is negated."
+      },
+      {
+        "name": "Throwin’ Boulders",
+        "flavorText": "Rockgut Troggoths often dig up boulders during battle and hurl them towards the enemy with varying degrees of accuracy.",
+        "description": "In your shooting phase, pick 1 enemy unit within 12\" of this unit and visible to it, and roll a dice. If the roll is equal to or less than the number of models in this unit, that enemy unit suffers D3 mortal wounds."
+      }
+    ],
+    "keywords": [
+      "DESTRUCTION",
+      "TROGGOTH",
+      "GLOOMSPITE",
+      "GITZ",
+      "ROCKGUT"
+    ],
+    "pitchedBattleNotes": [
+      "Battleline if general is a <a href=\"/aos3/factions/gloomspite-gitz/warscrolls.html#Dankhold-Troggboss\">Dankhold Troggboss</a>"
+    ],
+    "baseSize": "50mm"
+  },
+  {
+    "name": "Scaremonger",
+    "points": "190",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "The Scaremonger capers and hoots from behind his terrifying Glareface mask. Riding upon the grot-borne skull of a Cave Squig representing the immolated godbeast Boingob, he puts the fear of the Moonclan bogeyman into the Gloomspite hordes.",
+    "description": "A Scaremonger is a single model armed with Boingob’s Tusks and Fangs.",
+    "wounds": "4",
+    "move": "5\"",
+    "save": "5+",
+    "bravery": "5",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Boingob’s Tusks and Fangs",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Hallucinogenic Fungus Brews",
+        "flavorText": "Gobbapalooza shamans drink long draughts of hallucinogenic fungus brew before the battle begins, making them almost impervious to pain. However, as the battle progresses the effects start to wear off.",
+        "description": "In the first battle round, this unit has a ward of 5+. In the second battle round, this unit has a ward of 6+."
+      },
+      {
+        "name": "Bogeyman",
+        "flavorText": "The Scaremonger generates palpable waves of fear that scare nearby grots into fighting with renewed vigour.",
+        "description": "In your hero phase, you can make a Gobbapalooza Know-wotz roll for this model. If you do so, roll a dice. On a 3+ pick 1 friendly MOONCLAN GROT unit wholly within 18\" of this model that is visible to them. You can re-roll charge rolls and run rolls for that unit until your next hero phase."
+      },
+      {
+        "name": "Slippery Git",
+        "flavorText": "Gobbapalooza shamans seek to put as many of their fellow grots between themselves and incoming enemy fire as possible.",
+        "description": "Subtract 1 from hit rolls for attacks made with missile weapons that target this model while it is within 3\" of a friendly MOONCLAN unit with 3 or more models."
+      }
+    ],
+    "keywords": [
+      "DESTRUCTION",
+      "GROT",
+      "GLOOMSPITE",
+      "GITZ",
+      "MOONCLAN",
+      "GOBBAPALOOZA",
+      "SCAREMONGER"
+    ],
+    "pitchedBattleNotes": [
+      "Single. <a href=\"/aos3/factions/gloomspite-gitz/warscrolls.html#Boggleye\">Boggleye</a>",
+      "<a href=\"/aos3/factions/gloomspite-gitz/warscrolls.html#Brewgit\">Brewgit</a>",
+      "Scaremonger",
+      "<a href=\"/aos3/factions/gloomspite-gitz/warscrolls.html#Shroomancer\">Shroomancer</a> and <a href=\"/aos3/factions/gloomspite-gitz/warscrolls.html#Spiker\">Spiker</a> must be taken as a set. Although taken as a set",
+      "each is a separate unit."
+    ],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Shroomancer",
+    "points": "190",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Shroomancers experience such vivid fungus-brew hallucinations that their magics spill out to animate the fungi around them and bring their visions to life. This can have deeply unpleasant effects for anyone stood too close!",
+    "description": "A Shroomancer is a single model armed with a Moon Staff and Jaggedy Knife.",
+    "wounds": "4",
+    "move": "5\"",
+    "save": "6+",
+    "bravery": "5",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Moon Staff and Jaggedy Knife",
+        "range": "2\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Hallucinogenic Fungus Brews",
+        "flavorText": "Gobbapalooza shamans drink long draughts of hallucinogenic fungus brew before the battle begins, making them almost impervious to pain. However, as the battle progresses the effects start to wear off.",
+        "description": "In the first battle round, this unit has a ward of 5+. In the second battle round, this unit has a ward of 6+."
+      },
+      {
+        "name": "Slippery Git",
+        "flavorText": "Gobbapalooza shamans seek to put as many of their fellow grots between themselves and incoming enemy fire as possible.",
+        "description": "Subtract 1 from hit rolls for attacks made with missile weapons that target this model while it is within 3\" of a friendly MOONCLAN unit with 3 or more models."
+      },
+      {
+        "name": "Fungoid Cloud",
+        "flavorText": "",
+        "description": "This model is a WIZARD. It can attempt to cast one spell in your hero phase and attempt to unbind one spell in the enemy hero phase. It knows the Fungoid Cloud spell."
+      },
+      {
+        "name": "Fungoid Cloud",
+        "flavorText": "The Shroomancer stamps upon the bloatstool he rides, releasing a cloud of magical spores that engulfs the enemy.",
+        "description": "Fungoid Cloud has a casting value of 6. If successfully cast, pick 1 enemy unit within 8\" of the caster that is visible to them. Until your next hero phase, subtract 1 from hit rolls for attacks made by that unit, and subtract 1 from save rolls for attacks that target that unit."
+      }
+    ],
+    "keywords": [
+      "DESTRUCTION",
+      "GROT",
+      "GLOOMSPITE",
+      "GITZ",
+      "MOONCLAN",
+      "GOBBAPALOOZA",
+      "WIZARD",
+      "SHROOMANCER"
+    ],
+    "pitchedBattleNotes": [
+      "Single. <a href=\"/aos3/factions/gloomspite-gitz/warscrolls.html#Boggleye\">Boggleye</a>",
+      "<a href=\"/aos3/factions/gloomspite-gitz/warscrolls.html#Brewgit\">Brewgit</a>",
+      "<a href=\"/aos3/factions/gloomspite-gitz/warscrolls.html#Scaremonger\">Scaremonger</a>",
+      "Shroomancer and <a href=\"/aos3/factions/gloomspite-gitz/warscrolls.html#Spiker\">Spiker</a> must be taken as a set. Although taken as a set",
+      "each is a separate unit."
+    ],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Sneaky Snufflers",
+    "points": "75",
+    "unitSize": "6",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Dragged along by their eager snufflesquigs, Sneaky Snufflers harvest looncaps and other valuable magic fungi from the battlefield. They slash up anyone that gets in their way, and dole out mind-altering fungal treats to nearby grots for the fun of it.",
+    "description": "A unit of Sneaky Snufflers has any number of models, each armed with a Loonfungus Sickle.",
+    "wounds": "2",
+    "move": "5\"",
+    "save": "6+",
+    "bravery": "4",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Loonfungus Sickle",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Gnashers",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "SNUFFLESQUIGS",
+        "description": "Each Sneaky Snuffler is accompanied by a Snufflesquig that attacks with its Gnashers. For rules purposes, they are treated in the same manner as a mount."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "DESTRUCTION",
+      "GROT",
+      "GLOOMSPITE",
+      "GITZ",
+      "MOONCLAN",
+      "SNEAKY",
+      "SNUFFLERS"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Spider Riders",
+    "points": "90",
+    "unitSize": "5",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Skittermobs of Spider Riders stream across the battlefield, pouring through, over and around even the densest terrain or most formidable fortifications. They encircle their foes, pelting them with poisoned arrows and jabbing with crooked spears.",
+    "description": "A unit of Spider Riders has any number of models, each armed with a Crooked Spear and Spider-bow.",
+    "wounds": "2",
+    "move": "10\"",
+    "save": "5+",
+    "bravery": "4",
+    "missleWeapons": [
+      {
+        "name": "Spider-bow",
+        "range": "16\"",
+        "attacks": "2",
+        "toHit": "5+",
+        "toWound": "5+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Crooked Spear",
+        "range": "2\"",
+        "attacks": "1",
+        "toHit": "5+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Fangs",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "MOUNT",
+        "description": "This unit’s Giant Spiders attack with their Fangs."
+      },
+      {
+        "name": "SPIDER RIDER BOSS",
+        "description": "The leader of this unit is a Spider Rider Boss. You can add 1 to hit rolls for attacks made with melee weapons by a Spider Rider Boss."
+      },
+      {
+        "name": "BONE DRUMMER",
+        "description": "1 in every 10 models in this unit can be a Bone Drummer. Add 2 to run rolls for a unit that includes any Bone Drummers."
+      },
+      {
+        "name": "SPIDER TOTEM BEARERS",
+        "description": "1 in every 10 models in this unit can be a Spider Totem Bearer. Add 2 to the Bravery characteristic of a unit that includes any Spider Totem Bearers."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Spider Venom",
+        "flavorText": "A Giant Spider’s fangs glisten with lethal venom.",
+        "description": "If the unmodified hit roll for an attack made by this model’s Giant Spider’s Fangs is 6, that attack inflicts 1 mortal wound on the target and the attack sequence ends (do not make a wound or save roll)."
+      },
+      {
+        "name": "Wall Crawler",
+        "flavorText": "Giant Spiders can skitter up and down vertical surfaces as if they were flat ground.",
+        "description": "When this model makes a move, it can pass across terrain features in the same manner as a model that can fly."
+      }
+    ],
+    "keywords": [
+      "DESTRUCTION",
+      "GLOOMSPITE",
+      "GITZ",
+      "SPIDERFANG",
+      "GROT",
+      "SPIDER",
+      "RIDERS"
+    ],
+    "pitchedBattleNotes": [
+      "Battleline if general is <span class=\"tooltip00020\" data-tooltip-content=\"#tooltip_content00020\" data-tooltip-anchor=\"#tooltip_content00020\"><span class=\"kwb kwbu\">SPIDERFANG</span></span>"
+    ],
+    "baseSize": "60 x 35mm"
+  },
+  {
+    "name": "Spiker",
+    "points": "190",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Spikers scuttle into battle with a basket of clinking poison-bottles lashed to their backs. They hand out liberal doses of horrible venoms to any who wish to tip their blades, saving the nastiest for the barbs of their scorpisquig stikkas.",
+    "description": "A Spiker is a single model armed with a Scorpisquig Stikka.",
+    "wounds": "3",
+    "move": "5\"",
+    "save": "6+",
+    "bravery": "5",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Scorpisquig Stikka",
+        "range": "2\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Hallucinogenic Fungus Brews",
+        "flavorText": "Gobbapalooza shamans drink long draughts of hallucinogenic fungus brew before the battle begins, making them almost impervious to pain. However, as the battle progresses the effects start to wear off.",
+        "description": "In the first battle round, this unit has a ward of 5+. In the second battle round, this unit has a ward of 6+."
+      },
+      {
+        "name": "Poison Brewer",
+        "flavorText": "The Spiker grabs bottled poisons from his back-basket and makes a show of anointing nearby grots’ weapons with them, chanting mumbo-jumbo spells to render them ‘extra-nasty’.",
+        "description": "In your hero phase, you can make a Gobbapalooza Know-wotz roll for this model. If you do so, roll a dice. On a 3+ pick 1 friendly MOONCLAN GROT unit wholly within 18\" of this model that is visible to them. You can re-roll wound rolls of 1 for that unit until your next hero phase."
+      },
+      {
+        "name": "Slippery Git",
+        "flavorText": "Gobbapalooza shamans seek to put as many of their fellow grots between themselves and incoming enemy fire as possible.",
+        "description": "Subtract 1 from hit rolls for attacks made with missile weapons that target this model while it is within 3\" of a friendly MOONCLAN unit with 3 or more models."
+      }
+    ],
+    "keywords": [
+      "DESTRUCTION",
+      "GROT",
+      "GLOOMSPITE",
+      "GITZ",
+      "MOONCLAN",
+      "GOBBAPALOOZA",
+      "SPIKER"
+    ],
+    "pitchedBattleNotes": [
+      "Single. <a href=\"/aos3/factions/gloomspite-gitz/warscrolls.html#Boggleye\">Boggleye</a>",
+      "<a href=\"/aos3/factions/gloomspite-gitz/warscrolls.html#Brewgit\">Brewgit</a>",
+      "<a href=\"/aos3/factions/gloomspite-gitz/warscrolls.html#Scaremonger\">Scaremonger</a>",
+      "<a href=\"/aos3/factions/gloomspite-gitz/warscrolls.html#Shroomancer\">Shroomancer</a> and Spiker must be taken as a set. Although taken as a set",
+      "each is a separate unit."
+    ],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Sporesplatta Fanatics",
+    "points": "135",
+    "unitSize": "5",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Spinning madly, Sporesplatta Fanatics swing thwackwheezer puffshrooms attached to heavy metal chains. The spore clouds they generate veil the grot hordes from sight, and invigorate allies even as they choke and blind the foe.",
+    "description": "A unit of Sporesplatta Fanatics can have any number of models, each armed with a Spore-ball and Chain.",
+    "wounds": "1",
+    "move": "2D6\"",
+    "save": "6+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Spore-ball and Chain",
+        "range": "1\"",
+        "attacks": "D3",
+        "toHit": "2+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Puffshroom Frenzy",
+        "flavorText": "A puffshroom spore cloud sends nearby Moonclan Grots into a frenzy.",
+        "description": "At the start of your hero phase, friendly MOONCLAN GROTS units wholly within 12\" of any friendly units with this ability become frenzied until your next hero phase. Add 1 to the Attacks characteristic of melee weapons used by frenzied units."
+      },
+      {
+        "name": "Spore Cloud",
+        "flavorText": "The spore-balls these Fanatics swing round their heads create dense clouds that shield nearby Moonclan Grots from sight.",
+        "description": "Models are not visible to each other if an imaginary straight line 1mm wide drawn between the closest points of the two models crosses over this unit, or passes within 1\" of this unit. This ability does not apply if either of the models the line is drawn between is a model from this unit, a model that can fly, or a MONSTER."
+      },
+      {
+        "name": "Splat!",
+        "flavorText": "The life of a Fanatic is fraught with mishap, as they are as apt to kill themselves as the enemy.",
+        "description": "If the charge roll for this unit is a double, after the charge move (or after the charge fails), this unit suffers 1 mortal wound and each other unit within 1\" of this unit suffers D3 mortal wounds."
+      },
+      {
+        "name": "Whirling Death",
+        "flavorText": "To attack a grot Fanatic you must first dodge past their ball and chain.",
+        "description": "This unit fights at the start of the combat phase, before the players pick any other units to fight in that combat phase. This unit cannot fight again in the combat phase unless an ability or spell allows it to fight more than once."
+      }
+    ],
+    "keywords": [
+      "DESTRUCTION",
+      "GLOOMSPITE",
+      "GITZ",
+      "MOONCLAN",
+      "FANATIC",
+      "SPORESPLATTA"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Squig Herd",
+    "points": "140",
+    "unitSize": "12",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Herds of Cave Squigs scamper into battle gnashing their huge fangs and sinking them into anything that comes near. Their tough little grot herders keep the squigs moving in the right direction, using pointy sticks and noisemakers to really rile them up.",
+    "description": "A Squig Herd unit has any number of models, each armed with a Fang-filled Gob.",
+    "wounds": "2",
+    "move": "5\"",
+    "save": "6+",
+    "bravery": "3",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Fang-filled Gob",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Squig Prodder",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "5+",
+        "toWound": "5+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "SQUIG HERDERS",
+        "description": "1 in every 6 models in this unit must be a Squig Herder model instead of a Cave Squig model. A Squig Herder is armed with a Squig Prodder instead of a Fang-filled Gob."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Go Dat Way!",
+        "flavorText": "A Squig Herder keeps any nearby squigs heading in the right direction.",
+        "description": "You can re-roll run and charge rolls for this unit while it includes any Squig Herders."
+      },
+      {
+        "name": "Squigs Go Wild",
+        "flavorText": "When a Cave Squig decides to flee it snaps at anything that is foolish enough to get in its way.",
+        "description": "Roll a dice each time a Cave Squig model from this unit flees, before the model is removed from play. On a 4+ the nearest other unit within 6\" of the fleeing model suffers 1 mortal wound. If two or more such units are equally close, you can pick which suffers the mortal wound."
+      }
+    ],
+    "keywords": [
+      "DESTRUCTION",
+      "SQUIG",
+      "GLOOMSPITE",
+      "GITZ",
+      "MOONCLAN",
+      "SQUIG",
+      "HERD"
+    ],
+    "pitchedBattleNotes": [
+      "Battleline if general is <span class=\"tooltipMOONCLAN\" data-tooltip-content=\"#tooltip_contentMOONCLAN\" data-tooltip-anchor=\"#tooltip_contentMOONCLAN\"><span class=\"kwb kwbu\">MOONCLAN</span></span>"
+    ],
+    "baseSize": "25mm"
+  },
+  {
+    "name": "Squig Hoppers",
+    "points": "180",
+    "unitSize": "10",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Squig Hoppers bound madly into battle, wreaking havoc on anything they collide with. Each hurtling squig has a cackling grot clinging to its back, flailing wildly at nearby enemies as he tries vainly to steer his weird steed.",
+    "description": "A unit of Squig Hoppers has any number of models, each armed with a Slitta.",
+    "wounds": "2",
+    "move": "3D6\"",
+    "save": "6+",
+    "bravery": "4",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Slitta",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "5+",
+        "toWound": "5+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Fang-filled Gob",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "MOUNT",
+        "description": "This unit’s Cave Squigs attack with their Fang-filled Gobs."
+      },
+      {
+        "name": "FLY",
+        "description": "This unit can fly."
+      },
+      {
+        "name": "SQUIG HOPPER BOSS",
+        "description": "The leader of this unit is a Squig Hopper Boss. You can add 1 to hit rolls for attacks made with a Squig Hopper Boss’ Slitta."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Boing! Boing! Boing!",
+        "flavorText": "Squig Hoppers can cause considerable damage simply by bouncing on top of their foes as they hurtle across the battlefield.",
+        "description": "After this unit has made a normal move, run or retreat, pick 1 enemy unit and roll a dice for each model in this unit that passed across a model from that unit. For each 4+, that unit suffers 1 mortal wound."
+      }
+    ],
+    "keywords": [
+      "DESTRUCTION",
+      "SQUIG",
+      "GLOOMSPITE",
+      "GITZ",
+      "MOONCLAN",
+      "SQUIG",
+      "HOPPERS"
+    ],
+    "pitchedBattleNotes": [
+      "Battleline if general is a <a href=\"/aos3/factions/gloomspite-gitz/warscrolls.html#Loonboss-on-Giant-Cave-Squig\">Loonboss on Giant Cave Squig</a> or <a href=\"/aos3/factions/gloomspite-gitz/warscrolls.html#Loonboss-on-Mangler-Squigs\">Loonboss on Mangler Squigs</a>"
+    ],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Zarbag s Gitz",
+    "points": "185",
+    "unitSize": "8",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "This dubious bunch of greenskin hooligans have followed Zarbag into countless dangerous and often ludicrous situations, and have demonstrated a talent for emerging more-or-less in one piece with heaps of glinting shinies to show for it.",
+    "description": "Zarbag’s Gitz is a unit that has 7 models. The Squig Herder is armed with a Squig Prodder, the 2 Cave Squigs are each armed with a Massive Gob Full of Teeth, the Netter is armed with a Slitta and carries a Barbed Net, and the 3 Moonclan Shootas are each armed with a Moonclan Bow and Slitta.",
+    "wounds": "1",
+    "move": "5\"",
+    "save": "6+",
+    "bravery": "4",
+    "missleWeapons": [
+      {
+        "name": "Moonclan Bow",
+        "range": "16\"",
+        "attacks": "1",
+        "toHit": "5+",
+        "toWound": "5+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Massive Gob Full of Teeth",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Squig Prodder",
+        "range": "2\"",
+        "attacks": "1",
+        "toHit": "5+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Slitta",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "5+",
+        "toWound": "5+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "LOONSMASHA FANATIC",
+        "description": "A Loonsmasha Fanatic unit consisting of 1 model lurks with Zarbag’s Gitz."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Squigs Go Wild",
+        "flavorText": "When a Cave Squig decides to flee it snaps at anything that is foolish enough to get in its way.",
+        "description": "Roll a dice each time a Cave Squig model from this unit flees, before the model is removed from play. On a 4+ the nearest other unit within 6\" of the fleeing model suffers 1 mortal wound. If two or more such units are equally close, you can pick which suffers the mortal wound."
+      },
+      {
+        "name": "Netters",
+        "flavorText": "Moonclan Grots use throwing nets to capture Cave Squigs and entangle their foes.",
+        "description": "Subtract 1 from hit rolls for attacks made by enemy models while they are within 2\" of any friendly models with a Barbed Net."
+      },
+      {
+        "name": "Tough as Old Boots",
+        "flavorText": "Cave Squigs and their herders are notoriously difficult to kill.",
+        "description": "Squig Herder and Cave Squig models in this unit have a Wounds characteristic of 2."
+      }
+    ],
+    "keywords": [
+      "DESTRUCTION",
+      "GROT",
+      "GLOOMSPITE",
+      "GITZ",
+      "MOONCLAN",
+      "ZARBAG’S",
+      "GITZ"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique. <a href=\"/aos3/factions/gloomspite-gitz/warscrolls.html#Zarbag\">Zarbag</a> and Zarbag’s Gitz must be taken as a set. Although taken as a set",
+      "each is a separate unit."
+    ],
+    "baseSize": "25mm"
+  },
+  {
+    "name": "Rippa s Snarlfangs",
+    "points": "70",
+    "unitSize": "3",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Racing forth on fleet-pawed Snarlfang mounts come Rippa Narkbad and his ladz, whooping and hollering as they seek out fleeing prey to stick with spears and cruel, barbed arrows.",
+    "description": "Rippa’s Snarlfangs is a unit that has 3 models. Rippa is armed with a Boss Loppa; Stabbit is armed with a Stabbin’ Stikka; and Mean-eye is armed with a Grot Bow and a Bow Stave.",
+    "wounds": "2",
+    "move": "12\"",
+    "save": "5+",
+    "bravery": "4",
+    "missleWeapons": [
+      {
+        "name": "Grot Bow",
+        "range": "18\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Boss Loppa",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Stabbin’ Stikka",
+        "range": "2\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Bow Stave",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "5+",
+        "toWound": "5+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Snarlfang’s Jaws",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "MOUNT",
+        "description": "This unit’s Snarlfangs attack with their Jaws."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Smell Weakness",
+        "flavorText": "Once the scent of blood is in their snout, a Snarlfang’s attacks become increasingly frenzied.",
+        "description": "Add 1 to hit rolls for attacks made by this unit’s Snarlfang’s Jaws that target a unit with 1 or more wounds allocated to it."
+      },
+      {
+        "name": "Ferocious Pounce",
+        "flavorText": "Snarlfangs strike with startling speed, falling upon their prey in a blur of claws and ripping teeth.",
+        "description": "This unit is eligible to fight in the combat phase if it is within 6\" of an enemy unit instead of 3\", and it can move an extra 3\" when it piles in."
+      }
+    ],
+    "keywords": [
+      "DESTRUCTION",
+      "GROT",
+      "GLOOMSPITE",
+      "GITZ",
+      "RIPPA’S",
+      "SNARLFANGS"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ]
+  },
+  {
+    "name": "Aleguzzler Gargant",
+    "points": "165",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Behemoth"
+    ],
+    "flavorText": "Aleguzzler Gargants that accompany Gloomspite hordes into battle are often combating raging hangovers from drinking too much crude fungus brew. They fight for more barrels of the same foul stuff, so that they can get inebriated all over again.",
+    "description": "An Aleguzzler Gargant is a single model armed with an ’Eadbutt, Massive Club and Mighty Kick.",
+    "wounds": "12",
+    "move": "✹",
+    "save": "5+",
+    "bravery": "6",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "’Eadbutt",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-3",
+        "damage": "✹"
+      },
+      {
+        "name": "Massive Club",
+        "range": "3\"",
+        "attacks": "✹",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Mighty Kick",
+        "range": "2\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-2",
+        "move": "8\"",
+        "massiveClub": "3D6",
+        "eadbutt": "D6"
+      },
+      {
+        "woundsSuffered": "3-4",
+        "move": "6\"",
+        "massiveClub": "2D6",
+        "eadbutt": "D6"
+      },
+      {
+        "woundsSuffered": "5-7",
+        "move": "5\"",
+        "massiveClub": "2D6",
+        "eadbutt": "D3"
+      },
+      {
+        "woundsSuffered": "8-9",
+        "move": "4\"",
+        "massiveClub": "D6",
+        "eadbutt": "D3"
+      },
+      {}
+    ],
+    "abilities": [
+      {
+        "name": "Drunken Stagger",
+        "flavorText": "Often still inebriated, gargants can be just as much a hazard to their allies as their enemies.",
+        "description": "If a charge roll for this model is a double, this model cannot make a charge move that phase. In addition, the players must roll off. The player who wins the roll-off picks a point on the battlefield 3\" from this model. Each unit within 2\" of that point suffers D3 mortal wounds."
+      },
+      {
+        "name": "Stuff ’Em In Me Bag",
+        "flavorText": "Gargants are known to grab hapless warriors and stuff them screaming into their bags ‘ for later’…",
+        "description": "After this model piles in, you can pick 1 enemy model within 3\" of this model and roll a dice. If the roll is equal to or greater than double that model’s Wounds characteristic, it is slain."
+      },
+      {
+        "name": "Timber!",
+        "flavorText": "A dying gargant is indiscriminating in their choice of where – and on whom – their body falls.",
+        "description": "If this model is slain, before removing the model from the battlefield the players must roll off. The player who wins the roll-off picks a point on the battlefield 3\" from this model. Each unit within 2\" of that point suffers D3 mortal wounds. This model is then removed from the battlefield."
+      }
+    ],
+    "keywords": [
+      "DESTRUCTION",
+      "GARGANT",
+      "GLOOMSPITE",
+      "GITZ",
+      "ALEGUZZLER",
+      "MONSTER"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "90 x 52mm"
+  },
+  {
+    "name": "Arachnarok Spider with Flinger",
+    "points": "230",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Behemoth"
+    ],
+    "flavorText": "Some Arachnarok Spiders bear howdahs upon their backs that have flinger catapults built into them. Operated by a cackling grot crew, these weapons lob tumbling masses of envenomed webbing that slam down to entangle and poison the enemy.",
+    "description": "An Arachnarok Spider with Flinger is a single model armed with a Flinger, Chitinous Legs and Monstrous Fangs.",
+    "wounds": "14",
+    "move": "✹",
+    "save": "4+",
+    "bravery": "6",
+    "missleWeapons": [
+      {
+        "name": "Flinger",
+        "range": "36\"",
+        "attacks": "1",
+        "toHit": "See below",
+        "toWound": "",
+        "rend": "",
+        "damage": ""
+      },
+      {
+        "name": "Spider-bows",
+        "range": "16\"",
+        "attacks": "8",
+        "toHit": "5+",
+        "toWound": "5+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Chitinous Legs",
+        "range": "3\"",
+        "attacks": "✹",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Monstrous Fangs",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "✹",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      },
+      {
+        "name": "Crooked Spears",
+        "range": "1\"",
+        "attacks": "8",
+        "toHit": "5+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "CREW",
+        "description": "This model has a Spiderfang Grot crew that attack with their Crooked Spears and Spider-bows. For rules purposes, the crew are treated in the same manner as a mount."
+      }
+    ],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-3",
+        "move": "8\"",
+        "chitinousLegs": "8",
+        "monstrousFangs": "2+"
+      },
+      {
+        "woundsSuffered": "4-6",
+        "move": "7\"",
+        "chitinousLegs": "7",
+        "monstrousFangs": "3+"
+      },
+      {
+        "woundsSuffered": "7-9",
+        "move": "6\"",
+        "chitinousLegs": "6",
+        "monstrousFangs": "3+"
+      },
+      {
+        "woundsSuffered": "10-12",
+        "move": "5\"",
+        "chitinousLegs": "5",
+        "monstrousFangs": "4+"
+      },
+      {}
+    ],
+    "abilities": [
+      {
+        "name": "Flinger",
+        "flavorText": "This crude catapult hurls a heavy ball of corded spider-webs at the enemy. Any victims not crushed by the missile when it lands are engulfed by the mass of sticky silk as it explosively unfurls.",
+        "description": "Do not use the attack sequence for an attack made with a Flinger. Instead roll a dice. Add 1 to the dice roll if the target unit has at least 5 models. Add 2 to the dice roll instead if the target unit has at least 10 models. On a 6+ the target unit suffers D3 mortal wounds and is engulfed in sticky webs. A unit that is engulfed in sticky webs fights at the end of the next combat phase, after the players have picked any other units to fight."
+      },
+      {
+        "name": "Spider Venom",
+        "flavorText": "An Arachnarok Spider’s monstrous fangs glisten with deadly toxic venom.",
+        "description": "If the unmodified hit roll for an attack made with this model’s Monstrous Fangs is 6, that attack inflicts D3 mortal wounds on the target and the attack sequence ends (do not make a wound or save roll)."
+      },
+      {
+        "name": "Wall Crawler",
+        "flavorText": "Arachnarok Spiders can skitter up and down vertical surfaces as if they were flat ground.",
+        "description": "When this model makes a move, it can pass across terrain features in the same manner as a model that can fly."
+      }
+    ],
+    "keywords": [
+      "DESTRUCTION",
+      "ARACHNAROK",
+      "SPIDER",
+      "GLOOMSPITE",
+      "GITZ",
+      "SPIDERFANG",
+      "MONSTER"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "160mm"
+  },
+  {
+    "name": "Arachnarok Spider with Spiderfang Warparty",
+    "points": "225",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Behemoth"
+    ],
+    "flavorText": "Vast arachnid predators possessed of a malevolent sentience, Arachnarok Spiders stalk into battle with rickety shanty-howdahs full of grots swaying upon their bulbous abdomens.",
+    "description": "An Arachnarok Spider with Spiderfang Warparty is a single model armed with Chitinous Legs and Monstrous Fangs.",
+    "wounds": "14",
+    "move": "✹",
+    "save": "4+",
+    "bravery": "6",
+    "missleWeapons": [
+      {
+        "name": "Spider-bows",
+        "range": "16\"",
+        "attacks": "10",
+        "toHit": "5+",
+        "toWound": "5+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Chitinous Legs",
+        "range": "3\"",
+        "attacks": "✹",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Monstrous Fangs",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "✹",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      },
+      {
+        "name": "Crooked Spears",
+        "range": "1\"",
+        "attacks": "10",
+        "toHit": "5+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "CREW",
+        "description": "This model has a Spiderfang Grot crew that attack with their Crooked Spears and Spider-bows. For rules purposes, the crew are treated in the same manner as a mount."
+      }
+    ],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-3",
+        "move": "8\"",
+        "chitinousLegs": "8",
+        "monstrousFangs": "2+"
+      },
+      {
+        "woundsSuffered": "4-6",
+        "move": "7\"",
+        "chitinousLegs": "7",
+        "monstrousFangs": "3+"
+      },
+      {
+        "woundsSuffered": "7-9",
+        "move": "6\"",
+        "chitinousLegs": "6",
+        "monstrousFangs": "3+"
+      },
+      {
+        "woundsSuffered": "10-12",
+        "move": "5\"",
+        "chitinousLegs": "5",
+        "monstrousFangs": "4+"
+      },
+      {}
+    ],
+    "abilities": [
+      {
+        "name": "Spider Venom",
+        "flavorText": "An Arachnarok Spider’s monstrous fangs glisten with deadly toxic venom.",
+        "description": "If the unmodified hit roll for an attack made with this model’s Monstrous Fangs is 6, that attack inflicts D3 mortal wounds on the target and the attack sequence ends (do not make a wound or save roll)."
+      },
+      {
+        "name": "Voracious Predator",
+        "flavorText": "Young Arachnarok Spiders are swift hunters despite their immense size, with an unquenchable hunger for living prey.",
+        "description": "You can re-roll run and charge rolls for this model. In addition, roll a dice for each enemy unit that is within 1\" of this model after this model makes a charge move. On a 2+ that enemy unit suffers D3 mortal wounds."
+      },
+      {
+        "name": "Wall Crawler",
+        "flavorText": "Arachnarok Spiders can skitter up and down vertical surfaces as if they were flat ground.",
+        "description": "When this model makes a move, it can pass across terrain features in the same manner as a model that can fly."
+      }
+    ],
+    "keywords": [
+      "DESTRUCTION",
+      "ARACHNAROK",
+      "SPIDER",
+      "GLOOMSPITE",
+      "GITZ",
+      "SPIDERFANG",
+      "MONSTER"
+    ],
+    "pitchedBattleNotes": [
+      "Single. Battleline if <a href=\"/aos3/the-rules/the-core-rules/#Your-General\">general</a> is <span class=\"tooltip00020\" data-tooltip-content=\"#tooltip_content00020\" data-tooltip-anchor=\"#tooltip_content00020\"><span class=\"kwb kwbu\">SPIDERFANG</span></span>."
+    ],
+    "baseSize": "160mm"
+  },
+  {
+    "name": "Mangler Squigs",
+    "points": "250",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Behemoth"
+    ],
+    "flavorText": "Possibly the most insane living weapons to be unleashed upon the Mortal Realms, Mangler Squigs crash, bound and roll across the battlefield leaving trails of torn and broken bodies in their wake.",
+    "description": "Mangler Squigs are a single model armed with Huge Fang-filled Gobs and Balls and Chains.",
+    "wounds": "12",
+    "move": "✹",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Huge Fang-filled Gobs",
+        "range": "2\"",
+        "attacks": "4",
+        "toHit": "✹",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D6"
+      },
+      {
+        "name": "Balls and Chains",
+        "range": "2\"",
+        "attacks": "✹",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "D3"
+      },
+      {
+        "name": "Grots’ Bashin’ Stikks",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "CREW",
+        "description": "This model has a grot crew that attack with their Bashin’ Stikks. For rules purposes, the crew are treated in the same manner as a mount."
+      },
+      {
+        "name": "FLY",
+        "description": "This model can fly."
+      }
+    ],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-2",
+        "move": "3D6\"",
+        "hugeFangFilledGobs": "3+",
+        "ballsAndChains": "7"
+      },
+      {
+        "woundsSuffered": "3-4",
+        "move": "2D6\"",
+        "hugeFangFilledGobs": "4+",
+        "ballsAndChains": "6"
+      },
+      {
+        "woundsSuffered": "5-7",
+        "move": "D6\"",
+        "hugeFangFilledGobs": "5+",
+        "ballsAndChains": "5"
+      },
+      {
+        "woundsSuffered": "8-9",
+        "move": "2D6\"",
+        "hugeFangFilledGobs": "4+",
+        "ballsAndChains": "6"
+      },
+      {}
+    ],
+    "abilities": [
+      {
+        "name": "Ker-splat!",
+        "flavorText": "Mangler Squigs produce an impact that is nothing short of spectacular, sending severed body parts and splashes of gore skywards.",
+        "description": "Add 1 to hit rolls for attacks made with this model’s Balls and Chains if this model made a charge move in the same turn."
+      },
+      {
+        "name": "Watch Out!",
+        "flavorText": "Mangler Squigs are capable of great destruction even in their wildly bouncing death throes.",
+        "description": "If this model is slain, before the model is removed from play roll a dice for each unit within 6\" of this model. On a 4+ that unit suffers D3 mortal wounds."
+      }
+    ],
+    "keywords": [
+      "DESTRUCTION",
+      "SQUIG",
+      "GLOOMSPITE",
+      "GITZ",
+      "MOONCLAN",
+      "MONSTER",
+      "MANGLER",
+      "SQUIGS"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "80mm"
+  },
+  {
+    "name": "Skitterstrand Arachnarok",
+    "points": "160",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Behemoth"
+    ],
+    "flavorText": "Creeping out from their web-wreathed Shyishan lairs, Skitterstrand Arachnarok Spiders burst through temporary Realmgates to snatch up their prey, biting off heads, injecting paralysing venom, and dragging choice victims away into the darkness.",
+    "description": "A Skitterstrand Arachnarok is a single model armed with Chitinous Legs and Monstrous Fangs.",
+    "wounds": "14",
+    "move": "✹",
+    "save": "4+",
+    "bravery": "6",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Chitinous Legs",
+        "range": "3\"",
+        "attacks": "✹",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Monstrous Fangs",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "✹",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-3",
+        "move": "8\"",
+        "chitinousLegs": "8",
+        "monstrousFangs": "2+"
+      },
+      {
+        "woundsSuffered": "4-6",
+        "move": "7\"",
+        "chitinousLegs": "7",
+        "monstrousFangs": "3+"
+      },
+      {
+        "woundsSuffered": "7-9",
+        "move": "6\"",
+        "chitinousLegs": "6",
+        "monstrousFangs": "3+"
+      },
+      {
+        "woundsSuffered": "10-12",
+        "move": "5\"",
+        "chitinousLegs": "5",
+        "monstrousFangs": "4+"
+      },
+      {}
+    ],
+    "abilities": [
+      {
+        "name": "Ambush From Beyond",
+        "flavorText": "Skitterstrand Arachnaroks burst from temporary Realmgates to capture and drag off their screaming victims.",
+        "description": "Instead of setting up this model on the battlefield, you can place it to one side and say that it is set up in ambush as a reserve unit. At the end of your movement phase, you can set up one or more of the reserve units that are in ambush on the battlefield more than 9\" from any enemy units. Any reserve units that are in ambush that are not set up on the battlefield before the start of the fourth battle round are slain."
+      },
+      {
+        "name": "Spider Venom",
+        "flavorText": "An Arachnarok Spider’s monstrous fangs glisten with deadly toxic venom.",
+        "description": "If the unmodified hit roll for an attack made with this model’s Monstrous Fangs is 6, that attack inflicts D3 mortal wounds on the target and the attack sequence ends (do not make a wound or save roll)."
+      },
+      {
+        "name": "Wall Crawler",
+        "flavorText": "Arachnarok Spiders can skitter up and down vertical surfaces as if they were flat ground.",
+        "description": "When this model makes a move, it can pass across terrain features in the same manner as a model that can fly."
+      }
+    ],
+    "keywords": [
+      "DESTRUCTION",
+      "ARACHNAROK",
+      "SPIDER",
+      "GLOOMSPITE",
+      "GITZ",
+      "SPIDERFANG",
+      "SKITTERSTRAND",
+      "MONSTER"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "160mm"
+  },
+  {
+    "name": "Bonegrinder Mega Gargant",
+    "points": "535",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Behemoth"
+    ],
+    "flavorText": "The Bonegrinder Mega-Gargant’s coming is heralded by earth-shaking footsteps and a deafening roar of battle-lust. Each Bonegrinder thinks of itself as the next Behemat, and will stomp flat or batter to death anything foolish enough to stand in its way.",
+    "description": "A Bonegrinder Mega-Gargant is armed with a Gargantuan Club, Thunderous Stomp and Hurled Boulders.",
+    "wounds": "35",
+    "move": "✹",
+    "save": "4+",
+    "bravery": "7",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Gargantuan Club",
+        "range": "3\"",
+        "attacks": "✹",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "3"
+      },
+      {
+        "name": "Thunderous Stomp",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "D6"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-18",
+        "move": "11\"",
+        "hurledBoulder": "18\"",
+        "gargantuanClub": "7"
+      },
+      {
+        "woundsSuffered": "19-24",
+        "move": "10\"",
+        "hurledBoulder": "15\"",
+        "gargantuanClub": "5"
+      },
+      {
+        "woundsSuffered": "25-30",
+        "move": "9\"",
+        "hurledBoulder": "12\"",
+        "gargantuanClub": "4"
+      },
+      {}
+    ],
+    "abilities": [
+      {
+        "name": "Thunderous Stomp",
+        "flavorText": "A Bonegrinder Mega- Gargant’s massive, stomping feet are devastating against smaller opponents.",
+        "description": "Add 1 to hit rolls for attacks made with a Thunderous Stomp unless the target is a MONSTER."
+      },
+      {
+        "name": "I’ll Bite Your Head Off!",
+        "flavorText": "A Bonegrinder Mega-Gargant’s cavernous mouth makes for an especially deadly weapon, should the brute fancy a light snack during a battle.",
+        "description": "After this model piles in, you can pick 1 enemy model that is within 3\" of this model, and roll a dice. If the roll is greater than that enemy model’s Wounds characteristic, that enemy model is slain."
+      },
+      {
+        "name": "Longshanks",
+        "flavorText": "A Bonegrinder Mega-Gargant towers high above the battlefield, and although it moves ponderously, it can step over most obstacles.",
+        "description": "When this model makes a normal move, run or retreat, it can ignore other models and terrain features when you trace the path of its move across the battlefield, but it cannot finish that move within 3\" of an enemy unit."
+      },
+      {
+        "name": "Sons of Behemat",
+        "flavorText": "The Sons of Behemat are nearly as difficult to kill as their mighty progenitor.",
+        "description": "If this model is affected by an ability that slays the target without any wounds or mortal wounds being allocated, then this model suffers D6 mortal wounds instead."
+      },
+      {
+        "name": "Terror",
+        "flavorText": "This terrifying monstrosity strikes fear into the hearts of its foes.",
+        "description": "Subtract 1 from the Bravery characteristic of enemy units if they are within 3\" of any friendly units with this ability."
+      },
+      {
+        "name": "Timberrr!!!",
+        "flavorText": "A dying Bonegrinder Mega-Gargant is indiscriminating in their choice of where – and on whom – their body falls.",
+        "description": "If this model is slain, before removing it from play, the players must roll off. The winner must pick 1 point on the battlefield 5\" from this model. Each unit within 3\" of that point suffers D3 mortal wounds unless it is a MEGA-GARGANT. This model is then removed from play."
+      }
+    ],
+    "keywords": [
+      "DESTRUCTION",
+      "SONS",
+      "BEHEMAT",
+      "GARGANT",
+      "MEGA-GARGANT",
+      "MONSTER",
+      "BONEGRINDER"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "120 x 92mm"
+  },
+  {
+    "name": "Colossal Squig",
+    "points": "325",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Behemoth"
+    ],
+    "flavorText": "With their large, fleshy mouths and boundless energy, Colossal Squigs unleash untold havoc in battle. These insatiable fungoid beasts messily devour swathes of foes in an instant, squashing everything in their path as they careen towards their next meal.",
+    "description": "A Colossal Squig is armed with Enormous Jaws, Trampling Feet and Puff Spores.",
+    "wounds": "16",
+    "move": "✹",
+    "save": "5+",
+    "bravery": "10",
+    "missleWeapons": [
+      {
+        "name": "Puff Spores",
+        "range": "8\"",
+        "attacks": "1",
+        "toHit": "5+",
+        "toWound": "5+",
+        "rend": "-",
+        "damage": "D3"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Enormous Jaws",
+        "range": "3\"",
+        "attacks": "8",
+        "toHit": "✹",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "D3"
+      },
+      {
+        "name": "Trampling Feet",
+        "range": "1\"",
+        "attacks": "✹",
+        "toHit": "5+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-7",
+        "move": "4D6\"",
+        "enormousJaws": "2+",
+        "tramplingFeet": "10"
+      },
+      {
+        "woundsSuffered": "8-10",
+        "move": "3D6\"",
+        "enormousJaws": "3+",
+        "tramplingFeet": "8"
+      },
+      {
+        "woundsSuffered": "11-13",
+        "move": "2D6\"",
+        "enormousJaws": "4+",
+        "tramplingFeet": "6"
+      },
+      {}
+    ],
+    "abilities": [
+      {
+        "name": "Crazed Charge",
+        "flavorText": "Driven mad with hunger, the Colossal Squig bounds head-first into anything that it considers edible, wildly gnashing its jaws in the hope of finding a tasty morsel.",
+        "description": "Roll a dice for each enemy unit that is within 1\" of this model after this model makes a charge move. On a 2+, that enemy unit suffers D3 mortal wounds."
+      },
+      {
+        "name": "Fungoid Squig Explosion",
+        "flavorText": "When these massive creatures meet their death, their body ripples with a build-up of fungal spore gas, and with an ear-splitting pop they burst into a mass of smaller Squigs.",
+        "description": "If this model is slain, before removing this model from play, roll a dice for each enemy unit within 3\" of it. On a 2+, that enemy unit suffers D3 mortal wounds. Then, you can add 1 SQUIG HERD unit of up to 5 models to your army. Set up the SQUIG HERD unit wholly within 9\" of this model and more than 3\" from all enemy models. This model is then removed from play."
+      },
+      {
+        "name": "Puff Spores",
+        "flavorText": "When the Colossal Squig is threatened, its tiny fungal blisters begin to burst, spreading thick clouds of spores that blind and choke any who venture too close.",
+        "description": "Subtract 1 from hit rolls for attacks made with melee weapons that target this model."
+      },
+      {
+        "name": "Swallowed Whole",
+        "flavorText": "A Colossal Squig’s enormous jaws can stretch wide enough to consume their enemy whole.",
+        "description": "If the unmodified hit roll for an attack made with this model’s Enormous Jaws is 6, that attack causes D3 mortal wounds to the target and the attack sequence ends (do not make a wound or save roll)."
+      }
+    ],
+    "keywords": [
+      "DESTRUCTION",
+      "GLOOMSPITE",
+      "GITZ",
+      "MOONCLAN",
+      "SQUIG",
+      "MONSTER",
+      "COLOSSAL",
+      "SQUIG"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "120 x 92mm"
+  },
+  {
+    "name": "Squig Gobba",
+    "points": "175",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Artillery"
+    ],
+    "flavorText": "Armies of Moonclan grots use Squig Gobbas as living artillery. The enormous fungoid beasts are prodded and poked until they regurgitate smaller squigs they have devoured, sending them flying into the ranks of the enemy to explode in clouds of acidic spores.",
+    "description": "A Squig Gobba is armed with Spit-squigs and a Cavernous Maw.",
+    "wounds": "8",
+    "move": "4\"",
+    "save": "5+",
+    "bravery": "4",
+    "missleWeapons": [
+      {
+        "name": "Spit-squigs",
+        "range": "30\"",
+        "attacks": "6",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "D3"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Bashin’ Sticks",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "5+",
+        "toWound": "5+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Cavernous Maw",
+        "range": "2\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "CREW",
+        "description": "This model has a grot crew that attack with their Bashin’ Sticks."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Arcing Spit",
+        "flavorText": "Once gobbed forth, flailing Spitsquigs soar in an uncharacteristically graceful, saliva-trailing arc before messily splatting into their target.",
+        "description": "When this model makes an attack with Spitsquigs, it can target an enemy unit that is not visible to it. In addition, add 1 to hit rolls for attacks made with Spit-squigs if the target has more than 5 models."
+      }
+    ],
+    "keywords": [
+      "DESTRUCTION",
+      "GLOOMSPITE",
+      "GITZ",
+      "MOONCLAN",
+      "SQUIG",
+      "MONSTER",
+      "SQUIG",
+      "GOBBA"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "120 x 92mm"
+  },
+  {
+    "name": "Bad Moon Loonshrine",
+    "points": "0",
+    "unitSize": "",
+    "battlefieldRoles": [
+      "Faction Terrain Feature"
+    ],
+    "flavorText": "Where the Fangz of the Bad Moon fall, they smash down upon the landscape causing untold devastation. Then come the Gloomspite hordes, creeping from below to hew these loonstone outcroppings into grotesque shrinelairs that soon become encrusted with fungi and imbued with the sinister energies of their progenitor rock.",
+    "description": "",
+    "wounds": "",
+    "move": "",
+    "save": "",
+    "bravery": "",
+    "missleWeapons": [],
+    "meleeWeapons": [],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [],
+    "pitchedBattleNotes": []
+  },
+  {
+    "name": "Malevolent Moon",
+    "points": "60",
+    "unitSize": "",
+    "battlefieldRoles": [
+      "Endless Spell"
+    ],
+    "flavorText": "The Malevolent Moon is conjured when a shaman raises high a carved loonstone simulacrum of the Bad Moon and jabbers the right words. The statue swells into a cackling, glowing abomination that sweeps across the battlefield wreaking havoc.",
+    "description": "",
+    "wounds": "",
+    "move": "",
+    "save": "",
+    "bravery": "",
+    "missleWeapons": [],
+    "meleeWeapons": [],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [],
+    "pitchedBattleNotes": [],
+    "baseSize": "50mm"
+  },
+  {
+    "name": "Mork s Mighty Mushroom",
+    "points": "40",
+    "unitSize": "",
+    "battlefieldRoles": [
+      "Endless Spell"
+    ],
+    "flavorText": "Mork’s Mighty Mushroom begins as a single spore plucked from between the caster’s filthy toes. By the time it is flung at the foe, it has swollen into a fully grown mushroom, and within moments it blooms into something huge and unutterably foul.",
+    "description": "",
+    "wounds": "",
+    "move": "",
+    "save": "",
+    "bravery": "",
+    "missleWeapons": [],
+    "meleeWeapons": [],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [],
+    "pitchedBattleNotes": [],
+    "baseSize": "60mm"
+  },
+  {
+    "name": "Scrapskuttle s Arachnacauldron",
+    "points": "60",
+    "unitSize": "",
+    "battlefieldRoles": [
+      "Endless Spell"
+    ],
+    "flavorText": "Scrapskuttle’s Arachnacauldron fumes with sorcerous energies, and a shaman who drinks of its foul fluids feels magical knowledge burn through their brain. Yet the cauldron squeals always with idiot hunger, and there is a price to be paid for the arcane power it bestows.",
+    "description": "",
+    "wounds": "",
+    "move": "",
+    "save": "",
+    "bravery": "",
+    "missleWeapons": [],
+    "meleeWeapons": [],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [],
+    "pitchedBattleNotes": [],
+    "baseSize": "75 x 42mm"
+  },
+  {
+    "name": "Scuttletide",
+    "points": "70",
+    "unitSize": "",
+    "battlefieldRoles": [
+      "Endless Spell"
+    ],
+    "flavorText": "First comes a weird whispering, a rising scrape and skitter like a wind through dry leaves. Then the Scuttletide spills out onto the battlefield, sorcerous spiders by the thousand squeezing from cracks in the ground and surging from shadows and undergrowth to overrun and frenziedly bite everything in their path. ",
+    "description": "",
+    "wounds": "",
+    "move": "",
+    "save": "",
+    "bravery": "",
+    "missleWeapons": [],
+    "meleeWeapons": [],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [],
+    "pitchedBattleNotes": []
+  }
+]

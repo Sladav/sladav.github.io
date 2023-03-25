@@ -1,0 +1,2109 @@
+[
+  {
+    "name": "Beasts of Chaos Tzaangor Shaman",
+    "points": "135",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Mounted atop a Disc of Tzeentch, a Tzaangor Shaman is a potent agent of change. With dark magics, the Shaman will grant a boon of mutation to their foes, transforming them as they writhe and scream into a more pleasing form – that of a Tzaangor.",
+    "description": "",
+    "wounds": "6",
+    "move": "16\"",
+    "save": "4+",
+    "bravery": "6",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Staff of Change",
+        "range": "2\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      },
+      {
+        "name": "Ritual Dagger",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Teeth and Horns",
+        "range": "1\"",
+        "attacks": "D3",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "BEASTS",
+      "CHAOS",
+      "TZAANGOR",
+      "TZEENTCH",
+      "BRAYHERD",
+      "HERO",
+      "WIZARD",
+      "TZAANGOR",
+      "SHAMAN"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "40mm"
+  },
+  {
+    "name": "Doombull",
+    "points": "110",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Doombulls are the dominant beasts of the Warherds, charging ahead of their stampeding kin and leading by brutal example. Like all bullgors, they are consumed by the bloodgreed, and they gluttonously devour the raw flesh of those they kill.",
+    "description": "A Doombull is a single model armed with a Slaughterer’s Axe and Bullgor Horns.",
+    "wounds": "8",
+    "move": "7\"",
+    "save": "4+",
+    "bravery": "7",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Bullgor Horns",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Slaughterer’s Axe",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "3"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Bloodgreed",
+        "flavorText": "Ravenous for blood, the Doombull descends upon its foes with unbridled ferocity.",
+        "description": "Each unmodified wound roll of 6 for attacks made by this unit inflicts 1 mortal wound on the target in addition to any normal damage."
+      },
+      {
+        "name": "Slaughterer’s Call",
+        "flavorText": "A feral roar by the Doombull alerts the Warherd to the scent of flesh on the wind, sending them into an attacking frenzy.",
+        "description": "You can use this command ability at the start of the combat phase. If you do so, pick a friendly WARHERD unit wholly within 12\" of a friendly model with this command ability. Add 1 to wound rolls for attacks made by that unit until the end of that phase."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "BULLGOR",
+      "BEASTS",
+      "CHAOS",
+      "WARHERD",
+      "HERO",
+      "DOOMBULL"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "50mm"
+  },
+  {
+    "name": "Dragon Ogor Shaggoth",
+    "points": "155",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Lords of the highest mountain peaks, Dragon Ogor Shaggoths are truly ancient and enormous creatures, through whom the anarchic fury of the primordial storm is unleashed upon the denizens of the Mortal Realms.",
+    "description": "A Dragon Ogor Shaggoth is a single model armed with a Storm-wrought Axe, Sweeping Tail and Taloned Forelimbs.",
+    "wounds": "10",
+    "move": "8\"",
+    "save": "4+",
+    "bravery": "7",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Storm-wrought Axe",
+        "range": "2\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "3"
+      },
+      {
+        "name": "Sweeping Tail",
+        "range": "3\"",
+        "attacks": "D3",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Taloned Forelimbs",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Beneath the Tempest",
+        "flavorText": "Dark clouds gather above the battlefield, threatening to unleash the fury of the tempest.",
+        "description": "If the roll-off at the start of a battle round to determine who takes the first turn is a tie, roll a dice for each THUNDERSCORN unit on the battlefield. On a 4+ heal D3 wounds allocated to that unit."
+      },
+      {
+        "name": "Arcane BoltMystic ShieldSummon Lightning",
+        "flavorText": "",
+        "description": "This model is a WIZARD. It can attempt to cast one spell in your hero phase, and attempt to unbind one spell in the enemy hero phase. It knows the Arcane Bolt, Mystic Shield and Summon Lightning spells."
+      },
+      {
+        "name": "Summon Lightning",
+        "flavorText": "The Shaggoth calls down a fork of eldritch lightning to empower its allies.",
+        "description": "Summon Lightning has a casting value of 7. If successfully cast, pick a friendly THUNDERSCORN unit wholly within 20\" of the caster and visible to them. You can heal D3 wounds allocated to that unit. In addition, you can re-roll failed wound rolls for attacks made by that unit until your next hero phase."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "BEASTS",
+      "CHAOS",
+      "THUNDERSCORN",
+      "DRAGON",
+      "OGOR",
+      "MONSTER",
+      "HERO",
+      "WIZARD",
+      "SHAGGOTH"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "90 x 52mm"
+  },
+  {
+    "name": "Great Bray Shaman",
+    "points": "100",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Through profane sacrifices and malefic rituals, the Great Bray-Shamans harness the anarchic Chaos energies that emanate from the wilds to invigorate their bestial allies and unleash devastation upon their foes.",
+    "description": "A Great Bray-Shaman is a single model armed with a Fetish Staff.",
+    "wounds": "5",
+    "move": "6\"",
+    "save": "6+",
+    "bravery": "6",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Fetish Staff",
+        "range": "2\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Infuse with Bestial Vigour",
+        "flavorText": "Raw chaotic energy emanates from the Bray-Shaman, imbuing surrounding beastmen with strength.",
+        "description": "At the start of your movement phase, add 3\" to the Move characteristic of models in friendly BRAYHERD units wholly within 12\" of any friendly GREAT BRAY-SHAMANS until the end of that phase."
+      },
+      {
+        "name": "Arcane BoltMystic ShieldDevolve",
+        "flavorText": "",
+        "description": "This model is a WIZARD. It can attempt to cast one spell in your hero phase, and attempt to unbind one spell in the enemy hero phase. It knows the Arcane Bolt, Mystic Shield and Devolve spells."
+      },
+      {
+        "name": "Devolve",
+        "flavorText": "Delving into the minds of its enemies, the Bray-Shaman magnifies the savage and animalistic parts of the foes’ psyche until they are little more than growling beasts.",
+        "description": "Devolve has a casting value of 7. If successfully cast, pick an enemy unit within 18\" of the caster that is visible to them and not within 3\" of any friendly units. If it is possible to do so, your opponent must make a normal move with that unit of up to 2D6\" so that each model in the unit ends its move as close as possible to a model from the friendly unit that was closest to it at the start of the move."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "GOR",
+      "BEASTS",
+      "CHAOS",
+      "BRAYHERD",
+      "HERO",
+      "WIZARD",
+      "GREAT",
+      "BRAY-SHAMAN"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Beastlord",
+    "points": "95",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Savage commanders and ferocious warriors, Beastlords are the alphabeasts of the Brayherds. They exert dominance over their snarling kin through acts of grisly violence and lead ruinous stampedes into the civilised lands.",
+    "description": "A Beastlord is a single model armed with Paired Man-ripper Axes.",
+    "wounds": "5",
+    "move": "6\"",
+    "save": "4+",
+    "bravery": "7",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Paired Man-ripper Axes",
+        "range": "1\"",
+        "attacks": "6",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Call of Battle",
+        "flavorText": "Beastlords lope swiftly towards the foe, desperate to get to grips with the enemy so that the bloodletting can begin.",
+        "description": "This model can run and still charge later in the same turn."
+      },
+      {
+        "name": "Grisly Trophy",
+        "flavorText": "With a roar of triumph, the Beastlord raises a severed head into the air.",
+        "description": "If any enemy models are slain by wounds inflicted by this model’s attacks in the combat phase, you can add 1 to wound rolls for attacks made by friendly BRAYHERD units wholly within 18\" of this model until the end of that phase. In addition, if any enemy HEROES or MONSTERS are slain by wounds inflicted by this model’s attacks in the combat phase, you can add 1 to hit rolls for attacks made by friendly BRAYHERD units wholly within 18\" of this model until the end of that phase. The same unit cannot benefit from this ability more than once per phase."
+      },
+      {
+        "name": "Hatred of Heroes",
+        "flavorText": "Leaving weaker foes to his followers, a Beastlord reserves his prodigious strength and fury for the greatest of the enemy’s champions.",
+        "description": "If the unmodified hit roll for an attack made with this model’s Paired Man-ripper Axes that targets a HERO is 6, that attack scores 2 hits on the target instead of 1. Make a wound and save roll for each hit."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "GOR",
+      "BEASTS",
+      "CHAOS",
+      "BRAYHERD",
+      "HERO",
+      "BEASTLORD"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Grashrak Fellhoof",
+    "points": "150",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Cunning and filled with malice, Grashrak Fellhoof is a twisted prophet of the Dark Gods. Ruling over a band of black-hearted beastmen, he wields the corrupting energies of Chaos to rend the flesh and tear at the souls of his foes.",
+    "description": "Grashrak Fellhoof is a named character that is a single model. He is armed with an Obsidian Blade.",
+    "wounds": "5",
+    "move": "6\"",
+    "save": "6+",
+    "bravery": "6",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Obsidian Blade",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Infuse with Bestial Vigour",
+        "flavorText": "Raw chaotic energy emanates from Bray-Shamans, imbuing surrounding beastmen with strength.",
+        "description": "At the start of your movement phase, add 3\" to the Move characteristic of models in friendly BRAYHERD units wholly within 12\" of any friendly GREAT BRAY-SHAMANS until the end of that phase."
+      },
+      {
+        "name": "Arcane BoltMystic ShieldSavage Bolt",
+        "flavorText": "",
+        "description": "This model is a WIZARD. It can attempt to cast 1 spell in your hero phase, and attempt to unbind 1 spell in the enemy hero phase. It knows the Arcane Bolt, Mystic Shield and Savage Bolt spells."
+      },
+      {
+        "name": "Savage Bolt",
+        "flavorText": "Seething energy crashes into the enemy, tearing at their flesh and driving them from their feet.",
+        "description": "Savage Bolt has a casting value of 7. If successfully cast, pick 1 enemy unit within 18\" of the caster that is visible to them. That unit suffers D3 mortal wounds. In addition, until the end of your next combat phase, add 1 to hit rolls for attacks made with melee weapons that target that unit."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "GOR",
+      "BEASTS",
+      "CHAOS",
+      "BRAYHERD",
+      "ALLHERD",
+      "HERO",
+      "WIZARD",
+      "GREAT",
+      "BRAY-SHAMAN",
+      "GRASHRAK",
+      "FELLHOOF"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique. Grashrak Fellhoof and <a href=\"/aos3/factions/beasts-of-chaos/warscrolls.html#Grashrak-s-Despoilers\">Grashrak’s Despoilers</a> must be taken as a set. Although taken as a set",
+      "each is a separate unit."
+    ]
+  },
+  {
+    "name": "Gors",
+    "points": "70",
+    "unitSize": "10",
+    "battlefieldRoles": [
+      "Battleline"
+    ],
+    "flavorText": "Born of Chaos mutation and filled with feral rage, Gors gather in massive herds and charge towards their enemies. They wield crude but brutal weapons with which they hack and rend the flesh of their foes.",
+    "description": "A unit of Gors has any number of models. The unit is armed with one of the following weapon options: Gor Blade and Beastshield; or pair of Gor Blades.",
+    "wounds": "1",
+    "move": "6\"",
+    "save": "5+",
+    "bravery": "5",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Gor Blade(s)",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "FOE-RENDER",
+        "description": "The leader of this unit is a Foerender. Add 1 to the Attacks characteristic of a Foe-render’s Gor Blade(s)."
+      },
+      {
+        "name": "BRAYHORN",
+        "description": "1 in every 10 models in this unit can have a Brayhorn. A unit that includes any Brayhorns can run and still charge later in the same turn."
+      },
+      {
+        "name": "BANNER BEARER",
+        "description": "1 in every 10 models in this unit can be a Banner Bearer. A unit that includes any Banner Bearers can move an extra 1\" when it runs or piles in."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Rend and Tear",
+        "flavorText": "The frenzied strikes of those gors armed with dual weapons are all but impossible to defend against.",
+        "description": "You can re-roll hit rolls of 1 for attacks made with a pair of Gor Blades."
+      },
+      {
+        "name": "Beastshields",
+        "flavorText": "The primitive beastshields carried by some gors allow their wielders to contemptuously bat aside the desperate blows of their enemies.",
+        "description": "Add 1 to save rolls for attacks made with melee weapons that target a unit with Beastshields."
+      },
+      {
+        "name": "Anarchy and Mayhem",
+        "flavorText": "When assembled in large herds, gors feed off each other’s rage and strive to outdo their kin in the spilling of blood.",
+        "description": "Add 1 to the Attacks characteristic of this unit’s melee weapons while it has 20 or more models."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "BEASTS",
+      "CHAOS",
+      "BRAYHERD",
+      "GORS"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Ungors",
+    "points": "65",
+    "unitSize": "10",
+    "battlefieldRoles": [
+      "Battleline"
+    ],
+    "flavorText": "The smallest of the gor-kin, Ungors are vicious and spiteful creatures. They are the lowest creatures in the hierarchy of the wilds, subject to savage torments by the larger beastmen, and they take out their bitter hatred on the civilised races.",
+    "description": "A unit of Ungors has any number of models. The unit is armed with one of the following weapon options: Ungor Blade and Half-shield; or Gnarled Shortspear and Half-shield.",
+    "wounds": "1",
+    "move": "6\"",
+    "save": "6+",
+    "bravery": "4",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Ungor Blade",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Gnarled Shortspear",
+        "range": "2\"",
+        "attacks": "1",
+        "toHit": "5+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "HALFHORN",
+        "description": "The leader of this unit is a Halfhorn. Add 1 to the Attacks characteristic of a Halfhorn’s Ungor Blade or Gnarled Shortspear."
+      },
+      {
+        "name": "BRAYHORN",
+        "description": "1 in every 10 models in this unit can have a Brayhorn. A unit that includes any Brayhorns can run and still charge later in the same turn."
+      },
+      {
+        "name": "BANNER BEARER",
+        "description": "1 in every 10 models in this unit can be a Banner Bearer. A unit that includes any Banner Bearers can move an extra 1\" when it runs or piles in."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Baying Hatred",
+        "flavorText": "The bitter resentment and hatred felt by the ungors is only magnified when they gather in large herds.",
+        "description": "You can re-roll hit rolls of 1 for attacks made by this unit while it has 20 or more models, or re-roll hit rolls of 1 and 2 for attacks made by this unit while it has 30 or more models."
+      },
+      {
+        "name": "Half-shields",
+        "flavorText": "Though crudely fashioned, the shields carried by ungor herds serve well enough to fend off their assailants’ attacks.",
+        "description": "Add 1 to save rolls for attacks made with melee weapons that target this unit."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "BEASTS",
+      "CHAOS",
+      "BRAYHERD",
+      "UNGORS"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "25mm"
+  },
+  {
+    "name": "Beasts of Chaos Tzaangor Enlightened",
+    "points": "95",
+    "unitSize": "3",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Tzaangor Enlightened are arrogant creatures, for they can see the lessons of the past as easily as mortals see daylight. They gleefully caw out the past mistakes of their enemies, unnerving them before moving in to capitalise with each blow.",
+    "description": "",
+    "wounds": "3",
+    "move": "6\"",
+    "save": "4+",
+    "bravery": "6",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Tzeentchian Spear",
+        "range": "2\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      },
+      {
+        "name": "Vicious Beak",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "BEASTS",
+      "CHAOS",
+      "TZAANGOR",
+      "TZEENTCH",
+      "BRAYHERD",
+      "TZAANGOR",
+      "ENLIGHTENED"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "40mm"
+  },
+  {
+    "name": "Beasts of Chaos Tzaangor Enlightened on Discs of Tzeentch",
+    "points": "180",
+    "unitSize": "3",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Some Tzaangor Enlightened soar into battle atop the bladed, daemonic mounts known as Discs of Tzeentch, recounting their foes’ most terrible failures and sins as they strike out with gilded spears.",
+    "description": "",
+    "wounds": "4",
+    "move": "16\"",
+    "save": "4+",
+    "bravery": "6",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Tzeentchian Spear",
+        "range": "2\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      },
+      {
+        "name": "Vicious Beak",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Teeth and Horns",
+        "range": "1\"",
+        "attacks": "D3",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "BEASTS",
+      "CHAOS",
+      "TZAANGOR",
+      "TZEENTCH",
+      "BRAYHERD",
+      "TZAANGOR",
+      "ENLIGHTENED",
+      "TZAANGOR",
+      "ENLIGHTENED",
+      "DISCS",
+      "TZEENTCH"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "40mm"
+  },
+  {
+    "name": "Beasts of Chaos Tzaangor Skyfires",
+    "points": "190",
+    "unitSize": "3",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Tzaangor Skyfires soar across the battlefield, raining death upon the foe. Able to catch glimpses of the future, the Skyfires send their Arrows of Fate on baffling trajectories, striking their target’s most vulnerable weak spots with confounding accuracy.",
+    "description": "",
+    "wounds": "4",
+    "move": "16\"",
+    "save": "4+",
+    "bravery": "6",
+    "missleWeapons": [
+      {
+        "name": "Arrow of Fate",
+        "range": "24\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Bow Stave",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "5+",
+        "toWound": "5+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Vicious Beak",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Teeth and Horns",
+        "range": "1\"",
+        "attacks": "D3",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "BEASTS",
+      "CHAOS",
+      "TZAANGOR",
+      "TZEENTCH",
+      "BRAYHERD",
+      "TZAANGOR",
+      "SKYFIRES"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "40mm"
+  },
+  {
+    "name": "Beasts of Chaos Tzaangors",
+    "points": "175",
+    "unitSize": "10",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Tzaangors are savage, avian beastmen dedicated to Tzeentch and gifted with his dark blessings. Eager to impress their duplicitous god, the Tzaangors fight with lunatic energies, hoping to earn further gifts of change.",
+    "description": "",
+    "wounds": "2",
+    "move": "6\"",
+    "save": "5+",
+    "bravery": "5",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Savage Greatblade",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      },
+      {
+        "name": "Savage Blade",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Pair of Savage Blades",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Vicious Beak",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "BEASTS",
+      "CHAOS",
+      "TZAANGOR",
+      "TZEENTCH",
+      "BRAYHERD",
+      "TZAANGOR",
+      "HOST"
+    ],
+    "pitchedBattleNotes": [
+      "Battleline if general is a <a href=\"/aos3/factions/beasts-of-chaos/warscrolls.html#Beasts-of-Chaos-Tzaangor-Shaman\">Tzaangor Shaman</a>"
+    ],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Bestigors",
+    "points": "125",
+    "unitSize": "10",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Bestigors are the elite warriors of the Brayherds, mighty creatures who arm themselves with the best weapons and armour plundered from the civilised lands. They serve as bodyguards to their Beastlord and as shock troops on the battlefield.",
+    "description": "A unit of Bestigors has any number of models, each armed with a Despoiler Axe.",
+    "wounds": "1",
+    "move": "6\"",
+    "save": "4+",
+    "bravery": "6",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Despoiler Axe",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "GOUGE-HORN",
+        "description": "The leader of this unit is a Gouge-horn. Add 1 to the Attacks characteristic of a Gouge-horn’s Despoiler Axe."
+      },
+      {
+        "name": "BRAYHORN",
+        "description": "1 in every 10 models in this unit can have a Brayhorn. A unit that includes any Brayhorns can run and still charge later in the same turn."
+      },
+      {
+        "name": "BANNER BEARER",
+        "description": "1 in every 10 models in this unit can be a Banner Bearer. A unit that includes any Banner Bearers can move an extra 1\" when it runs or piles in."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Despoilers",
+        "flavorText": "Bestigors reserve the greatest part of their hatred for those who champion and defend the values of order and civilisation.",
+        "description": "Add 1 to hit rolls for attacks made by this unit that target enemy units with 10 or more models. In addition, you can re-roll hit rolls of 1 for attacks by this unit that target ORDER units."
+      },
+      {
+        "name": "Bestial Charge",
+        "flavorText": "Always at the forefront of a Brayherd, Bestigors launch themselves at their foes with unbridled ferocity.",
+        "description": "Add 1 to the Attacks characteristic of this unit’s melee weapons in a turn in which it made a charge move."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "GOR",
+      "BEASTS",
+      "CHAOS",
+      "BRAYHERD",
+      "BESTIGORS"
+    ],
+    "pitchedBattleNotes": [
+      "Battleline if general is a <a href=\"/aos3/factions/beasts-of-chaos/warscrolls.html#Beastlord\">Beastlord</a> or <span class=\"tooltip00026\" data-tooltip-content=\"#tooltip_content00026\" data-tooltip-anchor=\"#tooltip_content00026\"><span class=\"kwb kwbu\">GREAT</span> <span class=\"kwb kwbu\">BRAY-SHAMAN</span></span>"
+    ],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Bullgors",
+    "points": "130",
+    "unitSize": "3",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Bullgors are hulking bestial warriors possessed of terrifying strength and unnatural resilience. They tower over other foot soldiers on the battlefield, and they cleave goresoaked swathes through the armies of their enemies.",
+    "description": "A unit of Bullgors has any number of models. The unit is armed with Bullgor Horns and one of the following weapon options: pair of Bullgor Axes; Bullgor Axe and Bullshield; or Bullgor Great Axe.",
+    "wounds": "4",
+    "move": "7\"",
+    "save": "5+",
+    "bravery": "6",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Bullgor Axe(s)",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      },
+      {
+        "name": "Bullgor Great Axe",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "3"
+      },
+      {
+        "name": "Bullgor Horns",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "BLOODKINE",
+        "description": "The leader of this unit is a Bloodkine. Add 1 to the Attacks characteristic of a Bloodkine’s Bullgor Axe(s) or Bullgor Great Axe."
+      },
+      {
+        "name": "WARHERD DRUMMER",
+        "description": "1 in every 3 models in this unit can be a Warherd Drummer. Add 1 to charge rolls for a unit that includes any Warherd Drummers."
+      },
+      {
+        "name": "WARHERD BANNER BEARER",
+        "description": "1 in every 3 models in this unit can be a Warherd Banner Bearer. Add 1 to the Bravery characteristic of a unit that includes any Warherd Banner Bearers for each enemy unit within 12\" of that unit."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Bloodgreed",
+        "flavorText": "Ravenous for blood, bullgors descend upon their foes with unbridled ferocity.",
+        "description": "Each unmodified wound roll of 6 for attacks made by this unit inflicts 1 mortal wound on the target in addition to any normal damage."
+      },
+      {
+        "name": "Dual Axes",
+        "flavorText": "Bullgors unleash a whirlwind of fury when armed with an axe in each hand.",
+        "description": "You can re-roll hit rolls of 1 for attacks made with a pair of Bullgor Axes."
+      },
+      {
+        "name": "Bullshields",
+        "flavorText": "Towering wooden shields protect bullgors from attacks.",
+        "description": "Add 1 to save rolls for attacks made with melee weapons that target a unit with Bullshields."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "BEASTS",
+      "CHAOS",
+      "WARHERD",
+      "BULLGORS"
+    ],
+    "pitchedBattleNotes": [
+      "Battleline if general is a <a href=\"/aos3/factions/beasts-of-chaos/warscrolls.html#Doombull\">Doombull</a>"
+    ],
+    "baseSize": "50mm"
+  },
+  {
+    "name": "Centigors",
+    "points": "85",
+    "unitSize": "5",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "With man-like torsos and the bounding lower bodies of four-legged beasts, Centigors charge towards their foes in a drunken rage, braying loudly as they plunge their spears into the trembling ranks before them.",
+    "description": "A unit of Centigors has any number of models, each armed with a Centigor Spear, Beastbuckler and Clawed Forelimbs.",
+    "wounds": "2",
+    "move": "14\"",
+    "save": "5+",
+    "bravery": "5",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Centigor Spear",
+        "range": "2\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Clawed Forelimbs",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "5+",
+        "toWound": "5+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "GOREHOOF",
+        "description": "The leader of this unit is a Gorehoof. Add 1 to the Attacks characteristic of a Gorehoof ’s Centigor Spear."
+      },
+      {
+        "name": "BRAYHORN",
+        "description": "1 in every 5 models in this unit can have a Brayhorn. A unit that includes any Brayhorns can run and still charge later in the same turn."
+      },
+      {
+        "name": "BANNER BEARER",
+        "description": "1 in every 5 models in this unit can be a Banner Bearer. A unit that includes any Banner Bearers can move an extra 1\" when it runs or piles in."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Beastbucklers",
+        "flavorText": "These crude shields are used to deflect the enemies’ blows in close quarters.",
+        "description": "Add 1 to save rolls for attacks made with melee weapons that target a unit with Beastbucklers."
+      },
+      {
+        "name": "Charging Spear",
+        "flavorText": "Savage mockeries of conventional cavalry, Centigors are most deadly on the charge.",
+        "description": "You can re-roll failed wound rolls for attacks made with this unit’s Centigor Spears if it made a charge move in the same turn."
+      },
+      {
+        "name": "Drunken Revelry",
+        "flavorText": "Centigors drink with reckless abandon, even in the heat of battle.",
+        "description": "At the start of your hero phase, you can say that this unit is drinking wildly. If you do so, until your next hero phase, add 1 to hit rolls for attacks made by this unit and attacks that target this unit."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "BEASTS",
+      "CHAOS",
+      "BRAYHERD",
+      "CENTIGORS"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "60 x 35mm"
+  },
+  {
+    "name": "Chaos Spawn",
+    "points": "55",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Chaos Spawn are impossibly warped creatures, writhing wretches whose bodies are so twisted by mutation that they shamble mindlessly towards their enemies before lashing out with their many repulsive and lethal appendages.",
+    "description": "A unit of Chaos Spawn has any number of models, each armed with Freakish Mutations.",
+    "wounds": "5",
+    "move": "2D6\"",
+    "save": "5+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Freakish Mutations",
+        "range": "1\"",
+        "attacks": "2D6",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Curse of the Dark Gods",
+        "flavorText": "Chaos Spawn often bear the mark of their creator.",
+        "description": "You can choose one of the following keywords for this unit the first time it is set up: KHORNE, NURGLE, SLAANESH or TZEENTCH."
+      },
+      {
+        "name": "Writhing Tentacles",
+        "flavorText": "The bodies of these creatures are ever in flux, making them wildly unpredictable.",
+        "description": "If you roll a double when determining the number of attacks made by a CHAOS SPAWN’s Freakish Mutations, add 1 to hit and wound rolls for attacks made by that model until the end of the phase."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "BEASTS",
+      "CHAOS",
+      "MORTAL",
+      "SLAVES",
+      "DARKNESS",
+      "CHAOS",
+      "SPAWN"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "50mm"
+  },
+  {
+    "name": "Chaos Warhounds",
+    "points": "80",
+    "unitSize": "10",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Chaos Warhounds possess the ferocity and stature of wolves, while also bearing the stigma of Chaos mutation. They race towards their prey in slavering packs, their fanged maws snapping in anticipation of the kill.",
+    "description": "A unit of Chaos Warhounds has any number of models, each armed with Slavering Jaws.",
+    "wounds": "1",
+    "move": "10\"",
+    "save": "6+",
+    "bravery": "4",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Slavering Jaws",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Outrunners of Chaos",
+        "flavorText": "Packs of Chaos Warhounds close upon their prey with unnatural quickness.",
+        "description": "In your movement phase, if you declare that this unit will run, do not make a run roll. Instead, add 6\" to the Move characteristic of all models in this unit for that phase."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "BEASTS",
+      "CHAOS",
+      "MONSTERS",
+      "CHAOS",
+      "CHAOS",
+      "WARHOUNDS"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "60 x 35mm"
+  },
+  {
+    "name": "Cockatrice",
+    "points": "110",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Cockatrices flap and slither towards the enemy in a flurry of motion. Their piercing glare turns victims to stone, while their savage talons shred flesh and their cruel beaks snap clean through armour and bone.",
+    "description": "A Cockatrice is a single model armed with a Petrifying Gaze, Vicious Beak and Sword-like Talons.",
+    "wounds": "8",
+    "move": "12\"",
+    "save": "6+",
+    "bravery": "5",
+    "missleWeapons": [
+      {
+        "name": "Petrifying Gaze",
+        "range": "10\"",
+        "attacks": "See below",
+        "toHit": "",
+        "toWound": "",
+        "rend": "",
+        "damage": ""
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Vicious Beak",
+        "range": "2\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      },
+      {
+        "name": "Sword-like Talons",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "FLY",
+        "description": "A Cockatrice can fly."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Petrifying Gaze",
+        "flavorText": "The gaze of a Cockatrice can transfix foes where they stand, turning them to stone.",
+        "description": "Do not use the attack sequence for an attack made with a Cockatrice’s Petrifying Gaze. Instead, roll a dice. On a 4+ the target suffers D6 mortal wounds."
+      },
+      {
+        "name": "Maddened Ferocity",
+        "flavorText": "A Cockatrice is not a bold creature, but when it picks its moment to strike, it falls upon its prey in a berserk frenzy.",
+        "description": "A Cockatrice has an Attacks characteristic of 8 instead of 4 with its Sword-like Talons if it made a charge move in the same turn."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "BEASTS",
+      "CHAOS",
+      "MONSTERS",
+      "CHAOS",
+      "MONSTER",
+      "COCKATRICE"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "60mm"
+  },
+  {
+    "name": "Dragon Ogors",
+    "points": "145",
+    "unitSize": "3",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Brutal fusions of ogroid brute and draconic fiend, Dragon Ogors are both indomitable and deadly. They stampede to war to the sound of thunder and the flash of lightning, obliterating their enemies in a tempestuous rage.",
+    "description": "A unit of Dragon Ogors has any number of models, each armed with Raking Foreclaws. In addition, each model is armed with one of the following weapon options: Paired Ancient Weapons; Draconic War-glaive; or Draconic Crusher.",
+    "wounds": "5",
+    "move": "8\"",
+    "save": "4+",
+    "bravery": "6",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Paired Ancient Weapons",
+        "range": "1\"",
+        "attacks": "6",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Draconic War-glaive",
+        "range": "2\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Draconic Crusher",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "2"
+      },
+      {
+        "name": "Raking Foreclaws",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "ELITE",
+        "description": "Models in this unit can issue commands to their own unit."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Storm Rage",
+        "flavorText": "Akin to a storm front, Dragon Ogors display unmatched ferocity on the charge.",
+        "description": "You can re-roll hit rolls of 1 for this unit while it is wholly within 12\" of a friendly DRAGON OGOR SHAGGOTH."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "BEASTS",
+      "CHAOS",
+      "THUNDERSCORN",
+      "DRAGON",
+      "OGORS"
+    ],
+    "pitchedBattleNotes": [
+      "Battleline if general is a <a href=\"/aos3/factions/beasts-of-chaos/warscrolls.html#Dragon-Ogor-Shaggoth\">Dragon Ogor Shaggoth</a>"
+    ],
+    "baseSize": "90 x 52mm"
+  },
+  {
+    "name": "Razorgors",
+    "points": "55",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Wild swine warped to monstrous size, Razorgors follow the stampedes of the beastherds into battle, where they gouge and gore their way through the enemy lines, slowing only to gobble up the mangled remains of their victims.",
+    "description": "A unit of Razorgors has any number of models, each armed with Large Tusks and Hooves.",
+    "wounds": "4",
+    "move": "10\"",
+    "save": "5+",
+    "bravery": "6",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Large Tusks and Hooves",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Uncontrollable Stampede",
+        "flavorText": "Barrelling forwards in a reeking mass of swollen muscle and jutting spines, Razorgors smash their prey asunder with the impact of their charge.",
+        "description": "You can re-roll charge rolls for this unit. In addition, if this unit made a charge move in the same turn, an unmodified hit roll of 6 for an attack made by this unit inflicts 1 mortal wound on the target in addition to any normal damage."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "BEASTS",
+      "CHAOS",
+      "MONSTERS",
+      "CHAOS",
+      "RAZORGORS"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "75 x 42mm"
+  },
+  {
+    "name": "Tuskgor Chariots",
+    "points": "65",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Crafted from scrounged lumber and twisted iron, Tuskgor Chariots race across the battlefield to outflank the foe or crash into their forward ranks. These ramshackle vehicles are driven by reckless beastmen who are eager to be first into the fray.",
+    "description": "A unit of Tuskgor Chariots has any number of models. Each Tuskgor Chariot has a crew of 1 Bestigor and 1 Gor. The Bestigor is armed with a Despoiler Axe, and the Gor is armed with a Gnarled Spear.",
+    "wounds": "6",
+    "move": "10\"",
+    "save": "4+",
+    "bravery": "6",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Despoiler Axe",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Gnarled Spear",
+        "range": "2\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Tusks and Hooves",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "MOUNT",
+        "description": "This unit’s Tuskgors attack with their Tusks and Hooves."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Tuskgor Charge",
+        "flavorText": "Spurred on by merciless whipping, Tuskgor Chariots barrel into their foes with devastating force.",
+        "description": "You can re-roll charge rolls for this unit. In addition, add 1 to the Attacks characteristic of this unit’s melee weapons in a turn in which it made a charge move."
+      },
+      {
+        "name": "Despoilers",
+        "flavorText": "For all their contempt for order and civilisation, Bestigors reserve the greatest part of their hatred for those who champion and defend such values.",
+        "description": "Add 1 to hit rolls for attacks made with a Despoiler Axe that target enemy units with 10 or more models. In addition, you can re-roll hit rolls of 1 for attacks made with a Despoiler Axe that target ORDER units."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "GOR",
+      "BEASTS",
+      "CHAOS",
+      "BRAYHERD",
+      "TUSKGOR",
+      "CHARIOTS"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "105 x 70mm"
+  },
+  {
+    "name": "Ungor Raiders",
+    "points": "80",
+    "unitSize": "10",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "What Ungor Raiders lack in strength they make up for in cruel cunning. They are the most man-like of all Beasts of Chaos, and with rudimentary bows they rain deadly hails of arrows down upon their enemies.",
+    "description": "A unit of Ungors has any number of models, each armed with a Raider Bow and Jagged Shank.",
+    "wounds": "1",
+    "move": "6\"",
+    "save": "6+",
+    "bravery": "4",
+    "missleWeapons": [
+      {
+        "name": "Raider Bow",
+        "range": "18\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Jagged Shank",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "5+",
+        "toWound": "5+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "HALFHORN",
+        "description": "The leader of this unit is a Halfhorn. Add 1 to hit rolls for attacks made with a Halfhorn’s Raider Bow."
+      },
+      {
+        "name": "BRAYHORN",
+        "description": "1 in every 10 models in this unit can have a Brayhorn. A unit that includes any Brayhorns can run and still shoot later in the same turn."
+      },
+      {
+        "name": "BANNER BEARER",
+        "description": "1 in every 10 models in this unit can be a Banner Bearer. A unit that includes any Banner Bearers can move an extra 1\" when it runs or piles in."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Vile Invaders",
+        "flavorText": "Ungor Raiders tend to range ahead of the beastherd, killing the enemy’s sentries and positioning themselves for sudden ambushes.",
+        "description": "After armies are set up, but before the first battle round begins, this unit can move up to 6\"."
+      },
+      {
+        "name": "Baying Anger",
+        "flavorText": "When assembled in larger herds, Ungor Raiders are capable of unleashing devastating volleys of arrows from their shortbows.",
+        "description": "Add 1 to wound rolls for shooting attacks made by this unit while it has 10 or more models."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "UNGOR",
+      "BEASTS",
+      "CHAOS",
+      "BRAYHERD",
+      "UNGOR",
+      "RAIDERS"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "25mm"
+  },
+  {
+    "name": "Grashrak s Despoilers",
+    "points": "150",
+    "unitSize": "5",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "This band of cruel-hearted raiders and brutal killers eagerly follows the Bray-Shaman Grashrak Fellhoof into battle, for he always guides them to a fine feast of slaughter, plunder and despoilment.",
+    "description": "Grashrak’s Despoilers is a unit that has 5 models. Draknar is armed with a Ripper Axe; Murghoth Half-horn and Korsh ‘the Sneak’ are each armed with a Shortspear; and Ushkor and Gnarl are each armed with a Shortbow and Flint Weapon.",
+    "wounds": "1",
+    "move": "6\"",
+    "save": "6+",
+    "bravery": "6",
+    "missleWeapons": [
+      {
+        "name": "Shortbow",
+        "range": "18\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Ripper Axe",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Shortspear",
+        "range": "2\"",
+        "attacks": "1",
+        "toHit": "5+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Flint Weapon",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "5+",
+        "toWound": "5+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Grashrak’s Savage Herd",
+        "flavorText": "Grashrak Fellhoof commands this band of bestial creatures through fear and cruelty.",
+        "description": "Roll a dice before you allocate a wound or mortal wound to a friendly GRASHRAK FELLHOOF while he is within 3\" of this unit. On a 4+, that wound or mortal wound is allocated to this unit instead of GRASHRAK FELLHOOF."
+      },
+      {
+        "name": "Violent Despoilers",
+        "flavorText": "Grashrak’s gor-kin leave a trail of wanton destruction in their wake, for they hate the trappings of civilisation with a bestial vehemence.",
+        "description": "Add 1 to hit rolls for attacks made by this unit while it is wholly within enemy territory."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "GOR",
+      "BEASTS",
+      "CHAOS",
+      "BRAYHERD",
+      "ALLHERD",
+      "GRASHRAK’S",
+      "DESPOILERS"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique. <a href=\"/aos3/factions/beasts-of-chaos/warscrolls.html#Grashrak-Fellhoof\">Grashrak Fellhoof</a> and Grashrak’s Despoilers must be taken as a set. Although taken as a set",
+      "each is a separate unit."
+    ]
+  },
+  {
+    "name": "Chaos Gargant",
+    "points": "160",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Behemoth"
+    ],
+    "flavorText": "Foul-tempered colossi that have become twisted by the warping energies of the wilds, Chaos Gargants lumber to war in a state of unthinking fury, bludgeoning and battering all before them.",
+    "description": "A Chaos Gargant is a single model armed with a Massive Club, Vicious ’Eadbutt and Mighty Kick.",
+    "wounds": "12",
+    "move": "✹",
+    "save": "5+",
+    "bravery": "6",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Massive Club",
+        "range": "3\"",
+        "attacks": "✹",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Vicious ’Eadbutt",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-3",
+        "damage": "✹"
+      },
+      {
+        "name": "Mighty Kick",
+        "range": "2\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-2",
+        "move": "8\"",
+        "massiveClub": "3D6",
+        "viciousEadbutt": "6"
+      },
+      {
+        "woundsSuffered": "3-4",
+        "move": "6\"",
+        "massiveClub": "2D6",
+        "viciousEadbutt": "D6"
+      },
+      {
+        "woundsSuffered": "5-7",
+        "move": "5\"",
+        "massiveClub": "2D6",
+        "viciousEadbutt": "D3"
+      },
+      {
+        "woundsSuffered": "8-9",
+        "move": "4\"",
+        "massiveClub": "D6",
+        "viciousEadbutt": "D3"
+      },
+      {}
+    ],
+    "abilities": [
+      {
+        "name": "Timber!",
+        "flavorText": "A dying gargant is indiscriminating in their choice of where – and on whom – their body falls.",
+        "description": "If this model is slain, before removing the model from the battlefield the players must roll off. The player who wins the roll-off picks a point on the battlefield 3\" from this model. Each unit within 2\" of that point suffers D3 mortal wounds. This model is then removed from the battlefield."
+      },
+      {
+        "name": "Stuff ’Em In Me Bag",
+        "flavorText": "Gargants are known to grab hapless warriors and stuff them screaming into their bags ‘for later’…",
+        "description": "After this model piles in, you can pick an enemy model within 3\" of this model and roll a dice. If the roll is equal to or greater than double that enemy model’s Wounds characteristic, it is slain."
+      },
+      {
+        "name": "Drunken Stagger",
+        "flavorText": "Often inebriated in battle, gargants can be just as much a hazard to their allies as their enemies.",
+        "description": "If a charge roll for this model is a double, this model cannot make a charge move that phase. In addition, the players must roll off. The player who wins the roll-off picks a point on the battlefield 3\" from this model. Each unit within 2\" of that point suffers D3 mortal wounds."
+      },
+      {
+        "name": "Whipped into a Frenzy",
+        "flavorText": "The leaders of a beastherd often intentionally wound gargants so as to send them into a berserk rage.",
+        "description": "At the start of the combat phase, if this model is within 3\" of any friendly BEASTS OF CHAOS HEROES, you can whip it into a frenzy. If you do so, this model suffers 1 mortal wound, but you can add 1 to the Attacks characteristic of this model’s melee weapons until the end of that phase."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "BEASTS",
+      "CHAOS",
+      "MONSTERS",
+      "CHAOS",
+      "GARGANT",
+      "MONSTER",
+      "CHAOS",
+      "GARGANT"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "90 x 52mm"
+  },
+  {
+    "name": "Chimera",
+    "points": "200",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Behemoth"
+    ],
+    "flavorText": "A Chimera is a terrifying mixture of bestial body parts bound together by raw Chaos energy. From on high they eye the battlefield with their three heads, searching for prey amongst the trembling enemies below.",
+    "description": "A Chimera is a single model armed with Fiery Breath, an Avian Head, a Draconic Head, a Leonine Head and Mauling Claws.",
+    "wounds": "12",
+    "move": "10\"",
+    "save": "5+",
+    "bravery": "6",
+    "missleWeapons": [
+      {
+        "name": "Fiery Breath",
+        "range": "14\"",
+        "attacks": "1",
+        "toHit": "See below",
+        "toWound": "",
+        "rend": "",
+        "damage": ""
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Avian Head",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "✹",
+        "damage": "D3"
+      },
+      {
+        "name": "Draconic Head",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "2"
+      },
+      {
+        "name": "Leonine Head",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "✹"
+      },
+      {
+        "name": "Mauling Claws",
+        "range": "2\"",
+        "attacks": "6",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "FLY",
+        "description": "A Chimera can fly."
+      }
+    ],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-2",
+        "fieryBreath": "D6 mortal wounds",
+        "avianHead": "-3",
+        "leonineHead": "D6"
+      },
+      {
+        "woundsSuffered": "3-4",
+        "fieryBreath": "D3 mortal wounds",
+        "avianHead": "-2",
+        "leonineHead": "D3"
+      },
+      {
+        "woundsSuffered": "5-7",
+        "fieryBreath": "D3 mortal wounds",
+        "avianHead": "-2",
+        "leonineHead": "D3"
+      },
+      {
+        "woundsSuffered": "8-9",
+        "fieryBreath": "1 mortal wound",
+        "avianHead": "-1",
+        "leonineHead": "1"
+      },
+      {}
+    ],
+    "abilities": [
+      {
+        "name": "Draconic Head’s Fiery Breath",
+        "flavorText": "Whipping its draconic head back to inhale deeply, the Chimera unleashes a gout of flame at its foes.",
+        "description": "Do not use the attack sequence for an attack made with a Chimera’s Fiery Breath. Instead the target suffers the number of mortal wounds shown on the Damage table above."
+      },
+      {
+        "name": "Vicious Charge",
+        "flavorText": "Chimeras are single-minded in their need to close with their prey and rip it asunder.",
+        "description": "Add 2 to charge rolls for this model."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "BEASTS",
+      "CHAOS",
+      "MONSTERS",
+      "CHAOS",
+      "MONSTER",
+      "CHIMERA"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "120 x 92mm"
+  },
+  {
+    "name": "Cygor",
+    "points": "125",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Behemoth"
+    ],
+    "flavorText": "The cyclopean eye of a Cygor allows it to see the flows of magic that wend across the battlefield. As they tear their way through the ranks of the enemy, they feast upon spells as well as the sorcerous souls of those who cast them.",
+    "description": "A Cygor is a single model armed with Massive Horns and a Desecrated Boulder.",
+    "wounds": "14",
+    "move": "✹",
+    "save": "5+",
+    "bravery": "7",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Massive Horns",
+        "range": "2\"",
+        "attacks": "✹",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-3",
+        "move": "8\"",
+        "desecratedBoulder": "18\"",
+        "massiveHorns": "8"
+      },
+      {
+        "woundsSuffered": "4-6",
+        "move": "6\"",
+        "desecratedBoulder": "15\"",
+        "massiveHorns": "7"
+      },
+      {
+        "woundsSuffered": "7-9",
+        "move": "5\"",
+        "desecratedBoulder": "12\"",
+        "massiveHorns": "5"
+      },
+      {
+        "woundsSuffered": "10-12",
+        "move": "4\"",
+        "desecratedBoulder": "6\"",
+        "massiveHorns": "4"
+      },
+      {}
+    ],
+    "abilities": [
+      {
+        "name": "Soul-eater",
+        "flavorText": "Feeding off the swirling winds of magic, Cygors pose an incredible threat to spellcasters.",
+        "description": "This model can attempt to unbind 2 spells in the enemy hero phase in the same manner as a WIZARD. In addition, each time it unbinds a spell, the caster suffers 1 mortal wound and you can heal 1 wound allocated to this model."
+      },
+      {
+        "name": "Ghostsight",
+        "flavorText": "Cygors are blind to all except sorcery, which appear as motes of blazing light in perpetual darkness.",
+        "description": "You can re-roll failed hit rolls for attacks made by this model that target a WIZARD."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "BULLGOR",
+      "BEASTS",
+      "CHAOS",
+      "WARHERD",
+      "MONSTER",
+      "CYGOR"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "120 x 92mm"
+  },
+  {
+    "name": "Ghorgon",
+    "points": "155",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Behemoth"
+    ],
+    "flavorText": "Ghorgons are the largest Warherd creatures, warped to massive proportions by their rapacious bloodgreed. These colossal beasts slash at their foes with bladed limbs, reaching through carnage to grab those enemies whose flesh is most delectable.",
+    "description": "A Ghorgon is a single model armed with Butchering Blades and a Huge Slavering Maw.",
+    "wounds": "14",
+    "move": "✹",
+    "save": "5+",
+    "bravery": "7",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Butchering Blades",
+        "range": "2\"",
+        "attacks": "✹",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "3"
+      },
+      {
+        "name": "Huge Slavering Maw",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "✹",
+        "rend": "-1",
+        "damage": "D6"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-3",
+        "move": "8\"",
+        "butcheringBlades": "5",
+        "hugeSlaveringMaw": "2+"
+      },
+      {
+        "woundsSuffered": "4-6",
+        "move": "6\"",
+        "butcheringBlades": "4",
+        "hugeSlaveringMaw": "3+"
+      },
+      {
+        "woundsSuffered": "7-9",
+        "move": "5\"",
+        "butcheringBlades": "3",
+        "hugeSlaveringMaw": "3+"
+      },
+      {
+        "woundsSuffered": "10-12",
+        "move": "4\"",
+        "butcheringBlades": "2",
+        "hugeSlaveringMaw": "4+"
+      },
+      {}
+    ],
+    "abilities": [
+      {
+        "name": "Ravenous Bloodgreed",
+        "flavorText": "The bloodgreed of Ghorgons exceeds even that which afflicts the rest of the Warherd, and drives them to terrifying violent acts of savagery.",
+        "description": "Each unmodified wound roll of 6 for attacks made by this model inflicts D3 mortal wounds on the target in addition to any normal damage."
+      },
+      {
+        "name": "Swallow Whole",
+        "flavorText": "The huge, cavernous maw of a Ghorgon can swallow a man whole – a grisly fate for any warrior.",
+        "description": "Each time this model attacks, you can pick an enemy model within 1\" of this model after all of this model’s attacks have been resolved and roll a dice. If the roll is equal to or greater than that enemy model’s Wounds characteristic, it is slain."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "BULLGOR",
+      "BEASTS",
+      "CHAOS",
+      "WARHERD",
+      "MONSTER",
+      "GHORGON"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "120 x 92mm"
+  },
+  {
+    "name": "Jabberslythe",
+    "points": "150",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Behemoth"
+    ],
+    "flavorText": "Grotesque conglomerations of monstrous body parts, Jabberslythes lurch forth from their swampy lairs to hunt. Their anarchic form drives those who look upon them to madness, while their corrosive blood melts those foolish enough to attack them.",
+    "description": "A Jabberslythe is a single model armed with a Slythey Tongue, Vorpal Claws and a Spiked Tail.",
+    "wounds": "10",
+    "move": "12\"",
+    "save": "4+",
+    "bravery": "6",
+    "missleWeapons": [
+      {
+        "name": "Slythey Tongue",
+        "range": "9\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Vorpal Claws",
+        "range": "1\"",
+        "attacks": "6",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "1"
+      },
+      {
+        "name": "Spiked Tail",
+        "range": "3\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "2+",
+        "rend": "-2",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "FLY",
+        "description": "Jabberslythes can fly."
+      },
+      {
+        "name": "Spurting Bile Blood",
+        "description": "Jabberslythes are filled with deadly acidic blood that can cause horrific burns to those who dare attack them.Roll a dice each time a wound inflicted by a melee weapon is allocated to this model and not negated. On a 4+, the attacking unit suffers 1 mortal wound."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "BEASTS",
+      "CHAOS",
+      "MONSTERS",
+      "CHAOS",
+      "MONSTER",
+      "JABBERSLYTHE"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "120 x 92mm"
+  },
+  {
+    "name": "Herdstone",
+    "points": "0",
+    "unitSize": "",
+    "battlefieldRoles": [
+      "Faction Terrain Feature"
+    ],
+    "flavorText": "Wrought from the Chaosinfused substance of the realms, Herdstones are the sites at which the Beasts of Chaos carry out their savage rituals. As the Greatfrays stampede further into civilised territories, they continue to erect Herdstones, from which the corruptive taint of the anarchic wilds bleeds freely into the land.",
+    "description": "",
+    "wounds": "",
+    "move": "",
+    "save": "",
+    "bravery": "",
+    "missleWeapons": [],
+    "meleeWeapons": [],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [],
+    "pitchedBattleNotes": []
+  },
+  {
+    "name": "Doomblast Dirgehorn",
+    "points": "30",
+    "unitSize": "",
+    "battlefieldRoles": [
+      "Endless Spell"
+    ],
+    "flavorText": "Wrought from coalesced Chaos energies, the Doomblast Dirgehorn emits an unending dolorous blast that drowns out all thought. The howling cacophony strips the minds of those in earshot of their sanity, reducing skilled warriors to fumbling fools who lash out in a state of animal stupor.",
+    "description": "",
+    "wounds": "",
+    "move": "",
+    "save": "",
+    "bravery": "",
+    "missleWeapons": [],
+    "meleeWeapons": [],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [],
+    "pitchedBattleNotes": [],
+    "baseSize": "40mm"
+  },
+  {
+    "name": "Ravening Direflock",
+    "points": "30",
+    "unitSize": "",
+    "battlefieldRoles": [
+      "Endless Spell"
+    ],
+    "flavorText": "The spectral crows of a Ravening Direflock are harbingers of doom, filling the minds of those who hear their piercing caws with an inescapable sense of dread. They circle over the battlefield, harrying those who try to flee the carnage. Left unattended, they fly off to roost in the warping wilds, with some even nesting in the crenellations of the Varanspire.",
+    "description": "",
+    "wounds": "",
+    "move": "",
+    "save": "",
+    "bravery": "",
+    "missleWeapons": [],
+    "meleeWeapons": [],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [],
+    "pitchedBattleNotes": [],
+    "baseSize": "40mm"
+  },
+  {
+    "name": "Wildfire Taurus",
+    "points": "70",
+    "unitSize": "",
+    "battlefieldRoles": [
+      "Endless Spell"
+    ],
+    "flavorText": "Wildfire Tauruses are summoned from the fires of the largest Herdstones. They take the shape of gargantuan flaming bulls, stampeding through massed ranks of armoured warriors without breaking stride, setting flesh ablaze and flattening those not consumed in the conflagration.",
+    "description": "",
+    "wounds": "",
+    "move": "",
+    "save": "",
+    "bravery": "",
+    "missleWeapons": [],
+    "meleeWeapons": [],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [],
+    "pitchedBattleNotes": [],
+    "baseSize": "105 x 70mm"
+  },
+  {
+    "name": "The Butcher herd",
+    "points": "",
+    "unitSize": "",
+    "battlefieldRoles": [],
+    "flavorText": "Even other beastmen find Ghorraghan Khai unsettling. This scarred Bray-Shaman has travelled from Ghyran to the savage heartlands of Ghur in service of the mysterious Shadowgave. With him come the bloodthirsty tauroid warriors of his Butcher-herd - crazed Bullgors who obey Khai’s every grunted command, and are empowered by the ruinous magic locked into the shaman’s gnarled staff.",
+    "description": "",
+    "wounds": "",
+    "move": "",
+    "save": "",
+    "bravery": "",
+    "missleWeapons": [],
+    "meleeWeapons": [],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [],
+    "pitchedBattleNotes": []
+  }
+]

@@ -1,0 +1,1381 @@
+[
+  {
+    "name": "Alarielle the Everqueen",
+    "points": "840",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader",
+      "Behemoth"
+    ],
+    "flavorText": "The ground shudders beneath the tread other gargantuan Wardroth Beetle as Alarielle leads the Sylvaneth charge. Wherever the goddess’s gaze falls, her foes cower, for there is no mercy in the Everqueen’s heart towards those who despoil her realm.",
+    "description": "",
+    "wounds": "16",
+    "move": "✹",
+    "save": "3+",
+    "bravery": "10",
+    "missleWeapons": [
+      {
+        "name": "Spear of Kurnoth",
+        "range": "24\"",
+        "attacks": "1",
+        "toHit": "2+",
+        "toWound": "2+",
+        "rend": "-2",
+        "damage": "✹"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Talon of the Dwindling",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Great Antlers",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "2+",
+        "rend": "-2",
+        "damage": "✹"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-6",
+        "move": "16\"",
+        "spearOfKurnoth": "6",
+        "greatAntlers": "5"
+      },
+      {
+        "woundsSuffered": "7-9",
+        "move": "15\"",
+        "spearOfKurnoth": "5",
+        "greatAntlers": "4"
+      },
+      {
+        "woundsSuffered": "10-12",
+        "move": "14\"",
+        "spearOfKurnoth": "4",
+        "greatAntlers": "3"
+      },
+      {}
+    ],
+    "abilities": [],
+    "keywords": [
+      "ORDER",
+      "SYLVANETH",
+      "MONSTER",
+      "HERO",
+      "WIZARD",
+      "TOTEM",
+      "ALARIELLE",
+      "EVERQUEEN"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ],
+    "baseSize": "160mm"
+  },
+  {
+    "name": "Spirit of Durthu",
+    "points": "370",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader",
+      "Behemoth"
+    ],
+    "flavorText": "Spirit of Durthu is a walking pillar of oaken barkflesh and fiery, righteous anger. Some amongst them form the personal guard of the Everqueen; others walk abroad to stamp her enemies into the mulch or cut down her foes with scything sweeps of their guardian swords.",
+    "description": "",
+    "wounds": "14",
+    "move": "5\"",
+    "save": "3+",
+    "bravery": "9",
+    "missleWeapons": [
+      {
+        "name": "Verdant Blast",
+        "range": "15\"",
+        "attacks": "✹",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Guardian Sword",
+        "range": "3\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "✹"
+      },
+      {
+        "name": "Massive Impaling Talons",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "2+",
+        "toWound": "✹",
+        "rend": "-2",
+        "damage": "3"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-6",
+        "verdantBlast": "6",
+        "guardianSword": "6",
+        "massiveImpalingTalons": "2+"
+      },
+      {
+        "woundsSuffered": "7-8",
+        "verdantBlast": "5",
+        "guardianSword": "D6",
+        "massiveImpalingTalons": "3+"
+      },
+      {
+        "woundsSuffered": "9-10",
+        "verdantBlast": "4",
+        "guardianSword": "D3",
+        "massiveImpalingTalons": "4+"
+      },
+      {}
+    ],
+    "abilities": [],
+    "keywords": [
+      "ORDER",
+      "SYLVANETH",
+      "FREE",
+      "SPIRITS",
+      "MONSTER",
+      "HERO",
+      "SPIRIT",
+      "DURTHU"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "105 x 70mm"
+  },
+  {
+    "name": "Treelord Ancient",
+    "points": "360",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader",
+      "Behemoth"
+    ],
+    "flavorText": "The fury of the forest is roused by the magics of the Treelord Ancients. Amongst the eldest living creatures in the realms, these towering tree spirits are not only fearsome warriors, but also potent spell-wielders who can loose the wrath of the wyldwoods.",
+    "description": "",
+    "wounds": "14",
+    "move": "5\"",
+    "save": "3+",
+    "bravery": "9",
+    "missleWeapons": [
+      {
+        "name": "Doom Tendril Staff",
+        "range": "18\"",
+        "attacks": "2",
+        "toHit": "✹",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "3"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Sweeping Blows",
+        "range": "3\"",
+        "attacks": "✹",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      },
+      {
+        "name": "Massive Impaling Talons",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "2+",
+        "toWound": "✹",
+        "rend": "-2",
+        "damage": "3"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-6",
+        "doomTendrilStaff": "2+",
+        "sweepingBlows": "5",
+        "massiveImpalingTalons": "2+"
+      },
+      {
+        "woundsSuffered": "7-8",
+        "doomTendrilStaff": "3+",
+        "sweepingBlows": "4",
+        "massiveImpalingTalons": "3+"
+      },
+      {
+        "woundsSuffered": "9-10",
+        "doomTendrilStaff": "4+",
+        "sweepingBlows": "3",
+        "massiveImpalingTalons": "4+"
+      },
+      {}
+    ],
+    "abilities": [],
+    "keywords": [
+      "ORDER",
+      "SYLVANETH",
+      "NOBLE",
+      "SPIRITS",
+      "MONSTER",
+      "HERO",
+      "WIZARD",
+      "TREELORD",
+      "ANCIENT"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "105 x 70mm"
+  },
+  {
+    "name": "Arch Revenant",
+    "points": "120",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Arch-Revenants soar high over the battlefield, borne upon the wings of a zephyrspite. Swooping down to strike where the foe is most vulnerable, their regal presence inspires nearby Sylvaneth, filling them with courage and warlike aggression.",
+    "description": "",
+    "wounds": "6",
+    "move": "12\"",
+    "save": "4+",
+    "bravery": "8",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Revenant’s Glaive",
+        "range": "2\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "1"
+      },
+      {
+        "name": "Tail Pincers",
+        "range": "1\"",
+        "attacks": "D3",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "ORDER",
+      "SYLVANETH",
+      "FREE",
+      "SPIRITS",
+      "HERO",
+      "ARCH-REVENANT"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "40mm"
+  },
+  {
+    "name": "Branchwych",
+    "points": "130",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Warrior matriarchs of the Households, the Branchwyches lead their kin to battle with blasts of sorcery and hissing swings of their scythes. These same weapons are used when the fighting is done to harvest the lamentiri from the Sylvaneth’s fallen.",
+    "description": "",
+    "wounds": "5",
+    "move": "7\"",
+    "save": "5+",
+    "bravery": "7",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Greenwood Scythe",
+        "range": "2\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Snapping Mandibles",
+        "range": "1\"",
+        "attacks": "D3",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "ORDER",
+      "SYLVANETH",
+      "NOBLE",
+      "SPIRITS",
+      "HERO",
+      "WIZARD",
+      "BRANCHWYCH"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Drycha Hamadreth",
+    "points": "335",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Drycha Hamadreth keens with hatred as she tears through her enemies like a raging storm. The Queen of the Outcasts fights a never-ending crusade to eradicate those she sees as a threat to her race, leaving a trail of corpses of both friend and foe in her wake.",
+    "description": "",
+    "wounds": "10",
+    "move": "9\"",
+    "save": "3+",
+    "bravery": "8",
+    "missleWeapons": [
+      {
+        "name": "Colony of Flitterfuries",
+        "range": "12\"",
+        "attacks": "10",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Slashing Talons",
+        "range": "2\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "2"
+      },
+      {
+        "name": "Swarm of Squirmlings",
+        "range": "2\"",
+        "attacks": "10",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "ORDER",
+      "SYLVANETH",
+      "OUTCASTS",
+      "MONSTER",
+      "HERO",
+      "WIZARD",
+      "DRYCHA",
+      "HAMADRETH"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ],
+    "baseSize": "105 x 70mm"
+  },
+  {
+    "name": "The Lady of Vines",
+    "points": "325",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "The Lady of Vines is literally the hand of Alarielle, cut from the goddess’s wrist and then grown into a towering war leader. Her lashing whip-limbs and spear, Kurnotheal’s Wrath, have slain thousands of the Sylvaneth’s foes.",
+    "description": "",
+    "wounds": "10",
+    "move": "8\"",
+    "save": "3+",
+    "bravery": "10",
+    "missleWeapons": [
+      {
+        "name": "Kurnotheal’s Wrath",
+        "range": "18\"",
+        "attacks": "1",
+        "toHit": "2+",
+        "toWound": "2+",
+        "rend": "-1",
+        "damage": "D6"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Kurnotheal’s Wrath",
+        "range": "3\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      },
+      {
+        "name": "Lashing Vines",
+        "range": "3\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "ORDER",
+      "SYLVANETH",
+      "FOREST",
+      "FOLK",
+      "HERO",
+      "WIZARD",
+      "TOTEM",
+      "THE",
+      "LADY",
+      "VINES"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ],
+    "baseSize": "80mm"
+  },
+  {
+    "name": "Warsong Revenant",
+    "points": "305",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "The Warsong Revenants are few in number, but their potent spirit-song causes the lands themselves to come alive. Their odd, skirling music is a balm to the Sylvaneth and a deadly bane to their foes.",
+    "description": "",
+    "wounds": "7",
+    "move": "8\"",
+    "save": "5+",
+    "bravery": "7",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Spearing Vines",
+        "range": "3\"",
+        "attacks": "5",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      },
+      {
+        "name": "Spirit Falchion",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "ORDER",
+      "SYLVANETH",
+      "HERO",
+      "WIZARD",
+      "WARSONG",
+      "REVENANT"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "105 x 70mm"
+  },
+  {
+    "name": "Ylthari",
+    "points": "180",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "The Thornwych Ylthari tirelessly seeks those soulpods that have been claimed by Nagash, and by channelling rampant life magic she rids the dead places of those who would serve the Great Necromancer.",
+    "description": "",
+    "wounds": "5",
+    "move": "5\"",
+    "save": "5+",
+    "bravery": "7",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Briar Staff",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      },
+      {
+        "name": "Spiteful Thorns",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Snapping Mandibles",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "ORDER",
+      "SYLVANETH",
+      "NOBLE",
+      "SPIRITS",
+      "OAKENBROW",
+      "HERO",
+      "WIZARD",
+      "THORNWYCH",
+      "YLTHARI"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique. Ylthari and <a href=\"/aos3/factions/sylvaneth/warscrolls.html#Ylthari-s-Guardians\">Ylthari’s Guardians</a> units must be taken as a set. Although taken as a set",
+      "each is a separate unit."
+    ]
+  },
+  {
+    "name": "Qulathis the Exile",
+    "points": "100",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Qulathis seeks vengeance upon the vampire Radukar and his Kosargi, who slaughtered her Kurnothi kin. She now lives in exile from her clan, for to aid her hunt she fashioned eldritch arrows from the sacred Oak of Ages Past with which to hunt her quarry.",
+    "description": "Qulathis the Exile is a named character that is a single model. She is armed with Winter’s Call and an Aelven Blade.",
+    "wounds": "5",
+    "move": "6\"",
+    "save": "5+",
+    "bravery": "7",
+    "missleWeapons": [
+      {
+        "name": "Winter’s Call",
+        "range": "24\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Aelven Blade",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Strike Unseen",
+        "flavorText": "Like all Kurnothi, Qulathis is deft at hunting from unseen vantage points.",
+        "description": "The cover modifier adds 2 to save rolls for attacks made with missile weapons that target this model, instead of 1."
+      },
+      {
+        "name": "Oaken Arrows",
+        "flavorText": "Fashioned from a splinter of the Oak of Ages Past, the arrows Qulathis uses strike with deadly precision.",
+        "description": "If the unmodified hit roll for an attack made with Winter’s Call is 6, that attack inflicts 1 mortal wound on the target in addition to any normal damage."
+      },
+      {
+        "name": "Guardian of the Enga’la Weald",
+        "flavorText": "Qulathis hails from the Enga’la Weald, which was ravaged by the vampire Radukar.",
+        "description": "ENGA’LA WEALD is a Glade keyword (this means that this model cannot gain another Glade keyword if it is included in a Sylvaneth army - see the Glades battle trait)."
+      }
+    ],
+    "keywords": [
+      "ORDER",
+      "SYLVANETH",
+      "ENGA’LA",
+      "WEALD",
+      "HERO",
+      "QULATHIS",
+      "EXILE"
+    ],
+    "pitchedBattleNotes": [
+      "Unique"
+    ]
+  },
+  {
+    "name": "Dryads",
+    "points": "100",
+    "unitSize": "10",
+    "battlefieldRoles": [
+      "Battleline"
+    ],
+    "flavorText": "Crooning a song of slaughter, Dryads stride from the deepwoods to fall upon those who would defile the Sylvaneth’s soulpod groves. With vicious talons, these forest spirits stab and strangle, dancing lithely between their enemies even as they tear them apart.",
+    "description": "",
+    "wounds": "1",
+    "move": "7\"",
+    "save": "5+",
+    "bravery": "6",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Wracking Talons",
+        "range": "2\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "ORDER",
+      "SYLVANETH",
+      "FOREST",
+      "FOLK",
+      "DRYADS"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Tree Revenants",
+    "points": "110",
+    "unitSize": "5",
+    "battlefieldRoles": [
+      "Battleline"
+    ],
+    "flavorText": "The Tree-Revenants move with flowing grace, flickering along the spirit paths to carve their way through the enemy’s ranks. Their highly ritualised way of war lends them a lethal speed and skill that few enemies can stand against.",
+    "description": "",
+    "wounds": "2",
+    "move": "5\"",
+    "save": "5+",
+    "bravery": "6",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Enchanted Blade",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Protector Glaive",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "ORDER",
+      "SYLVANETH",
+      "NOBLE",
+      "SPIRITS",
+      "TREE-REVENANTS"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Gossamid Archers",
+    "points": "220",
+    "unitSize": "5",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Gossamid Archers are afforded the power of flight by the zephyrwing spites that clasp their torsos. A gruesome fate awaits any struck by the shafts of these skirmishers, for the arrowheads contain voracious grubs that devour the target from within.",
+    "description": "",
+    "wounds": "2",
+    "move": "12\"",
+    "save": "5+",
+    "bravery": "6",
+    "missleWeapons": [
+      {
+        "name": "Gossamid Bow",
+        "range": "12\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Cruel Talons",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "ORDER",
+      "SYLVANETH",
+      "FREE",
+      "SPIRITS",
+      "GOSSAMID",
+      "ARCHERS"
+    ],
+    "pitchedBattleNotes": []
+  },
+  {
+    "name": "Kurnoth Hunters with Kurnoth Greatbows",
+    "points": "230",
+    "unitSize": "3",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Giants amongst the forest kindred, each Kurnoth Hunter is an expert archer with a greatbow the size of an artillery piece. They are relentless in pursuit of their quarry, able to stalk their prey across entire nations without tiring.",
+    "description": "",
+    "wounds": "5",
+    "move": "5\"",
+    "save": "3+",
+    "bravery": "7",
+    "missleWeapons": [
+      {
+        "name": "Kurnoth Greatbow",
+        "range": "30\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Vicious Claws",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "ORDER",
+      "SYLVANETH",
+      "FREE",
+      "SPIRITS",
+      "KURNOTH",
+      "HUNTERS"
+    ],
+    "pitchedBattleNotes": [
+      "Battleline in a <a href=\"/aos3/factions/sylvaneth/#Heartwood\">Heartwood</a> army"
+    ],
+    "baseSize": "50mm"
+  },
+  {
+    "name": "Kurnoth Hunters with Kurnoth Greatswords",
+    "points": "250",
+    "unitSize": "3",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Many Kurnoth Hunters who favour the fury of close combat choose to wield immense greatswords, two-handed weapons that can cleave through a Magmadroth’s scaly hide in a single blow.",
+    "description": "",
+    "wounds": "5",
+    "move": "5\"",
+    "save": "3+",
+    "bravery": "7",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Kurnoth Greatsword",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "ORDER",
+      "SYLVANETH",
+      "FREE",
+      "SPIRITS",
+      "KURNOTH",
+      "HUNTERS"
+    ],
+    "pitchedBattleNotes": [
+      "Battleline in a <a href=\"/aos3/factions/sylvaneth/#Heartwood\">Heartwood</a> army"
+    ],
+    "baseSize": "50mm"
+  },
+  {
+    "name": "Kurnoth Hunters with Kurnoth Scythes",
+    "points": "250",
+    "unitSize": "3",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Striding forward with calm and implacable purpose, Kurnoth Hunters armed with scythes carve bloody furrows through the enemy ranks, sending heads and limbs flying like scattered corn.",
+    "description": "",
+    "wounds": "5",
+    "move": "5\"",
+    "save": "3+",
+    "bravery": "7",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Kurnoth Scythe",
+        "range": "2\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-3",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "ORDER",
+      "SYLVANETH",
+      "FREE",
+      "SPIRITS",
+      "KURNOTH",
+      "HUNTERS"
+    ],
+    "pitchedBattleNotes": [
+      "Battleline in a <a href=\"/aos3/factions/sylvaneth/#Heartwood\">Heartwood</a> army"
+    ],
+    "baseSize": "50mm"
+  },
+  {
+    "name": "Revenant Seekers",
+    "points": "235",
+    "unitSize": "3",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "It is the duty of the Revenant Seekers to harvest the lamentiri of those Sylvaneth who fall in battle, and return them to the soulpod groves of their clan. To this end, they travel upon swift dragonspites and wield sickles redolent with the energies of the harvest.",
+    "description": "",
+    "wounds": "5",
+    "move": "12\"",
+    "save": "4+",
+    "bravery": "7",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Seeker’s Sickle",
+        "range": "2\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "2"
+      },
+      {
+        "name": "Sharp Mandibles",
+        "range": "2\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "ORDER",
+      "SYLVANETH",
+      "NOBLE",
+      "SPIRITS",
+      "REVENANT",
+      "SEEKERS"
+    ],
+    "pitchedBattleNotes": [
+      "Battleline in a <a href=\"/aos3/factions/sylvaneth/#Harvestboon\">Harvestboon</a> army"
+    ]
+  },
+  {
+    "name": "Skaeth s Wild Hunt",
+    "points": "110",
+    "unitSize": "5",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Skaeth and his Kurnothi kin are merciless hunters of those who would dare despoil the wilderness, running their prey to ground before piercing their hearts with spears, arrows and hurled javelins.",
+    "description": "",
+    "wounds": "1",
+    "move": "6\"",
+    "save": "5+",
+    "bravery": "6",
+    "missleWeapons": [
+      {
+        "name": "Seeker Bow",
+        "range": "18\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Javelin of the Hunt",
+        "range": "9\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Javelin of the Hunt",
+        "range": "2\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      },
+      {
+        "name": "Hunting Weapon",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Teeth and Claws",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "ORDER",
+      "SYLVANETH",
+      "OAKENBROW",
+      "SKAETH’S",
+      "WILD",
+      "HUNT"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ]
+  },
+  {
+    "name": "Spite Revenants",
+    "points": "105",
+    "unitSize": "5",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Spite-Revenants are shrieking terrors from the depths of nightmare. Light and shadow play weirdly around these ghastly beings as they tear and bite their victims, rending to bloody tatters any who do not simply fling down their weapons and flee.",
+    "description": "",
+    "wounds": "2",
+    "move": "5\"",
+    "save": "5+",
+    "bravery": "6",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Cruel Talons and Fangs",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "ORDER",
+      "SYLVANETH",
+      "OUTCASTS",
+      "SPITE-REVENANTS"
+    ],
+    "pitchedBattleNotes": [
+      "Battleline in a <a href=\"/aos3/factions/sylvaneth/#Dreadwood\">Dreadwood</a> army"
+    ],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Spiterider Lancers",
+    "points": "210",
+    "unitSize": "3",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "The Spiterider Lancers are Alarielle’s elite cavalry. Mounted upon agile Dragonspites, whose bodies thrum with life energies, they deftly swoop and whirl above the battlefield before suddenly diving into a charge, striking the enemy lines with shocking force.",
+    "description": "",
+    "wounds": "5",
+    "move": "14\"",
+    "save": "4+",
+    "bravery": "7",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Spiterider Lance",
+        "range": "2\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "1"
+      },
+      {
+        "name": "Sharp Mandibles",
+        "range": "2\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "ORDER",
+      "SYLVANETH",
+      "FREE",
+      "SPIRITS",
+      "SPITERIDER",
+      "LANCERS"
+    ],
+    "pitchedBattleNotes": [
+      "Battleline in a <a href=\"/aos3/factions/sylvaneth/#Harvestboon\">Harvestboon</a> army"
+    ]
+  },
+  {
+    "name": "Ylthari s Guardians",
+    "points": "180",
+    "unitSize": "3",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Grown from ancient soulpods in the Realm of Death, Ylthari’s Guardians were once diplomats and emissaries, though now they are evergreen with bitter wrath and seek only vengeance for their kin who have been slain.",
+    "description": "",
+    "wounds": "2",
+    "move": "5\"",
+    "save": "5+",
+    "bravery": "6",
+    "missleWeapons": [
+      {
+        "name": "Revenant Bow",
+        "range": "24\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Enchanted Greatblade",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Protector Glaive",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      },
+      {
+        "name": "Revenant Bow",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "ORDER",
+      "SYLVANETH",
+      "NOBLE",
+      "SPIRITS",
+      "OAKENBROW",
+      "TREE-REVENANTS",
+      "YLTHARI’S",
+      "GUARDIANS"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique. <a href=\"/aos3/factions/sylvaneth/warscrolls.html#Ylthari\">Ylthari</a> and Ylthari’s Guardians units must be taken as a set. Although taken as a set",
+      "each is a separate unit."
+    ]
+  },
+  {
+    "name": "Treelord",
+    "points": "260",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Behemoth"
+    ],
+    "flavorText": "Treelords storm towards the enemy with earth-shaking strides. Their roots burrow through the soil as fast as arrows through the air, exploding from the ground to rend and throttle, while every swing of their vast talons slaughters another swathe of foes.",
+    "description": "",
+    "wounds": "14",
+    "move": "5\"",
+    "save": "3+",
+    "bravery": "7",
+    "missleWeapons": [
+      {
+        "name": "Strangleroots",
+        "range": "12\"",
+        "attacks": "3",
+        "toHit": "✹",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Sweeping Blows",
+        "range": "3\"",
+        "attacks": "✹",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      },
+      {
+        "name": "Massive Impaling Talons",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "2+",
+        "toWound": "✹",
+        "rend": "-2",
+        "damage": "3"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-6",
+        "strangleroots": "2+",
+        "sweepingBlows": "5",
+        "massiveImpalingTalons": "2+"
+      },
+      {
+        "woundsSuffered": "7-8",
+        "strangleroots": "3+",
+        "sweepingBlows": "4",
+        "massiveImpalingTalons": "3+"
+      },
+      {
+        "woundsSuffered": "9-10",
+        "strangleroots": "4+",
+        "sweepingBlows": "3",
+        "massiveImpalingTalons": "4+"
+      },
+      {}
+    ],
+    "abilities": [],
+    "keywords": [
+      "ORDER",
+      "SYLVANETH",
+      "NOBLE",
+      "SPIRITS",
+      "MONSTER",
+      "TREELORD"
+    ],
+    "pitchedBattleNotes": [
+      "Single. Battleline in an <a href=\"/aos3/factions/sylvaneth/#Oakenbrow\">Oakenbrow</a> army"
+    ],
+    "baseSize": "105 x 70mm"
+  },
+  {
+    "name": "Awakened Wyldwood",
+    "points": "0",
+    "unitSize": "",
+    "battlefieldRoles": [
+      "Faction Terrain Feature"
+    ],
+    "flavorText": "When the wyldwoods of the Sylvaneth stir, enemies of the natural order must be on their guard. The spirits that dwell within these ancient groves are roused to terrible fury by intrusions into their domain. They seek every chance to prey upon those foolish enough to stray beneath their shadowed boughs.",
+    "description": "",
+    "wounds": "",
+    "move": "",
+    "save": "",
+    "bravery": "",
+    "missleWeapons": [],
+    "meleeWeapons": [],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [],
+    "pitchedBattleNotes": []
+  },
+  {
+    "name": "Gladewyrm",
+    "points": "50",
+    "unitSize": "",
+    "battlefieldRoles": [
+      "Endless Spell"
+    ],
+    "flavorText": "Gladewyrms are ferocious subterranean creatures formed from concentrated life magic, and are used by the Sylvaneth to protect the realmroots from eldritch invaders. When called upon, they leave their patrols along the spirit paths and erupt from the earth to aid their summoners.",
+    "description": "",
+    "wounds": "",
+    "move": "",
+    "save": "",
+    "bravery": "",
+    "missleWeapons": [],
+    "meleeWeapons": [],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [],
+    "pitchedBattleNotes": []
+  },
+  {
+    "name": "Spiteswarm Hive",
+    "points": "40",
+    "unitSize": "",
+    "battlefieldRoles": [
+      "Endless Spell"
+    ],
+    "flavorText": "With a humming chant, those versed in the magic of Ghyran can summon a Spiteswarm Hive. The air thrums near the comb, and the luminescent Spiteswarms buzz forth, the insect-clouds obscuring friendly formations or diving forth to deliver vitalising bites that can reenergise weary troops.",
+    "description": "",
+    "wounds": "",
+    "move": "",
+    "save": "",
+    "bravery": "",
+    "missleWeapons": [],
+    "meleeWeapons": [],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [],
+    "pitchedBattleNotes": [],
+    "baseSize": "50mm"
+  },
+  {
+    "name": "Vengeful Skullroot",
+    "points": "60",
+    "unitSize": "",
+    "battlefieldRoles": [
+      "Endless Spell"
+    ],
+    "flavorText": "Also known as the Drifting Death or the Creeping Willow, the Vengeful Skullroot is a manifestation of a forest’s fury. Blackhearted and hateful, these arcane plants can be summoned by Sylvaneth versed in magic. As the tree stalks across the battlefield, its tentacle-like roots bludgeon, crush and strangle all they pass over.",
+    "description": "",
+    "wounds": "",
+    "move": "",
+    "save": "",
+    "bravery": "",
+    "missleWeapons": [],
+    "meleeWeapons": [],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [],
+    "pitchedBattleNotes": [],
+    "baseSize": "105 x 70mm"
+  }
+]

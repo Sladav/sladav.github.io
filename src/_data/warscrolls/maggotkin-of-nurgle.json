@@ -1,0 +1,2050 @@
+[
+  {
+    "name": "Bloab Rotspawned",
+    "points": "320",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader",
+      "Behemoth"
+    ],
+    "flavorText": "One of Nurgle’s most favoured sorcerers, Bloab Rotspawned is accompanied at all times by a swarm of daemonic flies that emerge from his bubotic flesh, to the detriment of any who dare draw too close.",
+    "description": "",
+    "wounds": "13",
+    "move": "✹",
+    "save": "4+",
+    "bravery": "9",
+    "missleWeapons": [
+      {
+        "name": "Vile Bile",
+        "range": "14\"",
+        "attacks": "D3",
+        "toHit": "3+",
+        "toWound": "✹",
+        "rend": "-2",
+        "damage": "D3"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Harvestman’s Scythe",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      },
+      {
+        "name": "Monstrous Claws",
+        "range": "1\"",
+        "attacks": "✹",
+        "toHit": "3+",
+        "toWound": "2+",
+        "rend": "-2",
+        "damage": "3"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-6",
+        "move": "8\"",
+        "vileBile": "2+",
+        "monstrousClaws": "5"
+      },
+      {
+        "woundsSuffered": "7-9",
+        "move": "7\"",
+        "vileBile": "3+",
+        "monstrousClaws": "4"
+      },
+      {
+        "woundsSuffered": "10-11",
+        "move": "6\"",
+        "vileBile": "4+",
+        "monstrousClaws": "3"
+      },
+      {}
+    ],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "MORTAL",
+      "NURGLE",
+      "MAGGOTKIN",
+      "NURGLE",
+      "MONSTER",
+      "HERO",
+      "WIZARD",
+      "MAGGOTH",
+      "LORD",
+      "BLOAB",
+      "ROTSPAWNED"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ],
+    "baseSize": "100mm"
+  },
+  {
+    "name": "Great Unclean One",
+    "points": "495",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader",
+      "Behemoth"
+    ],
+    "flavorText": "The Great Unclean Ones are immensely resilient and frighteningly strong. Able to barge down fortress gates and crush monstrous beasts with their sheer bulk, these greater daemons are infernal icons of Nurgle’s malign power.",
+    "description": "",
+    "wounds": "18",
+    "move": "4\"",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [
+      {
+        "name": "Noxious Bile",
+        "range": "7\"",
+        "attacks": "D6",
+        "toHit": "3+",
+        "toWound": "✹",
+        "rend": "-3",
+        "damage": "2"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Bilesword",
+        "range": "2\"",
+        "attacks": "4",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "4"
+      },
+      {
+        "name": "Doomsday Bell",
+        "range": "1\"",
+        "attacks": "5",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      },
+      {
+        "name": "Bileblade",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "3"
+      },
+      {
+        "name": "Plague Flail",
+        "range": "1\"",
+        "attacks": "5",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "3"
+      },
+      {
+        "name": "Host of Nurglings",
+        "range": "1\"",
+        "attacks": "✹",
+        "toHit": "5+",
+        "toWound": "5+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-6",
+        "hostOfNurglings": "15",
+        "noxiousBile": "2+",
+        "mountainOfLoathsomeFlesh": "4"
+      },
+      {
+        "woundsSuffered": "7-12",
+        "hostOfNurglings": "10",
+        "noxiousBile": "3+",
+        "mountainOfLoathsomeFlesh": "3"
+      },
+      {
+        "woundsSuffered": "13-16",
+        "hostOfNurglings": "5",
+        "noxiousBile": "4+",
+        "mountainOfLoathsomeFlesh": "2"
+      },
+      {}
+    ],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "DAEMON",
+      "NURGLE",
+      "MAGGOTKIN",
+      "NURGLE",
+      "MONSTER",
+      "HERO",
+      "WIZARD",
+      "GREAT",
+      "UNCLEAN",
+      "ONE"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "130mm"
+  },
+  {
+    "name": "Morbidex Twiceborn",
+    "points": "320",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader",
+      "Behemoth"
+    ],
+    "flavorText": "Morbidex Twiceborn is the champion of the Nurglings and has gained much of their unnatural resilience. In battle, swarms of the impish daemons trail after their living idol, drowning enemies in a filthy living tide.",
+    "description": "",
+    "wounds": "12",
+    "move": "✹",
+    "save": "3+",
+    "bravery": "9",
+    "missleWeapons": [
+      {
+        "name": "Slabrous Tongues",
+        "range": "7\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "✹",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Fleshreaper Scythe",
+        "range": "1\"",
+        "attacks": "5",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      },
+      {
+        "name": "Monstrous Claws",
+        "range": "1\"",
+        "attacks": "✹",
+        "toHit": "3+",
+        "toWound": "2+",
+        "rend": "-2",
+        "damage": "3"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-5",
+        "move": "8\"",
+        "slabrousTongues": "2+",
+        "monstrousClaws": "5"
+      },
+      {
+        "woundsSuffered": "6-8",
+        "move": "7\"",
+        "slabrousTongues": "3+",
+        "monstrousClaws": "4"
+      },
+      {
+        "woundsSuffered": "9-10",
+        "move": "6\"",
+        "slabrousTongues": "4+",
+        "monstrousClaws": "3"
+      },
+      {}
+    ],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "MORTAL",
+      "NURGLE",
+      "MAGGOTKIN",
+      "NURGLE",
+      "MONSTER",
+      "HERO",
+      "MAGGOTH",
+      "LORD",
+      "NURGLING",
+      "MORBIDEX",
+      "TWICEBORN"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ],
+    "baseSize": "100mm"
+  },
+  {
+    "name": "Orghotts Daemonspew",
+    "points": "320",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader",
+      "Behemoth"
+    ],
+    "flavorText": "Orghotts Daemonspew is a driven warlord determined to earn Nurgle’s ultimate favour. In battle, he lights as a merciless reaper, the Rolaxes striking down foe after foe like wheat before the scythe.",
+    "description": "",
+    "wounds": "14",
+    "move": "✹",
+    "save": "3+",
+    "bravery": "9",
+    "missleWeapons": [
+      {
+        "name": "Grasping Tongue",
+        "range": "7\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "✹",
+        "rend": "-1",
+        "damage": "D6"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "The Rotaxes",
+        "range": "1\"",
+        "attacks": "7",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      },
+      {
+        "name": "Whippermaw’s Monstrous Claws",
+        "range": "1\"",
+        "attacks": "✹",
+        "toHit": "3+",
+        "toWound": "2+",
+        "rend": "-2",
+        "damage": "3"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-6",
+        "move": "8\"",
+        "graspingTongue": "2+",
+        "monstrousClaws": "5"
+      },
+      {
+        "woundsSuffered": "7-9",
+        "move": "7\"",
+        "graspingTongue": "3+",
+        "monstrousClaws": "4"
+      },
+      {
+        "woundsSuffered": "10-11",
+        "move": "6\"",
+        "graspingTongue": "4+",
+        "monstrousClaws": "3"
+      },
+      {}
+    ],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "MORTAL",
+      "NURGLE",
+      "MAGGOTKIN",
+      "NURGLE",
+      "MONSTER",
+      "HERO",
+      "MAGGOTH",
+      "LORD",
+      "ORGHOTTS",
+      "DAEMONSPEW"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ],
+    "baseSize": "100mm"
+  },
+  {
+    "name": "Rotigus",
+    "points": "495",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader",
+      "Behemoth"
+    ],
+    "flavorText": "Brandishing his mouldy gnarlrod at the skies, Rotigus Rainfather calls down the inundating Deluge of Nurgle, even as the fanged maws that split his flesh vomit streams of diseased bile, drowning the enemy in torrents of noxious filth.",
+    "description": "",
+    "wounds": "20",
+    "move": "4\"",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Gnarlrod",
+        "range": "2\"",
+        "attacks": "5",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "3"
+      },
+      {
+        "name": "Fanged Maw",
+        "range": "1\"",
+        "attacks": "D3",
+        "toHit": "3+",
+        "toWound": "✹",
+        "rend": "-2",
+        "damage": "2"
+      },
+      {
+        "name": "Host of Nurglings",
+        "range": "1\"",
+        "attacks": "✹",
+        "toHit": "5+",
+        "toWound": "5+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-6",
+        "hostOfNurglings": "15",
+        "fangedMaw": "2+",
+        "mountainOfLoathsomeFlesh": "4"
+      },
+      {
+        "woundsSuffered": "7-12",
+        "hostOfNurglings": "10",
+        "fangedMaw": "3+",
+        "mountainOfLoathsomeFlesh": "3"
+      },
+      {
+        "woundsSuffered": "13-16",
+        "hostOfNurglings": "5",
+        "fangedMaw": "4+",
+        "mountainOfLoathsomeFlesh": "2"
+      },
+      {}
+    ],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "DAEMON",
+      "NURGLE",
+      "MAGGOTKIN",
+      "NURGLE",
+      "MONSTER",
+      "HERO",
+      "WIZARD",
+      "GREAT",
+      "UNCLEAN",
+      "ONE",
+      "ROTIGUS"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ],
+    "baseSize": "130mm"
+  },
+  {
+    "name": "The Glottkin",
+    "points": "700",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader",
+      "Behemoth"
+    ],
+    "flavorText": "Plague-cursed triplets of immense age and power, the Glottkin arc Nurgle’s greatest mortal champions. When the warrior Otto, sorcerous Ethrac and monstrous Ghurk combine their unnatural power, all who stand against them are soon crushed...",
+    "description": "",
+    "wounds": "20",
+    "move": "5\"",
+    "save": "4+",
+    "bravery": "9",
+    "missleWeapons": [
+      {
+        "name": "Otto’s Gut-spray",
+        "range": "12\"",
+        "attacks": "✹",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Ghurk’s Tentacle",
+        "range": "3\"",
+        "attacks": "✹",
+        "toHit": "3+",
+        "toWound": "2+",
+        "rend": "-2",
+        "damage": "3"
+      },
+      {
+        "name": "Ghurk’s Lamprey Maw",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "2+",
+        "rend": "-2",
+        "damage": "3"
+      },
+      {
+        "name": "Otto’s Scythe",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-6",
+        "ottosGutSpray": "7",
+        "ghurksTentacle": "4",
+        "mountainOfLoathsomeFlesh": "5"
+      },
+      {
+        "woundsSuffered": "7-12",
+        "ottosGutSpray": "6",
+        "ghurksTentacle": "3",
+        "mountainOfLoathsomeFlesh": "4"
+      },
+      {
+        "woundsSuffered": "13-16",
+        "ottosGutSpray": "5",
+        "ghurksTentacle": "2",
+        "mountainOfLoathsomeFlesh": "3"
+      },
+      {}
+    ],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "MORTAL",
+      "NURGLE",
+      "MAGGOTKIN",
+      "NURGLE",
+      "MONSTER",
+      "HERO",
+      "WIZARD",
+      "THE",
+      "GLOTTKIN"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ],
+    "baseSize": "130mm"
+  },
+  {
+    "name": "Archaon the Everchosen",
+    "points": "860",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader",
+      "Behemoth"
+    ],
+    "flavorText": "Archaon is the Everchosen, the favoured warlord of the Dark Pantheon. From atop Dorghar, the monstrous Steed of the Apocalypse, Archaon commands his legions with an iron fist, his deadly skill and unholy powers sealing the doom of entire armies.",
+    "description": "",
+    "wounds": "20",
+    "move": "✹",
+    "save": "3+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "The Slayer of Kings",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "2+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "3"
+      },
+      {
+        "name": "Monstrous Claws",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "2+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "D6"
+      },
+      {
+        "name": "Lashing Tails",
+        "range": "3\"",
+        "attacks": "2D6",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Three Heads",
+        "range": "3\"",
+        "attacks": "✹",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-8",
+        "move": "14\"",
+        "threeHeads": "6"
+      },
+      {
+        "woundsSuffered": "9-11",
+        "move": "12\"",
+        "threeHeads": "5"
+      },
+      {
+        "woundsSuffered": "12-15",
+        "move": "10\"",
+        "threeHeads": "4"
+      },
+      {}
+    ],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "SLAVES",
+      "DARKNESS",
+      "HOST",
+      "EVERCHOSEN",
+      "UNDIVIDED",
+      "KHORNE",
+      "TZEENTCH",
+      "NURGLE",
+      "SLAANESH",
+      "DAEMON",
+      "MORTAL",
+      "HERO",
+      "MONSTER",
+      "WIZARD",
+      "ARCHAON"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ],
+    "baseSize": "160mm"
+  },
+  {
+    "name": "Exalted Greater Daemon of Nurgle",
+    "points": "430",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader",
+      "Behemoth"
+    ],
+    "flavorText": "Riddled with pestilence and disease, an Exalted Greater Daemon of Nurgle is a foul manifestation of Nurgle’s will. With each lumbering step and burbled word, it spreads more of its diseased blessings to those who stand before it.",
+    "description": "An Exalted Greater Daemon of Nurgle is armed with a Massive Bilesword and Noxious Bile.",
+    "wounds": "16",
+    "move": "✹",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [
+      {
+        "name": "Noxious Bile",
+        "range": "7\"",
+        "attacks": "D6",
+        "toHit": "3+",
+        "toWound": "✹",
+        "rend": "-2",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Massive Bilesword",
+        "range": "2\"",
+        "attacks": "✹",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "3"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "WIZARD",
+        "description": "This model can attempt to cast 2 spells in your hero phase, and attempt to unbind 1 spell in the enemy hero phase."
+      }
+    ],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-8",
+        "move": "7\"",
+        "noxiousBile": "2+",
+        "massiveBilesword": "4"
+      },
+      {
+        "woundsSuffered": "9-11",
+        "move": "6\"",
+        "noxiousBile": "3+",
+        "massiveBilesword": "4"
+      },
+      {
+        "woundsSuffered": "12-13",
+        "move": "5\"",
+        "noxiousBile": "3+",
+        "massiveBilesword": "3"
+      },
+      {}
+    ],
+    "abilities": [
+      {
+        "name": "Blubber and Bile",
+        "flavorText": "The dubious reward for piercing the blubbery hide of an Exalted Greater Daemon of Nurgle is to be showered by acidic bile and putrid toxins.",
+        "description": "This model has a ward of 5+. If an unmodified ward roll for this model is 6 and the attacking unit is within 3\" of this model, the attacking unit suffers 1 mortal wound after all of its attacks have been resolved."
+      },
+      {
+        "name": "Corpulent Mass",
+        "flavorText": "An Exalted Greater Daemon of Nurgle is blessed with the Plaguefather’s gift of fecundity, enabling its body to swiftly regrow damaged flesh and tissue.",
+        "description": "In your hero phase, you can heal up to D3 wounds allocated to this model."
+      },
+      {
+        "name": "Mountain of Loathsome Flesh",
+        "flavorText": "Such is the size and girth of an Exalted Greater Daemon of Nurgle that it can simply run over its foes, crushing or asphyxiating them beneath its monstrous bulk as it does so.",
+        "description": "Roll 1 dice for each enemy unit within 1\" of this model after this model finishes a charge move. On a 4+, that enemy unit suffers D3 mortal wounds."
+      },
+      {
+        "name": "Plague Wind",
+        "flavorText": "The Exalted Greater Daemon of Nurgle summons a whirlwind of maggots and filth, basking in its feculence for a moment before sending it forth.",
+        "description": "Plague Wind is a spell that has a casting value of 7 and a range of 14\". If successfully cast, pick 1 point on the battlefield within range and visible to the caster and draw a straight line between that point and the closest point on the caster’s base. Each unit passed across by that line suffers D3 mortal wounds. If that line passes across a NURGLE unit, that unit’s commanding player can heal up to D3 wounds allocated to it instead."
+      },
+      {
+        "name": "Grandfather’s Exalted Joy",
+        "flavorText": "At the Great Unclean One’s command, Nurgle’s children are inspired to fight with even greater exuberance.",
+        "description": "You can use this command ability in the combat phase. The command must be issued by this model and received by a friendly NURGLE DAEMON unit. Add 1 to the Attacks characteristic of that unit’s melee weapons until the end of that phase."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "NURGLE",
+      "MAGGOTKIN",
+      "NURGLE",
+      "DAEMON",
+      "GREAT",
+      "UNCLEAN",
+      "ONE",
+      "MONSTER",
+      "HERO",
+      "WIZARD",
+      "EXALTED",
+      "GREATER",
+      "DAEMON",
+      "NURGLE"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "130mm"
+  },
+  {
+    "name": "Epidemius Tallyman of Nurgle",
+    "points": "145",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Sat upon his mouldering palanquin, borne aloft by a mound of Nurglings, Epidemius gazes across the battlefield with jaded contempt. As his endless tally of Nurgle’s diseases rises, so do the Plague God’s minions become empowered.",
+    "description": "",
+    "wounds": "7",
+    "move": "4\"",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Balesword",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      },
+      {
+        "name": "Mound of Nurglings",
+        "range": "1\"",
+        "attacks": "10",
+        "toHit": "5+",
+        "toWound": "5+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "DAEMON",
+      "NURGLE",
+      "MAGGOTKIN",
+      "NURGLE",
+      "HERO",
+      "TOTEM",
+      "EPIDEMIUS"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ],
+    "baseSize": "60mm"
+  },
+  {
+    "name": "Fecula Flyblown",
+    "points": "255",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "A bloated and spectacularly foul-smelling Sorcerer of formidable power, Fecula Flyblown has sworn to spread the sickening gifts of Grandfather Nurgle as far and wide as possible.",
+    "description": "",
+    "wounds": "7",
+    "move": "4\"",
+    "save": "4+",
+    "bravery": "8",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Rotwood Staff",
+        "range": "2\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "MORTAL",
+      "NURGLE",
+      "MAGGOTKIN",
+      "NURGLE",
+      "BLESSED",
+      "SONS",
+      "HERO",
+      "WIZARD",
+      "ROTBRINGER",
+      "SORCERER",
+      "FECULA",
+      "FLYBLOWN"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique. Fecula Flyblown and <a href=\"/aos3/factions/maggotkin-of-nurgle/warscrolls.html#The-Wurmspat\">The Wurmspat</a> must be taken as a set. Although taken as a set",
+      "each is a separate unit."
+    ]
+  },
+  {
+    "name": "Festus the Leechlord",
+    "points": "150",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Festus is a heartless maniac, a former plague doctor transformed into a twisted alchemist of disease. He leads Nurgle’s armies with infectious ebullience, relishing the chance to try out new delightful brews upon unwilling foes.",
+    "description": "",
+    "wounds": "6",
+    "move": "4\"",
+    "save": "5+",
+    "bravery": "7",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Plague Staff",
+        "range": "3\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "MORTAL",
+      "NURGLE",
+      "MAGGOTKIN",
+      "NURGLE",
+      "HERO",
+      "WIZARD",
+      "FESTUS",
+      "LEECHLORD"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ],
+    "baseSize": "40mm"
+  },
+  {
+    "name": "Gutrot Spume",
+    "points": "170",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Gutrot Spume is the feared master of Nurgle’s Slime Fleets. His towering ego is such that he will never back down from a rival’s challenge, while so mighty is he that he has never lost a duel.",
+    "description": "",
+    "wounds": "8",
+    "move": "4\"",
+    "save": "4+",
+    "bravery": "9",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Rot-pocked Axe",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "2+",
+        "rend": "-1",
+        "damage": "D3"
+      },
+      {
+        "name": "Flailing Tentacles",
+        "range": "1\"",
+        "attacks": "6",
+        "toHit": "2+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "MORTAL",
+      "NURGLE",
+      "MAGGOTKIN",
+      "NURGLE",
+      "HERO",
+      "GUTROT",
+      "SPUME"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ],
+    "baseSize": "40mm"
+  },
+  {
+    "name": "Harbinger of Decay",
+    "points": "140",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "The Harbingers of Decay trot into battle atop vile steeds more dead than alive. These champions draw the gaze of Nurgle himself, and where they ride, the Plague God’s sinister will is soon made manifest.",
+    "description": "",
+    "wounds": "7",
+    "move": "6\"",
+    "save": "3+",
+    "bravery": "8",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Plague Scythe",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      },
+      {
+        "name": "Flyblown Bite",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "MORTAL",
+      "NURGLE",
+      "MAGGOTKIN",
+      "NURGLE",
+      "HERO",
+      "HARBINGER",
+      "DECAY"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "75 x 42mm"
+  },
+  {
+    "name": "Horticulous Slimux",
+    "points": "225",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "As Nurgle’s head horticulturist, Slimux has the power to seed his master’s Garden in reality. Surrounded by packs of Beasts of Nurgle and wielding his lethal lopping shears, he is a being to be rightly feared.",
+    "description": "",
+    "wounds": "10",
+    "move": "4\"",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Lopping Shears",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      },
+      {
+        "name": "Slime-encrusted Jaws",
+        "range": "1\"",
+        "attacks": "D3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "DAEMON",
+      "NURGLE",
+      "MAGGOTKIN",
+      "NURGLE",
+      "HERO",
+      "TOTEM",
+      "HERALD",
+      "NURGLE",
+      "HORTICULOUS",
+      "SLIMUX"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ],
+    "baseSize": "105 x 70mm"
+  },
+  {
+    "name": "Lord of Afflictions",
+    "points": "230",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Mounted atop bloated Rot Flies, the Lords of Affliction lead Nurgle’s vanguards to war. They and their droning brethren strike directly front the curdled skies, skewering the enemy on their filth-encrusted tridents.",
+    "description": "",
+    "wounds": "8",
+    "move": "8\"",
+    "save": "3+",
+    "bravery": "9",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Festerspike",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      },
+      {
+        "name": "Claws, Mouthparts and Sting",
+        "range": "1\"",
+        "attacks": "6",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "MORTAL",
+      "NURGLE",
+      "MAGGOTKIN",
+      "NURGLE",
+      "HERO",
+      "LORD",
+      "AFFLICTIONS"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "60mm"
+  },
+  {
+    "name": "Lord of Blights",
+    "points": "150",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Masters of the corpse orchards, the Lords of Blights are responsible for creating the blessed death’s heads. These projectiles are doled out to their Rotbringcrs, and hurled at the foe to spread the plagues festering within.",
+    "description": "",
+    "wounds": "7",
+    "move": "4\"",
+    "save": "3+",
+    "bravery": "9",
+    "missleWeapons": [
+      {
+        "name": "Thrice-ripened Death’s Head",
+        "range": "7\"",
+        "attacks": "See below",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Bubotic Hammer",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "MORTAL",
+      "NURGLE",
+      "MAGGOTKIN",
+      "NURGLE",
+      "HERO",
+      "LORD",
+      "BLIGHTS"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "40mm"
+  },
+  {
+    "name": "Lord of Plagues",
+    "points": "145",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "The Lords of Plagues storm forth with rusted axes swinging. These revolting warlords urge their followers on to ever greater acts of carnage, fertilising the realms with the filthridden mulch they make of their enemies.",
+    "description": "",
+    "wounds": "7",
+    "move": "4\"",
+    "save": "4+",
+    "bravery": "7",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Plague-ridden Great Blade",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "MORTAL",
+      "NURGLE",
+      "MAGGOTKIN",
+      "NURGLE",
+      "HERO",
+      "LORD",
+      "PLAGUES"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "40mm"
+  },
+  {
+    "name": "Poxbringer Herald of Nurgle",
+    "points": "145",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Poxbringers serve as the festering right hands of the Great Unclean Ones. They lead the tallybands into the thick of battle, wielding gangrenous magics and befouled blades to strike down their enemies.",
+    "description": "",
+    "wounds": "5",
+    "move": "4\"",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Balesword",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "DAEMON",
+      "NURGLE",
+      "MAGGOTKIN",
+      "NURGLE",
+      "HERO",
+      "WIZARD",
+      "HERALD",
+      "NURGLE",
+      "POXBRINGER"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Rotbringer Sorcerer",
+    "points": "145",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Rotbringer Sorcerers are masters of unclean magics, capable of vomiting forth streams of slime or imbuing , their allies with pestilent might. They revel in acts of corruption, and are even able to infect wild arcane phenomena.",
+    "description": "",
+    "wounds": "6",
+    "move": "4\"",
+    "save": "5+",
+    "bravery": "7",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Rotwood Staff",
+        "range": "3\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "MORTAL",
+      "NURGLE",
+      "MAGGOTKIN",
+      "NURGLE",
+      "HERO",
+      "WIZARD",
+      "ROTBRINGER",
+      "SORCERER"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Rotbringer Sorcerer Rot Coven ",
+    "points": "360",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Rotbringer Sorcerers are masters of unclean magics, capable of vomiting forth streams of slime or imbuing , their allies with pestilent might. They revel in acts of corruption, and are even able to infect wild arcane phenomena.",
+    "description": "",
+    "wounds": "6",
+    "move": "4\"",
+    "save": "5+",
+    "bravery": "7",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Rotwood Staff",
+        "range": "3\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "MORTAL",
+      "NURGLE",
+      "MAGGOTKIN",
+      "NURGLE",
+      "HERO",
+      "WIZARD",
+      "ROTBRINGER",
+      "SORCERER"
+    ],
+    "pitchedBattleNotes": [
+      "Single. Can only be included in a <a href=\"/aos3/factions/maggotkin-of-nurgle/#Filthbringers\">Filthbringers</a> army. These units must be taken as a set referred to as a Rot Coven. Although taken as a set",
+      "each is a separate unit."
+    ],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Sloppity Bilepiper Herald of Nurgle",
+    "points": "130",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Sloppity Bilepipers caper through the ranks of Nurgle’s legions as they advance. Infected with a plague of mirth, they prance and quip, entertaining their fellow daemons even as they cause the enemy to literally die laughing.",
+    "description": "",
+    "wounds": "5",
+    "move": "4\"",
+    "save": "5+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Marotter",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "DAEMON",
+      "NURGLE",
+      "MAGGOTKIN",
+      "NURGLE",
+      "HERO",
+      "TOTEM",
+      "HERALD",
+      "NURGLE",
+      "SLOPPITY",
+      "BILEPIPER"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Spoilpox Scrivener Herald of Nurgle",
+    "points": "120",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Spoilpox Scriveners keep a strict watch over the tallying of the Plaguebearers. Should an enemy stray too close, they bite off heads and limbs with their trunklike maws, or blanket them in foul mucus with almighty sneezes.",
+    "description": "",
+    "wounds": "5",
+    "move": "4\"",
+    "save": "5+",
+    "bravery": "10",
+    "missleWeapons": [
+      {
+        "name": "Disgusting Sneeze",
+        "range": "7\"",
+        "attacks": "D6",
+        "toHit": "2+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Distended Maw",
+        "range": "2\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "DAEMON",
+      "NURGLE",
+      "MAGGOTKIN",
+      "NURGLE",
+      "HERO",
+      "HERALD",
+      "NURGLE",
+      "SPOILPOX",
+      "SCRIVENER"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "40mm"
+  },
+  {
+    "name": "Plaguebearers",
+    "points": "150",
+    "unitSize": "10",
+    "battlefieldRoles": [
+      "Battleline"
+    ],
+    "flavorText": "Plaguebearers trudge to battle amidst the drone of flies’ wings and endless counting. These daemons tally the diseases unleashed upon the realms, all the while stabbing and hacking at their enemies with filthy plagueswords.",
+    "description": "",
+    "wounds": "2",
+    "move": "4\"",
+    "save": "6+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Plaguesword",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "DAEMON",
+      "NURGLE",
+      "MAGGOTKIN",
+      "NURGLE",
+      "PLAGUEBEARER",
+      "PLAGUEBEARER",
+      "HOST"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Putrid Blightkings",
+    "points": "250",
+    "unitSize": "5",
+    "battlefieldRoles": [
+      "Battleline"
+    ],
+    "flavorText": "Putrid Blightkings carve their way forwards with slime-encrusted blades, hammers and axes. Their bloated, rotting bodies can absorb tremendous punishment, allowing them to drive relentlessly through the foe’s battleline.",
+    "description": "",
+    "wounds": "4",
+    "move": "4\"",
+    "save": "4+",
+    "bravery": "8",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Blighted Weapon",
+        "range": "1\"",
+        "attacks": "5",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "MORTAL",
+      "NURGLE",
+      "MAGGOTKIN",
+      "NURGLE",
+      "PUTRID",
+      "BLIGHTKINGS"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "40mm"
+  },
+  {
+    "name": "Beasts of Nurgle",
+    "points": "110",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "As stupid as they are enthusiastic, Beasts of Nurgle bound forth with burbles of joy. Huge, slug-like abominations, they gleefully assail their luckless playmates until their joy proves lethal, before bounding off after new victims.",
+    "description": "",
+    "wounds": "8",
+    "move": "5\"",
+    "save": "5+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Filthy Claws",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      },
+      {
+        "name": "Slobbering Maw",
+        "range": "1\"",
+        "attacks": "D6",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "DAEMON",
+      "NURGLE",
+      "MAGGOTKIN",
+      "NURGLE",
+      "BEASTS",
+      "NURGLE"
+    ],
+    "pitchedBattleNotes": [
+      "Battleline in a <a href=\"/aos3/factions/maggotkin-of-nurgle/#Befouling-Host\">Befouling Host</a> army"
+    ],
+    "baseSize": "60mm"
+  },
+  {
+    "name": "Nurglings",
+    "points": "105",
+    "unitSize": "3",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Nurglings are daemon mites that tumble from the innards of larger daemons or spill up from sewers and fissures in reality. They pour across the battlefield in a stinking tide, burying the foe beneath waves of infectious foulness.",
+    "description": "",
+    "wounds": "4",
+    "move": "4\"",
+    "save": "6+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Tiny Razor-sharp Teeth",
+        "range": "1\"",
+        "attacks": "5",
+        "toHit": "5+",
+        "toWound": "5+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "DAEMON",
+      "NURGLE",
+      "MAGGOTKIN",
+      "NURGLE",
+      "NURGLING",
+      "NURGLING",
+      "SWARM"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "40mm"
+  },
+  {
+    "name": "Plague Drones",
+    "points": "200",
+    "unitSize": "3",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Plague Drones are high-ranking Plaguebearers who travel atop Rot Flies. These daemonic mounts attack with their toxic stingers and foul mouthparts, while their riders hurl death’s heads projectiles that explode in showers of filth.",
+    "description": "",
+    "wounds": "5",
+    "move": "8\"",
+    "save": "5+",
+    "bravery": "10",
+    "missleWeapons": [
+      {
+        "name": "Death’s Head",
+        "range": "7\"",
+        "attacks": "See below",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Plaguesword",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Claws, Mouthparts and Sting",
+        "range": "1\"",
+        "attacks": "6",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "DAEMON",
+      "NURGLE",
+      "MAGGOTKIN",
+      "NURGLE",
+      "PLAGUEBEARER",
+      "PLAGUE",
+      "DRONES"
+    ],
+    "pitchedBattleNotes": [
+      "Battleline in a <a href=\"/aos3/factions/maggotkin-of-nurgle/#Droning-Guard\">Droning Guard</a> army"
+    ],
+    "baseSize": "60mm"
+  },
+  {
+    "name": "Pusgoyle Blightlords",
+    "points": "250",
+    "unitSize": "2",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Elite Rotbringers mounted atop Rot Flies, Pusgoyle Blightlords thrum ahead of their kindred to sow panic and death. Their crushing tocsins and whistling scythes make short work of any who would slow the spread of decay.",
+    "description": "",
+    "wounds": "8",
+    "move": "8\"",
+    "save": "4+",
+    "bravery": "8",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Blighted Weapon",
+        "range": "1\"",
+        "attacks": "5",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Claws, Mouthparts and Sting",
+        "range": "1\"",
+        "attacks": "6",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "MORTAL",
+      "NURGLE",
+      "MAGGOTKIN",
+      "NURGLE",
+      "PUSGOYLE",
+      "BLIGHTLORDS"
+    ],
+    "pitchedBattleNotes": [
+      "Battleline in a <a href=\"/aos3/factions/maggotkin-of-nurgle/#Drowned-Men\">Drowned Men</a> army or if general is a <a href=\"/aos3/factions/maggotkin-of-nurgle/warscrolls.html#Lord-of-Afflictions\">Lord of Afflictions</a>"
+    ],
+    "baseSize": "60mm"
+  },
+  {
+    "name": "Pusgoyle Blightlords Single ",
+    "points": "125",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Elite Rotbringers mounted atop Rot Flies, Pusgoyle Blightlords thrum ahead of their kindred to sow panic and death. Their crushing tocsins and whistling scythes make short work of any who would slow the spread of decay.",
+    "description": "",
+    "wounds": "8",
+    "move": "8\"",
+    "save": "4+",
+    "bravery": "8",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Blighted Weapon",
+        "range": "1\"",
+        "attacks": "5",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Claws, Mouthparts and Sting",
+        "range": "1\"",
+        "attacks": "6",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "MORTAL",
+      "NURGLE",
+      "MAGGOTKIN",
+      "NURGLE",
+      "PUSGOYLE",
+      "BLIGHTLORDS"
+    ],
+    "pitchedBattleNotes": [
+      "Single. You can include 1 unit of this type for each <a href=\"/aos3/factions/maggotkin-of-nurgle/warscrolls.html#Lord-of-Afflictions\">Lord of Afflictions</a> you include in your army. This unit cannot have the Battleline battlefield role."
+    ],
+    "baseSize": "60mm"
+  },
+  {
+    "name": "The Wurmspat",
+    "points": "255",
+    "unitSize": "2",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "The Blightkings Sepsimus and Ghulgoch have sworn themselves to the service of Fecula Flyblown. They form a shield of flabby putrescence and rusted weapons between the Sorcerer and any who may threaten her.",
+    "description": "",
+    "wounds": "5",
+    "move": "4\"",
+    "save": "4+",
+    "bravery": "8",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Blighted Weapon",
+        "range": "1\"",
+        "attacks": "5",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "MORTAL",
+      "NURGLE",
+      "MAGGOTKIN",
+      "NURGLE",
+      "BLESSED",
+      "SONS",
+      "PUTRID",
+      "BLIGHTKINGS",
+      "THE",
+      "WURMSPAT"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique. <a href=\"/aos3/factions/maggotkin-of-nurgle/warscrolls.html#Fecula-Flyblown\">Fecula Flyblown</a> and the Wurmspat units must be taken as a set. Although taken as a set",
+      "each is a separate unit."
+    ]
+  },
+  {
+    "name": "Rotmire Creed",
+    "points": "125",
+    "unitSize": "10",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "The Rotmire Creed are artisans of virology, relentless in their pursuit of the perfect plague. Their blowpipe darts and melee weapons are daubed with their alchemical contagions, which, once unleashed, spread quickly through the ranks of their enemies.",
+    "description": "",
+    "wounds": "1",
+    "move": "5\"",
+    "save": "5+",
+    "bravery": "6",
+    "missleWeapons": [
+      {
+        "name": "Blowpipe",
+        "range": "14\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Bilewood Weapons",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "MAGGOTKIN",
+      "NURGLE",
+      "MORTAL",
+      "NURGLE",
+      "CULTISTS",
+      "ROTMIRE",
+      "CREED"
+    ],
+    "pitchedBattleNotes": [
+      "Battleline in a <a href=\"/aos3/factions/maggotkin-of-nurgle/#Blessed-Sons\">Blessed Sons</a> army"
+    ]
+  },
+  {
+    "name": "Feculent Gnarlmaw",
+    "points": "0",
+    "unitSize": "",
+    "battlefieldRoles": [
+      "Faction Terrain Feature"
+    ],
+    "flavorText": "Wherever Nurgle’s armies gather, Feculent Gnarlmaws take root. These disgusting trees ring with the tolling of entropic chimes, and shed rot-wet blossom to carpet the befouled earth beneath their boughs.",
+    "description": "",
+    "wounds": "",
+    "move": "",
+    "save": "",
+    "bravery": "",
+    "missleWeapons": [],
+    "meleeWeapons": [],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [],
+    "pitchedBattleNotes": []
+  },
+  {
+    "name": "Plague Legion Overlord",
+    "points": "",
+    "unitSize": "",
+    "battlefieldRoles": [],
+    "flavorText": "",
+    "description": "",
+    "wounds": "",
+    "move": "",
+    "save": "",
+    "bravery": "",
+    "missleWeapons": [],
+    "meleeWeapons": [],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [],
+    "pitchedBattleNotes": []
+  },
+  {
+    "name": "Rancid Retinue",
+    "points": "",
+    "unitSize": "",
+    "battlefieldRoles": [],
+    "flavorText": "",
+    "description": "",
+    "wounds": "",
+    "move": "",
+    "save": "",
+    "bravery": "",
+    "missleWeapons": [],
+    "meleeWeapons": [],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [],
+    "pitchedBattleNotes": []
+  },
+  {
+    "name": "Tallyband of Nurgle",
+    "points": "",
+    "unitSize": "",
+    "battlefieldRoles": [],
+    "flavorText": "",
+    "description": "",
+    "wounds": "",
+    "move": "",
+    "save": "",
+    "bravery": "",
+    "missleWeapons": [],
+    "meleeWeapons": [],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [],
+    "pitchedBattleNotes": []
+  },
+  {
+    "name": "Contagium Overlord",
+    "points": "",
+    "unitSize": "",
+    "battlefieldRoles": [],
+    "flavorText": "",
+    "description": "",
+    "wounds": "",
+    "move": "",
+    "save": "",
+    "bravery": "",
+    "missleWeapons": [],
+    "meleeWeapons": [],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [],
+    "pitchedBattleNotes": []
+  },
+  {
+    "name": "Affliction Cyst",
+    "points": "",
+    "unitSize": "",
+    "battlefieldRoles": [],
+    "flavorText": "",
+    "description": "",
+    "wounds": "",
+    "move": "",
+    "save": "",
+    "bravery": "",
+    "missleWeapons": [],
+    "meleeWeapons": [],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [],
+    "pitchedBattleNotes": []
+  },
+  {
+    "name": "Blight Cyst",
+    "points": "",
+    "unitSize": "",
+    "battlefieldRoles": [],
+    "flavorText": "",
+    "description": "",
+    "wounds": "",
+    "move": "",
+    "save": "",
+    "bravery": "",
+    "missleWeapons": [],
+    "meleeWeapons": [],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [],
+    "pitchedBattleNotes": []
+  },
+  {
+    "name": "Plague Cyst",
+    "points": "",
+    "unitSize": "",
+    "battlefieldRoles": [],
+    "flavorText": "",
+    "description": "",
+    "wounds": "",
+    "move": "",
+    "save": "",
+    "bravery": "",
+    "missleWeapons": [],
+    "meleeWeapons": [],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [],
+    "pitchedBattleNotes": []
+  }
+]

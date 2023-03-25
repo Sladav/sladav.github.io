@@ -1,0 +1,3347 @@
+[
+  {
+    "name": "Bloodthirster of Insensate Rage",
+    "points": "280",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader",
+      "Behemoth"
+    ],
+    "flavorText": "A Bloodthirster of Insensate Rage is a force of supreme carnage upon the battlefield, charging forwards with horrific momentum to shatter entire formations with the force of its impact before carving a ruinous path through the survivors.",
+    "description": "A Bloodthirster of Insensate Rage is a single model armed with a Great Axe of Khorne.",
+    "wounds": "14",
+    "move": "✹",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Great Axe of Khorne",
+        "range": "2\"",
+        "attacks": "✹",
+        "toHit": "4+",
+        "toWound": "2+",
+        "rend": "-2",
+        "damage": "D6"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "FLY",
+        "description": "This model can fly."
+      }
+    ],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-3",
+        "move": "10''",
+        "greatAxeOfKhorne": "5",
+        "outrageousCarnage": "4 mortal wounds"
+      },
+      {
+        "woundsSuffered": "4-6",
+        "move": "9''",
+        "greatAxeOfKhorne": "5",
+        "outrageousCarnage": "3 mortal wounds"
+      },
+      {
+        "woundsSuffered": "7-9",
+        "move": "8''",
+        "greatAxeOfKhorne": "4",
+        "outrageousCarnage": "2 mortal wounds"
+      },
+      {
+        "woundsSuffered": "10-12",
+        "move": "7''",
+        "greatAxeOfKhorne": "4",
+        "outrageousCarnage": "1 mortal wounds"
+      },
+      {}
+    ],
+    "abilities": [
+      {
+        "name": "Outrageous Carnage",
+        "flavorText": "The Great Axe of Khorne strikes with the boundless rage of the Blood God himself.",
+        "description": "If the unmodified wound roll for an attack made by this model is 6, each enemy unit within 8\" of this model suffers the number of mortal wounds shown on the damage table above, in addition to any normal damage."
+      },
+      {
+        "name": "Rage Unbound",
+        "flavorText": "Corpses fly as this enraged daemon collides with the enemy.",
+        "description": "You can re-roll hit rolls of 1 for attacks made by this model if it made a charge move in the same turn."
+      },
+      {
+        "name": "Bloodthirsty Charge",
+        "flavorText": "The land quakes as this mighty Bloodthirster leads its daemon kin into the inferno of battle.",
+        "description": "You can use this command ability at the start of your charge phase. If you do so, pick a friendly model with this command ability. Until the end of that phase, you can re-roll charge rolls for friendly KHORNE DAEMON units wholly within 16\" of that model when the charge roll is made."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "BLADES",
+      "KHORNE",
+      "DAEMON",
+      "GREATER",
+      "DAEMON",
+      "BLOODTHIRSTER",
+      "KHORNE",
+      "MONSTER",
+      "HERO",
+      "BLOODTHIRSTER",
+      "INSENSATE",
+      "RAGE"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "120 x 92mm"
+  },
+  {
+    "name": "Bloodthirster of Unfettered Fury",
+    "points": "295",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader",
+      "Behemoth"
+    ],
+    "flavorText": "As the Bloodthirster of Unfettered Fury stalks forwards, its whip lashing out to strip flesh from bone, the very earth bleeds beneath its smouldering hooves, causing gouts of molten rock to incinerate all who dare to oppose the unholy terror before them.",
+    "description": "A Bloodthirster of Unfettered Fury is a single model armed with a Lash of Khorne and a Mighty Axe of Khorne.",
+    "wounds": "14",
+    "move": "✹",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [
+      {
+        "name": "Lash of Khorne",
+        "range": "12\"",
+        "attacks": "✹",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Mighty Axe of Khorne",
+        "range": "2\"",
+        "attacks": "6",
+        "toHit": "3+",
+        "toWound": "✹",
+        "rend": "-2",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "FLY",
+        "description": "This model can fly."
+      }
+    ],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-3",
+        "move": "10''",
+        "lashOfKhorne": "4",
+        "mightyAxeOfKhorne": "2+"
+      },
+      {
+        "woundsSuffered": "4-6",
+        "move": "9''",
+        "lashOfKhorne": "4",
+        "mightyAxeOfKhorne": "3+"
+      },
+      {
+        "woundsSuffered": "7-9",
+        "move": "8''",
+        "lashOfKhorne": "3",
+        "mightyAxeOfKhorne": "3+"
+      },
+      {
+        "woundsSuffered": "10-12",
+        "move": "7''",
+        "lashOfKhorne": "3",
+        "mightyAxeOfKhorne": "4+"
+      },
+      {}
+    ],
+    "abilities": [
+      {
+        "name": "Drawn in for the Kill",
+        "flavorText": "Those not immediately slain by the lacerations inflicted by a Bloodthirster’s whip may find themselves ensnared by its cruel barbs, rendering escape impossible.",
+        "description": "At the start of the enemy movement phase, pick 1 enemy unit within 3\" of this model. That unit cannot retreat in that phase."
+      },
+      {
+        "name": "The Land Rebels",
+        "flavorText": "The ground around a Bloodthirster of Unfettered Fury becomes cracked and broken beneath its stomping hooves, causing molten rock to bubble up from deep below.",
+        "description": "At the start of your hero phase, roll 1 dice for each enemy unit wholly within 8\" of any units with this ability. On a 5+ that unit suffers 1 mortal wound."
+      },
+      {
+        "name": "Rejoice in the Slaughter",
+        "flavorText": "A Bloodthirster of Unfettered Fury is an unsubtle leader, driving its subjects into the enemy in great numbers.",
+        "description": "You can use this command ability at the start of the combat phase. If you do so, pick a friendly model with this command ability. Until the end of that combat phase friendly KHORNE DAEMON units wholly within 16\" of that model are eligible to fight in that combat phase if they are within 6\" of an enemy unit instead of 3\", and can move an extra 3\" when they pile in."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "BLADES",
+      "KHORNE",
+      "DAEMON",
+      "GREATER",
+      "DAEMON",
+      "BLOODTHIRSTER",
+      "KHORNE",
+      "MONSTER",
+      "HERO",
+      "BLOODTHIRSTER",
+      "UNFETTERED",
+      "FURY"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "120 x 92mm"
+  },
+  {
+    "name": "Skarbrand",
+    "points": "380",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader",
+      "Behemoth"
+    ],
+    "flavorText": "A daemonic engine of destruction like no other, Skarbrand carves a red road of ruin across the battlefield. His bellowing roars cause the blood to boil in his enemies’ veins, and his twin axes create a rain of gore with every almighty swing.",
+    "description": "Skarbrand is a named character that is a single model. He is armed with Slaughter, Carnage and a Roar of Total Rage.",
+    "wounds": "14",
+    "move": "8\"",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [
+      {
+        "name": "Roar of Total Rage",
+        "range": "8\"",
+        "attacks": "See below",
+        "toHit": "",
+        "toWound": "",
+        "rend": "",
+        "damage": ""
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Slaughter",
+        "range": "2\"",
+        "attacks": "✹",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "3"
+      },
+      {
+        "name": "Carnage",
+        "range": "2\"",
+        "attacks": "1",
+        "toHit": "See below",
+        "toWound": "",
+        "rend": "",
+        "damage": ""
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-3",
+        "roarOfTotalRage": "1",
+        "slaughter": "5",
+        "carnage": "5+"
+      },
+      {
+        "woundsSuffered": "4-6",
+        "roarOfTotalRage": "2",
+        "slaughter": "6",
+        "carnage": "4+"
+      },
+      {
+        "woundsSuffered": "7-9",
+        "roarOfTotalRage": "3",
+        "slaughter": "7",
+        "carnage": "3+"
+      },
+      {
+        "woundsSuffered": "10-12",
+        "roarOfTotalRage": "4",
+        "slaughter": "8",
+        "carnage": "2+"
+      },
+      {}
+    ],
+    "abilities": [
+      {
+        "name": "Roar of Total Rage",
+        "flavorText": "When Skarbrand roars, his anger breaks the bounds of reason, causing the blood of those near him to boil in their veins, or their heads to explode with apocalyptic fury.",
+        "description": "Do not use the attack sequence for an attack made with the Roar of Total Rage. Instead, pick 1 enemy unit that is in range of the attack and roll the number of dice shown on the damage table above. For each 4+ that enemy unit suffers 1 mortal wound."
+      },
+      {
+        "name": "Skarbrand’s Rage",
+        "flavorText": "Skarbrand’s infamous fury cannot be quenched. Attacking him only serves to stoke his anger, and his wrath rises to an inferno whenever violence is denied to him.",
+        "description": "From the second battle round, if this model is on the battlefield and did not attack in at least one of the combat phases of the previous battle round, when you look up a value on this model’s damage table the model is treated as having suffered 13 wounds."
+      },
+      {
+        "name": "Total Carnage",
+        "flavorText": "The axe Carnage contains the trapped soul of a mighty Bloodthirster slain by Skarbrand, which exacts its catastrophic revenge on the weapon’s least fortunate victims.",
+        "description": "Do not use the attack sequence for an attack made with Carnage. Instead, roll a dice. The target unit suffers 8 mortal wounds if the roll is equal to or greater than the Carnage value shown on the damage table above. If the roll is 6, the target unit suffers 16 mortal wounds instead."
+      },
+      {
+        "name": "Inescapable Wrath",
+        "flavorText": "Though Skarbrand’s wings are now torn and ragged, little is safe from his rampages.",
+        "description": "You can re-roll charge rolls for this model."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "BLADES",
+      "KHORNE",
+      "DAEMON",
+      "GREATER",
+      "DAEMON",
+      "BLOODTHIRSTER",
+      "KHORNE",
+      "MONSTER",
+      "HERO",
+      "SKARBRAND"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ],
+    "baseSize": "100mm"
+  },
+  {
+    "name": "Wrath of Khorne Bloodthirster",
+    "points": "310",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader",
+      "Behemoth"
+    ],
+    "flavorText": "Wrath of Khorne Bloodthirsters are the Lord of Battle’s agents of vengeance, sent to claim the skulls of those who have offended him. With hellforged weapons and breaths of purest hellfire they law low their quarry, slicing and melting flesh from bone.",
+    "description": "A Wrath of Khorne Bloodthirster is a single model armed with Hellfire Breath, a Bloodflail and a Mighty Axe of Khorne.",
+    "wounds": "14",
+    "move": "✹",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [
+      {
+        "name": "Hellfire Breath",
+        "range": "8\"",
+        "attacks": "1",
+        "toHit": "See below",
+        "toWound": "",
+        "rend": "",
+        "damage": ""
+      },
+      {
+        "name": "Bloodflail",
+        "range": "12\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "✹"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Mighty Axe of Khorne",
+        "range": "2\"",
+        "attacks": "6",
+        "toHit": "3+",
+        "toWound": "✹",
+        "rend": "-2",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "FLY",
+        "description": "This model can fly."
+      }
+    ],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-3",
+        "move": "10''",
+        "bloodflail": "6",
+        "mightyAxeOfKhorne": "2+"
+      },
+      {
+        "woundsSuffered": "4-6",
+        "move": "9''",
+        "bloodflail": "3",
+        "mightyAxeOfKhorne": "3+"
+      },
+      {
+        "woundsSuffered": "7-9",
+        "move": "8''",
+        "bloodflail": "3",
+        "mightyAxeOfKhorne": "3+"
+      },
+      {
+        "woundsSuffered": "10-12",
+        "move": "7''",
+        "bloodflail": "D3",
+        "mightyAxeOfKhorne": "4+"
+      },
+      {}
+    ],
+    "abilities": [
+      {
+        "name": "Hellfire Breath",
+        "flavorText": "Spewing flame from its maw, the daemon incinerates nearby foes, leaving only charred skeletons behind.",
+        "description": "Do not use the attack sequence for an attack made with Hellfire Breath. Instead, pick an enemy unit that is in range of the attack and roll a dice. On a 2+ that unit suffers D3 mortal wounds."
+      },
+      {
+        "name": "Relentless Hunter",
+        "flavorText": "Those unfortunate enough to have earned Khorne’s ire tend to be renowned champions of their people – the daemon sent to exact the Lord of Battle’s vengeance is well accustomed to slaying their kind.",
+        "description": "You can re-roll hit rolls for attacks made by this model that target a HERO or MONSTER."
+      },
+      {
+        "name": "Rune-crown of Khorne",
+        "flavorText": "Gifted only to the most exalted denizens of the Blood God’s realm, runecrowns emanate a potent anti-magical aura.",
+        "description": "This model can attempt to unbind one spell in the enemy hero phase as if it were a WIZARD. In addition, add 2 to unbinding rolls for this model. In addition, this model can attempt to dispel one endless spell at the start of your hero phase in the same manner as a WIZARD."
+      },
+      {
+        "name": "Lord of the Blood Hunt",
+        "flavorText": "Like the sounding of a great brazen horn, this Bloodthirster’s furious roar launches a murderous blood hunt.",
+        "description": "You can use this command ability at the start of the combat phase. If you do so, pick 1 friendly KHORNE DAEMON unit wholly within 16\" of a friendly model with this command ability. Until the end of the phase you can re-roll hit rolls for attacks made by that unit."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "BLADES",
+      "KHORNE",
+      "DAEMON",
+      "GREATER",
+      "DAEMON",
+      "BLOODTHIRSTER",
+      "KHORNE",
+      "MONSTER",
+      "HERO",
+      "WRATH",
+      "KHORNE",
+      "BLOODTHIRSTER"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "120 x 92mm"
+  },
+  {
+    "name": "Archaon the Everchosen",
+    "points": "860",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader",
+      "Behemoth"
+    ],
+    "flavorText": "Archaon is the Everchosen, the favoured warlord of the Dark Pantheon. From atop Dorghar, the monstrous Steed of the Apocalypse, Archaon commands his legions with an iron fist, his deadly skill and unholy powers sealing the doom of entire armies.",
+    "description": "",
+    "wounds": "20",
+    "move": "✹",
+    "save": "3+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "The Slayer of Kings",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "2+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "3"
+      },
+      {
+        "name": "Monstrous Claws",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "2+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "D6"
+      },
+      {
+        "name": "Lashing Tails",
+        "range": "3\"",
+        "attacks": "2D6",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Three Heads",
+        "range": "3\"",
+        "attacks": "✹",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-8",
+        "move": "14\"",
+        "threeHeads": "6"
+      },
+      {
+        "woundsSuffered": "9-11",
+        "move": "12\"",
+        "threeHeads": "5"
+      },
+      {
+        "woundsSuffered": "12-15",
+        "move": "10\"",
+        "threeHeads": "4"
+      },
+      {}
+    ],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "SLAVES",
+      "DARKNESS",
+      "HOST",
+      "EVERCHOSEN",
+      "UNDIVIDED",
+      "KHORNE",
+      "TZEENTCH",
+      "NURGLE",
+      "SLAANESH",
+      "DAEMON",
+      "MORTAL",
+      "HERO",
+      "MONSTER",
+      "WIZARD",
+      "ARCHAON"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ],
+    "baseSize": "160mm"
+  },
+  {
+    "name": "Exalted Greater Daemon of Khorne",
+    "points": "580",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader",
+      "Behemoth"
+    ],
+    "flavorText": "Exalted Greater Daemons of Khorne are the largest and most furious of the Blood God’s servants. Armed with weapons shaped in the fires of their patron’s forges, they butcher their way through rank after rank of enemies, leaving great rivers of gore in their wake.",
+    "description": "An Exalted Greater Daemon of Khorne is armed with a Lash of Khorne and Mighty Axe of Khorne.",
+    "wounds": "20",
+    "move": "✹",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [
+      {
+        "name": "Lash of Khorne",
+        "range": "8\"",
+        "attacks": "✹",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Mighty Axe of Khorne",
+        "range": "2\"",
+        "attacks": "8",
+        "toHit": "3+",
+        "toWound": "✹",
+        "rend": "-2",
+        "damage": "3"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "FLY",
+        "description": "This model can fly."
+      }
+    ],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-8",
+        "move": "12\"",
+        "lashOfKhorne": "6",
+        "mightyAxeOfKhorne": "2+"
+      },
+      {
+        "woundsSuffered": "9-12",
+        "move": "10\"",
+        "lashOfKhorne": "5",
+        "mightyAxeOfKhorne": "2+"
+      },
+      {
+        "woundsSuffered": "13-16",
+        "move": "9\"",
+        "lashOfKhorne": "4",
+        "mightyAxeOfKhorne": "3+"
+      },
+      {}
+    ],
+    "abilities": [
+      {
+        "name": "Drawn in for the Kill",
+        "flavorText": "Bloodthirsters often use their barbed lashes to entangle their opponents, rendering escape impossible.",
+        "description": "At the start of the enemy movement phase, pick 1 enemy unit within 3\" of this model. That unit cannot retreat in that phase."
+      },
+      {
+        "name": "The Land Rebels",
+        "flavorText": "The ground around an Exalted Greater Daemon of Khorne becomes cracked and broken beneath its stomping hooves, causing molten rock to bubble up from deep below.",
+        "description": "At the start of your hero phase, roll a dice for each enemy unit within 8\" of any friendly models with this ability. On a 5+, that enemy unit suffers 1 mortal wound."
+      },
+      {
+        "name": "Rejoice in Exalted Slaughter",
+        "flavorText": "An Exalted Greater Daemon of Khorne is an unsubtle leader, driving its subjects towards the enemy in great numbers.",
+        "description": "You can use this command ability at the start of the combat phase. The command must be issued by this model and received by a friendly KHORNE DAEMON unit. In that combat phase, the unit that receives the command is eligible to fight if it is within 6\" of an enemy unit instead of 3\", and models from that unit can move an extra 3\" when they pile in."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "KHORNE",
+      "BLADES",
+      "KHORNE",
+      "DAEMON",
+      "BLOODTHIRSTER",
+      "MONSTER",
+      "HERO",
+      "EXALTED",
+      "GREATER",
+      "DAEMON",
+      "KHORNE"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "160mm"
+  },
+  {
+    "name": "Skaarac the Bloodborn",
+    "points": "455",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader",
+      "Behemoth"
+    ],
+    "flavorText": "A creature of endless hate and brutality, Skaarac the Bloodborn is a beast of legend among the devoted of Khorne. If slain, his body is simply reformed in Khorne’s charnel pits so that his undying rage can be loosed once more upon the Mortal Realms.",
+    "description": "Skaarac the Bloodborn is armed with Burning Blood, Brutal Blades and Thunderous Hooves.",
+    "wounds": "16",
+    "move": "✹",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [
+      {
+        "name": "Burning Blood",
+        "range": "8\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "✹",
+        "rend": "-",
+        "damage": "D6"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Brutal Blades",
+        "range": "2\"",
+        "attacks": "✹",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "2"
+      },
+      {
+        "name": "Thunderous Hooves",
+        "range": "1\"",
+        "attacks": "6",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-7",
+        "move": "10\"",
+        "burningBlood": "3+",
+        "brutalBlades": "8"
+      },
+      {
+        "woundsSuffered": "8-10",
+        "move": "9\"",
+        "burningBlood": "3+",
+        "brutalBlades": "7"
+      },
+      {
+        "woundsSuffered": "11-13",
+        "move": "8\"",
+        "burningBlood": "4+",
+        "brutalBlades": "6"
+      },
+      {}
+    ],
+    "abilities": [
+      {
+        "name": "Life-eater",
+        "flavorText": "Skaarac is a creature fuelled by bloodshed, his wounds closing as the blood of his foes washes over him.",
+        "description": "At the end of the combat phase, if any enemy models were slain by wounds inflicted by this model’s attacks in that combat phase, you can heal up to D3 wounds allocated to this model."
+      },
+      {
+        "name": "Infernal Iron",
+        "flavorText": "Clad in armour blessed by Khorne himself, the air around Skaarac warps and writhes, twisting the winds of magic into an uncontrollable maelstrom.",
+        "description": "Subtract 2 from casting rolls for enemy WIZARDS while they are within 12\" of this model."
+      },
+      {
+        "name": "Towering Horror",
+        "flavorText": "A creature of sheer malice possessing an unquenchable lust for death, Skaarac’s very presence shatters the courage of all around him.",
+        "description": "Subtract 1 from the Bravery characteristic of enemy units while they are within 12\" of this model."
+      },
+      {
+        "name": "Undying Hate",
+        "flavorText": "Should Skaarac’s mortal form be slain, it disappears in a torrent of scalding blood and blazing soul-fire.",
+        "description": "If this model is slain, before removing it from play, roll a dice for each enemy model within 3\" of this model. On a 4+, that model’s unit suffers 1 mortal wound. This model is then removed from play."
+      },
+      {
+        "name": "Call of the Skull Throne",
+        "flavorText": "Skaarac’s very being is driven by the need to spill blood in Khorne’s name. This singular desire overwhelms those around him, lending speed to their limbs as they race towards their foes.",
+        "description": "Add 1 to charge rolls for friendly KHORNE units that are wholly within 12\" of this model."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "KHORNE",
+      "BLADES",
+      "KHORNE",
+      "BLOODBOUND",
+      "MONSTER",
+      "HERO",
+      "SKAARAC",
+      "BLOODBORN"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ],
+    "baseSize": "160mm"
+  },
+  {
+    "name": "Vorgaroth the Scarred on Skalok the Skull Host of Khorne",
+    "points": "1250",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader",
+      "Behemoth"
+    ],
+    "flavorText": "Legends speak of the slaughter unleashed by Vorgaroth and Skalok, and together they have carved a bloody path of destruction and carnage across the Mortal Realms. The number of their victims is now beyond measure, a colossal tower of skulls claimed for the Blood God.",
+    "description": "Vorgaroth the Scarred is armed with the Skull Cleaver Axe of Khorne.",
+    "wounds": "30",
+    "move": "✹",
+    "save": "3+",
+    "bravery": "10",
+    "missleWeapons": [
+      {
+        "name": "White-hot Balefire",
+        "range": "20\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "2+",
+        "rend": "-3",
+        "damage": "D6"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Skull Cleaver Axe of Khorne",
+        "range": "1\"",
+        "attacks": "12",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "2"
+      },
+      {
+        "name": "Eviscerating Claws",
+        "range": "3\"",
+        "attacks": "D6",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "✹",
+        "damage": "3"
+      },
+      {
+        "name": "Cavernous Jaws",
+        "range": "3\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "✹",
+        "rend": "-2",
+        "damage": "3"
+      },
+      {
+        "name": "Brass-plated Tail",
+        "range": "3\"",
+        "attacks": "✹",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "3"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "FLY",
+        "description": "This model can fly."
+      },
+      {
+        "name": "MOUNT",
+        "description": "Skalok the Skull Host of Khorne is armed with White-hot Balefire, Eviscerating Claws, Cavernous Jaws and a Brass-plated Tail."
+      }
+    ],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-15",
+        "move": "14\"",
+        "evisceratingClaws": "-3",
+        "cavernousJaws": "2+",
+        "brassPlatedTail": "3D6"
+      },
+      {
+        "woundsSuffered": "16-20",
+        "move": "11\"",
+        "evisceratingClaws": "-3",
+        "cavernousJaws": "3+",
+        "brassPlatedTail": "2D6"
+      },
+      {
+        "woundsSuffered": "21-25",
+        "move": "10\"",
+        "evisceratingClaws": "-2",
+        "cavernousJaws": "4+",
+        "brassPlatedTail": "D6"
+      },
+      {}
+    ],
+    "abilities": [
+      {
+        "name": "Monstrous Trophies",
+        "flavorText": "Believing only the greatest of beasts can hope to challenge his might, Vorgaroth hunts the realms, seeking out the mightiest with which to do battle.",
+        "description": "Add 1 to wound rolls for attacks made with this model’s Skull Cleaver Axe of Khorne that target a MONSTER. In addition, if the unmodified wound roll for an attack made with the Skull Cleaver Axe of Khorne is 6, that attack causes D3 mortal wounds to the target in addition to any damage it inflicts."
+      },
+      {
+        "name": "Crushing Bulk",
+        "flavorText": "Possessing a speed at odds with her immense size, even the nimblest of warriors may be crushed underfoot when Skalok charges.",
+        "description": "Roll a dice for each enemy unit that is within 1\" of this model after this model makes a charge move. On a 2+, that unit suffers D3 mortal wounds."
+      },
+      {
+        "name": "Eternal Hunt",
+        "flavorText": "Vorgaroth and Skalok soar through the skies high above the Mortal Realms, everwatchful for any sign of bloodshed. Wherever battle may be found, they swoop down, bringing death and destruction to all who stand in their way.",
+        "description": "Instead of setting up this model on the battlefield, you can place it to one side and say that it is in reserve. If you do so, at the end of your second movement phase, you must set up this model anywhere on the battlefield more than 9\" from all enemy units."
+      },
+      {
+        "name": "Fettered Servitude",
+        "flavorText": "Vorgaroth demands unwavering obedience from any of Khorne’s followers that are in his presence, and will severely punish any warriors who show the slightest sign of fear.",
+        "description": "Once per battleshock phase, before you take a battleshock test for a friendly KHORNE unit wholly within 12\" of this model, you can say that this model demands unwavering obedience. If you do so, 1 model in that unit is slain, but you do not have to take a battleshock test for that unit in that phase."
+      },
+      {
+        "name": "Fuelled by Death",
+        "flavorText": "When battle is joined, the servants of Khorne are overcome with a murderous rage. Such fury sweetens their blood, strengthening Skalok with each ally she devours.",
+        "description": "In your hero phase, you can pick 1 friendly model within 3\" of this model and roll a dice. If you do so and the roll is equal to or greater than that model’s Wounds characteristic, that model is slain and you can heal a number of wounds allocated to this model equal to the slain model’s Wounds characteristic."
+      },
+      {
+        "name": "Wings of Fury",
+        "flavorText": "Each beat of Skalok’s great wings disrupts the balance of ambient magical energies.",
+        "description": "Subtract 3 from casting and unbinding rolls for enemy WIZARDS that are within 18\" of this model."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "KHORNE",
+      "BLADES",
+      "KHORNE",
+      "MORTAL",
+      "BLOODBOUND",
+      "HERO",
+      "MONSTER",
+      "VORGAROTH",
+      "SCARRED"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ]
+  },
+  {
+    "name": "Aspiring Deathbringer",
+    "points": "80",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Through constant battle and unremitting slaughter, an Aspiring Deathbringer fights his way to glory. Even as his axe bites through flesh, the fell champion screams the Blood God’s praise, urging the Bloodbound to overrun the enemy and carve them apart.",
+    "description": "An Aspiring Deathbringer is a single model armed with one of the following weapon options: Bloodaxe and Wrath-hammer; or Goreaxe and Skullhammer.",
+    "wounds": "5",
+    "move": "5\"",
+    "save": "4+",
+    "bravery": "7",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Bloodaxe",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Wrath-hammer",
+        "range": "3\"",
+        "attacks": "D3",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Goreaxe",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Skullhammer",
+        "range": "3\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Bane of Cowards",
+        "flavorText": "Nothing infuriates this champion more than foes too cowardly to fight.",
+        "description": "If an enemy unit fails a battleshock test within 3\" of this model, add D3 to the number of models that flee."
+      },
+      {
+        "name": "Slaughter Incarnate",
+        "flavorText": "Even as his axe bites through the flesh of his foes, the fell champion screams the Blood God’s praise, urging the Bloodbound to overrun the enemy and carve them apart in the name of Khorne.",
+        "description": "You can use this command ability at the start of the combat phase. If you do so, pick a friendly model with this command ability. Until the end of that phase, add 1 to the Attacks characteristic of melee weapons used by friendly KHORNE MORTAL units while they are wholly within 12\" of that model. A unit cannot benefit from this command ability more than once per phase."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "BLADES",
+      "KHORNE",
+      "MORTAL",
+      "KHORNE",
+      "BLOODBOUND",
+      "HERO",
+      "ASPIRING",
+      "DEATHBRINGER"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ]
+  },
+  {
+    "name": "Bloodmaster Herald of Khorne",
+    "points": "85",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Each swing of the Bloodmaster’s blade opens throats and splits torsos, while truly worthy victims find their heads severed from their bodies. Around the Herald, the Bloodletters of Khorne fight all the harder, driven to a frenzy by his murderous aura.",
+    "description": "A Bloodmaster, Herald of Khorne is a single model armed with a Blade of Blood.",
+    "wounds": "5",
+    "move": "5\"",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Blade of Blood",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Decapitating Blow",
+        "flavorText": "There are few weapons so feared as the hellforged blades of the Bloodletters.",
+        "description": "If the unmodified hit roll for an attack made with a Blade of Blood is 6, that attack inflicts 1 mortal wound on the target in addition to any normal damage."
+      },
+      {
+        "name": "The Blood Must Flow",
+        "flavorText": "Rallied by this Herald’s bloody example, Khorne’s lesser daemons leap into combat.",
+        "description": "In the combat phase, after this unit has fought in that combat phase for the first time, you can pick 1 friendly BLOODLETTER unit that is wholly within 12\" of this model and is within 3\" of an enemy unit, and which has not yet fought in that combat phase. The unit you pick must fight immediately, instead of being picked to fight later in that combat phase."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "BLADES",
+      "KHORNE",
+      "DAEMON",
+      "BLOODLETTER",
+      "KHORNE",
+      "HERO",
+      "HERALD",
+      "KHORNE",
+      "BLOODMASTER"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "40mm"
+  },
+  {
+    "name": "Bloodsecrator",
+    "points": "125",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Howling in rage, the Bloodsecrator hacks and smashes his way through the foe with his icon of Khorne held high. This grim standard channels the wrathful energies of the Blood God’s domain, infusing the Bloodbound and undoing sorcerous works.",
+    "description": "A Bloodsecrator is a single model armed with an Ensorcelled Axe.",
+    "wounds": "5",
+    "move": "4\"",
+    "save": "3+",
+    "bravery": "9",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Ensorcelled Axe",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Loathsome Sorcery",
+        "flavorText": "Khorne’s hatred of sorcery roils forth from the icons carried by his Bloodsecrators, filling any spellcasters nearby with dread.",
+        "description": "Re-roll successful casting rolls for WIZARDS within 16\" of this model, before any unbinding rolls are made."
+      },
+      {
+        "name": "Rage of Khorne",
+        "flavorText": "A fiery gateway opens above the Bloodsecrator’s icon, flooding the battlefield with the violent energies of Khorne’s hellish domain.",
+        "description": "Add 1 to the Attacks characteristic of melee weapons used by friendly KHORNE units while they are wholly within 16\" of any models with this ability."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "BLADES",
+      "KHORNE",
+      "MORTAL",
+      "KHORNE",
+      "BLOODBOUND",
+      "HERO",
+      "TOTEM",
+      "BLOODSECRATOR"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Bloodstoker",
+    "points": "80",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Every whip-crack of the Bloodstoker’s expertly plied lash builds the battle-frenzy of those around him, their screams of hatred and fury echoing across the battlefield as they hurl themselves at the foe with wrathful abandon.",
+    "description": "A Bloodstoker is a single model armed with a Torture Blade and Blood Whip.",
+    "wounds": "5",
+    "move": "6\"",
+    "save": "4+",
+    "bravery": "8",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Torture Blade",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Blood Whip",
+        "range": "3\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Whipped to Fury",
+        "flavorText": "The ferocious bite of a Bloodstoker’s lash reminds every Khorne follower of the bloody dues their master expects.",
+        "description": "At the start of your movement phase, you can pick 1 other friendly KHORNE MORTAL unit wholly within 8\" of this model. Until your next movement phase, you can add 3\" to run and charge rolls made for that unit. In addition, until your next movement phase you can re-roll wound rolls for attacks made by that unit. A unit cannot be picked to benefit from this ability more than once per turn."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "BLADES",
+      "KHORNE",
+      "MORTAL",
+      "KHORNE",
+      "BLOODBOUND",
+      "HERO",
+      "BLOODSTOKER"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "40mm"
+  },
+  {
+    "name": "Exalted Deathbringer",
+    "points": "80",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Exalted Deathbringers fight to scale the final heights of glory, hewing bloody handholds for their ascent with every worthy foe they butcher. Each is a whirlwind of violence amidst the madness of battle, leaving nothing but twitching corpses in their wake.",
+    "description": "An Exalted Deathbringer is a single model armed with one of the following weapon options: Ruinous Axe and Skullgouger; Bloodbite Axe and Runemarked Shield; or Impaling Spear.",
+    "wounds": "5",
+    "move": "5\"",
+    "save": "4+",
+    "bravery": "8",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Ruinous Axe",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      },
+      {
+        "name": "Bloodbite Axe",
+        "range": "1\"",
+        "attacks": "6",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Impaling Spear",
+        "range": "2\"",
+        "attacks": "5",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Blooded Lieutenant",
+        "flavorText": "Glory is best earned within sight of the mighty, and opportunity best seized within sight of their defeat.",
+        "description": "If this model is not your general, add 2 to the Attacks characteristic of this model’s melee weapons while it is wholly within 12\" of a friendly KHORNE general."
+      },
+      {
+        "name": "Runemarked Shield",
+        "flavorText": "Magic’s craven hand recoils from this shield’s battle-worn surface.",
+        "description": "Roll a dice each time you allocate a wound or mortal wound to a model armed with a Runemarked Shield that was inflicted by a spell. On a 2+ that wound or mortal wound is negated."
+      },
+      {
+        "name": "Skullgouger",
+        "flavorText": "This bladed vambrace can turn aside enemy attacks and deliver brutal counterblows.",
+        "description": "In the combat phase, if the unmodified save roll for an attack that targets a model armed with a Skullgouger is 6, the attacking unit suffers D3 mortal wounds after all of its attacks have been resolved."
+      },
+      {
+        "name": "Brutal Impalement",
+        "flavorText": "With well-aimed thrusts of an impaling spear, an Exalted Deathbringer can skewer his victim and raise them into the air as a gory, helpless trophy.",
+        "description": "If the unmodified wound roll for an attack made with an Impaling Spear is 6, that attack inflicts D3 mortal wounds on the target in addition to any normal damage."
+      },
+      {
+        "name": "Brutal Command",
+        "flavorText": "Deathbringers will not tolerate cowardice from any quarter, and enforce discipline by whatever bloody means necessary.",
+        "description": "You can use this command ability at the start of the battleshock phase. If you do so, pick a friendly model with this command ability. Until the end of that phase, you do not have to take battleshock tests for friendly KHORNE MORTAL units that are wholly within 18\" of that model."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "BLADES",
+      "KHORNE",
+      "MORTAL",
+      "KHORNE",
+      "BLOODBOUND",
+      "HERO",
+      "EXALTED",
+      "DEATHBRINGER"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ]
+  },
+  {
+    "name": "Herald of Khorne on Blood Throne",
+    "points": "115",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "The Blood Throne roars into battle with its monstrous maw gaping wide, hungry for mortal flesh. Atop its dais, the Rendmaster bellows commands to his foot soldiers as he and his charioteers cut down any foes foolish enough to approach.",
+    "description": "A Herald of Khorne on Blood Throne is a single model armed with a Blade of Blood.",
+    "wounds": "7",
+    "move": "8\"",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Blade of Blood",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Hellblades",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Gnashing Maw",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "MOUNT",
+        "description": "This model’s Blood Throne attacks with its Gnashing Maw."
+      },
+      {
+        "name": "CREW",
+        "description": "This model has a Bloodletter crew that attack with their Hellblades. For rules purposes, the crew are treated in the same manner as a mount."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Gorefeast",
+        "flavorText": "The Blood Throne’s dark vitality increases with each mouthful of enemy flesh and bone.",
+        "description": "If any wounds are inflicted by this model’s Gnashing Maw and not negated, you can heal up to D3 wounds allocated to this model."
+      },
+      {
+        "name": "Decapitating Blow",
+        "flavorText": "There are few weapons so feared as the hellforged blades of the Bloodletters.",
+        "description": "If the unmodified hit roll for an attack made with a Blade of Blood or Hellblades is 6, that attack inflicts 1 mortal wound on the target in addition to any normal damage."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "BLADES",
+      "KHORNE",
+      "DAEMON",
+      "KHORNE",
+      "BLOODLETTER",
+      "HERO",
+      "TOTEM",
+      "HERALD",
+      "KHORNE",
+      "HERALD",
+      "KHORNE",
+      "BLOOD",
+      "THRONE"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "120 x 92mm"
+  },
+  {
+    "name": "Korghos Khul",
+    "points": "150",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Warlord of the legendary Goretide, Korghos Khul is rightly feared across the Mortal Realms. His campaigns of conquest and slaughter have earned him many boons from Khorne, principal amongst them the enormous Flesh Hound that fights by his side.",
+    "description": "Korghos Khul is a named character that is a single model. He is armed with an Axe of Khorne.",
+    "wounds": "6",
+    "move": "5\"",
+    "save": "3+",
+    "bravery": "9",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Axe of Khorne",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      },
+      {
+        "name": "Claws and Fangs",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "COMPANION",
+        "description": "Korghos Khul is accompanied by Grizzlemaw, who attacks with its Claws and Fangs. For rules purposes, Grizzlemaw is treated in the same manner as a mount."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Favoured of Khorne",
+        "flavorText": "Khul swings his deadly axe assured of the Blood God’s blessing.",
+        "description": "You can re-roll hit rolls for attacks made by this model."
+      },
+      {
+        "name": "Aqshy’s Bane",
+        "flavorText": "Not content to be feared for his past conquests, Khul embraces combat more eagerly than any other seasoned general.",
+        "description": "This model is eligible to fight in the combat phase if it is within 8\" of an enemy unit instead of 3\", and can move an extra 5\" when it piles in."
+      },
+      {
+        "name": "Collar of Khorne",
+        "flavorText": "Grizzlemaw’s spiked collar has dashed the designs of many sorcerous foes.",
+        "description": "This model can attempt to unbind one spell in the enemy hero phase in the same manner as a WIZARD. In addition, this model can attempt to dispel one endless spell at the start of your hero phase in the same manner as a WIZARD."
+      },
+      {
+        "name": "Reality-splitting Axe",
+        "flavorText": "With a thunderous boom the Axe of Khorne cleaves a rent in the fabric of reality, hurling the victim into the Blood God’s realm.",
+        "description": "At the end of any phase, if any wounds inflicted by this model’s Axe of Khorne in that phase were allocated to an enemy model and not negated, and that enemy model has not been slain, roll a dice. On a 5+ that enemy model is slain."
+      },
+      {
+        "name": "Lord of the Goretide",
+        "flavorText": "Khul’s indomitable will has led his Bloodbound Warhorde to greatness, and all his warriors are hungry to please him.",
+        "description": "You can use this command ability at the start of the combat phase. If you do so, pick a friendly model with this command ability that is a general. Until the end of that phase, you can re-roll hit rolls of 1 for attacks made by friendly GORETIDE units wholly within 16\" of that model."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "BLADES",
+      "KHORNE",
+      "MORTAL",
+      "KHORNE",
+      "BLOODBOUND",
+      "GORETIDE",
+      "HERO",
+      "MIGHTY",
+      "LORD",
+      "KHORNE",
+      "KORGHOS",
+      "KHUL"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ],
+    "baseSize": "60mm"
+  },
+  {
+    "name": "Lord of Khorne on Juggernaut",
+    "points": "140",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Already a terrifying opponent in his own right, a Khornate lord astride a Juggernaut is an unstoppable force of destruction. Foes are crushed or hacked apart in seconds, while the sheer momentum of his ruinous charge draws his warriors howling in his wake.",
+    "description": "A Lord of Khorne on Juggernaut is a single model armed with a Wrathforged Axe.",
+    "wounds": "8",
+    "move": "8\"",
+    "save": "3+",
+    "bravery": "9",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Wrathforged Axe",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      },
+      {
+        "name": "Brazen Hooves",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "MOUNT",
+        "description": "This model’s Juggernaut of Khorne attacks with its Brazen Hooves."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Brass-clad Shield",
+        "flavorText": "This brazen shield can turn aside spells that would slay champions.",
+        "description": "Roll a dice each time you allocate a wound or mortal wound to this model that was inflicted by a spell. On a 5+ that wound or mortal wound is negated."
+      },
+      {
+        "name": "Slaughterous Charge",
+        "flavorText": "The crushing mass and stamping hooves of Khorne’s Juggernauts are a threat to all in their path.",
+        "description": "After this model makes a charge move, you can pick 1 enemy unit within 1\" of it and roll a dice. On a 2+ that enemy unit suffers D3 mortal wounds."
+      },
+      {
+        "name": "Daemonic Axe",
+        "flavorText": "When its rage is stirred, the daemon bound within this axe awakens.",
+        "description": "If the unmodified wound roll for an attack made by this model’s Wrathforged Axe is 6, the Damage characteristic for that attack is 3 instead of D3."
+      },
+      {
+        "name": "Blood Stampede",
+        "flavorText": "Carnage erupts as the full force of a Khorne Warhorde collides with the enemy.",
+        "description": "You can use this command ability at the start of the combat phase. If you do so, pick up to 3 friendly KHORNE MORTAL units that made a charge move in that turn and are wholly within 16\" of a model with this command ability. You can re-roll wound rolls of 1 for attacks made by those units in that combat phase."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "BLADES",
+      "KHORNE",
+      "MORTAL",
+      "KHORNE",
+      "BLOODBOUND",
+      "HERO",
+      "LORD",
+      "KHORNE",
+      "JUGGERNAUT"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "90 x 52mm"
+  },
+  {
+    "name": "Mighty Lord of Khorne",
+    "points": "125",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Foes fall before the Mighty Lord of Khorne like wheat before a scythe. As his axe howls through the air its blade tears reality asunder, and at the lord’s bellowed command, his warriors redouble their efforts to slaughter their foes.",
+    "description": "A Mighty Lord of Khorne is a single model armed with an Axe of Khorne.",
+    "wounds": "6",
+    "move": "5\"",
+    "save": "3+",
+    "bravery": "9",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Axe of Khorne",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      },
+      {
+        "name": "Blood-dark Claws",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "COMPANION",
+        "description": "A Mighty Lord of Khorne is accompanied by a Flesh Hound that attacks with its Blood-dark Claws. For rules purposes, it is treated in the same manner as a mount."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Collar of Khorne",
+        "flavorText": "Spellcasters have learned to dread Flesh Hounds as much for their collars as for their claws.",
+        "description": "This model can attempt to unbind one spell in the enemy hero phase in the same manner as a WIZARD. In addition, this model can attempt to dispel one endless spell at the start of your hero phase in the same manner as a WIZARD."
+      },
+      {
+        "name": "Reality-splitting Axe",
+        "flavorText": "With a thunderous boom the Axe of Khorne cleaves a rent in the fabric of reality, hurling the victim into the Blood God’s realm.",
+        "description": "At the end of any phase, if any wounds inflicted by the Axe of Khorne in that phase were allocated to an enemy model and not negated, and that enemy model has not been slain, roll a dice. On a 5+ that enemy model is slain."
+      },
+      {
+        "name": "Gorelord",
+        "flavorText": "Axe held aloft, this warlord orders his fighters forwards like hunting hounds unleashed.",
+        "description": "You can use this command ability at the start of the charge phase. If you do so, pick a friendly model with this command ability. Until the end of that phase, you can re-roll charge rolls for friendly KHORNE MORTAL units wholly within 16\" of that model when the charge roll is made."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "BLADES",
+      "KHORNE",
+      "MORTAL",
+      "KHORNE",
+      "BLOODBOUND",
+      "HERO",
+      "MIGHTY",
+      "LORD",
+      "KHORNE"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "60mm"
+  },
+  {
+    "name": "Scyla Anfingrimm",
+    "points": "110",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Ferocity made flesh and blood, Scyla Anfingrimm is a terrifying foe who knows nothing of fear or mercy. His monstrous strength is enough to tear a Dracoth in two, and sorcery can gain no purchase upon his form, for his collar radiates Khorne’s hatred.",
+    "description": "Scyla Anfingrimm is a named character that is a single model. He is armed with Brutal Fists and a Serpentine Tail.",
+    "wounds": "8",
+    "move": "8\"",
+    "save": "5+",
+    "bravery": "9",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Brutal Fists",
+        "range": "2\"",
+        "attacks": "2D6",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Serpentine Tail",
+        "range": "3\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Brass Collar of Khorne",
+        "flavorText": "Like all great gifts of the Blood God, the spiked collar that encircles Scyla’s neck is anathema to magic.",
+        "description": "This model can attempt to unbind one spell in the enemy hero phase as if it were a WIZARD. In addition, this model can attempt to dispel one endless spell at the start of your hero phase in the same manner as a WIZARD."
+      },
+      {
+        "name": "Raging Fury",
+        "flavorText": "Where frailer beasts may fade when wounded, spilling Scyla’s blood serves only to raise him to greater heights of fury.",
+        "description": "When rolling to determine the Attacks characteristic of this model’s Brutal Fists, add 1 to the roll for each wound allocated to this model that was not negated and has not been healed."
+      },
+      {
+        "name": "Bestial Leap",
+        "flavorText": "Scyla’s bestial form is capable of great leaps that take him over the heads of lesser foes.",
+        "description": "This model is eligible to fight in the combat phase if it is within 8\" of an enemy unit instead of 3\", and can move an extra 5\" when it piles in."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "BLADES",
+      "KHORNE",
+      "MORTAL",
+      "KHORNE",
+      "BLOODBOUND",
+      "SCYLA",
+      "ANFINGRIMM"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ],
+    "baseSize": "60mm"
+  },
+  {
+    "name": "Skarr Bloodwrath",
+    "points": "105",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "In battle, Skarr Bloodwrath is a terrifying maelstrom of carnage. His Bloodstorm Blades whip around him like extensions of his furious will, and even should he fall, he rises again from the spilt blood of his victims, his axes held ready for vengeance.",
+    "description": "Skarr Bloodwrath is a named character that is a single model. He is armed with Bloodstorm Blades.",
+    "wounds": "5",
+    "move": "5\"",
+    "save": "4+",
+    "bravery": "9",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Bloodstorm Blades",
+        "range": "3\"",
+        "attacks": "See below",
+        "toHit": "2+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Slaughterstorm",
+        "flavorText": "Swinging the Bloodstorm Blades in wide arcs, Skarr Bloodwrath claims countless skulls for his master.",
+        "description": "The Attacks characteristic of this model’s Bloodstorm Blades is either 5, or equal to the number of enemy models within 3\" of this model when the number of attacks made with the weapon is determined (whichever is higher)."
+      },
+      {
+        "name": "The Slaughterborn",
+        "flavorText": "Skarr Bloodwrath has been killed on battlefields beyond count, but each time he has been reborn amidst the clash of blades and the screams of the dying.",
+        "description": "At the end of the movement phase, if this model has been slain, roll 2D6. On an 8+ you can set up this model anywhere on the battlefield more than 9\" from any enemy units, with all wounds allocated to it removed."
+      },
+      {
+        "name": "Murderous Paragon",
+        "flavorText": "To Wrathmongers, Skarr Bloodwrath is an exemplar of mindless carnage, and like him they fight to the death hoping to be reborn to kill again.",
+        "description": "You can use this command ability at the start of the combat phase. If you do so, pick 1 friendly WRATHMONGERS unit wholly within 12\" of a friendly model with this command ability. Until the end of that phase, if a model from that unit is slain, before that model is removed from play, that model can make a pile-in move and then attack with all of the melee weapons it is armed with."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "BLADES",
+      "KHORNE",
+      "MORTAL",
+      "KHORNE",
+      "BLOODBOUND",
+      "HERO",
+      "SKARR",
+      "BLOODWRATH"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ],
+    "baseSize": "40mm"
+  },
+  {
+    "name": "Skullgrinder",
+    "points": "90",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Trailing sulphurous flame, the chained anvil of the Skullgrinder roars through the air like a dark mockery of Sigmar’s twin-tailed comet. The Khornate smith swings his mighty weapon in wide arcs, shattering armour, pulping flesh and smashing bone.",
+    "description": "A Skullgrinder is a single model armed with a Brazen Anvil.",
+    "wounds": "5",
+    "move": "5\"",
+    "save": "4+",
+    "bravery": "8",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Brazen Anvil",
+        "range": "2\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "2+",
+        "rend": "-1",
+        "damage": "3"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Fiery Anvil",
+        "flavorText": "The searing impact of a brazen anvil has vanquished many formidable foes, swung for a final death-strike even when its blows were thought escaped.",
+        "description": "At the end of the combat phase, you can pick 1 enemy HERO or MONSTER within 2\" of this model and roll a dice. On a 2+ that enemy unit suffers D3 mortal wounds."
+      },
+      {
+        "name": "Favoured by Khorne",
+        "flavorText": "The bloody arcs of gore that surround a Skullgrinder in battle are an inspiration to all who seek Khorne’s approval.",
+        "description": "Add 1 to the Bravery characteristic of friendly KHORNE MORTAL units wholly within 12\" of any friendly models with this ability."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "BLADES",
+      "KHORNE",
+      "MORTAL",
+      "KHORNE",
+      "BLOODBOUND",
+      "HERO",
+      "SKULLGRINDER"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "40mm"
+  },
+  {
+    "name": "Skullmaster Herald of Khorne",
+    "points": "120",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "The war cry of the Skullmaster rings out over the thunderous hoof-beats of its ironclad steed moments before it slams into the foe with titanic force. Armour buckles, flesh tears, bones shatter and blood falls like rain as the Herald exults in the carnage.",
+    "description": "A Skullmaster, Herald of Khorne is a single model armed with a Blade of Blood.",
+    "wounds": "6",
+    "move": "8\"",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Blade of Blood",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Brazen Hooves",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "MOUNT",
+        "description": "This model’s Juggernaut attacks with its Brazen Hooves."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Slaughter and Ruin",
+        "flavorText": "Skullmasters descend upon the enemy with the wrath of the Blood God himself.",
+        "description": "You can re-roll hit rolls for attacks made by this model if it made a charge move in the same turn."
+      },
+      {
+        "name": "Decapitating Blow",
+        "flavorText": "There are few weapons so feared as the hellforged blades of the Bloodletters.",
+        "description": "If the unmodified hit roll for an attack made with a Blade of Blood is 6, that attack inflicts 1 mortal wound on the target in addition to any normal damage."
+      },
+      {
+        "name": "Slaughterous Charge",
+        "flavorText": "The crushing mass and stamping hooves of Khorne’s Juggernauts are a threat to all in their path.",
+        "description": "After this model makes a charge move, you can pick 1 enemy unit within 1\" of it and roll a dice. On a 2+ that enemy unit suffers D3 mortal wounds."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "BLADES",
+      "KHORNE",
+      "DAEMON",
+      "BLOODLETTER",
+      "KHORNE",
+      "HERO",
+      "HERALD",
+      "KHORNE",
+      "SKULLMASTER"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "90 x 52mm"
+  },
+  {
+    "name": "Skulltaker",
+    "points": "130",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Skulltaker is Khorne’s immortal champion and the greatest of all Bloodletters. Ever seeking worthy skulls for his master, he scans the battlefield for the enemy’s greatest champion, bellowing his challenge before moving in to end yet another storied life.",
+    "description": "Skulltaker is a named character that is a single model. He is armed with the Slayer Sword.",
+    "wounds": "5",
+    "move": "5\"",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "The Slayer Sword",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "3"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Cloak of Skulls",
+        "flavorText": "Many a would-be death blow has ricocheted harmlessly off Skulltaker’s grisly pelt of trophies.",
+        "description": "Add 1 to save rolls for attacks that target this unit."
+      },
+      {
+        "name": "Decapitating Strike",
+        "flavorText": "There are few weapons so feared as the hellforged blades of the Bloodletters.",
+        "description": "If the unmodified hit roll for an attack made with the Slayer Sword is 6, that attack inflicts 3 mortal wounds on the target in addition to any normal damage."
+      },
+      {
+        "name": "Heroes’ Bane",
+        "flavorText": "When faced with a worthy opponent, Skulltaker unleashes his full martial might.",
+        "description": "You can re-roll hit and wound rolls for attacks made by this model that target a HERO."
+      },
+      {
+        "name": "Heads Must Roll",
+        "flavorText": "Skulltaker is the greatest of all Bloodletters, and his mastery of death-dealing sets a grisly example for all of his kind to follow.",
+        "description": "You can use this command ability at the start of the combat phase. If you do so, pick 1 friendly BLOODLETTERS unit wholly within 12\" of a friendly model with this command ability. Until the end of that phase, you can re-roll wound rolls of 1 for attacks made by that unit."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "BLADES",
+      "KHORNE",
+      "DAEMON",
+      "BLOODLETTER",
+      "KHORNE",
+      "HERO",
+      "HERALD",
+      "KHORNE",
+      "SKULLTAKER"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "40mm"
+  },
+  {
+    "name": "Slaughterpriest",
+    "points": "100",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Towering, brutal demagogues, Slaughterpriests are living beacons of the Lord of Battle’s power. These foul priests direct their comrades according to visions sent by Khorne himself, boil their enemies’ blood in their veins and drive the foe mad with battle-lust.",
+    "description": "A Slaughterpriest is a single model armed with one of the following weapon options: Bloodbathed Axe; or Hackblade and Wrath-hammer.",
+    "wounds": "6",
+    "move": "6\"",
+    "save": "5+",
+    "bravery": "8",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Bloodbathed Axe",
+        "range": "2\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "2"
+      },
+      {
+        "name": "Hackblade",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Wrath-hammer",
+        "range": "3\"",
+        "attacks": "D3",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Scorn of Sorcery",
+        "flavorText": "Slaughterpriests share their god’s hatred of sorcery and those who use it.",
+        "description": "This model can attempt to unbind one spell in the enemy hero phase in the same manner as a WIZARD. In addition, this model can attempt to dispel one endless spell at the start of your hero phase in the same manner as a WIZARD."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "BLADES",
+      "KHORNE",
+      "MORTAL",
+      "KHORNE",
+      "BLOODBOUND",
+      "HERO",
+      "PRIEST",
+      "SLAUGHTERPRIEST"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ]
+  },
+  {
+    "name": "Valkia the Bloody",
+    "points": "135",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Soaring upon the blazing winds of war, Valkia the Bloody awaits the worthiest of foes before plunging into battle with her mighty spear Slaupnir levelled. With her comes the Blood God’s judgement, for wherever Valkia goes, the eye of Khorne follows.",
+    "description": "Valkia the Bloody is a named character that is a single model. She is armed with Slaupnir.",
+    "wounds": "5",
+    "move": "12\"",
+    "save": "3+",
+    "bravery": "9",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Slaupnir",
+        "range": "2\"",
+        "attacks": "6",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "FLY",
+        "description": "This model can fly."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "The Gaze of Khorne",
+        "flavorText": "Khorne’s gaze follows Valkia closely; the Blood God’s warriors strive all the harder to please him when she is nearby, lest he deem them unworthy.",
+        "description": "You can re-roll battleshock tests for friendly KHORNE MORTAL units wholly within 16\" of this model. However, if you do so and that unit still fails the battleshock test after the re-roll has been made, add D3 to the number of models that flee."
+      },
+      {
+        "name": "The Spear Slaupnir",
+        "flavorText": "Valkia’s great spear is at its deadliest as she descends from the sky to strike at her target’s heart.",
+        "description": "Slaupnir has a Damage characteristic of D3 instead of 1 if this model made a charge move in the same turn."
+      },
+      {
+        "name": "Daemonshield",
+        "flavorText": "Adorned with the head of a Daemon Prince who was foolish enough to earn Valkia’s ire, this shield is a powerful relic.",
+        "description": "Subtract 1 from wound rolls for attacks made with melee weapons that target this model."
+      },
+      {
+        "name": "On Bloodstained Wings",
+        "flavorText": "No airborne foes are safe when Valkia takes wing, and her swooping shadow fills her skyfaring prey with dread.",
+        "description": "At the start of the combat phase, you can pick 1 enemy unit that can fly, is not a MONSTER and is within 6\" of this unit. Subtract 1 from hit rolls for attacks made by that enemy unit until the end of that phase."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "BLADES",
+      "KHORNE",
+      "MORTAL",
+      "KHORNE",
+      "BLOODBOUND",
+      "HERO",
+      "VALKIA",
+      "BLOODY"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Dromm Wounder of Worlds",
+    "points": "180",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Dromm, Wounder of Worlds, Slaughterpriest to Great Khorne, seeks to commit the ultimate act of violence in the name of his murderous god. With his cursed axe he would carve open the realms themselves, causing the lands to shudder and writhe in agony.",
+    "description": "",
+    "wounds": "6",
+    "move": "5\"",
+    "save": "5+",
+    "bravery": "8",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Bloodblessed Axe and Staff",
+        "range": "2\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "BLADES",
+      "KHORNE",
+      "MORTAL",
+      "KHORNE",
+      "BLOODBOUND",
+      "GORETIDE",
+      "HERO",
+      "PRIEST",
+      "SLAUGHTERPRIEST",
+      "DROMM"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique. Dromm",
+      "Wounder of Worlds and <a href=\"/aos3/factions/blades-of-khorne/warscrolls.html#Gorechosen-of-Dromm\">Gorechosen of Dromm</a> units must be taken as a set. Although taken as a set",
+      "each is a separate unit."
+    ]
+  },
+  {
+    "name": "Blood Warriors",
+    "points": "190",
+    "unitSize": "10",
+    "battlefieldRoles": [
+      "Battleline"
+    ],
+    "flavorText": "Smashing their way through the maelstrom of battle, Blood Warriors roar incoherent curses as they hack and bludgeon their foes to ruin. Such is their dedication to Khorne that they continue to fight even after suffering wounds that would fell lesser men.",
+    "description": "A unit of Blood Warriors has any number of models. The unit is armed with one of the following weapon options: a pair of Goreaxes; or Goreaxe and Gorefist. 1 in every 10 models can replace the unit’s weapon option with a Goreglaive.",
+    "wounds": "2",
+    "move": "5\"",
+    "save": "4+",
+    "bravery": "6",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Goreaxe(s)",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Goreglaive",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "CHAOS CHAMPION",
+        "description": "1 model in this unit can be a Chaos Champion. Add 1 to the Attacks characteristic of that model’s Goreaxe(s)."
+      },
+      {
+        "name": "ICON BEARER",
+        "description": "1 in every 10 models in this unit can be an Icon Bearer. Add 1 to the Bravery characteristic of this unit while it includes any Icon Bearers."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "No Respite",
+        "flavorText": "Dying as they lived, Blood Warriors devote even their final moments to killing.",
+        "description": "If a model from this unit is slain in the combat phase, before that model is removed from play, that model can make a pile-in move and then attack with all of the melee weapons it is armed with."
+      },
+      {
+        "name": "Goreaxes",
+        "flavorText": "There is little escape from the vicious edges of two goreaxes.",
+        "description": "You can re-roll hit rolls of 1 for attacks made with a pair of Goreaxes."
+      },
+      {
+        "name": "Gorefists",
+        "flavorText": "A counter-punch from a brutally spiked gorefist has spelled doom for countless overconfident foes.",
+        "description": "If an unmodified save roll for an attack made with a melee weapon that targets a unit that includes any models armed with a Goreaxe and Gorefist is 6, the attacking unit suffers 1 mortal wound after all of its attacks have been resolved."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "BLADES",
+      "KHORNE",
+      "MORTAL",
+      "KHORNE",
+      "BLOODBOUND",
+      "BLOOD",
+      "WARRIORS"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Bloodletters",
+    "points": "110",
+    "unitSize": "10",
+    "battlefieldRoles": [
+      "Battleline"
+    ],
+    "flavorText": "Beneath unholy icons and bloodsoaked banners, letting loose roaring battle cries and terrifying blasts from brazen horns, the Bloodletters of Khorne surge forwards in a writhing tide of corded muscle and hellforged swords to maim and slaughter their foes.",
+    "description": "A unit of Bloodletters has any number of models, each armed with a Hellblade.",
+    "wounds": "1",
+    "move": "5\"",
+    "save": "5+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Hellblade",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "BLOODREAPER",
+        "description": "1 model in this unit can be a Bloodreaper. Add 1 to the Attacks characteristic of that model’s Hellblade."
+      },
+      {
+        "name": "STANDARD BEARERS",
+        "description": "1 in every 10 models in this unit can either be a Bloodsoaked Banner Bearer or Gore-drenched Icon Bearer.Bloodsoaked Banner: You can re-roll charge rolls for this unit while it includes any Bloodsoaked Banner Bearers.Gore-drenched Icon: If an unmodified battleshock roll of 1 is made for this unit while it includes any Gore-drenched Icon Bearers, you can add D6 models to this unit, and no models from this unit will flee in that phase."
+      },
+      {
+        "name": "HORNBLOWERS",
+        "description": "1 in every 10 models in this unit can be a Hornblower. While this unit includes any Hornblowers, if the unmodified roll for a battleshock test for an enemy unit that is within 8\" of this unit is 1, that battleshock test must be re-rolled."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Decapitating Blow",
+        "flavorText": "There are few weapons so feared as the hellforged blades of the Bloodletters.",
+        "description": "If the unmodified hit roll for an attack made with a Hellblade is 6, that attack inflicts 1 mortal wound on the target in addition to any normal damage."
+      },
+      {
+        "name": "Murderous Tide",
+        "flavorText": "Massed Bloodletters will surge forth to rain a thunderstorm of blows upon the foe.",
+        "description": "You can add 1 to hit rolls for attacks made by this unit while this unit has at least 20 models."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "BLADES",
+      "KHORNE",
+      "DAEMON",
+      "KHORNE",
+      "BLOODLETTERS"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Bloodreavers",
+    "points": "80",
+    "unitSize": "10",
+    "battlefieldRoles": [
+      "Battleline"
+    ],
+    "flavorText": "Descending upon their foes in a howling tide, the barbarous hordes of the Bloodreavers sweep away the enemy. Each of their number is a frothing killer, their body thick with slabs of muscle and their heavy weapons able to dismember foes with every swing.",
+    "description": "A unit of Bloodreavers has any number of models. The unit is armed with one of the following weapon options: Reaver Blades; or Meatripper Axe.",
+    "wounds": "1",
+    "move": "6\"",
+    "save": "6+",
+    "bravery": "5",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Reaver Blades",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Meatripper Axe",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "CHIEFTAIN",
+        "description": "1 model in this unit can be a Chieftain. Add 1 to the Attacks characteristic of that model’s melee weapons."
+      },
+      {
+        "name": "ICON BEARER",
+        "description": "1 in every 10 models in this unit can be an Icon Bearer. Add 1 to the Bravery characteristic of this unit while it includes any Icon Bearers."
+      },
+      {
+        "name": "HORNBLOWER",
+        "description": "1 in every 10 models in this unit can be a Hornblower. Add 1 to run and charge rolls for this unit while it includes any Hornblowers."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Frenzied Devotion",
+        "flavorText": "The sight of the Blood God’s sacred icons stirs Bloodreavers into a murderous rage.",
+        "description": "Add 1 to the Attacks characteristic of this unit’s melee weapons while this unit is wholly within 16\" of any friendly KHORNE TOTEMS."
+      },
+      {
+        "name": "Reaver Blades",
+        "flavorText": "In the hands of blood-hungry killers, even the crudest cutting weapons are brutally efficient.",
+        "description": "You can re-roll hit rolls of 1 for attacks made with Reaver Blades."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "BLADES",
+      "KHORNE",
+      "MORTAL",
+      "KHORNE",
+      "BLOODBOUND",
+      "BLOODREAVERS"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Flesh Hounds",
+    "points": "105",
+    "unitSize": "5",
+    "battlefieldRoles": [
+      "Battleline"
+    ],
+    "flavorText": "Swift, strong, and tenacious beyond mortal reason, Flesh Hounds run their prey to the ground without mercy. Those who seek to trick or destroy these daemonic beasts with sorcery find their powers flickering to nothing, extinguished by the wrath of Khorne.",
+    "description": "A unit of Flesh Hounds has any number of models, each armed with Blood-dark Claws.",
+    "wounds": "2",
+    "move": "8\"",
+    "save": "5+",
+    "bravery": "10",
+    "missleWeapons": [
+      {
+        "name": "Burning Roar",
+        "range": "8\"",
+        "attacks": "1",
+        "toHit": "2+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Blood-dark Claws",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "GORE HOUNDS",
+        "description": "1 in every 5 models in this unit can be a Gore Hound. That model is armed with a Burning Roar in addition to its other weapons."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Collars of Khorne",
+        "flavorText": "Spellcasters have learned to dread Flesh Hounds as much for their collars as for their claws.",
+        "description": "This unit can attempt to unbind one spell in the enemy hero phase in the same manner as a WIZARD. In addition, this unit can attempt to dispel one endless spell at the start of your hero phase in the same manner as a WIZARD. Add 1 to unbinding and dispelling rolls for this unit while it contains 10 or more models."
+      },
+      {
+        "name": "Unflagging Hunters",
+        "flavorText": "When blood is scented, nothing will keep a Flesh Hound from its prey.",
+        "description": "You can re-roll charge rolls for this unit."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "BLADES",
+      "KHORNE",
+      "DAEMON",
+      "KHORNE",
+      "FLESH",
+      "HOUNDS"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "60 x 35mm"
+  },
+  {
+    "name": "Bloodcrushers",
+    "points": "130",
+    "unitSize": "3",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "The ground shakes beneath the onrushing fury of the Bloodcrushers, and with the force of a falling mountain they crash into the enemy. Those not crushed beneath the Juggernauts’ hooves are slain by the swinging hellblades of the beasts’ riders.",
+    "description": "A unit of Bloodcrushers has any number of models, each armed with a Hellblade.",
+    "wounds": "4",
+    "move": "8\"",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Hellblade",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Brazen Hooves",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "MOUNTS",
+        "description": "This unit’s Juggernauts attack with their Brazen Hooves."
+      },
+      {
+        "name": "BLOODHUNTER",
+        "description": "1 model in this unit is a Bloodhunter. Add 1 to the Attacks characteristic of that model’s Hellblade."
+      },
+      {
+        "name": "ICON BEARERS",
+        "description": "1 in every 3 models in this unit can be an Icon Bearer. If an unmodified battleshock roll of 1 is made for this unit while it includes any Icon Bearers, you can add 1 model to this unit, and no models from this unit will flee in that phase."
+      },
+      {
+        "name": "HORNBLOWER",
+        "description": "1 in every 3 models in this unit can be a Hornblower. While this unit includes any Hornblowers, if the unmodified roll for a battleshock test for an enemy unit that is within 8\" of this unit is 1, that battleshock test must be re-rolled."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Decapitating Blow",
+        "flavorText": "There are few weapons so feared as the hellforged blades of the Bloodletters.",
+        "description": "If the unmodified hit roll for an attack made with a Hellblade is 6, that attack inflicts 1 mortal wound on the target in addition to any normal damage."
+      },
+      {
+        "name": "Murderous Charge",
+        "flavorText": "The crushing mass and stamping hooves of Khorne’s Juggernauts are a threat to all in their path.",
+        "description": "After a model in this unit makes a charge move, you can pick 1 enemy unit within 1\" of that model and roll a dice. On a 2+ that enemy unit suffers 1 mortal wound. If this unit has more than 1 model, roll to determine if mortal wounds are inflicted after each model completes its charge move, but do not allocate the mortal wounds until after all of the models in the unit have moved. If this unit has 6 or more models when it makes a charge move, change the mortal wounds inflicted by this ability from 1 to D3."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "BLADES",
+      "KHORNE",
+      "DAEMON",
+      "BLOODLETTER",
+      "KHORNE",
+      "BLOODCRUSHERS"
+    ],
+    "pitchedBattleNotes": [
+      "Battleline if general is a <a href=\"/aos3/factions/blades-of-khorne/warscrolls.html#Skullmaster-Herald-of-Khorne\">Skullmaster",
+      "Herald of Khorne</a>"
+    ],
+    "baseSize": "90 x 52mm"
+  },
+  {
+    "name": "Garrek s Reavers",
+    "points": "65",
+    "unitSize": "5",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Even amongst the pitiless hordes of the Goretide, the Bloodreavers led by Garrek Gorebeard are known for their cruelty and deranged ferocity. It is said that Garrek personally guts and skins any of his warriors who fail to take a worthy trophy in battle.",
+    "description": "This unit contains 5 models: Garrek Gorebeard, who is armed with a Blooddrinker Axe; Karsus the Chained, who is armed with a Chained Axe; Blooded Saek, who is armed with a Meatripper Axe; and Targor and Arnulf, who are both armed with Reaver Blades.",
+    "wounds": "1",
+    "move": "6\"",
+    "save": "6+",
+    "bravery": "6",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Garrek’s Blooddrinker Axe",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Karsus’ Chained Axe",
+        "range": "2\"",
+        "attacks": "D3",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Saek’s Meatripper Axe",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Reaver Blades",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "GARREK GOREBEARD",
+        "description": "If the unmodified hit roll for an attack made with Garrek Gorebeard’s Blooddrinker Axe is 6, that attack inflicts 1 mortal wound on the target and the attack sequence ends (do not make a wound or save roll)."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Frenzied Devotion",
+        "flavorText": "The sight of the Blood God’s sacred icons stirs Bloodreavers into a murderous rage.",
+        "description": "Add 1 to the Attacks characteristic of this unit’s melee weapons while this unit is wholly within 16\" of any friendly KHORNE TOTEMS."
+      },
+      {
+        "name": "Reaver Blades",
+        "flavorText": "In the hands of blood-hungry killers, even the crudest cutting weapons are brutally efficient.",
+        "description": "You can re-roll hit rolls of 1 for attacks made with Reaver Blades."
+      },
+      {
+        "name": "Grisly Trophies",
+        "flavorText": "Garrek delights in brandishing grim souvenirs to stoke his warriors’ bloodlust.",
+        "description": "Do not take a battleshock test for this unit if any enemy models were slain by attacks made by this unit’s Garrek Gorebeard earlier in the same turn."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "BLADES",
+      "KHORNE",
+      "MORTAL",
+      "KHORNE",
+      "BLOODBOUND",
+      "GORETIDE",
+      "BLOODREAVERS",
+      "GARREK’S",
+      "REAVERS"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Karanak",
+    "points": "150",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Ever watchful, ever hungry, Karanak is the physical manifestation of the Blood God’s wrathful vengeance. Once he has the scent of his quarry, this tireless hunter will not cease in his hunt until he tastes their torn flesh between his fangs.",
+    "description": "Karanak is a named character that is a single model. He is armed with Gore-slick Claws and Three Savage Maws.",
+    "wounds": "5",
+    "move": "8\"",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Gore-slick Claws",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Three Savage Maws",
+        "range": "1\"",
+        "attacks": "6",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Unflagging Hunter",
+        "flavorText": "Karanak bounds towards the foe, hungry for the taste of living flesh.",
+        "description": "You can re-roll charge rolls for this model."
+      },
+      {
+        "name": "Brass Collar of Bloody Vengeance",
+        "flavorText": "Wizards tremble wherever Karanak prowls.",
+        "description": "This model can attempt to unbind one spell in the enemy hero phase in the same manner as a WIZARD. In addition, this model can attempt to dispel one endless spell at the start of your hero phase in the same manner as a WIZARD. If this model successfully unbinds a spell or dispels an endless spell, the caster suffers D3 mortal wounds."
+      },
+      {
+        "name": "Prey of the Blood God",
+        "flavorText": "Karanak is a tireless hunter, hungering for his chosen quarry’s flesh.",
+        "description": "After armies are set up, but before the first battle round begins, pick 1 enemy HERO to be this model’s quarry. You can re-roll hit and wound rolls for attacks made by this model that target that HERO."
+      },
+      {
+        "name": "Call of the HuntPrey of the Blood God",
+        "flavorText": "With a primal call, Karanak summons slathering Flesh Hounds to the feast.",
+        "description": "Call of the Hunt: Once per game, during the hero phase, you can summon 1 unit of 5 Flesh Hounds to the battlefield and add it to your army if this model is within 8\" of its quarry (see Prey of the Blood God). The summoned unit must be set up wholly within 8\" of this model and more than 9\" from any enemy units. The summoned unit cannot move in the following movement phase."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "BLADES",
+      "KHORNE",
+      "DAEMON",
+      "KHORNE",
+      "HERO",
+      "FLESH",
+      "HOUND",
+      "KARANAK"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ],
+    "baseSize": "75 x 42mm"
+  },
+  {
+    "name": "Khorgoraths",
+    "points": "110",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "All know to fear the Khorgoraths of Khorne. Rampaging super-predators with an endless hunger for skulls, they are utterly fearless and almost impossible to kill, and smash through the enemy with no thought for anything but indiscriminate slaughter.",
+    "description": "A unit of Khorgoraths has any number of models, each armed with Bone Tentacles and Claws and Fangs.",
+    "wounds": "8",
+    "move": "6\"",
+    "save": "4+",
+    "bravery": "6",
+    "missleWeapons": [
+      {
+        "name": "Bone Tentacles",
+        "range": "6\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Claws and Fangs",
+        "range": "1\"",
+        "attacks": "5",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Horrific Predators",
+        "flavorText": "Khorgoraths are nightmarish beasts, given form only to harvest skulls.",
+        "description": "Add 1 to battleshock rolls for units that had any models slain by attacks made by KHORGORATHS in the same turn."
+      },
+      {
+        "name": "Taker of Heads",
+        "flavorText": "Swallowing the skulls of their victims breathes a twisted sustenance into the Khorgoraths’ brutish bodies.",
+        "description": "At the end of the combat phase, if any enemy models were slain by this unit’s attacks in that combat phase, you can heal 1 wound allocated to this unit."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "BLADES",
+      "KHORNE",
+      "KHORNE",
+      "BLOODBOUND",
+      "KHORGORATHS"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "90 x 52mm"
+  },
+  {
+    "name": "Magore s Fiends",
+    "points": "120",
+    "unitSize": "3",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Magore Redhand leads his band of killers on an endless hunt for worthy skulls. In return for his prodigious offerings Khorne has blessed the Blood Warrior with profane gifts, including a daemonic maw in his gut that can bite through even sigmarite.",
+    "description": "This unit contains 3 models: Magore Redhand, who is armed with a Daemonic Axe and a Belly Maw; and Ghartok Flayskull and Zharkus the Bloodsighted, who are both armed with a Goreaxe and Gorefist.",
+    "wounds": "2",
+    "move": "5\"",
+    "save": "4+",
+    "bravery": "6",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Magore’s Belly Maw",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      },
+      {
+        "name": "Magore’s Daemonic Axe",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Goreaxe",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "MAGORE REDHAND",
+        "description": "You can re-roll hit rolls for attacks made by this unit that target STORMCAST ETERNAL units while this unit includes Magore Redhand."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Gorefists",
+        "flavorText": "A counter-punch from a brutally spiked Gorefist has spelled doom for countless over-confident foes.",
+        "description": "If an unmodified save roll for an attack made with a melee weapon that targets a unit that includes any models armed with a Goreaxe and Gorefist is 6, the attacking unit suffers 1 mortal wound after all of its attacks have been resolved."
+      },
+      {
+        "name": "No Respite",
+        "flavorText": "Dying as they lived, Blood Warriors devote even their final moments to killing.",
+        "description": "If a model from this unit is slain in the combat phase, before that model is removed from play, that model can make a pile-in move and then attack with all of the melee weapons it is armed with."
+      },
+      {
+        "name": "Blood Scent",
+        "flavorText": "The Flesh Hound Riptooth leads Magore and his Blood Warriors in pursuit of worthy foes, jaws frothing with bloody drool as he bounds tirelessly after his quarry.",
+        "description": "You can re-roll charge rolls for this unit while it is wholly within 8\" of a friendly RIPTOOTH model."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "BLADES",
+      "KHORNE",
+      "MORTAL",
+      "KHORNE",
+      "BLOODBOUND",
+      "GORETIDE",
+      "BLOOD",
+      "WARRIORS",
+      "MAGORE’S",
+      "FIENDS"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique. <a href=\"/aos3/factions/blades-of-khorne/warscrolls.html#Riptooth\">Riptooth</a> and Magore’s Fiends must be taken as a set. Although taken as a set",
+      "each is a separate unit."
+    ],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Mighty Skullcrushers",
+    "points": "165",
+    "unitSize": "3",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "The ground shakes beneath pounding Juggernaut hooves as the Mighty Skullcrushers ride into battle. Foes are smashed aside by the impact of the charge, and any survivors are soon reduced to piles of gore by the riders’ axes.",
+    "description": "A unit of Mighty Skullcrushers has any number of models. The unit is armed with one of the following weapon options: Ensorcelled Axe; or Bloodglaive.",
+    "wounds": "5",
+    "move": "8\"",
+    "save": "3+",
+    "bravery": "6",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Ensorcelled Axe",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Bloodglaive",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Brazen Hooves",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "MOUNTS",
+        "description": "This unit’s Juggernauts attack with their Brazen Hooves."
+      },
+      {
+        "name": "SKULLHUNTER",
+        "description": "1 model in this unit can be a Skullhunter. Add 1 to the Attacks characteristic of that model’s melee weapons."
+      },
+      {
+        "name": "STANDARD BEARER",
+        "description": "1 in every 3 models in this unit can be a Standard Bearer. Add 2 to the Bravery characteristic of this unit while it includes any Standard Bearers."
+      },
+      {
+        "name": "HORNBLOWER",
+        "description": "1 in every 3 models in this unit can be a Hornblower. Add 1 to run and charge rolls made for this unit while it includes any Hornblowers."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Murderous Charge",
+        "flavorText": "The crushing mass and stamping hooves of Khorne’s Juggernauts are a threat to all in their path.",
+        "description": "After a model in this unit makes a charge move, you can pick 1 enemy unit within 1\" of that model and roll a dice. On a 2+ that enemy unit suffers 1 mortal wound. If this unit has more than 1 model, roll to determine if mortal wounds are inflicted after each model completes its charge move, but do not allocate the mortal wounds until after all of the models in the unit have moved. If this unit has 6 or more models when it makes a charge move, change the mortal wounds inflicted by this ability from 1 to D3."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "BLADES",
+      "KHORNE",
+      "MORTAL",
+      "KHORNE",
+      "BLOODBOUND",
+      "MIGHTY",
+      "SKULLCRUSHERS"
+    ],
+    "pitchedBattleNotes": [
+      "Battleline if general is a <a href=\"/aos3/factions/blades-of-khorne/warscrolls.html#Lord-of-Khorne-on-Juggernaut\">Lord of Khorne on Juggernaut</a>"
+    ],
+    "baseSize": "90 x 52mm"
+  },
+  {
+    "name": "Riptooth",
+    "points": "120",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Perhaps the greatest of the Lord of Battle’s gifts to Magore Redhand is the Flesh Hound Riptooth. A vicious hunter and loyal companion, he has chased down his master’s prey and warded off enemy sorcery on battlefields beyond count.",
+    "description": "Riptooth is a single model. He tears his victims to pieces with his Blood-dark Claws.",
+    "wounds": "2",
+    "move": "8\"",
+    "save": "5+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Blood-dark Claws",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Collar of Khorne",
+        "flavorText": "Spellcasters have learned to dread Flesh Hounds as much for their collars as for their claws.",
+        "description": "This unit can attempt to unbind one spell in the enemy hero phase in the same manner as a WIZARD. In addition, this unit can attempt to dispel one endless spell at the start of your hero phase in the same manner as a WIZARD."
+      },
+      {
+        "name": "Unflagging Hunter",
+        "flavorText": "When blood is scented, nothing will keep a Flesh Hound from its prey.",
+        "description": "You can re-roll charge rolls for this model."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "BLADES",
+      "KHORNE",
+      "DAEMON",
+      "KHORNE",
+      "GORETIDE",
+      "FLESH",
+      "HOUND",
+      "RIPTOOTH"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique. Riptooth and <a href=\"/aos3/factions/blades-of-khorne/warscrolls.html#Magore-s-Fiends\">Magore’s Fiends</a> must be taken as a set. Although taken as a set",
+      "each is a separate unit."
+    ],
+    "baseSize": "50mm"
+  },
+  {
+    "name": "Skullreapers",
+    "points": "195",
+    "unitSize": "5",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "It is the sworn task of the Skullreapers to claim worthy skulls for Khorne, and it is a duty they go about with savage determination. Whether wielding gore-slick blades or the huge axes known as spinecleavers, these warriors decimate the enemy ranks.",
+    "description": "A unit of Skullreapers has any number of models, armed with a combination of Goreslick Blades, Daemonblades, Spinecleavers and Soultearers.",
+    "wounds": "3",
+    "move": "5\"",
+    "save": "4+",
+    "bravery": "7",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Gore-slick Blades, Daemonblades, Spinecleavers and Soultearers",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Vicious Mutation",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "SKULLSEEKER",
+        "description": "1 model in this unit is a Skullseeker. That model is armed with a Vicious Mutation in addition to its other weapons."
+      },
+      {
+        "name": "ICON BEARER",
+        "description": "1 in every 5 models in this unit can be an Icon Bearer. Add 1 to charge rolls for this unit while it includes any Icon Bearers."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Daemonforged Weapons",
+        "flavorText": "Gnashing teeth and leering eyes writhe across the Skullreapers’ weapons, revealing the malevolent entities trapped within.",
+        "description": "If the unmodified hit roll for an attack made with this unit’s Gore-slick Blades, Daemonblades, Spinecleavers and Soultearers is 6, that attack inflicts 1 mortal wound on the target in addition to any normal damage."
+      },
+      {
+        "name": "Trial of Skulls",
+        "flavorText": "Risking utter damnation for a taste of true power, Skullreapers fight with manic determination.",
+        "description": "You can re-roll hit rolls for attacks made by this unit if the target unit has 5 or more models."
+      },
+      {
+        "name": "Murderous to the Last",
+        "flavorText": "Skullreapers do not fear death, but they are determined not to breathe their last while there are worthy skulls to be harvested.",
+        "description": "Do not take battleshock tests for this unit. In addition, roll a dice each time a model from this unit is slain by an attack made with a melee weapon, before that model is removed from play. On a 5+ pick 1 enemy unit within 1\" of the slain model. That unit suffers D3 mortal wounds after all of its attacks have been resolved."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "BLADES",
+      "KHORNE",
+      "MORTAL",
+      "KHORNE",
+      "BLOODBOUND",
+      "SKULLREAPERS"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "40mm"
+  },
+  {
+    "name": "Wrathmongers",
+    "points": "145",
+    "unitSize": "5",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "With the chained hammers of their flails whipping around them, the Wrathmongers hurl themselves into the enemy. A bloody red mist hangs around these berserkers as they go about their butchery, driving combatants into a maddened frenzy.",
+    "description": "A unit of Wrathmongers has any number of models, each armed with Wrath-flails.",
+    "wounds": "3",
+    "move": "5\"",
+    "save": "5+",
+    "bravery": "7",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Wrath-flails",
+        "range": "2\"",
+        "attacks": "4",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "WRATHMASTER",
+        "description": "1 model in this unit can be a Wrathmaster. Add 1 to the Attacks characteristic of that model’s Wrath-flails."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Furious Assault",
+        "flavorText": "Skulls crack and shields buckle beneath the unstoppable momentum of a Wrathmonger charge.",
+        "description": "Add 1 to hit rolls for attacks made by this unit if it made a charge move in the same turn."
+      },
+      {
+        "name": "Bloodfury",
+        "flavorText": "When they are finally struck down, the maddening blood vapour that surrounds Wrathmongers plunges their foes into a self-destructive rage.",
+        "description": "If a model in this unit is slain, before it is removed from play roll a dice for each enemy unit within 1\" of that model. Add 1 to the dice roll if 2 or more models from that enemy unit are within 1\" of the slain model. On a 1, nothing happens. On a 2-5, that enemy unit suffers 1 mortal wound after all of its attacks have been resolved. On a 6+ that enemy unit suffers D3 mortal wounds after all of its attacks have been resolved."
+      },
+      {
+        "name": "Crimson Haze",
+        "flavorText": "A vapour of blood and gore fills the air wherever Wrathmongers swing their flails, sending the Lord of Battle’s devotees into an exultant rampage.",
+        "description": "Add 1 to the Attacks characteristic of melee weapons used by KHORNE units that are wholly within 8\" of any units with this ability. This ability has no effect on WRATHMONGERS."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "BLADES",
+      "KHORNE",
+      "MORTAL",
+      "KHORNE",
+      "BLOODBOUND",
+      "WRATHMONGERS"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "40mm"
+  },
+  {
+    "name": "Gorechosen of Dromm",
+    "points": "180",
+    "unitSize": "2",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Together known as the Gorechosen of Dromm, the Skullgrinder Herax and the muscle-bound Gorehulk accompany the self-proclaimed Wounder of Worlds on his deranged quest to mutilate the realms, slaughtering anything that gets in their way.",
+    "description": "",
+    "wounds": "4",
+    "move": "5\"",
+    "save": "5+",
+    "bravery": "8",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Forgewrath Hammer",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "2"
+      },
+      {
+        "name": "Crushing Grip",
+        "range": "1\"",
+        "attacks": "6",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "BLADES",
+      "KHORNE",
+      "MORTAL",
+      "KHORNE",
+      "BLOODBOUND",
+      "GORETIDE",
+      "GORECHOSEN",
+      "DROMM"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique. <a href=\"/aos3/factions/blades-of-khorne/warscrolls.html#Dromm-Wounder-of-Worlds\">Dromm",
+      "Wounder of Worlds</a> and Gorechosen of Dromm units must be taken as a set. Although taken as a set",
+      "each is a separate unit."
+    ]
+  },
+  {
+    "name": "Mazarall the Butcher",
+    "points": "365",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Behemoth"
+    ],
+    "flavorText": "Mazarall the Butcher is a renderer of mortal flesh and a devourer of daemons both. His sheer barbarity and unbridled rage have led many to believe him more mindless beast than canny warlord, but such a belief is a mistake for which many have lost their lives.",
+    "description": "Mazarall the Butcher is armed with the Ancyte Shield’s Wrath, the Ancyte Shield’s Blades and Harrow Meat.",
+    "wounds": "12",
+    "move": "✹",
+    "save": "3+",
+    "bravery": "10",
+    "missleWeapons": [
+      {
+        "name": "The Ancyte Shield’s Wrath",
+        "range": "12\"",
+        "attacks": "D6",
+        "toHit": "5+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Harrow Meat",
+        "range": "2\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "✹",
+        "damage": "3"
+      },
+      {
+        "name": "The Ancyte Shield’s Blades",
+        "range": "1\"",
+        "attacks": "✹",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-4",
+        "move": "12\"",
+        "harrowMeat": "-2",
+        "theAncyteShieldsBlades": "5"
+      },
+      {
+        "woundsSuffered": "5-7",
+        "move": "10\"",
+        "harrowMeat": "-2",
+        "theAncyteShieldsBlades": "4"
+      },
+      {
+        "woundsSuffered": "8-9",
+        "move": "8\"",
+        "harrowMeat": "-1",
+        "theAncyteShieldsBlades": "3"
+      },
+      {}
+    ],
+    "abilities": [
+      {
+        "name": "Bloody Charge",
+        "flavorText": "A towering creature of muscle and rage, Mazarall barrels into his foes, throwing aside bodies with contemptuous ease.",
+        "description": "Roll a dice for each enemy unit that is within 1\" of this model after this model makes a charge move. On a 4+ that unit suffers D3 mortal wounds."
+      },
+      {
+        "name": "Harrow Meat’s Hunger",
+        "flavorText": "Harrow Meat, Mazarall’s infamous axe, possesses its own crude sentience, fuelling Mazarall’s fury with each drop of blood fed to it.",
+        "description": "At the end of the combat phase, if any enemy models were slain by wounds inflicted by this model’s attacks in that combat phase, add 1 to the Attacks characteristic of Harrow Meat for the rest of the battle."
+      },
+      {
+        "name": "The Ancyte Shield",
+        "flavorText": "Covered in the stretched skin of unfortunate spellcasters, the Ancyte Shield serves as protection against hateful magic.",
+        "description": "This model can attempt to unbind 1 spell in the enemy hero phase in the same manner as a WIZARD."
+      },
+      {
+        "name": "The Butcher’s Due",
+        "flavorText": "To follow Mazarall is to tread the path of ascension on a road paved with the butchered carcasses of the dead.",
+        "description": "You can use this command ability at the start of the combat phase. The command must be issued by this model and received by a friendly KHORNE unit. Add 1 to wound rolls for attacks made by that unit until the end of that phase."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "KHORNE",
+      "BLADES",
+      "KHORNE",
+      "DAEMON",
+      "MONSTER",
+      "HERO",
+      "MAZARALL",
+      "BUTCHER"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ],
+    "baseSize": "100mm"
+  },
+  {
+    "name": "Skull Cannons",
+    "points": "130",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Artillery"
+    ],
+    "flavorText": "The hideous war machines known as Skull Cannons vomit forth barrages of skulls amidst blasts of sulphurous smoke and flame, their macabre ordnance screaming through the skies before exploding with murderous fury amongst the enemy ranks.",
+    "description": "A unit of Skull Cannons has any number of models, each armed with Burning Skulls and a Gnashing Maw.",
+    "wounds": "7",
+    "move": "8\"",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [
+      {
+        "name": "Burning Skulls",
+        "range": "30\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "D6"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Hellblades",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Gnashing Maw",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "CREW",
+        "description": "This model has a Bloodletter crew that attack with their Hellblades. For rules purposes, the crew are treated in the same manner as a mount."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Burning Skulls",
+        "flavorText": "Foes massed together offer an easy target for a Skull Cannon’s flaming projectiles.",
+        "description": "Add 1 to hit rolls for attacks made with this unit’s Burning Skulls if the target unit contains 10 or more models."
+      },
+      {
+        "name": "Grind their Bones, Seize their Skulls",
+        "flavorText": "Enemies seized by a Skull Cannon’s jaws are used to power the infernal machine, their skulls taken and used as fiery munitions.",
+        "description": "After this unit attacks for the first time in each combat phase, if any enemy models were slain by this unit’s attacks, this unit can attack with all of the missile weapons it is armed with."
+      },
+      {
+        "name": "Decapitating Blow",
+        "flavorText": "There are few weapons so feared as the hellforged blades of the Bloodletters.",
+        "description": "If the unmodified hit roll for an attack made with Hellblades is 6, that attack inflicts 1 mortal wound on the target in addition to any normal damage."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "BLADES",
+      "KHORNE",
+      "DAEMON",
+      "BLOODLETTER",
+      "KHORNE",
+      "SKULL",
+      "CANNONS"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "120 x 92mm"
+  },
+  {
+    "name": "Skull Altar",
+    "points": "0",
+    "unitSize": "",
+    "battlefieldRoles": [
+      "Faction Terrain Feature"
+    ],
+    "flavorText": "Rising from the ground, the Skull Altar is formed out of the violent tributes heaped in offering for Khorne’s Throne. From atop the grisly pedestal, a priest of Khorne roars out invectives, invoking the judgments of the Blood God to smite down all signs of weakness or wizardry.",
+    "description": "",
+    "wounds": "",
+    "move": "",
+    "save": "",
+    "bravery": "",
+    "missleWeapons": [],
+    "meleeWeapons": [],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [],
+    "pitchedBattleNotes": []
+  },
+  {
+    "name": "Bleeding Icon",
+    "points": "40",
+    "unitSize": "",
+    "battlefieldRoles": [
+      "Invocation"
+    ],
+    "flavorText": "A common sight in the crimson skies above Khorne’s domain in the Realm of Chaos, a Bleeding Icon can be summoned to the Mortal Realms to inspire dread in cowards who would shirk from honourable combat.",
+    "description": "",
+    "wounds": "",
+    "move": "",
+    "save": "",
+    "bravery": "",
+    "missleWeapons": [],
+    "meleeWeapons": [],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [],
+    "pitchedBattleNotes": [],
+    "baseSize": "105 x 70mm"
+  },
+  {
+    "name": "Hexgorger Skulls",
+    "points": "50",
+    "unitSize": "",
+    "battlefieldRoles": [
+      "Invocation"
+    ],
+    "flavorText": "Hexgorger Skulls are the physical manifestation of Khorne’s hatred of the arcane arts. They drift across the battlefield, seeking to feed upon eldritch energy and those conjurers who attempt to use it.",
+    "description": "",
+    "wounds": "",
+    "move": "",
+    "save": "",
+    "bravery": "",
+    "missleWeapons": [],
+    "meleeWeapons": [],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [],
+    "pitchedBattleNotes": [],
+    "baseSize": "60mm"
+  },
+  {
+    "name": "Wrath Axe",
+    "points": "70",
+    "unitSize": "",
+    "battlefieldRoles": [
+      "Invocation"
+    ],
+    "flavorText": "A Wrath-axe is a manifestation of Khorne’s otherworldly anger, its razor-sharp edges glowing red-hot from the Blood God’s rage. At signs of weakness or wizardry such a blazing axe appears in the air, splitting reality with its downwards stroke.",
+    "description": "",
+    "wounds": "",
+    "move": "",
+    "save": "",
+    "bravery": "",
+    "missleWeapons": [],
+    "meleeWeapons": [],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [],
+    "pitchedBattleNotes": [],
+    "baseSize": "105 x 70mm"
+  }
+]

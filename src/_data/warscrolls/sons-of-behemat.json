@@ -1,0 +1,791 @@
+[
+  {
+    "name": "Kragnos the End of Empires",
+    "points": "720",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader",
+      "Behemoth"
+    ],
+    "flavorText": "A roaring, trampling god of earthquakes and wanton destruction, Kragnos is known as the End of Empires. In his gnarled hands, the Dread Mace can shatter the walls of cities even as the shield Tuskbreaker keeps him all but inviolate.",
+    "description": "",
+    "wounds": "18",
+    "move": "✹",
+    "save": "2+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "The Dread Mace",
+        "range": "3\"",
+        "attacks": "6",
+        "toHit": "3+",
+        "toWound": "2+",
+        "rend": "-3",
+        "damage": "4"
+      },
+      {
+        "name": "Tuskbreaker",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "2+",
+        "rend": "-2",
+        "damage": "D3"
+      },
+      {
+        "name": "Hooves of Wrack and Ruin",
+        "range": "1\"",
+        "attacks": "✹",
+        "toHit": "3+",
+        "toWound": "2+",
+        "rend": "-1",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-9",
+        "move": "10\"",
+        "hoovesOfWrackAndRuin": "6",
+        "bellowOfRage": "5+",
+        "mightiestMakesRightiest": "30"
+      },
+      {
+        "woundsSuffered": "10-12",
+        "move": "9\"",
+        "hoovesOfWrackAndRuin": "5",
+        "bellowOfRage": "4+",
+        "mightiestMakesRightiest": "25"
+      },
+      {
+        "woundsSuffered": "13-15",
+        "move": "8\"",
+        "hoovesOfWrackAndRuin": "4",
+        "bellowOfRage": "3+",
+        "mightiestMakesRightiest": "20"
+      },
+      {}
+    ],
+    "abilities": [],
+    "keywords": [
+      "DESTRUCTION",
+      "DROGRUK",
+      "HERO",
+      "MONSTER",
+      "TOTEM",
+      "KRAGNOS"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ],
+    "baseSize": "130mm"
+  },
+  {
+    "name": "Beast smasher Mega Gargant",
+    "points": "520",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Battleline",
+      "Leader",
+      "Behemoth"
+    ],
+    "flavorText": "Fuelled by the power of the Waaagh!, the Beast-smashers believe themselves to be the embodiment of Gorkamorka. Towering brutes who are all but impervious to pain, they seek out the enemy’s largest beasts, pulverising them with their menhir clubs.",
+    "description": "",
+    "wounds": "35",
+    "move": "✹",
+    "save": "4+",
+    "bravery": "8",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Menhir Club",
+        "range": "3\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "2+",
+        "rend": "✹",
+        "damage": "5"
+      },
+      {
+        "name": "Almighty Stomp",
+        "range": "3\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "D3"
+      },
+      {
+        "name": "Death Grip",
+        "range": "3\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "2+",
+        "rend": "-2",
+        "damage": "D6"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-15",
+        "move": "10\"",
+        "menhirClub": "-3",
+        "mightierMakesRightier": "20"
+      },
+      {
+        "woundsSuffered": "16-22",
+        "move": "10\"",
+        "menhirClub": "-3",
+        "mightierMakesRightier": "18"
+      },
+      {
+        "woundsSuffered": "23-29",
+        "move": "9\"",
+        "menhirClub": "-2",
+        "mightierMakesRightier": "15"
+      },
+      {}
+    ],
+    "abilities": [],
+    "keywords": [
+      "DESTRUCTION",
+      "SONS",
+      "BEHEMAT",
+      "MEGA-GARGANT",
+      "HERO",
+      "MONSTER",
+      "BEAST-SMASHER"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ]
+  },
+  {
+    "name": "Gatebreaker Mega Gargant",
+    "points": "520",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Battleline",
+      "Leader",
+      "Behemoth"
+    ],
+    "flavorText": "Cowled and sinister, the Gatebreaker is a wrecking ball of a gargant that takes cruel joy in smashing down the fortresses and cities of the civilised races before throwing the rubble at any survivors. To them, every structure is a target for their spiteful wrath.",
+    "description": "",
+    "wounds": "35",
+    "move": "✹",
+    "save": "4+",
+    "bravery": "7",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Fortcrusha Flail",
+        "range": "3\"",
+        "attacks": "✹",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-3",
+        "damage": "4"
+      },
+      {
+        "name": "Almighty Stomp",
+        "range": "3\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "D3"
+      },
+      {
+        "name": "Death Grip",
+        "range": "3\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "2+",
+        "rend": "-2",
+        "damage": "D6"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-15",
+        "move": "10\"",
+        "fortcrushaFlail": "6",
+        "hurledBoulder": "18\"",
+        "mightierMakesRightier": "20"
+      },
+      {
+        "woundsSuffered": "16-22",
+        "move": "10\"",
+        "fortcrushaFlail": "5",
+        "hurledBoulder": "15\"",
+        "mightierMakesRightier": "18"
+      },
+      {
+        "woundsSuffered": "23-29",
+        "move": "9\"",
+        "fortcrushaFlail": "4",
+        "hurledBoulder": "12\"",
+        "mightierMakesRightier": "15"
+      },
+      {}
+    ],
+    "abilities": [],
+    "keywords": [
+      "DESTRUCTION",
+      "SONS",
+      "BEHEMAT",
+      "MEGA-GARGANT",
+      "HERO",
+      "MONSTER",
+      "GATEBREAKER"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "130mm"
+  },
+  {
+    "name": "King Brodd",
+    "points": "580",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Battleline",
+      "Leader",
+      "Behemoth"
+    ],
+    "flavorText": "Once ruler of the clans of the Scabrous Sprawl, the infamous King Brodd now leads the Stomps in a crusade against the forces of Sigmar. Drawing upon an ancient, primal power - as well as his own vast strength - he will stop at nothing to see the death of his godbeast forefather avenged.",
+    "description": "",
+    "wounds": "40",
+    "move": "✹",
+    "save": "4+",
+    "bravery": "9",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Obelisk of Tor Crania",
+        "range": "3\"",
+        "attacks": "✹",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "5"
+      },
+      {
+        "name": "Almighty Stomp",
+        "range": "3\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "D3"
+      },
+      {
+        "name": "Death Grip",
+        "range": "3\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "2+",
+        "rend": "-2",
+        "damage": "D6"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-18",
+        "move": "10\"",
+        "obeliskOfTorCrania": "4",
+        "creepers": "2+",
+        "mightierMakesRightier": "25"
+      },
+      {
+        "woundsSuffered": "19-26",
+        "move": "10\"",
+        "obeliskOfTorCrania": "4",
+        "creepers": "3+",
+        "mightierMakesRightier": "20"
+      },
+      {
+        "woundsSuffered": "27-34",
+        "move": "9\"",
+        "obeliskOfTorCrania": "3",
+        "creepers": "4+",
+        "mightierMakesRightier": "18"
+      },
+      {}
+    ],
+    "abilities": [],
+    "keywords": [
+      "DESTRUCTION",
+      "SONS",
+      "BEHEMAT",
+      "MEGA-GARGANT",
+      "HERO",
+      "MONSTER",
+      "PRIEST",
+      "KING",
+      "BRODD"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ]
+  },
+  {
+    "name": "Kraken eater Mega Gargant",
+    "points": "490",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Battleline",
+      "Leader",
+      "Behemoth"
+    ],
+    "flavorText": "Kraken-eaters are grabbing, greedy coastal raiders that are fiercely territorial. Unfortunately, they consider everything they can see to be their territory. They will fight with outraged indignation to take the spoils of war for their hoards.",
+    "description": "",
+    "wounds": "35",
+    "move": "✹",
+    "save": "4+",
+    "bravery": "7",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Shipwrecka Warclub",
+        "range": "3\"",
+        "attacks": "✹",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "4"
+      },
+      {
+        "name": "Almighty Stomp",
+        "range": "3\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "D3"
+      },
+      {
+        "name": "Death Grip",
+        "range": "3\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "2+",
+        "rend": "-2",
+        "damage": "D6"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-15",
+        "move": "10\"",
+        "shipwreckaWarclub": "4",
+        "hurledDebris": "24\"",
+        "mightierMakesRightier": "20"
+      },
+      {
+        "woundsSuffered": "16-22",
+        "move": "10\"",
+        "shipwreckaWarclub": "4",
+        "hurledDebris": "21\"",
+        "mightierMakesRightier": "18"
+      },
+      {
+        "woundsSuffered": "23-29",
+        "move": "9\"",
+        "shipwreckaWarclub": "3",
+        "hurledDebris": "18\"",
+        "mightierMakesRightier": "15"
+      },
+      {}
+    ],
+    "abilities": [],
+    "keywords": [
+      "DESTRUCTION",
+      "SONS",
+      "BEHEMAT",
+      "MEGA-GARGANT",
+      "HERO",
+      "MONSTER",
+      "KRAKEN-EATER"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "130mm"
+  },
+  {
+    "name": "Warstomper Mega Gargant",
+    "points": "450",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Battleline",
+      "Leader",
+      "Behemoth"
+    ],
+    "flavorText": "The veteran Warmongers of the gargant race seek out the thrill and clangour of battle wherever they can find it. They love smashing battlelines into disarray, and once they are in the thick of the fight, their rampage is all but impossible to stop.",
+    "description": "",
+    "wounds": "35",
+    "move": "✹",
+    "save": "4+",
+    "bravery": "7",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Titanic Boulderclub",
+        "range": "3\"",
+        "attacks": "See below",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "2"
+      },
+      {
+        "name": "Jump Up and Down",
+        "range": "3\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "D3"
+      },
+      {
+        "name": "Death Grip",
+        "range": "3\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "2+",
+        "rend": "-2",
+        "damage": "D6"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-15",
+        "move": "10\"",
+        "titanicBoulderclub": "+4",
+        "hurledBody": "+2",
+        "mightierMakesRightier": "20"
+      },
+      {
+        "woundsSuffered": "16-22",
+        "move": "10\"",
+        "titanicBoulderclub": "+3",
+        "hurledBody": "+1",
+        "mightierMakesRightier": "18"
+      },
+      {
+        "woundsSuffered": "23-29",
+        "move": "9\"",
+        "titanicBoulderclub": "+2",
+        "hurledBody": "0",
+        "mightierMakesRightier": "15"
+      },
+      {}
+    ],
+    "abilities": [],
+    "keywords": [
+      "DESTRUCTION",
+      "SONS",
+      "BEHEMAT",
+      "MEGA-GARGANT",
+      "HERO",
+      "MONSTER",
+      "WARSTOMPER"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "130mm"
+  },
+  {
+    "name": "Mancrusher Gargant 1",
+    "points": "150",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Battleline"
+    ],
+    "flavorText": "When the earth shakes to the thunder of the Mega-Gargants’ footfalls, their lesser brethren muster for war. No longer are they aimless nomads and indulgent drunkards; now they are war-hungry terrors inspired to violence by their towering brethren.",
+    "description": "",
+    "wounds": "12",
+    "move": "8\"",
+    "save": "5+",
+    "bravery": "7",
+    "missleWeapons": [
+      {
+        "name": "Throwin’ Rocks",
+        "range": "18\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Massive Club",
+        "range": "2\"",
+        "attacks": "✹",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      },
+      {
+        "name": "’Eadbutt",
+        "range": "2\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-3",
+        "damage": "✹"
+      },
+      {
+        "name": "Mighty Kick",
+        "range": "2\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-5",
+        "stompingCharge": "2+",
+        "massiveClub": "4",
+        "eadbutt": "4"
+      },
+      {
+        "woundsSuffered": "6-7",
+        "stompingCharge": "3+",
+        "massiveClub": "3",
+        "eadbutt": "3"
+      },
+      {
+        "woundsSuffered": "8-9",
+        "stompingCharge": "4+",
+        "massiveClub": "2",
+        "eadbutt": "2"
+      },
+      {}
+    ],
+    "abilities": [],
+    "keywords": [
+      "DESTRUCTION",
+      "SONS",
+      "BEHEMAT",
+      "GARGANT",
+      "MONSTER",
+      "MANCRUSHER",
+      "GARGANT"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ]
+  },
+  {
+    "name": "Mancrusher Mob",
+    "points": "450",
+    "unitSize": "3",
+    "battlefieldRoles": [
+      "Battleline"
+    ],
+    "flavorText": "Mancrusher Gargants often band together under the leadership of a Bullstomper either to terrorise civilised lands or to march to war. In battle, these mobs of Mancrushers are a formidable opponent as they rampage through enemy lines or gang up on the few creatures that match their size.",
+    "description": "",
+    "wounds": "12",
+    "move": "8\"",
+    "save": "5+",
+    "bravery": "7",
+    "missleWeapons": [
+      {
+        "name": "Throwin’ Rocks",
+        "range": "18\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Massive Club",
+        "range": "2\"",
+        "attacks": "✹",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      },
+      {
+        "name": "’Eadbutt",
+        "range": "2\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-3",
+        "damage": "✹"
+      },
+      {
+        "name": "Mighty Kick",
+        "range": "2\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-5",
+        "stompingCharge": "2+",
+        "massiveClub": "4",
+        "eadbutt": "4"
+      },
+      {
+        "woundsSuffered": "6-7",
+        "stompingCharge": "3+",
+        "massiveClub": "3",
+        "eadbutt": "3"
+      },
+      {
+        "woundsSuffered": "8-9",
+        "stompingCharge": "4+",
+        "massiveClub": "2",
+        "eadbutt": "2"
+      },
+      {}
+    ],
+    "abilities": [],
+    "keywords": [
+      "DESTRUCTION",
+      "SONS",
+      "BEHEMAT",
+      "GARGANT",
+      "MONSTER",
+      "MANCRUSHER",
+      "GARGANT",
+      "MANCRUSHER",
+      "MOB"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ]
+  },
+  {
+    "name": "Bonegrinder Mega Gargant 1",
+    "points": "535",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Behemoth"
+    ],
+    "flavorText": "The Bonegrinder Mega-Gargant’s coming is heralded by earth-shaking footsteps and a deafening roar of battle-lust. Each Bonegrinder thinks of itself as the next Behemat, and will stomp flat or batter to death anything foolish enough to stand in its way.",
+    "description": "A Bonegrinder Mega-Gargant is armed with a Gargantuan Club, Thunderous Stomp and Hurled Boulders.",
+    "wounds": "35",
+    "move": "✹",
+    "save": "4+",
+    "bravery": "7",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Gargantuan Club",
+        "range": "3\"",
+        "attacks": "✹",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "3"
+      },
+      {
+        "name": "Thunderous Stomp",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "D6"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-18",
+        "move": "11\"",
+        "hurledBoulder": "18\"",
+        "gargantuanClub": "7"
+      },
+      {
+        "woundsSuffered": "19-24",
+        "move": "10\"",
+        "hurledBoulder": "15\"",
+        "gargantuanClub": "5"
+      },
+      {
+        "woundsSuffered": "25-30",
+        "move": "9\"",
+        "hurledBoulder": "12\"",
+        "gargantuanClub": "4"
+      },
+      {}
+    ],
+    "abilities": [
+      {
+        "name": "Thunderous Stomp",
+        "flavorText": "A Bonegrinder Mega- Gargant’s massive, stomping feet are devastating against smaller opponents.",
+        "description": "Add 1 to hit rolls for attacks made with a Thunderous Stomp unless the target is a MONSTER."
+      },
+      {
+        "name": "I’ll Bite Your Head Off!",
+        "flavorText": "A Bonegrinder Mega-Gargant’s cavernous mouth makes for an especially deadly weapon, should the brute fancy a light snack during a battle.",
+        "description": "After this model piles in, you can pick 1 enemy model that is within 3\" of this model, and roll a dice. If the roll is greater than that enemy model’s Wounds characteristic, that enemy model is slain."
+      },
+      {
+        "name": "Longshanks",
+        "flavorText": "A Bonegrinder Mega-Gargant towers high above the battlefield, and although it moves ponderously, it can step over most obstacles.",
+        "description": "When this model makes a normal move, run or retreat, it can ignore other models and terrain features when you trace the path of its move across the battlefield, but it cannot finish that move within 3\" of an enemy unit."
+      },
+      {
+        "name": "Sons of Behemat",
+        "flavorText": "The Sons of Behemat are nearly as difficult to kill as their mighty progenitor.",
+        "description": "If this model is affected by an ability that slays the target without any wounds or mortal wounds being allocated, then this model suffers D6 mortal wounds instead."
+      },
+      {
+        "name": "Terror",
+        "flavorText": "This terrifying monstrosity strikes fear into the hearts of its foes.",
+        "description": "Subtract 1 from the Bravery characteristic of enemy units if they are within 3\" of any friendly units with this ability."
+      },
+      {
+        "name": "Timberrr!!!",
+        "flavorText": "A dying Bonegrinder Mega-Gargant is indiscriminating in their choice of where – and on whom – their body falls.",
+        "description": "If this model is slain, before removing it from play, the players must roll off. The winner must pick 1 point on the battlefield 5\" from this model. Each unit within 3\" of that point suffers D3 mortal wounds unless it is a MEGA-GARGANT. This model is then removed from play."
+      }
+    ],
+    "keywords": [
+      "DESTRUCTION",
+      "SONS",
+      "BEHEMAT",
+      "GARGANT",
+      "MEGA-GARGANT",
+      "MONSTER",
+      "BONEGRINDER"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "120 x 92mm"
+  }
+]

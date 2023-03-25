@@ -1,0 +1,1660 @@
+[
+  {
+    "name": "Archmage Teclis and Celennar Spirit of Hysh",
+    "points": "700",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader",
+      "Behemoth"
+    ],
+    "flavorText": "One of the most powerful sorcerers in all the cosmos, Teclis is rightly known as the Mage God by his worshippers. When his power is joined to that of the Hyshian moon-spirit Celennar, entire armies can be annihilated through his divine spellcraft.",
+    "description": "",
+    "wounds": "16",
+    "move": "10\"",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [
+      {
+        "name": "Lunar Staff",
+        "range": "18\"",
+        "attacks": "1",
+        "toHit": "2+",
+        "toWound": "2+",
+        "rend": "-3",
+        "damage": "D6"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Sword of Teclis",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "2+",
+        "rend": "-3",
+        "damage": "D3"
+      },
+      {
+        "name": "Moonbright Talons",
+        "range": "1\"",
+        "attacks": "✹",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-6",
+        "archmage": "Cast 1, 2 or up to 4 spells",
+        "moonbrightTalons": "6",
+        "auraOfCelennar": "16\""
+      },
+      {
+        "woundsSuffered": "7-9",
+        "archmage": "Cast 1, 2 or up to 4 spells",
+        "moonbrightTalons": "5",
+        "auraOfCelennar": "12\""
+      },
+      {
+        "woundsSuffered": "10-12",
+        "archmage": "Cast 2 or up to 4 spells",
+        "moonbrightTalons": "4",
+        "auraOfCelennar": "9\""
+      },
+      {}
+    ],
+    "abilities": [],
+    "keywords": [
+      "ORDER",
+      "LUMINETH",
+      "REALM-LORDS",
+      "AELF",
+      "HERO",
+      "MONSTER",
+      "WIZARD",
+      "TECLIS"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ],
+    "baseSize": "160mm"
+  },
+  {
+    "name": "Avalenor the Stoneheart King",
+    "points": "420",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader",
+      "Behemoth"
+    ],
+    "flavorText": "Avalenor is the eldest and wisest of all Hysh’s mountain spirits. He alone chose to stand with the aelves of his own accord, and his twin Firestealer Hammers have never rested in the defence of Hysh and its sibling realms - nor shall they while a single servant of the Dark Gods draws breath.",
+    "description": "",
+    "wounds": "16",
+    "move": "6\"",
+    "save": "3+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Firestealer Hammers",
+        "range": "2\"",
+        "attacks": "6",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "✹"
+      },
+      {
+        "name": "Cloven Hooves",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-6",
+        "geomanticBlast": "25\"",
+        "guardianOfHysh": "12\"",
+        "firestealerHammers": "5"
+      },
+      {
+        "woundsSuffered": "7-9",
+        "geomanticBlast": "20\"",
+        "guardianOfHysh": "6\"",
+        "firestealerHammers": "4"
+      },
+      {
+        "woundsSuffered": "10-12",
+        "geomanticBlast": "15\"",
+        "guardianOfHysh": "3\"",
+        "firestealerHammers": "3"
+      },
+      {}
+    ],
+    "abilities": [],
+    "keywords": [
+      "ORDER",
+      "LUMINETH",
+      "REALM-LORDS",
+      "ALARITH",
+      "HERO",
+      "MONSTER",
+      "TOTEM",
+      "SPIRIT",
+      "MOUNTAIN",
+      "AVALENOR"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ],
+    "baseSize": "100mm"
+  },
+  {
+    "name": "Alarith Stonemage",
+    "points": "120",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Alarith Stonemages are experts in the magic of rock and earth, for they are as one with their mountain masters. In battle, they hurl boulders, turn their flesh to impervious stone and even control gravity itself to annihilate their foes.",
+    "description": "",
+    "wounds": "5",
+    "move": "6\"",
+    "save": "4+",
+    "bravery": "8",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Staff of the High Peaks",
+        "range": "3\"",
+        "attacks": "D3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "ORDER",
+      "LUMINETH",
+      "REALM-LORDS",
+      "AELF",
+      "AELEMENTIRI",
+      "ALARITH",
+      "HERO",
+      "WIZARD",
+      "STONEMAGE"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "40mm"
+  },
+  {
+    "name": "Ellania and Ellathor Eclipsian Warsages",
+    "points": "260",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Though the young prodigies Ellania and Ellathor may lack experience, they make up for it in raw excellence. These twins have proved themselves champions of the aelven race on multiple occasions, and wielding the gifts of their godly patrons, they are a true force to be reckoned with.",
+    "description": "",
+    "wounds": "8",
+    "move": "6\"",
+    "save": "3+",
+    "bravery": "8",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Altairi",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "2+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "See below"
+      },
+      {
+        "name": "Dianaer",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      },
+      {
+        "name": "Moonbright Talons",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "ORDER",
+      "LUMINETH",
+      "REALM-LORDS",
+      "AELF",
+      "SCINARI",
+      "VANARI",
+      "ILIATHA",
+      "HERO",
+      "WIZARD",
+      "ELLANIA",
+      "ELLATHOR"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ],
+    "baseSize": "40mm"
+  },
+  {
+    "name": "Hurakan Spirit of the Wind",
+    "points": "250",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "When roused to wrath, the Spirits of the Wind strike like a cyclone. It is all but impossible to track them as they dart through the air, launching arrow after arrow from their elegant but monstrously powerful bows and slipping away before retribution can land, wind whistling with their laughter.",
+    "description": "",
+    "wounds": "8",
+    "move": "24\"",
+    "save": "5+",
+    "bravery": "10",
+    "missleWeapons": [
+      {
+        "name": "Bow of the Wind’s Vengeance",
+        "range": "18\"",
+        "attacks": "4",
+        "toHit": "2+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "D3"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Bow of the Wind’s Vengeance",
+        "range": "3\"",
+        "attacks": "2",
+        "toHit": "2+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "D3"
+      },
+      {
+        "name": "Swirling Shards",
+        "range": "3\"",
+        "attacks": "D3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "ORDER",
+      "LUMINETH",
+      "REALM-LORDS",
+      "HURAKAN",
+      "SPIRIT",
+      "WIND"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "60mm"
+  },
+  {
+    "name": "Hurakan Windmage",
+    "points": "120",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "True allies of the Hyshian winds, a Hurakan Windmage travels everywhere upon a loyal zephyr-spirit companion. From here, they encourage their aelementors to follow their aelven disciples and unleash the gale-force wrath of the air against their enemies.",
+    "description": "",
+    "wounds": "5",
+    "move": "16\"",
+    "save": "5+",
+    "bravery": "7",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Aspiragillum",
+        "range": "3\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "ORDER",
+      "LUMINETH",
+      "REALM-LORDS",
+      "AELF",
+      "AELEMENTIRI",
+      "HURAKAN",
+      "HERO",
+      "WIZARD",
+      "WINDMAGE"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "60 x 35mm"
+  },
+  {
+    "name": "Lyrior Uthralle Warden of Ymetrica",
+    "points": "190",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "A storied hero of Ymetrica, Lyrior Uthralle commands with the surety and panache of a born champion. Though deeply scarred by a past tragedy, he is determined to defend his beloved realm, and countless foes have met their demise upon the tip of his fabled lance, Daemonbane.",
+    "description": "",
+    "wounds": "6",
+    "move": "16\"",
+    "save": "3+",
+    "bravery": "9",
+    "missleWeapons": [
+      {
+        "name": "Daemonbane",
+        "range": "18\"",
+        "attacks": "1",
+        "toHit": "2+",
+        "toWound": "2+",
+        "rend": "-2",
+        "damage": "D3"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Daemonbane",
+        "range": "3\"",
+        "attacks": "2",
+        "toHit": "2+",
+        "toWound": "2+",
+        "rend": "-1",
+        "damage": "D3"
+      },
+      {
+        "name": "Regent’s Sword",
+        "range": "1\"",
+        "attacks": "5",
+        "toHit": "2+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      },
+      {
+        "name": "Horns and Claws",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "ORDER",
+      "LUMINETH",
+      "REALM-LORDS",
+      "AELF",
+      "VANARI",
+      "YMETRICA",
+      "HERO",
+      "WIZARD",
+      "LORD",
+      "REGENT",
+      "LYRIOR",
+      "UTHRALLE"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ],
+    "baseSize": "90 x 52mm"
+  },
+  {
+    "name": "Myari Lightcaller",
+    "points": "235",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Myari Lightcaller has great experience in battling arcane curses, especially the Katophrane Curse that once emanated from the Mirrored City. With his deep wisdom and arcane prowess, few can withstand his might.",
+    "description": "",
+    "wounds": "5",
+    "move": "6\"",
+    "save": "5+",
+    "bravery": "8",
+    "missleWeapons": [
+      {
+        "name": "Searing Beams",
+        "range": "18\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Staff of Enlightenment",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "ORDER",
+      "LUMINETH",
+      "REALM-LORDS",
+      "AELF",
+      "SCINARI",
+      "YMETRICA",
+      "HERO",
+      "WIZARD",
+      "MYARI",
+      "LIGHTCALLER"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique. Myari Lightcaller and <a href=\"/aos3/factions/lumineth-realm-lords/warscrolls.html#Myari-s-Purifiers\">Myari’s Purifiers</a> must be taken as a set. Although taken as a set",
+      "each is a separate unit."
+    ]
+  },
+  {
+    "name": "Scinari Calligrave",
+    "points": "115",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "With the stroke of a brush, a Scinari Calligrave can alter reality. Hie runes they paint upon their enchanted parchments soon emblazon the battlefield itself - and, in extremis, can be used to erase a foe from existence.",
+    "description": "",
+    "wounds": "5",
+    "move": "6\"",
+    "save": "5+",
+    "bravery": "7",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Calligrave Blade",
+        "range": "3\"",
+        "attacks": "D3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "ORDER",
+      "LUMINETH",
+      "REALM-LORDS",
+      "AELF",
+      "SCINARI",
+      "HERO",
+      "WIZARD",
+      "CALLIGRAVE"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Scinari Cathallar",
+    "points": "110",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "It is the noble duty of a Scinari Cathallar to take the spiritual anguish that emanates from their kin, and redirect it against their enemies. They are the lone point of darkness in the brilliance of a Lumineth line, capable of wielding despair itself as a weapon.",
+    "description": "",
+    "wounds": "5",
+    "move": "6\"",
+    "save": "5+",
+    "bravery": "7",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Despairing Touch",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "2+",
+        "rend": "-",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "ORDER",
+      "LUMINETH",
+      "REALM-LORDS",
+      "AELF",
+      "SCINARI",
+      "HERO",
+      "WIZARD",
+      "CATHALLAR"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Scinari Enlightener",
+    "points": "170",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Scinari Enlighteners are amongst the pre-eminent battlemages of Lumineth society. They are experts in conjuring blinding light, searing beams and banishing abjurations, and they are adept at turning the harm inflicted upon them back upon their enemies.",
+    "description": "",
+    "wounds": "5",
+    "move": "6\"",
+    "save": "5+",
+    "bravery": "7",
+    "missleWeapons": [
+      {
+        "name": "Crescent Staff",
+        "range": "18\"",
+        "attacks": "D6",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Enlightener Blade",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "ORDER",
+      "LUMINETH",
+      "REALM-LORDS",
+      "AELF",
+      "SCINARI",
+      "HERO",
+      "WIZARD",
+      "ENLIGHTENER"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ]
+  },
+  {
+    "name": "Scinari Loreseeker",
+    "points": "160",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Scinari Loreseekers are Eclipsians, souls with the potential to achieve true harmony between their Teclian and Tyrionic aspects. These warsages find great power in this, and they scour the realms for esoteric knowledge and artefacts that only the Lumineth can be entrusted with.",
+    "description": "",
+    "wounds": "6",
+    "move": "6\"",
+    "save": "4+",
+    "bravery": "8",
+    "missleWeapons": [
+      {
+        "name": "Eclipsian Staff",
+        "range": "12\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "D3"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Loreseeker Blade",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "2+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "ORDER",
+      "LUMINETH",
+      "REALM-LORDS",
+      "AELF",
+      "SCINARI",
+      "HERO",
+      "WIZARD",
+      "LORESEEKER"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Sevireth Lord of the Seventh Wind",
+    "points": "320",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "The bellicose aelementor known as Sevireth is the searing wrath of a desert wind come to life. The sandstorm that whips around him can scour the idols and monuments of his foes clean in moments, while enemies are flayed straight to the bone - those not struck down by his arrows, that is.",
+    "description": "",
+    "wounds": "10",
+    "move": "24\"",
+    "save": "5+",
+    "bravery": "10",
+    "missleWeapons": [
+      {
+        "name": "Enathrai, the Howling Death",
+        "range": "18\"",
+        "attacks": "4",
+        "toHit": "2+",
+        "toWound": "3+",
+        "rend": "-3",
+        "damage": "D3"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Enathrai, the Howling Death",
+        "range": "3\"",
+        "attacks": "2",
+        "toHit": "2+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "D3"
+      },
+      {
+        "name": "Swirling Shards",
+        "range": "3\"",
+        "attacks": "D3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "ORDER",
+      "LUMINETH",
+      "REALM-LORDS",
+      "HURAKAN",
+      "HERO",
+      "SPIRIT",
+      "WIND",
+      "SEVIRETH"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ],
+    "baseSize": "60mm"
+  },
+  {
+    "name": "The Light of Eltharion",
+    "points": "240",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "A legendary ancestor of the Lumineth race, the Light of Eltharion is a puissant warrior who has become one with the energies of Hysh. To face him is to face the power of light itself made manifest, and few have survived an encounter with his grim, enchanted blades.",
+    "description": "",
+    "wounds": "8",
+    "move": "6\"",
+    "save": "3+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Fangsword of Eltharion",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "2+",
+        "toWound": "3+",
+        "rend": "-3",
+        "damage": "3"
+      },
+      {
+        "name": "Celennari Blade",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "2+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "3"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "ORDER",
+      "LUMINETH",
+      "REALM-LORDS",
+      "AELF",
+      "HERO",
+      "THE",
+      "LIGHT",
+      "ELTHARION"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ],
+    "baseSize": "50mm"
+  },
+  {
+    "name": "Vanari Bannerblade",
+    "points": "100",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "The central point of many a Vanari battleline, each Bannerblade is a locus of surety in the maelstrom of battle. The World Banners they bear are priceless artefacts, for they can unleash the power of a Hyshian dawn to blind, melt and even kill.",
+    "description": "",
+    "wounds": "5",
+    "move": "6\"",
+    "save": "3+",
+    "bravery": "8",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Bannerblade’s Sword",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "2+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "ORDER",
+      "LUMINETH",
+      "REALM-LORDS",
+      "AELF",
+      "VANARI",
+      "HERO",
+      "TOTEM",
+      "BANNERBLADE"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "40mm"
+  },
+  {
+    "name": "Vanari Lord Regent",
+    "points": "170",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Mounted upon swift lightcoursers, Lord Regents are representatives of Tyrion himself. In battle, they seem to glow with the refined aetherquartz worked into their wargear, empowering those around them through word and deed alike.",
+    "description": "",
+    "wounds": "6",
+    "move": "14\"",
+    "save": "3+",
+    "bravery": "8",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Regent’s Sword",
+        "range": "1\"",
+        "attacks": "5",
+        "toHit": "2+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      },
+      {
+        "name": "Horns and Claws",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "ORDER",
+      "LUMINETH",
+      "REALM-LORDS",
+      "AELF",
+      "VANARI",
+      "HERO",
+      "WIZARD",
+      "LORD",
+      "REGENT"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "90 x 52mm"
+  },
+  {
+    "name": "Vanari Auralan Wardens",
+    "points": "150",
+    "unitSize": "10",
+    "battlefieldRoles": [
+      "Battleline"
+    ],
+    "flavorText": "Auralan Wardens are the lynchpin of a Vanari battle line and a mainstay in the hosts of Hysh. Fearlessly do they stare down a charging enemy, waiting until the opportune moment before driving the sunmetal tips of their pikes forward and breaking the enemy advance like waves crashing against a cliff.",
+    "description": "",
+    "wounds": "1",
+    "move": "6\"",
+    "save": "4+",
+    "bravery": "6",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Champion’s Blade",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Warden’s Pike",
+        "range": "3\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "ORDER",
+      "LUMINETH",
+      "REALM-LORDS",
+      "AELF",
+      "VANARI",
+      "AURALAN",
+      "WARDENS"
+    ],
+    "pitchedBattleNotes": [
+      "For each Vanari Auralan Wardens unit included in your army",
+      "you can take 1 <a href=\"/aos3/factions/lumineth-realm-lords/warscrolls.html#Vanari-Auralan-Sentinels\">Vanari Auralan Sentinels</a> unit or 1 <a href=\"/aos3/factions/lumineth-realm-lords/warscrolls.html#Vanari-Dawnriders\">Vanari Dawnriders</a> unit as a Battleline unit."
+    ],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Alarith Stoneguard",
+    "points": "120",
+    "unitSize": "5",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Having accepted the mountains as their spiritual guides, the Alarith Stoneguard are granted immense strength and resilience. In battle, they are all but impossible to shift, while the blows of their sacred hammers are like an avalanche crashing into the enemy.",
+    "description": "",
+    "wounds": "2",
+    "move": "4\"",
+    "save": "4+",
+    "bravery": "7",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Stone Mallet or Diamondpick Hammer",
+        "range": "2\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Paired Stratum Hammers",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "ORDER",
+      "LUMINETH",
+      "REALM-LORDS",
+      "AELF",
+      "AELEMENTIRI",
+      "ALARITH",
+      "STONEGUARD"
+    ],
+    "pitchedBattleNotes": [
+      "Battleline in an <a href=\"/aos3/factions/lumineth-realm-lords/#Great-Nation-of-Ymetrica\">Ymetrica</a> army"
+    ],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Hurakan Windchargers",
+    "points": "150",
+    "unitSize": "5",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "There is nowhere to hide from the Windchargers of the Hurakan temple. Their treerunner mounts are capable of deftly navigating the densest terrain to slip past their enemies, while the arrows of the aelves are carried upon loyal winds and almost always find their mark.",
+    "description": "",
+    "wounds": "2",
+    "move": "14\"",
+    "save": "5+",
+    "bravery": "7",
+    "missleWeapons": [
+      {
+        "name": "Windcharger Bow",
+        "range": "12\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Windcharger Bow",
+        "range": "3\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Claws",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "ORDER",
+      "LUMINETH",
+      "REALM-LORDS",
+      "AELF",
+      "AELEMENTIRI",
+      "HURAKAN",
+      "WINDCHARGERS"
+    ],
+    "pitchedBattleNotes": [
+      "Battleline in a <a href=\"/aos3/factions/lumineth-realm-lords/#Great-Nation-of-Helon\">Helon</a> army"
+    ],
+    "baseSize": "60 x 35mm"
+  },
+  {
+    "name": "Myari s Purifiers",
+    "points": "235",
+    "unitSize": "3",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "The aelves who follow Myari each embody different warrior aspects of the Lumineth race. Bahannar is a stoic exemplar of the Alarith, Senaela is a keen-eyed shot, while the peerless Bladelord Ailenn is tireless in the defence of her Scinari charge.",
+    "description": "",
+    "wounds": "2",
+    "move": "6\"",
+    "save": "4+",
+    "bravery": "7",
+    "missleWeapons": [
+      {
+        "name": "Auralan Bow",
+        "range": "18\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Stone Mallet",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      },
+      {
+        "name": "Sunmetal Greatsword",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "2+",
+        "toWound": "2+",
+        "rend": "-1",
+        "damage": "D3"
+      },
+      {
+        "name": "Vanari Dagger",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "ORDER",
+      "LUMINETH",
+      "REALM-LORDS",
+      "AELF",
+      "YMETRICA",
+      "MYARI’S",
+      "PURIFIERS"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique. <a href=\"/aos3/factions/lumineth-realm-lords/warscrolls.html#Myari-Lightcaller\">Myari Lightcaller</a> and Myari’s Purifiers must be taken as a set. Although taken as a set",
+      "each is a separate unit."
+    ]
+  },
+  {
+    "name": "Vanari Auralan Sentinels",
+    "points": "150",
+    "unitSize": "10",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "The Auralan Sentinels are amongst the finest archers in all the Mortal Realms. Wielding complex bows of aelven design, they are able to place their shots over an incredible distance or else deliver their sunmetal ammunition with such accuracy that even the thickest armour may be thwarted.",
+    "description": "",
+    "wounds": "1",
+    "move": "6\"",
+    "save": "5+",
+    "bravery": "6",
+    "missleWeapons": [
+      {
+        "name": "Auralan Bow: Aimed",
+        "range": "18\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Auralan Bow: Lofted",
+        "range": "24\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Champion’s Blade",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Vanari Dagger",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "ORDER",
+      "LUMINETH",
+      "REALM-LORDS",
+      "AELF",
+      "VANARI",
+      "AURALAN",
+      "SENTINELS"
+    ],
+    "pitchedBattleNotes": [
+      "For each <a href=\"/aos3/factions/lumineth-realm-lords/warscrolls.html#Vanari-Auralan-Wardens\">Vanari Auralan Wardens</a> unit included in your army",
+      "you can take 1 Vanari Auralan Sentinels unit or 1 <a href=\"/aos3/factions/lumineth-realm-lords/warscrolls.html#Vanari-Dawnriders\">Vanari Dawnriders</a> unit as a Battleline unit."
+    ],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Vanari Bladelords",
+    "points": "130",
+    "unitSize": "5",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Bladelords are the guardians of the Scinari mage-caste. Paragons of the warrior arts of the Vanari, they wield their greatblades with a preternatural precision and ease, selflessly defending their charges as they cut their way through the enemy elite.",
+    "description": "",
+    "wounds": "2",
+    "move": "6\"",
+    "save": "4+",
+    "bravery": "7",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Sunmetal Greatblade: Perfect Strike",
+        "range": "2\"",
+        "attacks": "1",
+        "toHit": "See below",
+        "toWound": "",
+        "rend": "",
+        "damage": ""
+      },
+      {
+        "name": "Sunmetal Greatblade: Flurry of Blows",
+        "range": "2\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Sunmetal Dual Blades",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "2+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "ORDER",
+      "LUMINETH",
+      "REALM-LORDS",
+      "AELF",
+      "VANARI",
+      "BLADELORDS"
+    ],
+    "pitchedBattleNotes": [
+      "For each <span class=\"tooltip00049\" data-tooltip-content=\"#tooltip_content00049\" data-tooltip-anchor=\"#tooltip_content00049\"><span class=\"kwb kwbu\">SCINARI</span> <span class=\"kwb kwbu\">HERO</span></span> included in your army",
+      "you can take 1 Vanari Bladelords unit as a Battleline unit."
+    ],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Vanari Dawnriders",
+    "points": "140",
+    "unitSize": "5",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "The Dawnriders maintain tight formation as they charge into the foe, pennants fluttering proudly as they advance. With sunmetal lance and blade do they tear great chunks out of an enemy horde, riding them down with dauntless courage before leaping over the corpses and wheeling about to launch another assault.",
+    "description": "",
+    "wounds": "2",
+    "move": "14\"",
+    "save": "4+",
+    "bravery": "7",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Guardian’s Sword",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Sunmetal Lance",
+        "range": "2\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Dashing Hooves",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "ORDER",
+      "LUMINETH",
+      "REALM-LORDS",
+      "AELF",
+      "VANARI",
+      "DAWNRIDERS"
+    ],
+    "pitchedBattleNotes": [
+      "For each <a href=\"/aos3/factions/lumineth-realm-lords/warscrolls.html#Vanari-Auralan-Wardens\">Vanari Auralan Wardens</a> unit included in your army",
+      "you can take 1 <a href=\"/aos3/factions/lumineth-realm-lords/warscrolls.html#Vanari-Auralan-Sentinels\">Vanari Auralan Sentinels</a> unit or 1 Vanari Dawnriders unit as a Battleline unit."
+    ],
+    "baseSize": "60 x 35mm"
+  },
+  {
+    "name": "Alarith Spirit of the Mountain",
+    "points": "380",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Behemoth"
+    ],
+    "flavorText": "A Spirit of the Mountain is a war-form adopted by the geomantic animus of one of Hysh’s great peaks. The strength of the realm itself is theirs to wield, but though their hammers can crush walls and reduce enemies to bloody smears, it is their wisdom these spirits are most revered for - ponderous as it can be.",
+    "description": "",
+    "wounds": "14",
+    "move": "6\"",
+    "save": "3+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Stoneheart Worldhammer",
+        "range": "3\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "2+",
+        "rend": "-2",
+        "damage": "✹"
+      },
+      {
+        "name": "Cloven Hooves",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-6",
+        "geomanticBlast": "25\"",
+        "stoneheartWorldhammer": "5",
+        "stoneheartShockwave": "12\""
+      },
+      {
+        "woundsSuffered": "7-9",
+        "geomanticBlast": "20\"",
+        "stoneheartWorldhammer": "4",
+        "stoneheartShockwave": "10\""
+      },
+      {
+        "woundsSuffered": "10-12",
+        "geomanticBlast": "15\"",
+        "stoneheartWorldhammer": "3",
+        "stoneheartShockwave": "8\""
+      },
+      {}
+    ],
+    "abilities": [],
+    "keywords": [
+      "ORDER",
+      "LUMINETH",
+      "REALM-LORDS",
+      "ALARITH",
+      "MONSTER",
+      "TOTEM",
+      "SPIRIT",
+      "MOUNTAIN"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "100mm"
+  },
+  {
+    "name": "Vanari Starshard Ballista",
+    "points": "130",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Artillery"
+    ],
+    "flavorText": "The bolts of a Starshard Ballista are more than capable of piercing the armour of a Chaos Warrior or impaling a rank of Gutrippaz one after the other. When needs must, the ballista’s crew can load it with specially enchanted ammunition, designed to blind whomever it strikes.",
+    "description": "",
+    "wounds": "5",
+    "move": "6\"",
+    "save": "5+",
+    "bravery": "6",
+    "missleWeapons": [
+      {
+        "name": "Starshard Bolts",
+        "range": "30\"",
+        "attacks": "3",
+        "toHit": "2+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "D3"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Arming Swords",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "ORDER",
+      "LUMINETH",
+      "REALM-LORDS",
+      "AELF",
+      "VANARI",
+      "STARSHARD",
+      "BALLISTA"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "80mm"
+  },
+  {
+    "name": "Shrine Luminor",
+    "points": "0",
+    "unitSize": "",
+    "battlefieldRoles": [
+      "Faction Terrain Feature"
+    ],
+    "flavorText": "A Shrine Luminor is built upon a realmstone-rich metalith, a floating island in miniature leaden with geomantic energies. From here a Lumineth mage can channel this elemental power to cleanse the corrupted land, as well as bolster their own arcane potential.",
+    "description": "",
+    "wounds": "",
+    "move": "",
+    "save": "",
+    "bravery": "",
+    "missleWeapons": [],
+    "meleeWeapons": [],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [],
+    "pitchedBattleNotes": []
+  },
+  {
+    "name": "Hyshian Twinstones",
+    "points": "50",
+    "unitSize": "",
+    "battlefieldRoles": [
+      "Endless Spell"
+    ],
+    "flavorText": "In moments of peril, Hyshian Twinstones can be conjured from the heart of the Realm of Light and to the battlefield. Here they act as reservoirs of magic, for as one stone is drained of power, the other replenishes, forming a perfect aetheric feedback loop.",
+    "description": "",
+    "wounds": "",
+    "move": "",
+    "save": "",
+    "bravery": "",
+    "missleWeapons": [],
+    "meleeWeapons": [],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [],
+    "pitchedBattleNotes": [],
+    "baseSize": "50mm"
+  },
+  {
+    "name": "Rune of Petrification",
+    "points": "40",
+    "unitSize": "",
+    "battlefieldRoles": [
+      "Endless Spell"
+    ],
+    "flavorText": "Only in moments of direst need will a Lumineth mage summon a Rune of Petrification. Those who dare too close to this arcane glyph find their flesh slowly transmuting to unfeeling rock, until they are eventually cursed to become inert statues for all time.",
+    "description": "",
+    "wounds": "",
+    "move": "",
+    "save": "",
+    "bravery": "",
+    "missleWeapons": [],
+    "meleeWeapons": [],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [],
+    "pitchedBattleNotes": [],
+    "baseSize": "75 x 42mm"
+  },
+  {
+    "name": "Sanctum of Amyntok",
+    "points": "50",
+    "unitSize": "",
+    "battlefieldRoles": [
+      "Endless Spell"
+    ],
+    "flavorText": "The focal point of a Sanctum of Amyntok is the rune Yngra, symbolising both rescue and imprisonment. In battle, these barriers of light energy can be conjured around a mage in need, the arrows and magical bolts of the enemy dissipating harmlessly at the merest touch.",
+    "description": "",
+    "wounds": "",
+    "move": "",
+    "save": "",
+    "bravery": "",
+    "missleWeapons": [],
+    "meleeWeapons": [],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [],
+    "pitchedBattleNotes": []
+  },
+  {
+    "name": "Alarith Battlehost",
+    "points": "",
+    "unitSize": "",
+    "battlefieldRoles": [],
+    "flavorText": "",
+    "description": "",
+    "wounds": "",
+    "move": "",
+    "save": "",
+    "bravery": "",
+    "missleWeapons": [],
+    "meleeWeapons": [],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [],
+    "pitchedBattleNotes": []
+  },
+  {
+    "name": "Hurakan Battlehost",
+    "points": "",
+    "unitSize": "",
+    "battlefieldRoles": [],
+    "flavorText": "",
+    "description": "",
+    "wounds": "",
+    "move": "",
+    "save": "",
+    "bravery": "",
+    "missleWeapons": [],
+    "meleeWeapons": [],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [],
+    "pitchedBattleNotes": []
+  },
+  {
+    "name": "Auralan Battlehost",
+    "points": "",
+    "unitSize": "",
+    "battlefieldRoles": [],
+    "flavorText": "",
+    "description": "",
+    "wounds": "",
+    "move": "",
+    "save": "",
+    "bravery": "",
+    "missleWeapons": [],
+    "meleeWeapons": [],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [],
+    "pitchedBattleNotes": []
+  },
+  {
+    "name": "Dawnrider Battlehost",
+    "points": "",
+    "unitSize": "",
+    "battlefieldRoles": [],
+    "flavorText": "",
+    "description": "",
+    "wounds": "",
+    "move": "",
+    "save": "",
+    "bravery": "",
+    "missleWeapons": [],
+    "meleeWeapons": [],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [],
+    "pitchedBattleNotes": []
+  },
+  {
+    "name": "Bladelord Host",
+    "points": "",
+    "unitSize": "",
+    "battlefieldRoles": [],
+    "flavorText": "",
+    "description": "",
+    "wounds": "",
+    "move": "",
+    "save": "",
+    "bravery": "",
+    "missleWeapons": [],
+    "meleeWeapons": [],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [],
+    "pitchedBattleNotes": []
+  },
+  {
+    "name": "Starshard Battery",
+    "points": "",
+    "unitSize": "",
+    "battlefieldRoles": [],
+    "flavorText": "",
+    "description": "",
+    "wounds": "",
+    "move": "",
+    "save": "",
+    "bravery": "",
+    "missleWeapons": [],
+    "meleeWeapons": [],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [],
+    "pitchedBattleNotes": []
+  }
+]

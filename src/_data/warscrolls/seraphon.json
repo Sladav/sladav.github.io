@@ -1,0 +1,2894 @@
+[
+  {
+    "name": "Saurus Oldblood on Carnosaur",
+    "points": "250",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader",
+      "Behemoth"
+    ],
+    "flavorText": "The mightiest Oldbloods can tame fearsome Carnosaurs, riding the terrifying beasts into battle. The howl of a Carnosaur can send even the bravest warrior fleeing, for the fury of these monstrous creatures is legendary.",
+    "description": "A Saurus Oldblood on Carnosaur is a single model armed with a Sunbolt Gauntlet and Sunstone Spear.",
+    "wounds": "12",
+    "move": "✹",
+    "save": "4+",
+    "bravery": "8",
+    "missleWeapons": [
+      {
+        "name": "Sunbolt Gauntlet",
+        "range": "18\"",
+        "attacks": "D6",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Sunstone Spear (Celestite weapon)",
+        "range": "2\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "3"
+      },
+      {
+        "name": "Clawed Forelimbs",
+        "range": "2\"",
+        "attacks": "2",
+        "toHit": "✹",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "2"
+      },
+      {
+        "name": "Massive Jaws",
+        "range": "2\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "✹"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "MOUNT",
+        "description": "This model’s Carnosaur attacks with its Clawed Forelimbs and Massive Jaws."
+      }
+    ],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-2",
+        "move": "10\"",
+        "clawedForelimbs": "3+",
+        "massiveJaws": "5"
+      },
+      {
+        "woundsSuffered": "3-4",
+        "move": "9\"",
+        "clawedForelimbs": "4+",
+        "massiveJaws": "4"
+      },
+      {
+        "woundsSuffered": "5-7",
+        "move": "8\"",
+        "clawedForelimbs": "4+",
+        "massiveJaws": "3"
+      },
+      {
+        "woundsSuffered": "8-9",
+        "move": "7\"",
+        "clawedForelimbs": "5+",
+        "massiveJaws": "2"
+      },
+      {}
+    ],
+    "abilities": [
+      {
+        "name": "Blazing Sunbolts",
+        "flavorText": "The searing bolts of energy unleashed by a sunbolt gauntlet are anathema to the daemons of the Dark Gods.",
+        "description": "Add 1 to wound rolls for attacks made with a Sunbolt Gauntlet if the target is a CHAOS DAEMON unit."
+      },
+      {
+        "name": "Blood Frenzy",
+        "flavorText": "A Carnosaur that tastes flesh in the midst of battle becomes a rampaging force of destruction.",
+        "description": "If any enemy models are slain by wounds inflicted by this model’s attacks, for the rest of the battle this model can run and still charge in the same turn."
+      },
+      {
+        "name": "Cold Ferocity",
+        "flavorText": "Saurus heroes fight with a carefully controlled fury.",
+        "description": "If the unmodified hit roll for an attack made with a Celestite weapon by this model is 6, that attack scores 2 hits on the target instead of 1. Make a wound and save roll for each hit."
+      },
+      {
+        "name": "Pinned Down",
+        "flavorText": "Carnosaurs tackle prey by pinning them in place with their powerful forelimbs and then tearing into them with their massive jaws.",
+        "description": "Add 1 to hit rolls for attacks made with Massive Jaws if the target has a Wounds characteristic of 7 or less."
+      },
+      {
+        "name": "Terror",
+        "flavorText": "This terrifying monstrosity strikes fear into the hearts of its foes.",
+        "description": "Subtract 1 from the Bravery characteristic of enemy units while they are within 3\" of any friendly units with this ability."
+      },
+      {
+        "name": "Wrath of the Seraphon",
+        "flavorText": "The Oldblood directs nearby saurus to unleash their savage instincts.",
+        "description": "You can use this command ability in the combat phase. If you do so, pick 1 friendly SAURUS unit wholly within 18\" of a friendly model with this command ability. Until the end of that phase, you can add 1 to hit rolls for attacks made by that unit. A unit cannot benefit from this command ability more than once per phase."
+      }
+    ],
+    "keywords": [
+      "ORDER",
+      "SERAPHON",
+      "SAURUS",
+      "CARNOSAUR",
+      "MONSTER",
+      "HERO",
+      "OLDBLOOD"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "120 x 92mm"
+  },
+  {
+    "name": "Saurus Scar Veteran on Carnosaur",
+    "points": "215",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader",
+      "Behemoth"
+    ],
+    "flavorText": "Scar-Veterans who have earned the right to ride a Carnosaur into battle are amongst the most ferocious of all their ilk. Such is the combined power of saurus and warbeast that they are capable of collapsing an entire enemy flank by themselves.",
+    "description": "A Saurus Scar-Veteran on Carnosaur is a single model armed with one of the following weapon options: Celestite Warblade; Celestite Warspear; or Celestite Greatblade.",
+    "wounds": "12",
+    "move": "✹",
+    "save": "4+",
+    "bravery": "8",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Celestite Warblade",
+        "range": "1\"",
+        "attacks": "6",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Celestite Warspear",
+        "range": "2\"",
+        "attacks": "6",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Celestite Greatblade",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      },
+      {
+        "name": "Clawed Forelimbs",
+        "range": "2\"",
+        "attacks": "2",
+        "toHit": "✹",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "2"
+      },
+      {
+        "name": "Massive Jaws",
+        "range": "2\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "✹"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "MOUNT",
+        "description": "This model’s Carnosaur attacks with its Clawed Forelimbs and Massive Jaws."
+      }
+    ],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-2",
+        "move": "10\"",
+        "clawedForelimbs": "3+",
+        "massiveJaws": "5"
+      },
+      {
+        "woundsSuffered": "3-4",
+        "move": "9\"",
+        "clawedForelimbs": "4+",
+        "massiveJaws": "4"
+      },
+      {
+        "woundsSuffered": "5-7",
+        "move": "8\"",
+        "clawedForelimbs": "4+",
+        "massiveJaws": "3"
+      },
+      {
+        "woundsSuffered": "8-9",
+        "move": "7\"",
+        "clawedForelimbs": "5+",
+        "massiveJaws": "2"
+      },
+      {}
+    ],
+    "abilities": [
+      {
+        "name": "Blood Frenzy",
+        "flavorText": "A Carnosaur that tastes flesh in the midst of battle becomes a rampaging force of destruction.",
+        "description": "If any enemy models are slain by wounds inflicted by this model’s attacks, for the rest of the battle this model can run and still charge in the same turn."
+      },
+      {
+        "name": "Celestite Warspear",
+        "flavorText": "A warspear is especially deadly when used by cavalry on the charge.",
+        "description": "Add 1 to the Damage characteristic of this model’s Celestite Warspear if this model made a charge move in the same turn."
+      },
+      {
+        "name": "Cold Ferocity",
+        "flavorText": "Saurus heroes fight with a carefully controlled fury.",
+        "description": "If the unmodified hit roll for an attack made with a Celestite weapon by this model is 6, that attack scores 2 hits on the target instead of 1. Make a wound and save roll for each hit."
+      },
+      {
+        "name": "Pinned Down",
+        "flavorText": "Carnosaurs tackle prey by pinning them in place with their powerful forelimbs and then tearing into them with their massive jaws.",
+        "description": "Add 1 to hit rolls for attacks made with Massive Jaws if the target has a Wounds characteristic of 7 or less."
+      },
+      {
+        "name": "Terror",
+        "flavorText": "This terrifying monstrosity strikes fear into the hearts of its foes.",
+        "description": "Subtract 1 from the Bravery characteristic of enemy units while they are within 3\" of any friendly units with this ability."
+      },
+      {
+        "name": "Saurian Savagery",
+        "flavorText": "The Scar-Veteran looses an ear-splitting roar that drives nearby saurus into a killing frenzy.",
+        "description": "You can use this command ability in the combat phase. If you do so, pick 1 friendly SAURUS unit wholly within 18\" of a friendly model with this command ability. Until the end of that phase, if the unmodified hit roll for an attack made with a melee weapon by that friendly SAURUS unit is 6, that attack scores 2 hits on the target instead of 1. Make a wound and save roll for each hit. A unit cannot benefit from this command ability more than once per phase."
+      }
+    ],
+    "keywords": [
+      "ORDER",
+      "SERAPHON",
+      "SAURUS",
+      "CARNOSAUR",
+      "MONSTER",
+      "HERO",
+      "SCAR-VETERAN"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "120 x 92mm"
+  },
+  {
+    "name": "Skink Oracle on Troglodon",
+    "points": "250",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader",
+      "Behemoth"
+    ],
+    "flavorText": "Conduits of celestial magic, the Oracles are blessed with a portion of the slann’s magical might. They are the only skinks capable of taming the foul Troglodons, directing the loathsome beasts to slake their hunger on the enemies of the Seraphon.",
+    "description": "A Skink Oracle on Troglodon is a single model armed with a Divining Rod.",
+    "wounds": "12",
+    "move": "✹",
+    "save": "4+",
+    "bravery": "6",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Divining Rod",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "D3"
+      },
+      {
+        "name": "Clawed Forelimbs",
+        "range": "2\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "2"
+      },
+      {
+        "name": "Venomous Jaws",
+        "range": "2\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "✹",
+        "rend": "-",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "MOUNT",
+        "description": "This model’s Troglodon attacks with its Noxious Spittle, Venomous Jaws and Clawed Forelimbs."
+      }
+    ],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-2",
+        "move": "10\"",
+        "noxiousSpittle": "18\"",
+        "venomousJaws": "2+"
+      },
+      {
+        "woundsSuffered": "3-4",
+        "move": "9\"",
+        "noxiousSpittle": "15\"",
+        "venomousJaws": "3+"
+      },
+      {
+        "woundsSuffered": "5-7",
+        "move": "8\"",
+        "noxiousSpittle": "12\"",
+        "venomousJaws": "3+"
+      },
+      {
+        "woundsSuffered": "8-9",
+        "move": "7\"",
+        "noxiousSpittle": "9\"",
+        "venomousJaws": "4+"
+      },
+      {}
+    ],
+    "abilities": [
+      {
+        "name": "Drawn to the Screams",
+        "flavorText": "Troglodons are drawn to the screams elicited by wounds inflicted by their noxious spittle.",
+        "description": "If any wounds inflicted by this model’s Noxious Spittle are allocated to an enemy model and not negated, until the end of the turn, you can re-roll charge rolls for this model."
+      },
+      {
+        "name": "Oracle of the Slann",
+        "flavorText": "An Oracle can draw upon some of the power of their slann master no matter how far away they may be.",
+        "description": "Add 1 to casting, dispelling and unbinding rolls for this model. In addition, this model can attempt to unbind spells that are cast anywhere on the battlefield and attempt to dispel endless spells anywhere on the battlefield."
+      },
+      {
+        "name": "Regeneration",
+        "flavorText": "Troglodons are able to regrow injured flesh almost as soon as they are harmed.",
+        "description": "In your hero phase, you can roll a dice for this model. If you do so, on a 2+, heal up to D3 wounds allocated to this model."
+      },
+      {
+        "name": "Terror",
+        "flavorText": "This terrifying monstrosity strikes fear into the hearts of its foes.",
+        "description": "Subtract 1 from the Bravery characteristic of enemy units while they are within 3\" of any friendly units with this ability."
+      },
+      {
+        "name": "Venomous Spittle",
+        "flavorText": "The venom that drips from a Troglodon’s jaws is extremely toxic and highly corrosive.",
+        "description": "If the unmodified wound roll for an attack made with this model’s Noxious Spittle or Venomous Jaws is 6, that attack inflicts 1 mortal wound on the target in addition to any normal damage."
+      },
+      {
+        "name": "Arcane BoltMystic ShieldComet’s Call",
+        "flavorText": "",
+        "description": "This model is a WIZARD. It can attempt to cast 1 spell in your hero phase and attempt to unbind 1 spell in the enemy hero phase. This model knows the Arcane Bolt, Mystic Shield and Comet’s Call spells."
+      },
+      {
+        "name": "Comet’s Call",
+        "flavorText": "His consciousness soaring up to the heavens, the caster summons a cluster of comets before casting them into the enemy’s ranks.",
+        "description": "Comet’s Call has a casting value of 7. If successfully cast, you can pick up to D3 different enemy units anywhere on the battlefield. Each of those units suffers D3 mortal wounds (roll separately for each). If the casting roll was 10+, pick up to D6 different enemy units instead of up to D3."
+      }
+    ],
+    "keywords": [
+      "ORDER",
+      "SERAPHON",
+      "SKINK",
+      "TROGLODON",
+      "MONSTER",
+      "HERO",
+      "WIZARD",
+      "ORACLE"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "120 x 92mm"
+  },
+  {
+    "name": "Stegadon with Skink Chief",
+    "points": "305",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader",
+      "Behemoth"
+    ],
+    "flavorText": "A charging Stegadon is nothing less than a living battering ram. Its skink riders wield all manner of deadly weapons, while the crushing bulk and sharpened horns of the Stegadon can smash aside even the most determined defenders.",
+    "description": "A Stegadon with Skink Chief is a single model armed with Massive Horns, Grinding Jaws and Crushing Stomps.",
+    "wounds": "10",
+    "move": "✹",
+    "save": "4+",
+    "bravery": "5",
+    "missleWeapons": [
+      {
+        "name": "Meteoric Javelins",
+        "range": "8\"",
+        "attacks": "4",
+        "toHit": "5+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Skystreak Bow",
+        "range": "24\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "3"
+      },
+      {
+        "name": "Sunfire Throwers",
+        "range": "8\"",
+        "attacks": "1",
+        "toHit": "See below",
+        "toWound": "",
+        "rend": "",
+        "damage": ""
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Meteoric Warspear",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Massive Horns",
+        "range": "2\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "✹"
+      },
+      {
+        "name": "Grinding Jaws",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      },
+      {
+        "name": "Crushing Stomps",
+        "range": "1\"",
+        "attacks": "✹",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "CREW",
+        "description": "This model has a skink crew that attack with Meteoric Javelins and one of the following weapon options: Skystreak Bow; or Sunfire Throwers. For rules purposes, the crew are treated in the same manner as a mount."
+      },
+      {
+        "name": "MOUNT",
+        "description": "The Stegadon treated as this unit’s mount."
+      },
+      {
+        "name": "SKINK CHIEF",
+        "description": "This model includes 1 Skink Chief armed with a Meteoric Warspear. Any command traits or artefacts of power this model has only affect attacks made by the Skink Chief."
+      }
+    ],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-2",
+        "move": "8\"",
+        "massiveHorns": "4",
+        "crushingStomps": "5"
+      },
+      {
+        "woundsSuffered": "3-4",
+        "move": "7\"",
+        "massiveHorns": "3",
+        "crushingStomps": "4"
+      },
+      {
+        "woundsSuffered": "5-6",
+        "move": "6\"",
+        "massiveHorns": "2",
+        "crushingStomps": "3"
+      },
+      {
+        "woundsSuffered": "7-8",
+        "move": "5\"",
+        "massiveHorns": "2",
+        "crushingStomps": "2"
+      },
+      {}
+    ],
+    "abilities": [
+      {
+        "name": "Armoured Crest",
+        "flavorText": "A Stegadon will turn to face a foe head-on if it can, so that its thickly scaled crest can protect it from harm.",
+        "description": "At the start of the combat phase, you can pick 1 enemy unit within 3\" of this model and that has up to 5 models. If you do so, until the end of that phase, add 1 to save rolls for attacks made by that unit that target this model."
+      },
+      {
+        "name": "Gout of Sunfire",
+        "flavorText": "Sunfire throwers unleash great roiling clouds of cosmic flame.",
+        "description": "Do not use the attack sequence for an attack made with Sunfire Throwers. Instead, roll a number of dice equal to the number of models from the target unit within 8\" of the attacking model. For each 5+, the target unit suffers 1 mortal wound."
+      },
+      {
+        "name": "Steadfast Majesty",
+        "flavorText": "Stegadons are almost fearless beasts, and their stubborn refusal to back down when faced by even the most fearsome foes inspires great courage in nearby skinks.",
+        "description": "You can re-roll battleshock tests for friendly SKINK units while they are wholly within 18\" of any friendly STEGADON units."
+      },
+      {
+        "name": "Unstoppable Stampede",
+        "flavorText": "Stegadons are nigh unstoppable as they crash through the midst of battle.",
+        "description": "Roll 1 dice for each enemy unit that is within 1\" of this model when this model finishes a charge move. On a 3+, that enemy unit suffers D3 mortal wounds."
+      },
+      {
+        "name": "Coordinated Strike",
+        "flavorText": "A Skink Chief mounted on a Stegadon is in the perfect position to direct the efforts of those skink warriors and warbeast handlers that are nearby, amplifying their destructive power.",
+        "description": "You can this command ability at the start of the combat phase. If you do so, pick 1 friendly SKINK unit wholly within 24\" of a friendly STEGADON HERO with this command ability. Until the end of that phase, add 1 to the Attacks characteristic of melee weapons used by that SKINK unit. A unit cannot benefit from this command ability more than once per phase."
+      }
+    ],
+    "keywords": [
+      "ORDER",
+      "SERAPHON",
+      "SKINK",
+      "HERO",
+      "MONSTER",
+      "STEGADON"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "120 x 92mm"
+  },
+  {
+    "name": "Engine of the Gods",
+    "points": "285",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Artillery",
+      "Leader",
+      "Behemoth"
+    ],
+    "flavorText": "Only in the most dire of circumstances will the Starmasters command an Engine of the Gods to be activated. Borne to battle atop a steadfast elder Stegadon, the power of these devices is unpredictable but often deadly to the enemies of the Seraphon.",
+    "description": "An Engine of the Gods is a single model.",
+    "wounds": "12",
+    "move": "✹",
+    "save": "4+",
+    "bravery": "6",
+    "missleWeapons": [
+      {
+        "name": "Meteoric Javelins",
+        "range": "8\"",
+        "attacks": "4",
+        "toHit": "5+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Massive Horns",
+        "range": "2\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "✹"
+      },
+      {
+        "name": "Grinding Jaws",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      },
+      {
+        "name": "Crushing Stomps",
+        "range": "1\"",
+        "attacks": "✹",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "SKINK PRIEST",
+        "description": "An Engine of the Gods is commanded by a Skink Priest."
+      },
+      {
+        "name": "CREW",
+        "description": "This model has a skink crew that attack with Meteoric Javelins. For rules purposes, the crew are treated in the same manner as a mount."
+      },
+      {
+        "name": "MOUNT",
+        "description": "This model’s Stegadon attacks with its Massive Horns, Grinding Jaws and Crushing Stomps."
+      }
+    ],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-3",
+        "move": "8\"",
+        "massiveHorns": "4",
+        "crushingStomps": "5"
+      },
+      {
+        "woundsSuffered": "4-5",
+        "move": "7\"",
+        "massiveHorns": "3",
+        "crushingStomps": "4"
+      },
+      {
+        "woundsSuffered": "6-8",
+        "move": "6\"",
+        "massiveHorns": "2",
+        "crushingStomps": "3"
+      },
+      {
+        "woundsSuffered": "9-10",
+        "move": "5\"",
+        "massiveHorns": "2",
+        "crushingStomps": "2"
+      },
+      {}
+    ],
+    "abilities": [
+      {
+        "name": "Armoured Crest",
+        "flavorText": "A Stegadon will turn to face a foe head-on if it can, so that its thickly scaled crest can protect it from harm.",
+        "description": "At the start of the combat phase, you can pick 1 enemy unit within 3\" of this model and that has up to 5 models. If you do so, until the end of that phase, add 1 to save rolls for attacks made by that unit that target this model."
+      },
+      {
+        "name": "Steadfast Majesty",
+        "flavorText": "Stegadons are almost fearless beasts, and their stubborn refusal to back down when faced by even the most fearsome foes inspires great courage in nearby skinks.",
+        "description": "You can re-roll battleshock tests for friendly SKINK units while they are wholly within 18\" of any friendly STEGADON units."
+      },
+      {
+        "name": "Unstoppable Stampede",
+        "flavorText": "Stegadons are nigh unstoppable as they crash through the midst of battle.",
+        "description": "Roll 1 dice for each enemy unit that is within 1\" of this model when this model finishes a charge move. On a 3+, that enemy unit suffers D3 mortal wounds."
+      }
+    ],
+    "keywords": [
+      "ORDER",
+      "SERAPHON",
+      "SKINK",
+      "MONSTER",
+      "STEGADON",
+      "HERO",
+      "PRIEST",
+      "ENGINE",
+      "GODS"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "120 x 92mm"
+  },
+  {
+    "name": "Ripperdactyl Chief",
+    "points": "80",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Skink Chiefs who ride Ripperdactyls are fearsome, battle-scarred warriors that share much in common with their ferocious mounts. Under their direction, a pack of Ripperdactyls can unleash a truly hideous storm of violence.",
+    "description": "A Ripperdactyl Chief is a single model armed with a Skyblade.",
+    "wounds": "5",
+    "move": "12\"",
+    "save": "5+",
+    "bravery": "6",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Skyblade",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Tearing Jaws",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "MOUNT",
+        "description": "This model’s Ripperdactyl attacks with its Tearing Jaws."
+      },
+      {
+        "name": "FLY",
+        "description": "This model can fly."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Voracious Appetite",
+        "flavorText": "Ripperdactyls have a constant urge to feed, even in the midst of battle.",
+        "description": "If the unmodified hit roll for an attack made with Tearing Jaws is 6, that attack scores 2 hits on the target instead of 1. Make a wound and save roll for each hit."
+      },
+      {
+        "name": "Ripperdactyl Assault",
+        "flavorText": "A Ripperdactyl Chief is as ferocious as his mount, their example inspiring any cohorts of Ripperdactyl Riders that are nearby to attack with unbridled fury.",
+        "description": "You can this command ability at the start of the combat phase. If you do so, pick 1 friendly model with this command ability. Until the end of that phase, add 1 to the Attacks characteristic of melee weapons used by friendly RIPPERDACTYL units that are wholly within 18\" of that model. The same unit cannot benefit from this command ability more than once per phase."
+      }
+    ],
+    "keywords": [
+      "ORDER",
+      "SERAPHON",
+      "SKINK",
+      "RIPPERDACTYL",
+      "HERO",
+      "RIPPERDACTYL",
+      "CHIEF"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "50mm"
+  },
+  {
+    "name": "Saurus Astrolith Bearer",
+    "points": "155",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Inscribed with complex geometric and astrological symbols, an astrolith is a conduit for the power of Azyr. Those Seraphon in the presence of such an icon fight all the harder, empowered by the energies of the heavens radiating from the artefact.",
+    "description": "A Saurus Astrolith Bearer is a single model armed with a Celestite Warpick and Fearsome Jaws.",
+    "wounds": "6",
+    "move": "5\"",
+    "save": "4+",
+    "bravery": "8",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Celestite Warpick",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Fearsome Jaws",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Celestial Conduit",
+        "flavorText": "An astrolith increases the flow of celestial magic in the vicinity.",
+        "description": "Add 1 to casting rolls for friendly SERAPHON WIZARDS while they are within 12\" of any models with this ability. In addition, add 6\" to the range of any spells cast by friendly SERAPHON WIZARDS while they are within 12\" of any models with this ability."
+      },
+      {
+        "name": "Revivifying Energies",
+        "flavorText": "The cosmic energies emanating from an astrolith protect nearby Seraphon, sealing the most grievous wounds in flashes of cerulean light.",
+        "description": "Roll a dice each time you allocate a wound or mortal wound to a friendly SERAPHON unit wholly within 12\" of any models with this ability. On a 6, that wound or mortal wound is negated."
+      }
+    ],
+    "keywords": [
+      "ORDER",
+      "SERAPHON",
+      "SAURUS",
+      "HERO",
+      "TOTEM",
+      "ASTROLITH",
+      "BEARER"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "40mm"
+  },
+  {
+    "name": "Saurus Eternity Warden",
+    "points": "125",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Uncompromising guardians of the slann, Eternity Wardens are utterly committed to the defence of their masters. Selflessly they will place themselves in the path of the foe, weathering a storm of blows before responding with brutal violence.",
+    "description": "A Saurus Eternity Warden is a single model armed with a Star-stone Mace and Fearsome Jaws.",
+    "wounds": "7",
+    "move": "5\"",
+    "save": "3+",
+    "bravery": "8",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Star-stone Mace (Celestite weapon)",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      },
+      {
+        "name": "Fearsome Jaws",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Cold Ferocity",
+        "flavorText": "Saurus heroes fight with a carefully controlled fury.",
+        "description": "If the unmodified hit roll for an attack made with a Celestite weapon by this model is 6, that attack scores 2 hits on the target instead of 1. Make a wound and save roll for each hit."
+      },
+      {
+        "name": "Selfless Protectors",
+        "flavorText": "An Eternity Warden stands as a living shield between the slann and their foes.",
+        "description": "Roll a dice before you allocate a wound or mortal wound to a friendly SLANN while it is within 3\" of any friendly units with this ability. On a 2+, you must allocate that wound or mortal wound to a friendly unit with this ability that is within 3\" of that SLANN, instead of to that SLANN."
+      },
+      {
+        "name": "Prime Guardian",
+        "flavorText": "Eternity Wardens use not only the weapons they hold in their hands to protect the slann, but also the cohorts of Saurus Guard who were created for that very purpose.",
+        "description": "You can use this command ability in the combat phase. If you do so, pick 1 friendly SAURUS GUARD unit wholly within 18\" of a friendly model with this command ability. Until the end of that phase, you can add 1 to hit rolls for attacks made by that unit. A unit cannot benefit from this command ability more than once per phase."
+      }
+    ],
+    "keywords": [
+      "ORDER",
+      "SERAPHON",
+      "SAURUS",
+      "HERO",
+      "ETERNITY",
+      "WARDEN"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "40mm"
+  },
+  {
+    "name": "Saurus Oldblood",
+    "points": "120",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Veterans of centuries of fearsome bloodshed, Saurus Oldbloods are the greatest commanders of the Seraphon. Each directs their cohorts with an instinctive, savage precision, enacting the designs of the slann with faultless loyalty.",
+    "description": "A Saurus Oldblood is a single model armed with Fearsome Jaws and one of the following weapon options: Celestite Maul; Celestite Warblade; Celestite Warspear; or Celestite Greatblade.",
+    "wounds": "7",
+    "move": "5\"",
+    "save": "3+",
+    "bravery": "8",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Celestite Maul",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      },
+      {
+        "name": "Celestite Warblade",
+        "range": "1\"",
+        "attacks": "5",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Celestite Warspear",
+        "range": "2\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Celestite Greatblade",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      },
+      {
+        "name": "Fearsome Jaws",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Cold Ferocity",
+        "flavorText": "Saurus heroes fight with a carefully controlled fury.",
+        "description": "If the unmodified hit roll for an attack made with a Celestite weapon by this model is 6, that attack scores 2 hits on the target instead of 1. Make a wound and save roll for each hit."
+      },
+      {
+        "name": "Wrath of the Seraphon",
+        "flavorText": "The Oldblood directs nearby saurus to unleash their savage instincts.",
+        "description": "You can use this command ability in the combat phase. If you do so, pick 1 friendly SAURUS unit wholly within 18\" of a friendly model with this command ability. Until the end of that phase, you can add 1 to hit rolls for attacks made by that unit. A unit cannot benefit from this command ability more than once per phase."
+      }
+    ],
+    "keywords": [
+      "ORDER",
+      "SERAPHON",
+      "SAURUS",
+      "HERO",
+      "OLDBLOOD"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Saurus Scar Veteran on Cold One",
+    "points": "110",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Scar-Veterans are the lieutenants of the saurian hosts, each a proven battlefield commander and deadly warrior. They regularly take to the field astride predatory reptilian beasts, all the better to reach the thick of the fighting sooner.",
+    "description": "A Saurus Scar-Veteran on Cold One is a single model armed with a Celestite Warpick and Fearsome Jaws.",
+    "wounds": "7",
+    "move": "8\"",
+    "save": "4+",
+    "bravery": "8",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Celestite Warpick",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Fearsome Jaws",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Snapping Jaws",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "MOUNT",
+        "description": "This model’s Cold One attacks with its Snapping Jaws."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Cold Ferocity",
+        "flavorText": "Saurus heroes fight with a carefully controlled fury.",
+        "description": "If the unmodified hit roll for an attack made with a Celestite weapon by this model is 6, that attack scores 2 hits on the target instead of 1. Make a wound and save roll for each hit."
+      },
+      {
+        "name": "Saurian Savagery",
+        "flavorText": "The Scar-Veteran looses an ear-splitting roar that drives nearby saurus into a killing frenzy.",
+        "description": "You can use this command ability in the combat phase. If you do so, pick 1 friendly SAURUS unit wholly within 18\" of a friendly model with this command ability. Until the end of that phase, if the unmodified hit roll for an attack made with a melee weapon by that friendly SAURUS unit is 6, that attack scores 2 hits on the target instead of 1. Make a wound and save roll for each hit. A unit cannot benefit from this command ability more than once per phase."
+      }
+    ],
+    "keywords": [
+      "ORDER",
+      "SERAPHON",
+      "SAURUS",
+      "COLD",
+      "ONE",
+      "HERO",
+      "SCAR-VETERAN"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "60 x 35mm"
+  },
+  {
+    "name": "Saurus Sunblood",
+    "points": "125",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Scarred and hulking champions of battle, Sunbloods are amongst the most deadly of all saurus. They lead their reptilian kin to smash through the weakest portion of an enemy line, their heavy maces rising and falling with merciless efficiency.",
+    "description": "A Saurus Sunblood is a single model armed with a Celestite Warmace and Fearsome Jaws.",
+    "wounds": "7",
+    "move": "5\"",
+    "save": "3+",
+    "bravery": "8",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Celestite Warmace",
+        "range": "1\"",
+        "attacks": "6",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Fearsome Jaws",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Primal Rage",
+        "flavorText": "A Sunblood in full battle-rage is a true embodiment of the Seraphon’s savage fury.",
+        "description": "If the unmodified hit roll for an attack made by this model is 6, that attack scores 2 hits on the target instead of 1. Make a wound and save roll for each hit. In addition, if the unmodified wound roll for an attack made by this model is 6, that attack inflicts 1 mortal wound on the target in addition to any normal damage."
+      },
+      {
+        "name": "Scent of Weakness",
+        "flavorText": "The Sunblood raises his warmace, points it at an enemy and lets loose a chilling predatory roar.",
+        "description": "You can use this command ability when you pick a friendly SAURUS unit to fight in the combat phase. That unit must receive the command. Until the end of that phase, add 1 to wound rolls for attacks made by that unit."
+      }
+    ],
+    "keywords": [
+      "ORDER",
+      "SERAPHON",
+      "SAURUS",
+      "HERO",
+      "SUNBLOOD"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Skink Priest",
+    "points": "120",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "The priestly leaders of the skink communities do not shy away from fighting alongside their followers. Bearing relics of their lost creator-gods, these reptilian clerics passionately inspire their kin to fight all the harder.",
+    "description": "A Skink Priest is a single model armed with a Starbolt and Star-stone Staff.",
+    "wounds": "4",
+    "move": "8\"",
+    "save": "5+",
+    "bravery": "6",
+    "missleWeapons": [
+      {
+        "name": "Starbolt",
+        "range": "18\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Star-stone Staff",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Star-stone Staff",
+        "flavorText": "A Skink Priest can use their Star-stone staff to fill their skink followers with a measure of Azyrite energy.",
+        "description": "In your hero phase, you can pick 1 friendly SKINK unit wholly within 12\" of this model and roll a dice. On a 3+, until your next hero phase, that unit can run and still shoot and/or charge in the same turn, and you can add 1 to save rolls for attacks that target that unit. A unit cannot benefit from this ability more than once per phase."
+      },
+      {
+        "name": "Herald of the Old Ones",
+        "flavorText": "The chirruped sermons and holy exhortations of a Skink Priest embolden their followers to fight all the harder.",
+        "description": "You can use this command ability in your hero phase. If you do so, pick 1 friendly SKINK unit wholly within 18\" of a friendly model with this command ability. Until your next hero phase, you can add 1 to hit rolls for attacks made by that unit. A unit cannot benefit from this command ability more than once per phase."
+      }
+    ],
+    "keywords": [
+      "ORDER",
+      "SERAPHON",
+      "SKINK",
+      "HERO",
+      "PRIEST"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "25mm"
+  },
+  {
+    "name": "Skink Starpriest",
+    "points": "130",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Blessed with great intelligence and a deep connection to Azyr, the Starpriests provide front-line magical support to the Seraphon in battle. Each is a talented wizard, able to unleash the scouring light of distant celestial bodies upon the foe.",
+    "description": "A Skink Starpriest is a single model armed with a Serpent Staff and Venombolt.",
+    "wounds": "5",
+    "move": "8\"",
+    "save": "5+",
+    "bravery": "6",
+    "missleWeapons": [
+      {
+        "name": "Venombolt",
+        "range": "18\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Serpent Staff",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Astral Herald",
+        "flavorText": "Through performing complex starrituals, these priests can divine – and therefore manipulate – the outcome of a battle.",
+        "description": "At the start of your hero phase, roll a dice for this model. On a 5+, you receive 1 command point."
+      },
+      {
+        "name": "Serpent Staff",
+        "flavorText": "Channelling cosmic power through their twin-headed staff, a Starpriest coats their allies’ weapons in deadly venom.",
+        "description": "In your hero phase, you can pick 1 friendly SERAPHON unit wholly within 12\" of this model. If you do so, until your next hero phase, if the unmodified wound roll for an attack made by that unit is 6, that attack inflicts 1 mortal wound on the target in addition to any normal damage. A unit cannot benefit from this ability more than once per phase."
+      },
+      {
+        "name": "Arcane BoltMystic ShieldBlazing Starlight",
+        "flavorText": "",
+        "description": "This model is a WIZARD. It can attempt to cast 1 spell in your hero phase and attempt to unbind 1 spell in the enemy hero phase. It knows the Arcane Bolt, Mystic Shield and Blazing Starlight spells."
+      },
+      {
+        "name": "Blazing Starlight",
+        "flavorText": "The Starpriest summons the blazing light of a distant celestial body.",
+        "description": "Blazing Starlight has a casting value of 6. If successfully cast, pick 1 enemy unit within 18\" of the caster and visible to them. Until your next hero phase, subtract 1 from hit rolls for attacks made by that unit."
+      }
+    ],
+    "keywords": [
+      "ORDER",
+      "SERAPHON",
+      "SKINK",
+      "HERO",
+      "WIZARD",
+      "STARPRIEST"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "25mm"
+  },
+  {
+    "name": "Skink Starseer",
+    "points": "145",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Greatest of all the skink priesthood, the Starseers are the most powerful wizards of a constellation after the slann themselves. Their celestial blessings allow them to gaze into the future, influencing the skeins of fate to their masters’ unknowable ends.",
+    "description": "A Skink Starseer is a single model armed with an Astromancer’s Staff and Astral Bolt.",
+    "wounds": "5",
+    "move": "5\"",
+    "save": "5+",
+    "bravery": "6",
+    "missleWeapons": [
+      {
+        "name": "Astral Bolt",
+        "range": "18\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Astromancer’s Staff",
+        "range": "2\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "FLY",
+        "description": "This model can fly."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Cosmic Herald",
+        "flavorText": "Through performing complex star-rituals, these priests can divine – and therefore manipulate – the outcome of a battle.",
+        "description": "At the start of your hero phase, if any friendly models with this ability are on the battlefield, roll 1 dice. On a 4+, you receive 1 command point."
+      },
+      {
+        "name": "Astromancer’s Staff",
+        "flavorText": "A Starseer’s staff contains the power to alter the flow of time.",
+        "description": "At the start of your charge phase, you can pick 1 friendly SERAPHON unit wholly within 12\" of this model. If you do so, in that phase you can attempt to charge with that unit if it is within 18\" of the enemy instead of 12\", and you roll 3D6 instead of 2D6 when making the charge roll."
+      },
+      {
+        "name": "Arcane BoltMystic ShieldControl Fate",
+        "flavorText": "",
+        "description": "This model is a WIZARD. It can attempt to cast 1 spell in your hero phase and attempt to unbind 1 spell in the enemy hero phase. It knows the Arcane Bolt, Mystic Shield and Control Fate spells."
+      },
+      {
+        "name": "Control Fate",
+        "flavorText": "This spell grants the caster a brief chance to influence the destiny of a friend or foe.",
+        "description": "Control Fate has a casting value of 7. If successfully cast, pick 1 unit within 18\" of the caster and visible to them. If that unit is an enemy unit, until your next hero phase, subtract 1 from save rolls for attacks that target that unit. If that unit is a friendly SERAPHON unit, until your next hero phase, add 1 to save rolls for attacks that target that unit."
+      }
+    ],
+    "keywords": [
+      "ORDER",
+      "SERAPHON",
+      "SKINK",
+      "HERO",
+      "WIZARD",
+      "STARSEER"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "50mm"
+  },
+  {
+    "name": "Slann Starmaster",
+    "points": "285",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Ancient beings created to serve the Old Ones, the Starmasters are amongst the greatest wizards in all the realms. The powers of the heavens are theirs to command, the energies of the stars wielded to annihilate their enemies.",
+    "description": "A Slann Starmaster is a single model armed with Azure Lightning.",
+    "wounds": "7",
+    "move": "5\"",
+    "save": "4+",
+    "bravery": "9",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Azure Lightning",
+        "range": "3\"",
+        "attacks": "6",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "FLY",
+        "description": "This model can fly."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Arcane Vassal",
+        "flavorText": "A Slann Starmaster can channel the power of a spell through one of their followers.",
+        "description": "When this model attempts to cast a spell, before making the casting roll, you can pick either 1 friendly SKINK WIZARD that is within 12\" of this model or 1 friendly ORACLE anywhere on the battlefield. If you do so and the spell is successfully cast and not unbound, you must measure the range and visibility for the spell from that SKINK WIZARD or ORACLE."
+      },
+      {
+        "name": "Foresight",
+        "flavorText": "The Starmaster casts his mind into the future, reading the threads of destiny as easily as a mortal would read a map.",
+        "description": "At the start of your hero phase, if any friendly models with this ability are on the battlefield, roll 2 dice. For each 4+, you receive 1 command point."
+      },
+      {
+        "name": "Masters of Order",
+        "flavorText": "The slann are among the greatest wizards in existence, and they shape the very stars with their magic.",
+        "description": "Add 1 to casting, dispelling and unbinding rolls for this model. In addition, this model can attempt to unbind enemy spells that are cast anywhere on the battlefield and attempt to dispel endless spells anywhere on the battlefield."
+      },
+      {
+        "name": "Arcane BoltMystic ShieldComet’s Call",
+        "flavorText": "",
+        "description": "This model is a WIZARD. It can attempt to cast 3 spells in your own hero phase and attempt to unbind 3 spells in the enemy hero phase. It knows the Arcane Bolt, Mystic Shield and Comet’s Call spells."
+      },
+      {
+        "name": "Comet’s Call",
+        "flavorText": "His consciousness soaring up to the heavens, the caster summons a cluster of comets before casting them into the enemy’s ranks.",
+        "description": "Comet’s Call has a casting value of 7. If successfully cast, you can pick up to D3 different enemy units anywhere on the battlefield. Each of those units suffers D3 mortal wounds (roll separately for each). If the casting roll was 10+, pick up to D6 different enemy units instead of up to D3."
+      },
+      {
+        "name": "Gift from the Heavens",
+        "flavorText": "At a Starmaster’s command, his followers are wrapped in a mantle of Azyrite energy, allowing them to disregard the natural laws that govern the Mortal Realms.",
+        "description": "You can use this command ability in your hero phase. If you do so, pick 1 friendly SERAPHON unit wholly within 18\" of a friendly model with this command ability. Until your next hero phase, that unit can fly and you can add 1 to save rolls for attacks made with missile weapons that target that unit. You can only use this command ability once per hero phase."
+      }
+    ],
+    "keywords": [
+      "ORDER",
+      "SERAPHON",
+      "SLANN",
+      "HERO",
+      "WIZARD",
+      "STARMASTER"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "50mm"
+  },
+  {
+    "name": "Terradon Chief",
+    "points": "80",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Known to their kin as ‘Masters of the Skies’, Skink Chiefs who ride Terradons are cunning warriors. They are adept at remaining beyond enemy retribution, directing their aerial cohorts to unleash their rocky barrage at precisely the right moment.",
+    "description": "A Terradon Chief is a single model armed with a Skyblade.",
+    "wounds": "5",
+    "move": "16\"",
+    "save": "6+",
+    "bravery": "6",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Skyblade",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Razor-sharp Jaws",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "MOUNT",
+        "description": "This model’s Terradon attacks with its Razor-sharp Jaws."
+      },
+      {
+        "name": "FLY",
+        "description": "This model can fly."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Lead from on High",
+        "flavorText": "This wily chieftain directs their allies while flying high in the sky, only darting down for the briefest of moments to launch a strafing attack run.",
+        "description": "Subtract 1 from hit rolls for attacks made with melee weapons by models that cannot fly that target this model."
+      },
+      {
+        "name": "Coordinated AttackDeadly Cargo",
+        "flavorText": "A Terradon Chief can direct his warriors so that they unleash their deadly cargo to maximum effect.",
+        "description": "Coordinated Attack: You can this command ability when a friendly TERRADON RIDERS unit uses its Deadly Cargo ability while it is wholly within 12\" of a friendly model with this command ability. If you do so, the enemy unit suffers D3 mortal wounds for each 2+ instead of each 4+."
+      }
+    ],
+    "keywords": [
+      "ORDER",
+      "SERAPHON",
+      "SKINK",
+      "TERRADON",
+      "HERO",
+      "TERRADON",
+      "CHIEF"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "50mm"
+  },
+  {
+    "name": "Lord Kroak",
+    "points": "450",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Despite his deathly state, Lord Kroak is the most powerful of all slann. The venerable Relic Priest appears unbidden when the Great Plan is most imperilled, the foes of the Seraphon laid to waste through an onslaught of arcane power.",
+    "description": "Lord Kroak is a named character that is a single model. He is armed with an Azyrite Force Barrier.",
+    "wounds": "18",
+    "move": "5\"",
+    "save": "4+",
+    "bravery": "9",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Azyrite Force Barrier",
+        "range": "3\"",
+        "attacks": "See below",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "FLY",
+        "description": "Lord Kroak can fly."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Arcane Vassal",
+        "flavorText": "A Slann Starmaster can channel the power of a spell through one of their followers.",
+        "description": "When this model attempts to cast a spell, before making the casting roll, you can pick either 1 friendly SKINK WIZARD that is within 12\" of this model or 1 friendly ORACLE anywhere on the battlefield. If you do so and the spell is successfully cast and not unbound, you must measure the range and visibility for the spell from that SKINK WIZARD or ORACLE."
+      },
+      {
+        "name": "Azyrite Force Barrier",
+        "flavorText": "Lord Kroak’s desiccated form is protected by a crackling energy field that blasts enemies who dare come close.",
+        "description": "The Attacks characteristic of an Azyrite Force Barrier is equal to the number of enemy models within 3\" of the attacking model when the number of attacks made with the weapon is determined. Count each enemy MONSTER as 5 models for the purpose of this rule."
+      },
+      {
+        "name": "Dead for Innumerable Ages",
+        "flavorText": "Lord Kroak is no longer alive in the conventional sense; his ancient and withered form is preserved only by his indomitable spirit. As such, he is almost immune to all but the most devastating attacks.",
+        "description": "At the end of each phase, if any wounds or mortal wounds are allocated to this model, roll 3D6 and add the number of wounds and mortal wounds allocated to this model to the roll. On a 20+, this model is slain. On any other roll, all wounds and mortal wounds allocated to this model are healed.Designer’s Note: If Lord Kroak suffers 18 or more wounds or mortal wounds before the end of a phase, he is immediately slain and no dice roll is made at the end of the phase."
+      },
+      {
+        "name": "Impeccable Foresight",
+        "flavorText": "Lord Kroak casts his mind into the future, reading the threads of destiny as easily as a mortal would read a map.",
+        "description": "At the start of your hero phase, roll 3 dice for this model. For each 4+, you receive 1 command point."
+      },
+      {
+        "name": "Supreme Master of Order",
+        "flavorText": "The slann are among the greatest wizards in existence, but Lord Kroak is mighty even in comparison to others of his kind.",
+        "description": "Add 2 to casting, dispelling and unbinding rolls for this model. In addition, this model can attempt to unbind enemy spells that are cast anywhere on the battlefield and attempt to dispel endless spells anywhere on the battlefield."
+      },
+      {
+        "name": "Arcane BoltMystic ShieldCelestial DeliveranceComet’s Call",
+        "flavorText": "",
+        "description": "Lord Kroak is a WIZARD. He can attempt to cast 4 spells in your hero phase and attempt to unbind 4 spells in the enemy hero phase. He knows the Arcane Bolt, Mystic Shield, Celestial Deliverance and Comet’s Call spells. In addition, he knows all of the spells from the Lore of Celestial Domination."
+      },
+      {
+        "name": "Comet’s Call",
+        "flavorText": "His consciousness soaring up to the heavens, the caster summons a cluster of comets before casting them into the enemy’s ranks.",
+        "description": "Comet’s Call has a casting value of 7. If successfully cast, you can pick up to D3 different enemy units anywhere on the battlefield. Each of those units suffers D3 mortal wounds (roll separately for each). If the casting roll was 10+, pick up to D6 different enemy units instead of up to D3."
+      },
+      {
+        "name": "Supreme Gift from the Heavens",
+        "flavorText": "At Lord Kroak’s command, his followers are wrapped in a mantle of Azyrite energy, allowing them to disregard the natural laws that govern the Mortal Realms.",
+        "description": "You can use this command ability in your hero phase. If you do so, pick up to D3 friendly SERAPHON units wholly within 18\" of a friendly model with this command ability. Until your next hero phase, those units can fly and you can add 1 to save rolls for attacks made with missile weapons that target those units. You can only use this command ability once per hero phase."
+      }
+    ],
+    "keywords": [
+      "ORDER",
+      "SERAPHON",
+      "SLANN",
+      "HERO",
+      "WIZARD",
+      "STARMASTER",
+      "LORD",
+      "KROAK"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ],
+    "baseSize": "80mm"
+  },
+  {
+    "name": "Kixi Taka the Diviner",
+    "points": "225",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Though only a lowly priest in the complex rungs of the skink hierarchy, Kixi-Taka is looked upon with favour by his Slann masters. Entrusted with several relics of Old One technology, he faithfully leads the Starblood Stalkers, utterly committed to the Great Plan.",
+    "description": "Kixi-Taka the Diviner is a named character that is a single model. He is armed with a Starbolt and Star-stone Staff.",
+    "wounds": "5",
+    "move": "8\"",
+    "save": "5+",
+    "bravery": "6",
+    "missleWeapons": [
+      {
+        "name": "Starbolt",
+        "range": "18\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Star-stone Staff",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Star-stone Staff",
+        "flavorText": "A Skink Priest can use their Star-stone Staff to fill their skink followers with a measure of Azyrite energy.",
+        "description": "In your hero phase, you can pick 1 friendly SKINK unit wholly within 12\" of this model and roll a dice. Add 1 to the roll if the unit you pick is STARBLOOD STALKERS. On a 3+, until your next hero phase, that unit can run and still shoot and/or charge in the same turn, and you can add 1 to save rolls for attacks that target that unit. A unit cannot benefit from this ability more than once per phase."
+      },
+      {
+        "name": "Herald of the Old Ones",
+        "flavorText": "The chirruped sermons and holy exhortations of a Skink Priest embolden their followers to fight all the harder.",
+        "description": "You can use this command ability in your hero phase. If you do so, pick 1 friendly SKINK unit wholly within 18\" of this model. If the unit you pick is STARBLOOD STALKERS, you can use this command ability without a command point being spent. Until your next hero phase, you can add 1 to hit rolls for attacks made by that unit. A unit cannot benefit from this command ability more than once per phase."
+      }
+    ],
+    "keywords": [
+      "ORDER",
+      "SERAPHON",
+      "COALESCED",
+      "THUNDER",
+      "LIZARD",
+      "SKINK",
+      "HERO",
+      "PRIEST",
+      "KIXI-TAKA"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique. Kixi-Taka the Diviner",
+      "<a href=\"/aos3/factions/seraphon/warscrolls.html#Klaq-Trok\">Klaq-Trok</a> and <a href=\"/aos3/factions/seraphon/warscrolls.html#The-Starblood-Stalkers\">The Starblood Stalkers</a> must be taken as a set. Although taken as a set",
+      "each is a separate unit."
+    ]
+  },
+  {
+    "name": "Saurus Guard",
+    "points": "115",
+    "unitSize": "5",
+    "battlefieldRoles": [
+      "Battleline"
+    ],
+    "flavorText": "Patient and obstinate, Saurus Guard will not allow any harm to befall the Starmasters while even one of their number draws breath. Each will fight to the very last to defend their master, their polearms mercilessly hacking down the enemy.",
+    "description": "A unit of Saurus Guard has any number of models, each armed with a Celestite Polearm and Powerful Jaws.",
+    "wounds": "2",
+    "move": "5\"",
+    "save": "4+",
+    "bravery": "8",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Celestite Polearm",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Powerful Jaws",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "5+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "SAURUS GUARD ALPHA",
+        "description": "1 model in this unit can be a Saurus Guard Alpha. Add 1 to the Attacks characteristic of that model’s Celestite Polearm."
+      },
+      {
+        "name": "STARDRAKE ICON BEARER",
+        "description": "1 in every 5 models in this unit can be a Stardrake Icon Bearer. Subtract 1 from the Bravery characteristic of enemy units while they are within 6\" of any friendly Stardrake Icon Bearers."
+      },
+      {
+        "name": "WARDRUMMER",
+        "description": "1 in every 5 models in this unit can be a Wardrummer. You can re-roll charge rolls for units that include any Wardrummers."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Selfless Protectors",
+        "flavorText": "The Saurus Guard stand as a living shield between the slann and their foes.",
+        "description": "Roll a dice before you allocate a wound or mortal wound to a friendly SLANN while it is within 3\" of any friendly units with this ability. On a 2+, you must allocate that wound or mortal wound to a friendly unit with this ability that is within 3\" of that SLANN, instead of to that SLANN."
+      }
+    ],
+    "keywords": [
+      "ORDER",
+      "SERAPHON",
+      "SAURUS",
+      "SAURUS",
+      "GUARD"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Saurus Knights",
+    "points": "110",
+    "unitSize": "5",
+    "battlefieldRoles": [
+      "Battleline"
+    ],
+    "flavorText": "Mounted on cunning predatory beasts known as Cold Ones, Saurus Knights are the shock cavalry of the Seraphon. Weapons blazing with celestial light, they crash into the enemy with terrible, savage force.",
+    "description": "A unit of Saurus Knights has any number of models. The unit is armed with one of the following weapon options: Celestite Blade and Powerful Jaws; or Celestite Warspear and Powerful Jaws.",
+    "wounds": "2",
+    "move": "8\"",
+    "save": "4+",
+    "bravery": "8",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Celestite Blade",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Celestite Warspear",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Powerful Jaws",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "5+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Snapping Jaws",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "MOUNT",
+        "description": "This unit’s Cold Ones attack with their Snapping Jaws."
+      },
+      {
+        "name": "SAURUS KNIGHT ALPHA",
+        "description": "1 model in this unit can be a Saurus Knight Alpha. Add 1 to the Attacks characteristic of that model’s Celestite Blade or Celestite Warspear."
+      },
+      {
+        "name": "STARDRAKE ICON BEARER",
+        "description": "1 in every 5 models in this unit can be a Stardrake Icon Bearer. Subtract 1 from the Bravery characteristic of enemy units while they are within 6\" of any friendly Stardrake Icon Bearers."
+      },
+      {
+        "name": "WARDRUMMER",
+        "description": "1 in every 5 models in this unit can be a Wardrummer. You can re-roll charge rolls for units that include any Wardrummers."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Celestite Warspear",
+        "flavorText": "A warspear is especially deadly when used by cavalry on the charge.",
+        "description": "Add 1 to the Damage characteristic of this unit’s Celestite Warspears if this unit made a charge move in the same turn."
+      }
+    ],
+    "keywords": [
+      "ORDER",
+      "SERAPHON",
+      "SAURUS",
+      "COLD",
+      "ONE",
+      "SAURUS",
+      "KNIGHTS"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "60 x 35mm"
+  },
+  {
+    "name": "Saurus Warriors",
+    "points": "105",
+    "unitSize": "10",
+    "battlefieldRoles": [
+      "Battleline"
+    ],
+    "flavorText": "Saurus Warriors are the brutal heart of the Seraphon armies. Bred solely for war, their cohorts advance across the battlefield in disciplined lockstep, unleashing their coldblooded savagery only when battle is joined.",
+    "description": "A unit of Saurus Warriors has any number of models. The unit is armed with one of the following weapon options: Celestite Club and Powerful Jaws; or Celestite Spear and Powerful Jaws.",
+    "wounds": "1",
+    "move": "5\"",
+    "save": "4+",
+    "bravery": "8",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Celestite Club",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Celestite Spear",
+        "range": "2\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Powerful Jaws",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "5+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "SAURUS WARRIOR ALPHA",
+        "description": "1 model in this unit can be a Saurus Warrior Alpha. Add 1 to the Attacks characteristic of that model’s Celestite Club or Celestite Spear."
+      },
+      {
+        "name": "STARDRAKE ICON BEARER",
+        "description": "1 in every 5 models in this unit can be a Stardrake Icon Bearer. Subtract 1 from the Bravery characteristic of enemy units while they are within 6\" of any friendly Stardrake Icon Bearers."
+      },
+      {
+        "name": "WARDRUMMER",
+        "description": "1 in every 5 models in this unit can be a Wardrummer. You can re-roll charge rolls for units that include any Wardrummers."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Ordered Cohort",
+        "flavorText": "Saurus are even deadlier when fighting in organised ranks.",
+        "description": "Add 1 to the Attacks characteristic of this unit’s Celestite Clubs or Celestite Spears while this unit has 15 or more models."
+      }
+    ],
+    "keywords": [
+      "ORDER",
+      "SERAPHON",
+      "SAURUS",
+      "SAURUS",
+      "WARRIORS"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Skinks",
+    "points": "75",
+    "unitSize": "10",
+    "battlefieldRoles": [
+      "Battleline"
+    ],
+    "flavorText": "The smallest of all Seraphon subspecies, skinks are swift and clever warriors. Though physically frail they are capable of covering ground with impressive speed, swarming as a scaly mass to unleash a storm of poison-tipped projectiles.",
+    "description": "A unit of Skinks has any number of models. The unit is armed with one of the following weapon options: Meteoric Javelin, Celestite Dagger and Star-buckler; Boltspitter and Moonstone Club; Boltspitter, Celestite Dagger and Star-buckler; or Moonstone Club and Star-buckler.",
+    "wounds": "1",
+    "move": "8\"",
+    "save": "6+",
+    "bravery": "5",
+    "missleWeapons": [
+      {
+        "name": "Meteoric Javelin",
+        "range": "8\"",
+        "attacks": "1",
+        "toHit": "5+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Boltspitter",
+        "range": "16\"",
+        "attacks": "1",
+        "toHit": "5+",
+        "toWound": "5+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Celestite Dagger",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "5+",
+        "toWound": "5+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Moonstone Club",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "SKINK ALPHA",
+        "description": "1 model in this unit can be a Skink Alpha. Add 1 to the Attacks characteristic of that model’s melee weapons."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Swarming Cohort",
+        "flavorText": "Large cohorts of skinks can bring down the mightiest foes through sheer weight of numbers.",
+        "description": "Add 1 to the Attacks characteristic of weapons used by this unit while it has 15 or more models."
+      },
+      {
+        "name": "Star-buckler",
+        "flavorText": "Some skinks carry bucklers as resilient as the scales of a Stardrake.",
+        "description": "Add 1 to save rolls for attacks that target a unit armed with Star-bucklers."
+      }
+    ],
+    "keywords": [
+      "ORDER",
+      "SERAPHON",
+      "SKINKS"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "25mm"
+  },
+  {
+    "name": "Chameleon Skinks",
+    "points": "115",
+    "unitSize": "5",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Chameleon Skinks stalk their prey with infinite patience. Able to blend perfectly into their environment, these peerless hunters silently creep up on their targets, before unleashing a storm of blowdarts covered in the most potent venoms.",
+    "description": "A unit of Chameleon Skinks has any number of models, each armed with a Dartpipe and Celestite Dagger.",
+    "wounds": "1",
+    "move": "8\"",
+    "save": "6+",
+    "bravery": "5",
+    "missleWeapons": [
+      {
+        "name": "Dartpipe",
+        "range": "16\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Celestite Dagger",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "5+",
+        "toWound": "5+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "Perfect Mimicry",
+        "description": "A Chameleon Skink lurking amidst dense terrain is nearly impossible to spot.Models in this unit that are within 1\" of a terrain feature have a ward of 4+."
+      },
+      {
+        "name": "Star-venom",
+        "description": "The darts used by Chameleon Skinks are coated in deadly toxins.If the unmodified hit roll for an attack made with a Dartpipe is 6, that attack inflicts 1 mortal wound on the target and the attack sequence ends (do not make a wound or save roll)."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "ORDER",
+      "SERAPHON",
+      "SKINK",
+      "CHAMELEON",
+      "SKINKS"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "25mm"
+  },
+  {
+    "name": "Kroxigor",
+    "points": "150",
+    "unitSize": "3",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Taller and bulkier than even the most hulking saurus, each Kroxigor is a monstrously strong crocodilian brute. They wade into battle alongside massed skink cohorts, crushing any who would threaten their diminutive cousins.",
+    "description": "A unit of Kroxigor has any number of models, each armed with a Drakebite Maul and Vice-like Jaws. 1 in every 3 models in this unit can replace their Drakebite Maul with a Moon Hammer.",
+    "wounds": "4",
+    "move": "8\"",
+    "save": "4+",
+    "bravery": "7",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Drakebite Maul",
+        "range": "2\"",
+        "attacks": "4",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      },
+      {
+        "name": "Moon Hammer",
+        "range": "2\"",
+        "attacks": "See below",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      },
+      {
+        "name": "Vice-like Jaws",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Battle Synergy",
+        "flavorText": "Kroxigor fight all the harder in the presence of skinks.",
+        "description": "Add 1 to hit rolls for attacks made by this unit while it is wholly within 6\" of any SKINK units."
+      },
+      {
+        "name": "Jaws Like a Steel Trap",
+        "flavorText": "A Kroxigor in full battlefrenzy may clamp its massive teeth around its victim, shaking them back and forth like a rag doll to shatter bones and rip through flesh.",
+        "description": "If the unmodified hit roll for an attack made with Vice-like Jaws is 6, that attack inflicts 1 mortal wound on the target in addition to any normal damage."
+      },
+      {
+        "name": "Sweeping Blows",
+        "flavorText": "A Kroxigor armed with a Moon Hammer swings its weapon in wide arcs, smashing aside a multitude of foes with each blow.",
+        "description": "The Attacks characteristic of a Moon Hammer is equal to the number of enemy models within 2\" of the attacking model when the number of attacks made with the weapon is determined."
+      }
+    ],
+    "keywords": [
+      "ORDER",
+      "SERAPHON",
+      "KROXIGOR"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "50mm"
+  },
+  {
+    "name": "Razordon Hunting Pack",
+    "points": "105",
+    "unitSize": "4",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "A Razordon’s back and tail are covered in a thick layer of sharp spines that can be ejected with a muscular spasm. These qualities make the beasts adept at defending key sites, for they take bestial delight in pincushioning any who stray too close.",
+    "description": "A Razordon Hunting Pack has any number of Skink Handler models, each armed with a Celestite Goad.",
+    "wounds": "1",
+    "move": "8\"",
+    "save": "4+",
+    "bravery": "5",
+    "missleWeapons": [
+      {
+        "name": "Volley of Spikes",
+        "range": "18\"",
+        "attacks": "2D6",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Spiked Tail",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "2"
+      },
+      {
+        "name": "Celestite Goad",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "5+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "RAZORDONS",
+        "description": "1 in every 4 models in this unit must be a Razordon instead of a Skink Handler. A Razordon has a Wounds characteristic of 3 instead of 1 and is armed with a Volley of Spikes and Spiked Tail instead of a Celestite Goad."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Instinctive Defence",
+        "flavorText": "Razordons are highly territorial beasts, quick to unleash a storm of barbed spines when threatened.",
+        "description": "If there are any enemy units within 3\" of this unit at the end of the charge phase, and no enemy units were within 3\" of this unit at the start of that phase, each Razordon in this unit can make a shooting attack with its Volley of Spikes but the Attacks characteristic for that attack is D6 instead of 2D6."
+      },
+      {
+        "name": "Piercing Barbs",
+        "flavorText": "The volleys of spikes unleashed by a Razordon are especially dangerous at short range.",
+        "description": "Improve the Rend characteristic by 1 for an attack made with a Volley of Spikes if the distance to the target is 6\" or less."
+      }
+    ],
+    "keywords": [
+      "ORDER",
+      "SERAPHON",
+      "SKINK",
+      "RAZORDON",
+      "HUNTING",
+      "PACK"
+    ],
+    "pitchedBattleNotes": []
+  },
+  {
+    "name": "Ripperdactyl Riders",
+    "points": "85",
+    "unitSize": "3",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "In a storm of snapping, razor-sharp fangs, Ripperdactyls descend to tear apart their prey. The bloodlust of these creatures can never be sated, for in their bestial hearts lurks an endless desire to kill.",
+    "description": "A unit of Ripperdactyl Riders has any number of models, each armed with a Moonstone Warspear.",
+    "wounds": "3",
+    "move": "12\"",
+    "save": "5+",
+    "bravery": "5",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Moonstone Warspear",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Tearing Jaws",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "MOUNT",
+        "description": "This unit’s Ripperdactyls attack with their Tearing Jaws."
+      },
+      {
+        "name": "FLY",
+        "description": "This unit can fly."
+      },
+      {
+        "name": "RIPPERDACTYL RIDER ALPHA",
+        "description": "1 model in this unit can be a Ripperdactyl Rider Alpha. Add 1 to the Attacks characteristic of that model’s Moonstone Warspear."
+      },
+      {
+        "name": "BLOT TOAD",
+        "description": "You receive 1 Blot Toad marker for each RIPPERDACTYL RIDERS unit in your army."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Toad Rage",
+        "flavorText": "The mere scent of a Blot Toad sends Ripperdactyls into a frenzy. It is no coincidence that these diminutive creatures seem to materialise whenever the winged beasts are near.",
+        "description": "At the start of the combat phase, you can set up 1 Blot Toad marker next to 1 enemy unit. If you do so, you can re-roll hit rolls for attacks made with Tearing Jaws by friendly RIPPERDACTYL units that are wholly within 6\" of that enemy unit. At the end of the combat phase, remove the Blot Toad marker; it cannot be used again in that battle.Designer’s Note: Blot Toads are not units; they are markers that are used to keep track of which enemy units this ability affects and how many times you can use this ability during a battle."
+      },
+      {
+        "name": "Voracious Appetite",
+        "flavorText": "Ripperdactyls have a constant urge to feed, even in the midst of battle.",
+        "description": "If the unmodified hit roll for an attack made with Tearing Jaws is 6, that attack scores 2 hits on the target instead of 1. Make a wound and save roll for each hit."
+      }
+    ],
+    "keywords": [
+      "ORDER",
+      "SERAPHON",
+      "SKINK",
+      "RIPPERDACTYL",
+      "RIPPERDACTYL",
+      "RIDERS"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "50mm"
+  },
+  {
+    "name": "Salamander Hunting Pack",
+    "points": "140",
+    "unitSize": "4",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "One of the many predatory beasts bred for war by the Seraphon, Salamanders are capable of belching forth streams of deadly liquid flame. Those who manage to survive the fiery burst soon find themselves horrifically digested alive by the caustic juices.",
+    "description": "A Salamander Hunting Pack has any number of Skink Handler models, each armed with a Celestite Goad.",
+    "wounds": "1",
+    "move": "8\"",
+    "save": "4+",
+    "bravery": "5",
+    "missleWeapons": [
+      {
+        "name": "Stream of Fire",
+        "range": "12\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "D3"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Burning Jaws",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "D3"
+      },
+      {
+        "name": "Celestite Goad",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "5+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "SALAMANDERS",
+        "description": "1 in every 4 models in this unit must be a Salamander instead of a Skink Handler. A Salamander has a Wounds characteristic of 3 instead of 1 and is armed with a Stream of Fire and Burning Jaws instead of a Celestite Goad."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "It Burns!",
+        "flavorText": "The corrosive liquid produced by a Salamander sticks to the target and eats through armour, flesh and bone.",
+        "description": "If the unmodified hit roll for an attack made with a Stream of Fire or Burning Jaws is 6, that attack inflicts D3 mortal wounds on the target unit and the attack sequence ends (do not make a wound or save roll)."
+      }
+    ],
+    "keywords": [
+      "ORDER",
+      "SERAPHON",
+      "PRIORITY",
+      "TARGET",
+      "SKINK",
+      "SALAMANDER",
+      "HUNTING",
+      "PACK"
+    ],
+    "pitchedBattleNotes": []
+  },
+  {
+    "name": "Terradon Riders",
+    "points": "105",
+    "unitSize": "3",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Few creatures can hope to match a Terradon for speed. The skinks that ride them are gifted aerial warriors, directing their mounts to swoop low over the enemy lines before releasing the meteoric rocks that the beasts clasp in their powerful hind claws.",
+    "description": "A unit of Terradon Riders has any number of models. The unit is armed with one of the following weapon options: Starstrike Javelin; or Sunleech Bolas.",
+    "wounds": "3",
+    "move": "16\"",
+    "save": "6+",
+    "bravery": "5",
+    "missleWeapons": [
+      {
+        "name": "Starstrike Javelin",
+        "range": "12\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Sunleech Bolas",
+        "range": "6\"",
+        "attacks": "D6",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Razor-sharp Jaws",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "MOUNT",
+        "description": "This unit’s Terradons attack with their Razor-sharp Jaws."
+      },
+      {
+        "name": "FLY",
+        "description": "This unit can fly."
+      },
+      {
+        "name": "TERRADON RIDER ALPHA",
+        "description": "1 model in this unit can be a Terradon Rider Alpha. Add 1 to the Attacks characteristic of that model’s missile weapons."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Deadly Cargo",
+        "flavorText": "Terradons carry heavy boulders hewn from meteoric rock and carved with sigils of destruction, ready to be dropped at a command from their riders.",
+        "description": "Once per battle, after this unit finishes a move, you can pick 1 enemy unit and roll 1 dice for each model in this unit that passed across any models from that enemy unit. For each 4+, that enemy unit suffers D3 mortal wounds."
+      }
+    ],
+    "keywords": [
+      "ORDER",
+      "SERAPHON",
+      "SKINK",
+      "TERRADON",
+      "TERRADON",
+      "RIDERS"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "50mm"
+  },
+  {
+    "name": "Klaq Trok",
+    "points": "225",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "A hulking mass of scale and muscle, Klaq-Trok speaks little even for one of his taciturn breed. Yet when war calls, the saurus is swift to answer, and the savagery with which he annihilates his enemies is wholly inspiring to the Starblood Stalkers.",
+    "description": "Klaq-Trok is a named character that is a single model. He is armed with a Celestite Warblade and Fearsome Jaws.",
+    "wounds": "7",
+    "move": "6\"",
+    "save": "4+",
+    "bravery": "8",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Celestite Warblade",
+        "range": "1\"",
+        "attacks": "5",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Fearsome Jaws",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Bolstering Presence",
+        "flavorText": "The skinks of the Starblood Stalkers fear no foe as long as Klaq-Trok is nearby.",
+        "description": "Friendly STARBLOOD STALKERS units have a Bravery characteristic of 8 while they are wholly within 9\" of this model."
+      },
+      {
+        "name": "Cold Ferocity",
+        "flavorText": "Saurus heroes fight with a carefully controlled fury.",
+        "description": "If the unmodified hit roll for an attack made with a Celestite weapon by this model is 6, that attack scores 2 hits on the target instead of 1. Make a wound and save roll for each hit."
+      }
+    ],
+    "keywords": [
+      "ORDER",
+      "SERAPHON",
+      "COALESCED",
+      "THUNDER",
+      "LIZARD",
+      "SAURUS",
+      "HERO",
+      "OLDBLOOD",
+      "KLAQ-TROK"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique. <a href=\"/aos3/factions/seraphon/warscrolls.html#Kixi-Taka-the-Diviner\">Kixi-Taka the Diviner</a>",
+      "Klaq-Trok and <a href=\"/aos3/factions/seraphon/warscrolls.html#The-Starblood-Stalkers\">The Starblood Stalkers</a> must be taken as a set. Although taken as a set",
+      "each is a separate unit."
+    ]
+  },
+  {
+    "name": "The Starblood Stalkers",
+    "points": "225",
+    "unitSize": "4",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "The Starblood Stalkers are a pack of masterful skink hunters who pursue their foes into even the densest terrain before striking. Their cunning, bolstered by the camouflage of the Chameleon Skink Otapatl, has seen them take even the most cautious enemies by surprise.",
+    "description": "The Starblood Stalkers is a unit that has 4 models. Xepic is armed with a Moonstone Club and Star-buckler; Huachi is armed with a Meteoric Javelin, Celestite Dagger and Starbuckler; Tok is armed with a Boltspitter and Moonstone Club; and Otapatl is armed with a Dartpipe and Celestite Dagger.",
+    "wounds": "1",
+    "move": "8\"",
+    "save": "6+",
+    "bravery": "5",
+    "missleWeapons": [
+      {
+        "name": "Meteoric Javelin",
+        "range": "8\"",
+        "attacks": "1",
+        "toHit": "5+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Dartpipe",
+        "range": "16\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Boltspitter",
+        "range": "16\"",
+        "attacks": "1",
+        "toHit": "5+",
+        "toWound": "5+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Celestite Dagger",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "5+",
+        "toWound": "5+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Moonstone Club",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Chameleon Ambush",
+        "flavorText": "Chameleon Skinks can blend with their surroundings and go into hiding. Otapatl uses this talent to guide the rest of the Starblood Stalkers to well-chosen hiding places.",
+        "description": "Instead of setting up this unit, KIXI-TAKA and KLAQ-TROK on the battlefield, you can place them to one side and say that they are hiding as reserve units. If you do so, at the end of any of your movement phases, you can set up this unit, KIXI-TAKA and KLAQ-TROK on the battlefield more than 9\" from any enemy units and wholly within 9\" of each other.Any reserve units that are in hiding and not on the battlefield at the start of the fourth battle round are slain."
+      },
+      {
+        "name": "Star-buckler",
+        "flavorText": "Some skinks carry bucklers as resilient as the scales of a Stardrake.",
+        "description": "Add 1 to save rolls for attacks that target this unit while at least half of the models are armed with Star-bucklers."
+      },
+      {
+        "name": "Star-venom",
+        "flavorText": "The darts used by Chameleon Skinks are coated in deadly toxins.",
+        "description": "If the unmodified hit roll for an attack made with a Dartpipe is 6, that attack inflicts 1 mortal wound on the target and the attack sequence ends (do not make a wound or save roll)."
+      }
+    ],
+    "keywords": [
+      "ORDER",
+      "SERAPHON",
+      "COALESCED",
+      "THUNDER",
+      "LIZARD",
+      "SKINK",
+      "STARBLOOD",
+      "STALKERS"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique. <a href=\"/aos3/factions/seraphon/warscrolls.html#Kixi-Taka-the-Diviner\">Kixi-Taka the Diviner</a>",
+      "<a href=\"/aos3/factions/seraphon/warscrolls.html#Klaq-Trok\">Klaq-Trok</a> and The Starblood Stalkers must be taken as a set. Although taken as a set",
+      "each is a separate unit."
+    ]
+  },
+  {
+    "name": "Bastiladon",
+    "points": "165",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Behemoth"
+    ],
+    "flavorText": "With scales thicker than the hull of a Steam Tank, a Bastiladon is nearly impervious to attack. They lumber forth heedless of even the mightiest blows, the skinks that ride upon their armoured shells operating deadly relics of the Old Ones.",
+    "description": "A Bastiladon is a single model armed with a Bludgeoning Tail, Meteoric Javelins and one of the following weapon options: Ark of Sotek; or Solar Engine.",
+    "wounds": "10",
+    "move": "5\"",
+    "save": "",
+    "bravery": "6",
+    "missleWeapons": [
+      {
+        "name": "Solar Engine",
+        "range": "24\"",
+        "attacks": "✹",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      },
+      {
+        "name": "Meteoric Javelins",
+        "range": "8\"",
+        "attacks": "4",
+        "toHit": "5+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Ark of Sotek",
+        "range": "3\"",
+        "attacks": "✹",
+        "toHit": "4+",
+        "toWound": "6+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Bludgeoning Tail",
+        "range": "2\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-2",
+        "save": "1+",
+        "solarEngine": "9",
+        "arkOfSotek": "18"
+      },
+      {
+        "woundsSuffered": "3-4",
+        "save": "2+",
+        "solarEngine": "8",
+        "arkOfSotek": "15"
+      },
+      {
+        "woundsSuffered": "5-6",
+        "save": "3+",
+        "solarEngine": "7",
+        "arkOfSotek": "12"
+      },
+      {
+        "woundsSuffered": "7-8",
+        "save": "4+",
+        "solarEngine": "6",
+        "arkOfSotek": "9"
+      },
+      {}
+    ],
+    "abilities": [
+      {
+        "name": "Light of the Heavens",
+        "flavorText": "The light of a Solar Engine is utterly lethal to the minions of Chaos.",
+        "description": "Add 1 to the damage inflicted by each successful attack made with a Solar Engine that targets a CHAOS DAEMON unit."
+      },
+      {
+        "name": "Tide of Snakes",
+        "flavorText": "So numerous are the snakes unleashed by an Ark of Sotek that it is almost inevitable some will find their way past the foe’s defences to deliver a lethal venomous bite.",
+        "description": "If the unmodified hit roll for an attack made with an Ark of Sotek is 6, that attack inflicts 1 mortal wound on the target and the attack sequence ends (do not make a wound or save roll)."
+      }
+    ],
+    "keywords": [
+      "ORDER",
+      "SERAPHON",
+      "SKINK",
+      "MONSTER",
+      "BASTILADON"
+    ],
+    "pitchedBattleNotes": [
+      "Single,<br><ul><li>If a Bastiladon is equipped with an Ark of Sotek it costs 165 points.</li><li>If a Bastiladon is equipped with a Solar Engine it costs 250 points.</li></ul>"
+    ],
+    "baseSize": "120 x 92mm"
+  },
+  {
+    "name": "Stegadon",
+    "points": "270",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Behemoth"
+    ],
+    "flavorText": "A charging Stegadon is nothing less than a living battering ram. Its skink riders wield all manner of deadly weapons, while the crushing bulk and sharpened horns of the Stegadon can smash aside even the most determined defenders.",
+    "description": "A Stegadon is a single model armed with Massive Horns, Grinding Jaws and Crushing Stomps.",
+    "wounds": "10",
+    "move": "✹",
+    "save": "4+",
+    "bravery": "5",
+    "missleWeapons": [
+      {
+        "name": "Meteoric Javelins",
+        "range": "8\"",
+        "attacks": "4",
+        "toHit": "5+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Skystreak Bow",
+        "range": "24\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "3"
+      },
+      {
+        "name": "Sunfire Throwers",
+        "range": "8\"",
+        "attacks": "1",
+        "toHit": "See below",
+        "toWound": "",
+        "rend": "",
+        "damage": ""
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Massive Horns",
+        "range": "2\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "✹"
+      },
+      {
+        "name": "Grinding Jaws",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      },
+      {
+        "name": "Crushing Stomps",
+        "range": "1\"",
+        "attacks": "✹",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "CREW",
+        "description": "This model has a skink crew that attack with Meteoric Javelins and one of the following weapon options: Skystreak Bow; or Sunfire Throwers. For rules purposes, the crew are treated in the same manner as a mount."
+      }
+    ],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-2",
+        "move": "8\"",
+        "massiveHorns": "4",
+        "crushingStomps": "5"
+      },
+      {
+        "woundsSuffered": "3-4",
+        "move": "7\"",
+        "massiveHorns": "3",
+        "crushingStomps": "4"
+      },
+      {
+        "woundsSuffered": "5-6",
+        "move": "6\"",
+        "massiveHorns": "2",
+        "crushingStomps": "3"
+      },
+      {
+        "woundsSuffered": "7-8",
+        "move": "5\"",
+        "massiveHorns": "2",
+        "crushingStomps": "2"
+      },
+      {}
+    ],
+    "abilities": [
+      {
+        "name": "Armoured Crest",
+        "flavorText": "A Stegadon will turn to face a foe head-on if it can, so that its thickly scaled crest can protect it from harm.",
+        "description": "At the start of the combat phase, you can pick 1 enemy unit within 3\" of this model and that has up to 5 models. If you do so, until the end of that phase, add 1 to save rolls for attacks made by that unit that target this model."
+      },
+      {
+        "name": "Gout of Sunfire",
+        "flavorText": "Sunfire throwers unleash great roiling clouds of cosmic flame.",
+        "description": "Do not use the attack sequence for an attack made with Sunfire Throwers. Instead, roll a number of dice equal to the number of models from the target unit within 8\" of the attacking model. For each 5+, the target unit suffers 1 mortal wound."
+      },
+      {
+        "name": "Steadfast Majesty",
+        "flavorText": "Stegadons are almost fearless beasts, and their stubborn refusal to back down when faced by even the most fearsome foes inspires great courage in nearby skinks.",
+        "description": "You can re-roll battleshock tests for friendly SKINK units while they are wholly within 18\" of any friendly STEGADON units."
+      },
+      {
+        "name": "Unstoppable Stampede",
+        "flavorText": "Stegadons are nigh unstoppable as they crash through the midst of battle.",
+        "description": "Roll 1 dice for each enemy unit that is within 1\" of this model when this model finishes a charge move. On a 3+, that enemy unit suffers D3 mortal wounds."
+      }
+    ],
+    "keywords": [
+      "ORDER",
+      "SERAPHON",
+      "SKINK",
+      "MONSTER",
+      "STEGADON"
+    ],
+    "pitchedBattleNotes": [
+      "Single. Battleline in a <a href=\"/aos3/factions/seraphon/#The-Thunder-Lizard\">Thunder Lizard</a> army"
+    ],
+    "baseSize": "120 x 92mm"
+  },
+  {
+    "name": "Dread Saurian",
+    "points": "545",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Behemoth"
+    ],
+    "flavorText": "Considered by the Seraphon to be living icons of the Old Ones, Dread Saurians are savage leviathans unleashed only as weapons of last resort. Their capacity for primal violence, not to mention their heart-stopping roar, has sent entire enemy armies into retreat.",
+    "description": "A Dread Saurian is armed with Gargantuan Jaws, Raking Claws and an Armoured Tail.",
+    "wounds": "35",
+    "move": "✹",
+    "save": "4+",
+    "bravery": "8",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Gargantuan Jaws",
+        "range": "2\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "✹"
+      },
+      {
+        "name": "Raking Claws",
+        "range": "2\"",
+        "attacks": "6",
+        "toHit": "✹",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      },
+      {
+        "name": "Armoured Tail",
+        "range": "2\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D6"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-18",
+        "move": "10\"",
+        "gargantuanJaws": "6",
+        "rakingClaws": "2+"
+      },
+      {
+        "woundsSuffered": "19-24",
+        "move": "9\"",
+        "gargantuanJaws": "5",
+        "rakingClaws": "3+"
+      },
+      {
+        "woundsSuffered": "25-30",
+        "move": "8\"",
+        "gargantuanJaws": "4",
+        "rakingClaws": "3+"
+      },
+      {}
+    ],
+    "abilities": [
+      {
+        "name": "Arcane Glyphs",
+        "flavorText": "Dread Saurians go to war clad in techno-arcane glyph-plates through which a slann can channel power to ward off enemy sorceries.",
+        "description": "Each time this model is affected by a spell or the ability of an endless spell, you can roll a dice. If you do so, on a 6+, ignore the effects of that spell or the ability of that endless spell on this model. Add 2 to the roll if this model is within 12\" of a friendly SLANN."
+      },
+      {
+        "name": "Obliterating Charge",
+        "flavorText": "A Dread Saurian’s sheer scaled mass is a potent weapon in its own right.",
+        "description": "After this model makes a charge move, roll a dice for each enemy unit within 1\" of this model. On a 2+, that unit suffers D3 mortal wounds if it is a MONSTER or D6 mortal wounds if it is not a MONSTER."
+      },
+      {
+        "name": "Death Throes",
+        "flavorText": "Even a mortally wounded Dread Saurian cannot be discounted, for it will lash out violently before meeting its end.",
+        "description": "If this model is slain, before removing it from play, roll a dice for each enemy unit within 3\" of it that is not a MONSTER. On a 4+, that unit suffers D3 mortal wounds."
+      },
+      {
+        "name": "Terror",
+        "flavorText": "This horrific monstrosity strikes fear deep into the hearts of its enemies.",
+        "description": "Subtract 1 from the Bravery characteristic of enemy units if they are within 3\" of any friendly units with this ability."
+      }
+    ],
+    "keywords": [
+      "ORDER",
+      "SERAPHON",
+      "MONSTER",
+      "DREAD",
+      "SAURIAN"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "280 x 210mm"
+  },
+  {
+    "name": "Realmshaper Engine",
+    "points": "0",
+    "unitSize": "",
+    "battlefieldRoles": [
+      "Faction Terrain Feature"
+    ],
+    "flavorText": "There are no lengths the Seraphon will not go to in order to see the Great Plan fulfilled. At a Starmaster’s decree, Realmshaper Engines are deployed to remake reality in line with the Old Ones’ will, rendering the lands a primordial haven for the lizardfolk and a sweltering, inhospitable nightmare for their foes.",
+    "description": "",
+    "wounds": "",
+    "move": "",
+    "save": "",
+    "bravery": "",
+    "missleWeapons": [],
+    "meleeWeapons": [],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [],
+    "pitchedBattleNotes": []
+  }
+]

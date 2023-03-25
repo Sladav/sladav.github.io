@@ -1,0 +1,3850 @@
+[
+  {
+    "name": "Archaon the Everchosen",
+    "points": "860",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader",
+      "Behemoth"
+    ],
+    "flavorText": "Archaon is the Everchosen, the favoured warlord of the Dark Pantheon. From atop Dorghar, the monstrous Steed of the Apocalypse, Archaon commands his legions with an iron fist, his deadly skill and unholy powers sealing the doom of entire armies.",
+    "description": "",
+    "wounds": "20",
+    "move": "✹",
+    "save": "3+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "The Slayer of Kings",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "2+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "3"
+      },
+      {
+        "name": "Monstrous Claws",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "2+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "D6"
+      },
+      {
+        "name": "Lashing Tails",
+        "range": "3\"",
+        "attacks": "2D6",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Three Heads",
+        "range": "3\"",
+        "attacks": "✹",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-8",
+        "move": "14\"",
+        "threeHeads": "6"
+      },
+      {
+        "woundsSuffered": "9-11",
+        "move": "12\"",
+        "threeHeads": "5"
+      },
+      {
+        "woundsSuffered": "12-15",
+        "move": "10\"",
+        "threeHeads": "4"
+      },
+      {}
+    ],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "SLAVES",
+      "DARKNESS",
+      "HOST",
+      "EVERCHOSEN",
+      "UNDIVIDED",
+      "KHORNE",
+      "TZEENTCH",
+      "NURGLE",
+      "SLAANESH",
+      "DAEMON",
+      "MORTAL",
+      "HERO",
+      "MONSTER",
+      "WIZARD",
+      "ARCHAON"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ],
+    "baseSize": "160mm"
+  },
+  {
+    "name": "Be lakor the Dark Master",
+    "points": "360",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader",
+      "Behemoth"
+    ],
+    "flavorText": "A winged nightmare wreathed in darkness and redolent with terrible power, Be’lakor strides forth to subjugate the Mortal Realms and bring them under his tyrannical rule. With shadow magic and daemonic might he obliterates his foes, revelling in their agonised death throes.",
+    "description": "Be’lakor, the Dark Master, is a named character that is a single model. Be’lakor is armed with the Blade of Shadows, a Fell Claw and a Spearing Tail.",
+    "wounds": "14",
+    "move": "✹",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Blade of Shadows",
+        "range": "2\"",
+        "attacks": "✹",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "2"
+      },
+      {
+        "name": "Fell Claw",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      },
+      {
+        "name": "Spearing Tail",
+        "range": "3\"",
+        "attacks": "1",
+        "toHit": "2+",
+        "toWound": "✹",
+        "rend": "-3",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "FLY",
+        "description": "This model can fly."
+      }
+    ],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-3",
+        "move": "14\"",
+        "bladeOfShadows": "8",
+        "spearingTail": "1+"
+      },
+      {
+        "woundsSuffered": "4-6",
+        "move": "12\"",
+        "bladeOfShadows": "7",
+        "spearingTail": "2+"
+      },
+      {
+        "woundsSuffered": "7-8",
+        "move": "10\"",
+        "bladeOfShadows": "6",
+        "spearingTail": "3+"
+      },
+      {
+        "woundsSuffered": "9-10",
+        "move": "8\"",
+        "bladeOfShadows": "5",
+        "spearingTail": "4+"
+      },
+      {}
+    ],
+    "abilities": [
+      {
+        "name": "The Dark Master",
+        "flavorText": "Many puppets dance on Be’lakor’s infernal strings, though few realise as much until their fate is sealed.",
+        "description": "Once per battle, at the start of the enemy hero phase, you can pick 1 enemy unit on the battlefield. Until your next hero phase, at the start of each phase (including the phase in which the unit was picked), you can roll a dice for that unit. On a 3+, that unit cannot move, shoot, fight, use command abilities, chant prayers, attempt to cast spells, attempt to dispel endless spells or attempt to unbind spells in that phase."
+      },
+      {
+        "name": "Lord of Torment",
+        "flavorText": "Be’lakor is invigorated by the suffering and terror of mortals.",
+        "description": "If an enemy unit fails a battleshock test while it is within 12\" of this model, you can heal up to D3 wounds allocated to this model."
+      },
+      {
+        "name": "Shadow Form",
+        "flavorText": "Be’lakor’s can shift his physical form to be as insubstantial as the mists of Ulgu, and just as hard to land a telling blow upon.",
+        "description": "Ignore modifiers (positive or negative) when making save rolls for attacks that target this model."
+      },
+      {
+        "name": "Arcane BoltMystic ShieldEnfeeble Foe",
+        "flavorText": "",
+        "description": "This model is a WIZARD. It can attempt to cast 2 spells in your hero phase and attempt to unbind 2 spells in the enemy hero phase. It knows the Arcane Bolt, Mystic Shield and Enfeeble Foe spells."
+      },
+      {
+        "name": "Enfeeble Foe",
+        "flavorText": "With a series of hissed incantations, Be’lakor instils visions of loss and despair in the minds of his enemies to drain them of their fighting spirit.",
+        "description": "Enfeeble Foe has a casting value of 6. If successfully cast, pick 1 enemy unit within 18\" of the caster and visible to them. Subtract 1 from wound rolls for attacks made with melee weapons by that unit until your next hero phase."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "DAEMON",
+      "DAEMON",
+      "PRINCE",
+      "SLAVES",
+      "DARKNESS",
+      "UNDIVIDED",
+      "HERO",
+      "WIZARD",
+      "MONSTER",
+      "BE’LAKOR",
+      "PRIORITY",
+      "TARGET"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ],
+    "baseSize": "100mm"
+  },
+  {
+    "name": "Chaos Lord",
+    "points": "120",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Chaos Lords are dark champions who have walked the Path to Glory and are now only one step away from glory or damnation. They are the rulers of great warbands and hordes, and their followers will die before failing these fearsome warlords.",
+    "description": "A Chaos Lord is a single model armed with one of the following weapon options: Reaperblade and Daemonbound Steel; or Daemonbound War-flail.",
+    "wounds": "7",
+    "move": "5\"",
+    "save": "4+",
+    "bravery": "8",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Reaperblade",
+        "range": "2\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "2"
+      },
+      {
+        "name": "Daemonbound Steel",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Daemonbound War-flail",
+        "range": "2\"",
+        "attacks": "6",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-2",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "MARK OF CHAOS",
+        "description": "When you select this model to be part of your army, you must give it one of the following Mark of Chaos keywords: KHORNE, TZEENTCH, NURGLE, SLAANESH or UNDIVIDED."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Daemonbound",
+        "flavorText": "Weapons that contain the essence of a daemon are capable of swiftly devouring an enemy’s soul.",
+        "description": "If the unmodified hit roll for an attack made with a Daemonbound weapon is 6, that attack inflicts 1 mortal wound on the target in addition to any normal damage."
+      },
+      {
+        "name": "Spurred by the Gods",
+        "flavorText": "Chaos Lords are the favoured of the dark pantheon, and in their presence their warriors fight all the harder.",
+        "description": "You can use this command ability at the start of the combat phase. If you do so, pick 1 friendly MORTAL SLAVES TO DARKNESS unit wholly within 12\" of a friendly model with this command ability. After that unit has fought in that phase for the first time, when it is your turn to pick a unit to fight with later in the same phase, that unit can be selected to fight for a second time if it is within 3\" of any enemy units. The same unit cannot benefit from this command ability more than once per turn."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "MORTAL",
+      "SLAVES",
+      "DARKNESS",
+      "MARK",
+      "CHAOS",
+      "EYE",
+      "GODS",
+      "HERO",
+      "CHAOS",
+      "LORD"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Chaos Lord on Daemonic Mount",
+    "points": "155",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Particularly favoured Chaos Lords may be granted a daemonic steed to bear them into battle. These champions become the rulers of feared cavalry warbands, driving their mounted brethren into battle with roared oaths to the Dark Gods.",
+    "description": "A Chaos Lord on Daemonic Mount is a single model armed with a Cursed Warhammer and Chaos Runeshield.",
+    "wounds": "8",
+    "move": "10\"",
+    "save": "4+",
+    "bravery": "8",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Cursed Warhammer",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      },
+      {
+        "name": "Mighty Hooves",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "MOUNT",
+        "description": "This model’s Daemonic Mount attacks with its Mighty Hooves."
+      },
+      {
+        "name": "MARK OF CHAOS",
+        "description": "When you select this model to be part of your army, you must give it one of the following Mark of Chaos keywords: KHORNE, TZEENTCH, NURGLE, SLAANESH or UNDIVIDED."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Chaos Runeshield",
+        "flavorText": "The dark runes inscribed upon these shields grant them the power to withstand even the most powerful attacks.",
+        "description": "Roll a dice each time you allocate a mortal wound to this model. On a 5+, that mortal wound is negated."
+      },
+      {
+        "name": "Cursed Warhammer",
+        "flavorText": "Those struck by this malevolent weapon are soon blasted apart in an explosion of unholy power.",
+        "description": "If the unmodified hit roll for an attack made with a Cursed Warhammer is 6, that attack inflicts 2 mortal wounds on the target and the attack sequence ends (do not make a wound or save roll)."
+      },
+      {
+        "name": "Fuelled by Carnage",
+        "flavorText": "Those Chaos Lords who rise high in the favour of the gods find themselves sustained by the act of killing alone.",
+        "description": "At the end of the combat phase, if any enemy models were slain by wounds inflicted by this model’s Cursed Warhammer in that phase, you can heal up to D3 wounds allocated to this model."
+      },
+      {
+        "name": "The Knights of Chaos",
+        "flavorText": "This Chaos Lord commands his mounted brethren to seek and destroy the foe with renewed hatred.",
+        "description": "You can use this command ability in your hero phase. If you do so, pick 1 friendly CHAOS KNIGHTS, CHAOS CHARIOTS or GOREBEAST CHARIOTS unit wholly within 18\" of a friendly SLAVES TO DARKNESS HERO with this command ability. You can re-roll charge rolls for that unit and add 1 to hit rolls for attacks made by that unit until your next hero phase. The same unit cannot benefit from this command ability more than once per turn."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "DAEMON",
+      "MORTAL",
+      "SLAVES",
+      "DARKNESS",
+      "MARK",
+      "CHAOS",
+      "EYE",
+      "GODS",
+      "HERO",
+      "CHAOS",
+      "LORD"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "75 x 42mm"
+  },
+  {
+    "name": "Chaos Lord on Karkadrak",
+    "points": "225",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Karkadraks are monstrous lizard-beasts clad in thick scales, whose destructive rampages are almost impossible to stop. Only the strongest Chaos Lords can dominate a Karkadrak, but those who succeed become truly deadly linebreakers.",
+    "description": "A Chaos Lord on Karkadrak is a single model armed with a Hexed Battle-axe and Daemonbound Blade.",
+    "wounds": "9",
+    "move": "9\"",
+    "save": "3+",
+    "bravery": "8",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Hexed Battle-axe",
+        "range": "1\"",
+        "attacks": "5",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "2"
+      },
+      {
+        "name": "Daemonbound Blade",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      },
+      {
+        "name": "Tearing Horn and Claws",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      },
+      {
+        "name": "Battering Tail",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "MOUNT",
+        "description": "This model’s Karkadrak attacks with its Tearing Horn and Claws and its Battering Tail."
+      },
+      {
+        "name": "MARK OF CHAOS",
+        "description": "When you select this model to be part of your army, you must give it one of the following Mark of Chaos keywords: KHORNE, TZEENTCH, NURGLE, SLAANESH or UNDIVIDED."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Brutish Rampage",
+        "flavorText": "A charging Karkadrak is an almost unstoppable force, capable of smashing straight through even the most determined shieldwall.",
+        "description": "Roll a dice for each enemy unit that is within 1\" of this model after this model makes a charge move. On a 2+, that unit suffers D3 mortal wounds."
+      },
+      {
+        "name": "Daemonbound",
+        "flavorText": "Weapons that contain the essence of a daemon are capable of swiftly devouring an enemy’s soul.",
+        "description": "If the unmodified hit roll for an attack made with a Daemonbound Blade is 6, that attack inflicts 1 mortal wound on the target in addition to any normal damage."
+      },
+      {
+        "name": "Fuelled by Carnage",
+        "flavorText": "Those Chaos Lords who rise high in the favour of the gods find themselves sustained by the act of killing alone.",
+        "description": "At the end of the combat phase, if any enemy models were slain by wounds inflicted by this model’s Hexed Battle-axe in that phase, you can heal up to D3 wounds allocated to this model."
+      },
+      {
+        "name": "Rune-etched Plating",
+        "flavorText": "The symbols carved across the armour of this champion radiate an aura of fell power that protects the wearer from harm.",
+        "description": "Roll a dice each time you allocate a mortal wound to this model. On a 5+, that mortal wound is negated."
+      },
+      {
+        "name": "The Knights of Chaos",
+        "flavorText": "This Chaos Lord commands his mounted brethren to seek and destroy the foe with renewed hatred.",
+        "description": "You can use this command ability in your hero phase. If you do so, pick 1 friendly CHAOS KNIGHTS, CHAOS CHARIOTS or GOREBEAST CHARIOTS unit wholly within 18\" of a friendly SLAVES TO DARKNESS HERO with this command ability. Until your next hero phase, you can re-roll charge rolls for that unit and add 1 to hit rolls for attacks made by that unit. The same unit cannot benefit from this command ability more than once per turn."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "MORTAL",
+      "SLAVES",
+      "DARKNESS",
+      "MARK",
+      "CHAOS",
+      "EYE",
+      "GODS",
+      "HERO",
+      "CHAOS",
+      "LORD"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "90 x 52mm"
+  },
+  {
+    "name": "Chaos Lord on Manticore",
+    "points": "255",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "With raw strength and force of will, the greatest Chaos Lords seek to claim a ferocious Manticore as a mount. Those who succeed find their killing power greatly amplified, and are amongst the deadliest champions of the Ruinous Powers.",
+    "description": "A Chaos Lord on Manticore is a single model armed with one of the following weapon options: Daemon Blade and Chaos Lance; Chaos Flail and Chaos Lance; Daemon Blade and Chaos Runeshield; Chaos Flail and Chaos Runeshield; Daemon Blade and Daggerfist; or Chaos Flail and Daggerfist.",
+    "wounds": "12",
+    "move": "✹",
+    "save": "4+",
+    "bravery": "8",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Daemon Blade",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      },
+      {
+        "name": "Chaos Lance",
+        "range": "2\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "2"
+      },
+      {
+        "name": "Chaos Flail",
+        "range": "2\"",
+        "attacks": "6",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Honed Fangs and Claws",
+        "range": "1\"",
+        "attacks": "5",
+        "toHit": "3+",
+        "toWound": "✹",
+        "rend": "-1",
+        "damage": "2"
+      },
+      {
+        "name": "Shredding Tail",
+        "range": "3\"",
+        "attacks": "✹",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "MOUNT",
+        "description": "This model’s Manticore attacks with its Honed Fangs and Claws, and Shredding Tail."
+      },
+      {
+        "name": "FLY",
+        "description": "This model can fly."
+      },
+      {
+        "name": "MARK OF CHAOS",
+        "description": "When you select this model to be part of your army, you must give it one of the following Mark of Chaos keywords: KHORNE, TZEENTCH, NURGLE, SLAANESH or UNDIVIDED."
+      }
+    ],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-2",
+        "move": "12\"",
+        "honedFangsAndClaws": "1+",
+        "shreddingTail": "5"
+      },
+      {
+        "woundsSuffered": "3-4",
+        "move": "10\"",
+        "honedFangsAndClaws": "2+",
+        "shreddingTail": "4"
+      },
+      {
+        "woundsSuffered": "5-7",
+        "move": "8\"",
+        "honedFangsAndClaws": "3+",
+        "shreddingTail": "3"
+      },
+      {
+        "woundsSuffered": "8-9",
+        "move": "6\"",
+        "honedFangsAndClaws": "4+",
+        "shreddingTail": "2"
+      },
+      {}
+    ],
+    "abilities": [
+      {
+        "name": "Chaos Runeshield",
+        "flavorText": "The dark runes inscribed upon these shields grant them the power to withstand even the most powerful attacks.",
+        "description": "Roll a dice each time you allocate a mortal wound to this model. On a 5+, that mortal wound is negated."
+      },
+      {
+        "name": "Chaos Lance",
+        "flavorText": "This Chaos Lord seeks to finish his foes with the first strike of his charge.",
+        "description": "Add 1 to the Damage characteristic and improve the Rend characteristic of this model’s Chaos Lance by 2 if this model made a charge move in the same turn."
+      },
+      {
+        "name": "Daemonbound",
+        "flavorText": "Weapons that contain the essence of a daemon are capable of swiftly devouring an enemy’s soul.",
+        "description": "If the unmodified hit roll for an attack made with a Daemon Blade is 6, that attack inflicts 1 mortal wound on the target in addition to any normal damage."
+      },
+      {
+        "name": "Daggerfist",
+        "flavorText": "This bladed gauntlet allows the wielder to swiftly counter enemy blows at close quarters.",
+        "description": "If the unmodified save roll for an attack made with a melee weapon that targets a model with a Daggerfist is 6, the attacking unit suffers 1 mortal wound after all of its attacks have been resolved."
+      },
+      {
+        "name": "Territorial Predator",
+        "flavorText": "Any who stray into the territory of a Manticore are as good as dead, especially larger creatures that can be seen as a potential rival.",
+        "description": "You can re-roll hit rolls for attacks made with this model’s Honed Fangs and Claws if the target is a MONSTER."
+      },
+      {
+        "name": "Iron-willed Overlord",
+        "flavorText": "Manticores are berserk killers, and any Chaos Lord who rides one to battle displays such obvious dominance that none would dare deny his orders.",
+        "description": "You can use this command ability in your hero phase. If you do so, pick 1 friendly CHAOS WARRIORS unit wholly within 18\" of a friendly model with this command ability. You can re-roll charge rolls and battleshock tests for that unit until your next hero phase."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "MORTAL",
+      "MANTICORE",
+      "SLAVES",
+      "DARKNESS",
+      "MARK",
+      "CHAOS",
+      "EYE",
+      "GODS",
+      "MONSTER",
+      "HERO",
+      "CHAOS",
+      "LORD"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "120 x 92mm"
+  },
+  {
+    "name": "Chaos Sorcerer Lord",
+    "points": "135",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "The very air around a Sorcerer Lord is saturated with dark magic. With their command of daemonic powers and gift of foresight, these warlocks bolster the power of their allies while unleashing their own devastating spellcraft on the enemy.",
+    "description": "A Chaos Sorcerer Lord is a single model armed with a Sorcerer Staff and Chaos Runeblade.",
+    "wounds": "5",
+    "move": "5\"",
+    "save": "4+",
+    "bravery": "7",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Sorcerer Staff",
+        "range": "2\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      },
+      {
+        "name": "Chaos Runeblade",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "MARK OF CHAOS",
+        "description": "When you select this model to be part of your army, you must give it one of the following Mark of Chaos keywords: NURGLE, TZEENTCH, SLAANESH or UNDIVIDED."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Oracular Visions",
+        "flavorText": "A sorcerer can temporarily bestow the gift of foresight upon their allies, helping them ward against oncoming enemy blows.",
+        "description": "In your hero phase, you can pick 1 friendly MORTAL SLAVES TO DARKNESS unit wholly within 12\" of this unit. If you do so, add 1 to save rolls for attacks that target that unit until your next hero phase."
+      },
+      {
+        "name": "Arcane BoltMystic ShieldDaemonic Power",
+        "flavorText": "",
+        "description": "This model is a WIZARD. It can attempt to cast 1 spell in your hero phase and attempt to unbind 1 spell in the enemy hero phase. It knows the Arcane Bolt, Mystic Shield and Daemonic Power spells."
+      },
+      {
+        "name": "Daemonic Power",
+        "flavorText": "The sorcerer bestows his followers with daemonic essence, boosting their skill and strength to unholy levels.",
+        "description": "Daemonic Power has a casting value of 6. If successfully cast, pick 1 friendly MORTAL SLAVES TO DARKNESS unit wholly within 18\" of the caster and visible to them. You can re-roll hit and wound rolls for attacks made by that unit until your next hero phase."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "MORTAL",
+      "SLAVES",
+      "DARKNESS",
+      "MARK",
+      "CHAOS",
+      "EYE",
+      "GODS",
+      "HERO",
+      "WIZARD",
+      "CHAOS",
+      "SORCERER",
+      "LORD"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Chaos Sorcerer Lord on Manticore",
+    "points": "270",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "The binding magic of a Sorcerer Lord can break the will of even a mighty Manticore. Upon such a mount they plunge headlong into the foe, summoning gales of dark energy as the Manticore tears the enemy asunder.",
+    "description": "A Chaos Sorcerer Lord on Manticore is a single model armed with a Sorcerous Reaping Staff.",
+    "wounds": "12",
+    "move": "✹",
+    "save": "4+",
+    "bravery": "8",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Sorcerous Reaping Staff",
+        "range": "2\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      },
+      {
+        "name": "Honed Fangs and Claws",
+        "range": "1\"",
+        "attacks": "5",
+        "toHit": "3+",
+        "toWound": "✹",
+        "rend": "-1",
+        "damage": "2"
+      },
+      {
+        "name": "Shredding Tail",
+        "range": "3\"",
+        "attacks": "✹",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "FLY",
+        "description": "This model can fly."
+      },
+      {
+        "name": "MOUNT",
+        "description": "This model’s Manticore attacks with its Honed Fangs and Claws and Shredding Tail."
+      },
+      {
+        "name": "MARK OF CHAOS",
+        "description": "When you select this model to be part of your army, you must give it one of the following Mark of Chaos keywords: TZEENTCH, NURGLE, SLAANESH or UNDIVIDED."
+      }
+    ],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-2",
+        "move": "12\"",
+        "honedFangsAndClaws": "1+",
+        "shreddingTail": "5"
+      },
+      {
+        "woundsSuffered": "3-4",
+        "move": "10\"",
+        "honedFangsAndClaws": "2+",
+        "shreddingTail": "4"
+      },
+      {
+        "woundsSuffered": "5-7",
+        "move": "8\"",
+        "honedFangsAndClaws": "3+",
+        "shreddingTail": "3"
+      },
+      {
+        "woundsSuffered": "8-9",
+        "move": "6\"",
+        "honedFangsAndClaws": "4+",
+        "shreddingTail": "2"
+      },
+      {}
+    ],
+    "abilities": [
+      {
+        "name": "Oracular Visions",
+        "flavorText": "A sorcerer can temporarily bestow the gift of foresight upon their allies, helping them ward against oncoming enemy blows.",
+        "description": "In your hero phase, you can pick 1 friendly MORTAL SLAVES TO DARKNESS unit wholly within 12\" of this unit. If you do so, add 1 to save rolls for attacks that target that unit until your next hero phase."
+      },
+      {
+        "name": "Territorial Predator",
+        "flavorText": "Any who stray into the territory of a Manticore are as good as dead, especially larger creatures that can be seen as a potential rival.",
+        "description": "You can re-roll hit rolls for attacks made with this model’s Honed Fangs and Claws if the target is a MONSTER."
+      },
+      {
+        "name": "Arcane BoltMystic ShieldWind of Chaos",
+        "flavorText": "",
+        "description": "This model is a WIZARD. It can attempt to cast 1 spell in your hero phase and attempt to unbind 1 spell in the enemy hero phase. It knows the Arcane Bolt, Mystic Shield and Wind of Chaos spells."
+      },
+      {
+        "name": "Wind of Chaos",
+        "flavorText": "The sorcerer summons the raw power of Chaos and sends a vortex of fell energies screaming across the battlefield.",
+        "description": "Winds of Chaos has a casting value of 7. If successfully cast, pick 1 enemy unit within 18\" of the caster and visible to them. Roll a number of dice equal to the number of models in that unit. For each 5, that unit suffers 1 mortal wound. For each 6, that unit suffers D3 mortal wounds."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "MORTAL",
+      "MANTICORE",
+      "SLAVES",
+      "DARKNESS",
+      "MARK",
+      "CHAOS",
+      "EYE",
+      "GODS",
+      "MONSTER",
+      "HERO",
+      "WIZARD",
+      "CHAOS",
+      "SORCERER",
+      "LORD"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "120 x 92mm"
+  },
+  {
+    "name": "Darkoath Chieftain",
+    "points": "85",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Darkoath Chieftains lead their barbarian tribes to war with the fury and conviction of the truly devoted. These masterful warriors are always seeking greater challenges, and their skill-at-arms is spoken of in awe by their followers.",
+    "description": "A Darkoath Chieftain is a single model, armed with a Warlord Axe and Cursed Broadsword.",
+    "wounds": "6",
+    "move": "6\"",
+    "save": "5+",
+    "bravery": "8",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Warlord Axe",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Cursed Broadsword",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Berserk Charge",
+        "flavorText": "A Darkoath Chieftain is on a constant quest for glory, charging into every battle with boundless ferocity.",
+        "description": "Add 3 to the Attacks characteristic of this model’s Cursed Broadsword if it charged in the same turn."
+      },
+      {
+        "name": "Deathblow",
+        "flavorText": "Darkoath Chieftains are superlative warriors, and once the slaughter has begun their furious blows inevitably reap a fearsome toll of lives.",
+        "description": "At the end of the combat phase, if any enemy models were slain by this model in that phase, each enemy unit within 1\" of this model suffers 1 mortal wound."
+      },
+      {
+        "name": "Last Gasp of Glory",
+        "flavorText": "The Darkoath Chieftain exhorts the barbarian tribes they rule to fight on even as death claims them.",
+        "description": "You can use this command ability at the start of the combat phase. If you do so, pick a friendly model with this command ability. Until the end of the phase, friendly CHAOS MARAUDERS and CULTISTS models that are slain within 12\" of the model you picked and have not yet fought in that phase can fight before being removed from play. The same unit cannot benefit from this command ability more than once per turn."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "MORTAL",
+      "SLAVES",
+      "DARKNESS",
+      "HERO",
+      "EYE",
+      "GODS",
+      "DARKOATH",
+      "CHIEFTAIN"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Darkoath Warqueen",
+    "points": "90",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "A Darkoath Warqueen has proven herself the rightful ruler of her barbarian tribesfolk time and again. She has sworn dread pacts to bring carnage to the Mortal Realms, and all who stand in her way must face both her wrath and that of her devoted warriors.",
+    "description": "A Darkoath Warqueen is a single model. She is armed with a Rune-etched Axe and carries an Infernal Runeshield.",
+    "wounds": "6",
+    "move": "6\"",
+    "save": "5+",
+    "bravery": "8",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Rune-etched Axe",
+        "range": "1\"",
+        "attacks": "6",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Infernal Runeshield",
+        "flavorText": "Inscribed with the runes of the barbarian tribes she has conquered, the Darkoath Warqueen’s shield is blessed with daemonic power.",
+        "description": "Roll a dice each time you allocate a wound or mortal wound to this model. On a 6, that wound or mortal wound is negated and the attacking unit suffers 1 mortal wound."
+      },
+      {
+        "name": "Savage Duellist",
+        "flavorText": "A Darkoath Warqueen is empowered by acts of personal conquest; when she fixes her gaze on a powerful foe in single combat, her battle-frenzy reaches new heights.",
+        "description": "This model fights at the start of the combat phase. This model cannot fight again in that phase unless an ability or spell allows it to fight more than once.In addition, add 1 to the Damage characteristic of this model’s Rune-etched Axe if the target is a HERO or MONSTER."
+      },
+      {
+        "name": "The Will of the Gods",
+        "flavorText": "A Darkoath Warqueen speaks with irresistible authority, for she has heard the wishes of the Chaos Gods. When she calls for her tribespeople to begin the slaughter, they are spurred to an all-out charge.",
+        "description": "You can use this command ability at the start of your charge phase. If you do so, until the end of that phase, add 3 to charge rolls for friendly CHAOS MARAUDERS and CULTISTS units wholly within 12\" this model when the charge roll is made. A unit cannot benefit from this command ability more than once per phase."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "MORTAL",
+      "SLAVES",
+      "DARKNESS",
+      "EYE",
+      "GODS",
+      "HERO",
+      "DARKOATH",
+      "WARQUEEN"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Exalted Hero of Chaos",
+    "points": "90",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Exalted Heroes are those warriors who have caught the notice of the gods and now seek to make a true name for themselves. Their favoured prey are monsters and enemy champions, for by slaying these foes an Exalted Hero proves their own might.",
+    "description": "An Exalted Hero of Chaos is a single model armed with Rune-etched Blades.",
+    "wounds": "5",
+    "move": "5\"",
+    "save": "4+",
+    "bravery": "8",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Rune-etched Blades",
+        "range": "1\"",
+        "attacks": "D6",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "MARK OF CHAOS",
+        "description": "When you select this model to be part of your army, you must give it one of the following Mark of Chaos keywords: KHORNE, TZEENTCH, NURGLE, SLAANESH or UNDIVIDED."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Dark Blessings",
+        "flavorText": "Exalted Heroes of Chaos are watched with interest by the gods, who will sometimes intervene to protect the latest objects of their fickle curiosity.",
+        "description": "Roll a dice each time you allocate a mortal wound to this model. On a 5+, that mortal wound is negated."
+      },
+      {
+        "name": "Glory-hungry Bladesman",
+        "flavorText": "Exalted Heroes scour the battlefield for worthy foes to slay in the name of the Dark Gods.",
+        "description": "Add 1 to hit rolls for attacks made by this model if the target is a HERO or MONSTER."
+      },
+      {
+        "name": "Thrice-damned Dagger",
+        "flavorText": "Exalted Heroes carve out the hearts of powerful enemies they have slain, devouring the organ to inherit their might.",
+        "description": "If this model makes an attack with a melee weapon that slays one or more enemy HEROES or MONSTERS, you can heal up to D3 wounds allocated to this model after all of its attacks have been resolved."
+      },
+      {
+        "name": "Trail of Red Ruin",
+        "flavorText": "This warrior’s bloodlust can never be satisfied, constantly pushing him forward in search of new challenges.",
+        "description": "If this model made a charge move this turn, after this model has fought in the combat phase for the first time, it can immediately fight for a second time if it is within 3\" of an enemy unit."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "MORTAL",
+      "SLAVES",
+      "DARKNESS",
+      "MARK",
+      "CHAOS",
+      "EYE",
+      "GODS",
+      "HERO",
+      "EXALTED",
+      "HERO",
+      "CHAOS"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Gaunt Summoner on Disc of Tzeentch",
+    "points": "275",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "The Gaunt Summoners are strange daemon-sorcerers of Tzeentch bound to the will of the Everchosen. They glide above the battlefield on scintillating Discs of Tzeentch, laying the enemy low with arcane power and cursed daggers.",
+    "description": "A Gaunt Summoner on Disc of Tzeentch is a single model armed with a Changestaff and Warptongue Blade.",
+    "wounds": "6",
+    "move": "16\"",
+    "save": "6+",
+    "bravery": "8",
+    "missleWeapons": [
+      {
+        "name": "Changestaff",
+        "range": "18\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "D3"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Warptongue Blade",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Blades and Stingers",
+        "range": "1\"",
+        "attacks": "D3",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "FLY",
+        "description": "This model can fly."
+      },
+      {
+        "name": "MOUNT",
+        "description": "This model’s Disc of Tzeentch attacks with its Blades and Stingers."
+      },
+      {
+        "name": "Hovering Disc of Tzeentch",
+        "description": "A Gaunt Summoner mounted on a Disc of Tzeentch is capable of truly breathtaking feats of agility and evasion.Add 2 to save rolls for attacks made with melee weapons that target this model unless the attacking unit is a MONSTER or can fly."
+      },
+      {
+        "name": "Warptongue Blade",
+        "description": "Those cut by a Warptongue Blade soon find their bodies wracked with sickening and uncontrollable mutations.If the unmodified wound roll for an attack made with a Warptongue Blade is 6, that attacks inflicts D6 mortal wounds on the target and the attack sequence ends (do not make a save roll)."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Arcane BoltMystic ShieldInfernal Flames",
+        "flavorText": "",
+        "description": "This model is a WIZARD. It can attempt to cast 2 spells in your hero phase and attempt to unbind 2 spells in the enemy hero phase. It knows the Arcane Bolt, Mystic Shield and Infernal Flames spells."
+      },
+      {
+        "name": "Infernal Flames",
+        "flavorText": "The Gaunt Summoner conjures a rolling wave of scorching wyrdfire that engulfs enemy formations.",
+        "description": "Infernal Flames has a casting value of 7. If successfully cast, pick 1 enemy unit within 12\" of the caster and visible to them, and roll 1 dice for each model in that unit. For each 5+, that unit suffers 1 mortal wound. If that unit is a MONSTER or WAR MACHINE, roll 3 dice for each model instead."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "DAEMON",
+      "MORTAL",
+      "SLAVES",
+      "DARKNESS",
+      "EVERCHOSEN",
+      "TZEENTCH",
+      "HERO",
+      "WIZARD",
+      "GAUNT",
+      "SUMMONER"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "40mm"
+  },
+  {
+    "name": "Ogroid Myrmidon",
+    "points": "125",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Myrmidons are masters of the Varanspire’s fighting pits, and have spent decades mastering the gladiatorial arts. In battle they lead those who seek to join the Everchosen’s legions, for to impress a Myrmidon is to be marked for glory.",
+    "description": "An Ogroid Myrmidon is a single model armed with a Gladiator Spear and Great Horns.",
+    "wounds": "8",
+    "move": "6\"",
+    "save": "4+",
+    "bravery": "8",
+    "missleWeapons": [
+      {
+        "name": "Gladiator Spear",
+        "range": "18\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Gladiator Spear",
+        "range": "2\"",
+        "attacks": "6",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Great Horns",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "3"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Arcane Fury",
+        "flavorText": "The magical runes carved into a Myrmidon’s flesh glow with a blood-red light, their energies empowering the Ogroid’s blows.",
+        "description": "If the unmodified hit roll for an attack made with a melee weapon by this model is 6, that attack scores 2 hits on the target instead of 1. Make a wound and save roll for each hit."
+      },
+      {
+        "name": "Berserk Rage",
+        "flavorText": "Every wound inflicted on a Myrmidon only serves to stoke its rage further.",
+        "description": "You can re-roll hit and wound rolls for attacks made with melee weapons by this model if any wounds or mortal wounds were allocated to this model earlier in the same phase."
+      },
+      {
+        "name": "Pit Marshal",
+        "flavorText": "Myrmidons rule the gladiatorial arenas of the Eightpoints, and those pit fighter warbands they lead into battle are spurred to greater acts of carnage by their presence.",
+        "description": "You can use this command ability in the combat phase. If you do so, pick 1 friendly CULTISTS unit wholly within 12\" of a friendly model with this command ability. Do not take battleshock tests for that unit until the start of your next hero phase."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "MORTAL",
+      "SLAVES",
+      "DARKNESS",
+      "HERO",
+      "EYE",
+      "GODS",
+      "OGROID",
+      "MYRMIDON"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "50mm"
+  },
+  {
+    "name": "Slaves to Darkness Daemon Prince",
+    "points": "210",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Those champions who consistently please their patron god may eventually be granted immortality as a Daemon Prince. Each of these black-hearted monsters is a living icon of their master’s power, and a terrifying foe to face on the battlefield.",
+    "description": "A Slaves to Darkness Daemon Prince is a single model armed with one of the following weapon options: Daemonic Axe and Malefic Talons; or Hellforged Sword and Malefic Talons.",
+    "wounds": "8",
+    "move": "12\"",
+    "save": "3+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Daemonic Axe",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "2"
+      },
+      {
+        "name": "Hellforged Sword",
+        "range": "2\"",
+        "attacks": "4",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      },
+      {
+        "name": "Malefic Talons",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "FLY",
+        "description": "This model can fly."
+      },
+      {
+        "name": "MARK OF CHAOS",
+        "description": "When you select this model to be part of your army, you must give it one of the following Mark of Chaos keywords: KHORNE, TZEENTCH, NURGLE or SLAANESH."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Bounding Charge",
+        "flavorText": "Little can hope to stand before the fury of a charging Daemon Prince.",
+        "description": "Add 1 to hit rolls for attacks made by this model if it charged in the same turn."
+      },
+      {
+        "name": "Hellforged Sword",
+        "flavorText": "This sword can carve through armour and flesh as if they were made of nothing more than paper.",
+        "description": "If the unmodified hit roll for an attack made with a Hellforged Sword is 6, that attack inflicts 2 mortal wounds on the target and the attack sequence ends (do not make a wound or save roll)."
+      },
+      {
+        "name": "Immortal Champion",
+        "flavorText": "Those favoured enough to ascend to daemonhood are among the most deadly servants of the Ruinous Powers.",
+        "description": "This model fights at the start of the combat phase. This model cannot fight again in that phase unless an ability or spell allows it to fight more than once."
+      },
+      {
+        "name": "Bloodslick Ground",
+        "flavorText": "The Daemon Prince summons pools of thick gore around itself to hinder the movement of its enemies.",
+        "description": "You can use this command ability in your hero phase if this model has the KHORNE keyword. If you do so, until your next hero phase, run and charge rolls made for enemy units within 18\" of this model are halved. You cannot use this command ability more than once per turn."
+      },
+      {
+        "name": "Arcane Influence",
+        "flavorText": "The Daemon Prince harnesses a fraction of Tzeentch’s arcane might.",
+        "description": "You can use this command ability at the start of your hero phase if this model has the TZEENTCH keyword. If you do so, pick 1 friendly SLAVES TO DARKNESS WIZARD wholly within 12\" of this model. Add 1 to casting rolls for that unit until the end of that phase."
+      },
+      {
+        "name": "Bloated Blessings",
+        "flavorText": "The Daemon Prince gifts their followers with pestilent pustules that spray bile and corrosive acid when burst open.",
+        "description": "You can use this command ability at the start of your hero phase if this model has the NURGLE keyword. If you do so, pick 1 friendly SLAVES TO DARKNESS NURGLE unit wholly within 12\" of this model. Until your next hero phase, each time that unit is picked as the target for any attacks made with melee weapons, if the unmodified hit roll for any of those attacks is 6, the attacking unit suffers D3 mortal wounds after all of its attacks have been resolved. The same unit cannot benefit from this command ability more than once per phase."
+      },
+      {
+        "name": "Revel in Agony",
+        "flavorText": "The deadly mania of this Daemon Prince and their followers only grows as they suffer blissful injury.",
+        "description": "You can use this command ability at the start of the combat phase if this model has the SLAANESH keyword. If you do so, until your next hero phase, if any models from a friendly SLAVES TO DARKNESS SLAANESH unit wholly within 12\" of this model are slain by an attack made with a melee weapon by an enemy unit, add 1 to hit rolls for attacks made by that friendly unit that target that enemy unit until your next hero phase. You cannot use this command ability more than once per turn."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "DAEMON",
+      "SLAVES",
+      "DARKNESS",
+      "HERO",
+      "MARK",
+      "CHAOS",
+      "DAEMON",
+      "PRINCE"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "60mm"
+  },
+  {
+    "name": "Theddra Skull Scryer",
+    "points": "150",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Guided by searing visions of conquest and glory, the God-speaker known as Theddra Skull-Scryer leads warriors from the Tribe of the Black Fang through a combination of ruthlessness and awesome displays of gods-given power.",
+    "description": "Theddra Skull-Scryer is a named character that is a single model. She is armed with a Darkoath Wand.",
+    "wounds": "5",
+    "move": "6\"",
+    "save": "5+",
+    "bravery": "7",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Darkoath Wand",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Pact of Soul and Iron",
+        "flavorText": "Every member of the Godsworn Hunt has sworn a blood-oath to hunt down and kill the upstart God-King’s so-called Stormcast Eternals.",
+        "description": "You can re-roll hit rolls for attacks made by this model. In addition, you can re-roll wound rolls for attacks made by this model that target a STORMCAST ETERNAL unit."
+      },
+      {
+        "name": "Arcane BoltMystic ShieldEnfeeblement",
+        "flavorText": "",
+        "description": "Theddra Skull-Scryer is a WIZARD. She can attempt to cast 1 spell in your hero phase and attempt to unbind 1 spell in the enemy hero phase. She knows the Arcane Bolt, Mystic Shield and Enfeeblement spells."
+      },
+      {
+        "name": "Enfeeblement",
+        "flavorText": "Waves of withering energy flood over Skull-Scryer’s foes.",
+        "description": "Enfeeblement has a casting value of 6. If successfully cast, pick 1 enemy unit within 12\" of the caster that is visible to them. Subtract 1 from wound rolls for attacks made with melee weapons by that unit until your next hero phase."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "MORTAL",
+      "SLAVES",
+      "DARKNESS",
+      "HERO",
+      "WIZARD",
+      "GOD-SPEAKER",
+      "THEDDRA",
+      "SKULL-SCRYER"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique. Theddra Skull-Scryer and <a href=\"/aos3/factions/slaves-to-darkness/warscrolls.html#Godsworn-Hunt\">Godsworn Hunt</a> must be taken as a set. Although taken as a set",
+      "each is a separate unit."
+    ],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Centaurion Marshal",
+    "points": "145",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "These creatures of terrifying stature serve as focal points for the First Prince’s legions, commanding warriors sworn to them with cunning and tactical guile before charging headlong into the fray themselves where they wreak havoc upon the enemy.",
+    "description": "",
+    "wounds": "10",
+    "move": "8\"",
+    "save": "4+",
+    "bravery": "8",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Mauling Spear",
+        "range": "2\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      },
+      {
+        "name": "Skull Bludgeon and Varanspire Gladius",
+        "range": "1\"",
+        "attacks": "6",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "SLAVES",
+      "DARKNESS",
+      "UNDIVIDED",
+      "HERO",
+      "EYE",
+      "GODS",
+      "CENTAURION",
+      "MARSHAL"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ]
+  },
+  {
+    "name": "Chaos Chariots",
+    "points": "100",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Battleline"
+    ],
+    "flavorText": "Swift Chaos Chariots thunder across the plains hunting for fresh prey. Drawn by corrupted steeds, the momentum of these constructs is a weapon of its own, and the charioteers take dark pleasure in crushing enemies beneath their heavy wheels.",
+    "description": "A unit of Chaos Chariots has any number of models, each armed with one of the following weapon options: Chaos Greatblade and Lashing Whip; or Chaos War-flail and Lashing Whip.",
+    "wounds": "7",
+    "move": "12\"",
+    "save": "4+",
+    "bravery": "6",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Lashing Whip",
+        "range": "2\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Chaos Greatblade",
+        "range": "2\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      },
+      {
+        "name": "Chaos War-flail",
+        "range": "2\"",
+        "attacks": "D6",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Trampling Hooves",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "MOUNT",
+        "description": "This unit’s War Steeds attack with their Trampling Hooves."
+      },
+      {
+        "name": "EXALTED CHARIOTEER",
+        "description": "If this unit has 2 or more models, 1 model in this unit can be an Exalted Charioteer. Add 1 to hit rolls for attacks made with that model’s melee weapons (excluding those of its mount)."
+      },
+      {
+        "name": "MARK OF CHAOS",
+        "description": "When you select this unit to be part of your army, you must give it one of the following Mark of Chaos keywords: KHORNE, TZEENTCH, NURGLE, SLAANESH or UNDIVIDED."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Don’t Spare the Lash",
+        "flavorText": "These cruel charioteers know how to get the most out of their beasts of burden.",
+        "description": "Once per battle, this unit can run and still charge later in the same turn."
+      },
+      {
+        "name": "Swift Death",
+        "flavorText": "Chaos Chariots are at their most deadly on the charge, where their considerable bulk and bladed wheels can cause untold devastation.",
+        "description": "After this unit makes a charge move, you can pick 1 enemy unit within 1\" of this unit and roll a number of dice equal to the charge roll for that charge move. For each 5+, that enemy unit suffers 1 mortal wound."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "MORTAL",
+      "SLAVES",
+      "DARKNESS",
+      "MARK",
+      "CHAOS",
+      "CHAOS",
+      "CHARIOTS"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "120 x 92mm"
+  },
+  {
+    "name": "Chaos Knights",
+    "points": "170",
+    "unitSize": "5",
+    "battlefieldRoles": [
+      "Battleline"
+    ],
+    "flavorText": "The coming of the Chaos Knights heralds the death of empires. These dreaded champions charge fearlessly into the deadliest of battles, striking down foes all around them with sundering blows from their ensorcelled weapons.",
+    "description": "A unit of Chaos Knights has any number of models. The unit is armed with one of the following weapon options: Ensorcelled Weapon and Chaos Runeshield; or Cursed Lance and Chaos Runeshield.",
+    "wounds": "3",
+    "move": "10\"",
+    "save": "4+",
+    "bravery": "7",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Ensorcelled Weapon",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Cursed Lance",
+        "range": "2\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Cursed Flail",
+        "range": "2\"",
+        "attacks": "D6",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Trampling Hooves",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "MOUNT",
+        "description": "This unit’s War Steeds attack with their Trampling Hooves."
+      },
+      {
+        "name": "DOOM KNIGHT",
+        "description": "1 model in this unit can be a Doom Knight. Add 1 to the Attacks characteristic that model’s melee weapons (excluding its mount). In addition, that model can replace its weapon option with a Cursed Flail and Chaos Runeshield."
+      },
+      {
+        "name": "STANDARD BEARER",
+        "description": "1 in every 5 models in this unit can be a Standard Bearer. Add 1 to the Bravery characteristic of this unit while it includes any Standard Bearers."
+      },
+      {
+        "name": "HORNBLOWER",
+        "description": "1 in every 5 models in this unit can be a Hornblower. Add 1 to run and charge rolls for a unit that includes any Hornblowers."
+      },
+      {
+        "name": "MARK OF CHAOS",
+        "description": "When you select this unit to be part of your army, you must give it one of the following Mark of Chaos keywords: KHORNE, TZEENTCH, NURGLE, SLAANESH or UNDIVIDED."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Chaos Runeshields",
+        "flavorText": "The dark runes inscribed upon these shields grant them the power to withstand even the most powerful attacks.",
+        "description": "Roll a dice each time you allocate a mortal wound to a unit with Chaos Runeshields. On a 5+, that mortal wound is negated."
+      },
+      {
+        "name": "Impaling Charge",
+        "flavorText": "A charging Chaos Knight who wields a lance is capable of spitting several enemies at once with the point of their ensorcelled polearm.",
+        "description": "Add 1 to the Damage characteristic and improve the Rend characteristic of this unit’s Cursed Lances by 2 if it made a charge move in the same turn."
+      },
+      {
+        "name": "Terrifying Champions",
+        "flavorText": "The brutal reputation of the Chaos Knights precedes them, and can inspire dread in even the stoutest heart.",
+        "description": "Subtract 1 from the Bravery characteristic of enemy units within 3\" of any friendly units with this ability in the battleshock phase."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "MORTAL",
+      "SLAVES",
+      "DARKNESS",
+      "MARK",
+      "CHAOS",
+      "CHAOS",
+      "KNIGHTS"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "75 x 42mm"
+  },
+  {
+    "name": "Chaos Marauder Horsemen",
+    "points": "110",
+    "unitSize": "5",
+    "battlefieldRoles": [
+      "Battleline"
+    ],
+    "flavorText": "Riding at the vanguard of the Chaos hosts come the Marauder Horsemen. These skilled mounted warriors launch daring raids on the enemy lines before pulling back, luring the foe closer before turning around and hacking them to pieces.",
+    "description": "A unit of Chaos Marauder Horsemen has any number of models. The unit is armed with one of the following weapon options: Barbarian Axe and Darkwood Shield; Marauder Javelin and Darkwood Shield; or Barbarian Flail.",
+    "wounds": "2",
+    "move": "12\"",
+    "save": "6+",
+    "bravery": "5",
+    "missleWeapons": [
+      {
+        "name": "Marauder Javelin",
+        "range": "12\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Barbarian Axe",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Marauder Javelin",
+        "range": "2\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Barbarian Flail",
+        "range": "2\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Trampling Hooves",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "MOUNT",
+        "description": "This unit’s Chaos Steeds attack with their Trampling Hooves."
+      },
+      {
+        "name": "HORSEMASTER",
+        "description": "1 model in this unit can be a Horsemaster. Add 1 to the Attacks characteristic of a Horsemaster’s melee weapons."
+      },
+      {
+        "name": "ICON BEARER",
+        "description": "1 in every 5 models in this unit can be an Icon Bearer. Subtract 1 from the Bravery characteristic of enemy units while they are within 6\" of any friendly Icon Bearers."
+      },
+      {
+        "name": "HORNBLOWER",
+        "description": "1 in every 5 models in this unit can be a Hornblower. Add 1 to run and charge rolls for this unit while it includes any Hornblowers."
+      },
+      {
+        "name": "MARK OF CHAOS",
+        "description": "When you select this unit to be part of your army, you must give it one of the following Mark of Chaos keywords: KHORNE, TZEENTCH, NURGLE, SLAANESH or UNDIVIDED."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Barbarian Hordes",
+        "flavorText": "When a Marauder horde masses, entire enemy regiments can be swept away under a tide of barbarous muscle.",
+        "description": "Add 1 to hit rolls for attacks made by this unit while it has at least 10 models."
+      },
+      {
+        "name": "Darkwood Shields",
+        "flavorText": "Though crude in appearance, these shields are still capable of providing a measure of defence against all but the most determined attacks.",
+        "description": "Add 1 to save rolls for attacks that target a unit with Darkwood Shields."
+      },
+      {
+        "name": "Feigned Flight",
+        "flavorText": "Marauder Horsemen are talented raiders, and have great skill in the art of hit-and-run attacks.",
+        "description": "This unit can retreat and still shoot and/or charge later in the same turn."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "MORTAL",
+      "SLAVES",
+      "DARKNESS",
+      "MARK",
+      "CHAOS",
+      "CHAOS",
+      "MARAUDER",
+      "HORSEMEN"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "60 x 35mm"
+  },
+  {
+    "name": "Chaos Marauders",
+    "points": "90",
+    "unitSize": "10",
+    "battlefieldRoles": [
+      "Battleline"
+    ],
+    "flavorText": "Hordes of Chaos Marauders form the backbone of many Slaves to Darkness tribes. These barbarous warriors number in the thousands, and fight ferociously to sweep away civilisation in the name of the Chaos Gods.",
+    "description": "A unit of Chaos Marauders has any number of models. The unit is armed with one of the following weapon options: Barbarian Axe and Darkwood Shield; or Barbarian Flail.",
+    "wounds": "1",
+    "move": "6\"",
+    "save": "6+",
+    "bravery": "5",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Barbarian Axe",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Barbarian Flail",
+        "range": "2\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "MARAUDER CHIEFTAIN",
+        "description": "1 model in this unit can be a Marauder Chieftain. Add 1 to the Attacks characteristic of that model’s melee weapons."
+      },
+      {
+        "name": "ICON BEARER",
+        "description": "1 in every 5 models in this unit can be an Icon Bearer. Subtract 1 from the Bravery characteristic of enemy units while they are within 6\" of any friendly Icon Bearers."
+      },
+      {
+        "name": "BARBARIAN DRUMMER",
+        "description": "1 in every 5 models in this unit can be a Barbarian Drummer. Add 1 to run and charge rolls for this unit while it includes any Barbarian Drummers."
+      },
+      {
+        "name": "MARK OF CHAOS",
+        "description": "When you select this unit to be part of your army, you must give it one of the following Mark of Chaos keywords: KHORNE, TZEENTCH, NURGLE, SLAANESH or UNDIVIDED."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Barbarian Hordes",
+        "flavorText": "When a Marauder horde masses, entire enemy regiments can be swept away under a tide of barbarous muscle.",
+        "description": "Add 1 to hit rolls for attacks made by this unit while it has at least 10 models. In addition, improve the Rend characteristic of this unit’s melee weapons by 1 while it has at least 20 models."
+      },
+      {
+        "name": "Boundless Ferocity",
+        "flavorText": "When the barbarous worshippers of Chaos smell death in the air, it is almost impossible to restrain their furious battle-lust.",
+        "description": "When you make a charge roll for this unit, change the lowest dice in that roll to a 6. If the roll is a double, change one of the dice to a 6 instead."
+      },
+      {
+        "name": "Darkwood Shields",
+        "flavorText": "Though crude in appearance, these shields are still capable of providing a measure of defence against all but the most determined attacks.",
+        "description": "Add 1 to save rolls for attacks that target a unit with Darkwood Shields."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "MORTAL",
+      "SLAVES",
+      "DARKNESS",
+      "MARK",
+      "CHAOS",
+      "CHAOS",
+      "MARAUDERS"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "25mm"
+  },
+  {
+    "name": "Chaos Warriors",
+    "points": "200",
+    "unitSize": "10",
+    "battlefieldRoles": [
+      "Battleline"
+    ],
+    "flavorText": "Clad in hellforged iron and swollen with dark blessings, Chaos Warriors are the bane of civilisation. Entire legions of these armoured killers march into battle in search of divine favour, each warrior the equal of several lesser mortals.",
+    "description": "A unit of Chaos Warriors has any number of models. The unit is armed with one of the following weapon options: Chaos Hand Weapon and Chaos Runeshield; Chaos Halberd and Chaos Runeshield; Chaos Greatblade; or pair of Chaos Hand Weapons.",
+    "wounds": "2",
+    "move": "5\"",
+    "save": "4+",
+    "bravery": "7",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Chaos Hand Weapon(s)",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Chaos Halberd",
+        "range": "2\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Chaos Greatblade",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "ASPIRING CHAMPION",
+        "description": "1 model in this unit can be an Aspiring Champion. Add 1 to the Attacks characteristic of that model’s melee weapons."
+      },
+      {
+        "name": "STANDARD BEARER",
+        "description": "1 in every 5 models in this unit can be a Standard Bearer. Add 1 to the Bravery characteristic of this unit while it includes any Standard Bearers."
+      },
+      {
+        "name": "HORNBLOWER",
+        "description": "1 in every 5 models in this unit can be a Hornblower. Add 1 to run and charge rolls for this unit while it includes any Hornblowers."
+      },
+      {
+        "name": "MARK OF CHAOS",
+        "description": "When you select this unit to be part of your army, you must give it one of the following Mark of Chaos keywords: KHORNE, TZEENTCH, NURGLE, SLAANESH or UNDIVIDED."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Chaos Runeshields",
+        "flavorText": "The dark runes inscribed upon these shields grant them the power to withstand even the most powerful attacks.",
+        "description": "Roll a dice each time you allocate a mortal wound to a unit that carries Chaos Runeshields. On a 5+, that mortal wound is negated."
+      },
+      {
+        "name": "Legions of Chaos",
+        "flavorText": "A great number of Chaos Warriors acting in concert can prove almost unstoppable.",
+        "description": "Add 1 to save rolls for attacks that target this unit while it has at least 10 models."
+      },
+      {
+        "name": "Pair of Chaos Hand Weapons",
+        "flavorText": "Chaos Warriors who wield a blade in each hand can unleash a blistering flurry of strikes.",
+        "description": "You can re-roll hit rolls for attacks made with a pair of Chaos Hand Weapons."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "MORTAL",
+      "SLAVES",
+      "DARKNESS",
+      "MARK",
+      "CHAOS",
+      "CHAOS",
+      "WARRIORS"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Chaos Legionnaires",
+    "points": "110",
+    "unitSize": "8",
+    "battlefieldRoles": [
+      "Battleline"
+    ],
+    "flavorText": "Sworn to Be’lakor, these warriors wage war on two different fronts. They openly march alongside the legions of Chaos, bringing ruin to the Mortal Realms, yet serve ulterior motives: seeking to undermine the Everchosen and secure the ascension of the First Prince in his stead.",
+    "description": "",
+    "wounds": "1",
+    "move": "5\"",
+    "save": "4+",
+    "bravery": "7",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Darkiron Weapons",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "SLAVES",
+      "DARKNESS",
+      "UNDIVIDED",
+      "MORTAL",
+      "CHAOS",
+      "LEGIONNAIRES"
+    ],
+    "pitchedBattleNotes": []
+  },
+  {
+    "name": "Horns of Hashut",
+    "points": "100",
+    "unitSize": "10",
+    "battlefieldRoles": [
+      "Battleline"
+    ],
+    "flavorText": "The Horns of Hashut are bringers of ruin and desolation, heralds sent forth by the Father of Darkness to claim territories in advance of his marching legions. Each region they conquer is pulverised, rendered empty and barren.",
+    "description": "",
+    "wounds": "1",
+    "move": "5\"",
+    "save": "4+",
+    "bravery": "6",
+    "missleWeapons": [
+      {
+        "name": "Flamehurler",
+        "range": "8\"",
+        "attacks": "See below",
+        "toHit": "2+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Forge Weapons",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "SLAVES",
+      "DARKNESS",
+      "MORTAL",
+      "CULTISTS",
+      "HORNS",
+      "HASHUT"
+    ],
+    "pitchedBattleNotes": []
+  },
+  {
+    "name": "Chaos Chosen",
+    "points": "145",
+    "unitSize": "5",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Devotees of Chaos who garner many dark rewards may rise to the ranks of the Chosen. Armed with wicked soul-cleaving blades, these champions fight at the forefront of the Chaotic hordes, inspiring their brethren through acts of brutal violence.",
+    "description": "A unit of Chaos Chosen has any number of models, each armed with a Soul Splitter.",
+    "wounds": "2",
+    "move": "6\"",
+    "save": "4+",
+    "bravery": "7",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Soul Splitter",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "EXALTED CHAMPION",
+        "description": "1 model in this unit can be an Exalted Champion. Add 1 to the Attacks characteristic of that model’s melee weapon."
+      },
+      {
+        "name": "ICON BEARER",
+        "description": "1 in every 5 models in this unit can be an Icon Bearer. Subtract 1 from the Bravery characteristic of enemy units while they are within 6\" of any friendly Icon Bearers."
+      },
+      {
+        "name": "SKULL DRUMMER",
+        "description": "1 in every 5 models in this unit can be a Skull Drummer. Add 1 to run and charge rolls for this unit while it includes any Skull Drummers."
+      },
+      {
+        "name": "MARK OF CHAOS",
+        "description": "When you select this unit to be part of your army, you must give it one of the following Mark of Chaos keywords: KHORNE, TZEENTCH, NURGLE, SLAANESH or UNDIVIDED."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Slaughter-leaders",
+        "flavorText": "The Chosen inspire their kin through acts of excessive bloodshed and violence.",
+        "description": "If a model from this unit makes an attack that slays one or more enemy models, after all of this unit’s attacks have been resolved, you can re-roll wound rolls for attacks made by friendly MORTAL SLAVES TO DARKNESS units wholly within 12\" of any friendly unit with this ability until your next hero phase."
+      },
+      {
+        "name": "Soul Splitter",
+        "flavorText": "One blow from a Soul Splitter can cleave even a fully armoured warrior in twain.",
+        "description": "If the unmodified hit roll for an attack made with a Soul Splitter is 6, that attack inflicts 1 mortal wound on the target in addition to any normal damage."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "MORTAL",
+      "SLAVES",
+      "DARKNESS",
+      "MARK",
+      "CHAOS",
+      "CHAOS",
+      "CHOSEN"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Corvus Cabal",
+    "points": "70",
+    "unitSize": "9",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Agile and avaricious, the murder-cultists of the Corvus Cabal descend on their prey from above. Always hunting for worthy trinkets to offer the Great Gatherer, chaotic patron of cut-throats and thieves, the Cabal strike without warning or mercy",
+    "description": "A unit of Corvus Cabal has any number of models, each armed with Corvus Weapons and Raven Darts.",
+    "wounds": "1",
+    "move": "8\"",
+    "save": "6+",
+    "bravery": "5",
+    "missleWeapons": [
+      {
+        "name": "Raven Darts",
+        "range": "8\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "5+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Corvus Weapons",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "SHADOW PIERCER",
+        "description": "1 in every 9 models in this unit must be a Shadow Piercer. Add 1 to the Attacks characteristic of a Shadow Piercer’s melee weapons."
+      },
+      {
+        "name": "SHRIKE TALON",
+        "description": "1 in every 9 models in this unit must be a Shrike Talon. You can re-roll 1s in charge rolls made for this unit while it includes any Shrike Talons."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Death From Above",
+        "flavorText": "The Corvus Cabal favour stalking their prey and striking from unexpected angles.",
+        "description": "When this unit makes a move, it can pass across terrain features in the same manner as a model that can fly."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "MORTAL",
+      "SLAVES",
+      "DARKNESS",
+      "CULTISTS",
+      "CORVUS",
+      "CABAL"
+    ],
+    "pitchedBattleNotes": [
+      "Battleline in an <a href=\"/aos3/factions/slaves-to-darkness/#Idolators-Battle-Traits\">Idolators</a> army"
+    ]
+  },
+  {
+    "name": "Cypher Lords",
+    "points": "70",
+    "unitSize": "8",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "The Cypher Lords seek not only to defeat their foes, but to drive them to insanity, for they believe madness is the purest form of Chaos. In battle, the alchemical bombs and illusory tactics of these Hyshian cultists render them almost impossible to pin down.",
+    "description": "A unit of Cypher Lords has any number of models, each armed with Exotic Blades and Throwing Stars and Chakrams.",
+    "wounds": "1",
+    "move": "6\"",
+    "save": "6+",
+    "bravery": "5",
+    "missleWeapons": [
+      {
+        "name": "Throwing Stars and Chakrams",
+        "range": "8\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "5+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Exotic Blades",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "THRALLMASTER",
+        "description": "1 in every 8 models in this unit must be a Thrallmaster."
+      },
+      {
+        "name": "LUMINATE",
+        "description": "1 in every 8 models in this unit must be a Luminate. Add 1 to charge rolls for this unit while it includes any Luminates."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Shattered Gloom Globe",
+        "flavorText": "Thrallmasters carry globes that release dense clouds of shimmersmoke when shattered, choking the foe and masking the Cypher Lords’ advance.",
+        "description": "While this unit includes any Thrallmasters, at the start of the combat phase you can pick 1 enemy unit within 3\" of this unit and roll a dice. On a 4+, subtract 1 from hit rolls for that unit until your next hero phase. The same unit cannot be affected by this ability more than once per turn."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "MORTAL",
+      "SLAVES",
+      "DARKNESS",
+      "CULTISTS",
+      "CYPHER",
+      "LORDS"
+    ],
+    "pitchedBattleNotes": [
+      "Battleline in an <a href=\"/aos3/factions/slaves-to-darkness/#Idolators-Battle-Traits\">Idolators</a> army"
+    ]
+  },
+  {
+    "name": "Fomoroid Crusher",
+    "points": "100",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Brutish creatures from a lost age, the Fomoroid Crushers now exist only to tear down and destroy. In battle they fly into a terrible rage, torturous memories of the creatures they once were lending their blows a maddened strength.",
+    "description": "A Fomoroid Crusher is a single model armed with Crushing Fists and Hurled Terrain.",
+    "wounds": "10",
+    "move": "6\"",
+    "save": "5+",
+    "bravery": "10",
+    "missleWeapons": [
+      {
+        "name": "Hurled Terrain",
+        "range": "12\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Crushing Fists",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Rampage",
+        "flavorText": "When this hulking beast strides into combat, the doom of its enemies is all but assured.",
+        "description": "After this model makes a charge move, you can pick 1 enemy unit within 1\" of this model and roll a number of dice equal to the charge roll for that charge move. For each 6, that unit suffers 1 mortal wound."
+      },
+      {
+        "name": "Insurmountable Strength",
+        "flavorText": "The raw might of a Fomoroid Crusher sees them use the very environment as a weapon, swinging chunks of broken masonry or uprooted trees to crush the life from any who get in their way.",
+        "description": "In your hero phase, pick 1 terrain feature within 6\" of this model and roll a dice for each other unit within 6\" of that terrain feature. On a 3+, that unit suffers D3 mortal wounds."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "MORTAL",
+      "MONSTER",
+      "SLAVES",
+      "DARKNESS",
+      "FOMOROID",
+      "CRUSHER"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "60mm"
+  },
+  {
+    "name": "Furies",
+    "points": "95",
+    "unitSize": "6",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Furies are spiteful daemonic imps that throng those lands under the sway of Chaos. Though individually weak, when they swarm they can prove surprisingly deadly, waiting until the foe’s back is turned before launching vicious hit-and-run attacks.",
+    "description": "A unit of Furies has any number of models, each armed with a Razor-sharp Dagger and Claws.",
+    "wounds": "2",
+    "move": "12\"",
+    "save": "-",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Razor-sharp Dagger and Claws",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "FLY",
+        "description": "This unit can fly."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Sneaky Little Devils",
+        "flavorText": "Furies are spiteful creatures that utterly loathe the idea of engaging in a fair fight, much preferring – where possible – to stab distracted enemies in the back.",
+        "description": "In the combat phase, when you pick this unit to fight, you can say it will cower instead of fighting. If you do so, this unit must retreat."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "DAEMON",
+      "SLAVES",
+      "DARKNESS",
+      "FURIES"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "25mm"
+  },
+  {
+    "name": "Godsworn Hunt",
+    "points": "150",
+    "unitSize": "5",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "",
+    "description": "The Godsworn Hunt is a unit that has 5 models. Jagathra is armed with an Ensorcelled Javelin and Darkoath Knife; Shond Head-Claimer and Grundann Blood-Eye are each armed with a Great Weapon; Ollo is armed with a Hunting Bow; and Grawl is armed with a Savage Bite.",
+    "wounds": "1",
+    "move": "6\"",
+    "save": "6+",
+    "bravery": "6",
+    "missleWeapons": [
+      {
+        "name": "Hunting Bow",
+        "range": "24\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Ensorcelled Javelin",
+        "range": "12\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Darkoath Knife",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Great Weapon",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      },
+      {
+        "name": "Hunting Bow",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "5+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Savage Bite",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Pact of Soul and Iron",
+        "flavorText": "Every member of the Godsworn Hunt has sworn a blood-oath to hunt down and kill the upstart God-King’s so-called Stormcast Eternals.",
+        "description": "You can re-roll hit rolls for attacks made by this unit. In addition, you can re-roll wound rolls for attacks made by this unit that target a STORMCAST ETERNAL unit."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "MORTAL",
+      "SLAVES",
+      "DARKNESS",
+      "GODSWORN",
+      "HUNT"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique. <a href=\"/aos3/factions/slaves-to-darkness/warscrolls.html#Theddra-Skull-Scryer\">Theddra Skull-Scryer</a> and Godsworn Hunt must be taken as a set. Although taken as a set",
+      "each is a separate unit."
+    ]
+  },
+  {
+    "name": "Gorebeast Chariots",
+    "points": "115",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Those chariots pulled by hulking Gorebeasts are gloriously brutal weapons. Only the strongest of will can break a Gorebeast, and when in the thick of combat these creatures rip their foes limb from limb with shocking ferocity.",
+    "description": "A unit of Gorebeast Chariots has any number of models, each armed with one of the following weapon options: Chaos Greatblade and Lashing Whip; or Chaos War-flail and Lashing Whip.",
+    "wounds": "8",
+    "move": "9\"",
+    "save": "4+",
+    "bravery": "6",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Lashing Whip",
+        "range": "2\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Chaos Greatblade",
+        "range": "2\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      },
+      {
+        "name": "Chaos War-flail",
+        "range": "2\"",
+        "attacks": "D6",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Crushing Fists",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "MOUNT",
+        "description": "This unit’s Gorebeasts attack with their Crushing Fists."
+      },
+      {
+        "name": "EXALTED CHARIOTEER",
+        "description": "If this unit has 2 or more models, 1 model in this unit can be an Exalted Charioteer. Add 1 to hit rolls for attacks made with that model’s melee weapons (excluding those of its mount)."
+      },
+      {
+        "name": "MARK OF CHAOS",
+        "description": "When you select this unit to be part of your army, you must give it one of the following Mark of Chaos keywords: KHORNE, TZEENTCH, NURGLE, SLAANESH or UNDIVIDED."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Crashing Charge",
+        "flavorText": "Gorebeast Chariots crash into the enemy as a raging stampede of destruction.",
+        "description": "After this unit makes a charge move, roll a dice for each enemy unit within 1\" of this unit. On a 2+, that enemy unit suffers D3 mortal wounds."
+      },
+      {
+        "name": "Explosive Brutality",
+        "flavorText": "There is little as terrifying or as destructive as the sudden bursts of rage that characterise Gorebeasts.",
+        "description": "If you make a charge move with this unit and the unmodified charge roll was 8+, add 1 to hit and wound rolls for attacks made by this unit’s Crushing Fists until your next hero phase."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "MORTAL",
+      "SLAVES",
+      "DARKNESS",
+      "MARK",
+      "CHAOS",
+      "GOREBEAST",
+      "CHARIOTS"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "120 x 92mm"
+  },
+  {
+    "name": "Iron Golems",
+    "points": "75",
+    "unitSize": "8",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Skilled blacksmiths, the Iron Golems believe themselves chosen to provide arms and armour to Archaon’s forces. Amongst the war-wracked lands of Chamon, their legions are renowned for their dauntless resilience and chilling efficiency.",
+    "description": "A unit of Iron Golems has any number of models, each armed with Legion Weapons and Bolas.",
+    "wounds": "1",
+    "move": "5\"",
+    "save": "4+",
+    "bravery": "6",
+    "missleWeapons": [
+      {
+        "name": "Bolas",
+        "range": "8\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Legion Weapons",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "DOMINAR",
+        "description": "1 in every 8 models in this unit must be a Dominar. Add 1 to the Attacks characteristic of a Dominar’s melee weapons."
+      },
+      {
+        "name": "SIGNIFER",
+        "description": "1 in every 8 models in this unit must be a Signifer. Add 2 to the Bravery characteristic of this unit while it includes any Signifers."
+      },
+      {
+        "name": "OGOR BREACHER",
+        "description": "1 in every 8 models in this unit must be an Ogor Breacher. Ogor Breachers have a Wounds characteristic of 3."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Iron Resilience",
+        "flavorText": "At a barked command from their Dominar, the legionaries of the Iron Golems snap into an impenetrable shieldwall.",
+        "description": "Add 1 to save rolls for attacks that target this unit if this unit has not made a normal move or been set up in the same turn."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "MORTAL",
+      "SLAVES",
+      "DARKNESS",
+      "CULTISTS",
+      "IRON",
+      "GOLEMS"
+    ],
+    "pitchedBattleNotes": [
+      "Battleline in an <a href=\"/aos3/factions/slaves-to-darkness/#Idolators-Battle-Traits\">Idolators</a> army"
+    ]
+  },
+  {
+    "name": "Mindstealer Sphiranx",
+    "points": "95",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Mindstealer Sphiranxes are powerful and sinister telepaths. These cruel-hearted beasts enjoy nothing more than toying with their prey, plundering their innermost secrets before summarily ripping them to shreds with sharpened claws.",
+    "description": "A Mindstealer Sphiranx is a single model armed with Shredding Claws and a Lashing Tail.",
+    "wounds": "10",
+    "move": "10\"",
+    "save": "5+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Shredding Claws",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Lashing Tail",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Telepathic Dread",
+        "flavorText": "A Mindstealer Sphiranx delights in casting themself into the minds of their prey, and assailing them with visions of their deepest fears.",
+        "description": "Subtract 2 from the Bravery characteristic of enemy units while they are within 12\" of any friendly models with this ability."
+      },
+      {
+        "name": "Dominate Mind",
+        "flavorText": "A Sphiranx can manipulate the actions of their enemies with a simple glance.",
+        "description": "In your hero phase, you can pick 1 enemy unit within 12\" of this model that is visible to it. If you do so, both you and your opponent must secretly place a dice so that it shows any number, then reveal them. If the numbers shown on the dice are the same, this ability has no effect. If the numbers shown on the dice are different, the enemy unit you picked fights at the end of the combat phase until the next battle round. You cannot pick the same unit as the target for this ability more than once in the same turn (whether this ability has an effect or not)."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "MORTAL",
+      "MONSTER",
+      "SLAVES",
+      "DARKNESS",
+      "MINDSTEALER",
+      "SPHIRANX"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "90 x 52mm"
+  },
+  {
+    "name": "Raptoryx",
+    "points": "85",
+    "unitSize": "6",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "One of the many forms of wildlife twisted by the power of Chaos, Raptoryx cross the land in vast flocks. Cunning and vicious beasts, they are willing to take on prey many times their size, pulling them down in a frenzy of slashing talons and snapping beaks.",
+    "description": "A unit of Raptoryx has any number of models, each armed with a Razor-sharp Beak and Talons.",
+    "wounds": "2",
+    "move": "10\"",
+    "save": "-",
+    "bravery": "6",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Razor-sharp Beak and Talons",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Crazed Flock",
+        "flavorText": "A flock of snapping, screeching Raptoryx is capable of swiftly bringing down any prey should they catch them unawares.",
+        "description": "Add 1 to the Attacks characteristic of this unit’s melee weapons if it made a charge move in the same turn."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "SLAVES",
+      "DARKNESS",
+      "RAPTORYX"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "60 x 35mm"
+  },
+  {
+    "name": "Scions of the Flame",
+    "points": "75",
+    "unitSize": "8",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "The Scions of the Flame seek nothing less than to immolate the realms in a tide of fire. Natives of Aqshy, they are zealous worshippers of Chaos as the Ever-Raging Flame, and delight in bringing burning death to their foes.",
+    "description": "A unit of Scions of the Flame has any number of models, each armed with Scion Weapons and Flameburst Pots.",
+    "wounds": "1",
+    "move": "6\"",
+    "save": "6+",
+    "bravery": "5",
+    "missleWeapons": [
+      {
+        "name": "Flameburst Pots",
+        "range": "8\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Scion Weapons",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "BLAZING LORD",
+        "description": "1 in every 8 models in this unit must be a Blazing Lord. Add 1 to the Attacks characteristic of a Blazing Lord’s melee weapons."
+      },
+      {
+        "name": "BRAZEN CHAMPION",
+        "description": "1 in every 8 models in this unit must be a Brazen Champion. Brazen Champions have a Wounds characteristic of 2."
+      },
+      {
+        "name": "INFERNO PRIEST",
+        "description": "1 in every 8 models in this unit must be an Inferno Priest. You can re-roll hit rolls of 1 for attacks made with this unit’s Flameburst Pots while it includes any Inferno Priests."
+      },
+      {
+        "name": "IMMOLATOR",
+        "description": "1 in every 8 models in this unit must be an Immolator. Add 1 to the Attacks characteristic of an Immolator’s melee weapons."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "All Shall Burn",
+        "flavorText": "Hungry flames spread through the enemy’s ranks as the Scions bombard the foe with burning projectiles.",
+        "description": "If the unmodified hit roll for an attack made with a missile weapon by this unit is 6, that attack scores 2 hits on the target instead of 1. Make a wound and save roll for each hit."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "MORTAL",
+      "SLAVES",
+      "DARKNESS",
+      "CULTISTS",
+      "SCIONS",
+      "FLAME"
+    ],
+    "pitchedBattleNotes": [
+      "Battleline in an <a href=\"/aos3/factions/slaves-to-darkness/#Idolators-Battle-Traits\">Idolators</a> army"
+    ]
+  },
+  {
+    "name": "Slaves to Darkness Chaos Spawn",
+    "points": "55",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Those who receive too many gifts from the gods may degenerate into a hideous Chaos Spawn. Lumpen and misformed, these creatures lurch from their lairs when death is on the wind, slaughtering all before them with flailing tentacles and crooked claws.",
+    "description": "A unit of Slaves to Darkness Chaos Spawn has any number of models, each armed with Freakish Mutations.",
+    "wounds": "5",
+    "move": "2D6\"",
+    "save": "5+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Freakish Mutations",
+        "range": "1\"",
+        "attacks": "2D6",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "MARK OF CHAOS",
+        "description": "When you select this unit to be part of your army, you must give it one of the following Mark of Chaos keywords: KHORNE, TZEENTCH, NURGLE, SLAANESH or UNDIVIDED."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Writhing Tentacles",
+        "flavorText": "The body of a Chaos Spawn is ever in flux, making them wildly unpredictable adversaries.",
+        "description": "If you roll a double when determining the number of attacks made by Freakish Mutations, add 1 to hit and wound rolls for attacks made by the attacking model until the end of the phase."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "MORTAL",
+      "SLAVES",
+      "DARKNESS",
+      "MARK",
+      "CHAOS",
+      "CHAOS",
+      "SPAWN"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "50mm"
+  },
+  {
+    "name": "Spire Tyrants",
+    "points": "70",
+    "unitSize": "9",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Each member of the Spire Tyrants has earned glory and renown in the fighting pits of the Varanspire. These ferocious gladiators constantly seek new and deadlier challenges, believing themselves to be favoured by Archaon himself.",
+    "description": "A unit of Spire Tyrants has any number of models, each armed with Gladiatorial Weapons.",
+    "wounds": "1",
+    "move": "6\"",
+    "save": "5+",
+    "bravery": "5",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Gladiatorial Weapons",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "PIT CHAMPION",
+        "description": "1 in every 9 models in this unit must be a Pit Champion. Add 2 to the Attacks characteristic of a Pit Champion’s melee weapons."
+      },
+      {
+        "name": "HEADCLAIMER",
+        "description": "1 in every 9 models in this unit must be a Headclaimer. Add 1 to the Damage characteristic of a Headclaimer’s melee weapons."
+      },
+      {
+        "name": "BESTIGOR DESTROYER",
+        "description": "1 in every 9 models in this unit must be a Bestigor Destroyer. Add 2 to the Attacks characteristic of a Bestigor Destroyer’s melee weapons."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Pit Fighters",
+        "flavorText": "Years of experience in the Varanspire’s fighting pits have made the Spire Tyrants into brutally efficient killers.",
+        "description": "You can add 1 to hit rolls for attacks made by this unit if it charged in the same turn."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "MORTAL",
+      "SLAVES",
+      "DARKNESS",
+      "CULTISTS",
+      "SPIRE",
+      "TYRANTS"
+    ],
+    "pitchedBattleNotes": [
+      "Battleline in an <a href=\"/aos3/factions/slaves-to-darkness/#Idolators-Battle-Traits\">Idolators</a> army"
+    ]
+  },
+  {
+    "name": "Splintered Fang",
+    "points": "75",
+    "unitSize": "10",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "The mystic leaders of the Splintered Fang lead their people in worship of the Coiling Ones, serpentine daemons who embody cunning and might. Poison is the greatest weapon of the Fangs, and a single cut from their blades can prove fatal.",
+    "description": "A unit of Splintered Fang has any number of models, each armed with Poisoned Weapons.",
+    "wounds": "1",
+    "move": "6\"",
+    "save": "5+",
+    "bravery": "5",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Poisoned Weapons",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "TRUEBLOOD",
+        "description": "1 in every 10 models in this unit must be a Trueblood. Add 1 to the Attacks characteristic of a Trueblood’s melee weapons."
+      },
+      {
+        "name": "SERPENT CALLER",
+        "description": "1 in every 10 models in this unit must be a Serpent Caller."
+      },
+      {
+        "name": "SERPENTS",
+        "description": "1 in every 10 models in this unit must be a Serpents model. Serpents models have a Wounds characteristic of 2."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "One Cut, One Kill",
+        "flavorText": "The warriors of the Splintered Fang coat their blades with vile poisons before every battle.",
+        "description": "If the unmodified hit roll for an attack made by this unit is 6, that attack inflicts 1 mortal wound on the target and the attack sequence ends (do not make a wound or save roll)."
+      },
+      {
+        "name": "Snake Charmer",
+        "flavorText": "Serpent Callers can summon their slithering familiars as if from nowhere.",
+        "description": "You can return 1 slain Serpents model to this unit in your hero phase if this unit includes any Serpent Callers. Set up the returning model within 1\" of a model from this unit. The returning model can only be set up within 3\" of an enemy unit if any models from this unit are already within 3\" of that enemy unit."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "MORTAL",
+      "SLAVES",
+      "DARKNESS",
+      "CULTISTS",
+      "SPLINTERED",
+      "FANG"
+    ],
+    "pitchedBattleNotes": [
+      "Battleline in an <a href=\"/aos3/factions/slaves-to-darkness/#Idolators-Battle-Traits\">Idolators</a> army"
+    ]
+  },
+  {
+    "name": "The Unmade",
+    "points": "75",
+    "unitSize": "9",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "The island of Tzlid, drifting ever closer to the Shyish Nadir, is home to the cannibal tribes of the Unmade. The self-mutilation performed by these pain worshippers is horrifying to behold, and their leaders are visions from the darkest of nightmares. ",
+    "description": "A unit of Unmade has any number of models, each armed with Maiming Weapons.",
+    "wounds": "1",
+    "move": "6\"",
+    "save": "6+",
+    "bravery": "5",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Maiming Weapons",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Nightmare Sickles",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "BLISSFUL ONE",
+        "description": "1 in every 9 models in this unit must be a Blissful One. A Blissful One is armed with Nightmare Sickles instead of Maiming Weapons."
+      },
+      {
+        "name": "JOYOUS ONE",
+        "description": "1 in every 9 models in this unit must be a Joyous One. Add 1 to the Attacks characteristic of a Joyous One’s melee weapons."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Frozen in Fear",
+        "flavorText": "The self-inflicted mutilation performed by the Unmade is a sight disturbing enough to momentarily freeze even a veteran warrior in horror.",
+        "description": "Subtract 1 from the Bravery characteristic of enemy units while they are within 6\" of any friendly units with this ability. In addition, enemy units within 3\" of this unit cannot retreat."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "MORTAL",
+      "SLAVES",
+      "DARKNESS",
+      "CULTISTS",
+      "UNMADE"
+    ],
+    "pitchedBattleNotes": [
+      "Battleline in an <a href=\"/aos3/factions/slaves-to-darkness/#Idolators-Battle-Traits\">Idolators</a> army"
+    ]
+  },
+  {
+    "name": "Untamed Beasts",
+    "points": "70",
+    "unitSize": "9",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "By devouring the flesh of Ghur’s many predators, the Untamed Beasts seek to gain their strength and power. These shamanistic savages worship Chaos as the Devourer of Existence, and are peerless trackers and hunters.",
+    "description": "A unit of Untamed Beasts has any number of models, each armed with Hunting Weapons.",
+    "wounds": "1",
+    "move": "6\"",
+    "save": "6+",
+    "bravery": "5",
+    "missleWeapons": [
+      {
+        "name": "Jagged Harpoon",
+        "range": "8\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Hunting Weapons",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "HEART-EATER",
+        "description": "1 in every 9 models in this unit must be a Heart-eater. Add 1 to the Attacks characteristic of a Heart-eater’s melee weapons."
+      },
+      {
+        "name": "FIRST FANG",
+        "description": "1 in every 9 models in this unit must be a First Fang. A First Fang is armed with a Jagged Harpoon in addition to their other weapons."
+      },
+      {
+        "name": "ROCKTUSK PROWLER",
+        "description": "1 in every 9 models in this unit must be a Rocktusk Prowler. Rocktusk Prowlers have a Wounds characteristic of 2."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Unleash the Beast",
+        "flavorText": "With bursts of primal energy, the Untamed Beasts chase down their enemies with relentless fervour.",
+        "description": "This unit can run and still charge later in the same turn. In addition, after armies are set up but before the first battle round begins, this unit can move up to 6\"."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "MORTAL",
+      "SLAVES",
+      "DARKNESS",
+      "CULTISTS",
+      "UNTAMED",
+      "BEASTS"
+    ],
+    "pitchedBattleNotes": [
+      "Battleline in an <a href=\"/aos3/factions/slaves-to-darkness/#Idolators-Battle-Traits\">Idolators</a> army"
+    ]
+  },
+  {
+    "name": "Varanguard",
+    "points": "280",
+    "unitSize": "3",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Each of the Varanguard is a mighty champion who has passed the many tests set for them by Archaon and sworn themselves to his service. Riding atop their hulking steeds, these lords of darkness bring inescapable death to the Everchosen’s enemies.",
+    "description": "A unit of Varanguard has any number of models. The unit is armed with one of the following weapon options: Ensorcelled Weapon and Warpsteel Shield; Fellspear and Warpsteel Shield; or Daemonforged Blade and Warpsteel Shield.",
+    "wounds": "5",
+    "move": "10\"",
+    "save": "3+",
+    "bravery": "9",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Ensorcelled Weapon",
+        "range": "1\"",
+        "attacks": "6",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Fellspear",
+        "range": "2\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "2"
+      },
+      {
+        "name": "Daemonforged Blade",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      },
+      {
+        "name": "Tearing Fangs",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "ELITE",
+        "description": "Models in this unit can issue commands to their own unit."
+      },
+      {
+        "name": "MOUNT",
+        "description": "This unit’s Mutated Steeds attack with their Tearing Fangs."
+      },
+      {
+        "name": "MARK OF CHAOS",
+        "description": "When you select this unit to be part of your army, you must give it one of the following Mark of Chaos keywords: KHORNE, NURGLE, SLAANESH, TZEENTCH or UNDIVIDED."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Daemonbound",
+        "flavorText": "Weapons that contain the essence of a daemon are capable of swiftly devouring an enemy’s soul.",
+        "description": "If the unmodified hit roll for an attack made with a Daemonforged Blade is 6, that attack inflicts 1 mortal wound on the target in addition to any normal damage."
+      },
+      {
+        "name": "Favoured of the Everchosen",
+        "flavorText": "When the Varanguard ride to war alongside their dark master they are truly formidable.",
+        "description": "Add 1 to hit rolls for attacks made with melee weapons by this unit (excluding those of its mounts) if ARCHAON is in your army and on the battlefield."
+      },
+      {
+        "name": "Impaling Charge",
+        "flavorText": "Varanguard armed with Fellspears are utterly deadly on the charge, their weapons lowered to skewer the enemy upon their vicious points.",
+        "description": "Add 1 to wound rolls for attacks made with this unit’s Fellspears and improve the Rend characteristic of this unit’s Fellspears by 1 if it made a charge move in the same turn."
+      },
+      {
+        "name": "Relentless Killers",
+        "flavorText": "The Varanguard have slaughtered foes beyond counting, butchering their way across the battlefields of the Mortal Realms without mercy.",
+        "description": "Once per battle, in the combat phase, after this unit has fought in that phase for the first time, when it is your turn to pick a unit to fight, this unit can be picked to fight for a second time if it is within 3\" of any enemy units."
+      },
+      {
+        "name": "Warpsteel Shields",
+        "flavorText": "The great shields carried by the Varanguard provide protection against even the most potent magical attacks.",
+        "description": "Each time this unit is affected by a spell or endless spell, you can roll a dice. If you do so, on a 5+, ignore the effects of that spell or endless spell on this unit."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "MORTAL",
+      "SLAVES",
+      "DARKNESS",
+      "EVERCHOSEN",
+      "MARK",
+      "CHAOS",
+      "VARANGUARD"
+    ],
+    "pitchedBattleNotes": [
+      "Battleline in a <a href=\"/aos3/factions/slaves-to-darkness/#Host-of-the-Everchosen-Battle-Traits\">Host of the Everchosen</a> army"
+    ],
+    "baseSize": "75 x 42mm"
+  },
+  {
+    "name": "Khagra s Ravagers",
+    "points": "125",
+    "unitSize": "4",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Though the sorcerer Zarshia Bittersoul once led this warband, her sister Khagra’s ambitions reached far indeed. Now the Usurper directs their actions – but she may well come to rue the fact that Zarshia has thus far been suffered to live…",
+    "description": "Khagra’s Ravagers is a unit that has 4 models. Khagra the Usurper is armed with a Daemonbound Mace and Chaos Runeshield, Zarshia Bittersoul is armed with a Sorcerer Staff, and Dour Cragan and Razek Godblessed are each armed with Chaos Hand Weapons and a Chaos Runeshield.",
+    "wounds": "2",
+    "move": "5\"",
+    "save": "4+",
+    "bravery": "7",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Daemonbound Mace",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "1"
+      },
+      {
+        "name": "Sorcerer Staff",
+        "range": "3\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      },
+      {
+        "name": "Chaos Hand Weapons",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Chaos Runeshields",
+        "flavorText": "The dark runes inscribed upon these shields grant them the power to withstand even the most powerful attacks.",
+        "description": "Roll a dice each time you allocate a mortal wound to a unit that carries Chaos Runeshields. On a 5+, that mortal wound is negated."
+      },
+      {
+        "name": "Arcane BoltMystic Shield",
+        "flavorText": "",
+        "description": "Zarshia Bittersoul is a WIZARD. She can attempt to cast 1 spell in your hero phase and attempt to unbind 1 spell in the enemy hero phase. She knows the Arcane Bolt and Mystic Shield spells."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "MORTAL",
+      "SLAVES",
+      "DARKNESS",
+      "UNDIVIDED",
+      "RAVAGERS",
+      "CHAOS",
+      "WARRIORS",
+      "KHAGRA’S",
+      "RAVAGERS"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique. These units must be taken as a set. Although taken as a set",
+      "each is a separate unit."
+    ]
+  },
+  {
+    "name": "Darkoath Savagers",
+    "points": "100",
+    "unitSize": "10",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Screaming blood-curdling vows to the Ruinous Powers, the Darkoath Savagers make brutal war across the length and breadth of the Mortal Realms. To these barbarous marauders, each new dawn is an opportunity to win the favour of the gods.",
+    "description": "",
+    "wounds": "1",
+    "move": "6\"",
+    "save": "5+",
+    "bravery": "6",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Darkoath Weapons",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "SLAVES",
+      "DARKNESS",
+      "MORTAL",
+      "DARKOATH",
+      "DARKOATH",
+      "SAVAGERS"
+    ],
+    "pitchedBattleNotes": []
+  },
+  {
+    "name": "Tarantulos Brood",
+    "points": "110",
+    "unitSize": "13",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Worshippers of a dark power called the Eightfold Watcher, these strange and sinister warriors have wrought dark rituals of tainted arachnid blood and varanite upon their flesh to alter their form to be a dark mirror of their master.",
+    "description": "",
+    "wounds": "1",
+    "move": "8\"",
+    "save": "6+",
+    "bravery": "6",
+    "missleWeapons": [
+      {
+        "name": "Envenomed Projectiles",
+        "range": "8\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "2+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Brood Weapons",
+        "range": "2\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Venomous Bites",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "5+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "SLAVES",
+      "DARKNESS",
+      "MORTAL",
+      "CULTISTS",
+      "TARANTULOS",
+      "BROOD"
+    ],
+    "pitchedBattleNotes": []
+  },
+  {
+    "name": "Chaos Warshrine",
+    "points": "215",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Behemoth"
+    ],
+    "flavorText": "Carried to battle by two huge mutants, Chaos Warshrines are tributes to the glory of the dark pantheon. From atop the raised platform a Shrine Keeper beseeches the gods for their boon, granting their blessings to the legions of darkness.",
+    "description": "A Chaos Warshrine is a single model armed with a Sacrificial Blade.",
+    "wounds": "12",
+    "move": "✹",
+    "save": "4+",
+    "bravery": "7",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Sacrificial Blade",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      },
+      {
+        "name": "Flailing Fists",
+        "range": "1\"",
+        "attacks": "✹",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "MOUNT",
+        "description": "This model’s Shrine Bearers attack with their Flailing Fists."
+      },
+      {
+        "name": "MARK OF CHAOS",
+        "description": "When you select this model to be part of your army, you must give it one of the following Mark of Chaos keywords: KHORNE, TZEENTCH, NURGLE, SLAANESH or UNDIVIDED."
+      }
+    ],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-2",
+        "move": "8\"",
+        "flailingFists": "6",
+        "protectionOfTheDarkGods": "18\""
+      },
+      {
+        "woundsSuffered": "3-4",
+        "move": "7\"",
+        "flailingFists": "5",
+        "protectionOfTheDarkGods": "12\""
+      },
+      {
+        "woundsSuffered": "5-7",
+        "move": "6\"",
+        "flailingFists": "4",
+        "protectionOfTheDarkGods": "9\""
+      },
+      {
+        "woundsSuffered": "8-9",
+        "move": "5\"",
+        "flailingFists": "3",
+        "protectionOfTheDarkGods": "6\""
+      },
+      {}
+    ],
+    "abilities": [
+      {
+        "name": "Protection of the Dark Gods",
+        "flavorText": "Worshippers of the Ruinous Powers gather around these shrines in the hope of receiving divine protection.",
+        "description": "Friendly MORTAL SLAVES TO DARKNESS units that are wholly within range of this unit’s Protection of the Dark Gods ability, as shown on the damage table above, have a ward of 6+."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "MORTAL",
+      "SLAVES",
+      "DARKNESS",
+      "TOTEM",
+      "PRIEST",
+      "MARK",
+      "CHAOS",
+      "CHAOS",
+      "WARSHRINE"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "120 x 92mm"
+  },
+  {
+    "name": "Mutalith Vortex Beast",
+    "points": "175",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Behemoth"
+    ],
+    "flavorText": "Within the pulsating star suspended above the back of a Mutalith Vortex Beast can be found a portal to the Realm of Chaos itself. These horrific monsters constantly seethe with the power of mutation, those around them rewrought into horrific forms.",
+    "description": "A Mutalith Vortex Beast is a single model armed with Crushing Claws and a Betentacled Maw.",
+    "wounds": "12",
+    "move": "✹",
+    "save": "4+",
+    "bravery": "7",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Crushing Claws",
+        "range": "2\"",
+        "attacks": "4",
+        "toHit": "4+",
+        "toWound": "✹",
+        "rend": "-1",
+        "damage": "D3"
+      },
+      {
+        "name": "Betentacled Maw",
+        "range": "2\"",
+        "attacks": "✹",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "MARK OF CHAOS",
+        "description": "When you select this model to be part of your army, you can give it the following Mark of Chaos keyword: TZEENTCH."
+      }
+    ],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-2",
+        "move": "10\"",
+        "crushingClaws": "1+",
+        "betentacledMaw": "3D6"
+      },
+      {
+        "woundsSuffered": "3-4",
+        "move": "8\"",
+        "crushingClaws": "2+",
+        "betentacledMaw": "2D6"
+      },
+      {
+        "woundsSuffered": "5-7",
+        "move": "8\"",
+        "crushingClaws": "3+",
+        "betentacledMaw": "D6"
+      },
+      {
+        "woundsSuffered": "8-9",
+        "move": "6\"",
+        "crushingClaws": "4+",
+        "betentacledMaw": "D3"
+      },
+      {}
+    ],
+    "abilities": [
+      {
+        "name": "Mutant Regeneration",
+        "flavorText": "This unnatural abomination is invigorated by the raw power of Chaos.",
+        "description": "In your hero phase, you can heal up to D3 wounds allocated to this model."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "SLAVES",
+      "DARKNESS",
+      "MONSTER",
+      "MARK",
+      "CHAOS",
+      "MUTALITH",
+      "VORTEX",
+      "BEAST"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "120 x 92mm"
+  },
+  {
+    "name": "Slaughterbrute",
+    "points": "165",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Behemoth"
+    ],
+    "flavorText": "Even the greatest champions cannot hope to bind a Slaughterbrute through physical might alone. Only through specially forged blades of binding can these monstrosities be controlled, and their boundless fury directed towards their master’s enemies.",
+    "description": "A Slaughterbrute is a single model armed with Razor-tipped Claws, Mighty Jaws and Slashing Talons.",
+    "wounds": "12",
+    "move": "✹",
+    "save": "4+",
+    "bravery": "7",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Razor-tipped Claws",
+        "range": "2\"",
+        "attacks": "✹",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      },
+      {
+        "name": "Mighty Jaws",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "✹",
+        "rend": "-",
+        "damage": "3"
+      },
+      {
+        "name": "Slashing Talons",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "MARK OF CHAOS",
+        "description": "When you select this model to be part of your army, you can give it the following Mark of Chaos keyword: KHORNE."
+      }
+    ],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-2",
+        "move": "10\"",
+        "razorTippedClaws": "6",
+        "mightyJaws": "1+"
+      },
+      {
+        "woundsSuffered": "3-4",
+        "move": "8\"",
+        "razorTippedClaws": "5",
+        "mightyJaws": "2+"
+      },
+      {
+        "woundsSuffered": "5-7",
+        "move": "8\"",
+        "razorTippedClaws": "4",
+        "mightyJaws": "3+"
+      },
+      {
+        "woundsSuffered": "8-9",
+        "move": "6\"",
+        "razorTippedClaws": "3",
+        "mightyJaws": "4+"
+      },
+      {}
+    ],
+    "abilities": [
+      {
+        "name": "Sigils of Enslavement",
+        "flavorText": "By carving runes of domination into a Slaughterbrute’s back and driving cursed blades of binding into its flesh, the monster’s will can be bound to a Champion of Chaos.",
+        "description": "When this model is set up for the first time, you can pick 1 friendly SLAVES TO DARKNESS HERO on the battlefield to be its master. Add 1 to hit rolls for attacks made by this model while it is wholly within 12\" of that HERO. The same HERO cannot be the master of more than 1 SLAUGHTERBRUTE."
+      },
+      {
+        "name": "Beast Unbound",
+        "flavorText": "A masterless Slaughterbrute is a terrifying force of destruction, running rampant and attacking anything that comes near.",
+        "description": "If this model is within 6\" of an enemy unit and more than 12\" from its master (see left) at the start of the charge phase, you must roll a dice. On a 4+, the closest other unit within 6\" of this model immediately suffers D3 mortal wounds."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "MONSTER",
+      "SLAVES",
+      "DARKNESS",
+      "MARK",
+      "CHAOS",
+      "SLAUGHTERBRUTE"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ]
+  },
+  {
+    "name": "Soul Grinder",
+    "points": "235",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Behemoth"
+    ],
+    "flavorText": "There is no act of destruction a Soul Grinder will not commit in an effort to complete the tithe of death demanded from it. These clanking daemon engines scuttle forth on huge mechanical legs, unable to rest while a single foe draws breath.",
+    "description": "A Soul Grinder is a single model armed with a Harvester Cannon, Phlegm Bombardment, Hellforged Claw, Piston-driven Legs and one of the following weapon options: Warpmetal Blade; or Daemonbone Talon.",
+    "wounds": "16",
+    "move": "✹",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [
+      {
+        "name": "Harvester Cannon",
+        "range": "16\"",
+        "attacks": "✹",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Phlegm Bombardment",
+        "range": "20\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "3"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Piston-driven Legs",
+        "range": "1\"",
+        "attacks": "✹",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Hellforged Claw",
+        "range": "2\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "D6"
+      },
+      {
+        "name": "Warpmetal Blade",
+        "range": "2\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "3"
+      },
+      {
+        "name": "Daemonbone Talon",
+        "range": "2\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "MARK OF CHAOS",
+        "description": "When you select this model to be part of your army, you must give it one of the following Mark of Chaos keywords: KHORNE, TZEENTCH, NURGLE, SLAANESH or UNDIVIDED."
+      }
+    ],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-3",
+        "move": "12\"",
+        "harvesterCannon": "6",
+        "pistonDrivenLegs": "6"
+      },
+      {
+        "woundsSuffered": "4-6",
+        "move": "10\"",
+        "harvesterCannon": "5",
+        "pistonDrivenLegs": "5"
+      },
+      {
+        "woundsSuffered": "7-10",
+        "move": "8\"",
+        "harvesterCannon": "4",
+        "pistonDrivenLegs": "4"
+      },
+      {
+        "woundsSuffered": "11-13",
+        "move": "7\"",
+        "harvesterCannon": "3",
+        "pistonDrivenLegs": "3"
+      },
+      {}
+    ],
+    "abilities": [
+      {
+        "name": "Hellforged Claw",
+        "flavorText": "The crushing force of a Hellforged Claw can obliterate anything unfortunate enough to be caught in its grasp.",
+        "description": "If the unmodified hit roll for an attack made with a Hellforged Claw is 6, that attack inflicts D6 mortal wounds on the target and the attack sequence ends (do not make a wound or save roll)."
+      },
+      {
+        "name": "Implacable Advance",
+        "flavorText": "This daemonic engine is utterly relentless in its desire to pay off the soultithe owed to its masters.",
+        "description": "This model can run and still shoot later in the same turn."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "DAEMON",
+      "SLAVES",
+      "DARKNESS",
+      "MONSTER",
+      "MARK",
+      "CHAOS",
+      "SOUL",
+      "GRINDER"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "160mm"
+  },
+  {
+    "name": "Darkfire Daemonrift",
+    "points": "100",
+    "unitSize": "",
+    "battlefieldRoles": [
+      "Endless Spell"
+    ],
+    "flavorText": "Darkfire Daemonrifts are eldritch portals torn ajar by the darkest of incantations. Once the veil has been sundered the raw magic seeping from the Realm of Chaos forms an opening for the horrors beyond to vent their spite, widened and empowered further by spellcraft that draws upon the essence of Chaos.",
+    "description": "",
+    "wounds": "",
+    "move": "",
+    "save": "",
+    "bravery": "",
+    "missleWeapons": [],
+    "meleeWeapons": [],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [],
+    "pitchedBattleNotes": []
+  },
+  {
+    "name": "Eightfold Doom Sigil",
+    "points": "50",
+    "unitSize": "",
+    "battlefieldRoles": [
+      "Endless Spell"
+    ],
+    "flavorText": "Eightfold Doom-Sigils are icons of Chaos in all its glory, blazing symbols of pure ruin. To fall in the presence of such a sorcerous construct is to be damned, for these lingering spells hungrily suck souls into the Realm of Chaos for the gods to feast upon, and a measure of this siphoned power is offered to those devoted who fight in the icon’s shadow.",
+    "description": "",
+    "wounds": "",
+    "move": "",
+    "save": "",
+    "bravery": "",
+    "missleWeapons": [],
+    "meleeWeapons": [],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [],
+    "pitchedBattleNotes": []
+  },
+  {
+    "name": "Realmscourge Rupture",
+    "points": "85",
+    "unitSize": "",
+    "battlefieldRoles": [
+      "Endless Spell"
+    ],
+    "flavorText": "Even by the standards of Chaos sorceries, Realmscourge Ruptures are not subtle weapons. When the necessary magical power has been channelled and released by a tribal shaman, the land itself writhes in the grip of Chaos, sharpened spikes surging forth like an accursed tidal wave to overwhelm anything in their path.",
+    "description": "",
+    "wounds": "",
+    "move": "",
+    "save": "",
+    "bravery": "",
+    "missleWeapons": [],
+    "meleeWeapons": [],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [],
+    "pitchedBattleNotes": []
+  }
+]

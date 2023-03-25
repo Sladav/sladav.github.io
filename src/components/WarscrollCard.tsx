@@ -70,13 +70,13 @@ export class WarscrollCard extends React.Component<Props> {
                 </div>
                 <div style={{height: "14px"}}></div>
                 <div className="abilities">
-                { 
+                    { 
                         warscroll.abilities.length === 0 ? null : warscroll.abilities.map((ability: any) => (
                             <div className="ability-card">
                                 <h4>{ability.name}</h4>
                                 <p>{ability.description}</p>
                             </div>
-                        )
+                        ))
                     }
                 </div>
                 <div style={{height: '500px'}}></div>

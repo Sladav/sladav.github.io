@@ -1,0 +1,2737 @@
+[
+  {
+    "name": "Grey Seer on Screaming Bell",
+    "points": "325",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader",
+      "Behemoth"
+    ],
+    "flavorText": "The maddening clang of a Screaming Bell is no normal sound but a magical effect that can twist reality around it, invigorating nearby skaven or even ripping a hole through the veil between worlds as the Grey Seer atop it cackles in manic delight.",
+    "description": "",
+    "wounds": "15",
+    "move": "✹",
+    "save": "4+",
+    "bravery": "6",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Warpstone Staff",
+        "range": "2\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "D3"
+      },
+      {
+        "name": "Tearing Claws and Fangs",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      },
+      {
+        "name": "Rusty Spikes",
+        "range": "1\"",
+        "attacks": "✹",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-6",
+        "move": "6\"",
+        "rustySpikes": "6",
+        "avalancheOfEnergy": "Casting +2/Chanting +1"
+      },
+      {
+        "woundsSuffered": "7-9",
+        "move": "5\"",
+        "rustySpikes": "5",
+        "avalancheOfEnergy": "Casting +1/Chanting +1"
+      },
+      {
+        "woundsSuffered": "10-12",
+        "move": "4\"",
+        "rustySpikes": "4",
+        "avalancheOfEnergy": "Casting +1/Chanting 0"
+      },
+      {}
+    ],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "SKAVEN",
+      "MASTERCLAN",
+      "HERO",
+      "TOTEM",
+      "WAR",
+      "MACHINE",
+      "WIZARD",
+      "SCREAMING",
+      "BELL",
+      "GREY",
+      "SEER"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "120 x 92mm"
+  },
+  {
+    "name": "Lord Skreech Verminking",
+    "points": "400",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader",
+      "Behemoth"
+    ],
+    "flavorText": "Malevolent and terrifying beyond words, this most ancient and monstrous of all the Verminlords is a blight upon reality. He can draw upon the masteries of all his anarchic species and wields the most dire sorceries in all skavendom.",
+    "description": "",
+    "wounds": "13",
+    "move": "✹",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [
+      {
+        "name": "Prehensile Tails",
+        "range": "6\"",
+        "attacks": "✹",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Doom Glaive",
+        "range": "3\"",
+        "attacks": "6",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "2"
+      },
+      {
+        "name": "Plaguereaper",
+        "range": "1\"",
+        "attacks": "✹",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-6",
+        "move": "12\"",
+        "prehensileTails": "4",
+        "plaguereaper": "8"
+      },
+      {
+        "woundsSuffered": "7-8",
+        "move": "10\"",
+        "prehensileTails": "3",
+        "plaguereaper": "7"
+      },
+      {
+        "woundsSuffered": "9-10",
+        "move": "8\"",
+        "prehensileTails": "2",
+        "plaguereaper": "6"
+      },
+      {}
+    ],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "SKAVEN",
+      "DAEMON",
+      "MASTERCLAN",
+      "HERO",
+      "MONSTER",
+      "TOTEM",
+      "WIZARD",
+      "VERMINLORD",
+      "LORD",
+      "SKREECH",
+      "VERMINKING"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ],
+    "baseSize": "120 x 92mm"
+  },
+  {
+    "name": "Plague Priest on Plague Furnace",
+    "points": "335",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader",
+      "Behemoth"
+    ],
+    "flavorText": "The huge censer of the Plague Furnace roars low and loud as it swings ominously back and forth. Clouds of billowing smog roll from within to shroud the foe in choking foulness even as the Plague Priest riding the carriage shrieks his twisted prayers.",
+    "description": "",
+    "wounds": "15",
+    "move": "✹",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Great Plague Censer",
+        "range": "3\"",
+        "attacks": "See below",
+        "toHit": "",
+        "toWound": "",
+        "rend": "",
+        "damage": ""
+      },
+      {
+        "name": "Warpstone-tipped Staff",
+        "range": "2\"",
+        "attacks": "D3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Foetid Blades",
+        "range": "1\"",
+        "attacks": "6",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Rusty Spikes",
+        "range": "1\"",
+        "attacks": "✹",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-6",
+        "move": "6\"",
+        "greatPlagueCenser": "D3+4",
+        "rustySpikes": "6"
+      },
+      {
+        "woundsSuffered": "7-9",
+        "move": "5\"",
+        "greatPlagueCenser": "D3+3",
+        "rustySpikes": "5"
+      },
+      {
+        "woundsSuffered": "10-12",
+        "move": "4\"",
+        "greatPlagueCenser": "D3+2",
+        "rustySpikes": "4"
+      },
+      {}
+    ],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "SKAVEN",
+      "CLANS",
+      "PESTILENS",
+      "NURGLE",
+      "HERO",
+      "PRIEST",
+      "TOTEM",
+      "WAR",
+      "MACHINE",
+      "PLAGUE",
+      "FURNACE",
+      "PLAGUE",
+      "PRIEST"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "120 x 92mm"
+  },
+  {
+    "name": "Thanquol on Boneripper",
+    "points": "415",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader",
+      "Behemoth"
+    ],
+    "flavorText": "Grey Seer Thanquol is a paranoid megalomaniac with a warpstone addiction and a brain full of fevered schemes for greatness. Riding on the shoulders of his monstrous Rat Ogor, Boneripper, he unleashes sorcerous fury on all who stand in his way.",
+    "description": "",
+    "wounds": "14",
+    "move": "✹",
+    "save": "4+",
+    "bravery": "7",
+    "missleWeapons": [
+      {
+        "name": "Warpfire Projectors",
+        "range": "8\"",
+        "attacks": "See below",
+        "toHit": "",
+        "toWound": "",
+        "rend": "",
+        "damage": ""
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Staff of the Horned Rat",
+        "range": "2\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      },
+      {
+        "name": "Warpfire Braziers",
+        "range": "2\"",
+        "attacks": "See below",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "3"
+      },
+      {
+        "name": "Crushing Blows",
+        "range": "2\"",
+        "attacks": "✹",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-6",
+        "move": "10\"",
+        "crushingBlows": "6",
+        "staffOfTheHornedRat": "+3"
+      },
+      {
+        "woundsSuffered": "7-8",
+        "move": "9\"",
+        "crushingBlows": "5",
+        "staffOfTheHornedRat": "+2"
+      },
+      {
+        "woundsSuffered": "9-10",
+        "move": "8\"",
+        "crushingBlows": "4",
+        "staffOfTheHornedRat": "+1"
+      },
+      {}
+    ],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "SKAVEN",
+      "MASTERCLAN",
+      "HERO",
+      "MONSTER",
+      "TOTEM",
+      "WIZARD",
+      "GREY",
+      "SEER",
+      "THANQUOL"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ],
+    "baseSize": "90 x 52mm"
+  },
+  {
+    "name": "Verminlord Corruptor",
+    "points": "350",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader",
+      "Behemoth"
+    ],
+    "flavorText": "Ancient and malevolent, this eldritch servant of the Horned Rat is corruption personified, and a single hissed syllable or flick of its sickle-blades can reduce the mightiest foes to a heap of putrid ooze in seconds.",
+    "description": "",
+    "wounds": "13",
+    "move": "✹",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [
+      {
+        "name": "Prehensile Tails",
+        "range": "6\"",
+        "attacks": "✹",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Plaguereapers",
+        "range": "1\"",
+        "attacks": "✹",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-6",
+        "move": "12\"",
+        "prehensileTails": "4",
+        "plaguereapers": "2D6"
+      },
+      {
+        "woundsSuffered": "7-8",
+        "move": "10\"",
+        "prehensileTails": "3",
+        "plaguereapers": "3D3"
+      },
+      {
+        "woundsSuffered": "9-10",
+        "move": "8\"",
+        "prehensileTails": "2",
+        "plaguereapers": "D6"
+      },
+      {}
+    ],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "SKAVEN",
+      "DAEMON",
+      "CLANS",
+      "PESTILENS",
+      "NURGLE",
+      "HERO",
+      "MONSTER",
+      "TOTEM",
+      "WIZARD",
+      "VERMINLORD",
+      "VERMINLORD",
+      "CORRUPTOR"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "120 x 92mm"
+  },
+  {
+    "name": "Verminlord Deceiver",
+    "points": "405",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader",
+      "Behemoth"
+    ],
+    "flavorText": "Abominations shrouded in darkness and dread, Verminlord Deceivers move like lightning and strike like death’s own blade. Leaping through the aether, they burst from the shadows in a whirlwind of murder before vanishing without trace.",
+    "description": "",
+    "wounds": "13",
+    "move": "✹",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [
+      {
+        "name": "Doomstar",
+        "range": "13\"",
+        "attacks": "D6",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      },
+      {
+        "name": "Prehensile Tails",
+        "range": "6\"",
+        "attacks": "✹",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Warpstiletto",
+        "range": "1\"",
+        "attacks": "6",
+        "toHit": "3+",
+        "toWound": "✹",
+        "rend": "-3",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-6",
+        "move": "12\"",
+        "prehensileTails": "4",
+        "warpstiletto": "2+"
+      },
+      {
+        "woundsSuffered": "7-8",
+        "move": "10\"",
+        "prehensileTails": "3",
+        "warpstiletto": "2+"
+      },
+      {
+        "woundsSuffered": "9-10",
+        "move": "8\"",
+        "prehensileTails": "2",
+        "warpstiletto": "3+"
+      },
+      {}
+    ],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "SKAVEN",
+      "DAEMON",
+      "CLANS",
+      "ESHIN",
+      "HERO",
+      "MONSTER",
+      "TOTEM",
+      "WIZARD",
+      "VERMINLORD",
+      "VERMINLORD",
+      "DECEIVER"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "120 x 92mm"
+  },
+  {
+    "name": "Verminlord Warbringer",
+    "points": "395",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader",
+      "Behemoth"
+    ],
+    "flavorText": "Verminlord Warbringers are toweringly arrogant monstrosities whose every instinct screams for conquest at any price and whose martial skill is preternatural. None can long stand against them before being reduced to gory trophies.",
+    "description": "",
+    "wounds": "13",
+    "move": "✹",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [
+      {
+        "name": "Prehensile Tails",
+        "range": "6\"",
+        "attacks": "✹",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Doom Glaive",
+        "range": "3\"",
+        "attacks": "6",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "2"
+      },
+      {
+        "name": "Spike-fist",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "2+",
+        "toWound": "✹",
+        "rend": "-2",
+        "damage": "3"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-6",
+        "move": "12\"",
+        "prehensileTails": "4",
+        "spikeFist": "2+"
+      },
+      {
+        "woundsSuffered": "7-8",
+        "move": "10\"",
+        "prehensileTails": "3",
+        "spikeFist": "2+"
+      },
+      {
+        "woundsSuffered": "9-10",
+        "move": "8\"",
+        "prehensileTails": "2",
+        "spikeFist": "3+"
+      },
+      {}
+    ],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "SKAVEN",
+      "DAEMON",
+      "CLANS",
+      "VERMINUS",
+      "HERO",
+      "MONSTER",
+      "TOTEM",
+      "WIZARD",
+      "VERMINLORD",
+      "VERMINLORD",
+      "WARBRINGER"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "120 x 92mm"
+  },
+  {
+    "name": "Verminlord Warpseer",
+    "points": "360",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader",
+      "Behemoth"
+    ],
+    "flavorText": "A Verminlord Warpseer is a twisted master of the arcane arts, a rat-daemon possessed of sorcerous knowledge fit to drive mortal minds to madness and the power to unleash screaming maelstroms torn directly from the Realm of Chaos.",
+    "description": "",
+    "wounds": "13",
+    "move": "✹",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [
+      {
+        "name": "Prehensile Tails",
+        "range": "6\" ",
+        "attacks": "✹",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Doom Glaive",
+        "range": "3\"",
+        "attacks": "6",
+        "toHit": "3+",
+        "toWound": "✹",
+        "rend": "-2",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-6",
+        "move": "12\"",
+        "prehensileTails": "4",
+        "doomGlaive": "2+"
+      },
+      {
+        "woundsSuffered": "7-8",
+        "move": "10\"",
+        "prehensileTails": "3",
+        "doomGlaive": "2+"
+      },
+      {
+        "woundsSuffered": "9-10",
+        "move": "8\"",
+        "prehensileTails": "2",
+        "doomGlaive": "3+"
+      },
+      {}
+    ],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "SKAVEN",
+      "DAEMON",
+      "MASTERCLAN",
+      "HERO",
+      "MONSTER",
+      "TOTEM",
+      "WIZARD",
+      "VERMINLORD",
+      "VERMINLORD",
+      "WARPSEER"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "120 x 92mm"
+  },
+  {
+    "name": "Warpgnaw Verminlord",
+    "points": "275",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader",
+      "Behemoth"
+    ],
+    "flavorText": "Warpgnaw Verminlords possess the unique ability to bore gnawholes through reality using their dark magic. Hated and envied in equal measure by their daemonic peers, these secretive beings lead skaven swarms to invade the realms wherever it suits their agendas.",
+    "description": "A Warpgnaw Verminlord is armed with a Prehensile Tail and Gnaw-glaive.",
+    "wounds": "12",
+    "move": "✹",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [
+      {
+        "name": "Prehensile Tail",
+        "range": "6\"",
+        "attacks": "✹",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Gnaw-glaive",
+        "range": "2\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "✹"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "WIZARD",
+        "description": "This model can attempt to cast 2 spells in your hero phase and attempt to unbind 2 spells in the enemy hero phase."
+      }
+    ],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-4",
+        "move": "12\"",
+        "prehensileTail": "4",
+        "gnawGlaive": "5"
+      },
+      {
+        "woundsSuffered": "5-7",
+        "move": "10\"",
+        "prehensileTail": "3",
+        "gnawGlaive": "4"
+      },
+      {
+        "woundsSuffered": "8-9",
+        "move": "8\"",
+        "prehensileTail": "2",
+        "gnawGlaive": "3"
+      },
+      {}
+    ],
+    "abilities": [
+      {
+        "name": "Protection of the Horned Rat",
+        "flavorText": "An eerie sense of watchfulness surrounds this being, and an unholy aura of warding protects them from harm.",
+        "description": "This model has a ward of 5+."
+      },
+      {
+        "name": "Realm Guide",
+        "flavorText": "The Warpgnaw Verminlords claim – and none have the courage to gainsay them – that it was they who first bestowed the boon of gnawholes upon the skaven race. Certainly, their knowledge of these twisted ways is second to none, allowing them to squirm through the cracks in reality to fall upon their horrified foes.",
+        "description": "Instead of setting up this model on the battlefield, you can place this model to one side and say that it is moving through the cracks in reality as a reserve unit.If you do so, at the end of your movement phase, you can set up this model wholly within 6\" of a Gnawhole in your army and more than 9\" from all enemy models."
+      },
+      {
+        "name": "Terrifying",
+        "flavorText": "This horrific monstrosity strikes fear deep into the hearts of its enemies.",
+        "description": "Subtract 1 from the Bravery characteristic of enemy units while they are within 3\" of any models with this ability."
+      },
+      {
+        "name": "Splinter-screech",
+        "flavorText": "The Warpgnaw Verminlord gives an atonal shriek that rises in pitch until reality itself shivers, shudders, then cracks asunder.",
+        "description": "Splinter-screech is a spell that has a casting value of 5 and a range of 13\". If successfully cast, pick 1 enemy model within range and visible to the caster, and roll a dice. If the roll is equal to or greater than that model’s Wounds characteristic, it is slain."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "SKAVEN",
+      "MASTERCLAN",
+      "DAEMON",
+      "VERMINLORD",
+      "MONSTER",
+      "HERO",
+      "WIZARD",
+      "WARPGNAW",
+      "VERMINLORD"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "105 x 70mm"
+  },
+  {
+    "name": "Arch Warlock",
+    "points": "155",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "The Arch-Warlocks of the Clans Skryre are armour-clad killers whose warp-tech weapons and arcane ability have been the death of countless foes. Though they prefer to lead from the back, Arch-Warlocks are deadly in their own right.",
+    "description": "",
+    "wounds": "6",
+    "move": "6\"",
+    "save": "3+",
+    "bravery": "6",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Stormcage Halberd",
+        "range": "2\"",
+        "attacks": "D3",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "2"
+      },
+      {
+        "name": "Piston Claw",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "3"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "SKAVEN",
+      "CLANS",
+      "SKRYRE",
+      "HERO",
+      "WIZARD",
+      "ARCH-WARLOCK"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Clawlord",
+    "points": "110",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Verminus Clawlords are powerful fighters and cunning leaders, exhorting their chittering followers to overrun the enemy lines. They are most dangerous when caught at bay, for they will fight for their lives with frantic ferocity.",
+    "description": "",
+    "wounds": "5",
+    "move": "6\"",
+    "save": "4+",
+    "bravery": "6",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Warpforged Blade",
+        "range": "1\"",
+        "attacks": "6",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "SKAVEN",
+      "CLANS",
+      "VERMINUS",
+      "HERO",
+      "CLAWLORD"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Deathmaster",
+    "points": "145",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Those whom influential skaven deem too dangerous to live often become the targets of a Deathmaster from the Clans Eshin. The poisoned ‘weeping blades’ of these supernaturally dexterous killers have slain kings and warlords beyond count.",
+    "description": "",
+    "wounds": "5",
+    "move": "7\"",
+    "save": "4+",
+    "bravery": "5",
+    "missleWeapons": [
+      {
+        "name": "Eshin Throwing Stars",
+        "range": "12\"",
+        "attacks": "5",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "D3"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Weeping Blades",
+        "range": "1\"",
+        "attacks": "5",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "SKAVEN",
+      "CLANS",
+      "ESHIN",
+      "HERO",
+      "DEATHMASTER"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Grey Seer",
+    "points": "125",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Grey Seers are manipulators and master sorcerers who attempt to direct the skaven to ultimate victory at any price. They are dangerous, deranged and more than willing to devour raw warpstone in order to supercharge their magical abilities.",
+    "description": "",
+    "wounds": "5",
+    "move": "6\"",
+    "save": "5+",
+    "bravery": "6",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Warpstone Staff",
+        "range": "2\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "SKAVEN",
+      "MASTERCLAN",
+      "HERO",
+      "WIZARD",
+      "GREY",
+      "SEER"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Master Moulder",
+    "points": "90",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Master Moulders are twisted and cruel. Theirs are the deranged minds behind the creation of the Clans Moulders’ horrific war beasts, and at their command pack after pack of those foul fiends can be unleashed upon the foe.",
+    "description": "",
+    "wounds": "5",
+    "move": "6\"",
+    "save": "5+",
+    "bravery": "6",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Warpstone-tipped Lash",
+        "range": "3\"",
+        "attacks": "6",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Things-catcher",
+        "range": "2\"",
+        "attacks": "4",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "SKAVEN",
+      "CLANS",
+      "MOULDER",
+      "HERO",
+      "MASTER",
+      "MOULDER"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Plague Priest",
+    "points": "100",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Plague Priests shriek blasphemous prayers that unleash the dark diseases of the Great Corruptor upon their foes. Those not wasted away or withered into ooze are swiftly slain by blows from the priests’ warpstone-capped staves and smog-belching censers.",
+    "description": "",
+    "wounds": "5",
+    "move": "6\"",
+    "save": "5+",
+    "bravery": "6",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Warpstone-tipped Staff",
+        "range": "2\"",
+        "attacks": "D3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Plague Censer",
+        "range": "2\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "SKAVEN",
+      "CLANS",
+      "PESTILENS",
+      "NURGLE",
+      "HERO",
+      "PRIEST",
+      "PLAGUE",
+      "PRIEST"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Skritch Spiteclaw",
+    "points": "165",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Skritch Spiteclaw is a particularly cunning skaven warlord who has assembled an impressive horde of cut-throat vermin to serve his will. Though he prefers that his minions fight and die on his behalf, when cornered, Skritch becomes a whirling dervish of spiked steel and ripping claws.",
+    "description": "",
+    "wounds": "5",
+    "move": "6\"",
+    "save": "4+",
+    "bravery": "6",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Wicked Halberd",
+        "range": "1\"",
+        "attacks": "6",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "SKAVEN",
+      "CLANS",
+      "VERMINUS",
+      "HERO",
+      "CLAWLORD",
+      "SKRITCH",
+      "SPITECLAW"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique. Skritch Spiteclaw and <a href=\"/aos3/factions/skaven/warscrolls.html#Spiteclaw-s-Swarm\">Spiteclaw’s Swarm</a> units must be taken as a set. Although taken as a set",
+      "each is a separate unit."
+    ],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Slynk Skittershank",
+    "points": "225",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Slynk Skittershank embodies all the devious cruelty of the Eshin clans. He prefers to ambush his foes, slashing them with twin toxin-dripping blades before scampering into the safety of the shadows, where he can watch them succumb to his agonising concoctions.",
+    "description": "",
+    "wounds": "5",
+    "move": "7\"",
+    "save": "4+",
+    "bravery": "5",
+    "missleWeapons": [
+      {
+        "name": "Eshin Throwing Stars",
+        "range": "12\"",
+        "attacks": "4",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "D3"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Paired Weeping Blades",
+        "range": "1\"",
+        "attacks": "6",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "SKAVEN",
+      "CLANS",
+      "ESHIN",
+      "HERO",
+      "DEATHMASTER",
+      "SLYNK",
+      "SKITTERSHANK"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique. Slynk Skittershank and <a href=\"/aos3/factions/skaven/warscrolls.html#Skittershank-s-Clawpack\">Skittershank’s Clawpack</a> units must be taken as a set. Although taken as a set",
+      "each is a separate unit."
+    ]
+  },
+  {
+    "name": "Warlock Bombardier",
+    "points": "115",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Warlock Bombardiers are engineers who develop a particular penchant for weapons that deliver explosive death from extreme range. Their alchemical armaments cause substantial devastation wherever they strike home.",
+    "description": "",
+    "wounds": "5",
+    "move": "6\"",
+    "save": "5+",
+    "bravery": "5",
+    "missleWeapons": [
+      {
+        "name": "Doomrocket",
+        "range": "18\"",
+        "attacks": "D3",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "3"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Firing Pole",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "SKAVEN",
+      "CLANS",
+      "SKRYRE",
+      "HERO",
+      "WIZARD",
+      "WARLOCK",
+      "BOMBARDIER"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Warlock Engineer",
+    "points": "105",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Warlock Engineers scurry into battle with arcane engines strapped to their backs and crackling weapons of war clutched in their gnarled claws. Their warp lightning arcs out to make their victims twitch and dance as it burns them alive.",
+    "description": "",
+    "wounds": "5",
+    "move": "6\"",
+    "save": "5+",
+    "bravery": "5",
+    "missleWeapons": [
+      {
+        "name": "Warplock Pistol",
+        "range": "9\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Warp-energy Blade",
+        "range": "1\"",
+        "attacks": "D3",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "SKAVEN",
+      "CLANS",
+      "SKRYRE",
+      "HERO",
+      "WIZARD",
+      "WARLOCK",
+      "ENGINEER"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Clanrats",
+    "points": "100",
+    "unitSize": "20",
+    "battlefieldRoles": [
+      "Battleline"
+    ],
+    "flavorText": "Clanrats overcome their foes through sheer numbers rather than through skill at arms. Individually, they are little threat to a seasoned warrior, but when they gather in their verminous swarms, they can pull down even the champions of the enemy.",
+    "description": "",
+    "wounds": "1",
+    "move": "6\"",
+    "save": "5+",
+    "bravery": "4",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Rusty Blade",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Rusty Spear",
+        "range": "2\"",
+        "attacks": "1",
+        "toHit": "5+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "SKAVEN",
+      "CLANS",
+      "VERMINUS",
+      "CLANRATS"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "25mm"
+  },
+  {
+    "name": "Stormvermin",
+    "points": "135",
+    "unitSize": "10",
+    "battlefieldRoles": [
+      "Battleline"
+    ],
+    "flavorText": "Stormvermin are bigger, stronger and more dangerous than the lesser skaven of the Clans Verminus. They have a killer instinct honed by a knack for self-preservation that makes them dangerous foes indeed.",
+    "description": "",
+    "wounds": "1",
+    "move": "6\"",
+    "save": "4+",
+    "bravery": "6",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Rusty Halberd",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "SKAVEN",
+      "CLANS",
+      "VERMINUS",
+      "STORMVERMIN"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "25mm"
+  },
+  {
+    "name": "Doom Flayer",
+    "points": "65",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "The Doom-Flayer rumbles across the battlefield in a whirling blur of blades, its crew seeking to close the distance to the foe with un-skavenlike eagerness. When its charge hits home, the bloody carnage that ensues is hideous to behold.",
+    "description": "",
+    "wounds": "3",
+    "move": "2D6\"",
+    "save": "5+",
+    "bravery": "4",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Whirling Blades",
+        "range": "1\"",
+        "attacks": "D6",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "2"
+      },
+      {
+        "name": "Rusty Knives",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "SKAVEN",
+      "CLANS",
+      "SKRYRE",
+      "WEAPON",
+      "TEAM",
+      "DOOM-FLAYER"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "60 x 35mm"
+  },
+  {
+    "name": "Giant Rats",
+    "points": "60",
+    "unitSize": "6",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Growing to the size of Gryph-hounds, Giant Rats hunt in huge packs that can overwhelm entire enemy regiments and drag down even the most monstrous foes through sheer weight of numbers.",
+    "description": "",
+    "wounds": "1",
+    "move": "8\"",
+    "save": "-",
+    "bravery": "3",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Vicious Teeth",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "SKAVEN",
+      "CLANS",
+      "MOULDER",
+      "PACK",
+      "GIANT",
+      "RATS"
+    ],
+    "pitchedBattleNotes": [
+      "You can include 1 unit of this type as a Battleline unit for each <span class=\"tooltip00058\" data-tooltip-content=\"#tooltip_content00058\" data-tooltip-anchor=\"#tooltip_content00058\"><span class=\"kwb kwbu\">CLANS</span> <span class=\"kwb kwbu\">MOULDER</span> <span class=\"kwb kwbu\">HERO</span></span> you include in your army."
+    ],
+    "baseSize": "25mm"
+  },
+  {
+    "name": "Gutter Runners",
+    "points": "105",
+    "unitSize": "5",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Emerging from positions of concealment at the enemy’s flanks and rear, Gutter Runners fall upon their victims in a storm of flashing blades, hurtling throwing stars and viciously bared fangs.",
+    "description": "",
+    "wounds": "1",
+    "move": "7\"",
+    "save": "5+",
+    "bravery": "5",
+    "missleWeapons": [
+      {
+        "name": "Eshin Throwing Stars",
+        "range": "12\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Punch Dagger and Blade",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "SKAVEN",
+      "CLANS",
+      "ESHIN",
+      "GUTTER",
+      "RUNNERS"
+    ],
+    "pitchedBattleNotes": [
+      "You can include 1 unit of this type as a Battleline unit for each <span class=\"tooltip00060\" data-tooltip-content=\"#tooltip_content00060\" data-tooltip-anchor=\"#tooltip_content00060\"><span class=\"kwb kwbu\">CLANS</span> <span class=\"kwb kwbu\">ESHIN</span> <span class=\"kwb kwbu\">HERO</span></span> you include in your army."
+    ],
+    "baseSize": "25mm"
+  },
+  {
+    "name": "Night Runners",
+    "points": "90",
+    "unitSize": "10",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Swift and sneaky, clawpacks of Night Runners envelop their enemies before launching vicious assaults to lay them low with volleys of throwing weapons and well-placed blades between the ribs.",
+    "description": "",
+    "wounds": "1",
+    "move": "7\"",
+    "save": "6+",
+    "bravery": "4",
+    "missleWeapons": [
+      {
+        "name": "Eshin Throwing Weapons",
+        "range": "12\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "5+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Stabbing Blade",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "SKAVEN",
+      "CLANS",
+      "ESHIN",
+      "NIGHT",
+      "RUNNERS"
+    ],
+    "pitchedBattleNotes": [
+      "You can include 1 unit of this type as a Battleline unit for each <span class=\"tooltip00060\" data-tooltip-content=\"#tooltip_content00060\" data-tooltip-anchor=\"#tooltip_content00060\"><span class=\"kwb kwbu\">CLANS</span> <span class=\"kwb kwbu\">ESHIN</span> <span class=\"kwb kwbu\">HERO</span></span> you include in your army."
+    ],
+    "baseSize": "25mm"
+  },
+  {
+    "name": "Packmasters",
+    "points": "65",
+    "unitSize": "3",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "The Packmasters of the Clans Moulder ply their lashes and their snapping things-catchers to goad their war beasts into battle. Should the foe stray close, those same vicious weapons are readily turned upon them, too.",
+    "description": "",
+    "wounds": "2",
+    "move": "6\"",
+    "save": "6+",
+    "bravery": "5",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Herding Whip",
+        "range": "3\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Rusty Blade",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Things-catcher",
+        "range": "2\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "SKAVEN",
+      "CLANS",
+      "MOULDER",
+      "PACKMASTERS"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "25mm"
+  },
+  {
+    "name": "Plague Censer Bearers",
+    "points": "90",
+    "unitSize": "5",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Plague Censer Bearers rush forwards in a foaming frenzy. Maddened by disease, they swing their weapons in devastating arcs, crunching armour, flesh and bone. Few can long endure their assault or the choking clouds of plague-smog that accompany it.",
+    "description": "",
+    "wounds": "2",
+    "move": "6\"",
+    "save": "6+",
+    "bravery": "5",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Plague Censer",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "SKAVEN",
+      "CLANS",
+      "PESTILENS",
+      "NURGLE",
+      "PLAGUE",
+      "CENSER",
+      "BEARERS"
+    ],
+    "pitchedBattleNotes": [
+      "You can include 1 unit of this type as a Battleline unit for each <span class=\"tooltip00062\" data-tooltip-content=\"#tooltip_content00062\" data-tooltip-anchor=\"#tooltip_content00062\"><span class=\"kwb kwbu\">CLANS</span> <span class=\"kwb kwbu\">PESTILENS</span> <span class=\"kwb kwbu\">HERO</span></span> you include in your army."
+    ],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Plague Monks",
+    "points": "90",
+    "unitSize": "10",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Driven into battle by their frenzied faith, Plague Monks overwhelm their enemies in a pestilential mass. They hack and stab wildly with their foetid blades, spreading disease and infection with every blow.",
+    "description": "",
+    "wounds": "1",
+    "move": "6\"",
+    "save": "6+",
+    "bravery": "5",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Pair of Foetid Blades",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Foetid Blade and Woe-stave",
+        "range": "2\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "SKAVEN",
+      "CLANS",
+      "PESTILENS",
+      "NURGLE",
+      "PLAGUE",
+      "MONKS"
+    ],
+    "pitchedBattleNotes": [
+      "You can include 1 unit of this type as a Battleline unit for each <span class=\"tooltip00062\" data-tooltip-content=\"#tooltip_content00062\" data-tooltip-anchor=\"#tooltip_content00062\"><span class=\"kwb kwbu\">CLANS</span> <span class=\"kwb kwbu\">PESTILENS</span> <span class=\"kwb kwbu\">HERO</span></span> you include in your army."
+    ],
+    "baseSize": "25mm"
+  },
+  {
+    "name": "Rat Ogors",
+    "points": "140",
+    "unitSize": "2",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Monstrous brutes of stitched muscle, melded flesh, lashing talons and snapping jaws, the Rat Ogors of the Clans Moulder are terrifying war beasts whose packs rip through the enemy ranks in a storm of flying limbs and jetting gore.",
+    "description": "",
+    "wounds": "6",
+    "move": "7\"",
+    "save": "4+",
+    "bravery": "5",
+    "missleWeapons": [
+      {
+        "name": "Warpfire Gun",
+        "range": "16\"",
+        "attacks": "D3",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Tearing Claws, Blades and Fangs",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "SKAVEN",
+      "CLANS",
+      "MOULDER",
+      "FIGHTING",
+      "BEAST",
+      "PACK",
+      "RAT",
+      "OGORS"
+    ],
+    "pitchedBattleNotes": [
+      "You can include 1 unit of this type as a Battleline unit for each <span class=\"tooltip00058\" data-tooltip-content=\"#tooltip_content00058\" data-tooltip-anchor=\"#tooltip_content00058\"><span class=\"kwb kwbu\">CLANS</span> <span class=\"kwb kwbu\">MOULDER</span> <span class=\"kwb kwbu\">HERO</span></span> you include in your army."
+    ],
+    "baseSize": "50mm"
+  },
+  {
+    "name": "Rat Swarms",
+    "points": "55",
+    "unitSize": "2",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "When the skaven go to war, their clawpacks often advance amidst a teeming tide of vermin. Immense swarms of rats seethe across the field of battle, engulfing those who fall and devouring any unfortunate enough to stand in their path.",
+    "description": "",
+    "wounds": "4",
+    "move": "6\"",
+    "save": "-",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Gnawing Teeth",
+        "range": "1\"",
+        "attacks": "5",
+        "toHit": "5+",
+        "toWound": "5+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "SKAVEN",
+      "CLANS",
+      "MOULDER",
+      "PACK",
+      "RAT",
+      "SWARMS"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "50mm"
+  },
+  {
+    "name": "Ratling Gun",
+    "points": "65",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "When its handle is cranked, the Ratling Gun’s barrels whir up to speed with a scream. The weapon spits warp-laced bullets into the enemy, mowing down foe after foe - at least until it detonates with a sound like a bomb going off in a clockmaker’s workshop.",
+    "description": "",
+    "wounds": "3",
+    "move": "6\"",
+    "save": "6+",
+    "bravery": "4",
+    "missleWeapons": [
+      {
+        "name": "Ratling Gun",
+        "range": "12\"",
+        "attacks": "2D6+3",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Rusty Knives",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "SKAVEN",
+      "CLANS",
+      "SKRYRE",
+      "WEAPON",
+      "TEAM",
+      "RATLING",
+      "GUN"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "60 x 35mm"
+  },
+  {
+    "name": "Skittershank s Clawpack",
+    "points": "225",
+    "unitSize": "4",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "At the fore of Skittershank’s Clawpack is Snyp Padpaw, a grizzled Clan Stryk veteran. At his side, Kreep Kinwhisper uses a cage filled with screeching ratlings to track down prey. Meanwhile, Krowch’t backstabs his foes with his razor-sharp dagger, and Skulck picks off enemies from afar with his trusty sling.",
+    "description": "",
+    "wounds": "2",
+    "move": "7\"",
+    "save": "5+",
+    "bravery": "5",
+    "missleWeapons": [
+      {
+        "name": "Eshin Sling",
+        "range": "12\"",
+        "attacks": "4",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Sword and Fighting Claw",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Bladed Tonfa and Dagger",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Trifang Triskele and Net",
+        "range": "3\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Stabbing Blade",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "SKAVEN",
+      "CLANS",
+      "ESHIN",
+      "SKITTERSHANK’S",
+      "CLAWPACK"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique. <a href=\"/aos3/factions/skaven/warscrolls.html#Slynk-Skittershank\">Slynk Skittershank</a> and Skittershank’s Clawpack units must be taken as a set. Although taken as a set",
+      "each is a separate unit."
+    ]
+  },
+  {
+    "name": "Skryre Acolytes",
+    "points": "75",
+    "unitSize": "5",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "The Acolytes of the Clans Skryre go to war amidst the tinny wheeze of metal bellows and the perilous clink of poisoned wind globes rattling together. They hurl volleys of these lethal spheres, which shatter in the foe’s midst and choke them horribly to death.",
+    "description": "",
+    "wounds": "1",
+    "move": "6\"",
+    "save": "6+",
+    "bravery": "4",
+    "missleWeapons": [
+      {
+        "name": "Poisoned Wind Globe",
+        "range": "9\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "D3"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Rusty Knife",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "SKAVEN",
+      "CLANS",
+      "SKRYRE",
+      "SKRYRE",
+      "ACOLYTES"
+    ],
+    "pitchedBattleNotes": [
+      "You can include 1 unit of this type as a Battleline unit for each <span class=\"tooltip00067\" data-tooltip-content=\"#tooltip_content00067\" data-tooltip-anchor=\"#tooltip_content00067\"><span class=\"kwb kwbu\">CLANS</span> <span class=\"kwb kwbu\">SKRYRE</span> <span class=\"kwb kwbu\">HERO</span></span> you include in your army."
+    ],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Spiteclaw s Swarm",
+    "points": "165",
+    "unitSize": "4",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Skritch Spiteclaw entrusts the command and discipline of his verminous ranks to the sadistic taskmaster Krrk the Almost-trusted. Though for now he is content to spend skaven lives at his master’s command, the foul-spirited Krrk has his own ambitious schemes for power.",
+    "description": "",
+    "wounds": "1",
+    "move": "6\"",
+    "save": "6+",
+    "bravery": "4",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Stabbing Blades",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Rusty Flail",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Rusty Spear",
+        "range": "2\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Punch Daggers",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "SKAVEN",
+      "CLANS",
+      "VERMINUS",
+      "SPITECLAW’S",
+      "SWARM"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique. <a href=\"/aos3/factions/skaven/warscrolls.html#Skritch-Spiteclaw\">Skritch Spiteclaw</a> and Spiteclaw’s Swarm units must be taken as a set. Although taken as a set",
+      "each is a separate unit."
+    ],
+    "baseSize": "25mm"
+  },
+  {
+    "name": "Stormfiends",
+    "points": "320",
+    "unitSize": "3",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Stormfiends are monstrous fusions of vat-bred Rat Ogors and Skryre contraptions. They are the lumbering shock-troops of the Clans Skryre and can sweep away entire enemy units in a heartbeat with their vicious wonder-weapons.",
+    "description": "",
+    "wounds": "6",
+    "move": "6\"",
+    "save": "4+",
+    "bravery": "6",
+    "missleWeapons": [
+      {
+        "name": "Ratling Cannons",
+        "range": "12\"",
+        "attacks": "3D6",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Windlaunchers",
+        "range": "24\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-3",
+        "damage": "D3"
+      },
+      {
+        "name": "Warpfire Projectors",
+        "range": "8\"",
+        "attacks": "See below",
+        "toHit": "",
+        "toWound": "",
+        "rend": "",
+        "damage": ""
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Doomflayer Gauntlets",
+        "range": "1\"",
+        "attacks": "2D3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "D3"
+      },
+      {
+        "name": "Grinderfists",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "2"
+      },
+      {
+        "name": "Shock Gauntlets",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      },
+      {
+        "name": "Clubbing Blows",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "SKAVEN",
+      "CLANS",
+      "MOULDER",
+      "CLANS",
+      "SKRYRE",
+      "STORMFIENDS"
+    ],
+    "pitchedBattleNotes": [
+      "You can include 1 unit of this type as a Battleline unit for each <span class=\"tooltip00067\" data-tooltip-content=\"#tooltip_content00067\" data-tooltip-anchor=\"#tooltip_content00067\"><span class=\"kwb kwbu\">CLANS</span> <span class=\"kwb kwbu\">SKRYRE</span> <span class=\"kwb kwbu\">HERO</span></span> you include in your army."
+    ],
+    "baseSize": "60mm"
+  },
+  {
+    "name": "Warp Grinder",
+    "points": "65",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "The Warp-Grinder uses an energised warp-prong to burn smoking black tunnels through solid rock and any enemy stupid enough to stand in its way. They are both weapons and a means to infiltrate the battlefield.",
+    "description": "",
+    "wounds": "3",
+    "move": "6\"",
+    "save": "6+",
+    "bravery": "4",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Warp-Grinder",
+        "range": "1\"",
+        "attacks": "D6",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "SKAVEN",
+      "CLANS",
+      "SKRYRE",
+      "WEAPON",
+      "TEAM",
+      "WARP-GRINDER"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "60 x 35mm"
+  },
+  {
+    "name": "Warpfire Thrower",
+    "points": "70",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "The Warpfire Thrower is a truly horrific and highly unstable weapon that fires jetting sheets of sticky warpstone-infused oils. These ignite upon contact with air and burn furiously through flesh, stone, metal and bone.",
+    "description": "",
+    "wounds": "3",
+    "move": "6\"",
+    "save": "6+",
+    "bravery": "4",
+    "missleWeapons": [
+      {
+        "name": "Warpfire Thrower",
+        "range": "8\"",
+        "attacks": "See below",
+        "toHit": "",
+        "toWound": "",
+        "rend": "",
+        "damage": ""
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Rusty Knives",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "SKAVEN",
+      "CLANS",
+      "SKRYRE",
+      "WEAPON",
+      "TEAM",
+      "WARPFIRE",
+      "THROWER"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "60 x 35mm"
+  },
+  {
+    "name": "Doomwheel",
+    "points": "165",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Behemoth"
+    ],
+    "flavorText": "Amongst the most deranged inventions of the Clans Skryre, the Doomwheel is a rumbling war engine that crushes enemies to a bloody paste while spitting bolts of warp lightning into their midst.",
+    "description": "",
+    "wounds": "8",
+    "move": "4D6\"",
+    "save": "4+",
+    "bravery": "7",
+    "missleWeapons": [
+      {
+        "name": "Warp Bolts",
+        "range": "13\"",
+        "attacks": "D6",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Grinding Wheel",
+        "range": "1\"",
+        "attacks": "D6",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Teeth and Knives",
+        "range": "1\"",
+        "attacks": "6",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "SKAVEN",
+      "CLANS",
+      "SKRYRE",
+      "WAR",
+      "MACHINE",
+      "DOOMWHEEL"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "105 x 70mm"
+  },
+  {
+    "name": "Hell Pit Abomination",
+    "points": "245",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Behemoth"
+    ],
+    "flavorText": "Living nightmares, Hell Pit Abominations are misshapen monstrosities of immense size that squirm, lurch and drag their way into battle. Their grotesque assemblages of snapping jaws, lashing talons and crushing fists make short work of the foe.",
+    "description": "",
+    "wounds": "14",
+    "move": "2D6\"",
+    "save": "5+",
+    "bravery": "6",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Avalanche of Flesh",
+        "range": "3\"",
+        "attacks": "See below",
+        "toHit": "",
+        "toWound": "",
+        "rend": "",
+        "damage": ""
+      },
+      {
+        "name": "Gnashing Teeth",
+        "range": "1\"",
+        "attacks": "6",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "✹",
+        "damage": "2"
+      },
+      {
+        "name": "Flailing Fists",
+        "range": "1\"",
+        "attacks": "✹",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "3"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-6",
+        "gnashingTeeth": "-3",
+        "flailingFists": "6",
+        "avalancheOfFlesh": "2+"
+      },
+      {
+        "woundsSuffered": "7-8",
+        "gnashingTeeth": "-3",
+        "flailingFists": "5",
+        "avalancheOfFlesh": "3+"
+      },
+      {
+        "woundsSuffered": "9-10",
+        "gnashingTeeth": "-2",
+        "flailingFists": "4",
+        "avalancheOfFlesh": "4+"
+      },
+      {}
+    ],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "SKAVEN",
+      "CLANS",
+      "MOULDER",
+      "FIGHTING",
+      "BEAST",
+      "MONSTER",
+      "HELL",
+      "PIT",
+      "ABOMINATION"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "120 x 92mm"
+  },
+  {
+    "name": "Plagueclaw",
+    "points": "135",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Artillery"
+    ],
+    "flavorText": "Rotten wood creaks as the throwing arm of the Plagueclaw is cranked slowly back. Foul plague-slop is loaded into the weapon’s claw before being launched in a high arc to rain infectious filth down upon the enemy lines.",
+    "description": "",
+    "wounds": "6",
+    "move": "3\"",
+    "save": "5+",
+    "bravery": "4",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Rusty Knives",
+        "range": "1\"",
+        "attacks": "D6",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "SKAVEN",
+      "CLANS",
+      "PESTILENS",
+      "NURGLE",
+      "WAR",
+      "MACHINE",
+      "PLAGUECLAW"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "120 x 92mm"
+  },
+  {
+    "name": "Warp Lightning Cannon",
+    "points": "150",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Artillery"
+    ],
+    "flavorText": "The Warp Lightning Cannon channels energy from a huge chunk of refined warpstone in order to send roiling blasts of green-and-black lightning hurtling across the battlefield.",
+    "description": "",
+    "wounds": "8",
+    "move": "3\"",
+    "save": "4+",
+    "bravery": "4",
+    "missleWeapons": [
+      {
+        "name": "Warp Lightning Blast",
+        "range": "24\"",
+        "attacks": "See below",
+        "toHit": "",
+        "toWound": "",
+        "rend": "",
+        "damage": ""
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Teeth and Knives",
+        "range": "1\"",
+        "attacks": "D6",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "SKAVEN",
+      "CLANS",
+      "SKRYRE",
+      "WAR",
+      "MACHINE",
+      "WARP",
+      "LIGHTNING",
+      "CANNON"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "120 x 92mm"
+  },
+  {
+    "name": "Warplock Jezzails",
+    "points": "120",
+    "unitSize": "3",
+    "battlefieldRoles": [
+      "Artillery"
+    ],
+    "flavorText": "Long-barrelled rifles that fire glowing warp-bullets from behind bulky pavises, Warplock Jezzails are so sizeable that they require two trained skaven to operate them and can blast an armoured cavalryman from their saddle at thirteen hundred paces.",
+    "description": "",
+    "wounds": "2",
+    "move": "6\"",
+    "save": "5+",
+    "bravery": "4",
+    "missleWeapons": [
+      {
+        "name": "Warplock Jezzail",
+        "range": "30\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "2"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Rusty Knives",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "SKAVEN",
+      "CLANS",
+      "SKRYRE",
+      "WARPLOCK",
+      "JEZZAILS"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "60 x 35mm"
+  },
+  {
+    "name": "Gnawhole",
+    "points": "0",
+    "unitSize": "",
+    "battlefieldRoles": [
+      "Faction Terrain Feature"
+    ],
+    "flavorText": "Gnawholes split the skin of reality, tearing open like lesions and allowing frenzied skaven swarms to spill forth. Manifesting as whirling green portals, gaping black holes, fume-wreathed chasms and countless other malignant phenomena, these tunnels through reality seep with the ruinous energies of the Horned Rat.",
+    "description": "",
+    "wounds": "",
+    "move": "",
+    "save": "",
+    "bravery": "",
+    "missleWeapons": [],
+    "meleeWeapons": [],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [],
+    "pitchedBattleNotes": []
+  },
+  {
+    "name": "Bell of Doom",
+    "points": "60",
+    "unitSize": "",
+    "battlefieldRoles": [
+      "Endless Spell"
+    ],
+    "flavorText": "Swirling vapours boil from the yawning maw of the spell’s caster, billowing into an unnatural cloud. Lightning flashes amidst the gloomy mass, silhouetting a huge bell that swings in mid-air, tolling out the doom of those who dare resist the skaventide.",
+    "description": "",
+    "wounds": "",
+    "move": "",
+    "save": "",
+    "bravery": "",
+    "missleWeapons": [],
+    "meleeWeapons": [],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [],
+    "pitchedBattleNotes": [],
+    "baseSize": "40mm"
+  },
+  {
+    "name": "Vermintide",
+    "points": "40",
+    "unitSize": "",
+    "battlefieldRoles": [
+      "Endless Spell"
+    ],
+    "flavorText": "An endless tide of unholy vermin pours through the cracks in reality, their eyes aglow and their fangs unnaturally sharp. This conjured swarm can strip even an armoured warrior to the bone in moments.",
+    "description": "",
+    "wounds": "",
+    "move": "",
+    "save": "",
+    "bravery": "",
+    "missleWeapons": [],
+    "meleeWeapons": [],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [],
+    "pitchedBattleNotes": [],
+    "baseSize": "120 x 92mm"
+  },
+  {
+    "name": "Warp Lightning Vortex",
+    "points": "80",
+    "unitSize": "",
+    "battlefieldRoles": [
+      "Endless Spell"
+    ],
+    "flavorText": "A hurled clawful of warpstone shards swell rapidly in size until they become hovering prisms that crackle furiously with warp lightning. Green-black bolts flash back and forth, forming a lethal cage of energy that blasts apart any who dare too close.",
+    "description": "",
+    "wounds": "",
+    "move": "",
+    "save": "",
+    "bravery": "",
+    "missleWeapons": [],
+    "meleeWeapons": [],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [],
+    "pitchedBattleNotes": [],
+    "baseSize": "40mm"
+  },
+  {
+    "name": "Arkhspark Voltik",
+    "points": "",
+    "unitSize": "",
+    "battlefieldRoles": [],
+    "flavorText": "",
+    "description": "",
+    "wounds": "",
+    "move": "",
+    "save": "",
+    "bravery": "",
+    "missleWeapons": [],
+    "meleeWeapons": [],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [],
+    "pitchedBattleNotes": []
+  },
+  {
+    "name": "Gautfyre Skorch",
+    "points": "",
+    "unitSize": "",
+    "battlefieldRoles": [],
+    "flavorText": "",
+    "description": "",
+    "wounds": "",
+    "move": "",
+    "save": "",
+    "bravery": "",
+    "missleWeapons": [],
+    "meleeWeapons": [],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [],
+    "pitchedBattleNotes": []
+  },
+  {
+    "name": "Gascloud Chokelung",
+    "points": "",
+    "unitSize": "",
+    "battlefieldRoles": [],
+    "flavorText": "",
+    "description": "",
+    "wounds": "",
+    "move": "",
+    "save": "",
+    "bravery": "",
+    "missleWeapons": [],
+    "meleeWeapons": [],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [],
+    "pitchedBattleNotes": []
+  },
+  {
+    "name": "Rattlegauge Warplock",
+    "points": "",
+    "unitSize": "",
+    "battlefieldRoles": [],
+    "flavorText": "",
+    "description": "",
+    "wounds": "",
+    "move": "",
+    "save": "",
+    "bravery": "",
+    "missleWeapons": [],
+    "meleeWeapons": [],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [],
+    "pitchedBattleNotes": []
+  },
+  {
+    "name": "Whyrlblade Threshik",
+    "points": "",
+    "unitSize": "",
+    "battlefieldRoles": [],
+    "flavorText": "",
+    "description": "",
+    "wounds": "",
+    "move": "",
+    "save": "",
+    "bravery": "",
+    "missleWeapons": [],
+    "meleeWeapons": [],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [],
+    "pitchedBattleNotes": []
+  }
+]

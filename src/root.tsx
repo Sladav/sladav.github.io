@@ -11,7 +11,7 @@ import { ShootingPhaseStack } from './components/ShootingPhaseStack';
 import { ChargePhaseStack } from './components/ChargePhaseStack';
 import { CombatPhaseStack } from './components/CombatPhaseStack';
 import { BattleshockPhaseStack } from './components/BattleshockPhaseStack';
-import warscrolls from './_data/warscrolls.json';
+import { Warscroll } from './models/Types';
 
 
 let deck = new Reveal({
@@ -21,18 +21,25 @@ let deck = new Reveal({
 deck.on('slidechanged', () => {
     localStorage.setItem('slideState', JSON.stringify(deck.getState()))
 })
+
+interface Props {
+    faction: string;
+    warscrolls: Warscroll[];
+    parallaxBackgroundImage: string;
+}
  
- 
-export class Root extends React.Component {
+export class Root extends React.Component<Props> {
 
     componentDidMount(): void {
+        const { parallaxBackgroundImage } = this.props;
+        
         deck.initialize({
             //@ts-ignore
             width: "115%",
             //@ts-ignore
             height: "115%",
             hash: true,
-            parallaxBackgroundImage: 'https://i.pinimg.com/originals/6f/29/b8/6f29b82b60c10e33226a184114fc52c5.jpg',
+            parallaxBackgroundImage,
 
             parallaxBackgroundSize: '400%', // CSS syntax, e.g. "2100px 900px" - currently only pixels are supported (don't use % or auto)
 
@@ -51,12 +58,12 @@ export class Root extends React.Component {
     }
 
     render(): React.ReactNode {
+        const { warscrolls, faction } = this.props;
+
         return (
             <React.Fragment>
                 <ArmyStack
-                    armyName='Boyz n the Wood'
-                    faction='Cities of Sigmar'
-                    subfaction='Living City'
+                    faction={faction}
                 />
                 <BattleTraitStack/>
                 <WarscrollStack

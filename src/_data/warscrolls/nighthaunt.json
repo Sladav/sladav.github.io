@@ -1,0 +1,1642 @@
+[
+  {
+    "name": "Nagash Supreme Lord of the Undead",
+    "points": "955",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader",
+      "Behemoth"
+    ],
+    "flavorText": "Nagash is the Great Necromancer, Supreme Lord of the Undead and master of all that passes beyond the mortal coil. He is nothing less than an evil-hearted god, and those who earn his displeasure are soon turned to dust upon the wind.",
+    "description": "",
+    "wounds": "16",
+    "move": "9\"",
+    "save": "3+",
+    "bravery": "10",
+    "missleWeapons": [
+      {
+        "name": "Gaze of Nagash",
+        "range": "12\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "2+",
+        "rend": "-1",
+        "damage": "D6"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Alakanash",
+        "range": "3\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-3",
+        "damage": "D6"
+      },
+      {
+        "name": "Zefet-nebtar",
+        "range": "2\"",
+        "attacks": "✹",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-2",
+        "damage": "3"
+      },
+      {
+        "name": "Spectral Claws and Daggers",
+        "range": "1\"",
+        "attacks": "6",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-6",
+        "theNineBooksOfNagash": "Cast and unbind 5 extra spells",
+        "zefetNebtar": "6",
+        "staffOfPower": "+3 cast /+3 unbind or dispel"
+      },
+      {
+        "woundsSuffered": "7-9",
+        "theNineBooksOfNagash": "Cast and unbind 3 extra spells",
+        "zefetNebtar": "4",
+        "staffOfPower": "+3 cast /+2 unbind or dispel"
+      },
+      {
+        "woundsSuffered": "10-12",
+        "theNineBooksOfNagash": "Cast and unbind 2 extra spells",
+        "zefetNebtar": "3",
+        "staffOfPower": "+2 cast /+1 unbind or dispel"
+      },
+      {}
+    ],
+    "abilities": [],
+    "keywords": [
+      "DEATH",
+      "DEATHLORDS",
+      "HERO",
+      "MONSTER",
+      "WIZARD",
+      "NAGASH"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ],
+    "baseSize": "130mm"
+  },
+  {
+    "name": "Awlrach the Drowner",
+    "points": "175",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Awlrach the Drowner once promised aid and salvation to the living, though he gave them nothing but death in the briny deeps. Chosen as a champion by Nagash, this consummate betrayer now takes souls to bolster the Nighthaunt legions and ferries them to where they are needed most.",
+    "description": "",
+    "wounds": "7",
+    "move": "10\"",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Deathwood Oar",
+        "range": "3\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "DEATH",
+      "NIGHTHAUNT",
+      "MALIGNANT",
+      "GRIEVING",
+      "LEGION",
+      "HERO",
+      "TOTEM",
+      "AWLRACH",
+      "DROWNER"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ]
+  },
+  {
+    "name": "Cairn Wraith",
+    "points": "115",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "The scythe-wielding horrors known as Cairn Wraiths were once mass murderers or cruel executioners, mortals 1 who developed such a taste for killing that upon death their unquiet spirits rose from the underworlds to continue their spree of terror and eager butchery.",
+    "description": "",
+    "wounds": "5",
+    "move": "8\"",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Reaper Scythe",
+        "range": "2\"",
+        "attacks": "See below",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "DEATH",
+      "NIGHTHAUNT",
+      "MALIGNANT",
+      "HERO",
+      "CAIRN",
+      "WRAITH"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "25mm"
+  },
+  {
+    "name": "Dreadblade Harrow",
+    "points": "145",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Dreadblade Harrows are spectral lieutenants, spirit knights mounted upon ghostly steeds. They are able to fade from existence and reappear a short while after - nowhere is truly safe from their charge and the sweep of their razor-edged swords.",
+    "description": "",
+    "wounds": "5",
+    "move": "12\"",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Dreadblade",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      },
+      {
+        "name": "Ghostly Hooves and Teeth",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "DEATH",
+      "NIGHTHAUNT",
+      "MALIGNANT",
+      "HERO",
+      "DREADBLADE",
+      "HARROW"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "60 x 35mm"
+  },
+  {
+    "name": "Guardian of Souls",
+    "points": "150",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "A Guardian of Souls keeps a vigil over the dead whilst driving those around them to the heights of malice. When one of these sorcerous spectres goes to war, hundreds of the living dead are drawn to their nightmare lantern’s flame.",
+    "description": "",
+    "wounds": "5",
+    "move": "8\"",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Chill Blade",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "DEATH",
+      "NIGHTHAUNT",
+      "MALIGNANT",
+      "HERO",
+      "WIZARD",
+      "GUARDIAN",
+      "SOULS"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ]
+  },
+  {
+    "name": "Knight of Shrouds",
+    "points": "135",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "A Knight of Shrouds is a traitor to the living, yet under his wretchedness is the mind of a master tactician. His commands inspire nearby spirits to heights of malicious fury, and his Sword of Stolen Hours increases his dark vitality with each kill.",
+    "description": "",
+    "wounds": "5",
+    "move": "8\"",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Sword of Stolen Hours",
+        "range": "1\"",
+        "attacks": "5",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "DEATH",
+      "NIGHTHAUNT",
+      "MALIGNANT",
+      "HERO",
+      "KNIGHT",
+      "SHROUDS"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Knight of Shrouds on Ethereal Steed",
+    "points": "155",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "On the bleakest nights of the human soul, the Knights of Shrouds ride at the head of a massed gathering of undead. Their hollow yet stentorian voices ring out over the moans of the deceased even as they steal the lives from their foes.",
+    "description": "",
+    "wounds": "6",
+    "move": "12\"",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Sword of Stolen Hours",
+        "range": "1\"",
+        "attacks": "5",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      },
+      {
+        "name": "Ghostly Hooves and Teeth",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "DEATH",
+      "NIGHTHAUNT",
+      "MALIGNANT",
+      "HERO",
+      "KNIGHT",
+      "SHROUDS",
+      "KNIGHT",
+      "SHROUDS",
+      "ETHEREAL",
+      "STEED"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "75 x 42mm"
+  },
+  {
+    "name": "Krulghast Cruciator",
+    "points": "150",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Krulghast Cruciators were once mortals that met a gruesome end on the torture rack. In death, their bitter souls have been twisted by Nagash into ghastly manifestations of torment, replete with instruments of excruciation possessed with a wicked animus.",
+    "description": "",
+    "wounds": "6",
+    "move": "8\"",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [
+      {
+        "name": "Phantasmal Torture",
+        "range": "12\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Talons and Flensing Knives",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "DEATH",
+      "NIGHTHAUNT",
+      "MALIGNANT",
+      "HERO",
+      "TOTEM",
+      "KRULGHAST",
+      "CRUCIATOR"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "40mm"
+  },
+  {
+    "name": "Kurdoss Valentian the Craven King",
+    "points": "210",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "The cold fury of Kurdoss Valentian is matched only by his bitterness. Cursed to sit upon a throne but never rule, the Craven King vents his anger by mercilessly smiting those who earn Lady Olynder’s ire. Enemy leaders are targeted with especial bile.",
+    "description": "",
+    "wounds": "7",
+    "move": "8\"",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Sepulchral Sceptre",
+        "range": "2\"",
+        "attacks": "5",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-3",
+        "damage": "3"
+      },
+      {
+        "name": "Spectral Claws",
+        "range": "1\"",
+        "attacks": "6",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "DEATH",
+      "NIGHTHAUNT",
+      "MALIGNANT",
+      "GRIEVING",
+      "LEGION",
+      "HERO",
+      "KURDOSS",
+      "VALENTIAN"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ],
+    "baseSize": "60mm"
+  },
+  {
+    "name": "Lady Olynder Mortarch of Grief",
+    "points": "340",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Lady Olynder is despair given form. She exudes hopelessness and casts an enfeebling gloom upon her foes with her sheer presence. Accompanied by banshee handmaidens and bearing the life-taking Staff of Midnight, the Mortarch of Grief reduces dangerous foes to paroxysms of crippling grief.",
+    "description": "",
+    "wounds": "7",
+    "move": "8\"",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Staff of Midnight",
+        "range": "2\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "2"
+      },
+      {
+        "name": "Spectral Claws",
+        "range": "1\"",
+        "attacks": "6",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "DEATH",
+      "NIGHTHAUNT",
+      "MALIGNANT",
+      "GRIEVING",
+      "LEGION",
+      "MORTARCH",
+      "HERO",
+      "WIZARD",
+      "LADY",
+      "OLYNDER"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ],
+    "baseSize": "60mm"
+  },
+  {
+    "name": "Lord Executioner",
+    "points": "140",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "To witness a Lord Executioner is to stare death in the face. Sent to claim the lives of those who have escaped the cold justice of Shyish, the spirits of the wrongfully executed drift around him, crying out their anguish into the night.",
+    "description": "",
+    "wounds": "5",
+    "move": "8\"",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Decapitating Greataxe",
+        "range": "1\"",
+        "attacks": "5",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "DEATH",
+      "NIGHTHAUNT",
+      "MALIGNANT",
+      "HERO",
+      "LORD",
+      "EXECUTIONER"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "40mm"
+  },
+  {
+    "name": "Reikenor the Grimhailer",
+    "points": "190",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "In life, Reikenor was a sorcerer-king, a champion of life who denied Nagash his rightful due. In death he is a wraith-wizard, cursed to lead armies and snuff out the souls of similar troublemakers in the name of the Great Necromancer for all eternity.",
+    "description": "",
+    "wounds": "7",
+    "move": "14\"",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Fellreaper",
+        "range": "2\"",
+        "attacks": "5",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "2"
+      },
+      {
+        "name": "Ghostly Hooves and Teeth",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "DEATH",
+      "NIGHTHAUNT",
+      "MALIGNANT",
+      "GRIEVING",
+      "LEGION",
+      "HERO",
+      "WIZARD",
+      "REIKENOR",
+      "GRIMHAILER"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ],
+    "baseSize": "75 x 42mm"
+  },
+  {
+    "name": "Scriptor Mortis",
+    "points": "155",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "The Scriptors Mortis record the rise of Nagash’s empire and punish any who would stand against it. With a mere flick of a quill, they sentence souls to be dragged to the underworlds, condemning them to an eternity of torment.",
+    "description": "",
+    "wounds": "6",
+    "move": "8\"",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Malicious Quill",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "DEATH",
+      "NIGHTHAUNT",
+      "MALIGNANT",
+      "HERO",
+      "SCRIPTOR",
+      "MORTIS"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ]
+  },
+  {
+    "name": "Spirit Torment",
+    "points": "115",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "The masked creatures known as Spirit Torments were pitiless jailers in life. In death, they seek out those who Nagash deems his by right of rulership, bludgeoning them with ensorcelled iron padlocks before locking away their souls.",
+    "description": "",
+    "wounds": "5",
+    "move": "8\"",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Shacklegheist Chains",
+        "range": "2\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "DEATH",
+      "NIGHTHAUNT",
+      "MALIGNANT",
+      "HERO",
+      "SPIRIT",
+      "TORMENT"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "40mm"
+  },
+  {
+    "name": "The Briar Queen",
+    "points": "280",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "The Briar Queen was once incarcerated in the vaults of the Shyishan city of Shadespire, locked away for crimes too horrendous to mention. Since the coming of the Necroquake, she has been set loose upon the living, her remit to bring madness and terror to all who would evade Nagash’s punishments.",
+    "description": "",
+    "wounds": "5",
+    "move": "6\"",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [
+      {
+        "name": "Rending Scream",
+        "range": "10\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-3",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Briar Whip",
+        "range": "3\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "DEATH",
+      "NIGHTHAUNT",
+      "MALIGNANT",
+      "GRIEVING",
+      "LEGION",
+      "HERO",
+      "WIZARD",
+      "THE",
+      "BRIAR",
+      "QUEEN"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique. The Briar Queen and <a href=\"/aos3/factions/nighthaunt/warscrolls.html#Thorns-of-the-Briar-Queen\">Thorns of the Briar Queen</a> units must be taken as a set. Although taken as a set",
+      "each is a separate unit."
+    ]
+  },
+  {
+    "name": "Tomb Banshee",
+    "points": "115",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Tomb Banshees are apparitions of revenge who have dwelt long upon the dark deed that robbed them of their life, love or contentment. A single hate-filled scream from a Tomb Banshee can freeze the life from even the bravest warrior.",
+    "description": "",
+    "wounds": "5",
+    "move": "8\"",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [
+      {
+        "name": "Piercing Scream",
+        "range": "12\"",
+        "attacks": "D3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Chill Dagger",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "DEATH",
+      "NIGHTHAUNT",
+      "MALIGNANT",
+      "HERO",
+      "TOMB",
+      "BANSHEE"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "25mm"
+  },
+  {
+    "name": "Chainrasps",
+    "points": "110",
+    "unitSize": "10",
+    "battlefieldRoles": [
+      "Battleline"
+    ],
+    "flavorText": "A horde of Chainrasps is a frightening force. A sword or axe might pass right through a Chainrasp without finding purchase, but the spiked clubs and rusted blades wielded by these evil beings can mangle flesh and shatter bone.",
+    "description": "",
+    "wounds": "1",
+    "move": "8\"",
+    "save": "5+",
+    "bravery": "8",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Malignant Weapon",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "DEATH",
+      "NIGHTHAUNT",
+      "MALIGNANT",
+      "SUMMONABLE",
+      "CHAINRASPS"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "25mm"
+  },
+  {
+    "name": "Grimghast Reapers",
+    "points": "160",
+    "unitSize": "10",
+    "battlefieldRoles": [
+      "Battleline"
+    ],
+    "flavorText": "Arch plotters and schemers in life, Grimghast Reapers are cursed in their undeath to kill indiscriminately. Those foolish enough to stand before a Grimghast Reaper usually end their lives hacked apart into bleeding chunks of meat.",
+    "description": "",
+    "wounds": "1",
+    "move": "8\"",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Slasher Scythe",
+        "range": "2\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Death Knell",
+        "range": "2\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "DEATH",
+      "NIGHTHAUNT",
+      "MALIGNANT",
+      "SUMMONABLE",
+      "GRIMGHAST",
+      "REAPERS"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Hexwraiths",
+    "points": "160",
+    "unitSize": "5",
+    "battlefieldRoles": [
+      "Battleline"
+    ],
+    "flavorText": "Upon ghostly steeds the Hexwraiths ride straight through their foes, turning blood to water and snatching souls from screaming warriors. Once proud knights, these ethereal killers relive their glory by visiting pain and death upon the mortal races.",
+    "description": "",
+    "wounds": "2",
+    "move": "12\"",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Spectral Scythe",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Hooves and Teeth",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "DEATH",
+      "NIGHTHAUNT",
+      "MALIGNANT",
+      "SUMMONABLE",
+      "HEXWRAITHS"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "60 x 35mm"
+  },
+  {
+    "name": "Spirit Hosts",
+    "points": "125",
+    "unitSize": "3",
+    "battlefieldRoles": [
+      "Battleline"
+    ],
+    "flavorText": "Spirit Hosts are the souls of the damned, stripped of body and identity, screaming endlessly for the life they have lost. They long to take out their rage upon the living, and the very touch of their claws can turn blood to ice and still the hearts of the foe.",
+    "description": "",
+    "wounds": "3",
+    "move": "8\"",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Spectral Claws and Daggers",
+        "range": "1\"",
+        "attacks": "6",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "DEATH",
+      "NIGHTHAUNT",
+      "MALIGNANT",
+      "SUMMONABLE",
+      "SPIRIT",
+      "HOSTS"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "50mm"
+  },
+  {
+    "name": "Bladegheist Revenants",
+    "points": "175",
+    "unitSize": "10",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Such is the curse of the Bladegheist Revenants that they move with the desperation of drowning men clawing for the surface. Eternally trapped in the last moments of their lives, these spirits fight with an unmatched frenzy.",
+    "description": "",
+    "wounds": "1",
+    "move": "8\"",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Tomb Greatblade",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "DEATH",
+      "NIGHTHAUNT",
+      "MALIGNANT",
+      "SUMMONABLE",
+      "BLADEGHEIST",
+      "REVENANTS"
+    ],
+    "pitchedBattleNotes": [
+      "Battleline in a <a href=\"/aos3/factions/nighthaunt/#The-Scarlet-Doom\">Scarlet Doom</a> army"
+    ],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Chainghasts",
+    "points": "95",
+    "unitSize": "2",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Encased within their iron harness, it is a Chainghast’s fate to remain eternally enthralled to the Spirit Torments. They carry emotionally burdened ghastflails - heavy, bludgeoning weights that cast bolts of pure misery when swung.",
+    "description": "",
+    "wounds": "2",
+    "move": "8\"",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [
+      {
+        "name": "Ghastflails",
+        "range": "15\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Ghastflails",
+        "range": "2\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "DEATH",
+      "NIGHTHAUNT",
+      "MALIGNANT",
+      "SUMMONABLE",
+      "CHAINGHASTS"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Craventhrone Guard",
+    "points": "115",
+    "unitSize": "5",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "The Craventhrone Guard serve Kurdoss Valentian and any who share his aims. Cruel and spiteful even for Nighthaunt spirits, they revel in hunting down enemy champions, slaying them from afar before the prey is aware of its doom.",
+    "description": "",
+    "wounds": "1",
+    "move": "8\"",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [
+      {
+        "name": "Soulhunter’s Crossbow",
+        "range": "12\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Wicked Sidearm",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "DEATH",
+      "NIGHTHAUNT",
+      "MALIGNANT",
+      "SUMMONABLE",
+      "CRAVENTHRONE",
+      "GUARD"
+    ],
+    "pitchedBattleNotes": [
+      "Battleline if <a href=\"/aos3/factions/nighthaunt/warscrolls.html#Kurdoss-Valentian-the-Craven-King\">Kurdoss Valentian</a> is part of your army"
+    ]
+  },
+  {
+    "name": "Dreadscythe Harridans",
+    "points": "160",
+    "unitSize": "10",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "In life they were healers, yet in spirit form they are cursed with the uncontrollable urge to kill, their hands morphed into scything instruments of slaughter. Shrieking as they swoop in for the attack, Dreadscythe Harridans crave only carnage.",
+    "description": "",
+    "wounds": "1",
+    "move": "8\"",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Scythed Limbs",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "DEATH",
+      "NIGHTHAUNT",
+      "MALIGNANT",
+      "SUMMONABLE",
+      "DREADSCYTHE",
+      "HARRIDANS"
+    ],
+    "pitchedBattleNotes": [
+      "Battleline in a <a href=\"/aos3/factions/nighthaunt/#The-Quicksilver-Dead\">Quicksilver Dead</a> army"
+    ],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Glaivewraith Stalkers",
+    "points": "105",
+    "unitSize": "4",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "A Glaivewraith Stalker is an unstoppable force. Its long blade always points at the beating heart of its intended victim. Though it drifts slowly towards its quarry, it is inevitable that the hunter’s glaive will one day pierce the chest of its prey.",
+    "description": "",
+    "wounds": "1",
+    "move": "8\"",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Hunter’s Glaive",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "DEATH",
+      "NIGHTHAUNT",
+      "MALIGNANT",
+      "SUMMONABLE",
+      "GLAIVEWRAITH",
+      "STALKERS"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Myrmourn Banshees",
+    "points": "105",
+    "unitSize": "4",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "No enemy spell is safe from the diabolical hunger of the Myrmourn Banshees. They haunt the Mortal Realms in search of magic to consume and living foes to stab. Even the most potent wizards find their arcane works undone.",
+    "description": "",
+    "wounds": "1",
+    "move": "8\"",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Chill Dagger",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "DEATH",
+      "NIGHTHAUNT",
+      "MALIGNANT",
+      "SUMMONABLE",
+      "MYRMOURN",
+      "BANSHEES"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Thorns of the Briar Queen",
+    "points": "280",
+    "unitSize": "6",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "The forsaken entities that trail in the Briar Queen’s wake have become infamous in Shadespire and beyond. Amongst them are the eldritch jailer known as Varclav the Cruel, the noose-throttled Ever-hanged and a ragtag group of evil-hearted Chainrasps.",
+    "description": "",
+    "wounds": "2",
+    "move": "6\"",
+    "save": "5+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Malignant Weapon",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "DEATH",
+      "NIGHTHAUNT",
+      "MALIGNANT",
+      "GRIEVING",
+      "LEGION",
+      "CHAINRASPS",
+      "THORNS",
+      "BRIAR",
+      "QUEEN"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique. <a href=\"/aos3/factions/nighthaunt/warscrolls.html#The-Briar-Queen\">The Briar Queen</a> and Thorns of the Briar Queen units must be taken as a set. Although taken as a set",
+      "each is a separate unit."
+    ]
+  },
+  {
+    "name": "Black Coach",
+    "points": "335",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Behemoth"
+    ],
+    "flavorText": "Driven by a wraith and with the remains of a powerful necromantic being borne in its hearse-like carriage, the Black Coach seeks out sites of great slaughter and suffering. It swells with dark magic as it runs down helpless mortals in an explosion of gore.",
+    "description": "",
+    "wounds": "12",
+    "move": "10\"",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [
+      {
+        "name": "Soulreach Grasp",
+        "range": "12\"",
+        "attacks": "D3",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "2"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Soulreach Grasp",
+        "range": "3\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "2"
+      },
+      {
+        "name": "Reaper Scythe",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "2"
+      },
+      {
+        "name": "Spectral Claws",
+        "range": "1\"",
+        "attacks": "9",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Hooves and Teeth",
+        "range": "1\"",
+        "attacks": "8",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "DEATH",
+      "NIGHTHAUNT",
+      "MALIGNANT",
+      "TOTEM",
+      "BLACK",
+      "COACH"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "170 x 109mm"
+  },
+  {
+    "name": "Mourngul",
+    "points": "300",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Behemoth"
+    ],
+    "flavorText": "Driven by famine and pain to hunt their former friends and companions, Mournguls are damned to an eternity of terrible isolation. Their shadowy cadaverous forms of cold flesh and cracked bone warp and twist ceaselessly as they rake their foes with claws and teeth.",
+    "description": "A Mourngul is armed with Nightmarish Claws and Fangs.",
+    "wounds": "10",
+    "move": "✹",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Nightmarish Claws and Fangs",
+        "range": "2\"",
+        "attacks": "✹",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "FLY",
+        "description": "This model can fly."
+      }
+    ],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-4",
+        "move": "12\"",
+        "nightmarishClawsAndFangs": "8"
+      },
+      {
+        "woundsSuffered": "5-6",
+        "move": "10\"",
+        "nightmarishClawsAndFangs": "7"
+      },
+      {
+        "woundsSuffered": "7-8",
+        "move": "9\"",
+        "nightmarishClawsAndFangs": "6"
+      },
+      {}
+    ],
+    "abilities": [
+      {
+        "name": "Devourer of Flesh and Souls",
+        "flavorText": "The unholy essence of a Mourngul is nourished by the souls of those it devours.",
+        "description": "At the end of the combat phase, if any enemy models were slain by wounds inflicted by this model’s attacks in that combat phase, you can heal up to D3 wounds allocated to this model."
+      },
+      {
+        "name": "Ethereal",
+        "flavorText": "Creatures whose bodies have rotted away are difficult to harm with ordinary weapons.",
+        "description": "Ignore modifiers (positive and negative) when making save rolls for attacks that target this model."
+      },
+      {
+        "name": "Frightful Touch",
+        "flavorText": "Just one touch from a Mourngul’s claws can still the heart of a mortal opponent.",
+        "description": "If the unmodified hit roll for an attack made with this model’s Nightmarish Claws and Fangs is 6, that attack causes 2 mortal wounds to the target and the attack sequence ends (do not make a wound or save roll)."
+      },
+      {
+        "name": "Ghastly Apparition",
+        "flavorText": "Mournguls are soulsearing horrors to look upon, radiating an aura of supernatural terror, unutterable despair and ravenous hunger.",
+        "description": "Subtract 1 from hit rolls for attacks made by enemy units while they are within 6\" of any friendly models with this ability."
+      }
+    ],
+    "keywords": [
+      "DEATH",
+      "NIGHTHAUNT",
+      "MALIGNANT",
+      "MONSTER",
+      "MOURNGUL"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "60mm"
+  },
+  {
+    "name": "Mortalis Terminexus",
+    "points": "85",
+    "unitSize": "",
+    "battlefieldRoles": [
+      "Endless Spell"
+    ],
+    "flavorText": "The hourglass of fate known as the Mortalis Terminexus can speed the passage of time, ageing those nearby to bones and dust in the blink of an eye - or it can instead be used to reverse time, restoring youth and vitality.",
+    "description": "",
+    "wounds": "",
+    "move": "",
+    "save": "",
+    "bravery": "",
+    "missleWeapons": [],
+    "meleeWeapons": [],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [],
+    "pitchedBattleNotes": [],
+    "baseSize": "50mm"
+  },
+  {
+    "name": "Shyish Reaper",
+    "points": "70",
+    "unitSize": "",
+    "battlefieldRoles": [
+      "Endless Spell"
+    ],
+    "flavorText": "The soul-hungry Shyish Reaper is the ultimate manifestation of finality and death. Its blade passes through armour with ease to cleave flesh and rip away the spirit, sending it screaming into the underworlds.",
+    "description": "",
+    "wounds": "",
+    "move": "",
+    "save": "",
+    "bravery": "",
+    "missleWeapons": [],
+    "meleeWeapons": [],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [],
+    "pitchedBattleNotes": [],
+    "baseSize": "105 x 70mm"
+  },
+  {
+    "name": "Vault of Souls",
+    "points": "85",
+    "unitSize": "",
+    "battlefieldRoles": [
+      "Endless Spell"
+    ],
+    "flavorText": "This summoned chest siphons souls, filling itself to overflowing with the rich spirits of mortalkind. Ever greedy for more, it eventually bursts, sending forth a lethal explosion of imprisoned soul energy to assail all those nearby.",
+    "description": "",
+    "wounds": "",
+    "move": "",
+    "save": "",
+    "bravery": "",
+    "missleWeapons": [],
+    "meleeWeapons": [],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [],
+    "pitchedBattleNotes": [],
+    "baseSize": "50mm"
+  },
+  {
+    "name": "Shroudguard",
+    "points": "",
+    "unitSize": "",
+    "battlefieldRoles": [],
+    "flavorText": "",
+    "description": "",
+    "wounds": "",
+    "move": "",
+    "save": "",
+    "bravery": "",
+    "missleWeapons": [],
+    "meleeWeapons": [],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [],
+    "pitchedBattleNotes": []
+  },
+  {
+    "name": "Deathriders",
+    "points": "",
+    "unitSize": "",
+    "battlefieldRoles": [],
+    "flavorText": "",
+    "description": "",
+    "wounds": "",
+    "move": "",
+    "save": "",
+    "bravery": "",
+    "missleWeapons": [],
+    "meleeWeapons": [],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [],
+    "pitchedBattleNotes": []
+  },
+  {
+    "name": "The Condemned",
+    "points": "",
+    "unitSize": "",
+    "battlefieldRoles": [],
+    "flavorText": "",
+    "description": "",
+    "wounds": "",
+    "move": "",
+    "save": "",
+    "bravery": "",
+    "missleWeapons": [],
+    "meleeWeapons": [],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [],
+    "pitchedBattleNotes": []
+  },
+  {
+    "name": "Chainguard",
+    "points": "",
+    "unitSize": "",
+    "battlefieldRoles": [],
+    "flavorText": "",
+    "description": "",
+    "wounds": "",
+    "move": "",
+    "save": "",
+    "bravery": "",
+    "missleWeapons": [],
+    "meleeWeapons": [],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [],
+    "pitchedBattleNotes": []
+  },
+  {
+    "name": "Shrieker Host",
+    "points": "",
+    "unitSize": "",
+    "battlefieldRoles": [],
+    "flavorText": "",
+    "description": "",
+    "wounds": "",
+    "move": "",
+    "save": "",
+    "bravery": "",
+    "missleWeapons": [],
+    "meleeWeapons": [],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [],
+    "pitchedBattleNotes": []
+  },
+  {
+    "name": "Execution Horde",
+    "points": "",
+    "unitSize": "",
+    "battlefieldRoles": [],
+    "flavorText": "",
+    "description": "",
+    "wounds": "",
+    "move": "",
+    "save": "",
+    "bravery": "",
+    "missleWeapons": [],
+    "meleeWeapons": [],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [],
+    "pitchedBattleNotes": []
+  },
+  {
+    "name": "Death Stalkers",
+    "points": "",
+    "unitSize": "",
+    "battlefieldRoles": [],
+    "flavorText": "",
+    "description": "",
+    "wounds": "",
+    "move": "",
+    "save": "",
+    "bravery": "",
+    "missleWeapons": [],
+    "meleeWeapons": [],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [],
+    "pitchedBattleNotes": []
+  }
+]

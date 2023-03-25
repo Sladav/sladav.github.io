@@ -1,0 +1,1641 @@
+[
+  {
+    "name": "Aether Khemist",
+    "points": "90",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Masters of alchemy and atmospheric analysis, Aether-Khemists not only augment their comrades’ weapons with a boost of aether-gold, but can also turn their esoteric devices against their foes to drain the air from their lungs.",
+    "description": "An Aether-Khemist is a single model armed with an Atmospheric Anatomiser and Heavy Instruments.",
+    "wounds": "5",
+    "move": "4\"",
+    "save": "4+",
+    "bravery": "7",
+    "missleWeapons": [
+      {
+        "name": "Atmospheric Anatomiser",
+        "range": "9\"",
+        "attacks": "3D6",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-2",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Heavy Instruments",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Aetheric Augmentation",
+        "flavorText": "An Aether-Khemist can use their Atmospheric Anatomiser to augment the weapons of nearby skyfarers.",
+        "description": "In your hero phase you can pick 1 friendly SKYFARERS unit wholly within 12\" of this model. Until your next hero phase, you can re-roll wound rolls of 1 for attacks made by that unit. This ability cannot be used by an AETHER-KHEMIST that is part of a garrison, or on a friendly unit that is part of a garrison."
+      },
+      {
+        "name": "Atmospheric Isolation",
+        "flavorText": "An Aether-Khemist can use their Anatomiser to create a vacuum around themselves, suffocating their foes.",
+        "description": "Subtract 1 from hit rolls for attacks made by enemy models while they are within 3\" of any friendly models with this ability. This ability cannot be used by an AETHER-KHEMIST that is part of a garrison."
+      }
+    ],
+    "keywords": [
+      "ORDER",
+      "DUARDIN",
+      "KHARADRON",
+      "OVERLORDS",
+      "HERO",
+      "SKYFARER",
+      "MARINE",
+      "AETHER-KHEMIST"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Aetheric Navigator",
+    "points": "85",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Utilising cutting-edge aethermatic science in order to decipher the ever-changing wind patterns of the Mortal Realms, Aetheric Navigators are an invaluable presence upon any Kharadron skyvessel.",
+    "description": "An Aetheric Navigator is a single model armed with a Zephyrscope and a Ranging Pistol.",
+    "wounds": "5",
+    "move": "4\"",
+    "save": "3+",
+    "bravery": "7",
+    "missleWeapons": [
+      {
+        "name": "Ranging Pistol",
+        "range": "15\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Zephyrscope",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Aethersight",
+        "flavorText": "Aetheric Navigators can unpick enemy spells by harnessing the arcane jet streams.",
+        "description": "This model can attempt to dispel 1 endless spell at the start of your hero phase and attempt to unbind 1 spell in the enemy hero phase, in the same manner as a WIZARD."
+      },
+      {
+        "name": "Aetherstorm",
+        "flavorText": "An Aetheric Navigator can manipulate the aether to cause a localised storm.",
+        "description": "In your hero phase, you can pick 1 enemy unit within 36\" of this model that is visible to them and can fly, and roll a dice. On a 1-2 nothing happens. On a 3-5 halve the Move characteristic of that unit until your next hero phase. On a 6, halve the Move characteristic of that unit until your next hero phase, and that unit suffers D3 mortal wounds."
+      },
+      {
+        "name": "Read the WindsAetherstorm",
+        "flavorText": "Navigators can signal to nearby Kharadron Overlords airships, helping them to steer into prevailing currents.",
+        "description": "Read the Winds: You can re-roll run and charge rolls for friendly SKYVESSELS that are visible to a friendly AETHERIC NAVIGATOR that has not attempted to use the Aetherstorm ability in the same turn."
+      }
+    ],
+    "keywords": [
+      "ORDER",
+      "DUARDIN",
+      "KHARADRON",
+      "OVERLORDS",
+      "HERO",
+      "SKYFARER",
+      "MARINE",
+      "AETHERIC",
+      "NAVIGATOR"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Bjorgen Thundrik",
+    "points": "150",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "The dauntless leader of a band of profiteers, Bjorgen Thundrik has developed quite the reputation in Barak-Nar for being able to sniff out fresh seams of aethergold, and for being utterly tenacious in his pursuit of riches.",
+    "description": "Bjorgen Thundrik is a named character that is a single model. He is armed with an Atmospheric Anatomiser and Heavy Instruments.",
+    "wounds": "5",
+    "move": "4\"",
+    "save": "4+",
+    "bravery": "7",
+    "missleWeapons": [
+      {
+        "name": "Atmospheric Anatomiser",
+        "range": "9\"",
+        "attacks": "3D6",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-2",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Heavy Instruments",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Aetheric Augmentation",
+        "flavorText": "An Aether-Khemist can use their Atmospheric Anatomiser to augment the weapons of nearby skyfarers.",
+        "description": "In your hero phase you can pick 1 friendly SKYFARERS unit wholly within 12\" of this model and that is not part of a garrison. Until your next hero phase, you can re-roll hit rolls of 1 for that unit. This ability cannot be used by a model that is part of a garrison."
+      },
+      {
+        "name": "Atmospheric Isolation",
+        "flavorText": "An Aether-Khemist can use their Anatomiser to create a vacuum around themselves, suffocating their foes.",
+        "description": "Subtract 1 from hit rolls for attacks made by enemy models while they are within 3\" of any friendly models with this ability. This ability cannot be used by a model that is part of a garrison."
+      }
+    ],
+    "keywords": [
+      "ORDER",
+      "DUARDIN",
+      "KHARADRON",
+      "OVERLORDS",
+      "BARAK-NAR",
+      "HERO",
+      "SKYFARER",
+      "MARINE",
+      "AETHER-KHEMIST",
+      "BJORGEN",
+      "THUNDRIK"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique. Bjorgen Thundrik and <a href=\"/aos3/factions/kharadron-overlords/warscrolls.html#Thundrik-s-Profiteers\">Thundrik’s Profiteers</a> must be taken as a set. Although taken as a set",
+      "each is a separate unit."
+    ]
+  },
+  {
+    "name": "Brokk Grungsson Lord Magnate of Barak Nar",
+    "points": "200",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Lord-Magnate Brokk Grungsson is the richest Kharadron privateer alive. Clad in a custom-built endrinharness and carrying a small armoury of lethal firearms, he seeks out fresh sources of aether-gold with single-minded belligerence.",
+    "description": "Brokk Grungsson is a named character that is a single model. He is armed with Grungsson’s Boast, the Magnate’s Charter, Aetherblasters and an Aethermatic Saw.",
+    "wounds": "8",
+    "move": "12\"",
+    "save": "3+",
+    "bravery": "8",
+    "missleWeapons": [
+      {
+        "name": "Grungsson’s Boast",
+        "range": "18\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "2+",
+        "rend": "-2",
+        "damage": "D3"
+      },
+      {
+        "name": "The Magnate’s Charter",
+        "range": "18\"",
+        "attacks": "6",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Aetherblasters",
+        "range": "9\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Aethermatic Saw",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "2+",
+        "rend": "-2",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "FLY",
+        "description": "This model can fly."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Custom-built Dirigible Suit",
+        "flavorText": "When Brokk Grungsson charges into combat his foes are crushed by the weight of his magnificent custombuilt dirigible suit.",
+        "description": "After this model makes a charge move, you can pick 1 enemy unit within 1\" of this model and roll a dice. On a 2+, that enemy unit suffers D3 mortal wounds."
+      },
+      {
+        "name": "Endrinharness",
+        "flavorText": "An Endrinharness is supercharged with energy, allowing the wearer to strike mighty blows in close combat.",
+        "description": "If the unmodified hit roll for an attack made with a melee weapon by this model is 6, that attack inflicts D3 mortal wounds and the attack sequence ends (do not make a wound or save roll)."
+      },
+      {
+        "name": "First Rule of Grungsson",
+        "flavorText": "When Brokk Grungsson leads his warriors into battle, he reminds them of his first and most significant commentary on the Code – ‘to the victor, the spoils’.",
+        "description": "You can use this command ability at the start of your charge phase if a friendly model with this command ability is on the battlefield. If you do so, pick 1 friendly model with this command ability. You can re-roll charge rolls for friendly BARAK-NAR units that are wholly within 24\" of that model until the end of that phase."
+      }
+    ],
+    "keywords": [
+      "ORDER",
+      "DUARDIN",
+      "KHARADRON",
+      "OVERLORDS",
+      "BARAK-NAR",
+      "HERO",
+      "SKYFARER",
+      "BROKK",
+      "GRUNGSSON"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ],
+    "baseSize": "50mm"
+  },
+  {
+    "name": "Endrinmaster with Dirigible Suit",
+    "points": "180",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Many Endrinmasters take to the skies in mastercrafted dirigible suits, their aetherturbines allowing them to zoom through the air towards skyvessels in need of repair even as an in-built weapon array blasts their enemies into pieces.",
+    "description": "An Endrinmaster with Dirigible Suit is a single model armed with an Aethercannon, Dirigible Suit Weapon Battery, Gaze of Grungni and Aethermatic Saw.",
+    "wounds": "8",
+    "move": "12\"",
+    "save": "3+",
+    "bravery": "8",
+    "missleWeapons": [
+      {
+        "name": "Aethercannon",
+        "range": "12\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "2+",
+        "rend": "-2",
+        "damage": "D3"
+      },
+      {
+        "name": "Dirigible Suit Weapon Battery",
+        "range": "18\"",
+        "attacks": "6",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Gaze of Grungni",
+        "range": "9\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "2+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Aethermatic Saw",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "2+",
+        "rend": "-2",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "FLY",
+        "description": "This model can fly."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Endrinmaster",
+        "flavorText": "Endrinmasters are unsurpassed at keeping the skyvessels in a fleet battleworthy.",
+        "description": "At the start of your hero phase, you can pick 1 friendly SKYVESSEL within 1\" of this model. Heal 3 wounds allocated to that SKYVESSEL."
+      },
+      {
+        "name": "By Grungni, I Have My Eye On You!Endrincraft",
+        "flavorText": "Endrinriggers will redouble their efforts to repair a skyvessel when they are overseen by an Endrinmaster.",
+        "description": "By Grungni, I Have My Eye On You!: You can use this command ability in your hero phase before a friendly ENDRINRIGGERS unit wholly within 18\" of a friendly model with this command ability uses its Endrincraft ability. If you do so, you can re-roll any of the dice that determine how many wounds are healed by that ENDRINRIGGERS unit in that phase."
+      }
+    ],
+    "keywords": [
+      "ORDER",
+      "DUARDIN",
+      "KHARADRON",
+      "OVERLORDS",
+      "HERO",
+      "SKYFARER",
+      "ENDRINMASTER"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "40mm"
+  },
+  {
+    "name": "Endrinmaster with Endrinharness",
+    "points": "95",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Endrinmasters are peerless combat mechanics, well used to conducting emergency repairs in the white heat of battle. Many equip themselves with a strength-enhancing endrinharness that allows them to wield a fearsome aethermight hammer.",
+    "description": "An Endrinmaster with Endrinharness is a single model armed with an Aethermight Hammer and Gaze of Grungni.",
+    "wounds": "6",
+    "move": "4\"",
+    "save": "4+",
+    "bravery": "7",
+    "missleWeapons": [
+      {
+        "name": "Gaze of Grungni",
+        "range": "9\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "2+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Aethermight Hammer",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Endrinmaster",
+        "flavorText": "Endrinmasters are unsurpassed at keeping the skyvessels in a fleet battleworthy.",
+        "description": "At the start of your hero phase, you can pick 1 friendly SKYVESSEL within 1\" of this model. Heal up to D3 wounds allocated to that SKYVESSEL."
+      },
+      {
+        "name": "Endrinharness",
+        "flavorText": "An Endrinharness is supercharged with energy, allowing the wearer to strike mighty blows in close combat.",
+        "description": "If the unmodified hit roll for an attack made with a melee weapon by this model is 6, that attack inflicts 3 mortal wounds and the attack sequence ends (do not make a wound or save roll)."
+      },
+      {
+        "name": "By Grungni, I Have My Eye On You!Endrincraft",
+        "flavorText": "Endrinriggers will redouble their efforts to repair a skyvessel when they are overseen by an Endrinmaster.",
+        "description": "By Grungni, I Have My Eye On You!: You can use this command ability in your hero phase before a friendly ENDRINRIGGER unit wholly within 18\" of a friendly model with this command ability uses its Endrincraft ability. If you do so, you can re-roll any of the dice that determine how many wounds are healed by that ENDRINRIGGER unit in that phase."
+      }
+    ],
+    "keywords": [
+      "ORDER",
+      "DUARDIN",
+      "KHARADRON",
+      "OVERLORDS",
+      "HERO",
+      "SKYFARER",
+      "MARINE",
+      "ENDRINMASTER"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Arkanaut Admiral",
+    "points": "125",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Arkanaut Admirals are the cream of the sky-ports’ officer class, intrepid leaders and battle-hardened veterans of a thousand aerial engagements whose booming commands inspire their crew to mighty deeds in the search for profit.",
+    "description": "",
+    "wounds": "6",
+    "move": "4\"",
+    "save": "3+",
+    "bravery": "8",
+    "missleWeapons": [
+      {
+        "name": "Volley Pistol",
+        "range": "9\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "2"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Skalfhammer",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "2+",
+        "rend": "-2",
+        "damage": "3"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "ORDER",
+      "KHARADRON",
+      "OVERLORDS",
+      "DUARDIN",
+      "HERO",
+      "SKYFARER",
+      "MARINE",
+      "ARKANAUT",
+      "ADMIRAL"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Drekki Flynt",
+    "points": "130",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Drekki Flynt. It is a name to which tankards have been raised and curses levelled a thousand times. Captain of the Aelsling, fastest ship in Barak-Mhornar, Flynt earns his reputation with flexible morals, an aether-powered axe and a multi-barrelled pistol always close to hand.",
+    "description": "",
+    "wounds": "6",
+    "move": "4\"",
+    "save": "3+",
+    "bravery": "8",
+    "missleWeapons": [
+      {
+        "name": "The Aethermatic Equaliser Mk. III",
+        "range": "9\"",
+        "attacks": "2D6",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Grunnsson’s Axe",
+        "range": "2\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "2+",
+        "rend": "-2",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "ORDER",
+      "KHARADRON",
+      "OVERLORDS",
+      "DUARDIN",
+      "BARAK-MHORNAR",
+      "HERO",
+      "SKYFARER",
+      "MARINE",
+      "DREKKI",
+      "FLYNT"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ]
+  },
+  {
+    "name": "Dagnai Holdenstock",
+    "points": "100",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Teetering on the brink of bankruptcy, Dagnai Holdenstock has come to Ulfenkarn in search of treasure to pay off his escalating debts. In battle, he wields a harpoon gun that can skewer the largest of foes and stop them from escaping, and a weighty belaying axe.",
+    "description": "Dagnai Holdenstock is a named character that is a single model. He is armed with a Belaying Axe and Harpoon Gun.",
+    "wounds": "6",
+    "move": "4\"",
+    "save": "4+",
+    "bravery": "8",
+    "missleWeapons": [
+      {
+        "name": "Harpoon Gun",
+        "range": "16\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "D3"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Belaying Axe",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Gold-plated Reputation",
+        "flavorText": "Rumour has it that Dagnai’s treasure vaults are full to the brim, and although this is far from the truth, he’d rather his peers keep believing it to be the case.",
+        "description": "If this model is included in a Kharadron Overlords army, it starts the battle with 2 shares of aether-gold instead of 1."
+      },
+      {
+        "name": "Reel ’Em In",
+        "flavorText": "The tethered harpoons fired by Dagnai’s gun can impale larger creatures, allowing him to reel them closer.",
+        "description": "If an attack made with this model’s Harpoon Gun scores a hit on a MONSTER, if that MONSTER is not slain after that attack has been resolved, roll a dice. On a 4+, that MONSTER is skewered until the start of your next shooting phase. While that MONSTER is skewered, each time it makes a move, it must finish that move at least as close to this model as it was at the start of the move."
+      }
+    ],
+    "keywords": [
+      "ORDER",
+      "DUARDIN",
+      "KHARADRON",
+      "OVERLORDS",
+      "BARAK-MHORNAR",
+      "HERO",
+      "SKYFARER",
+      "MARINE",
+      "DAGNAI",
+      "HOLDENSTOCK"
+    ],
+    "pitchedBattleNotes": [
+      "Unique"
+    ]
+  },
+  {
+    "name": "Arkanaut Company",
+    "points": "90",
+    "unitSize": "10",
+    "battlefieldRoles": [
+      "Battleline"
+    ],
+    "flavorText": "The backbone of the Kharadron airfleets are the Arkanaut Companies. These grizzled privateers crew the sky-ports’ vessels, and are armed with a variety of aether-powered firearms and deck tools with which to repel boarders or take the fight to the enemy.",
+    "description": "An Arkanaut Company has any number of models, each armed with a Privateer Pistol and Arkanaut Cutter.1 in every 10 models can replace their Privateer Pistol and Arkanaut Cutter with an Aethermatic Volley Gun and Gun Butt; 1 in every 10 models can replace their Privateer Pistol and Arkanaut Cutter with a Light Skyhook and Gun Butt; and 1 in every 10 models can replace their Privateer Pistol and Arkanaut Cutter with a Skypike.",
+    "wounds": "1",
+    "move": "4\"",
+    "save": "4+",
+    "bravery": "6",
+    "missleWeapons": [
+      {
+        "name": "Privateer Pistol",
+        "range": "9\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Aethermatic Volley Gun",
+        "range": "12\"",
+        "attacks": "6",
+        "toHit": "5+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Light Skyhook",
+        "range": "18\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "D3"
+      },
+      {
+        "name": "Aetherflare Pistol",
+        "range": "9\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Volley Pistol",
+        "range": "9\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Arkanaut Cutter",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Gun Butt",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "5+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Skypike",
+        "range": "2\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "COMPANY CAPTAIN",
+        "description": "1 model in this unit can be a Company Captain. That model is armed with an Aetherflare Pistol or Volley Pistol instead of a Privateer Pistol."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Glory-seekers",
+        "flavorText": "All of the warriors that make up an Arkanaut Company are eager to win recognition for daring deeds.",
+        "description": "You can re-roll battleshock tests for this unit while it is wholly within 9\" of an objective, and add 1 to hit rolls for attacks made by this unit while it is wholly within 9\" of an objective. This ability cannot be used if this unit is part of a garrison."
+      }
+    ],
+    "keywords": [
+      "ORDER",
+      "DUARDIN",
+      "KHARADRON",
+      "OVERLORDS",
+      "SKYFARER",
+      "MARINE",
+      "ARKANAUT",
+      "COMPANY"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "25mm"
+  },
+  {
+    "name": "Endrinriggers",
+    "points": "120",
+    "unitSize": "3",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "With aether-endrins strapped to their backs, Endrinriggers conduct repairs on their beloved airships miles above ground. In battle, their aether-powered tools become lethal weapons capable of punching through armour or messily sawing off limbs.",
+    "description": "A unit of Endrinriggers has any number of models, each armed with a Rapid-fire Rivet Gun and Aethermatic Saw. 1 in every 3 models can replace their Rapid-fire Rivet Gun and Aethermatic Saw with an Aethermatic Volley Gun and Gun Butt. 1 in every 3 models can replace their Rapid-fire Rivet Gun and Aethermatic Saw with one of the following weapon options: Drill Launcher and Gun Butt; Grapnel Launcher and Gun Butt; or Skyhook and Gun Butt.",
+    "wounds": "2",
+    "move": "12\"",
+    "save": "4+",
+    "bravery": "7",
+    "missleWeapons": [
+      {
+        "name": "Aethermatic Volley Gun",
+        "range": "24\"",
+        "attacks": "6",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Grapnel Launcher or Skyhook",
+        "range": "24\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "3"
+      },
+      {
+        "name": "Drill Launcher",
+        "range": "24\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-3",
+        "damage": "D3"
+      },
+      {
+        "name": "Rapid-fire Rivet Gun",
+        "range": "12\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Aethermatic Saw",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "2+",
+        "rend": "-2",
+        "damage": "D3"
+      },
+      {
+        "name": "Gun Butt",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "5+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "FLY",
+        "description": "This unit can fly."
+      },
+      {
+        "name": "MIZZENMASTER",
+        "description": "1 model in this unit can be a Mizzenmaster. Add 1 to the Attacks characteristic of that model’s melee weapons."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Drill Launcher",
+        "flavorText": "A handheld version of the drill cannons found aboard Kharadron gunships, the drill launcher fires a projectile that bores into its target before detonating.",
+        "description": "If the unmodified hit roll for an attack made with a Drill Launcher is 6, that attack inflicts 3 mortal wounds on the target and the attack sequence ends (do not make a wound or save roll)."
+      },
+      {
+        "name": "Endrincraft",
+        "flavorText": "Endrinriggers are expert mechanics, and keep all of the skyvessels in a Kharadron fleet shipshape.",
+        "description": "At the start of your hero phase, you can pick 1 friendly SKYVESSEL within 1\" of this unit and roll 1 dice for each model in this unit. For each 4+, heal 1 wound allocated to that SKYVESSEL."
+      },
+      {
+        "name": "Grapnel Launcher",
+        "flavorText": "Grapnel launchers are used to entangle the enemy and stop them from making their escape.",
+        "description": "Enemy units cannot retreat if they are within 3\" of any models from this unit armed with a Grapnel Launcher."
+      },
+      {
+        "name": "Skyhook",
+        "flavorText": "Skyhooks are used to pull the bearer towards the foe.",
+        "description": "Add 1 to charge rolls for this unit if any models from this unit are armed with a Skyhook."
+      }
+    ],
+    "keywords": [
+      "ORDER",
+      "DUARDIN",
+      "KHARADRON",
+      "OVERLORDS",
+      "SKYFARERS",
+      "ENDRINRIGGERS"
+    ],
+    "pitchedBattleNotes": [
+      "Battleline if general is an <a href=\"/aos3/factions/kharadron-overlords/warscrolls.html#Endrinmaster-with-Dirigible-Suit\">Endrinmaster with Dirigible Suit</a>"
+    ],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Grundstok Gunhauler",
+    "points": "155",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Small, manoeuvrable and deadly, the Grundstok Gunhauler is an escort-class ship tasked with ensuring the safety of the airfleets’ larger skyvessels. They perform this role well, swarming in defence before peeling off to launch deadly attack runs.",
+    "description": "A Grundstok Gunhauler is a single model armed with an Aethershot Carbine, Boarding Weapons and one of the following weapon options: Sky Cannon; or Drill Cannon.",
+    "wounds": "10",
+    "move": "12\"",
+    "save": "4+",
+    "bravery": "7",
+    "missleWeapons": [
+      {
+        "name": "Sky Cannon: Shrapnel",
+        "range": "18\"",
+        "attacks": "D6",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      },
+      {
+        "name": "Sky Cannon: Shell",
+        "range": "24\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "2+",
+        "rend": "-2",
+        "damage": "D6"
+      },
+      {
+        "name": "Drill Cannon",
+        "range": "36\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-3",
+        "damage": "D3"
+      },
+      {
+        "name": "Aethershot Carbine",
+        "range": "12\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Boarding Weapons",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "FLY",
+        "description": "This model can fly."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Ahead Full",
+        "flavorText": "The Captain of a Grundstok Gunhauler can overcharge its engine so that the craft moves at maximum speed for a short time.",
+        "description": "Once per battle, at the start of your movement phase, you can say that this model will move ahead full. If you do so, add 6\" to the Move characteristic of this model in that phase."
+      },
+      {
+        "name": "Escort Vessel",
+        "flavorText": "Grundstok Gunhaulers are used to disrupt attacks on larger Kharadron skyvessels in the vicinity.",
+        "description": "Roll 1 dice each time you allocate a wound or mortal wound to a friendly SKYVESSEL other than a GRUNDSTOK GUNHAULER while it is within 3\" of any friendly GRUNDSTOK GUNHAULERS. On a 6, that wound or mortal wound is negated."
+      },
+      {
+        "name": "Bomb Racks",
+        "flavorText": "The bombs and skymines held in the racks of a Kharadron skyvessel can be swiftly deployed to stop enemy assaults in their tracks.",
+        "description": "At the start of the combat phase, you can pick 1 enemy unit within 1\" of this model and roll a dice. On a 4+, that enemy unit suffers D3 mortal wounds."
+      },
+      {
+        "name": "Disengage",
+        "flavorText": "Kharadron skyvessels can easily disengage from ground-based foes, flying away with all guns blazing.",
+        "description": "This model and any models in its garrison can retreat and still shoot in the same turn as long as there are no enemy units that can fly within 3\" of this model at the start of the retreat move."
+      },
+      {
+        "name": "Fly High",
+        "flavorText": "Kharadron skyvessels can swiftly soar up high in the air and then dive back down to the battlefield, ready to attack from a new direction.",
+        "description": "Instead of making a normal move or retreat with this model, you can say that it will fly high (it can disengage). If you do so, remove this model from the battlefield and set it up again more than 1\" from any terrain features or objectives and more than 9\" from any enemy models."
+      },
+      {
+        "name": "Drill Cannon",
+        "flavorText": "The shells fired by a drill cannon burrow into the target and then explode, blasting shards of metal from the drill bit all around.",
+        "description": "If the unmodified hit roll for an attack made with a Drill Cannon is 5+, that attack inflicts 3 mortal wounds on the target and the attack sequence ends (do not make a wound or save roll)."
+      },
+      {
+        "name": "Sky Cannon",
+        "flavorText": "A sky cannon can either be loaded with shrapnel ammunition or an explosive shell.",
+        "description": "Before attacking with a Sky Cannon, choose either the Shrapnel or Shell missile weapon characteristics for that shooting attack."
+      }
+    ],
+    "keywords": [
+      "ORDER",
+      "DUARDIN",
+      "KHARADRON",
+      "OVERLORDS",
+      "WAR",
+      "MACHINE",
+      "SKYVESSEL",
+      "GRUNDSTOK",
+      "GUNHAULER"
+    ],
+    "pitchedBattleNotes": [
+      "Single. Battleline in a <a href=\"/aos3/factions/kharadron-overlords/#Barak-Urbaz-the-Market-City\">Barak-Urbaz</a> army"
+    ],
+    "baseSize": "105 x 70mm"
+  },
+  {
+    "name": "Grundstok Thunderers",
+    "points": "135",
+    "unitSize": "5",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Grundstok Thunderers are heavily armoured marines employed by the airfleets to defend it from hostiles. Expert marksmen and battle-hardened veterans of many voyages, they obliterate their foes in a storm of aethershot and mortar rounds.",
+    "description": "A unit of Grundstok Thunderers has any number of models, each armed with an Aethershot Rifle and Gun Butt. 1 in every 5 models can replace their Aethershot Rifle with a Grundstok Mortar. 1 in every 5 models can replace their Aethershot Rifle with an Aethercannon. 1 in every 5 models can replace their Aethershot Rifle with an Aetheric Fumigator. 1 in every 5 models can replace their Aethershot Rifle with a Decksweeper.",
+    "wounds": "2",
+    "move": "4\"",
+    "save": "4+",
+    "bravery": "7",
+    "missleWeapons": [
+      {
+        "name": "Aethershot Rifle",
+        "range": "18\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Double-barrelled Aethershot Rifle",
+        "range": "18\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Aetheric Fumigator",
+        "range": "9\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Decksweeper",
+        "range": "12\"",
+        "attacks": "4",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Aethercannon",
+        "range": "12\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "2+",
+        "rend": "-2",
+        "damage": "D3"
+      },
+      {
+        "name": "Grundstok Mortar",
+        "range": "12\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "D3"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Drillbill",
+        "range": "3\"",
+        "attacks": "D3",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Gun Butt",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "GUNNERY SERGEANT",
+        "description": "1 model in this unit can be a Gunnery Sergeant. Replace that model’s weapons with a Double-barrelled Aethershot Rifle, Gun Butt and Drillbill."
+      },
+      {
+        "name": "HONOUR BEARER",
+        "description": "1 in every 5 models in this unit can be an Honour Bearer. You can reroll battleshock tests for a unit that includes any Honour Bearers."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Choking Fug",
+        "flavorText": "Aetheric Fumigators fill the surrounding air with choking gas. The sealed suits worn by the Kharadron Overlords protect them from its effects, but this is not the case for their enemies…",
+        "description": "Subtract 1 from hit rolls for attacks made by enemy models within 3\" of any friendly models armed with an Aetheric Fumigator. This ability cannot be used by a model that is part of a garrison."
+      },
+      {
+        "name": "Drive Them Back!",
+        "flavorText": "Kharadron military history is filled with tales of Thunderers standing alone at battle’s end surrounded by a circle of fallen foes.",
+        "description": "Add 1 to the Attacks characteristic of missile weapons used by this unit while any enemy units are within 3\" of this unit. This ability cannot be used by a model that is part of a garrison."
+      },
+      {
+        "name": "Pin Them, Shred Them, Finish Them",
+        "flavorText": "Thunderers use the specialist weapons they are armed with to launch a deadly combination of attacks that leaves the target reeling.",
+        "description": "Add 1 to hit rolls for attacks made with a Grundstok Mortar, Decksweeper or Aethercannon when it is used by a unit that has at least 1 of each of these weapons (i.e. at least 1 Grundstok Mortar, and at least 1 Decksweeper, and at least 1 Aethercannon). This ability cannot be used by a model that is part of a garrison."
+      }
+    ],
+    "keywords": [
+      "ORDER",
+      "DUARDIN",
+      "KHARADRON",
+      "OVERLORDS",
+      "SKYFARER",
+      "MARINE",
+      "GRUNDSTOK",
+      "THUNDERERS"
+    ],
+    "pitchedBattleNotes": [
+      "Battleline in a <a href=\"/aos3/factions/kharadron-overlords/#Barak-Nar-City-of-the-First-Sunrise\">Barak-Nar</a> army"
+    ],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Skywardens",
+    "points": "105",
+    "unitSize": "3",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Skywardens are elite formations of Arkanaut warriors granted the power of flight by portable aether-endrins. They swoop from on high to skewer enemies upon longhafted skypikes or hover at short range to incinerate them with vulcaniser pistols.",
+    "description": "A unit of Skywardens has any number of models, each armed with a Vulcaniser Pistol and Skypike. 1 in every 3 models can replace their Vulcaniser Pistol and Skypike with an Aethermatic Volley Gun and Gun Butt. 1 in every 3 models can replace their Vulcaniser Pistol and Skypike with one of the following weapon options: Drill Launcher and Gun Butt; Grapnel Launcher and Gun Butt; or Skyhook and Gun Butt.",
+    "wounds": "2",
+    "move": "12\"",
+    "save": "4+",
+    "bravery": "7",
+    "missleWeapons": [
+      {
+        "name": "Aethermatic Volley Gun",
+        "range": "24\"",
+        "attacks": "6",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Grapnel Launcher or Skyhook",
+        "range": "24\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "3"
+      },
+      {
+        "name": "Drill Launcher",
+        "range": "24\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-3",
+        "damage": "D3"
+      },
+      {
+        "name": "Vulcaniser Pistol",
+        "range": "9\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Skypike",
+        "range": "2\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      },
+      {
+        "name": "Gun Butt",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "5+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "FLY",
+        "description": "This unit can fly."
+      },
+      {
+        "name": "CUSTODIAN",
+        "description": "1 model in this unit can be a Custodian. Add 1 to the Attacks characteristic of that model’s melee weapons."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Drill Launcher",
+        "flavorText": "A handheld version of the drill cannons found aboard Kharadron gunships, the drill launcher fires a projectile that bores into its target before detonating.",
+        "description": "If the unmodified hit roll for an attack made with a Drill Launcher is 6, that attack inflicts 3 mortal wounds on the target and the attack sequence ends (do not make a wound or save roll)."
+      },
+      {
+        "name": "Grapnel Launcher",
+        "flavorText": "Grapnel launchers are used to entangle the enemy and stop them from making their escape.",
+        "description": "Enemy units cannot retreat if they are within 3\" of any models from this unit armed with a Grapnel Launcher."
+      },
+      {
+        "name": "Skyhook",
+        "flavorText": "Skyhooks are used to pull the bearer towards the foe.",
+        "description": "Add 1 to charge rolls for this unit if any models from this unit are armed with a Skyhook."
+      },
+      {
+        "name": "Skymines",
+        "flavorText": "Skywardens surround themselves with airborne mines that explode on contact.",
+        "description": "If an enemy unit that can fly ends a charge move within 1\" of any friendly units with this ability, you can roll 1 dice for each model in that enemy unit. For each 6, that unit suffers 1 mortal wound."
+      },
+      {
+        "name": "Timed Charges",
+        "flavorText": "Skywardens are practised at striking hard and then retreating quickly amidst timed explosions to cause massive damage.",
+        "description": "Roll 1 dice for each enemy unit that is within 3\" of this unit immediately before this unit makes a retreat move. On a 4+, the unit being rolled for suffers D3 mortal wounds."
+      }
+    ],
+    "keywords": [
+      "ORDER",
+      "DUARDIN",
+      "KHARADRON",
+      "OVERLORDS",
+      "SKYFARERS",
+      "SKYWARDENS"
+    ],
+    "pitchedBattleNotes": [
+      "Battleline if general is an <a href=\"/aos3/factions/kharadron-overlords/warscrolls.html#Endrinmaster-with-Dirigible-Suit\">Endrinmaster with Dirigible Suit</a>"
+    ],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Thundrik s Profiteers",
+    "points": "150",
+    "unitSize": "4",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Driven by constant competition for promotion, this eclectic band of skyfarers will go to any lengths to secure a valuable haul, and will pepper with volleys of aethershot all those who try to take their wealth.",
+    "description": "Thundrik’s Profiteers is a unit that has 4 models. Garodd Alensen is armed with a Privateer Pistol and Arkanaut Cutter; Enrik Ironhail is armed with an Aethermatic Volley Gun and Gun Butt; Dead-Eye Lund is armed with an Aethershot Rifle and Gun Butt; and Khazgan Drakkskewer is armed with a Vulcaniser Pistol and Skypike.",
+    "wounds": "1",
+    "move": "4\"",
+    "save": "4+",
+    "bravery": "7",
+    "missleWeapons": [
+      {
+        "name": "Aethermatic Volley Gun",
+        "range": "18\"",
+        "attacks": "6",
+        "toHit": "5+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Aethershot Rifle",
+        "range": "18\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Privateer Pistol",
+        "range": "12\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Vulcaniser Pistol",
+        "range": "9\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Arkanaut Cutter",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Gun Butt",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Skypike",
+        "range": "2\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "KHAZGAN DRAKKSKEWER",
+        "description": "Add 1 to Khazgan Drakkskewer’s Wounds characteristic. In addition, Khazgan Drakkskewer can fly."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Thundrik’s Profiteers",
+        "flavorText": "The Profiteers are ever eager to win Thundrik’s recognition.",
+        "description": "You can add 1 to hit rolls for attacks made by this unit and re-roll battleshock tests for this unit while it is wholly within 9\" of BJORGEN THUNDRIK. This ability cannot be used if this unit is part of a garrison."
+      }
+    ],
+    "keywords": [
+      "ORDER",
+      "DUARDIN",
+      "KHARADRON",
+      "OVERLORDS",
+      "BARAK-NAR",
+      "SKYFARER",
+      "MARINE",
+      "THUNDRIK’S",
+      "PROFITEERS"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique. <a href=\"/aos3/factions/kharadron-overlords/warscrolls.html#Bjorgen-Thundrik\">Bjorgen Thundrik</a> and Thundrik’s Profiteers must be taken as a set. Although taken as a set",
+      "each is a separate unit."
+    ]
+  },
+  {
+    "name": "Arkanaut Frigate",
+    "points": "250",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Behemoth"
+    ],
+    "flavorText": "The sleek and deadly profile of a Arkanaut Frigate is a sight greatly feared by the Kharadron’s many enemies, who know all too well the devastating firepower these airships possess, and the fighting spirit of the privateers they carry into battle.",
+    "description": "An Arkanaut Frigate is a single model armed with Aethershot Carbines, Boarding Weapons and one of the following weapon options: Heavy Sky Cannon; or Heavy Skyhook.",
+    "wounds": "14",
+    "move": "✹",
+    "save": "4+",
+    "bravery": "8",
+    "missleWeapons": [
+      {
+        "name": "Heavy Sky Cannon: Shrapnel",
+        "range": "24\"",
+        "attacks": "D6",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      },
+      {
+        "name": "Heavy Sky Cannon: Shell",
+        "range": "30\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "2+",
+        "rend": "-2",
+        "damage": "D6"
+      },
+      {
+        "name": "Heavy Skyhook",
+        "range": "24\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "2+",
+        "rend": "-2",
+        "damage": "D6"
+      },
+      {
+        "name": "Aethershot Carbines",
+        "range": "12\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Boarding Weapons",
+        "range": "1\"",
+        "attacks": "✹",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-3",
+        "move": "12\", Disengage, Fly High",
+        "boardingWeapons": "6",
+        "bombRacks": "+1"
+      },
+      {
+        "woundsSuffered": "4-6",
+        "move": "10\", Disengage, Fly High",
+        "boardingWeapons": "5",
+        "bombRacks": "0"
+      },
+      {
+        "woundsSuffered": "7-9",
+        "move": "8\", Disengage",
+        "boardingWeapons": "4",
+        "bombRacks": "0"
+      },
+      {
+        "woundsSuffered": "10-12",
+        "move": "6\"",
+        "boardingWeapons": "3",
+        "bombRacks": "-1"
+      },
+      {}
+    ],
+    "abilities": [
+      {
+        "name": "Aetheric Navigator and Endrinrigger",
+        "flavorText": "A skyvessel’s Navigator guides it into the strongest aetheric winds, while its Endrinrigger works tirelessly to keep it airworthy.",
+        "description": "In your hero phase, you can heal 1 wound allocated to this model. In addition, you can re-roll run rolls for this model."
+      },
+      {
+        "name": "Bomb Racks",
+        "flavorText": "The bombs and skymines held in the racks of a Kharadron skyvessel can be swiftly deployed to stop enemy assaults in their tracks.",
+        "description": "At the start of the combat phase, you can pick 1 enemy unit within 1\" of this model and roll a dice. Add the Bomb Rack modifier from this model’s damage table to the roll. On a 4+, that enemy unit suffers D3 mortal wounds."
+      },
+      {
+        "name": "Disengage",
+        "flavorText": "Kharadron skyvessels can easily disengage from ground-based foes, flying away with all guns blazing.",
+        "description": "This model and any models in its garrison can still shoot if this model retreats in the same turn, as long as there are no enemy units that can fly within 3\" of this model at the start of the retreat move and there are less than 10 wounds allocated to this model at the start of the retreat move."
+      },
+      {
+        "name": "Fly High",
+        "flavorText": "Kharadron skyvessels can swiftly soar up high in the air and then dive back down to the battlefield, ready to attack from a new direction.",
+        "description": "Instead of making a normal move or retreat with this model, if there are less than 7 wounds currently allocated to this model, you can say that it will fly high (it can disengage). If you do so, remove this model from the battlefield and set it up again more than 1\" from any terrain features or objectives and more than 9\" from any enemy models."
+      },
+      {
+        "name": "Heavy Skyhook",
+        "flavorText": "Skyhooks are used to pull skyvessels towards the foe.",
+        "description": "Add 2 to charge rolls for this model if it is armed with a Heavy Skyhook."
+      },
+      {
+        "name": "Heavy Sky Cannon",
+        "flavorText": "A sky cannon can either be loaded with shrapnel or an explosive shell.",
+        "description": "Before attacking with a Heavy Sky Cannon, choose either the Shrapnel or Shell missile weapon characteristics for that shooting attack."
+      }
+    ],
+    "keywords": [
+      "ORDER",
+      "DUARDIN",
+      "KHARADRON",
+      "OVERLORDS",
+      "WAR",
+      "MACHINE",
+      "SKYVESSEL",
+      "ARKANAUT",
+      "FRIGATE"
+    ],
+    "pitchedBattleNotes": [
+      "Single. Battleline in a <a href=\"/aos3/factions/kharadron-overlords/#Barak-Zilfin-the-Windswept-City\">Barak-Zilfin</a> army"
+    ],
+    "baseSize": "120 x 92mm"
+  },
+  {
+    "name": "Arkanaut Ironclad",
+    "points": "490",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Behemoth"
+    ],
+    "flavorText": "Amongst the heaviest Kharadron ships of the line, the redoubtable Ironclads provide a floating fortress of iron at the heart of any airfleet, bombarding their targets from afar with explosives shells and armour-piercing torpedoes.",
+    "description": "An Arkanaut Ironclad is a single model armed with Aethershot Carbines, Aethershock Torpedoes, Boarding Weapons and one of the following weapon options: Great Sky Cannon; Great Skyhook; or Great Volley Cannon.",
+    "wounds": "18",
+    "move": "✹",
+    "save": "3+",
+    "bravery": "8",
+    "missleWeapons": [
+      {
+        "name": "Great Sky Cannon: Shrapnel",
+        "range": "24\"",
+        "attacks": "6",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      },
+      {
+        "name": "Great Sky Cannon: Shell",
+        "range": "30\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "2+",
+        "rend": "-2",
+        "damage": "6"
+      },
+      {
+        "name": "Great Skyhook",
+        "range": "24\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "2+",
+        "rend": "-2",
+        "damage": "6"
+      },
+      {
+        "name": "Great Volley Cannon",
+        "range": "18\"",
+        "attacks": "4D6",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Aethershock Torpedoes",
+        "range": "24\"",
+        "attacks": "4",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      },
+      {
+        "name": "Aethershot Carbines",
+        "range": "12\"",
+        "attacks": "8",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Boarding Weapons",
+        "range": "1\"",
+        "attacks": "✹",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-3",
+        "move": "10\", Disengage, Fly High",
+        "boardingWeapons": "8",
+        "bombRacks": "+2"
+      },
+      {
+        "woundsSuffered": "4-6",
+        "move": "8\", Disengage, Fly High",
+        "boardingWeapons": "7",
+        "bombRacks": "+1"
+      },
+      {
+        "woundsSuffered": "7-9",
+        "move": "6\", Disengage",
+        "boardingWeapons": "6",
+        "bombRacks": "0"
+      },
+      {
+        "woundsSuffered": "10-15",
+        "move": "6\"",
+        "boardingWeapons": "5",
+        "bombRacks": "0"
+      },
+      {}
+    ],
+    "abilities": [
+      {
+        "name": "Aetheric Navigator and Endrinrigger",
+        "flavorText": "A skyvessel’s Navigator guides it into the strongest aetheric winds, while its Endrinrigger works tirelessly to keep it airworthy.",
+        "description": "In your hero phase, you can heal 1 wound allocated to this model. In addition, you can re-roll run rolls for this model."
+      },
+      {
+        "name": "Bomb Racks",
+        "flavorText": "The bombs and skymines held in the racks of a Kharadron skyvessel can be swiftly deployed to stop enemy assaults in their tracks.",
+        "description": "At the start of the combat phase, you can pick 1 enemy unit within 1\" of this model and roll a dice. Add the Bomb Rack modifier from this model’s damage table to the roll. On a 4+, that enemy unit suffers D3 mortal wounds."
+      },
+      {
+        "name": "Disengage",
+        "flavorText": "Kharadron skyvessels can easily disengage from ground-based foes, flying away with all guns blazing.",
+        "description": "This model and any models in its garrison can still shoot if this model retreats in the same turn, as long as there are no enemy units that can fly within 3\" of this model at the start of the retreat move and there are less than 10 wounds allocated to this model at the start of the retreat move."
+      },
+      {
+        "name": "Fly High",
+        "flavorText": "Kharadron skyvessels can swiftly soar up high in the air and then dive back down to the battlefield, ready to attack from a new direction.",
+        "description": "Instead of making a normal move or retreat with this model, if there are less than 7 wounds currently allocated to this model, you can say that it will fly high (it can disengage). If you do so, remove this model from the battlefield and set it up again more than 1\" from any terrain features or objectives and more than 9\" from any enemy models."
+      },
+      {
+        "name": "Great Skyhook",
+        "flavorText": "Skyhooks are used to pull skyvessels towards the foe.",
+        "description": "Add 2 to charge rolls for this model if it is armed with a Great Skyhook."
+      },
+      {
+        "name": "Great Sky Cannon",
+        "flavorText": "A sky cannon can either be loaded with shrapnel or an explosive shell.",
+        "description": "Before attacking with a Great Sky Cannon, choose either the Shrapnel or Shell missile weapon characteristics for that shooting attack."
+      }
+    ],
+    "keywords": [
+      "ORDER",
+      "DUARDIN",
+      "KHARADRON",
+      "OVERLORDS",
+      "WAR",
+      "MACHINE",
+      "SKYVESSEL",
+      "ARKANAUT",
+      "IRONCLAD"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "170 x 109mm"
+  }
+]

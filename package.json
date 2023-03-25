@@ -15,10 +15,16 @@
     "typescript": "^4.9.3"
   },
   "dependencies": {
-    "@types/lodash": "^4.14.190",
+    "@motion-canvas/2d": "^3.1.0",
+    "@sgratzl/chartjs-chart-boxplot": "^4.1.1",
+    "@types/lodash": "^4.14.191",
     "@vitejs/plugin-react": "^2.2.0",
+    "apexcharts": "^3.37.2",
+    "chart.js": "^4.2.1",
     "lodash": "^4.17.21",
     "react": "^18.2.0",
+    "react-apexcharts": "^1.4.0",
+    "react-chartjs-2": "^5.2.0",
     "react-dom": "^18.2.0",
     "reveal.js": "^4.4.0",
     "vite": "^3.2.4"

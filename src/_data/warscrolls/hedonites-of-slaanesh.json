@@ -1,0 +1,2750 @@
+[
+  {
+    "name": "Glutos Orscollion Lord of Gluttony",
+    "points": "440",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader",
+      "Behemoth"
+    ],
+    "flavorText": "Guided by the daemon Loth’shar, Glutos Orscollion is on a quest to sample the most exotic tastes in the Mortal Realms. Riding atop an opulent palanquin and surrounded by his devoted court, he can unmake whole armies through his loathsome magics.",
+    "description": "Glutos Orscollion is a named character that is a single model.",
+    "wounds": "18",
+    "move": "✹",
+    "save": "3+",
+    "bravery": "9",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Wailing Greatblade",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "2"
+      },
+      {
+        "name": "Flaying Scourge",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Sacrificial Dagger",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Crushing Claws",
+        "range": "1\"",
+        "attacks": "✹",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "3"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "COMPANIONS",
+        "description": "Glutos is accompanied by Painbringer Kyazu, who attacks with a Wailing Greatblade; Lashmaster Vhyssk, who attacks with a Flaying Scourge; and Priestess Dolece, who attacks with a Sacrificial Dagger.The companions that currently accompany Glutos vary depending on the number of wounds suffered by this model, as shown on the damage table. You can only use the companion abilities for the companions currently accompanying Glutos, and only those companions can attack. For all other rules purposes, companions are treated in the same manner as a mount."
+      },
+      {
+        "name": "MOUNT",
+        "description": "This model’s Palanquin Bearers attack with their Crushing Claws."
+      },
+      {
+        "name": "Fog of Temptation",
+        "description": "Those who inhale the scented mist emanating from Glutos’ palanquin are wracked with agonising hunger-spasms.Subtract 1 from hit rolls for attacks made by enemy units within 12\" of this model."
+      },
+      {
+        "name": "The Leerstave of Loth’shar",
+        "description": "Loth’shar constantly drives Glutos on in pursuit of nearby delicacies, and rewards him for each unholy act of consumption.Add 1 to casting, dispelling and unbinding rolls for this model."
+      }
+    ],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-4",
+        "companions": "All",
+        "move": "8\"",
+        "crushingClaws": "6"
+      },
+      {
+        "woundsSuffered": "5-8",
+        "companions": "Painbringer Kyazu, Lashmaster Vhyssk",
+        "move": "6\"",
+        "crushingClaws": "5"
+      },
+      {
+        "woundsSuffered": "9-12",
+        "companions": "Painbringer Kyazu",
+        "move": "5\"",
+        "crushingClaws": "4"
+      },
+      {}
+    ],
+    "abilities": [
+      {
+        "name": "Arcane BoltMystic ShieldCrippling Famishment",
+        "flavorText": "",
+        "description": "This model is a WIZARD. It can attempt to cast 2 spells in your hero phase and attempt to unbind 2 spells in the enemy hero phase. It knows the Arcane Bolt, Mystic Shield and Crippling Famishment spells."
+      },
+      {
+        "name": "Crippling Famishment",
+        "flavorText": "With a snap of his fingers, Glutos shares his endless hunger with those he finds appetising, paralysing his prey with a violent surge of immeasurable hunger.",
+        "description": "Crippling Famishment has a casting value of 7. If successfully cast, pick 1 enemy unit within 18\" of the caster that is visible to them. Until your next hero phase, halve the Move characteristic of that unit, halve run rolls for that unit, and halve charge rolls for that unit."
+      },
+      {
+        "name": "Gorge on Excess",
+        "flavorText": "The followers of the Gluttonous Host grow strong on acts of excess, be it gulping down raw flesh or engaging in some other depraved perversion in the heat of battle.",
+        "description": "You can use this command ability once per turn in your hero phase. If you do so, pick 1 friendly HEDONITE unit wholly within 12\" of this model. Until your next hero phase, if an enemy unit is destroyed by an attack made by that HEDONITE unit and there are wounds that remain to be allocated to that enemy unit from that attack, heal up to the same number of wounds allocated to that HEDONITE unit."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "MORTAL",
+      "SLAANESH",
+      "HEDONITE",
+      "HERO",
+      "WIZARD",
+      "GLUTOS",
+      "ORSCOLLION"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ],
+    "baseSize": "170 x 109mm"
+  },
+  {
+    "name": "Keeper of Secrets",
+    "points": "400",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader",
+      "Behemoth"
+    ],
+    "flavorText": "A Keeper of Secrets is a greater daemon of Slaanesh, a consummate warrior and spellmaster of the Dark Prince’s hosts. Its four powerful arms move languidly as it slinks forwards, only to explode into lethal motion when their prey is in reach.",
+    "description": "A Keeper of Secrets is a single model armed with an Elegant Greatblade, Impaling Claws and one of the following weapon options: Ritual Knife; Sinistrous Hand; Living Whip; or Shining Aegis.",
+    "wounds": "14",
+    "move": "✹",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [
+      {
+        "name": "Living Whip",
+        "range": "6\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Ritual Knife/Sinistrous Hand",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "2+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Elegant Greatblade",
+        "range": "2\"",
+        "attacks": "✹",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      },
+      {
+        "name": "Impaling Claws",
+        "range": "3\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "✹"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-3",
+        "move": "14\"",
+        "elegantGreatblade": "4",
+        "impalingClaws": "5"
+      },
+      {
+        "woundsSuffered": "4-6",
+        "move": "12\"",
+        "elegantGreatblade": "3",
+        "impalingClaws": "4"
+      },
+      {
+        "woundsSuffered": "7-9",
+        "move": "10\"",
+        "elegantGreatblade": "3",
+        "impalingClaws": "3"
+      },
+      {
+        "woundsSuffered": "10-12",
+        "move": "8\"",
+        "elegantGreatblade": "2",
+        "impalingClaws": "3"
+      },
+      {}
+    ],
+    "abilities": [
+      {
+        "name": "Dark Temptations",
+        "flavorText": "Few can resist the temptations whispered by a Keeper of Secrets.",
+        "description": "At the start of the combat phase, you can pick 1 enemy HERO within 3\" of this model. If you do so, your opponent must choose whether that HERO accepts or refuses temptation. If it refuses, that HERO suffers D3 mortal wounds. If it accepts, add 1 to hit rolls for attacks made by that HERO. Then, at the start of the next combat phase, roll a dice. On 1-3, that HERO no longer receives this modifier to its hit rolls. On 4-6, that HERO is slain."
+      },
+      {
+        "name": "Delicate Precision",
+        "flavorText": "A Keeper of Secrets attacks its foes with a dazzling array of exquisitely measured blows.",
+        "description": "If the unmodified wound roll for an attack made with a missile or melee weapon by this model is 6, that attack inflicts a number of mortal wounds equal to the Damage characteristic of the weapon used for the attack and the attack sequence ends (do not make a save roll)."
+      },
+      {
+        "name": "Living Whip",
+        "flavorText": "A living whip can be used to entangle the weapons of a larger opponent.",
+        "description": "If this model is armed with a Living Whip, at the start of the combat phase, you can pick 1 enemy MONSTER model within 6\" of this model and roll a dice. On a 3+, pick 1 melee weapon that model is armed with. Subtract 1 from hit rolls for attacks made with that weapon until the end of that phase."
+      },
+      {
+        "name": "Ritual Knife",
+        "flavorText": "The Keeper of Secrets despatches a badly wounded victim with a final dagger-thrust.",
+        "description": "If this model is armed with a Ritual Knife, at the end of the combat phase, you can pick 1 enemy model within 1\" of this model that has any wounds allocated to it and roll a dice. On a 1, nothing happens. On a 2-5, that model suffers 1 mortal wound. On a 6, that model suffers D3 mortal wounds."
+      },
+      {
+        "name": "Shining Aegis",
+        "flavorText": "This masterfully created shield can turn aside blows and magical spells.",
+        "description": "If this model is armed with a Shining Aegis, roll a dice each time you allocate a wound or mortal wound to this model. On a 6+, that wound or mortal wound is negated."
+      },
+      {
+        "name": "Sinistrous Hand",
+        "flavorText": "Reaching out with bladed talons, the Keeper of Secrets rips the heart from its dying victim’s chest and consumes the still-beating organ.",
+        "description": "If this model is armed with a Sinistrous Hand, at the end of the combat phase, if any enemy models were slain by wounds inflicted by this model’s attacks in that phase, you can heal up to D3 wounds allocated to this model. If any enemy HEROES were slain by wounds inflicted by this model’s attacks in that phase, you can heal up to D6 wounds allocated to this model instead."
+      },
+      {
+        "name": "Arcane BoltMystic ShieldCacophonic Choir",
+        "flavorText": "",
+        "description": "This model is a WIZARD. It can attempt to cast 2 spells in your hero phase and attempt to unbind 2 spells in the enemy hero phase. It knows the Arcane Bolt, Mystic Shield and Cacophonic Choir spells."
+      },
+      {
+        "name": "Cacophonic Choir",
+        "flavorText": "The Keeper of Secrets unleashes a sanity-shattering chorus of magical sound.",
+        "description": "Cacophonic Choir has a casting value of 6. If successfully cast, roll 2D6. Each enemy unit within 6\" of the caster that has a Bravery characteristic of less than the roll suffers D3 mortal wounds."
+      },
+      {
+        "name": "Excess of Violence",
+        "flavorText": "With the subtlest of gestures, a Keeper of Secrets can order its followers to attack with redoubled aggression.",
+        "description": "You can use this command ability in the combat phase when it is your turn to pick a unit to fight with. If you do so, pick 1 other friendly HEDONITE unit that has already fought once in that phase and is wholly within 12\" of a model with this command ability. That unit can be picked to fight for a second time if it is within 3\" of any enemy units. You cannot pick the same unit to benefit from this command ability more than once in the same phase."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "DAEMON",
+      "GREATER",
+      "DAEMON",
+      "SLAANESH",
+      "HEDONITE",
+      "HERO",
+      "MONSTER",
+      "WIZARD",
+      "KEEPER",
+      "SECRETS"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "100mm"
+  },
+  {
+    "name": "Shalaxi Helbane",
+    "points": "390",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader",
+      "Behemoth"
+    ],
+    "flavorText": "Known as the Monarch of the Hunt, Shalaxi Helbane is Slaanesh’s weapon against the daemons of the other Chaos Gods. Able to discern the secrets of the Dark Prince’s foes through blended senses, this statuesque warrior has slain a thousand rivals and more.",
+    "description": "Shalaxi Helbane is a named character that is a single model. They are armed with Soulpiercer, Impaling Claws and one of the following weapon options: Living Whip; or Shining Aegis.",
+    "wounds": "14",
+    "move": "✹",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [
+      {
+        "name": "Living Whip",
+        "range": "6\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Soulpiercer",
+        "range": "3\"",
+        "attacks": "1",
+        "toHit": "2+",
+        "toWound": "✹",
+        "rend": "-3",
+        "damage": "D6"
+      },
+      {
+        "name": "Impaling Claws",
+        "range": "3\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "✹"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-3",
+        "move": "14\"",
+        "soulpiercer": "2+",
+        "impalingClaws": "5"
+      },
+      {
+        "woundsSuffered": "4-6",
+        "move": "12\"",
+        "soulpiercer": "2+",
+        "impalingClaws": "4"
+      },
+      {
+        "woundsSuffered": "7-9",
+        "move": "10\"",
+        "soulpiercer": "3+",
+        "impalingClaws": "3"
+      },
+      {
+        "woundsSuffered": "10-12",
+        "move": "8\"",
+        "soulpiercer": "3+",
+        "impalingClaws": "3"
+      },
+      {}
+    ],
+    "abilities": [
+      {
+        "name": "Cloak of Constriction",
+        "flavorText": "Any opponent that draws too close to Shalaxi Helbane finds themselves ensnared by the tentacular pseudopods of the daemon’s cloak.",
+        "description": "Add 1 to save rolls for attacks made with melee weapons by HEROES that target this model."
+      },
+      {
+        "name": "Delicate Precision",
+        "flavorText": "A Keeper of Secrets attacks its foes with a dazzling array of exquisitely measured blows.",
+        "description": "If the unmodified wound roll for an attack made with a missile or melee weapon by this model is 6, that attack inflicts a number of mortal wounds equal to the Damage characteristic of the weapon used for the attack and the attack sequence ends (do not make a save roll)."
+      },
+      {
+        "name": "Irresistible Challenge",
+        "flavorText": "Few can resist the sorcerous challenge delivered by Shalaxi Helbane – those who do find their cowardice rewarded with crippling agony.",
+        "description": "At the start of the enemy charge phase, you can pick 1 enemy HERO within 12\" of this model and more than 3\" from any friendly models. If you do so, your opponent must choose whether that HERO accepts or refuses Shalaxi’s challenge. If it refuses, that HERO suffers D3 mortal wounds. If it accepts, that HERO must attempt to charge, and must finish the charge move within ½\" of this model if it is possible for it to do so. In addition, if it accepts the challenge, any attacks that HERO makes in the following combat phase must target this model."
+      },
+      {
+        "name": "Living Whip",
+        "flavorText": "A living whip can be used to entangle the weapons of a larger opponent.",
+        "description": "If this model is armed with a Living Whip, at the start of the combat phase, you can pick 1 enemy MONSTER model within 6\" of this model and roll a dice. On a 3+, pick 1 melee weapon that model is armed with. Subtract 1 from hit rolls for attacks made with that weapon until the end of that phase."
+      },
+      {
+        "name": "Shining Aegis",
+        "flavorText": "This masterfully created shield can turn aside blows and magical spells.",
+        "description": "If this model is armed with a Shining Aegis, roll a dice each time you allocate a wound or mortal wound to this model. On a 6+, that wound or mortal wound is negated."
+      },
+      {
+        "name": "The Killing Stroke",
+        "flavorText": "Shalaxi Helbane can outwit any foe, delivering a subtle series of attacks and feints that sets them up for a final killing blow.",
+        "description": "At the start of the combat phase, you can pick 1 enemy HERO within 3\" of this model. If you do so, all attacks made by this model in that phase must target that model, but the Damage characteristic of this model’s Soulpiercer is 6 instead of D6 until the end of that phase."
+      },
+      {
+        "name": "Arcane BoltMystic ShieldRefine Senses",
+        "flavorText": "",
+        "description": "This model is a WIZARD. It can attempt to cast 2 spells in your hero phase and attempt to unbind 2 spells in the enemy hero phase. It knows the Arcane Bolt, Mystic Shield and Refine Senses spells."
+      },
+      {
+        "name": "Refine Senses",
+        "flavorText": "The sorcerer channels magical power into their senses, so that nothing can be hidden from them and none can escape their wrath.",
+        "description": "Refine Senses is a spell that has a casting value of 4. If successfully cast, until your next hero phase, you can add 1 to hit rolls for attacks made by the caster that target a HERO, and you can add 1 to save rolls for attacks made by HEROES that target the caster."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "DAEMON",
+      "GREATER",
+      "DAEMON",
+      "SLAANESH",
+      "HEDONITE",
+      "HERO",
+      "MONSTER",
+      "WIZARD",
+      "KEEPER",
+      "SECRETS",
+      "SHALAXI",
+      "HELBANE"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ],
+    "baseSize": "100mm"
+  },
+  {
+    "name": "Syll Esske the Vengeful Allegiance",
+    "points": "195",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader",
+      "Behemoth"
+    ],
+    "flavorText": "Syll Lewdtongue has inspired thousands of warlords to acts of tyranny and misrule, but since uniting their powers with the megalomaniacal daemon-monarch Esske, the Herald of Slaanesh has become a force of conquest like no other.",
+    "description": "Syll’Esske, the Vengeful Allegiance is a named character that is a single model. Syll is armed with a Scourging Whip.",
+    "wounds": "9",
+    "move": "8\"",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Axe of Dominion",
+        "range": "2\"",
+        "attacks": "4",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "D3"
+      },
+      {
+        "name": "Scourging Whip",
+        "range": "2\"",
+        "attacks": "8",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "COMPANION",
+        "description": "Esske attacks with the Axe of Dominion. For rules purposes, Esske is treated in the same manner as a mount."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Deadly Symbiosis",
+        "flavorText": "The hosts of Syll’Esske comprise outcast mortals and daemons who yearn for the power they believe is rightfully theirs. In battle they seek to emulate the symbiosis of their master, compelling one another to escalating acts of depraved violence.",
+        "description": "You can re-roll hit rolls of 1 for attacks made with melee weapons by friendly HEDONITE units wholly within 18\" of this model if the number of friendly MORTAL HEDONITE units wholly within 18\" of this model is equal to the number of other friendly DAEMON HEDONITE units wholly within 18\" of this model."
+      },
+      {
+        "name": "Lithe and Swift",
+        "flavorText": "Spurring one another on, Syll and their consort stride across the battlefield with uncanny swiftness.",
+        "description": "This unit can run and still charge later in the same turn."
+      },
+      {
+        "name": "The Vengeful Allegiance",
+        "flavorText": "The twin halves of the Vengeful Allegiance fight with a deadly unity; no sooner has a foe blocked one attack than another comes cleaving into their flank. This unique style of combat is incredibly deadly, and can make even the smallest mistake a fatal one.",
+        "description": "In the combat phase, if the unmodified hit roll for any attack made with a melee weapon that targets this model is 1, add 1 to hit and wound rolls for attacks made by this model that target the attacking unit in the same phase."
+      },
+      {
+        "name": "Arcane BoltMystic ShieldSubvert",
+        "flavorText": "",
+        "description": "This model is a WIZARD. It can attempt to cast 1 spell in your hero phase and attempt to unbind 1 spell in the enemy hero phase. It knows the Arcane Bolt, Mystic Shield and Subvert spells."
+      },
+      {
+        "name": "Subvert",
+        "flavorText": "Syll torments the foe with whispers and visions, distracting them from their duties.",
+        "description": "Subvert has a casting value of 7. If successfully cast, you can pick 1 enemy HERO within 18\" of the caster that is visible to them. Until your next hero phase, that HERO cannot issue or receive commands."
+      },
+      {
+        "name": "Regal Authority",
+        "flavorText": "Syll’s consort is revered as a mighty ruler by their followers.",
+        "description": "You can use this command ability at the start of the battleshock phase if this model is your general and is on the battlefield. If you do so, until the end of that phase, do not take battleshock tests for friendly SLAANESH units while they are wholly within 18\" of this model."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "DAEMON",
+      "DAEMONETTE",
+      "SLAANESH",
+      "HEDONITE",
+      "HERO",
+      "WIZARD",
+      "HERALD",
+      "SLAANESH",
+      "SYLL’ESSKE"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ],
+    "baseSize": "50mm"
+  },
+  {
+    "name": "Archaon the Everchosen",
+    "points": "860",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader",
+      "Behemoth"
+    ],
+    "flavorText": "Archaon is the Everchosen, the favoured warlord of the Dark Pantheon. From atop Dorghar, the monstrous Steed of the Apocalypse, Archaon commands his legions with an iron fist, his deadly skill and unholy powers sealing the doom of entire armies.",
+    "description": "",
+    "wounds": "20",
+    "move": "✹",
+    "save": "3+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "The Slayer of Kings",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "2+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "3"
+      },
+      {
+        "name": "Monstrous Claws",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "2+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "D6"
+      },
+      {
+        "name": "Lashing Tails",
+        "range": "3\"",
+        "attacks": "2D6",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Three Heads",
+        "range": "3\"",
+        "attacks": "✹",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-8",
+        "move": "14\"",
+        "threeHeads": "6"
+      },
+      {
+        "woundsSuffered": "9-11",
+        "move": "12\"",
+        "threeHeads": "5"
+      },
+      {
+        "woundsSuffered": "12-15",
+        "move": "10\"",
+        "threeHeads": "4"
+      },
+      {}
+    ],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "SLAVES",
+      "DARKNESS",
+      "HOST",
+      "EVERCHOSEN",
+      "UNDIVIDED",
+      "KHORNE",
+      "TZEENTCH",
+      "NURGLE",
+      "SLAANESH",
+      "DAEMON",
+      "MORTAL",
+      "HERO",
+      "MONSTER",
+      "WIZARD",
+      "ARCHAON"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ],
+    "baseSize": "160mm"
+  },
+  {
+    "name": "Soulfeaster Keeper of Secrets",
+    "points": "385",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader",
+      "Behemoth"
+    ],
+    "flavorText": "Soulfeaster Keepers of Secrets are sensation addicts, devoted above all to the pursuit of new experiences. They roam the battlefield at their own ecstatic whim, using their stabbing tendrils to gorge themselves on the emotions of their victims.",
+    "description": "A Soulfeaster Keeper of Secrets is armed with an Elegant Greatblade, Impaling Claws and a Sinistrous Hand.",
+    "wounds": "14",
+    "move": "✹",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Sinistrous Hand",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "2+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Elegant Greatblade",
+        "range": "2\"",
+        "attacks": "✹",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      },
+      {
+        "name": "Impaling Claws",
+        "range": "3\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "✹"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "WIZARD",
+        "description": "This model can attempt to cast 2 spells in your hero phase and attempt to unbind 2 spells in the enemy hero phase."
+      }
+    ],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-6",
+        "move": "14\"",
+        "elegantGreatblade": "4",
+        "impalingClaws": "5"
+      },
+      {
+        "woundsSuffered": "7-9",
+        "move": "12\"",
+        "elegantGreatblade": "3",
+        "impalingClaws": "4"
+      },
+      {
+        "woundsSuffered": "10-12",
+        "move": "10\"",
+        "elegantGreatblade": "3",
+        "impalingClaws": "3"
+      },
+      {}
+    ],
+    "abilities": [
+      {
+        "name": "Dark Temptations",
+        "flavorText": "Few can resist the temptations whispered by a Keeper of Secrets.",
+        "description": "At the start of the combat phase, you can pick 1 enemy HERO within 3\" of this model and ask your opponent if they wish for that HERO to accept temptation. If they refuse, that HERO suffers D3 mortal wounds. If they accept, add 1 to hit rolls for attacks made by that HERO. Then, at the start of the next combat phase, roll a dice. On 1-3, that HERO no longer receives this modifier to their hit rolls. On 4-6, that HERO is slain."
+      },
+      {
+        "name": "Delicate Precision",
+        "flavorText": "A Keeper of Secrets attacks their foes with a dazzling array of exquisitely measured blows.",
+        "description": "If the unmodified wound roll for an attack made with a melee weapon by this model is 6, that attack causes a number of mortal wounds to the target equal to the Damage characteristic of the weapon used for the attack and the attack sequence ends (do not make a save roll)."
+      },
+      {
+        "name": "Sinistrous Hand",
+        "flavorText": "Reaching out with their longnailed fingers, the Keeper of Secrets rips the heart from their dying victim’s chest and consumes the still-beating organ.",
+        "description": "At the end of the combat phase, if any enemy models were slain by wounds inflicted by this model’s attacks in that combat phase, you can heal up to D3 wounds allocated to this model. If any enemy HEROES were slain by wounds inflicted by this model’s attacks in that combat phase, you can heal up to D6 wounds allocated to this model instead."
+      },
+      {
+        "name": "Soulfeaster Tendrils",
+        "flavorText": "The cruel tendrils that snake from the rear of a Soulfeaster Keeper of Secrets’ head are the means through which it feeds on sensation, stabbing into the mind of a chosen adversary and drinking deep their agony and desire.",
+        "description": "At the start of the combat phase, you can pick 1 enemy HERO within 3\" of this model and roll 3D6. If the roll is greater than that model’s Bravery characteristic, you gain D3 depravity points and 1 is subtracted from hit rolls for attacks made by that HERO until the end of that phase."
+      },
+      {
+        "name": "Cacophonic Choir",
+        "flavorText": "The Keeper of Secrets unleashes a sanity‑shattering chorus of magical sound.",
+        "description": "Cacophonic Choir is a spell that has a casting value of 6 and a range of 6\". If successfully cast, roll 2D6. Each enemy unit within range that has a Bravery characteristic less than the roll suffers D3 mortal wounds."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "SLAANESH",
+      "HEDONITES",
+      "SLAANESH",
+      "HEDONITE",
+      "DAEMON",
+      "GREATER",
+      "DAEMON",
+      "KEEPER",
+      "SECRETS",
+      "HERO",
+      "MONSTER",
+      "WIZARD",
+      "SOULFEASTER"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "105 x 70mm"
+  },
+  {
+    "name": "Bladebringer Herald on Exalted Chariot",
+    "points": "265",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Some Heralds of Slaanesh become so intoxicated by the act of riding flesh-shredding chariots into the enemy that they commission ever larger and grander conveyances, the better to harvest the souls of mortals.",
+    "description": "A Bladebringer, Herald on Exalted Chariot is a single model armed with Flensing Whips.",
+    "wounds": "10",
+    "move": "10\"",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Flensing Whips",
+        "range": "2\"",
+        "attacks": "6",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Piercing Claws",
+        "range": "1\"",
+        "attacks": "9",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Poisoned Tongues",
+        "range": "1\"",
+        "attacks": "8",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "CREW AND STEEDS",
+        "description": "An Exalted Chariot has a Daemonette crew armed with Piercing Claws, and is drawn by Steeds of Slaanesh that attack with their Poisoned Tongues. For rules purposes, the Daemonettes and Steeds of Slaanesh are treated in the same manner as a mount."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Excess of Blades",
+        "flavorText": "An Exalted Chariot inflicts horrendous carnage when it ploughs into the foe.",
+        "description": "After this model finishes a charge move, roll a dice for each enemy unit that is within 1\" of it. On a 1, nothing happens. On a 2-4, that unit suffers D3 mortal wounds. On a 5+, that unit suffers D6 mortal wounds."
+      },
+      {
+        "name": "Pungent Soulscent",
+        "flavorText": "The whirling blades of this fearsome chariot mow down the enemy, transmuting their souls into an exhilarating incense that drives its riders into an ecstatic frenzy.",
+        "description": "At the start of the combat phase, roll a dice for each enemy unit within 1\" of this model. On a 2+, that unit suffers D3 mortal wounds. In addition, for each 2+, add 1 to the Attacks characteristic of this model’s melee weapons until the end of that phase."
+      },
+      {
+        "name": "Arcane BoltMystic ShieldAcquiescence",
+        "flavorText": "",
+        "description": "This model is a WIZARD. It can attempt to cast 1 spell in your hero phase and attempt to unbind 1 spell in the enemy hero phase. It knows the Arcane Bolt, Mystic Shield and Acquiescence spells."
+      },
+      {
+        "name": "Acquiescence",
+        "flavorText": "The Herald engulfs the foe in an arcane haze of dreams and unattainable desires.",
+        "description": "Acquiescence has a casting value of 5. If successfully cast, pick 1 enemy unit within 18\" of the caster that is visible to them. You can re-roll hit rolls of 1 for attacks that target that unit until your next hero phase."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "DAEMON",
+      "DAEMONETTE",
+      "SLAANESH",
+      "HEDONITE",
+      "HERO",
+      "WIZARD",
+      "HERALD",
+      "SLAANESH",
+      "EXALTED",
+      "CHARIOT",
+      "BLADEBRINGER"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "120 x 92mm"
+  },
+  {
+    "name": "Bladebringer Herald on Hellflayer",
+    "points": "215",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Slaaneshi Heralds who wish to glut themselves on as much sensation as possible ride to war on Hellflayer chariots, great threshing contraptions that release an intoxicating soulscent distilled from the souls of those sliced apart by their axle blades.",
+    "description": "A Bladebringer, Herald on Hellflayer is a single model armed with Ravaging Claws.",
+    "wounds": "9",
+    "move": "12\"",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Ravaging Claws",
+        "range": "1\"",
+        "attacks": "6",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Piercing Claws and Flensing Whips",
+        "range": "2\"",
+        "attacks": "6",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Poisoned Tongues",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "CREW AND STEEDS",
+        "description": "A Hellflayer has a Daemonette crew armed with Piercing Claws and Flensing Whips, and is drawn by Steeds of Slaanesh that attack with their Poisoned Tongues. For rules purposes, the Daemonettes and Steeds of Slaanesh are treated in the same manner as a mount."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Soulscent",
+        "flavorText": "The whirling blades of this fearsome chariot mow down the enemy, transmuting their souls into an exhilarating incense that drives its riders into an ecstatic frenzy.",
+        "description": "At the start of the combat phase, roll a dice for each enemy unit within 1\" of this model. On a 4+, that unit suffers D3 mortal wounds. In addition, for each 4+, add 1 to the Attacks characteristic of this model’s melee weapons until the end of that phase."
+      },
+      {
+        "name": "Arcane BoltMystic ShieldAcquiescence",
+        "flavorText": "",
+        "description": "This model is a WIZARD. It can attempt to cast 1 spell in your hero phase and attempt to unbind 1 spell in the enemy hero phase. It knows the Arcane Bolt, Mystic Shield and Acquiescence spells."
+      },
+      {
+        "name": "Acquiescence",
+        "flavorText": "The Herald engulfs the foe in an arcane haze of dreams and unattainable desires.",
+        "description": "Acquiescence has a casting value of 5. If successfully cast, pick 1 enemy unit within 18\" of the caster that is visible to them. You can re-roll hit rolls of 1 for attacks that target that unit until your next hero phase."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "DAEMON",
+      "DAEMONETTE",
+      "SLAANESH",
+      "HEDONITE",
+      "HERO",
+      "WIZARD",
+      "HERALD",
+      "SLAANESH",
+      "HELLFLAYER",
+      "BLADEBRINGER"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ]
+  },
+  {
+    "name": "Bladebringer Herald on Seeker Chariot",
+    "points": "185",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Heralds of Slaanesh that value the thrill of speed above all else will take to battle mounted on a Seeker Chariot. These bladed machineries of war smash into the foe in a blur of whirring, slashing blades, mutilating all those who stand their ground.",
+    "description": "A Bladebringer, Herald on Seeker Chariot is a single model armed with Flensing Whips.",
+    "wounds": "8",
+    "move": "12\"",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Flensing Whips",
+        "range": "2\"",
+        "attacks": "6",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Piercing Claws",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Poisoned Tongues",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "CREW AND STEEDS",
+        "description": "A Seeker Chariot has a Daemonette crew armed with Piercing Claws, and is drawn by Steeds of Slaanesh that attack with their Poisoned Tongues. For rules purposes, the Daemonette and Steeds of Slaanesh are treated in the same manner as a mount."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Impossibly Swift",
+        "flavorText": "Seeker Chariots surge across the battlefield with unnatural swiftness.",
+        "description": "This model can retreat and still charge later in the same turn."
+      },
+      {
+        "name": "Mutilating Blades",
+        "flavorText": "A Seeker Chariot inflicts carnage when it ploughs into the foe.",
+        "description": "After this model finishes a charge move, roll a dice for each enemy unit that is within 1\" of it. On a 2+, that unit suffers D3 mortal wounds."
+      },
+      {
+        "name": "Arcane BoltMystic ShieldAcquiescence",
+        "flavorText": "",
+        "description": "This model is a WIZARD. It can attempt to cast 1 spell in your hero phase and attempt to unbind 1 spell in the enemy hero phase. It knows the Arcane Bolt, Mystic Shield and Acquiescence spells."
+      },
+      {
+        "name": "Acquiescence",
+        "flavorText": "The Herald engulfs the foe in an arcane haze of dreams and unattainable desires.",
+        "description": "Acquiescence has a casting value of 5. If successfully cast, pick 1 enemy unit within 18\" of the caster that is visible to them. You can re-roll hit rolls of 1 for attacks that target that unit until your next hero phase."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "DAEMON",
+      "DAEMONETTE",
+      "SLAANESH",
+      "HEDONITE",
+      "HERO",
+      "WIZARD",
+      "HERALD",
+      "SLAANESH",
+      "SEEKER",
+      "CHARIOT",
+      "BLADEBRINGER"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "120 x 92mm"
+  },
+  {
+    "name": "Infernal Enrapturess Herald of Slaanesh",
+    "points": "130",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Maestros of discordance, Infernal Enrapturesses fill the battlefield with screams of pain and unrestrained elation. They are virtuosos among Slaanesh’s infernal choir, towards whom the Dark Prince’s daemonic legions are drawn.",
+    "description": "An Infernal Enrapturess, Herald of Slaanesh is a single model armed with a Heartstring Lyre and Ravaging Claw.",
+    "wounds": "5",
+    "move": "6\"",
+    "save": "5+",
+    "bravery": "10",
+    "missleWeapons": [
+      {
+        "name": "Heartstring Lyre: Cacophonous Melody",
+        "range": "18\"",
+        "attacks": "6",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Heartstring Lyre: Euphonic Blast",
+        "range": "24\"",
+        "attacks": "1",
+        "toHit": "2+",
+        "toWound": "3+",
+        "rend": "-3",
+        "damage": "D3"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Ravaging Claw",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Discordant Disruption",
+        "flavorText": "An Infernal Enrapturess can play discordant music that is so intense it causes physical harm to those that are attuned to magic.",
+        "description": "Re-roll successful casting rolls for enemy WIZARDS that are within 24\" of any friendly models with this ability. In addition, if the re-rolled casting roll is a double, that WIZARD suffers D3 mortal wounds after the effects of the spell (if any) have been resolved.In addition, this model can attempt to dispel 1 endless spell at the start of your hero phase in the same manner as a WIZARD. If it does so, add 1 to the dispelling roll."
+      },
+      {
+        "name": "Versatile Instrument",
+        "flavorText": "An Infernal Enrapturess can quickly switch between playing a swift medley of short notes or a single massive blast of sound.",
+        "description": "Before attacking with a heartstring lyre, choose either the Cacophonous Melody or Euphonic Blast missile weapon characteristics for that shooting attack."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "DAEMON",
+      "DAEMONETTE",
+      "SLAANESH",
+      "HEDONITE",
+      "HERO",
+      "HERALD",
+      "SLAANESH",
+      "INFERNAL",
+      "ENRAPTURESS"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "60 x 35mm"
+  },
+  {
+    "name": "Lord of Pain",
+    "points": "140",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Lords of Pain are champions of Slaanesh who have sampled countless vices and excesses. Armed with wicked soulpiercer maces, they lead warbands of devoted followers and are always eager to demonstrate their mastery of all forms of agony.",
+    "description": "A Lord of Pain is a single model armed with a Soulpiercer Mace.",
+    "wounds": "5",
+    "move": "6\"",
+    "save": "4+",
+    "bravery": "7",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Soulpiercer Mace",
+        "range": "2\"",
+        "attacks": "5",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Share the Pain",
+        "flavorText": "Lords of Pain have mastered every kind of torment and are adept at enduring the most terrible of agonies – as well as gifting the same sensation to their foes.",
+        "description": "Roll a dice each time you allocate a wound or mortal wound to this model. On a 5+, that wound or mortal wound is negated. In addition, each time a wound or mortal wound inflicted by a melee weapon is negated by this ability, the attacking unit suffers 1 mortal wound."
+      },
+      {
+        "name": "Paragon of Depravity",
+        "flavorText": "Lords of Pain are held in awe by Slaanesh’s mortal supplicants, who seek to emulate the excessive carnage perpetrated by these depraved champions.",
+        "description": "You can use this command ability in the combat phase. If you do so, pick 1 friendly MORTAL HEDONITE unit wholly within 12\" of this model. You can re-roll hit rolls for attacks made by that unit in that phase."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "MORTAL",
+      "SLAANESH",
+      "HEDONITE",
+      "HERO",
+      "LORD",
+      "PAIN"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "40mm"
+  },
+  {
+    "name": "Shardspeaker of Slaanesh",
+    "points": "135",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Shardspeakers of Slaanesh are favoured sorcerers who have been gifted with a relic from the Temple of Twisted Mirrors. By tapping into the power of these artefacts, they can reduce a disciplined regiment to a pack of howling beasts ripe for the slaughter.",
+    "description": "A Shardspeaker of Slaanesh is a single model armed with a Haze Staff.",
+    "wounds": "5",
+    "move": "6\"",
+    "save": "5+",
+    "bravery": "7",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Haze Staff",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "D3"
+      },
+      {
+        "name": "Shadow-cloaked Claws",
+        "range": "2\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Mist Lurkers",
+        "flavorText": "The shadowy mist-daemons that billow and slink around a Shardspeaker are empowered by arcane energies.",
+        "description": "If this unit successfully casts a spell that is not unbound, until your next hero phase, you can add 1 to save rolls for attacks that target this unit and it can attack using the Shadow-cloaked Claws melee weapon when it fights."
+      },
+      {
+        "name": "Twisted Mirror",
+        "flavorText": "A Twisted Mirror tests the spirit of any who gaze into it, immobilising those who fall victim to its illusions.",
+        "description": "Once per turn in your shooting phase, you can pick 1 enemy unit within 9\" of this model and roll a dice. On a 3+, add 1 to wound rolls for attacks that target that unit in the following combat phase. The same unit cannot be affected by this ability more than once per turn."
+      },
+      {
+        "name": "Arcane BoltMystic ShieldReflection Eternal",
+        "flavorText": "",
+        "description": "This model is a WIZARD. It can attempt to cast 1 spell in your hero phase and attempt to unbind 1 spell in the enemy hero phase. It knows the Arcane Bolt, Mystic Shield and Reflection Eternal spells."
+      },
+      {
+        "name": "Reflection Eternal",
+        "flavorText": "The Shardspeaker distorts their foes’ perception, leaving them open to attack.",
+        "description": "Reflection Eternal has a casting value of 6. If successfully cast, pick 1 enemy unit within 12\" of the caster that is visible to them. Subtract 1 from wound rolls for attacks made by that unit in the following combat phase."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "MORTAL",
+      "SLAANESH",
+      "HEDONITE",
+      "HERO",
+      "WIZARD",
+      "SHARDSPEAKER"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Sigvald Prince of Slaanesh",
+    "points": "205",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Sigvald the Magnificent considers himself to be the favoured son of Slaanesh. Few would dare question this belief. In battle the Geld-Prince fights as a golden blur, laughing cruelly as his elegant blade tears through rabble and champions alike.",
+    "description": "Sigvald, Prince of Slaanesh is a named character that is a single model. He is armed with Shardslash and the Mirror Shield.",
+    "wounds": "6",
+    "move": "6\"",
+    "save": "3+",
+    "bravery": "9",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Shardslash",
+        "range": "1\"",
+        "attacks": "See below",
+        "toHit": "2+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Glorious Reborn",
+        "flavorText": "None can best Sigvald in hand-to-hand combat, or so he believes, and the Geld-Prince is determined to prove it.",
+        "description": "This model fights at the start of the combat phase if it made a charge move in the same turn. It cannot fight again in that phase unless an ability or spell allows it to fight more than once."
+      },
+      {
+        "name": "Powered by Vainglory",
+        "flavorText": "Sigvald is the epitome of vainglory, one of Slaanesh’s favourite sins. So great is his sense of superiority that few can stand before his prideful assaults.",
+        "description": "Add 3 to charge rolls for this model. In addition, the Attacks characteristic of Shardslash is either 5 or equal to the unmodified charge roll made for this model in the same turn, whichever is higher."
+      },
+      {
+        "name": "Shardslash",
+        "flavorText": "This majestic blade slices through sigmarite and arcane wards alike as if they were naught but shrouds of the thinnest silk.",
+        "description": "Wounds inflicted by an attack made with Shardslash cannot be negated."
+      },
+      {
+        "name": "The Mirror Shield",
+        "flavorText": "This artefact of the worldthat- was is as alluring as it is indestructible. Impossible to scar or penetrate, the Mirror Shield is the pinnacle of defence in Sigvald’s hands.",
+        "description": "Roll a dice each time you allocate a wound or mortal wound to this model. On a 4+, that wound or mortal wound is negated."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "MORTAL",
+      "SLAANESH",
+      "HEDONITE",
+      "HERO",
+      "SIGVALD"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ],
+    "baseSize": "60mm"
+  },
+  {
+    "name": "The Contorted Epitome",
+    "points": "245",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "The Contorted Epitome writhes across the battlefield on lashing metallic tentacles, twisting under the control of its Daemonette attendants to reflect its enemy’s darkest desires and deepest fears.",
+    "description": "The Contorted Epitome is a single model. It is armed with Ravaging Claws and Coiled Tentacles.",
+    "wounds": "7",
+    "move": "12\"",
+    "save": "5+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Ravaging Claws",
+        "range": "1\"",
+        "attacks": "9",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Coiled Tentacles",
+        "range": "3\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-2",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Gift of Power",
+        "flavorText": "The Heralds that guard a Contorted Epitome can use its power to enhance their own spells.",
+        "description": "You can re-roll casting rolls for this model."
+      },
+      {
+        "name": "Swallow Energy",
+        "flavorText": "A Contorted Epitome steals the most intense and excessive energies, channelling them back to Slaanesh’s Temple of Twisted Mirrors.",
+        "description": "Roll a dice each time you allocate a mortal wound to this model. On a 2+, that mortal wound is negated."
+      },
+      {
+        "name": "Horrible Fascination",
+        "flavorText": "When a warrior stares into the Contorted Epitome’s mirror, they see all of their hopes and fears reflected there, and cannot tear their eyes away.",
+        "description": "At the start of the combat phase, you can roll 1 dice for each enemy unit within 3\" of this model. On a 4+, this model cannot be picked as the target of attacks made by that unit in that phase until this model makes any attacks in that phase."
+      },
+      {
+        "name": "Arcane BoltMystic ShieldOverwhelming Acquiescence",
+        "flavorText": "",
+        "description": "This model is a WIZARD. It can attempt to cast 2 spells in your hero phase and attempt to unbind 2 spells in the enemy hero phase. It knows the Arcane Bolt, Mystic Shield and Overwhelming Acquiescence spells."
+      },
+      {
+        "name": "Overwhelming Acquiescence",
+        "flavorText": "The Herald engulfs the foe in an arcane haze of dreams and unattainable desires.",
+        "description": "Overwhelming Acquiescence has a casting value of 7. If successfully cast, pick up to D3 enemy units within 24\" of the caster that are visible to them. You can re-roll hit rolls of 1 for attacks that target those units until your next hero phase."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "DAEMON",
+      "DAEMONETTE",
+      "SLAANESH",
+      "HEDONITE",
+      "HERO",
+      "WIZARD",
+      "HERALD",
+      "SLAANESH",
+      "CONTORTED",
+      "EPITOME"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "75 x 42mm"
+  },
+  {
+    "name": "The Masque",
+    "points": "130",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "The Masque once entertained Slaanesh, but then displeased him, and was exiled. Since then, the Herald has been cursed to dance across the Mortal Realms. Those drawn into this endless performance are doomed to a swift and spectacular death.",
+    "description": "The Masque is a named character that is single model. They are armed with Ravaging Claws.",
+    "wounds": "5",
+    "move": "10\"",
+    "save": "5+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Ravaging Claws",
+        "range": "1\"",
+        "attacks": "6",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Staff of Masks",
+        "flavorText": "The masks on this staff constantly flicker and change, enhancing the Masque’s attacks or protecting them from harm.",
+        "description": "At the start of your hero phase, you can either add D3 to the Attacks characteristic of this model’s melee weapons until your next hero phase or heal up to D3 wounds allocated to this model."
+      },
+      {
+        "name": "The Endless Dance",
+        "flavorText": "The Masque dances eternally, flying through the air and striking down the foes that stumble, flat-footed, in their wake.",
+        "description": "This model is eligible to fight in the combat phase if it is within 6\" of an enemy unit instead of 3\", and can fly and move an extra 3\" when it piles in.In addition, you can re-roll hit rolls for attacks made by this model that target an enemy unit with a Move characteristic of 10\" or less, and you can re-roll wound rolls for attacks made by this model that target an enemy unit with a Move characteristic of 5\" or less."
+      },
+      {
+        "name": "Lithe and Swift",
+        "flavorText": "Daemonettes surge across the battlefield with impossible swiftness.",
+        "description": "This model can run and still charge later in the same turn."
+      },
+      {
+        "name": "Inhuman Reflexes",
+        "flavorText": "The Masque is a constant blur of motion, stepping out of the way of the enemy’s attacks with uncanny precision.",
+        "description": "Roll a dice each time you allocate a wound or mortal wound to this model. On a 4+, that wound or mortal wound is negated."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "DAEMON",
+      "DAEMONETTE",
+      "SLAANESH",
+      "HEDONITE",
+      "HERO",
+      "HERALD",
+      "SLAANESH",
+      "THE",
+      "MASQUE"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Viceleader Herald of Slaanesh",
+    "points": "130",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "The Viceleader is a masterful artiste in the grand theatre of war. To look upon these surreal, quicksilver Heralds is to feel a yearning for forbidden arts and excesses that addles the mind. Woe to those who acquiesce to their strange allure.",
+    "description": "A Viceleader, Herald of Slaanesh is a single model armed with Ravaging Claws.",
+    "wounds": "5",
+    "move": "6\"",
+    "save": "5+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Ravaging Claws",
+        "range": "1\"",
+        "attacks": "6",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Lightning Reflexes",
+        "flavorText": "Heralds of Slaanesh move with lightning speed, stepping out of the way of the enemy’s attacks with disdainful ease.",
+        "description": "Roll a dice each time you allocate a wound or mortal wound to this model. On a 5+, that wound or mortal wound is negated."
+      },
+      {
+        "name": "Lithe and Swift",
+        "flavorText": "Daemonettes surge across the battlefield with impossible swiftness.",
+        "description": "This model can run and still charge later in the same turn."
+      },
+      {
+        "name": "Arcane BoltMystic ShieldAcquiescence",
+        "flavorText": "",
+        "description": "This model is a WIZARD. It can attempt to cast 1 spell in your hero phase and attempt to unbind 1 spell in the enemy hero phase. It knows the Arcane Bolt, Mystic Shield and Acquiescence spells."
+      },
+      {
+        "name": "Acquiescence",
+        "flavorText": "The Herald engulfs the foe in an arcane haze of dreams and unattainable desires.",
+        "description": "Acquiescence has a casting value of 5. If successfully cast, pick 1 enemy unit within 18\" of the caster that is visible to them. You can re-roll hit rolls of 1 for attacks that target that unit until your next hero phase."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "DAEMON",
+      "DAEMONETTE",
+      "SLAANESH",
+      "HEDONITE",
+      "HERO",
+      "WIZARD",
+      "HERALD",
+      "SLAANESH",
+      "VICELEADER"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "25mm"
+  },
+  {
+    "name": "Dexcessa the Talon of Slaanesh",
+    "points": "280",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Dexcessa considers themselves to be the right hand of Slaanesh, made manifest in the realms to sunder and unpick the alliances of his enemies. If that means that they can revel in the glorious, ever-escalating excess of battle, so much the better.",
+    "description": "Dexcessa, the Talon of Slaanesh, is a named character that is a single model. They are armed with a Scourge of Slaanesh and Impaling Talons.",
+    "wounds": "10",
+    "move": "12\"",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Scourge of Slaanesh",
+        "range": "3\"",
+        "attacks": "4",
+        "toHit": "2+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      },
+      {
+        "name": "Impaling Talons",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "FLY",
+        "description": "This model can fly."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Fleeting Dance of Death",
+        "flavorText": "Dexcessa rarely stays locked in combat in one place for long, flitting swiftly all over the battlefield and bringing death where they alight.",
+        "description": "This model can run or retreat and still charge later in the same turn."
+      },
+      {
+        "name": "Joyous Battle Fury",
+        "flavorText": "Once Dexcessa begins to fight, they become invigorated by the glorious thrill of combat.",
+        "description": "After this model has fought for the first time, at the start of each battle round, add 1 to the Attacks characteristics of this model’s weapons for the rest of the battle. This effect is cumulative."
+      },
+      {
+        "name": "Mesmerising Lepidoptera",
+        "flavorText": "Dexcessa’s multifaceted wings create a hypnotic effect that distracts their foes.",
+        "description": "Subtract 1 from hit rolls for attacks that target this model."
+      },
+      {
+        "name": "Sceptre of Slaanesh",
+        "flavorText": "The sceptre of Slaanesh allows the bearer to demand total, unthinking obedience from Slaanesh’s daemonic minions.",
+        "description": "Do not take battleshock tests for friendly SLAANESH DAEMON units wholly within 12\" of this model.In addition, once per turn, this model can issue a command to a friendly SLAANESH DAEMON unit without a command point being spent."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "DAEMON",
+      "SLAANESH",
+      "HEDONITE",
+      "MONSTER",
+      "HERO",
+      "DEXCESSA"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ],
+    "baseSize": "105 x 70mm"
+  },
+  {
+    "name": "Synessa the Voice of Slaanesh",
+    "points": "260",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Where their sibling adores physical excess, Synessa’s power lies in the manipulation of the mind. Even a glance at their splendour leaves those nearby enthralled, and the daemons of Slaanesh enter raptures of obedience at their every word.",
+    "description": "Synessa, the Voice of Slaanesh, is a named character that is a single model. They are armed with the Staff of Slaanesh and Impaling Talons.",
+    "wounds": "9",
+    "move": "12\"",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [
+      {
+        "name": "Staff of Slaanesh",
+        "range": "18\"",
+        "attacks": "1",
+        "toHit": "See below",
+        "toWound": "",
+        "rend": "",
+        "damage": ""
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Impaling Talons",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "FLY",
+        "description": "This model can fly."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Mesmerising Lepidoptera",
+        "flavorText": "Synessa’s multifaceted wings create a hypnotic effect that distracts their foes.",
+        "description": "Subtract 1 from hit rolls for attacks that target this model."
+      },
+      {
+        "name": "Staff of Slaanesh",
+        "flavorText": "Those who are struck by the bolts of energy unleashed by this staff find themselves tearing at their own flesh in an ecstasy of self-mutilation.",
+        "description": "Do not pick a target or use the attack sequence for an attack made with this model’s Staff of Slaanesh. Instead, pick 1 enemy unit within range of this model’s Staff of Slaanesh and visible to them. The opposing player must roll a dice for that unit.If the roll is less than that unit’s Save characteristic but not a 6, that unit suffers D6 mortal wounds. If the roll is equal to or greater than that unit’s Save characteristic but not a 6, that unit suffers D3 mortal wounds. On a 6, nothing happens."
+      },
+      {
+        "name": "Arcane BoltMystic ShieldWhispers of Doubt",
+        "flavorText": "",
+        "description": "Synessa, the Voice of Slaanesh, is a WIZARD. They can attempt to cast 1 spell in your hero phase and attempt to unbind 1 spell in the enemy hero phase. They know the Arcane Bolt, Mystic Shield and Whispers of Doubt spells. In addition, they know all of the spells from the Lore of Slaanesh, the Forbidden Sorceries of Slaanesh and the Lore of Pain and Pleasure."
+      },
+      {
+        "name": "Whispers of Doubt",
+        "flavorText": "The caster whispers words that reveal the enemy’s darkest desires, breaking their concentration and leaving them vulnerable to attack.",
+        "description": "Whispers of Doubt has a casting value of 6. If successfully cast, pick 1 enemy HERO within 3\" of the caster and visible to them, and roll 3D6. If the roll is equal to or greater than that HERO’s Bravery characteristic, add 1 to hit rolls for attacks that target that HERO until your next hero phase."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "DAEMON",
+      "SLAANESH",
+      "HEDONITE",
+      "MONSTER",
+      "HERO",
+      "WIZARD",
+      "SYNESSA"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ],
+    "baseSize": "105 x 70mm"
+  },
+  {
+    "name": "Blissbarb Archers",
+    "points": "140",
+    "unitSize": "11",
+    "battlefieldRoles": [
+      "Battleline"
+    ],
+    "flavorText": "Blissbarb Archers are the lowest class of Sybarite, but no less deadly for it. Even when running pell-mell across the field they fire with deadly accuracy, laughing with glee as their sharp and toxin-laced projectiles strike home.",
+    "description": "A unit of Blissbarb Archers has any number of models, each armed with a Blissbarb Bow and Sybarite Blade.",
+    "wounds": "1",
+    "move": "6\"",
+    "save": "6+",
+    "bravery": "6",
+    "missleWeapons": [
+      {
+        "name": "Blissbarb Bow",
+        "range": "18\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Sybarite Blade",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "HIGH TEMPTER",
+        "description": "1 model in this unit can be a High Tempter. Add 1 to the Attacks characteristic of that model’s Blissbarb Bow."
+      },
+      {
+        "name": "BLISSBREW HOMONCULUS",
+        "description": "1 in every 11 models in this unit must be a Blissbrew Homonculus. A Blissbrew Homonculus is armed with a Sybarite Blade. Add 1 to wound rolls for attacks made with missile weapons by this unit while it includes any Blissbrew Homonculi."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Light-footed Killers",
+        "flavorText": "Blissbarb Archers can deliver pinpoint shots even while cavorting wildly across the battlefield.",
+        "description": "This unit can run and still shoot later in the same turn."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "MORTAL",
+      "SLAANESH",
+      "HEDONITE",
+      "BLISSBARB",
+      "ARCHERS"
+    ],
+    "pitchedBattleNotes": []
+  },
+  {
+    "name": "Daemonettes",
+    "points": "110",
+    "unitSize": "10",
+    "battlefieldRoles": [
+      "Battleline"
+    ],
+    "flavorText": "Possessed of impossible grace and grotesque beauty, Daemonettes of Slaanesh bound across the battlefield with sadistic glee. They are in constant competition with one another to see who can inflict the most pain on the enemies of the Dark Prince.",
+    "description": "A unit of Daemonettes has any number of models, each armed with Piercing Claws.",
+    "wounds": "1",
+    "move": "6\"",
+    "save": "5+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Piercing Claws",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "ALLURER",
+        "description": "1 model in this unit can be an Allurer. Add 1 to the Attacks characteristic of that model’s Piercing Claws."
+      },
+      {
+        "name": "STANDARD BEARERS",
+        "description": "1 in every 5 models in this unit can be either a Daemonette Banner Bearer or a Daemonette Icon Bearer.Daemonette Banner Bearer: You can re-roll charge rolls for this unit while it includes any Daemonette Banner Bearers.Daemonette Icon Bearer: If an unmodified battleshock roll of 1 is made for this unit while it includes any Daemonette Icon Bearers, you can add D6 models to this unit and no models from this unit will flee in that phase."
+      },
+      {
+        "name": "HORNBLOWER",
+        "description": "1 in every 10 models in this unit can be a Daemonette Hornblower. If the unmodified roll for a battleshock test for an enemy unit that is within 6\" of this unit while this unit includes any Daemonette Hornblowers is 1, that battleshock test must be re-rolled."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Lithe and Swift",
+        "flavorText": "Daemonettes surge across the battlefield with impossible swiftness.",
+        "description": "This unit can run and still charge later in the same turn."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "DAEMON",
+      "SLAANESH",
+      "HEDONITE",
+      "DAEMONETTES"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "25mm"
+  },
+  {
+    "name": "Hellstriders with Claw spears",
+    "points": "135",
+    "unitSize": "5",
+    "battlefieldRoles": [
+      "Battleline"
+    ],
+    "flavorText": "Devotees of torment, the Hellstriders are mortals who have dedicated their lives to dealing out agonising pain in return for physical power. They inflict crippling and ultimately fatal wounds with the strange spear-like claws that grow on their arms.",
+    "description": "A unit of Hellstriders with Claw-spears has any number of models, each armed with a Claw-spear.",
+    "wounds": "2",
+    "move": "14\"",
+    "save": "4+",
+    "bravery": "6",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Claw-spear",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Poisoned Tongue",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "MOUNT",
+        "description": "This unit’s Steeds of Slaanesh attack with their Poisoned Tongues."
+      },
+      {
+        "name": "HELLREAVER",
+        "description": "1 model in this unit can be a Hellreaver. Add 1 to the Attacks characteristic of that model’s Claw-spear."
+      },
+      {
+        "name": "STANDARD BEARERS",
+        "description": "1 in every 5 models in this unit can be a Hellstrider Banner Bearer, and 1 in every 5 models in this unit can be a Hellstrider Icon Bearer.Hellstrider Banner Bearer: You can re-roll charge rolls for this unit while it includes any Hellstrider Banner Bearers.Hellstrider Icon Bearer: Add 2 to the Bravery characteristic of this unit while it includes any Hellstrider Icon Bearers."
+      },
+      {
+        "name": "HORNBLOWER",
+        "description": "1 in every 5 models in this unit can be a Hellstrider Hornblower. If the unmodified roll for a battleshock test for an enemy unit that is within 6\" of this unit while this unit includes any Hellstrider Hornblowers is 1, that battleshock test must be re-rolled."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Piercing Strike",
+        "flavorText": "When this band of Hellstriders closes on the foe, their lance-like arms puncture through any resistance they meet.",
+        "description": "Add 1 to the Damage characteristic of this unit’s Claw-spears if it made a charge move in the same turn."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "MORTAL",
+      "SLAANESH",
+      "HEDONITE",
+      "HELLSTRIDERS"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "60 x 35mm"
+  },
+  {
+    "name": "Hellstriders with Hellscourges",
+    "points": "135",
+    "unitSize": "5",
+    "battlefieldRoles": [
+      "Battleline"
+    ],
+    "flavorText": "Hellstriders ride daemonic Steeds to war – indeed, they have no choice, for once they climb into the saddle they can never dismount. Those who use the long, whip-like Hellscourge as their weapon of choice are expert in inflicting painful wounds.",
+    "description": "A unit of Hellstriders with Hellscourges has any number of models, each armed with a Hellscourge.",
+    "wounds": "2",
+    "move": "14\"",
+    "save": "4+",
+    "bravery": "6",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Hellscourge",
+        "range": "3\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Poisoned Tongue",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "MOUNT",
+        "description": "This unit’s Steeds of Slaanesh attack with their Poisoned Tongues."
+      },
+      {
+        "name": "HELLREAVER",
+        "description": "1 model in this unit can be a Hellreaver. Add 1 to the Attacks characteristic of that model’s Hellscourge."
+      },
+      {
+        "name": "STANDARD BEARERS",
+        "description": "1 in every 5 models in this unit can be a Hellstrider Banner Bearer, and 1 in every 5 models in this unit can be a Hellstrider Icon Bearer.Hellstrider Banner Bearer: You can re-roll charge rolls for this unit while it includes any Hellstrider Banner Bearers.Hellstrider Icon Bearer: Add 2 to the Bravery characteristic of this unit while it includes any Hellstrider Icon Bearers."
+      },
+      {
+        "name": "HORNBLOWER",
+        "description": "1 in every 5 models in this unit can be a Hellstrider Hornblower. If the unmodified roll for a battleshock test for an enemy unit that is within 6\" of this unit while this unit includes any Hellstrider Hornblowers is 1, that battleshock test must be re-rolled."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Hooked Tendrils",
+        "flavorText": "These Hellstriders wield Hellscourges, whose ferocious barbs tear through flesh and trap enemies in place.",
+        "description": "In the combat phase, if this unit made a charge move in the same turn, subtract 1 from hit rolls for attacks that target this unit made by enemy models within 3\" of this unit until the end of that phase."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "MORTAL",
+      "SLAANESH",
+      "HEDONITE",
+      "HELLSTRIDERS"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "60 x 35mm"
+  },
+  {
+    "name": "Blissbarb Seekers",
+    "points": "220",
+    "unitSize": "5",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Blissbarb warriors who acquire for themselves an Exalted Steed of Slaanesh conduct war at a breakneck pace. Charging across the battlefield with astonishing speed, these Sybarites launch flights of cruel arrows with an incredible accuracy.",
+    "description": "A unit of Blissbarb Seekers has any number of models, each armed with a Blissbarb Bow and Sybarite Blade.",
+    "wounds": "4",
+    "move": "14\"",
+    "save": "5+",
+    "bravery": "6",
+    "missleWeapons": [
+      {
+        "name": "Blissbarb Bow",
+        "range": "18\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Sybarite Blade",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Poisoned Tongue",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "MOUNT",
+        "description": "This unit’s Exalted Steeds of Slaanesh attack with their Poisoned Tongues."
+      },
+      {
+        "name": "HIGH TEMPTER",
+        "description": "1 model in this unit can be a High Tempter. Add 1 to the Attacks characteristic of that model’s Blissbarb Bow."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Flawless Accuracy",
+        "flavorText": "Blissbarb Seekers revel in delivering highly accurate arrow fire even at high speeds.",
+        "description": "This unit can run and still shoot later in the same turn."
+      },
+      {
+        "name": "Vectors of Agony",
+        "flavorText": "The arrowheads of Blissbarb Seekers are liberally coated in their steeds’ poisonous saliva, and the torments they deliver can overwhelm even the mightiest of prey.",
+        "description": "If the unmodified wound roll for an attack made with a missile weapon by this unit is 6, that attack inflicts 1 mortal wound on the target and the attack sequence ends (do not make a save roll)."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "MORTAL",
+      "SLAANESH",
+      "HEDONITE",
+      "SEEKERS",
+      "BLISSBARB",
+      "SEEKERS"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "75 x 42mm"
+  },
+  {
+    "name": "Exalted Chariot",
+    "points": "195",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "The massive chariots ridden by Allurers of the highest rank are machines that embody excess. Their purpose is to bring to bear the most number of blades in the shortest time, and hence fill the air with the scent of carnage.",
+    "description": "An Exalted Chariot is a single model commanded by an Allurer, who is armed with Flensing Whips.",
+    "wounds": "9",
+    "move": "10\"",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Flensing Whips",
+        "range": "2\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Piercing Claws",
+        "range": "1\"",
+        "attacks": "9",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Poisoned Tongues",
+        "range": "1\"",
+        "attacks": "8",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "CREW AND STEEDS",
+        "description": "An Exalted Chariot has a Daemonette crew armed with Piercing Claws, and is drawn by Steeds of Slaanesh that attack with their Poisoned Tongues. For rules purposes, the Daemonettes and Steeds of Slaanesh are treated in the same manner as a mount."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Excess of Blades",
+        "flavorText": "An Exalted Chariot inflicts horrendous carnage when it ploughs into the foe.",
+        "description": "After this model finishes a charge move, roll a dice for each enemy unit that is within 1\" of it. On a 1, nothing happens. On a 2-4, that unit suffers D3 mortal wounds. On a 5+, that unit suffers D6 mortal wounds."
+      },
+      {
+        "name": "Pungent Soulscent",
+        "flavorText": "The whirling blades of this fearsome chariot mow down the enemy, transmuting their souls into an exhilarating incense that drives its riders into an ecstatic frenzy.",
+        "description": "At the start of the combat phase, roll a dice for each enemy unit within 1\" of this model. On a 2+, that unit suffers D3 mortal wounds. In addition, for each 2+, add 1 to the Attacks characteristic of this model’s melee weapons until the end of that phase."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "DAEMON",
+      "DAEMONETTE",
+      "SLAANESH",
+      "HEDONITE",
+      "EXALTED",
+      "CHARIOT"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ]
+  },
+  {
+    "name": "Fiends",
+    "points": "175",
+    "unitSize": "3",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Horrific nightmares given bestial shape, Fiends of Slaanesh emit a harsh, trilling call as they race towards their prey. A dream-inducing scent hangs thick around the Fiends, reducing their foes to a stupor and sapping them of their will to fight.",
+    "description": "A unit of Fiends has any number of models, each armed with Deadly Pincers and a Barbed Stinger.",
+    "wounds": "4",
+    "move": "12\"",
+    "save": "5+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Deadly Pincers",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Barbed Stinger",
+        "range": "2\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "See below"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "BLISSBRINGER",
+        "description": "1 model in this unit can be a Blissbringer. Add 1 to the Attacks characteristic of that model’s Deadly Pincers."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Crushing Grip",
+        "flavorText": "A Fiend’s pincers are capable of inflicting immense damage on a victim that is caught in their grasp.",
+        "description": "If the unmodified wound roll for an attack made with Deadly Pincers is 6, that weapon has a Damage characteristic of D3 instead of 1 for that attack."
+      },
+      {
+        "name": "Deadly Venom",
+        "flavorText": "A Fiend’s stinger is laced with venom capable of sending any foe into a deep coma.",
+        "description": "If the target of an attack made with a Barbed Stinger has a Wounds characteristic of 1, that weapon has a Damage characteristic of 1 for that attack. If the target of an attack made with a Barbed Stinger has a Wounds characteristic of 2-3, that weapon has a Damage characteristic of D3 for that attack. If the target of an attack made with a Barbed Stinger has a Wounds characteristic of 4 or more, that weapon has a Damage characteristic of D6 for that attack."
+      },
+      {
+        "name": "Disruptive Song",
+        "flavorText": "Fiends of Slaanesh let out a keening song that disturbs the concentration of spellcasters who hear it.",
+        "description": "Subtract 1 from casting rolls for enemy WIZARDS while they are within 12\" of any friendly models with this ability."
+      },
+      {
+        "name": "Soporific Musk",
+        "flavorText": "A Fiend exudes a pervasive and oily musk that numbs a foe to all but the most extreme of stimuli.",
+        "description": "Subtract 1 from hit rolls for attacks made with melee weapons that target this unit. In addition, while this unit has 4 or more models, subtract 1 from wound rolls for attacks made with melee weapons that target this unit."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "DAEMON",
+      "SLAANESH",
+      "HEDONITE",
+      "FIENDS"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "75 x 42mm"
+  },
+  {
+    "name": "Hellflayer",
+    "points": "150",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Hellflayer chariots drive through the meadows of Slaanesh’s realm, dismembering those cursed to lie there in purgatory. On the battlefields of the Mortal Realms, they are roving weapons of war, their many scythes delivering death by a thousand cuts.",
+    "description": "A Hellflayer is a single model commanded by an Allurer, who is armed with Piercing Claws.",
+    "wounds": "7",
+    "move": "12\"",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Piercing Claws",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Piercing Claws and Flensing Whips",
+        "range": "2\"",
+        "attacks": "6",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Poisoned Tongues",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "CREW AND STEEDS",
+        "description": "A Hellflayer has a Daemonette crew armed with Piercing Claws and Flensing Whips, and is drawn by Steeds of Slaanesh that attack with their Poisoned Tongues. For rules purposes, the Daemonettes and Steeds of Slaanesh are treated in the same manner as a mount."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Soulscent",
+        "flavorText": "The whirling blades of this fearsome chariot mow down the enemy, transmuting their souls into an exhilarating incense.",
+        "description": "At the start of the combat phase, roll a dice for each enemy unit within 1\" of this model. On a 4+, that unit suffers D3 mortal wounds. In addition, for each 4+, add 1 to the Attacks characteristic of this model’s melee weapons until the end of that phase."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "DAEMON",
+      "DAEMONETTE",
+      "SLAANESH",
+      "HEDONITE",
+      "HELLFLAYER"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "120 x 92mm"
+  },
+  {
+    "name": "Myrmidesh Painbringers",
+    "points": "120",
+    "unitSize": "5",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "The Myrmidesh are an elite warrior-cult who exemplify the pride of the Dark Prince. Each of their blade-sects considers their own favoured technique to be supreme, and on the rare occasions they are proven wrong, their spiteful rage is terrible to behold.",
+    "description": "A unit of Myrmidesh Painbringers has any number of models, each armed with a Wicked Scimitar and Painbringer Shield.",
+    "wounds": "2",
+    "move": "6\"",
+    "save": "4+",
+    "bravery": "7",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Wicked Scimitar",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "PAINMASTER",
+        "description": "1 model in this unit can be a Painmaster. Add 1 to the Attacks characteristic of that model’s Wicked Scimitar."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Dance of the Wailing Blade",
+        "flavorText": "The fighting style of the Painbringers is as graceful as it is deadly.",
+        "description": "If the unmodified wound roll for an attack made with a melee weapon by this unit is 6, that attack inflicts 1 mortal wound on the target in addition to any normal damage."
+      },
+      {
+        "name": "Painbringer Shields",
+        "flavorText": "Myrmidesh Painbringers wield their shields as though they were extensions of their physical forms, effortlessly deflecting blows directed at them.",
+        "description": "Add 1 to save rolls for attacks made with melee weapons that target this unit."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "MORTAL",
+      "SLAANESH",
+      "HEDONITE",
+      "MYRMIDESH",
+      "PAINBRINGERS"
+    ],
+    "pitchedBattleNotes": [
+      "Battleline if general is a <a href=\"/aos3/factions/hedonites-of-slaanesh/warscrolls.html#Lord-of-Pain\">Lord of Pain</a>"
+    ],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "Seeker Chariots",
+    "points": "125",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Seeker Chariots lead the charge of many Hedonite armies, for the beasts that pull them to war are as fleet-footed as Aqshian cheetahs. Whips lash out to strip flesh from bone as the Allurer drives the blade-wheeled conveyance into the thick of the foe.",
+    "description": "A unit of Seeker Chariots has any number of models, each commanded by an Allurer armed with Flensing Whips.",
+    "wounds": "6",
+    "move": "12\"",
+    "save": "4+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Flensing Whips",
+        "range": "2\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Piercing Claws",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Poisoned Tongues",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "CREW AND STEEDS",
+        "description": "A Seeker Chariot has a Daemonette crew armed with Piercing Claws, and is drawn by Steeds of Slaanesh that attack with their Poisoned Tongues. For rules purposes, the Daemonette and Steeds of Slaanesh are treated in the same manner as a mount."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Impossibly Swift",
+        "flavorText": "Seeker Chariots surge across the battlefield with unnatural swiftness.",
+        "description": "This unit can retreat and still charge later in the same turn."
+      },
+      {
+        "name": "Mutilating Blades",
+        "flavorText": "A Seeker Chariot inflicts carnage when it ploughs into the foe.",
+        "description": "After a model from this unit finishes a charge move, roll a dice for each enemy unit within 1\" of that model. On a 2+, that unit suffers D3 mortal wounds. If this unit has more than 1 model, roll to determine if mortal wounds are inflicted after each model finishes its charge move, but do not allocate the mortal wounds until all of the models in the unit have finished their charge moves."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "DAEMON",
+      "DAEMONETTE",
+      "SLAANESH",
+      "HEDONITE",
+      "SEEKER",
+      "CHARIOTS"
+    ],
+    "pitchedBattleNotes": [
+      "Battleline in a <a href=\"/aos3/factions/hedonites-of-slaanesh/#Godseekers-Battle-Traits\">Godseekers</a> army"
+    ],
+    "baseSize": "120 x 92mm"
+  },
+  {
+    "name": "Seekers",
+    "points": "140",
+    "unitSize": "5",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "The Seekers of Slaanesh are the vanguard of the Dark Prince’s daemon armies, insatiable outriders who track their foes with unrelenting swiftness, feeding on the growing terror of their prey.",
+    "description": "A unit of Seekers has any number of models, each armed with Piercing Claws.",
+    "wounds": "2",
+    "move": "14\"",
+    "save": "5+",
+    "bravery": "10",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Piercing Claws",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Poisoned Tongue",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "MOUNT",
+        "description": "This unit’s Steeds of Slaanesh attack with their Poisoned Tongues."
+      },
+      {
+        "name": "HEARTSEEKER",
+        "description": "1 model in this unit can be a Heartseeker. Add 1 to the Attacks characteristic of that model’s Piercing Claws."
+      },
+      {
+        "name": "STANDARD BEARERS",
+        "description": "1 in every 5 models in this unit can be a Seeker Banner Bearer, and 1 in every 5 models in this unit can be a Seeker Icon Bearer.Seeker Banner Bearer: You can re-roll charge rolls for this unit while it includes any Seeker Banner Bearers.Seeker Icon Bearer: If an unmodified battleshock roll of 1 is made for this unit while it includes any Seeker Icon Bearers, you can add D3 models to this unit and no models from this unit will flee in that phase."
+      },
+      {
+        "name": "HORNBLOWER",
+        "description": "1 in every 5 models in this unit can be a Seeker Hornblower. If the unmodified roll for a battleshock test for an enemy unit that is within 6\" of this unit while this unit includes any Seeker Hornblowers is 1, that battleshock test must be re-rolled."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Quicksilver Speed",
+        "flavorText": "Seekers of Slaanesh are daemonic hunters, and swift beyond belief.",
+        "description": "You can roll 2D6 instead of D6 when you make a run roll for this unit. In addition, this unit can run and still charge later in the same turn."
+      },
+      {
+        "name": "Soul Hunters",
+        "flavorText": "Slaanesh rewards his Seekers with intoxicating energy when they slay his foes.",
+        "description": "If any enemy models were slain by wounds inflicted by this unit’s attacks in the combat phase, add 1 to the Attacks characteristic of this unit’s melee weapons in the following combat phase."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "DAEMON",
+      "DAEMONETTE",
+      "SLAANESH",
+      "HEDONITE",
+      "SEEKERS"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "60 x 35mm"
+  },
+  {
+    "name": "Slaangor Fiendbloods",
+    "points": "110",
+    "unitSize": "3",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "When the madness of battle descends upon Slaangor Fiendbloods, the carnage left in their wake is truly sickening. These gangly beasts are frighteningly strong and swift, and fight with a frenzied disregard for their own survival.",
+    "description": "A unit of Slaangor Fiendbloods has any number of models, each armed with Razor-sharp Claws.",
+    "wounds": "3",
+    "move": "8\"",
+    "save": "5+",
+    "bravery": "6",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Razor-sharp Claw(s)",
+        "range": "2\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Gilded Weapon",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "SLAKE-HORN",
+        "description": "1 model in this unit can be a Slake-Horn. That model is armed with a Razorsharp Claw and Gilded Weapon."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Slaughter At Any Cost",
+        "flavorText": "When stirred by the excesses of battle, Fiendbloods waste no time in hunting down their victims.",
+        "description": "Add 1 to the Attacks characteristic of this unit’s melee weapons if it made a charge move in the same turn."
+      },
+      {
+        "name": "Obsessive Violence",
+        "flavorText": "The brutal and unrelenting attacks of these beasts can overwhelm even the staunchest defence.",
+        "description": "At the end of the combat phase, pick 1 enemy unit within 3\" of this unit and roll a dice for each model in this unit. For each 4+, that enemy unit suffers 1 mortal wound."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "MORTAL",
+      "SLAANESH",
+      "HEDONITE",
+      "BEASTS",
+      "CHAOS",
+      "SLAANGOR",
+      "FIENDBLOODS"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "40mm"
+  },
+  {
+    "name": "Slickblade Seekers",
+    "points": "230",
+    "unitSize": "5",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Slickblade Seekers believe themselves to be aristocrats of war, the chosen knights of the Dark Prince. They desire nothing more than to charge into the thickest portion of the fighting, their whistling glaives lashing out to neatly sever heads and limbs.",
+    "description": "A unit of Slickblade Seekers has any number of models, each armed with a Slickblade Glaive.",
+    "wounds": "4",
+    "move": "14\"",
+    "save": "5+",
+    "bravery": "6",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Slickblade Glaive",
+        "range": "2\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Poisoned Tongue",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "MOUNT",
+        "description": "This unit’s Exalted Steeds of Slaanesh attack with their Poisoned Tongues."
+      },
+      {
+        "name": "HUNTER-SEEKER",
+        "description": "1 model in this unit can be a Hunter-Seeker. Add 1 to the Attacks characteristic of that model’s Slickblade Glaive."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Unrivalled Velocity",
+        "flavorText": "Slickblade Seekers are obsessed with high-speed kills, tearing towards the foe with relentless haste.",
+        "description": "You can re-roll charge rolls for this unit."
+      },
+      {
+        "name": "Decapitating Strikes",
+        "flavorText": "Slickblade Seekers revel in slicing off their quarry’s head with a gory flourish, much to the delight of their Sybarite kin.",
+        "description": "If the unmodified wound roll for an attack made with a Slickblade Glaive is 6, that attack inflicts 1 mortal wound on the target in addition to any normal damage."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "MORTAL",
+      "SLAANESH",
+      "HEDONITE",
+      "SEEKERS",
+      "SLICKBLADE",
+      "SEEKERS"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "75 x 42mm"
+  },
+  {
+    "name": "Symbaresh Twinsouls",
+    "points": "130",
+    "unitSize": "5",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Even by the standards of the Sybarites, the Symbaresh are proud indeed. These former Myrmidesh have forged dark pacts with the lesser daemons of Slaanesh, sharing their mortal forms in return for a measure of otherworldly power.",
+    "description": "A unit of Symbaresh Twinsouls has any number of models, each armed with Merciless Blades.",
+    "wounds": "2",
+    "move": "8\"",
+    "save": "4+",
+    "bravery": "7",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Merciless Blades",
+        "range": "2\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "EGOPOMP",
+        "description": "1 model in this unit can be an Egopomp. Add 1 to the Attacks characteristic of that model’s Merciless Blades."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [
+      "CHAOS",
+      "MORTAL",
+      "SLAANESH",
+      "HEDONITE",
+      "SYMBARESH",
+      "TWINSOULS"
+    ],
+    "pitchedBattleNotes": [
+      "Battleline if general is a <a href=\"/aos3/factions/hedonites-of-slaanesh/warscrolls.html#Lord-of-Pain\">Lord of Pain</a>"
+    ],
+    "baseSize": "32mm"
+  },
+  {
+    "name": "The Dread Pageant",
+    "points": "125",
+    "unitSize": "4",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Led by Vasillac the Gifted, a former warrior of the Myrmidesh who now seeks his own glory, the Dread Pageant have brought terrible suffering to the living mountain of Beastgrave. In battle, their manifold skills combine into one blinding storm of blades.",
+    "description": "The Dread Pageant is a named unit that has 4 models. Vasillac the Gifted is armed with a Dread Harpoon and Painbringer Shield; Slakeslash is armed with a Crushing Claw and Gilded Weapon; Glissete is armed with a Slickblade Glaive; and Hadzu is armed with a Blissbarb Bow.",
+    "wounds": "1",
+    "move": "6\"",
+    "save": "5+",
+    "bravery": "7",
+    "missleWeapons": [
+      {
+        "name": "Blissbarb Bow",
+        "range": "18\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Blissbarb Bow",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Crushing Claw and Gilded Weapon",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "2"
+      },
+      {
+        "name": "Slickblade Glaive",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Dread Harpoon",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "2+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "VASILLAC",
+        "description": "Add 2 to Vasillac’s Wounds characteristic."
+      },
+      {
+        "name": "SLAKESLASH",
+        "description": "Add 2 to Slakeslash’s Wounds characteristic."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Art of the Myrmidesh",
+        "flavorText": "Vasillac has adapted the Dance of the Wailing Blade to his own fighting style.",
+        "description": "You can roll a dice each time you allocate a wound or mortal wound to Vasillac. On a 4+, that wound or mortal wound is negated."
+      },
+      {
+        "name": "Deadliest Procession",
+        "flavorText": "Vasillac and his fellow Sybarites form a lethal combination of experience and martial prowess.",
+        "description": "If the unmodified hit roll for an attack made by this unit is 6, that attack inflicts 1 mortal wound on the target in addition to any normal damage."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "MORTAL",
+      "SLAANESH",
+      "HEDONITE",
+      "DREAD",
+      "PAGEANT"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ]
+  },
+  {
+    "name": "Fane of Slaanesh",
+    "points": "0",
+    "unitSize": "",
+    "battlefieldRoles": [
+      "Faction Terrain Feature"
+    ],
+    "flavorText": "Wherever the hosts of Slaanesh gather in the Mortal Realms they raise Fanes of Slaanesh, beautifully crafted structures that bear the icon of the Dark Prince and dominate the surrounding landscape. They act as conduits to the Palace of Slaanesh, allowing the greatest of the usurpers within to lavish blessings – or curses – on a whim.",
+    "description": "",
+    "wounds": "",
+    "move": "",
+    "save": "",
+    "bravery": "",
+    "missleWeapons": [],
+    "meleeWeapons": [],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [],
+    "pitchedBattleNotes": []
+  },
+  {
+    "name": "Dreadful Visage",
+    "points": "70",
+    "unitSize": "",
+    "battlefieldRoles": [
+      "Endless Spell"
+    ],
+    "flavorText": "The sorcerous entity known as the Dreadful Visage is said to be a mask that once adorned Slaanesh’s own face during the Masquerade of the Palace Grandiose. On that fell night, it is said, the visage took on an evil sentience of its own, and it can be called forth to bring a measure of its wearer’s horrific aura into the Mortal Realms.",
+    "description": "",
+    "wounds": "",
+    "move": "",
+    "save": "",
+    "bravery": "",
+    "missleWeapons": [],
+    "meleeWeapons": [],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [],
+    "pitchedBattleNotes": [],
+    "baseSize": "90 x 52mm"
+  },
+  {
+    "name": "Mesmerising Mirror",
+    "points": "60",
+    "unitSize": "",
+    "battlefieldRoles": [
+      "Endless Spell"
+    ],
+    "flavorText": "A Mesmerising Mirror is a cursed thing indeed, sent from Slaanesh’s palace to ensnare the unwary. Those who manage to tear their gaze away feel a ripping pain in their soul – but those who do not suffer an even worse fate. Their essence is drawn from their body, trapped in the mirror forever more as a plaything for Slaaneshi daemons.",
+    "description": "",
+    "wounds": "",
+    "move": "",
+    "save": "",
+    "bravery": "",
+    "missleWeapons": [],
+    "meleeWeapons": [],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [],
+    "pitchedBattleNotes": [],
+    "baseSize": "90 x 52mm"
+  },
+  {
+    "name": "Wheels of Excruciation",
+    "points": "80",
+    "unitSize": "",
+    "battlefieldRoles": [
+      "Endless Spell"
+    ],
+    "flavorText": "The Wheels of Excruciation whirl around the minarets of the Dark Prince’s palace as flocks of crows fly around a temple’s spires. They can be called into the Mortal Realms by a devotee of Slaanesh to lacerate and even decapitate their enemies, hunting down untainted flesh and delivering the agony of uncounted cuts.",
+    "description": "",
+    "wounds": "",
+    "move": "",
+    "save": "",
+    "bravery": "",
+    "missleWeapons": [],
+    "meleeWeapons": [],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [],
+    "keywords": [],
+    "pitchedBattleNotes": []
+  }
+]

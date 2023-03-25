@@ -1,0 +1,1164 @@
+[
+  {
+    "name": "Drazhoath the Ashen",
+    "points": "345",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader",
+      "Behemoth"
+    ],
+    "flavorText": "A powerful warrior and mighty sorcerer-prophet of Hashut, Drazhoath the Ashen leads his warhost from the fore, riding into battle upon the Bale Taurus Cinderbreath to bring fire and ruin down upon the enemy.",
+    "description": "Drazhoath the Ashen is armed with the Graven Brazier.",
+    "wounds": "13",
+    "move": "✹",
+    "save": "4+",
+    "bravery": "8",
+    "missleWeapons": [
+      {
+        "name": "Gouts of Flame",
+        "range": "16\"",
+        "attacks": "6",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "The Graven Brazier",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "2+",
+        "rend": "-1",
+        "damage": "3"
+      },
+      {
+        "name": "Brazen Horns",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "✹"
+      },
+      {
+        "name": "Burning Hooves",
+        "range": "1\"",
+        "attacks": "✹",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "MOUNT",
+        "description": "This unit’s Bale Taurus, Cinderbreath, is armed with Gouts of Flame, Brazen Horns, and Burning Hooves."
+      },
+      {
+        "name": "WIZARD",
+        "description": "This unit can attempt to cast 2 spells in your hero phase and attempt to unbind 2 spells in the enemy hero phase."
+      },
+      {
+        "name": "FLY",
+        "description": "This unit can fly."
+      }
+    ],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-5",
+        "move": "15\"",
+        "brazenHornsAndTeeth": "3",
+        "burningHooves": "6"
+      },
+      {
+        "woundsSuffered": "6-8",
+        "move": "13\"",
+        "brazenHornsAndTeeth": "D3",
+        "burningHooves": "5"
+      },
+      {
+        "woundsSuffered": "9-10",
+        "move": "11\"",
+        "brazenHornsAndTeeth": "D3",
+        "burningHooves": "4"
+      },
+      {}
+    ],
+    "abilities": [
+      {
+        "name": "Blazing Body",
+        "flavorText": "So fierce is the shimmering heat emitted by the Tauri of Hashut, that those who stand too close risk bursting into flame.",
+        "description": "At the start of the combat phase, roll a dice for each enemy unit within 3\" of this unit. On a 4+, that enemy unit suffers 1 mortal wound."
+      },
+      {
+        "name": "Blood Rage",
+        "flavorText": "The fury of a Bale Taurus burns like an eternal flame, and is at its strongest when the Taurus is hurtling towards its prey.",
+        "description": "Add 1 to wound rolls for attacks made with this unit’s Brazen Horns if this unit made a charge move in the same turn."
+      },
+      {
+        "name": "Hellshard Amulet",
+        "flavorText": "This glowing amulet is laced with protective enchantments.",
+        "description": "This unit has a ward of 5+."
+      },
+      {
+        "name": "Prophet of Ash and Flame",
+        "flavorText": "Few mortals can harness the fiery magical essence of Aqshy as instinctively as Drazhoath the Ashen.",
+        "description": "Add 1 to casting rolls for this unit if it is within 1\" of any terrain features with the Arcane or Mystical scenery rule from the Mysterious Terrain table (core rules, 28.1.3)."
+      },
+      {
+        "name": "Lord of the Black Fortress",
+        "flavorText": "In battle, the Legion of Azgorh follows Drazhoath without question, and at his bellowed word its warriors are instilled with unbreakable discipline.",
+        "description": "Once per battle, you can use the Inspiring Presence command ability without a command point being spent if this model is picked to issue the command."
+      },
+      {
+        "name": "Flames of Azgorh",
+        "flavorText": "Drazhoath the Ashen conjures a devastating eruption of molten rock and furnace-hot flames, charring his enemies to ash.",
+        "description": "Flames of Azgorh is a spell that has a casting value of 8 and a range of 18\". If successfully cast, pick 1 enemy unit range and visible to the caster. That unit suffers D6 mortal wounds."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "LEGION",
+      "AZGORH",
+      "DUARDIN",
+      "MONSTER",
+      "HERO",
+      "WIZARD",
+      "DRAZHOATH",
+      "ASHEN"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ],
+    "baseSize": "120 x 92mm"
+  },
+  {
+    "name": "Bull Centaur Taur ruk",
+    "points": "175",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "The largest and most powerful of the Bull Centaurs bear the title of Taur’ruk. Hulking and violent creatures, they are nonetheless keen-witted and intelligent, leading their brethren in thunderous charges towards the enemy lines.",
+    "description": "A Bull Centaur Taur’ruk is armed with a Darkforged Great Weapon and Crushing Hooves.",
+    "wounds": "7",
+    "move": "7\"",
+    "save": "4+",
+    "bravery": "7",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Darkforged Great Weapon",
+        "range": "1\"",
+        "attacks": "5",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "3"
+      },
+      {
+        "name": "Crushing Hooves",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Trample and Gore",
+        "flavorText": "A charging Bull Centaur is an avalanche of muscle and rage that tramples all beneath its iron-shod hooves.",
+        "description": "Add 1 to charge rolls for this unit. In addition, this unit’s Crushing Hooves have a Damage characteristic of D3 instead of 1 if this unit made a charge move in the same turn."
+      },
+      {
+        "name": "Favour of the Burning God",
+        "flavorText": "The bellowing, gorereeking presence of a Taur’ruk drives others of its malformed kin into a zealous frenzy.",
+        "description": "In the combat phase, after this unit has fought in that phase for the first time, you can pick 1 friendly BA’HAL unit that has not fought in that phase, that is within 3\" of an enemy unit and that is wholly within 12\" of this unit. That unit fights immediately."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "LEGION",
+      "AZGORH",
+      "DUARDIN",
+      "BA’HAL",
+      "HERO",
+      "BULL",
+      "CENTAUR",
+      "TAUR’RUK"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "90 x 52mm"
+  },
+  {
+    "name": "Daemonsmith",
+    "points": "110",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Clad in suits of arcane armour saturated with infernal magic of their own creation, Daemonsmiths covet strength and power above all else, seeing other living creatures as chattel to be used and discarded according to their whims.",
+    "description": "A Daemonsmith is a armed with one of the following weapon options: Blood of Hashut and Darkforged Weapon; or Blood of Hashut and Pyre Rune Staff.",
+    "wounds": "5",
+    "move": "4\"",
+    "save": "4+",
+    "bravery": "7",
+    "missleWeapons": [
+      {
+        "name": "Blood of Hashut",
+        "range": "6\"",
+        "attacks": "1",
+        "toHit": "See below",
+        "toWound": "",
+        "rend": "",
+        "damage": ""
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Darkforged Weapon",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      },
+      {
+        "name": "Pyre Rune Staff",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "3"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "WIZARD",
+        "description": "This unit can attempt to cast 1 spell in your hero phase and attempt to unbind 1 spell in the enemy hero phase."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Ensorcelled Armour",
+        "flavorText": "The protective spells woven into a Daemonsmith’s armour feed on the blood of its wearer.",
+        "description": "Add 1 to dispelling and unbinding rolls for this unit if any wounds are allocated to this unit."
+      },
+      {
+        "name": "Blood of Hashut",
+        "flavorText": "The Blood of Hashut is a deadly incendiary alchemical substance that causes flesh to liquefy and metal to burst into all-consuming flames.",
+        "description": "Do not use the attack sequence for an attack made with the Blood of Hashut. Instead roll a dice. On a 2+, the target unit suffers D3 mortal wounds. If the target unit is a WAR MACHINE, it suffers D6 mortal wounds instead."
+      },
+      {
+        "name": "Ash Storm",
+        "flavorText": "The Daemonsmith conjures a choking cloud of blisteringly hot ash to blind and confuse the enemy.",
+        "description": "Ash Storm is a spell that has a casting value of 6 and a range of 36\". If successfully cast, pick 1 enemy unit range and visible to the caster. Until your next hero phase, subtract 1 from hit rolls for attacks made by that unit and that unit cannot run."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "LEGION",
+      "AZGORH",
+      "DUARDIN",
+      "HERO",
+      "WIZARD",
+      "DAEMONSMITH"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "25mm"
+  },
+  {
+    "name": "Infernal Guard Battle Standard Bearer",
+    "points": "110",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Selected from among the ranks of the Ironsworn for their stubbornness and contempt for other races, only a few warriors within the Legion of Azgorh have the privilege of carrying a Black Banner of Malice into battle.",
+    "description": "An Infernal Guard Battle Standard Bearer is armed with a Darkforged Weapon.",
+    "wounds": "5",
+    "move": "4\"",
+    "save": "4+",
+    "bravery": "7",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Darkforged Weapon",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Black Banner of Malice",
+        "flavorText": "A Black Banner of Malice bears fell enchantments that its bearer can invoke to unleash occult powers to terrible effect.",
+        "description": "Add 1 to the Bravery characteristic of friendly LEGION OF AZGORH units while they are wholly within 18\" of this unit. In addition, once per battle, in your shooting phase, you can pick 1 enemy unit wholly within 18\" of this unit and roll a dice for each model in that enemy unit. For each 5+, that enemy unit suffers 1 mortal wound."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "LEGION",
+      "AZGORH",
+      "DUARDIN",
+      "HERO",
+      "TOTEM",
+      "INFERNAL",
+      "GUARD",
+      "BATTLE",
+      "STANDARD",
+      "BEARER"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "25mm"
+  },
+  {
+    "name": "Infernal Guard Castellan",
+    "points": "130",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "Clad in Blackshard armour graven with dark runes that celebrate their cruel victories, Infernal Guard Castellans march at the head of their iron-clad warriors, breaking the foe upon their immovable ranks.",
+    "description": "An Infernal Guard Castellan is armed with a Darkforged Weapon and Pyrelock Pistol.",
+    "wounds": "5",
+    "move": "4\"",
+    "save": "4+",
+    "bravery": "8",
+    "missleWeapons": [
+      {
+        "name": "Pyrelock Pistol",
+        "range": "8\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Darkforged Weapon",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Pyrelock Pistol",
+        "flavorText": "Loaded with ammunition containing hungry pyre-spirits, each shot from a pyrelock weapon ravages the flesh of the foe.",
+        "description": "If the unmodified hit roll for an attack made with a Pyrelock Pistol is 6, that attack causes 1 mortal wound to the target in addition to any damage it inflicts."
+      },
+      {
+        "name": "Martial Contempt",
+        "flavorText": "The Castellan commands his warriors to strike down their foes without mercy.",
+        "description": "In the combat phase, after this unit has fought in that phase for the first time, you can pick 1 friendly INFERNAL GUARD unit that has not fought in that phase, that is within 3\" of an enemy unit and that is wholly within 12\" of this unit. That unit fights immediately."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "LEGION",
+      "AZGORH",
+      "DUARDIN",
+      "INFERNAL",
+      "GUARD",
+      "HERO",
+      "INFERNAL",
+      "GUARD",
+      "CASTELLAN"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "25mm"
+  },
+  {
+    "name": "Shar tor the Executioner",
+    "points": "240",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Leader"
+    ],
+    "flavorText": "A malevolent warrior-priest of Hashut, Shar’tor is marked as the dark god’s favoured Ba’hal headsman. Adorned with the sacred mask of his patron, Shar’tor’s voice can stop the hearts of the weak-willed or instil unbreakable loyalty in Hashut’s servants.",
+    "description": "Shar’tor is armed with the Darktide Axe and Crushing Hooves.",
+    "wounds": "8",
+    "move": "7\"",
+    "save": "4+",
+    "bravery": "8",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Darktide Axe",
+        "range": "2\"",
+        "attacks": "5",
+        "toHit": "3+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "3"
+      },
+      {
+        "name": "Crushing Hooves",
+        "range": "1\"",
+        "attacks": "4",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Darktide Reaping",
+        "flavorText": "Countless murderous spirits are bound within the Darktide Axe, their number increasing with each foe it slays.",
+        "description": "If the unmodified hit roll for an attack made with the Darktide Axe is a 6, that attack causes 1 mortal wound to the target in addition to any damage it inflicts."
+      },
+      {
+        "name": "The Mask of the Executioner",
+        "flavorText": "The malign spirits contained in the dark metal of Shar’tor’s mask can be unleashed upon his foes.",
+        "description": "At the start of your hero phase, you can pick 1 enemy unit within 8\" of this unit and roll a dice. On a 1-2, nothing happens. On a 3-5, that enemy unit suffers D3 mortal wounds. On a 6, that enemy unit suffers D6 mortal wounds."
+      },
+      {
+        "name": "Trample and Gore",
+        "flavorText": "A charging Bull Centaur is an avalanche of muscle and rage that tramples all beneath its iron-shod hooves.",
+        "description": "Add 1 to charge rolls for this unit. In addition, this unit’s Crushing Hooves have a Damage characteristic of D3 instead of 1 if this unit made a charge move in the same turn."
+      },
+      {
+        "name": "Lord of the Ba’hal",
+        "flavorText": "The Ba’hal warriors of the Legion of Azgorh eagerly await Shar’tor’s order to attack the foe.",
+        "description": "You can use this command ability at the start of your charge phase. The command must be issued by this model and received by a friendly BA’HAL unit. You can re-roll charge rolls for the unit that receives the command in that phase. In addition, you can add 1 to hit rolls for attacks made with Crushing Hooves by that unit in the subsequent combat phase."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "LEGION",
+      "AZGORH",
+      "DUARDIN",
+      "BA’HAL",
+      "HERO",
+      "SHAR’TOR",
+      "EXECUTIONER"
+    ],
+    "pitchedBattleNotes": [
+      "Single",
+      "Unique"
+    ],
+    "baseSize": "105 x 70mm"
+  },
+  {
+    "name": "Infernal Guard Ironsworn",
+    "points": "100",
+    "unitSize": "10",
+    "battlefieldRoles": [
+      "Battleline"
+    ],
+    "flavorText": "Clad in Blackshard armour forged with the realmstone of Aqshy, the Infernal Guard Ironsworn march into battle with smouldering runes of torment and death engraved into their weapons.",
+    "description": "Each model in an Infernal Guard Ironsworn unit is armed with an Ashsteel Hand Weapon.",
+    "wounds": "1",
+    "move": "4\"",
+    "save": "3+",
+    "bravery": "6",
+    "missleWeapons": [
+      {
+        "name": "Pyrelock Pistol",
+        "range": "8\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Ashsteel Hand Weapon",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "CHAMPION",
+        "description": "1 model in this unit can be an Ironsworn Deathmask. That model is armed with an Ashsteel Hand Weapon and Pyrelock Pistol."
+      },
+      {
+        "name": "STANDARD BEARER",
+        "description": "1 model in this unit can be an Icon of Dominion Bearer. Add 1 to the Bravery characteristic of this unit if it includes an Icon of Dominion Bearer."
+      },
+      {
+        "name": "MUSICIAN",
+        "description": "1 model in this unit can be a Drummer. Add 1 to run rolls for this unit if it includes a Drummer."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Pyrelock Pistol",
+        "flavorText": "Loaded with ammunition containing hungry pyre-spirits, each shot from a pyrelock weapon ravages the flesh of the foe.",
+        "description": "If the unmodified hit roll for an attack made with a Pyrelock Pistol is 6, that attack causes 1 mortal wound to the target in addition to any damage it inflicts."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "LEGION",
+      "AZGORH",
+      "DUARDIN",
+      "INFERNAL",
+      "GUARD",
+      "IRONSWORN"
+    ],
+    "pitchedBattleNotes": [],
+    "baseSize": "25mm"
+  },
+  {
+    "name": "Bull Centaur Renders",
+    "points": "195",
+    "unitSize": "3",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Bull Centaur Renders – known as Ba’hal in the Chaos duardin tongue – are monstrous creatures filled with an insatiable hunger for flesh. Born through the foul works of the priests of Hashut, they are a twisted fusion of duardin and taurus.",
+    "description": "Each model in a Bull Centaur Renders unit is armed with a Darkforged Weapon and Crushing Hooves.",
+    "wounds": "5",
+    "move": "7\"",
+    "save": "3+",
+    "bravery": "6",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Darkforged Weapon",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "2"
+      },
+      {
+        "name": "Crushing Hooves",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Trample and Gore",
+        "flavorText": "A charging Bull Centaur is an avalanche of muscle and rage that tramples all beneath its iron-shod hooves.",
+        "description": "Add 1 to charge rolls for this unit. In addition, this unit’s Crushing Hooves have a Damage characteristic of D3 instead of 1 if this unit made a charge move in the same turn."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "LEGION",
+      "AZGORH",
+      "DUARDIN",
+      "BA’HAL",
+      "BULL",
+      "CENTAUR",
+      "RENDERS"
+    ],
+    "pitchedBattleNotes": [
+      "Battleline in Legion of Azgorh army if general is <a href=\"/aos3/factions/legion-of-azgorh/warscrolls.html#Shar-tor-the-Executioner\">Shar’tor the Executioner</a>"
+    ],
+    "baseSize": "90 x 52mm"
+  },
+  {
+    "name": "Infernal Guard Fireglaives",
+    "points": "110",
+    "unitSize": "10",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "Wielding weapons bound with malevolent spirits, Fireglaives pour shot after shot into the ranks of the foe, eradicating scores of enemy warriors before they can reach the Legion’s main battleline.",
+    "description": "Each model in an Infernal Guard Fireglaives unit is armed with a Pyrelock Fireglaive and a Pyrelock Fireglaive’s Bayonet-cleaver.",
+    "wounds": "1",
+    "move": "4\"",
+    "save": "4+",
+    "bravery": "6",
+    "missleWeapons": [
+      {
+        "name": "Pyrelock Fireglaive",
+        "range": "16\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      },
+      {
+        "name": "Pyrelock Pistol",
+        "range": "8\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Pyrelock Fireglaive’s Bayonet-cleaver",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Ashsteel Hand Weapon",
+        "range": "1\"",
+        "attacks": "1",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "CHAMPION",
+        "description": "1 model in this unit can be a Fireglaive Deathmask. That model is armed with an Ashsteel Hand Weapon and Pyrelock Pistol instead of a Pyrelock Fireglaive and a Pyrelock Fireglaive’s Bayonet-cleaver."
+      },
+      {
+        "name": "STANDARD BEARER",
+        "description": "1 model in this unit can be an Icon of Dominion Bearer. Add 1 to the Bravery characteristic of this unit if it includes an Icon of Dominion Bearer."
+      },
+      {
+        "name": "MUSICIAN",
+        "description": "1 model in this unit can be a Drummer. Add 1 to run rolls for this unit if it includes a Drummer."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Pyrelock Weapons",
+        "flavorText": "Loaded with ammunition containing hungry pyre-spirits, each shot from a pyrelock weapon ravages the flesh of the foe.",
+        "description": "If the unmodified hit roll for an attack made with a Pyrelock Pistol or Pyrelock Fireglaive is 6, that attack causes 1 mortal wound to the target in addition to any damage it inflicts. In addition, you can re-roll hit rolls of 1 for attacks made with this unit’s Pyrelock Fireglaives if this unit has not made a move in the same turn."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "LEGION",
+      "AZGORH",
+      "DUARDIN",
+      "INFERNAL",
+      "GUARD",
+      "FIREGLAIVES"
+    ],
+    "pitchedBattleNotes": [
+      "Battleline in Legion of Azgorh army"
+    ],
+    "baseSize": "25mm"
+  },
+  {
+    "name": "K daai Fireborn",
+    "points": "150",
+    "unitSize": "3",
+    "battlefieldRoles": [
+      "None"
+    ],
+    "flavorText": "K’daai Fireborn are creatures of daemonic flame brought into being by the priests of Hashut. They are devastating shock troops for the Legion of Azgorh, birthed in boiling blood sacrifices and caged in iron and rune-stamped bronze.",
+    "description": "Each model in a K’daai Fireborn unit is armed with Burning Irons.",
+    "wounds": "4",
+    "move": "8\"",
+    "save": "5+",
+    "bravery": "6",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Burning Irons",
+        "range": "3\"",
+        "attacks": "5",
+        "toHit": "3+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "D3"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "FLY",
+        "description": "This unit can fly."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Burning Bright",
+        "flavorText": "The bodies of the K’daai are made of ethereal flames, allowing them to soar across the battlefield streaming great arcs of fire.",
+        "description": "Ignore modifiers (positive and negative) when making save rolls for attacks that target this unit. In addition, this unit can run and still charge later in the turn."
+      },
+      {
+        "name": "Kiss of Fire",
+        "flavorText": "With a simple gesture, a wave of daemonic flame surges forth from the K’daai Fireborn, immolating their foes.",
+        "description": "At the end of the combat phase, roll a dice for each enemy unit within 3\" of this unit. On a 2+, that enemy unit suffers 1 mortal wound."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "LEGION",
+      "AZGORH",
+      "DAEMON",
+      "HASHUT",
+      "K’DAAI",
+      "FIREBORN"
+    ],
+    "pitchedBattleNotes": [
+      "Battleline in Legion of Azgorh army"
+    ],
+    "baseSize": "50mm"
+  },
+  {
+    "name": "Iron Daemon War Engine",
+    "points": "195",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Behemoth"
+    ],
+    "flavorText": "Within the great furnace of an Iron Daemon War Engine, coal, bones and even screaming spirits burn with raging heat, powering the arcane workings and terrifying siege weaponry of this profane machine.",
+    "description": "An Iron Daemon War Engine is armed with a Steam Cannonade and its Crushing Bulk.",
+    "wounds": "11",
+    "move": "✹",
+    "save": "3+",
+    "bravery": "7",
+    "missleWeapons": [
+      {
+        "name": "Steam Cannonade",
+        "range": "14\"",
+        "attacks": "2D6",
+        "toHit": "4+",
+        "toWound": "✹",
+        "rend": "-2",
+        "damage": "1"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Crushing Bulk",
+        "range": "1\"",
+        "attacks": "✹",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-4",
+        "move": "10\"",
+        "steamCannonade": "3+",
+        "crushingBulk": "6"
+      },
+      {
+        "woundsSuffered": "5-6",
+        "move": "9\"",
+        "steamCannonade": "3+",
+        "crushingBulk": "5"
+      },
+      {
+        "woundsSuffered": "7-8",
+        "move": "8\"",
+        "steamCannonade": "4+",
+        "crushingBulk": "4"
+      },
+      {}
+    ],
+    "abilities": [
+      {
+        "name": "Carriage Hauler",
+        "flavorText": "Such is the size and power of this war engine that it can be used to haul the carriages of other artillery pieces into battle.",
+        "description": "At the start of your movement phase, you can pick 1 friendly DEATHSHRIEKER ROCKET LAUNCHER, MAGMA CANNON or DREADQUAKE MORTAR within 1\" of this unit. If you do so, that unit can use this unit’s Move characteristic during that movement phase, as long as it is within 1\" of this unit at the end of that movement phase."
+      },
+      {
+        "name": "More Power!",
+        "flavorText": "If needed, the Iron Daemon’s crew can goad the half-possessed machine to even greater heights of power from its fire-spewing boiler, though doing so is not without risk of retaliation.",
+        "description": "When you pick this unit to shoot, you can change the Attacks characteristic of this unit’s Steam Cannonade to either 3D6 or 4D6. However, if you do so and roll 12+ when you generate the value of the characteristic, this unit suffers D3 mortal wounds after it has shot."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "LEGION",
+      "AZGORH",
+      "DUARDIN",
+      "WAR",
+      "MACHINE",
+      "IRON",
+      "DAEMON",
+      "WAR",
+      "ENGINE"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "120 x 92mm"
+  },
+  {
+    "name": "Skullcracker War Engine",
+    "points": "215",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Behemoth"
+    ],
+    "flavorText": "Designed for crushing fortifications and walls, the Skullcracker is a hissing and grinding arcane-mechanical conglomeration of iron hammers, hacking blades, and brutal picks that will pulverise and shred anything unfortunate to be caught in its path.",
+    "description": "Skullcracker War Engine is armed with Hammers and Picks and its Crushing Bulk.",
+    "wounds": "11",
+    "move": "✹",
+    "save": "3+",
+    "bravery": "7",
+    "missleWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Hammers and Picks",
+        "range": "3\"",
+        "attacks": "2D6",
+        "toHit": "3+",
+        "toWound": "✹",
+        "rend": "-1",
+        "damage": "D3"
+      },
+      {
+        "name": "Crushing Bulk",
+        "range": "1\"",
+        "attacks": "✹",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "2"
+      }
+    ],
+    "characteristics": [],
+    "damageTable": [
+      {
+        "woundsSuffered": "0-4",
+        "move": "10\"",
+        "hammersAndPicks": "3+",
+        "crushingBulk": "6"
+      },
+      {
+        "woundsSuffered": "5-6",
+        "move": "9\"",
+        "hammersAndPicks": "3+",
+        "crushingBulk": "5"
+      },
+      {
+        "woundsSuffered": "7-8",
+        "move": "8\"",
+        "hammersAndPicks": "4+",
+        "crushingBulk": "4"
+      },
+      {}
+    ],
+    "abilities": [
+      {
+        "name": "Beaten into Scrap",
+        "flavorText": "The war constructs of the enemy cannot withstand the relentless pounding blows of a Skullcracker’s weapons array for long.",
+        "description": "Add 1 to wound rolls for attacks made with this unit’s Hammers and Picks that target a WAR MACHINE."
+      },
+      {
+        "name": "Carriage Hauler",
+        "flavorText": "Such is the size and power of this war engine that it can be used to haul the carriages of other artillery pieces into battle.",
+        "description": "At the start of your movement phase, you can pick 1 friendly DEATHSHRIEKER ROCKET LAUNCHER, MAGMA CANNON or DREADQUAKE MORTAR within 1\" of this unit. If you do so, that unit can use this unit’s Move characteristic during that movement phase, as long as it is within 1\" of this unit at the end of that movement phase."
+      },
+      {
+        "name": "More Power!",
+        "flavorText": "If needed, the Skullcracker’s crew can goad the half-possessed machine to even greater heights of power from its fire-spewing boiler, though doing so is not without risk of retaliation.",
+        "description": "When you pick this unit to fight, you can change the Attacks characteristic of this unit’s Hammers and Picks to either 3D6 or 4D6. However, if you do so and roll 12+ when you generate the value of the characteristic, this unit suffers D3 mortal wounds after it has fought."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "LEGION",
+      "AZGORH",
+      "DUARDIN",
+      "WAR",
+      "MACHINE",
+      "SKULLCRACKER",
+      "WAR",
+      "ENGINE"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "120 x 92mm"
+  },
+  {
+    "name": "Deathshrieker Rocket Launcher",
+    "points": "130",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Artillery"
+    ],
+    "flavorText": "The Deathshrieker is one of the more diabolic examples of the Legion of Azgorh’s mastery of blackpowder weapons. Bound within its munitions are howling, malevolent fire-spirits which are unleashed as the multiple warheads detonate over the battlefield.",
+    "description": "A Deathshrieker Rocket Launcher is armed with Deathshrieker Rockets.",
+    "wounds": "6",
+    "move": "3\"",
+    "save": "4+",
+    "bravery": "6",
+    "missleWeapons": [
+      {
+        "name": "Deathshrieker Rockets",
+        "range": "36\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "D3"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Artillery Tools",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "CREW",
+        "description": "A Deathshrieker Rocket Launcher has 3 Duardin Crew, who are armed with Artillery Tools. The crew must remain within 1\" of the Deathshrieker Rocket Launcher. For rules purposes, the Deathshrieker Rocket Launcher and its crew are treated as a single model."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Death From On High",
+        "flavorText": "A Deathshrieker’s rockets can be launched high overhead to rain their fiery payload down upon distant or obscured targets.",
+        "description": "Add 1 to hit rolls for attacks made with Deathshrieker Rockets if the target unit has 5 or more models."
+      },
+      {
+        "name": "Infernal Engineers",
+        "flavorText": "Daemonsmiths are masters in the art of directing the fell artillery they forge.",
+        "description": "Add 1 to the Attacks characteristic of this unit’s Deathshrieker Rockets while this unit is within 3\" of any friendly DAEMONSMITHS."
+      },
+      {
+        "name": "Siege Artillery",
+        "flavorText": "This war machine is a heavily armoured and ponderous device.",
+        "description": "This unit cannot run or attempt a charge. In addition, add 1 to save rolls for attacks made with missile weapons that target this model."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "LEGION",
+      "AZGORH",
+      "DUARDIN",
+      "WAR",
+      "MACHINE",
+      "DEATHSHRIEKER",
+      "ROCKET",
+      "LAUNCHER"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "120 x 92mm"
+  },
+  {
+    "name": "Dreadquake Mortar",
+    "points": "195",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Artillery"
+    ],
+    "flavorText": "The Dreadquake Mortar uses a vast boiler to generate steam pressure to fire its munitions. The sorcerous energies bound within its volatile shells explode on impact, striking the battlefield like a hammer blow to cause untold devastation.",
+    "description": "A Dreadquake Mortar is armed with Dreadquake Bombs.",
+    "wounds": "10",
+    "move": "3\"",
+    "save": "4+",
+    "bravery": "6",
+    "missleWeapons": [
+      {
+        "name": "Dreadquake Bomb",
+        "range": "40\"",
+        "attacks": "1",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-2",
+        "damage": "D6"
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Artillery Tools",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Fists and Chains",
+        "range": "1\"",
+        "attacks": "2",
+        "toHit": "4+",
+        "toWound": "3+",
+        "rend": "-1",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "CREW",
+        "description": "A Dreadquake Mortar has 3 Duardin Crew and a Slave Ogor. The Duardin Crew are armed with Artillery Tools and the Slave Ogor is armed with Fists and Chains."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Cruel Overlords",
+        "flavorText": "Slavemasters work their indentured slave ogors relentlessly, despite the risk of revolt.",
+        "description": "When this unit is picked to shoot in your shooting phase, you can say that the crew’s Slavemaster is lashing the Slave Ogor. If you do so, roll a dice. On a 1-2, this unit suffers D3 mortal wounds (if it is not destroyed, it can shoot normally). On a 3+, add 1 to the Attacks characteristic of this unit’s Dreadquake Bomb for that phase."
+      },
+      {
+        "name": "Infernal Engineers",
+        "flavorText": "Daemonsmiths are masters in the art of directing the fell artillery they forge.",
+        "description": "Add 1 to hit rolls for attacks made with this unit’s Dreadquake Bomb while this unit is within 3\" of any friendly DAEMONSMITHS."
+      },
+      {
+        "name": "Quake Blast",
+        "flavorText": "Dreadquake bombs are fired on a high-arcing trajectory, and are packed with an explosive charge so powerful that they can turn dozens of armoured warriors into chunks of burnt meat in an instant.",
+        "description": "This unit’s Dreadquake Bomb can target enemy units that are not visible to this unit. In addition, you can re-roll the dice that determines the Damage characteristic of this unit’s Dreadquake Bomb if the target unit has 10 or more models."
+      },
+      {
+        "name": "Siege Artillery",
+        "flavorText": "This war machine is a heavily armoured and ponderous device.",
+        "description": "This unit cannot run or attempt a charge. In addition, add 1 to save rolls for attacks made with missile weapons that target this model."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "LEGION",
+      "AZGORH",
+      "DUARDIN",
+      "WAR",
+      "MACHINE",
+      "DREADQUAKE",
+      "MORTAR"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "170mm"
+  },
+  {
+    "name": "Magma Cannon",
+    "points": "150",
+    "unitSize": "1",
+    "battlefieldRoles": [
+      "Artillery"
+    ],
+    "flavorText": "A fiendish weapon first conceived for use against troggoths, the Magma Cannon is a deadly cross between a field artillery piece and a furnace. In battle, they unleash blasts of blazing magma upon their foes which quickly reduce their victims to ash.",
+    "description": "A Magma Cannon is armed with a Magma Blast.",
+    "wounds": "6",
+    "move": "3\"",
+    "save": "4+",
+    "bravery": "6",
+    "missleWeapons": [
+      {
+        "name": "Magma Blast",
+        "range": "18\"",
+        "attacks": "1",
+        "toHit": "See below",
+        "toWound": "",
+        "rend": "",
+        "damage": ""
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Artillery Tools",
+        "range": "1\"",
+        "attacks": "3",
+        "toHit": "4+",
+        "toWound": "4+",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "characteristics": [
+      {
+        "name": "CREW",
+        "description": "A Magma Cannon has 3 Duardin Crew, who are armed with Artillery Tools."
+      }
+    ],
+    "damageTable": [],
+    "abilities": [
+      {
+        "name": "Infernal Engineers",
+        "flavorText": "Daemonsmiths are masters in the art of directing the fell artillery they forge.",
+        "description": "Add 6\" to the Range characteristic of this model’s Magma Blast while this model is within 3\" of any friendly DAEMONSMITHS."
+      },
+      {
+        "name": "Magma Blast",
+        "flavorText": "A Magma Cannon is a terrifying weapon, able to unleash blasts of molten rock that effortlessly consume metal and flesh alike.",
+        "description": "Do not use the attack sequence for an attack made with Magma Blast. Instead, roll a dice. Add 1 to the roll if the target unit has 10 or more models. On a 3+, the target unit suffers a number of mortal wounds equal to the roll."
+      },
+      {
+        "name": "Siege Artillery",
+        "flavorText": "This war machine is a heavily armoured and ponderous device.",
+        "description": "This unit cannot run or attempt a charge. In addition, add 1 to save rolls for attacks made with missile weapons that target this model."
+      }
+    ],
+    "keywords": [
+      "CHAOS",
+      "LEGION",
+      "AZGORH",
+      "DUARDIN",
+      "WAR",
+      "MACHINE",
+      "MAGMA",
+      "CANNON"
+    ],
+    "pitchedBattleNotes": [
+      "Single"
+    ],
+    "baseSize": "120 x 92mm"
+  }
+]
