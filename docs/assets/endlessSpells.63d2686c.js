@@ -1,0 +1,1 @@
+import{c as o,r}from"./client.26175576.js";import{R as t}from"./root.1217873c.js";const e=[],a=o(document.getElementById("root"));a.render(r.exports.createElement(t,{faction:"Endless Spells",warscrolls:e,parallaxBackgroundImage:"https://i.pinimg.com/originals/6f/29/b8/6f29b82b60c10e33226a184114fc52c5.jpg"}));
